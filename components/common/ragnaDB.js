@@ -36,15 +36,18 @@ JSON.stringify(
     if(index == 0) resultEntry.push({})
     else{
       const thisObj = resultEntry[resultEntry.length-1]
+      function htmlToList(str){
+        return str.replace(/\&nbsp\;\<br\>/g,' ').split(', ')
+      }
       if(index == 1){
         thisObj.imageSrc = trObj.querySelectorAll('td')[0].querySelector('img').getAttribute('src')
         thisObj.name = trObj.querySelectorAll('td')[1].innerHTML
-        thisObj.option = trObj.querySelectorAll('td')[2].innerHTML.split(', ')
+        thisObj.option = htmlToList(trObj.querySelectorAll('td')[2].innerHTML)
       }else if(index == 3){
-        thisObj.savePoint = trObj.querySelectorAll('td')[0].innerHTML.split(', ')
-        thisObj.openPoint = trObj.querySelectorAll('td')[1].innerHTML.split(', ')
+        thisObj.savePoint = htmlToList(trObj.querySelectorAll('td')[0].innerHTML)
+        thisObj.openPoint = htmlToList(trObj.querySelectorAll('td')[1].innerHTML)
       }else if(index == 5){
-        thisObj.recipe = trObj.querySelectorAll('td')[0].innerHTML.split(', ')
+        thisObj.recipe = htmlToList(trObj.querySelectorAll('td')[0].innerHTML)
       }
     }
     return resultEntry

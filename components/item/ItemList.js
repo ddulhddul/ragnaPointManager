@@ -20,7 +20,8 @@ class ItemList extends SqlUtil {
         }, []).sort()
         this.state = {
             itemList: [],
-            keywordList
+            keywordList,
+            filter: []
         }
     }
 
@@ -76,6 +77,7 @@ class ItemList extends SqlUtil {
         const itemList = this.state.itemList || []
         const keywordList = this.state.keywordList || []
         const filter = this.state.filter || []
+        console.log('filter', filter)
         return (
             <View style={styles.container}>
                 <View style={styles.filterContainer}>
@@ -86,11 +88,9 @@ class ItemList extends SqlUtil {
                             return <View  key={`keyword_${obj}`}
                                         style={[filter.includes(obj)? {backgroundColor:'grey'}: {}, {margin: 5}]}>
                                 <TouchableOpacity onPress={()=>{
-                                    filter.includes(obj)
                                     this.setState({
-                                        filter: 
-                                            !filter.includes(obj)? [...filter, obj]:
-                                                filter.filter((filtered)=>filtered!=obj)
+                                        filter: !filter.includes(obj)? [...filter, obj]:
+                                                    filter.filter((filtered)=>filtered!=obj)
                                     })
                                 }}>
                                     <Text>{obj}</Text>
@@ -102,7 +102,13 @@ class ItemList extends SqlUtil {
                 </View>
                 
                 <ScrollView style={styles.scrollContainer}>
-                    {itemList.map((obj, index)=>{
+                    {itemList.filter((obj)=>{
+                        if(!filter.length) return true
+                        return filter.reduce((entry, filterObj)=>{
+                            if(entry) return true
+                            return (obj.keyword || []).includes(filterObj)
+                        }, false)
+                    }).map((obj, index)=>{
                         return <View style={styles.componentContainer} key={`item_${encodeURI(obj.name)}_${index}`}>
                             <View style={[styles.trContainer]}>
                                 <View style={[styles.tdContainer, {flex: 0.25}]}>
