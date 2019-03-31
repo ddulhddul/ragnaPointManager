@@ -216,6 +216,8 @@ const styles = StyleSheet.create({
         display: 'flex',
         flexDirection: 'column',
         margin: 10,
+        padding: 5,
+        elevation: 5,
     },
     trContainer: {
         flex: 1,
