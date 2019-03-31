@@ -1,7 +1,7 @@
 import React from 'react'
 import { 
     CheckBox, ScrollView, View, Text, StyleSheet,
-    TouchableOpacity
+    FlatList, TouchableOpacity
 } from 'react-native'
 import SqlUtil from '../common/SqlUtil'
 import { withNavigation } from 'react-navigation'
@@ -101,15 +101,17 @@ class ItemList extends SqlUtil {
                     </ScrollView>
                 </View>
                 
-                <ScrollView style={styles.scrollContainer}>
-                    {itemList.filter((obj)=>{
+                <FlatList style={styles.scrollContainer}
+                    data={itemList.filter((obj)=>{
                         if(!filter.length) return true
                         return filter.reduce((entry, filterObj)=>{
                             if(entry) return true
                             return (obj.keyword || []).includes(filterObj)
                         }, false)
-                    }).map((obj, index)=>{
-                        return <View style={styles.componentContainer} key={`item_${encodeURI(obj.name)}_${index}`}>
+                    })}
+                    keyExtractor={(item) => item.name}
+                    renderItem={({item, index}) => {
+                        return <View style={styles.componentContainer} key={`item_${encodeURI(item.name)}_${index}`}>
                             <View style={[styles.trContainer]}>
                                 <View style={[styles.tdContainer, {flex: 0.25}]}>
                                 </View>
@@ -124,11 +126,11 @@ class ItemList extends SqlUtil {
                                     </View>
                                     <View style={styles.trContainer}>
                                         <View style={[styles.tdContainer, {flex: 0.5}]}>
-                                            <Text style={styles.textStyle}>{obj.name}</Text>
+                                            <Text style={styles.textStyle}>{item.name}</Text>
                                         </View>
                                         <View style={[styles.tdContainer, {flex: 0.5}]}>{
-                                            obj.option.map((optionObj, optionIndex)=>{
-                                                return <Text style={styles.textStyle} key={`option_${encodeURI(obj.name)}_${optionIndex}`}>
+                                            item.option.map((optionObj, optionIndex)=>{
+                                                return <Text style={styles.textStyle} key={`option_${encodeURI(item.name)}_${optionIndex}`}>
                                                     {`${optionObj.name} ${optionObj.number}`}
                                                 </Text>
                                             })
@@ -137,16 +139,16 @@ class ItemList extends SqlUtil {
                                     <View style={styles.trContainer}>
                                         <View style={[styles.tdContainer, {flex: 0.5}]}>
                                             <View style={[styles.trContainer]}>
-                                                <CheckBox value={obj.saveYn=='Y'?true:false} onValueChange={()=>this.updateSaveChecked(obj)} />
-                                                <TouchableOpacity onPress={()=>this.updateSaveChecked(obj)}>
+                                                <CheckBox value={item.saveYn=='Y'?true:false} onValueChange={()=>this.updateSaveChecked(item)} />
+                                                <TouchableOpacity onPress={()=>this.updateSaveChecked(item)}>
                                                     <Text style={styles.thTextStyle}>저장옵션</Text>
                                                 </TouchableOpacity>
                                             </View>
                                         </View>
                                         <View style={[styles.tdContainer, {flex: 0.5}]}>
                                             <View style={[styles.trContainer]}>
-                                                <CheckBox value={obj.openYn=='Y'?true:false} onValueChange={()=>this.updateOpenChecked(obj)} />
-                                                <TouchableOpacity onPress={()=>this.updateOpenChecked(obj)}>
+                                                <CheckBox value={item.openYn=='Y'?true:false} onValueChange={()=>this.updateOpenChecked(item)} />
+                                                <TouchableOpacity onPress={()=>this.updateOpenChecked(item)}>
                                                     <Text style={styles.thTextStyle}>해제옵션</Text>
                                                 </TouchableOpacity>
                                             </View>
@@ -154,15 +156,15 @@ class ItemList extends SqlUtil {
                                     </View>
                                     <View style={styles.trContainer}>
                                         <View style={[styles.tdContainer, {flex: 0.5}]}>{
-                                            obj.savePoint.map((optionObj, optionIndex)=>{
-                                                return <Text style={styles.textStyle} key={`saveOption_${encodeURI(obj.name)}_${optionIndex}`}>
+                                            item.savePoint.map((optionObj, optionIndex)=>{
+                                                return <Text style={styles.textStyle} key={`saveOption_${encodeURI(item.name)}_${optionIndex}`}>
                                                     {`${optionObj.name} ${optionObj.number}`}
                                                 </Text>
                                             })
                                         }</View>
                                         <View style={[styles.tdContainer, {flex: 0.5}]}>{
-                                            obj.openPoint.map((optionObj, optionIndex)=>{
-                                                return <Text style={styles.textStyle} key={`openOption_${encodeURI(obj.name)}_${optionIndex}`}>
+                                            item.openPoint.map((optionObj, optionIndex)=>{
+                                                return <Text style={styles.textStyle} key={`openOption_${encodeURI(item.name)}_${optionIndex}`}>
                                                     {`${optionObj.name} ${optionObj.number}`}
                                                 </Text>
                                             })
@@ -171,20 +173,18 @@ class ItemList extends SqlUtil {
                                 </View>
                             </View>
                             <View style={styles.trContainer}>
-                                <View style={[styles.tdContainer, {flex: 0.3}]}>
-                                    <Text style={styles.thTextStyle}>RECIPE</Text>
+                                <View style={[styles.tdContainer]}>
+                                    <Text style={styles.textStyle}>{
+                                        item.recipe.map((optionObj, optionIndex)=>{
+                                            return `${optionObj.name} ${optionObj.number}`
+                                        }).join(', ')
+                                    }</Text>
                                 </View>
-                                <View style={[styles.tdContainer, {flex: 0.7}]}>{
-                                    obj.recipe.map((optionObj, optionIndex)=>{
-                                        return <Text style={styles.textStyle} key={`recipe_${encodeURI(obj.name)}_${optionIndex}`}>
-                                            {`${optionObj.name} ${optionObj.number}`}
-                                        </Text>
-                                    })
-                                }</View>
                             </View>
                         </View>
-                    })}
-                </ScrollView>
+                    }
+                } >
+                </FlatList>
             </View>
         )
     }

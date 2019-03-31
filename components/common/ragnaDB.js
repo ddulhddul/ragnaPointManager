@@ -12,7 +12,13 @@ export default {
       save_atk_1,
       save_atk_2,
       save_smeltatk_1,
-    ).sort((obj1, obj2)=>{
+    ).filter((obj, index, self)=>{
+      let indexNumber = undefined
+      self.find((selfObj, selfIndex)=>{
+        if(selfObj.name==obj.name) indexNumber=selfIndex
+      })
+      return indexNumber === index
+    }).sort((obj1, obj2)=>{
       return obj1.name > obj2.name? 1: -1
     }).map((obj, index)=>{
       return {...obj, key:index}
