@@ -10,7 +10,18 @@ class ItemList extends SqlUtil {
 
     constructor(props){
         super(props)
-        this.state = {itemList: []}
+        const keywordList = (props.itemList||[]).reduce((entry, obj)=>{
+            (obj.keyword||[]).map((keyword)=>{
+                if(keyword && !keyword.match(/[^a-zA-Z]/) && !entry.includes(keyword)){
+                    entry.push(keyword)
+                }
+            })
+            return entry
+        }, []).sort()
+        this.state = {
+            itemList: [],
+            keywordList
+        }
     }
 
     componentDidMount(){
@@ -63,8 +74,33 @@ class ItemList extends SqlUtil {
 
     render() {
         const itemList = this.state.itemList || []
+        const keywordList = this.state.keywordList || []
+        const filter = this.state.filter || []
         return (
             <View style={styles.container}>
+                <View style={styles.filterContainer}>
+                    <Text style={{marginRight: 5}}>필터</Text>
+                    <ScrollView horizontal={true}>
+                    {
+                        keywordList.map((obj)=>{
+                            return <View  key={`keyword_${obj}`}
+                                        style={[filter.includes(obj)? {backgroundColor:'grey'}: {}, {margin: 5}]}>
+                                <TouchableOpacity onPress={()=>{
+                                    filter.includes(obj)
+                                    this.setState({
+                                        filter: 
+                                            !filter.includes(obj)? [...filter, obj]:
+                                                filter.filter((filtered)=>filtered!=obj)
+                                    })
+                                }}>
+                                    <Text>{obj}</Text>
+                                </TouchableOpacity>
+                            </View>
+                        })
+                    }
+                    </ScrollView>
+                </View>
+                
                 <ScrollView style={styles.scrollContainer}>
                     {itemList.map((obj, index)=>{
                         return <View style={styles.componentContainer} key={`item_${encodeURI(obj.name)}_${index}`}>
@@ -151,6 +187,14 @@ class ItemList extends SqlUtil {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+    },
+    filterContainer: {
+        flexDirection: 'row',
+        height: 50,
+        margin: 5,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'yellow'
     },
     scrollContainer: {
         flex: 1
