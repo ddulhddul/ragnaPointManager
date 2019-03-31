@@ -1,7 +1,7 @@
 import React from 'react'
 import { 
     CheckBox, ScrollView, View, Text, StyleSheet,
-    FlatList, TouchableOpacity
+    Image, FlatList, TouchableOpacity
 } from 'react-native'
 import SqlUtil from '../common/SqlUtil'
 import { withNavigation } from 'react-navigation'
@@ -77,7 +77,6 @@ class ItemList extends SqlUtil {
         const itemList = this.state.itemList || []
         const keywordList = this.state.keywordList || []
         const filter = this.state.filter || []
-        console.log('filter', filter)
         return (
             <View style={styles.container}>
                 <View style={styles.filterContainer}>
@@ -114,6 +113,7 @@ class ItemList extends SqlUtil {
                         return <View style={styles.componentContainer} key={`item_${encodeURI(item.name)}_${index}`}>
                             <View style={[styles.trContainer]}>
                                 <View style={[styles.tdContainer, {flex: 0.25}]}>
+                                    <Image source={require('../../assets/images/robot-prod.png')} style={styles.itemImageStyle} />
                                 </View>
                                 <View style={[styles.tdContainer, {flex: 0.75}]}>
                                     <View style={styles.trContainer}>
@@ -137,49 +137,51 @@ class ItemList extends SqlUtil {
                                         }</View>
                                     </View>
                                     <View style={styles.trContainer}>
-                                        <View style={[styles.tdContainer, {flex: 0.5}]}>
-                                            <View style={[styles.trContainer]}>
-                                                <CheckBox value={item.saveYn=='Y'?true:false} onValueChange={()=>this.updateSaveChecked(item)} />
-                                                <TouchableOpacity onPress={()=>this.updateSaveChecked(item)}>
-                                                    <Text style={styles.thTextStyle}>저장옵션</Text>
-                                                </TouchableOpacity>
-                                            </View>
-                                        </View>
-                                        <View style={[styles.tdContainer, {flex: 0.5}]}>
-                                            <View style={[styles.trContainer]}>
-                                                <CheckBox value={item.openYn=='Y'?true:false} onValueChange={()=>this.updateOpenChecked(item)} />
-                                                <TouchableOpacity onPress={()=>this.updateOpenChecked(item)}>
-                                                    <Text style={styles.thTextStyle}>해제옵션</Text>
-                                                </TouchableOpacity>
-                                            </View>
+                                        <View style={[styles.trContainer]}>
+                                            <Text style={styles.textStyle}>{
+                                                item.recipe.map((optionObj, optionIndex)=>{
+                                                    return `${optionObj.name} ${optionObj.number}`
+                                                }).join(', ')
+                                            }</Text>
                                         </View>
                                     </View>
-                                    <View style={styles.trContainer}>
-                                        <View style={[styles.tdContainer, {flex: 0.5}]}>{
+                                </View>
+                            </View>
+                            <View style={styles.trContainer}>
+                                <View style={[styles.tdContainer, {flex: 0.5}]}>
+                                    <TouchableOpacity onPress={()=>this.updateSaveChecked(item)}>
+                                        <View style={[styles.trContainer]}>
+                                            <CheckBox value={item.saveYn=='Y'?true:false} onValueChange={()=>this.updateSaveChecked(item)} />
+                                            <Text style={styles.thTextStyle}>저장옵션</Text>
+                                        </View>
+                                        <View style={[styles.trContainer, {flex: 0.5}]}>{
                                             item.savePoint.map((optionObj, optionIndex)=>{
                                                 return <Text style={styles.textStyle} key={`saveOption_${encodeURI(item.name)}_${optionIndex}`}>
                                                     {`${optionObj.name} ${optionObj.number}`}
                                                 </Text>
                                             })
                                         }</View>
-                                        <View style={[styles.tdContainer, {flex: 0.5}]}>{
+                                    </TouchableOpacity>
+                                </View>
+                                <View style={[styles.tdContainer, {flex: 0.5}]}>
+                                    <TouchableOpacity onPress={()=>this.updateOpenChecked(item)}>
+                                        <View style={[styles.trContainer]}>
+                                            <CheckBox value={item.openYn=='Y'?true:false} onValueChange={()=>this.updateOpenChecked(item)} />
+                                            <Text style={styles.thTextStyle}>해제옵션</Text>
+                                        </View>
+                                        <View style={[styles.trContainer, {flex: 0.5}]}>{
                                             item.openPoint.map((optionObj, optionIndex)=>{
                                                 return <Text style={styles.textStyle} key={`openOption_${encodeURI(item.name)}_${optionIndex}`}>
                                                     {`${optionObj.name} ${optionObj.number}`}
                                                 </Text>
                                             })
                                         }</View>
-                                    </View>
+                                    </TouchableOpacity>
                                 </View>
                             </View>
                             <View style={styles.trContainer}>
-                                <View style={[styles.tdContainer]}>
-                                    <Text style={styles.textStyle}>{
-                                        item.recipe.map((optionObj, optionIndex)=>{
-                                            return `${optionObj.name} ${optionObj.number}`
-                                        }).join(', ')
-                                    }</Text>
-                                </View>
+                                
+                                
                             </View>
                         </View>
                     }
@@ -204,6 +206,10 @@ const styles = StyleSheet.create({
     },
     scrollContainer: {
         flex: 1
+    },
+    itemImageStyle: {
+        width: '100%',
+        resizeMode: 'contain',
     },
     componentContainer: {
         backgroundColor: 'white',

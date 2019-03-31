@@ -42,12 +42,15 @@ JSON.stringify(
     if(index == 0) resultEntry.push({})
     else{
       const thisObj = resultEntry[resultEntry.length-1]
-      function htmlToList(str){
-        return str.replace(/\&nbsp\;\<br\>/g,' ').split(', ')
+      function htmlToStr(str){
+        return str.replace(/\&nbsp\;\<br\>/g,' ')
+                  .replace(/\&amp\;/g,'&')
+                  .replace(/null/g,'')
       }
+      function htmlToList(str){return htmlToStr(str).split(', ')}
       if(index == 1){
         thisObj.imageSrc = trObj.querySelectorAll('td')[0].querySelector('img').getAttribute('src')
-        thisObj.name = trObj.querySelectorAll('td')[1].innerHTML
+        thisObj.name = htmlToStr(trObj.querySelectorAll('td')[1].innerHTML)
         thisObj.option = htmlToList(trObj.querySelectorAll('td')[2].innerHTML)
       }else if(index == 3){
         thisObj.savePoint = htmlToList(trObj.querySelectorAll('td')[0].innerHTML)
