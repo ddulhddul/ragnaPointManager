@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {
   Image,
   Platform,
@@ -13,8 +13,9 @@ import { WebBrowser } from 'expo';
 import { MonoText } from '../components/StyledText';
 
 import DB from '../components/common/ragnaDB'
+import ItemList from '../components/item/ItemList'
 
-export default class HomeScreen extends React.Component {
+export default class HomeScreen extends Component {
   static navigationOptions = {
     header: null,
   };
@@ -29,17 +30,13 @@ export default class HomeScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
-          
-          {
-            (this.state.itemList || []).map((obj, index)=>{
-              return <View key={`item_${index}`}>
-                <Text>{obj.name}</Text>
-                {/* <Text>{JSON.stringify(obj)}</Text> */}
-              </View>
-            })
-          }
+        
+        <View style={[styles.container, styles.contentContainer]}>
+          <ItemList itemList={this.state.itemList} />
+        </View>
 
+        {/* <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
+          
           <View style={styles.welcomeContainer}>
             <Image
               source={
@@ -78,7 +75,7 @@ export default class HomeScreen extends React.Component {
           <View style={[styles.codeHighlightContainer, styles.navigationFilename]}>
             <MonoText style={styles.codeHighlightText}>navigation/MainTabNavigator.js</MonoText>
           </View>
-        </View>
+        </View> */}
       </View>
     );
   }
