@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
-import { ScrollView, View, Text, StyleSheet } from 'react-native'
+import { 
+    CheckBox, ScrollView, View, Text, StyleSheet,
+    TouchableOpacity
+} from 'react-native'
 
 class ItemList extends Component {
 
@@ -15,7 +18,7 @@ class ItemList extends Component {
                 {itemList.map((obj, index)=>{
                     return <View style={styles.componentContainer} key={`item_${encodeURI(obj.name)}_${index}`}>
                         <View style={[styles.trContainer]}>
-                            <View style={[styles.tdContainer, {flex: 0.25, backgroundColor: 'grey'}]}>
+                            <View style={[styles.tdContainer, {flex: 0.25}]}>
                             </View>
                             <View style={[styles.tdContainer, {flex: 0.75}]}>
                                 <View style={styles.trContainer}>
@@ -40,10 +43,40 @@ class ItemList extends Component {
                                 </View>
                                 <View style={styles.trContainer}>
                                     <View style={[styles.tdContainer, {flex: 0.5}]}>
-                                        <Text style={styles.thTextStyle}>저장옵션</Text>
+                                        <TouchableOpacity onPress={()=>this.setState({
+                                            itemList: itemList.map((targetObj)=>{
+                                                if(targetObj.key == obj.key) obj.savePointChecked = !obj.savePointChecked
+                                                return obj
+                                            })
+                                        })}>
+                                            <View style={[styles.trContainer]}>
+                                                <CheckBox value={obj.savePointChecked} onValueChange={()=>this.setState({
+                                                    itemList: itemList.map((targetObj)=>{
+                                                        if(targetObj.key == obj.key) obj.savePointChecked = !obj.savePointChecked
+                                                        return obj
+                                                    })
+                                                })} />
+                                                <Text style={styles.thTextStyle}>저장옵션</Text>
+                                            </View>
+                                        </TouchableOpacity>
                                     </View>
                                     <View style={[styles.tdContainer, {flex: 0.5}]}>
-                                        <Text style={styles.thTextStyle}>해제옵션</Text>
+                                        <TouchableOpacity onPress={()=>this.setState({
+                                            itemList: itemList.map((targetObj)=>{
+                                                if(targetObj.key == obj.key) obj.openPointChecked = !obj.openPointChecked
+                                                return obj
+                                            })
+                                        })}>
+                                            <View style={[styles.trContainer]}>
+                                                <CheckBox value={obj.openPointChecked} onValueChange={()=>this.setState({
+                                                    itemList: itemList.map((targetObj)=>{
+                                                        if(targetObj.key == obj.key) obj.openPointChecked = !obj.openPointChecked
+                                                        return obj
+                                                    })
+                                                })} />
+                                                <Text style={styles.thTextStyle}>해제옵션</Text>
+                                            </View>
+                                        </TouchableOpacity>
                                     </View>
                                 </View>
                                 <View style={styles.trContainer}>
@@ -96,6 +129,8 @@ const styles = StyleSheet.create({
     trContainer: {
         flex: 1,
         flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
     },
     tdContainer: {
         flex: 1,
