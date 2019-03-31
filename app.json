@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "라그나로크M 의상 및 요리 저장 스탯 관리",
+    "name": "라그나로크M 의상, 요리, 카드 저장 스탯 관리",
     "slug": "ragnaPointManager",
     "privacy": "public",
     "sdkVersion": "32.0.0",

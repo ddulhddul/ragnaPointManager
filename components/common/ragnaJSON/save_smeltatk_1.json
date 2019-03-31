@@ -1,0 +1,568 @@
+[
+    {
+        "imageSrc": "https: //cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjc2/MDAxNTMwMjAxNTk5Nzg2.2OX33kc5cs5ZD6-PfBUEUkSY_M8UAofADSzG3GxIxkgg.bzkiWFNDPX_-h5Pm8orcYpVBMDtbBPHiin7fZGfwllwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_031.png?type=w740",
+        "name": "악마의 머리띠",
+        "option": [
+            {
+                "name": "STR",
+                "number": 3,
+                "unit": "",
+                "origin": "STR +3"
+            },
+            {
+                "name": "MDEF +10 10제련 이상 시 DEF",
+                "number": 10,
+                "unit": "%",
+                "origin": "MDEF +10 10제련 이상 시 DEF +10%"
+            }
+        ],
+        "savePoint": [
+            {
+                "name": "제련 ATK",
+                "number": 10,
+                "unit": "",
+                "origin": "제련 ATK +10"
+            }
+        ],
+        "openPoint": [
+            {
+                "name": "MDEF",
+                "number": 5,
+                "unit": "",
+                "origin": "MDEF +5"
+            }
+        ],
+        "recipe": [
+            {
+                "name": "망자의 유물",
+                "number": 2240,
+                "unit": "개",
+                "origin": "망자의 유물 2,240개"
+            },
+            {
+                "name": "빛의 알갱이",
+                "number": 15,
+                "unit": "개",
+                "origin": "빛의 알갱이 15개"
+            },
+            {
+                "name": "부드러운 깃털",
+                "number": 13,
+                "unit": "개",
+                "origin": "부드러운 깃털 13개"
+            },
+            {
+                "name": "검은 염료",
+                "number": 4,
+                "unit": "개",
+                "origin": "검은 염료 4개"
+            }
+        ],
+        "keyword": [
+            "STR",
+            "MDEF +10 10제련 이상 시 DEF",
+            "제련 ATK",
+            "MDEF",
+            "망자의 유물",
+            "빛의 알갱이",
+            "부드러운 깃털",
+            "검은 염료"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMzAg/MDAxNTMwMjAxNjExMzA5.qhW_5K042sXQOY3toMyb6Gzo1DJb7XTXL3X5JAnzHLgg.uWgtRgL7RG5CzpINGeU7gDJ7wmE3oyAe5kPQ-2U7svIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_124.png?type=w740",
+        "name": "솜브레로",
+        "option": [
+            {
+                "name": "STR",
+                "number": 3,
+                "unit": "",
+                "origin": "STR +3"
+            },
+            {
+                "name": "곤충형 몬스터 데미지 감소 +10%,&nbsp;<br>10제련 이상 시 MaxHP",
+                "number": 10,
+                "unit": "%",
+                "origin": "곤충형 몬스터 데미지 감소 +10%,&nbsp;<br>10제련 이상 시 MaxHP +10%"
+            }
+        ],
+        "savePoint": [
+            {
+                "name": "제련 ATK",
+                "number": 10,
+                "unit": "",
+                "origin": "제련 ATK +10"
+            }
+        ],
+        "openPoint": [
+            {
+                "name": "ATK",
+                "number": 12,
+                "unit": "",
+                "origin": "ATK +12"
+            }
+        ],
+        "recipe": [
+            {
+                "name": "악마의 뿔",
+                "number": 1750,
+                "unit": "개",
+                "origin": "악마의 뿔 1,750개"
+            },
+            {
+                "name": "오크히어로의 증표",
+                "number": 20,
+                "unit": "개",
+                "origin": "오크히어로의 증표 20개"
+            },
+            {
+                "name": "부품",
+                "number": 20,
+                "unit": "개",
+                "origin": "부품 20개"
+            },
+            {
+                "name": "석탄",
+                "number": 175,
+                "unit": "개",
+                "origin": "석탄 175개"
+            }
+        ],
+        "keyword": [
+            "STR",
+            "곤충형 몬스터 데미지 감소 +10%,&nbsp;<br>10제련 이상 시 MaxHP",
+            "제련 ATK",
+            "ATK",
+            "악마의 뿔",
+            "오크히어로의 증표",
+            "부품",
+            "석탄"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTAx/MDAxNTMwMjAxNjQxOTQz.NMPI5gR0Rh1wMbSfxbb2lTQcwTDsugqC-NxjeNW9ZZkg.tCP0kYovPnOsD1W_19zb6ICWtgH2WaNO0sPg9s_Tyg4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_135.png?type=w740",
+        "name": "오크히어로의 투구[1]",
+        "option": [
+            {
+                "name": "STR",
+                "number": 2,
+                "unit": "",
+                "origin": "STR +2"
+            },
+            {
+                "name": "VIT",
+                "number": 2,
+                "unit": "",
+                "origin": "VIT +2"
+            },
+            {
+                "name": "10제련 이상 시 ATK",
+                "number": 10,
+                "unit": "%",
+                "origin": "10제련 이상 시 ATK +10%"
+            }
+        ],
+        "savePoint": [
+            {
+                "name": "제련 ATK",
+                "number": 10,
+                "unit": "",
+                "origin": "제련 ATK +10"
+            }
+        ],
+        "openPoint": [
+            {
+                "name": "MaxHP",
+                "number": 64,
+                "unit": "",
+                "origin": "MaxHP +64"
+            }
+        ],
+        "recipe": [
+            {
+                "name": "브리간",
+                "number": 1680,
+                "unit": "개",
+                "origin": "브리간 1,680개"
+            },
+            {
+                "name": "오크히어로의 증표",
+                "number": 23,
+                "unit": "개",
+                "origin": "오크히어로의 증표 23개"
+            },
+            {
+                "name": "오크의 손톱",
+                "number": 27,
+                "unit": "개",
+                "origin": "오크의 손톱 27개"
+            },
+            {
+                "name": "강철",
+                "number": 210,
+                "unit": "개",
+                "origin": "강철 210개"
+            }
+        ],
+        "keyword": [
+            "STR",
+            "VIT",
+            "10제련 이상 시 ATK",
+            "제련 ATK",
+            "MaxHP",
+            "브리간",
+            "오크히어로의 증표",
+            "오크의 손톱",
+            "강철"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTMz/MDAxNTMwMjAxNjU0NzMx.Tlo9IVlhXwKLt9RrrqNhkIUCQKif2T9BeVSe62Wol1Ug.E19ilK3N4vQvjb76AqU1pFlJjAv0CAT5NswGL7QweUkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_184.png?type=w740",
+        "name": "다크나이트 마스크",
+        "option": [
+            {
+                "name": "일반공격 시 5% 일정 확률로 대상이 일정 시간 유혈 상태에 빠짐,&nbsp;<br>최대 2회 중복 가능",
+                "number": null,
+                "unit": "회 중복 가능",
+                "origin": "일반공격 시 5% 일정 확률로 대상이 일정 시간 유혈 상태에 빠짐,&nbsp;<br>최대 2회 중복 가능"
+            },
+            {
+                "name": "해당 효과 데미지 중첩과 함께 적용 가능",
+                "number": 0,
+                "unit": "해당 효과 데미지 중첩과 함께 적용 가능",
+                "origin": "해당 효과 데미지 중첩과 함께 적용 가능"
+            }
+        ],
+        "savePoint": [
+            {
+                "name": "제련 ATK",
+                "number": 10,
+                "unit": "",
+                "origin": "제련 ATK +10"
+            }
+        ],
+        "openPoint": [
+            {
+                "name": "ATK",
+                "number": 8,
+                "unit": "",
+                "origin": "ATK +8"
+            }
+        ],
+        "recipe": [
+            {
+                "name": "사이파",
+                "number": 1488,
+                "unit": "개",
+                "origin": "사이파 1,488개"
+            },
+            {
+                "name": "흑운모",
+                "number": 15,
+                "unit": "개",
+                "origin": "흑운모 15개"
+            },
+            {
+                "name": "장미석영",
+                "number": 16,
+                "unit": "개",
+                "origin": "장미석영 16개"
+            },
+            {
+                "name": "마스테라의 열매",
+                "number": 20,
+                "unit": "개",
+                "origin": "마스테라의 열매 20개"
+            }
+        ],
+        "keyword": [
+            "일반공격 시 5% 일정 확률로 대상이 일정 시간 유혈 상태에 빠짐,&nbsp;<br>최대 2회 중복 가능",
+            "해당 효과 데미지 중첩과 함께 적용 가능",
+            "제련 ATK",
+            "ATK",
+            "사이파",
+            "흑운모",
+            "장미석영",
+            "마스테라의 열매"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTk5/MDAxNTMwMjAxNjYyNDI2.yhdW3pvkbke-YTjZLOjORokEXcM8eCs9DFVTmgFUxgIg.pbMQAlscAVGXkft9THfmoSA11KziokT0aoDYeJcc4wQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_186.png?type=w740",
+        "name": "바포메트 주니어 모자",
+        "option": [
+            {
+                "name": "ATK",
+                "number": 40,
+                "unit": "",
+                "origin": "ATK +40"
+            },
+            {
+                "name": "10제련 이상 시",
+                "number": 10,
+                "unit": "제련 이상 시",
+                "origin": "10제련 이상 시"
+            },
+            {
+                "name": "CRI",
+                "number": 10,
+                "unit": "",
+                "origin": "CRI +10"
+            }
+        ],
+        "savePoint": [
+            {
+                "name": "제련 ATK",
+                "number": 10,
+                "unit": "",
+                "origin": "제련 ATK +10"
+            }
+        ],
+        "openPoint": [
+            {
+                "name": "ATK",
+                "number": 8,
+                "unit": "",
+                "origin": "ATK +8"
+            }
+        ],
+        "recipe": [
+            {
+                "name": "사이파",
+                "number": 1488,
+                "unit": "개",
+                "origin": "사이파 1,488개"
+            },
+            {
+                "name": "흑운모",
+                "number": 6,
+                "unit": "개",
+                "origin": "흑운모 6개"
+            },
+            {
+                "name": "오크의 손톱",
+                "number": 6,
+                "unit": "개",
+                "origin": "오크의 손톱 6개"
+            },
+            {
+                "name": "마스테라의 열매",
+                "number": 20,
+                "unit": "개",
+                "origin": "마스테라의 열매 20개"
+            }
+        ],
+        "keyword": [
+            "ATK",
+            "10제련 이상 시",
+            "CRI",
+            "제련 ATK",
+            "사이파",
+            "흑운모",
+            "오크의 손톱",
+            "마스테라의 열매"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTEx/MDAxNTMwMjAxNjY5NDk5.6O3rBwy5bjM0fqiHVfpWhotj3YJtca8wBG05_d1Uhdcg.Qvi3um1rNlQV-9w3fillflCjsyBS79cD7-3LbOtyF98g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_188.png?type=w740",
+        "name": "카타나",
+        "option": [
+            {
+                "name": "패시스 스킬 [더블 어택] Lv.3 획득",
+                "number": null,
+                "unit": " 획득",
+                "origin": "패시스 스킬 [더블 어택] Lv.3 획득"
+            }
+        ],
+        "savePoint": [
+            {
+                "name": "제련 ATK",
+                "number": 8,
+                "unit": "",
+                "origin": "제련 ATK +8"
+            }
+        ],
+        "openPoint": [
+            {
+                "name": "ATK",
+                "number": 4,
+                "unit": "",
+                "origin": "ATK +4"
+            }
+        ],
+        "recipe": [
+            {
+                "name": "사이파",
+                "number": 930,
+                "unit": "개",
+                "origin": "사이파 930개"
+            },
+            {
+                "name": "흑운모",
+                "number": 12,
+                "unit": "개",
+                "origin": "흑운모 12개"
+            },
+            {
+                "name": "핏빛의 룬",
+                "number": 10,
+                "unit": "개",
+                "origin": "핏빛의 룬 10개"
+            },
+            {
+                "name": "어둠에 잠긴 칼날",
+                "number": 20,
+                "unit": "개",
+                "origin": "어둠에 잠긴 칼날 20개"
+            }
+        ],
+        "keyword": [
+            "패시스 스킬 [더블 어택] Lv.3 획득",
+            "제련 ATK",
+            "ATK",
+            "사이파",
+            "흑운모",
+            "핏빛의 룬",
+            "어둠에 잠긴 칼날"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNTAg/MDAxNTMwMjAxNjc4OTkz.QUfcTHGMwQ2opRcg_NOuW-A5YQrxoas1NqJne9m4taMg.8HkKa75nV7RyuVex3_ZExrf6w7iHwqk3GsYfJnz2BXEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_190.png?type=w740",
+        "name": "마제스틱 고우트",
+        "option": [
+            {
+                "name": "STR",
+                "number": 5,
+                "unit": "",
+                "origin": "STR +5"
+            },
+            {
+                "name": "DEF 무시",
+                "number": 10,
+                "unit": "%",
+                "origin": "DEF 무시 +10%"
+            },
+            {
+                "name": "10제련 이상 시 DEF 무시",
+                "number": 10,
+                "unit": "%",
+                "origin": "10제련 이상 시 DEF 무시 +10%"
+            }
+        ],
+        "savePoint": [
+            {
+                "name": "제련 ATK",
+                "number": 10,
+                "unit": "",
+                "origin": "제련 ATK +10"
+            }
+        ],
+        "openPoint": [
+            {
+                "name": "ATK",
+                "number": 8,
+                "unit": "",
+                "origin": "ATK +8"
+            }
+        ],
+        "recipe": [
+            {
+                "name": "악마의 뿔",
+                "number": 2231,
+                "unit": "개",
+                "origin": "악마의 뿔 2,231개"
+            },
+            {
+                "name": "흑운모",
+                "number": 25,
+                "unit": "개",
+                "origin": "흑운모 25개"
+            },
+            {
+                "name": "드래곤의 비늘",
+                "number": 20,
+                "unit": "개",
+                "origin": "드래곤의 비늘 20개"
+            },
+            {
+                "name": "비정한 마음",
+                "number": 1488,
+                "unit": "개",
+                "origin": "비정한 마음 1,488개"
+            }
+        ],
+        "keyword": [
+            "STR",
+            "DEF 무시",
+            "10제련 이상 시 DEF 무시",
+            "제련 ATK",
+            "ATK",
+            "악마의 뿔",
+            "흑운모",
+            "드래곤의 비늘",
+            "비정한 마음"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjAz/MDAxNTMwMjAxNjg4NjEx.F8ZjBVgOHEx1EjBCbQuBorlsCIyBxRc9Qr3hFmUhJvUg.ufOw6fnsHp4yNGkUzA50ZUDlFuSFnU4qTd2FjLS_01Ug.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_192.png?type=w740",
+        "name": "드라큘라의 이빨",
+        "option": [
+            {
+                "name": "일반공격 시 일정 확률로 입히는 데미지를 자신의 HP로 회복",
+                "number": 0,
+                "unit": "일반공격 시 일정 확률로 입히는 데미지를 자신의 HP로 회복",
+                "origin": "일반공격 시 일정 확률로 입히는 데미지를 자신의 HP로 회복"
+            }
+        ],
+        "savePoint": [
+            {
+                "name": "제련 ATK",
+                "number": 10,
+                "unit": "",
+                "origin": "제련 ATK +10"
+            }
+        ],
+        "openPoint": [
+            {
+                "name": "ATK",
+                "number": 8,
+                "unit": "",
+                "origin": "ATK +8"
+            }
+        ],
+        "recipe": [
+            {
+                "name": "사이파",
+                "number": 1488,
+                "unit": "개",
+                "origin": "사이파 1,488개"
+            },
+            {
+                "name": "수정으로 만든 거울",
+                "number": 10,
+                "unit": "개",
+                "origin": "수정으로 만든 거울 10개"
+            },
+            {
+                "name": "송곳니",
+                "number": 15,
+                "unit": "개",
+                "origin": "송곳니 15개"
+            },
+            {
+                "name": "마스테라의 열매",
+                "number": 20,
+                "unit": "개",
+                "origin": "마스테라의 열매 20개"
+            }
+        ],
+        "keyword": [
+            "일반공격 시 일정 확률로 입히는 데미지를 자신의 HP로 회복",
+            "제련 ATK",
+            "ATK",
+            "사이파",
+            "수정으로 만든 거울",
+            "송곳니",
+            "마스테라의 열매"
+        ]
+    }
+]
