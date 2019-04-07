@@ -6,6 +6,7 @@ import {
 import SqlUtil from '../common/SqlUtil'
 import { withNavigation } from 'react-navigation'
 import Util from '../common/Util'
+import Loading from '../common/Loading'
 import { Icon } from 'expo'
 const saveColor= 'rgb(230, 126, 34)'
 const openColor= 'rgb(41, 128, 185)'
@@ -23,6 +24,7 @@ class ItemList extends SqlUtil {
             return entry
         }, []).sort()
         this.state = {
+            isReady: false,
             itemList: [],
             keywordList,
             filter: [],
@@ -38,6 +40,7 @@ class ItemList extends SqlUtil {
         const { navigation } = this.props
         this.focusListener = navigation.addListener("didFocus", async () => {
             this.setState({
+                isReady: true,
                 itemList: await this.searchItemList()
             })
         })
@@ -83,7 +86,7 @@ class ItemList extends SqlUtil {
     }
 
     render() {
-        const { saveFilter, openFilter, sort, searchEnabled, searchValue } = this.state
+        const { isReady, saveFilter, openFilter, sort, searchEnabled, searchValue } = this.state
         const keywordList = this.state.keywordList || []
         const filter = this.state.filter || []
         const itemList = (this.state.itemList || []).filter((obj)=>{
@@ -105,6 +108,7 @@ class ItemList extends SqlUtil {
         
         return (
             <View style={styles.container}>
+                {(!isReady)? <Loading />:null}
                 <View style={styles.filterContainer}>
                     <View style={[styles.filterStyle, {backgroundColor: Util.green}]}>
                         <TouchableOpacity onPress={()=>{this.setState({filter: []})}}>
