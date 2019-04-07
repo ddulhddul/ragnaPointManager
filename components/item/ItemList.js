@@ -168,82 +168,79 @@ class ItemList extends SqlUtil {
                     </View>
                 </View>
                 
+                {
+                    !itemList.length? null:
+                    <View style={{alignItems: 'flex-end', marginRight: 10}}>
+                        <Text style={{fontSize: 8}}>Total {Util.comma(itemList.length || 0)}</Text>
+                    </View>
+                }
                 <FlatList style={styles.scrollContainer}
                     data={itemList}
                     keyExtractor={(item) => item.name}
                     renderItem={({item, index}) => {
                         return <View style={styles.componentContainer} key={`item_${encodeURI(item.name)}_${index}`}>
                             <View style={[styles.trContainer]}>
-                                <View style={[styles.tdContainer, {flex: 0.25}]}>
-                                    <Image source={require('../../assets/images/robot-prod.png')} style={styles.itemImageStyle} />
+                                <View style={[styles.tdContainer, {flex: 0.3, marginLeft: 5, marginRight: 5}]}>
+                                    <Image source={require('../../assets/images/items/거시기.png')} style={styles.itemImageStyle} />
                                 </View>
-                                <View style={[styles.tdContainer, {flex: 0.75}]}>
-                                    <View style={styles.trContainer}>
-                                        <View style={[styles.tdContainer, {flex: 0.5}]}>
-                                            <Text style={styles.thTextStyle}>이름</Text>
-                                        </View>
-                                        <View style={[styles.tdContainer, {flex: 0.5}]}>
-                                            <Text style={styles.thTextStyle}>옵션</Text>
-                                        </View>
+                                <View style={[styles.tdContainer, {flex: 0.7}]}>
+                                    <View style={[{marginBottom: 5, alignSelf: 'flex-start'}]}>
+                                        <Text style={[styles.textStyle, {fontSize: 17, fontWeight: 'bold', textAlign: 'left'}]}>{item.name}</Text>
                                     </View>
-                                    <View style={styles.trContainer}>
-                                        <View style={[styles.tdContainer, {flex: 0.5}]}>
-                                            <Text style={styles.textStyle}>{item.name}</Text>
-                                        </View>
-                                        <View style={[styles.tdContainer, {flex: 0.5}]}>{
+                                    <View style={[{marginBottom: 5, alignSelf: 'flex-start'}]}>
+                                        <Text style={[styles.textStyle, {fontSize: 13, color: Util.grey, textAlign: 'left'}]}>{
                                             item.option.map((optionObj, optionIndex)=>{
-                                                return <Text style={styles.textStyle} key={`option_${encodeURI(item.name)}_${optionIndex}`}>
-                                                    {`${optionObj.name} ${optionObj.number}`}
-                                                </Text>
-                                            })
-                                        }</View>
+                                                return `${optionObj.name} ${optionObj.number}`
+                                            }).join(', ')
+                                        }</Text>
                                     </View>
-                                    <View style={styles.trContainer}>
-                                        <View style={[styles.trContainer]}>
-                                            <Text style={styles.textStyle}>{
-                                                item.recipe.map((optionObj, optionIndex)=>{
-                                                    return `${optionObj.name} ${optionObj.number}`
-                                                }).join(', ')
-                                            }</Text>
-                                        </View>
+                                    <View style={[{alignSelf: 'flex-start'}]}>
+                                        <Text style={[styles.textStyle, {fontSize: 11, color: Util.grey, textAlign: 'left'}]}>{
+                                            item.recipe.map((optionObj, optionIndex)=>{
+                                                return `${optionObj.name} ${optionObj.number}`
+                                            }).join(', ')
+                                        }</Text>
                                     </View>
                                 </View>
                             </View>
                             <View style={styles.trContainer}>
-                                <View style={[styles.tdContainer, {flex: 0.5}]}>
+                                <View style={[styles.tdContainer, {flex: 0.5, borderBottomWidth: 3, marginRight: 5}, 
+                                    item.saveYn=='Y'?{borderColor: saveColor}:{borderColor: 'white'}]}>
                                     <TouchableOpacity onPress={()=>this.updateSaveChecked(item)}>
                                         <View style={[styles.trContainer]}>
-                                            <CheckBox value={item.saveYn=='Y'?true:false} onValueChange={()=>this.updateSaveChecked(item)} />
-                                            <Text style={styles.thTextStyle}>저장옵션</Text>
+                                            <CheckBox containerStyle={{backgroundColor: 'grey'}}
+                                                value={item.saveYn=='Y'?true:false} onValueChange={()=>this.updateSaveChecked(item)} />
+                                            <Text style={[styles.thTextStyle, {color: Util.grey, fontWeight: 'bold'},
+                                                item.saveYn=='Y'?{color: saveColor}:null]}>저장</Text>
                                         </View>
                                         <View style={[styles.trContainer, {flex: 0.5}]}>{
                                             item.savePoint.map((optionObj, optionIndex)=>{
-                                                return <Text style={styles.textStyle} key={`saveOption_${encodeURI(item.name)}_${optionIndex}`}>
+                                                return <Text style={[styles.textStyle, {color: Util.grey},
+                                                    item.saveYn=='Y'?{color: saveColor}:null]} key={`saveOption_${encodeURI(item.name)}_${optionIndex}`}>
                                                     {`${optionObj.name} ${optionObj.number}`}
                                                 </Text>
                                             })
                                         }</View>
                                     </TouchableOpacity>
                                 </View>
-                                <View style={[styles.tdContainer, {flex: 0.5}]}>
+                                <View style={[styles.tdContainer, {flex: 0.5, borderBottomWidth: 3, marginLeft: 5}, 
+                                    item.openYn=='Y'?{borderColor: openColor}:{borderColor: 'white'}]}>
                                     <TouchableOpacity onPress={()=>this.updateOpenChecked(item)}>
                                         <View style={[styles.trContainer]}>
                                             <CheckBox value={item.openYn=='Y'?true:false} onValueChange={()=>this.updateOpenChecked(item)} />
-                                            <Text style={styles.thTextStyle}>해제옵션</Text>
+                                            <Text style={[styles.thTextStyle, {color: Util.grey, fontWeight: 'bold'},
+                                                item.openYn=='Y'?{color: openColor}:null]}>해제</Text>
                                         </View>
                                         <View style={[styles.trContainer, {flex: 0.5}]}>{
                                             item.openPoint.map((optionObj, optionIndex)=>{
-                                                return <Text style={styles.textStyle} key={`openOption_${encodeURI(item.name)}_${optionIndex}`}>
+                                                return <Text style={[styles.textStyle, {color: Util.grey},
+                                                    item.openYn=='Y'?{color: openColor}:null]} key={`openOption_${encodeURI(item.name)}_${optionIndex}`}>
                                                     {`${optionObj.name} ${optionObj.number}`}
                                                 </Text>
                                             })
                                         }</View>
                                     </TouchableOpacity>
                                 </View>
-                            </View>
-                            <View style={styles.trContainer}>
-                                
-                                
                             </View>
                         </View>
                     }
@@ -261,13 +258,14 @@ const styles = StyleSheet.create({
     filterContainer: {
         flexDirection: 'row',
         margin: 5,
+        marginTop: 10,
         justifyContent: 'center',
         alignItems: 'center',
     },
     searchContainer: {
         flexDirection: 'row',
         marginBottom: 2,
-        marginLeft: 20,
+        marginLeft: 0,
         marginRight: 20,
         justifyContent: 'space-between',
         alignItems: 'center',
@@ -304,7 +302,8 @@ const styles = StyleSheet.create({
         fontWeight: 'bold'
     },
     textStyle: {
-        textAlign: 'center'
+        textAlign: 'center',
+        color: 'rgb(94, 94, 94)'
     },
 
     filterStyle: {
