@@ -1,7 +1,7 @@
 import React from 'react'
 import { 
     CheckBox, ScrollView, View, Text, StyleSheet,
-    Picker, Image, FlatList, TouchableOpacity
+    TextInput, Picker, Image, FlatList, TouchableOpacity
 } from 'react-native'
 import SqlUtil from '../common/SqlUtil'
 import { withNavigation } from 'react-navigation'
@@ -24,7 +24,6 @@ class ItemList extends SqlUtil {
             return entry
         }, []).sort()
         this.state = {
-            isReady: false,
             itemList: [],
             keywordList,
             filter: [],
@@ -39,9 +38,11 @@ class ItemList extends SqlUtil {
     componentDidMount(){
         const { navigation } = this.props
         this.focusListener = navigation.addListener("didFocus", async () => {
+            this.isReady = false
+            const itemList = await this.searchItemList()
+            this.isReady = true
             this.setState({
-                isReady: true,
-                itemList: await this.searchItemList()
+                itemList: itemList
             })
         })
     }
@@ -99,9 +100,10 @@ class ItemList extends SqlUtil {
     }
 
     render() {
-        const { isReady, saveFilter, openFilter, sort, searchEnabled, searchValue } = this.state
+        const { scrolling, saveFilter, openFilter, sort, searchEnabled, searchValue } = this.state
         const keywordList = this.state.keywordList || []
         const filter = this.state.filter || []
+        const nameSearchGuideList = []
         const itemList = (this.state.itemList || []).filter((obj)=>{
             // filterList
             if(!filter.length) return true
@@ -117,6 +119,13 @@ class ItemList extends SqlUtil {
             // openFilter
             if(!openFilter) return true
             return obj.openYn != 'Y'
+        }).filter((obj)=>{
+            // searchValue
+            if(!searchEnabled || !searchValue) return true
+            return obj.name.indexOf(searchValue) != -1
+        }).filter((obj)=>{
+            !nameSearchGuideList.includes(obj.firstChar) && nameSearchGuideList.push(obj.firstChar)
+            return true
         }).sort((obj1, obj2)=>{
             if(sort == 'name_asc'){
                 return obj1.name > obj2.name ? 1: -1
@@ -134,7 +143,7 @@ class ItemList extends SqlUtil {
         
         return (
             <View style={styles.container}>
-                {(!isReady)? <Loading />:null}
+                {(!this.isReady)? <Loading />:null}
                 <View style={styles.filterContainer}>
                     <View style={[styles.filterStyle, {backgroundColor: Util.green}]}>
                         <TouchableOpacity onPress={()=>{this.setState({filter: []})}}>
@@ -197,6 +206,18 @@ class ItemList extends SqlUtil {
                         </View>
                     </View>
                 </View>
+
+                {
+                    !searchEnabled? null:
+                    <View style={{width: '50%', alignSelf: 'flex-end', marginTop: -12, marginRight: 5,
+                        borderWidth: 3, borderColor: Util.filterSelected}}>
+                        <TextInput
+                            style={{borderColor: 'gray'}}
+                            onChangeText={(text) => this.setState({searchValue: text})}
+                            value={searchValue}
+                        />
+                    </View>
+                }
                 
                 {
                     !itemList.length? null:
@@ -204,85 +225,123 @@ class ItemList extends SqlUtil {
                         <Text style={{fontSize: 8}}>Total {Util.comma(itemList.length || 0)}</Text>
                     </View>
                 }
-                <FlatList style={styles.scrollContainer}
-                    data={itemList}
-                    keyExtractor={(item) => item.name}
-                    renderItem={({item, index}) => {
-                        return <View style={styles.componentContainer} key={`item_${encodeURI(item.name)}_${index}`}>
-                            <View style={[styles.trContainer]}>
-                                <View style={[styles.tdContainer, {flex: 0.3, marginLeft: 5, marginRight: 5}]}>
-                                    <Image source={require('../../assets/images/items/거시기.png')} style={styles.itemImageStyle} />
-                                </View>
-                                <View style={[styles.tdContainer, {flex: 0.7}]}>
-                                    {
-                                        (!item.price || item.price <= 0) ? null:
-                                        <View style={[{marginBottom: 3, alignSelf: 'flex-start'}]}>
-                                            <Text style={[styles.textStyle, {fontSize: 11, color: Util.grey, textAlign: 'left'}]}>{`${Util.comma(item.price)} zenny`}</Text>
-                                        </View>
-                                    }
-                                    <View style={[{marginBottom: 3, alignSelf: 'flex-start'}]}>
-                                        <Text style={[styles.textStyle, {fontSize: 17, fontWeight: 'bold', textAlign: 'left'}]}>{item.name}</Text>
-                                    </View>
-                                    <View style={[{marginBottom: 3, alignSelf: 'flex-start'}]}>
-                                        <Text style={[styles.textStyle, {fontSize: 13, color: Util.grey, textAlign: 'left'}]}>{
-                                            item.option.map((optionObj, optionIndex)=>{
-                                                return `${optionObj.name} ${optionObj.number}`
-                                            }).join(', ')
-                                        }</Text>
-                                    </View>
-                                    <View style={[{alignSelf: 'flex-start'}]}>
-                                        <Text style={[styles.textStyle, {fontSize: 11, color: Util.grey, textAlign: 'left'}]}>{
-                                            !item.recipe || !item.recipe.length ? '':
-                                            '재료: '+item.recipe.map((optionObj, optionIndex)=>{
-                                                return `${optionObj.name} ${optionObj.number}`
-                                            }).join(', ')
-                                        }</Text>
-                                    </View>
-                                </View>
-                            </View>
-                            <View style={styles.trContainer}>
-                                <View style={[styles.tdContainer, {flex: 0.5, borderBottomWidth: 3, marginRight: 5}, 
-                                    item.saveYn=='Y'?{borderColor: saveColor}:{borderColor: 'white'}]}>
-                                    <TouchableOpacity onPress={()=>this.updateSaveChecked(item)}>
-                                        <View style={[styles.trContainer]}>
-                                            <CheckBox containerStyle={{backgroundColor: 'grey'}}
-                                                value={item.saveYn=='Y'?true:false} onValueChange={()=>this.updateSaveChecked(item)} />
-                                            <Text style={[styles.thTextStyle, {color: Util.grey, fontWeight: 'bold'},
-                                                item.saveYn=='Y'?{color: saveColor}:null]}>저장</Text>
-                                        </View>
-                                        <View style={[styles.trContainer, {flex: 0.5}]}>{
-                                            item.savePoint.map((optionObj, optionIndex)=>{
-                                                return <Text style={[styles.textStyle, {color: Util.grey},
-                                                    item.saveYn=='Y'?{color: saveColor}:null]} key={`saveOption_${encodeURI(item.name)}_${optionIndex}`}>
-                                                    {`${optionObj.name} ${optionObj.number}`}
-                                                </Text>
-                                            })
-                                        }</View>
-                                    </TouchableOpacity>
-                                </View>
-                                <View style={[styles.tdContainer, {flex: 0.5, borderBottomWidth: 3, marginLeft: 5}, 
-                                    item.openYn=='Y'?{borderColor: openColor}:{borderColor: 'white'}]}>
-                                    <TouchableOpacity onPress={()=>this.updateOpenChecked(item)}>
-                                        <View style={[styles.trContainer]}>
-                                            <CheckBox value={item.openYn=='Y'?true:false} onValueChange={()=>this.updateOpenChecked(item)} />
-                                            <Text style={[styles.thTextStyle, {color: Util.grey, fontWeight: 'bold'},
-                                                item.openYn=='Y'?{color: openColor}:null]}>해제</Text>
-                                        </View>
-                                        <View style={[styles.trContainer, {flex: 0.5}]}>{
-                                            item.openPoint.map((optionObj, optionIndex)=>{
-                                                return <Text style={[styles.textStyle, {color: Util.grey},
-                                                    item.openYn=='Y'?{color: openColor}:null]} key={`openOption_${encodeURI(item.name)}_${optionIndex}`}>
-                                                    {`${optionObj.name} ${optionObj.number}`}
-                                                </Text>
-                                            })
-                                        }</View>
-                                    </TouchableOpacity>
-                                </View>
-                            </View>
+                {
+                    !scrolling? null:
+                    <TouchableOpacity style={styles.scrollUpIconStyle} onPress={()=>{this.list.scrollToIndex({index:0})}}>
+                        <View>
+                            <Icon.AntDesign name="caretup" size={20} color='white' />
                         </View>
-                    }
-                } >
-                </FlatList>
+                    </TouchableOpacity>
+                }
+                <View style={{flex:1, flexDirection: 'row', margin: 10}}>
+                    <View style={{flex:1}}>
+                        <FlatList style={styles.scrollContainer} 
+                            onScroll={(event)=>{
+                                if(event.nativeEvent.contentOffset.y >= 5) this.setState({scrolling: true})
+                                else this.setState({scrolling: false})
+                            }}
+                            ref={(ref)=>{this.list=ref}}
+                            data={itemList}
+                            keyExtractor={(item) => item.name}
+                            renderItem={({item, index}) => {
+                                return <View style={styles.componentContainer} key={`item_${encodeURI(item.name)}_${index}`}>
+                                    <View style={[styles.trContainer]}>
+                                        <View style={[styles.tdContainer, {flex: 0.3, marginLeft: 5, marginRight: 5}]}>
+                                            <Image source={require('../../assets/images/items/거시기.png')} style={styles.itemImageStyle} />
+                                        </View>
+                                        <View style={[styles.tdContainer, {flex: 0.7}]}>
+                                            {
+                                                (!item.price || item.price <= 0) ? null:
+                                                <View style={[{marginBottom: 3, alignSelf: 'flex-start'}]}>
+                                                    <Text style={[styles.textStyle, {fontSize: 11, color: Util.grey, textAlign: 'left'}]}>{`${Util.comma(item.price)} zenny`}</Text>
+                                                </View>
+                                            }
+                                            <View style={[{marginBottom: 3, alignSelf: 'flex-start'}]}>
+                                                <Text style={[styles.textStyle, {fontSize: 17, fontWeight: 'bold', textAlign: 'left'}]}>{item.name}</Text>
+                                            </View>
+                                            <View style={[{marginBottom: 3, alignSelf: 'flex-start'}]}>
+                                                <Text style={[styles.textStyle, {fontSize: 13, color: Util.grey, textAlign: 'left'}]}>{
+                                                    item.option.map((optionObj, optionIndex)=>{
+                                                        return `${optionObj.name} ${optionObj.number||''}`
+                                                    }).join(', ')
+                                                }</Text>
+                                            </View>
+                                            <View style={[{alignSelf: 'flex-start'}]}>
+                                                <Text style={[styles.textStyle, {fontSize: 11, color: Util.grey, textAlign: 'left'}]}>{
+                                                    !item.recipe || !item.recipe.length ? '':
+                                                    '재료: '+item.recipe.map((optionObj, optionIndex)=>{
+                                                        return `${optionObj.name} ${optionObj.number||''}`
+                                                    }).join(', ')
+                                                }</Text>
+                                            </View>
+                                        </View>
+                                    </View>
+                                    <View style={styles.trContainer}>
+                                        <View style={[styles.tdContainer, {flex: 0.5, borderBottomWidth: 3, marginRight: 5}, 
+                                            item.saveYn=='Y'?{borderColor: saveColor}:{borderColor: 'white'}]}>
+                                            <TouchableOpacity onPress={()=>this.updateSaveChecked(item)}>
+                                                <View style={[styles.trContainer]}>
+                                                    <CheckBox containerStyle={{backgroundColor: 'grey'}}
+                                                        value={item.saveYn=='Y'?true:false} onValueChange={()=>this.updateSaveChecked(item)} />
+                                                    <Text style={[styles.thTextStyle, {color: Util.grey, fontWeight: 'bold'},
+                                                        item.saveYn=='Y'?{color: saveColor}:null]}>저장</Text>
+                                                </View>
+                                                <View style={[styles.trContainer, {flex: 0.5}]}>{
+                                                    item.savePoint.map((optionObj, optionIndex)=>{
+                                                        return <Text style={[styles.textStyle, {color: Util.grey},
+                                                            item.saveYn=='Y'?{color: saveColor}:null]} key={`saveOption_${encodeURI(item.name)}_${optionIndex}`}>
+                                                            {`${optionObj.name} ${optionObj.number}`}
+                                                        </Text>
+                                                    })
+                                                }</View>
+                                            </TouchableOpacity>
+                                        </View>
+                                        <View style={[styles.tdContainer, {flex: 0.5, borderBottomWidth: 3, marginLeft: 5}, 
+                                            item.openYn=='Y'?{borderColor: openColor}:{borderColor: 'white'}]}>
+                                            <TouchableOpacity onPress={()=>this.updateOpenChecked(item)}>
+                                                <View style={[styles.trContainer]}>
+                                                    <CheckBox value={item.openYn=='Y'?true:false} onValueChange={()=>this.updateOpenChecked(item)} />
+                                                    <Text style={[styles.thTextStyle, {color: Util.grey, fontWeight: 'bold'},
+                                                        item.openYn=='Y'?{color: openColor}:null]}>해제</Text>
+                                                </View>
+                                                <View style={[styles.trContainer, {flex: 0.5}]}>{
+                                                    item.openPoint.map((optionObj, optionIndex)=>{
+                                                        return <Text style={[styles.textStyle, {color: Util.grey},
+                                                            item.openYn=='Y'?{color: openColor}:null]} key={`openOption_${encodeURI(item.name)}_${optionIndex}`}>
+                                                            {`${optionObj.name} ${optionObj.number}`}
+                                                        </Text>
+                                                    })
+                                                }</View>
+                                            </TouchableOpacity>
+                                        </View>
+                                    </View>
+                                </View>
+                            }} />
+                    </View>
+                    {/* {
+                        sort != 'name_asc'? null:
+                        <View style={{marginTop: 10, marginBottom: 10}}>{
+                            nameSearchGuideList.map((obj)=>{
+                                return <TouchableOpacity onPress={()=>{
+                                    const target = itemList.reduce((entry, item, index)=>{
+                                        if(!entry && obj==item.firstChar) return {...item, index}
+                                        return entry
+                                    }, null)
+                                    console.log('target',target, this.flatlist)
+                                    target && this.list.scrollToIndex({
+                                        animated: true,
+                                        index: target.index
+                                    })
+
+                                }} key={obj}>
+                                    <Text style={[
+                                        {color: Util.grey}
+                                    ]}>{obj}</Text>
+                                </TouchableOpacity>
+                            })
+                        }</View>
+                    } */}
+                </View>
             </View>
         )
     }
@@ -354,6 +413,16 @@ const styles = StyleSheet.create({
     filterTextStyle: {
         fontSize: 11,
         color: 'white'
+    },
+    scrollUpIconStyle: {
+        position:'absolute', 
+        right: 10, 
+        bottom: 10, 
+        zIndex: 999, 
+        elevation: 5, 
+        padding: 10,
+        borderRadius: 20,
+        backgroundColor: Util.tabColor
     }
 })
 

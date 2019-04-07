@@ -100,10 +100,10 @@ class SqlUtil extends React.Component {
             SELECT 1 
             FROM sqlite_master 
             WHERE name = 'TN_INGREDIENT' 
-            AND sql LIKE '%aaa%'
+            AND sql LIKE '%name%'
             )
         `, [])
-        let result = undefined
+        let result = res
         if (param || res.rows.length == 0) {
             await this.queryExecute('DROP TABLE IF EXISTS TN_INGREDIENT', [])
             const { tx1, res1 } = await this.queryExecute(

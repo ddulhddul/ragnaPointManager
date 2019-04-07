@@ -1,7 +1,8 @@
 [
     {
-        "imageSrc": "https: //cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjc2/MDAxNTMwMjAxNTk5Nzg2.2OX33kc5cs5ZD6-PfBUEUkSY_M8UAofADSzG3GxIxkgg.bzkiWFNDPX_-h5Pm8orcYpVBMDtbBPHiin7fZGfwllwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_031.png?type=w740",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjc2/MDAxNTMwMjAxNTk5Nzg2.2OX33kc5cs5ZD6-PfBUEUkSY_M8UAofADSzG3GxIxkgg.bzkiWFNDPX_-h5Pm8orcYpVBMDtbBPHiin7fZGfwllwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_031.png?type=w740",
         "name": "악마의 머리띠",
+        "firstChar": "ᄋ",
         "option": [
             {
                 "name": "STR",
@@ -72,6 +73,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMzAg/MDAxNTMwMjAxNjExMzA5.qhW_5K042sXQOY3toMyb6Gzo1DJb7XTXL3X5JAnzHLgg.uWgtRgL7RG5CzpINGeU7gDJ7wmE3oyAe5kPQ-2U7svIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_124.png?type=w740",
         "name": "솜브레로",
+        "firstChar": "ᄉ",
         "option": [
             {
                 "name": "STR",
@@ -80,10 +82,16 @@
                 "origin": "STR +3"
             },
             {
-                "name": "곤충형 몬스터 데미지 감소 +10%, 10제련 이상 시 MaxHP",
+                "name": "곤충형 몬스터 데미지 감소",
                 "number": 10,
                 "unit": "%",
-                "origin": "곤충형 몬스터 데미지 감소 +10%, 10제련 이상 시 MaxHP +10%"
+                "origin": "곤충형 몬스터 데미지 감소 +10%"
+            },
+            {
+                "name": "10제련 이상 시 MaxHP",
+                "number": 10,
+                "unit": "%",
+                "origin": "10제련 이상 시 MaxHP +10%"
             }
         ],
         "savePoint": [
@@ -130,7 +138,8 @@
         ],
         "keyword": [
             "STR",
-            "곤충형 몬스터 데미지 감소 +10%, 10제련 이상 시 MaxHP",
+            "곤충형 몬스터 데미지 감소",
+            "10제련 이상 시 MaxHP",
             "제련 ATK",
             "ATK",
             "악마의 뿔",
@@ -142,6 +151,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTAx/MDAxNTMwMjAxNjQxOTQz.NMPI5gR0Rh1wMbSfxbb2lTQcwTDsugqC-NxjeNW9ZZkg.tCP0kYovPnOsD1W_19zb6ICWtgH2WaNO0sPg9s_Tyg4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_135.png?type=w740",
         "name": "오크히어로의 투구[1]",
+        "firstChar": "ᄋ",
         "option": [
             {
                 "name": "STR",
@@ -219,12 +229,19 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTMz/MDAxNTMwMjAxNjU0NzMx.Tlo9IVlhXwKLt9RrrqNhkIUCQKif2T9BeVSe62Wol1Ug.E19ilK3N4vQvjb76AqU1pFlJjAv0CAT5NswGL7QweUkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_184.png?type=w740",
         "name": "다크나이트 마스크",
+        "firstChar": "ᄃ",
         "option": [
             {
-                "name": "일반공격 시 5% 일정 확률로 대상이 일정 시간 유혈 상태에 빠짐, 최대 2회 중복 가능",
+                "name": "일반공격 시 5% 일정 확률로 대상이 일정 시간 유혈 상태에 빠짐",
+                "number": null,
+                "unit": "% 일정 확률로 대상이 일정 시간 유혈 상태에 빠짐",
+                "origin": "일반공격 시 5% 일정 확률로 대상이 일정 시간 유혈 상태에 빠짐"
+            },
+            {
+                "name": "최대 2회 중복 가능",
                 "number": null,
                 "unit": "회 중복 가능",
-                "origin": "일반공격 시 5% 일정 확률로 대상이 일정 시간 유혈 상태에 빠짐, 최대 2회 중복 가능"
+                "origin": "최대 2회 중복 가능"
             },
             {
                 "name": "해당 효과 데미지 중첩과 함께 적용 가능",
@@ -276,7 +293,8 @@
             }
         ],
         "keyword": [
-            "일반공격 시 5% 일정 확률로 대상이 일정 시간 유혈 상태에 빠짐, 최대 2회 중복 가능",
+            "일반공격 시 5% 일정 확률로 대상이 일정 시간 유혈 상태에 빠짐",
+            "최대 2회 중복 가능",
             "해당 효과 데미지 중첩과 함께 적용 가능",
             "제련 ATK",
             "ATK",
@@ -289,6 +307,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTk5/MDAxNTMwMjAxNjYyNDI2.yhdW3pvkbke-YTjZLOjORokEXcM8eCs9DFVTmgFUxgIg.pbMQAlscAVGXkft9THfmoSA11KziokT0aoDYeJcc4wQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_186.png?type=w740",
         "name": "바포메트 주니어 모자",
+        "firstChar": "ᄇ",
         "option": [
             {
                 "name": "ATK",
@@ -365,6 +384,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTEx/MDAxNTMwMjAxNjY5NDk5.6O3rBwy5bjM0fqiHVfpWhotj3YJtca8wBG05_d1Uhdcg.Qvi3um1rNlQV-9w3fillflCjsyBS79cD7-3LbOtyF98g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_188.png?type=w740",
         "name": "카타나",
+        "firstChar": "ᄏ",
         "option": [
             {
                 "name": "패시스 스킬 [더블 어택] Lv.3 획득",
@@ -428,6 +448,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNTAg/MDAxNTMwMjAxNjc4OTkz.QUfcTHGMwQ2opRcg_NOuW-A5YQrxoas1NqJne9m4taMg.8HkKa75nV7RyuVex3_ZExrf6w7iHwqk3GsYfJnz2BXEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_190.png?type=w740",
         "name": "마제스틱 고우트",
+        "firstChar": "ᄆ",
         "option": [
             {
                 "name": "STR",
@@ -505,6 +526,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjAz/MDAxNTMwMjAxNjg4NjEx.F8ZjBVgOHEx1EjBCbQuBorlsCIyBxRc9Qr3hFmUhJvUg.ufOw6fnsHp4yNGkUzA50ZUDlFuSFnU4qTd2FjLS_01Ug.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_192.png?type=w740",
         "name": "드라큘라의 이빨",
+        "firstChar": "ᄃ",
         "option": [
             {
                 "name": "일반공격 시 일정 확률로 입히는 데미지를 자신의 HP로 회복",

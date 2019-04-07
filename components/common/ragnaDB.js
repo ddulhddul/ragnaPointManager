@@ -155,6 +155,7 @@ JSON.stringify(
       if(index == 1){
         thisObj.imageSrc = trObj.querySelectorAll('td')[0].querySelector('img').getAttribute('src')
         thisObj.name = htmlToStr(trObj.querySelectorAll('td')[1].innerHTML)
+        thisObj.firstChar = String.fromCharCode(((thisObj.name.charCodeAt(0) - 44032)/28)/21 + 4352)
         thisObj.option = htmlToList(trObj.querySelectorAll('td')[2].innerHTML)
       }else if(index == 3){
         thisObj.savePoint = htmlToList(trObj.querySelectorAll('td')[0].innerHTML)

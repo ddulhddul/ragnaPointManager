@@ -2,12 +2,13 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjIg/MDAxNTMwMjAyMTYzMjM5.bXfrF-bgeKq2rFT27d4eL2Himzoaj2AqV9UmJMl3NUUg.NOUYd52-lGhjfhnHHP3bGFDGfM6CTTbxCWn5g9F3wI0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_002.png?type=w740",
         "name": "낙원단 가방",
+        "firstChar": "ᄂ",
         "option": [
             {
                 "name": "HIT",
-                "number": null,
+                "number": 5,
                 "unit": "",
-                "origin": "HIT + 5"
+                "origin": "HIT +5"
             }
         ],
         "savePoint": [
@@ -51,6 +52,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTU4/MDAxNTMwMjAyMTcxOTg3.RDgnxZrG_0Vxyhldx6XWBmXJqfXIJaZpuF0BSa33wHog.oDwgpBpGYHAI_1G9yWRlflThoBLHIAuvSKQQzExmrpAg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_006.png?type=w740",
         "name": "눈가리개",
+        "firstChar": "ᄂ",
         "option": [
             {
                 "name": "DEF",
@@ -92,6 +94,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTM5/MDAxNTMwMjAyMTc5MjU5.MyAzUtrWB3AI-iSbqFCki8OEquwGDx5flkrlHaiFq0kg.fsGnrd7B6ftfawJjtP8LmMdclA3Vek1IP-MhIrO_R5Yg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_013.png?type=w740",
         "name": "토끼 머리띠[1]",
+        "firstChar": "ᄐ",
         "option": [
             {
                 "name": "DEF",
@@ -155,6 +158,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjAz/MDAxNTMwMjAyMTg4MzEw.jmZO3lc7lxHszJwod2nEDfUOll4XvhauKlVAfX1dvLIg.VU_46JE7rBXfiJxOp7Jr1HdlGZL0MAreV3QRex21p8wg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_016.png?type=w740",
         "name": "광대코",
+        "firstChar": "ᄀ",
         "option": [
             {
                 "name": "DEF",
@@ -204,6 +208,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNzUg/MDAxNTMwMjAyMTk2ODI1.DI-Kp2DhOexpj77Ta1p-gv4lD56Y7ZFQT37MzTC-HvUg.z9zva1Wvbmn9945IMWeBmsn0ug71Jw1OHizyfHfz69Eg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_040.png?type=w740",
         "name": "아가미 헬름",
+        "firstChar": "ᄋ",
         "option": [
             {
                 "name": "DEF",
@@ -259,6 +264,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMzkg/MDAxNTMwMjAyMjA3OTAz.i0tVpKMxw1di6lxCO479kGqYeJR1gUw48wESq0WgUdQg.gk7xXS5EejMAuKcCfHvqy5kXO1NU_oP7VqKjv8Lpijcg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_052.png?type=w740",
         "name": "보따리",
+        "firstChar": "ᄇ",
         "option": [
             {
                 "name": "화속성 공격",
@@ -321,6 +327,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNDYg/MDAxNTMwMjAyMjE4Mjkz.aIB_w1Su5-EmkZYNMkfhX5TA1AP7eSgbj9FJbmVcA2og.1j0XAOkNYsx-PmnI2PX9XBXLcTKr2UEMCip4PH4Eu-Qg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_056.png?type=w740",
         "name": "의적 안대",
+        "firstChar": "ᄋ",
         "option": [
             {
                 "name": "DEF",
@@ -376,6 +383,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTky/MDAxNTMwMjAyMjI1OTY0.0otyMpuJ-wW2TaK8ZFUk9FFNzh2wPSSBXLCdFOm5Eh8g.HDibioFv--DtA_mSa-49i0Snx3mD3iKWhtets-0cMpUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_057.png?type=w740",
         "name": "깃털모자[1]",
+        "firstChar": "ᄀ",
         "option": [
             {
                 "name": "DEF",
@@ -439,6 +447,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTI5/MDAxNTMwMjAyMjM0NjE5.vaVpfkcC0FyRfs85tLHvBZgDcw37T6Ja2c53t97tqzsg.YkmGCoOO7jFRqYhtc0bXk-88naQ2_ObvJzRsKlrCOrEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_065.png?type=w740",
         "name": "화살주머니",
+        "firstChar": "ᄒ",
         "option": [
             {
                 "name": "원거리 ATK",
@@ -502,6 +511,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMzAg/MDAxNTMwMjAyMjQ2MTQz.p0BwrLtu6DnwbWk6ybsHUwZfwlllQTEzCB_QwXcemTAg.pfcTYCfxWQhIhX5Zri0UK_REcyTQW63Lz4-lnmVJiogg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_083.png?type=w740",
         "name": "사막의 왕자[1]",
+        "firstChar": "ᄉ",
         "option": [
             {
                 "name": "DEF",
@@ -551,6 +561,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTUy/MDAxNTMwMjAyMjUzNjg1.0U53-ZaUe70XBYgyXYuKGZsO8LV7h04DImR3CdhueYYg.ggEDafTOD1aW5mp3C5GNtUQreIf_DF30F6Xz0Po-N_Eg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_100.png?type=w740",
         "name": "열혈머리띠",
+        "firstChar": "ᄋ",
         "option": [
             {
                 "name": "DEF",
@@ -614,6 +625,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMSAg/MDAxNTMwMjAyMjYyMzQy.EX4zJLSLlFOpjER6v2YPGBGttSfulk6BBX-KTZxhsI0g.hKbx5UERmsAjC_0DtZtsuxYmhlneSuXa7O0q5KdfGzsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_117.png?type=w740",
         "name": "거시기",
+        "firstChar": "ᄀ",
         "option": [
             {
                 "name": "인간형에게 데미지 감소",
@@ -670,6 +682,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjUy/MDAxNTMwMjAyMjczODc3.7yxlMqZ9RhsCs2NsIO8jVI4b7SbP4E5eH29jCvjSvJ8g.Qbyyk_AQOH22vPS2Ix7muL6_FS6K5pIHzn0v74Q58ncg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_138.png?type=w740",
         "name": "데비루치 모자",
+        "firstChar": "ᄃ",
         "option": [
             {
                 "name": "DEF",
@@ -746,6 +759,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjY5/MDAxNTMwMjAyMjg1MjY1._Dm2ItROsh5cB4k5pd04JGk7FBvT6Wg6HBTwMAHFkWkg.bG96jeihKoN4NqSZqoy9EdkaOBW59cgghx7WfWJy_kQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_153.png?type=w740",
         "name": "혼자놀기 상자[1]",
+        "firstChar": "ᄒ",
         "option": [
             {
                 "name": "DEF",
@@ -802,6 +816,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNiAg/MDAxNTMwMjAyMjkzNjc3.IHN_nUrwjvuurh4QtNjTb38_BXGHVWnaCoc6BVLE8P8g.uxb89vuOpeUrcfJxKCzjb3yyRT0emv70Mvvyqc4Hjuwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_154.png?type=w740",
         "name": "초승달 머리핀",
+        "firstChar": "ᄎ",
         "option": [
             {
                 "name": "HIT",
@@ -857,6 +872,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjk5/MDAxNTMwMjAyMzA0NDIy.gYZphdrCo21Vf6QTFS_U4iCZp-V4wpLneK5V0JcaPfkg.ZkJ6ZVgG-6Zat8uU49qVp7j0Y7PQNsa3NOI9m8LL-Mcg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_169.png?type=w740",
         "name": "머리에 박힌 나사",
+        "firstChar": "ᄆ",
         "option": [
             {
                 "name": "HIT",
@@ -926,6 +942,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMzkg/MDAxNTMwMjAyMzE2ODc5.yCVAUu649dnz21UsTO28cbhXKoWE5hv3FAwPOOM76_cg.NE__WAtMzpglu0FuYOV1H2SruK0pk6-soUbtoWs1XCMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_206.png?type=w740",
         "name": "쿠키 헤어핀",
+        "firstChar": "ᄏ",
         "option": [
             {
                 "name": "MaxHP",
@@ -981,6 +998,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfODgg/MDAxNTMwMjAyMzI3OTk3.HhoKKuU1W_s1_s6WrDgYljpbMw_xvr27hA1i6PSNyX0g.OGnLUu497yCk83-TdyWUl3LcqSWzGlY0Arm7a0l3AgUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_207.png?type=w740",
         "name": "선물상자",
+        "firstChar": "ᄉ",
         "option": [
             {
                 "name": "DEF",
@@ -1043,6 +1061,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjQ0/MDAxNTMwMjAyMzM3ODM3.vL-cruQEeEIYZ90qr139CmwrReEgRKkslC-5mODwMiAg.OsDQ4T6zs7zOisPbJArG5rDSLeNZ8HXqN0i26-SNkccg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_209.png?type=w740",
         "name": "거짓말쟁이의 코",
+        "firstChar": "ᄀ",
         "option": [
             {
                 "name": "인간형에게 데미지 추가",
@@ -1092,6 +1111,7 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTcx/MDAxNTMwMjAyMzQ4Mjg3.OI_vyzUiKuqV6-Wm0qeT_hs2FjJ4gcKuBfh6w3g0x3Yg.Jx3WfWNA5bmr_VFteycOizIS4x-GKbCZ2aTimvIfUoYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_210.png?type=w740",
         "name": "향긋한 꿀단지",
+        "firstChar": "ᄒ",
         "option": [
             {
                 "name": "MaxSP",
