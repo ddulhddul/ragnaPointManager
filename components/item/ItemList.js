@@ -66,6 +66,8 @@ class ItemList extends SqlUtil {
         const dbObj = await this.selectItemByName(obj)
         if(dbObj) await this.updateItem(obj)
         else await this.insertItem(obj)
+
+        Util.toast(obj.message)
         this.setState({
             itemList: await this.searchItemList()
         })
@@ -75,6 +77,7 @@ class ItemList extends SqlUtil {
         this.executeUpdateItem({
             ...param,
             saveYn: param.saveYn=='Y'? 'N': 'Y',
+            message: param.saveYn=='Y'? `${param.name} 저장 취소`: `${param.name} 저장`
         })
     }
     
@@ -82,6 +85,7 @@ class ItemList extends SqlUtil {
         this.executeUpdateItem({
             ...param,
             openYn: param.openYn=='Y'? 'N': 'Y',
+            message: param.openYn=='Y'? `${param.name} 해제 취소`: `${param.name} 해제`
         })
     }
 

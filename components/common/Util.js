@@ -1,3 +1,5 @@
+import { ToastAndroid } from 'react-native'
+
 export default {
     tabColor: 'rgb(243, 156, 18)',
     green: 'rgb(26, 188, 156)',
@@ -7,4 +9,14 @@ export default {
     comma(x) {
         return String(x || '').replace(/\B(?=(\d{3})+(?!\d))/g, ",")
     },
+
+    toast(msg){
+        msg && ToastAndroid.showWithGravityAndOffset(
+            msg,
+            ToastAndroid.SHORT,
+            ToastAndroid.BOTTOM,
+            0,
+            200,
+        )
+    }
 }
