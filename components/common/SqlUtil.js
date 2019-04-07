@@ -1,5 +1,6 @@
 import { SQLite } from 'expo'
 import React from 'react'
+import ragnaDB from '../common/ragnaDB'
 const db = SQLite.openDatabase('ragnaPoint.db')
 
 class SqlUtil extends React.Component {
@@ -12,10 +13,19 @@ class SqlUtil extends React.Component {
         return (res.rows||{})._array || []
     }
 
+    listTnIngredient = async (param = {}, callback = () => {}) => {
+        const { res } = await this.queryExecute(
+            `SELECT * FROM TN_INGREDIENT`,
+            []
+        )
+        return (res.rows||{})._array || []
+    }
+
     selectItemByName = async (param = {}, callback = () => {}) => {
         const { res } = await this.queryExecute(
-            `SELECT * 
-            FROM TN_ITEM
+            `SELECT 
+                ITEM.* 
+            FROM TN_ITEM ITEM
             WHERE name = ?`,
             [param.name]
         )
@@ -79,6 +89,51 @@ class SqlUtil extends React.Component {
             )`,
                 [])
         }
+    }
+
+    initIngredientTable = async (param) => {
+        const { res } = await this.queryExecute(`
+            SELECT 1 FROM sqlite_master 
+            WHERE type='table' 
+            AND name='TN_INGREDIENT'
+            AND EXISTS (
+            SELECT 1 
+            FROM sqlite_master 
+            WHERE name = 'TN_INGREDIENT' 
+            AND sql LIKE '%aaa%'
+            )
+        `, [])
+        let result = undefined
+        if (param || res.rows.length == 0) {
+            await this.queryExecute('DROP TABLE IF EXISTS TN_INGREDIENT', [])
+            const { tx1, res1 } = await this.queryExecute(
+                `CREATE TABLE IF NOT EXISTS TN_INGREDIENT (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT, 
+                    name VARCHAR(255) UNIQUE,
+                    date VARCHAR(10),
+                    price NUMBER default 0
+                )`,
+            [])
+            result = await this.insertIngredientList()
+        }
+        return result
+    }
+
+    insertIngredientList = async (param = {}, callback = () => {}) => {
+        const ingredientList = ragnaDB.getIngredientList()
+        const { res } = await this.queryExecute(
+            `insert into TN_INGREDIENT (
+                name,
+                date,
+                price
+                ) values 
+                ${ingredientList.map((obj)=>{
+                    return `('${obj.name}', '${obj.date}', ${obj.price})`
+                }).join(', ')}
+                `,
+            []
+        )
+        return res
     }
 
     queryExecute = async (sql = '', param = [], callback = () => { }) => {

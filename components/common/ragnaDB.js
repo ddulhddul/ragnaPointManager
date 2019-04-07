@@ -6,7 +6,7 @@ import save_smeltatk_1 from './ragnaJSON/save_smeltatk_1.json'
 
 export default {
   getItemList(){
-    return Array(0).concat(
+    const result = Array(0).concat(
       open_atk_1, 
       open_atk_2,
       save_atk_1,
@@ -23,8 +23,112 @@ export default {
     }).map((obj, index)=>{
       return {...obj, key:index}
     })
+
+    // const recipeList = []
+    // result.map((obj)=>{
+    //   obj.recipe.map((obj)=>{
+    //     if(!recipeList.includes(obj.name)){
+    //       recipeList.push(obj.name)
+    //     }
+    //   })
+    // })
+    // recipeList.sort()
+    // console.log('recipeList',recipeList)
+
+    return result
+  },
+
+  getIngredientList(){
+    return ingredientsList
   }
 }
+
+const ingredientsList = [
+  {date: '20190407', price: 0,    name: "2018.3월 뽑기"}, 
+  {date: '20190407', price: 0,    name: "2018.4월 뽑기"}, 
+  {date: '20190407', price: 0,    name: "2018.5월 뽑기"}, 
+  {date: '20190407', price: 0,    name: "2018.6월 뽑기"}, 
+  {date: '20190407', price: 0,    name: "EP 2.0 특전 구매"}, 
+  {date: '20190407', price: 1,    name: "가렛"}, 
+  {date: '20190407', price: 2,    name: "갈색 염료"}, 
+  {date: '20190407', price: 3,    name: "강철"}, 
+  {date: '20190407', price: 4,    name: "검은 염료"}, 
+  {date: '20190407', price: 5,    name: "괘종시계"}, 
+  {date: '20190407', price: 6,    name: "구멍난 빨간 양말"}, 
+  {date: '20190407', price: 7,    name: "꿀"}, 
+  {date: '20190407', price: 8,    name: "끈적끈적한 액체"}, 
+  {date: '20190407', price: 9,    name: "네잎 클로버"}, 
+  {date: '20190407', price: 0,    name: "노란 염료"}, 
+  {date: '20190407', price: 0,    name: "눈사람"}, 
+  {date: '20190407', price: 0,    name: "단단한 껍질"}, 
+  {date: '20190407', price: 0,    name: "더듬이"}, 
+  {date: '20190407', price: 0,    name: "드래곤의 비늘"}, 
+  {date: '20190407', price: 0,    name: "리본 끈"}, 
+  {date: '20190407', price: 0,    name: "마녀의 별모래"}, 
+  {date: '20190407', price: 0,    name: "마스테라의 열매"}, 
+  {date: '20190407', price: 0,    name: "만드라"}, 
+  {date: '20190407', price: 0,    name: "망자의 유물"}, 
+  {date: '20190407', price: 0,    name: "방울"}, 
+  {date: '20190407', price: 0,    name: "별의 모서리"}, 
+  {date: '20190407', price: 0,    name: "보따리 도면"}, 
+  {date: '20190407', price: 0,    name: "보라 염료"}, 
+  {date: '20190407', price: 0,    name: "부드러운 깃털"}, 
+  {date: '20190407', price: 0,    name: "부드러운 털"}, 
+  {date: '20190407', price: 0,    name: "부드러운털"}, 
+  {date: '20190407', price: 0,    name: "부품"}, 
+  {date: '20190407', price: 0,    name: "불사의 심장"}, 
+  {date: '20190407', price: 0,    name: "브리간"}, 
+  {date: '20190407', price: 0,    name: "비정한 마음"}, 
+  {date: '20190407', price: 0,    name: "빗빛의 룬"}, 
+  {date: '20190407', price: 0,    name: "빛의 알갱이"}, 
+  {date: '20190407', price: 0,    name: "빨간 염료"}, 
+  {date: '20190407', price: 0,    name: "뼈조각"}, 
+  {date: '20190407', price: 0,    name: "사과 쥬스"}, 
+  {date: '20190407', price: 0,    name: "사금"}, 
+  {date: '20190407', price: 0,    name: "사이파"}, 
+  {date: '20190407', price: 0,    name: "사탕"}, 
+  {date: '20190407', price: 0,    name: "석탄"}, 
+  {date: '20190407', price: 210,    name: "선물 포장지"}, 
+  {date: '20190407', price: 0,    name: "성흔"}, 
+  {date: '20190407', price: 1,    name: "셀"}, 
+  {date: '20190407', price: 0,    name: "송곳니"}, 
+  {date: '20190407', price: 0,    name: "수정으로 만든 거울"}, 
+  {date: '20190407', price: 0,    name: "시간 왜곡 버튼"}, 
+  {date: '20190407', price: 0,    name: "시간의 결정"}, 
+  {date: '20190407', price: 0,    name: "시계탑의 열쇠"}, 
+  {date: '20190407', price: 0,    name: "심연의 꽃"}, 
+  {date: '20190407', price: 0,    name: "썩은 붕대"}, 
+  {date: '20190407', price: 0,    name: "아메디스트"}, 
+  {date: '20190407', price: 0,    name: "아쿠아마린"}, 
+  {date: '20190407', price: 0,    name: "악마의 뿔"}, 
+  {date: '20190407', price: 0,    name: "어둠에 잠긴 칼날"}, 
+  {date: '20190407', price: 0,    name: "얼음 가루"}, 
+  {date: '20190407', price: 0,    name: "얼음 심장"}, 
+  {date: '20190407', price: 2,    name: "얼음 조각"}, 
+  {date: '20190407', price: 0,    name: "오크워리어 증표"}, 
+  {date: '20190407', price: 0,    name: "오크의 손톱"}, 
+  {date: '20190407', price: 0,    name: "오크히어로의 증표"}, 
+  {date: '20190407', price: 0,    name: "유리구슬"}, 
+  {date: '20190407', price: 0,    name: "자르곤"}, 
+  {date: '20190407', price: 0,    name: "장미석영"}, 
+  {date: '20190407', price: 0,    name: "저주받은 루비"}, 
+  {date: '20190407', price: 0,    name: "젤로피"}, 
+  {date: '20190407', price: 0,    name: "진주"}, 
+  {date: '20190407', price: 0,    name: "질콘"}, 
+  {date: '20190407', price: 0,    name: "철"}, 
+  {date: '20190407', price: 0,    name: "초록 염료"}, 
+  {date: '20190407', price: 0,    name: "크리스마스 화환"}, 
+  {date: '20190407', price: 0,    name: "크리스탈 뼈"}, 
+  {date: '20190407', price: 0,    name: "토파즈"}, 
+  {date: '20190407', price: 0,    name: "투명한 천조각"}, 
+  {date: '20190407', price: 0,    name: "파란 염료"}, 
+  {date: '20190407', price: 0,    name: "핏빛의 룬"}, 
+  {date: '20190407', price: 0,    name: "하얀 염로"}, 
+  {date: '20190407', price: 0,    name: "하얀 염료"}, 
+  {date: '20190407', price: 0,    name: "하티의 이빨"}, 
+  {date: '20190407', price: 0,    name: "혜안"}, 
+  {date: '20190407', price: 0,    name: "흑운모"},
+]
 /*
   해체 보상(ATK)
     open_atk_1.json : https://cafe.naver.com/ragnarokmmorpg/269290

@@ -52,10 +52,19 @@ class ItemList extends SqlUtil {
 
     searchItemList = async () => {
         const dbItemList = await this.listTnItem()
+        const ingredientList = await this.listTnIngredient()
         return this.props.itemList.map((item)=>{
             const targetDbObj = (dbItemList.find((dbItem)=>dbItem.name==item.name) || {})
             return {
                 ...item,
+                price: item.recipe.reduce((entry, obj)=>{
+                    if(entry < 0) return entry
+                    const ingreObj = ingredientList.find((ingre)=>{
+                        return ingre.name == obj.name && ingre.price > 0
+                    })
+                    if(!ingreObj) return -1
+                    return entry + (ingreObj.price * obj.number)
+                }, 0),
                 saveYn: targetDbObj.saveYn,
                 openYn: targetDbObj.openYn,
             }
@@ -108,6 +117,19 @@ class ItemList extends SqlUtil {
             // openFilter
             if(!openFilter) return true
             return obj.openYn != 'Y'
+        }).sort((obj1, obj2)=>{
+            if(sort == 'name_asc'){
+                return obj1.name > obj2.name ? 1: -1
+
+            }else if(sort == 'price_asc'){
+                if(obj1.price <= 0) return 1
+                return obj1.price > obj2.price ? 1: -1
+
+            }else if(sort == 'price_desc'){
+                if(obj2.price <= 0) return 1
+                return obj1.price < obj2.price ? 1: -1
+            }
+            return 0
         })
         
         return (
@@ -192,10 +214,16 @@ class ItemList extends SqlUtil {
                                     <Image source={require('../../assets/images/items/거시기.png')} style={styles.itemImageStyle} />
                                 </View>
                                 <View style={[styles.tdContainer, {flex: 0.7}]}>
-                                    <View style={[{marginBottom: 5, alignSelf: 'flex-start'}]}>
+                                    {
+                                        (!item.price || item.price <= 0) ? null:
+                                        <View style={[{marginBottom: 3, alignSelf: 'flex-start'}]}>
+                                            <Text style={[styles.textStyle, {fontSize: 11, color: Util.grey, textAlign: 'left'}]}>{`${Util.comma(item.price)} zenny`}</Text>
+                                        </View>
+                                    }
+                                    <View style={[{marginBottom: 3, alignSelf: 'flex-start'}]}>
                                         <Text style={[styles.textStyle, {fontSize: 17, fontWeight: 'bold', textAlign: 'left'}]}>{item.name}</Text>
                                     </View>
-                                    <View style={[{marginBottom: 5, alignSelf: 'flex-start'}]}>
+                                    <View style={[{marginBottom: 3, alignSelf: 'flex-start'}]}>
                                         <Text style={[styles.textStyle, {fontSize: 13, color: Util.grey, textAlign: 'left'}]}>{
                                             item.option.map((optionObj, optionIndex)=>{
                                                 return `${optionObj.name} ${optionObj.number}`
