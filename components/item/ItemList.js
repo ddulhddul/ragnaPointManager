@@ -1,11 +1,14 @@
 import React from 'react'
 import { 
     CheckBox, ScrollView, View, Text, StyleSheet,
-    Image, FlatList, TouchableOpacity
+    Picker, Image, FlatList, TouchableOpacity
 } from 'react-native'
 import SqlUtil from '../common/SqlUtil'
 import { withNavigation } from 'react-navigation'
-import Util from '../common/Util';
+import Util from '../common/Util'
+import { Icon } from 'expo'
+const saveColor= 'rgb(230, 126, 34)'
+const openColor= 'rgb(41, 128, 185)'
 
 class ItemList extends SqlUtil {
 
@@ -22,7 +25,12 @@ class ItemList extends SqlUtil {
         this.state = {
             itemList: [],
             keywordList,
-            filter: []
+            filter: [],
+            saveFilter: false,
+            openFilter: false,
+            sort: 'name_asc',
+            searchEnabled: false,
+            searchValue: ''
         }
     }
 
@@ -75,9 +83,26 @@ class ItemList extends SqlUtil {
     }
 
     render() {
-        const itemList = this.state.itemList || []
+        const { saveFilter, openFilter, sort, searchEnabled, searchValue } = this.state
         const keywordList = this.state.keywordList || []
         const filter = this.state.filter || []
+        const itemList = (this.state.itemList || []).filter((obj)=>{
+            // filterList
+            if(!filter.length) return true
+            return filter.reduce((entry, filterObj)=>{
+                if(entry) return true
+                return (obj.keyword || []).includes(filterObj)
+            }, false)
+        }).filter((obj)=>{
+            // saveFilter
+            if(!saveFilter) return true
+            return obj.saveYn != 'Y'
+        }).filter((obj)=>{
+            // openFilter
+            if(!openFilter) return true
+            return obj.openYn != 'Y'
+        })
+        
         return (
             <View style={styles.container}>
                 <View style={styles.filterContainer}>
@@ -106,15 +131,45 @@ class ItemList extends SqlUtil {
                     }
                     </ScrollView>
                 </View>
+
+                <View style={[styles.searchContainer]}>
+                    <View style={[styles.trContainer]}>
+                        <Picker
+                            selectedValue={sort}
+                            mode="dropdown"
+                            style={{width: '100%', maxWidth: 200}}
+                            onValueChange={(itemValue, itemIndex) =>
+                                this.setState({sort: itemValue})}>
+                            <Picker.Item label="이름순" value="name_asc" />
+                            <Picker.Item label="낮은가격순" value="price_asc" />
+                            <Picker.Item label="높은가격순" value="price_desc" />
+                        </Picker>
+                    </View>
+                    <View style={[styles.trContainer, {marginLeft: 10}]}>
+                        <CheckBox value={saveFilter} onValueChange={()=>
+                            {this.setState({saveFilter: !saveFilter})}} />
+                        <TouchableOpacity onPress={()=>
+                            {this.setState({saveFilter: !saveFilter})}}>
+                            <Text style={[styles.thTextStyle, {color: saveColor}]}>저장필요</Text>
+                        </TouchableOpacity>
+                        <CheckBox value={openFilter} onValueChange={()=>
+                            {this.setState({openFilter: !openFilter})}} />
+                        <TouchableOpacity onPress={()=>
+                            {this.setState({openFilter: !openFilter})}}>
+                            <Text style={[styles.thTextStyle, {color: openColor}]}>해제필요</Text>
+                        </TouchableOpacity>
+                        <View style={[{marginLeft: 10, marginRight: 5, padding: 5}, 
+                            searchEnabled? {backgroundColor: Util.filterSelected, borderRadius: 10}: null]}>
+                            <TouchableOpacity onPress={()=>{this.setState({searchEnabled: !searchEnabled})}}>
+                                <Icon.Ionicons name="md-search" size={20}
+                                    color={searchEnabled?"white":"black"} />
+                            </TouchableOpacity>
+                        </View>
+                    </View>
+                </View>
                 
                 <FlatList style={styles.scrollContainer}
-                    data={itemList.filter((obj)=>{
-                        if(!filter.length) return true
-                        return filter.reduce((entry, filterObj)=>{
-                            if(entry) return true
-                            return (obj.keyword || []).includes(filterObj)
-                        }, false)
-                    })}
+                    data={itemList}
                     keyExtractor={(item) => item.name}
                     renderItem={({item, index}) => {
                         return <View style={styles.componentContainer} key={`item_${encodeURI(item.name)}_${index}`}>
@@ -207,6 +262,14 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         margin: 5,
         justifyContent: 'center',
+        alignItems: 'center',
+    },
+    searchContainer: {
+        flexDirection: 'row',
+        marginBottom: 2,
+        marginLeft: 20,
+        marginRight: 20,
+        justifyContent: 'space-between',
         alignItems: 'center',
     },
     scrollContainer: {
