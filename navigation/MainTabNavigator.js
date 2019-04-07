@@ -1,7 +1,8 @@
 import React from 'react';
 import { Platform } from 'react-native';
-import { createStackNavigator, createBottomTabNavigator } from 'react-navigation';
+import { createStackNavigator, createBottomTabNavigator, createMaterialTopTabNavigator } from 'react-navigation';
 
+import Util from '../components/common/Util'
 import TabBarIcon from '../components/TabBarIcon';
 import HomeScreen from '../screens/HomeScreen';
 import LinksScreen from '../screens/LinksScreen';
@@ -53,8 +54,21 @@ SettingsStack.navigationOptions = {
   ),
 };
 
-export default createBottomTabNavigator({
+export default createMaterialTopTabNavigator({
   HomeStack,
   LinksStack,
   SettingsStack,
+}, {
+  tabBarOptions: {
+    labelStyle: {
+      // fontSize: 12,
+    },
+    tabStyle: {
+      // width: 100,
+    },
+    style: {
+      paddingTop: 20,
+      backgroundColor: Util.tabColor
+    },
+  }
 });

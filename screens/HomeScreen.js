@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   contentContainer: {
-    paddingTop: 30,
+    // paddingTop: 30,
   },
   welcomeContainer: {
     alignItems: 'center',

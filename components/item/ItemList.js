@@ -5,6 +5,7 @@ import {
 } from 'react-native'
 import SqlUtil from '../common/SqlUtil'
 import { withNavigation } from 'react-navigation'
+import Util from '../common/Util';
 
 class ItemList extends SqlUtil {
 
@@ -80,19 +81,25 @@ class ItemList extends SqlUtil {
         return (
             <View style={styles.container}>
                 <View style={styles.filterContainer}>
-                    <Text style={{marginRight: 5}}>필터</Text>
-                    <ScrollView horizontal={true}>
+                    <View style={[styles.filterStyle, {backgroundColor: Util.green}]}>
+                        <TouchableOpacity onPress={()=>{this.setState({filter: []})}}>
+                            <Text style={[styles.filterTextStyle]}>Reset</Text>
+                        </TouchableOpacity>
+                    </View>
+                    <ScrollView horizontal={true} style={{marginLeft: 5}}>
                     {
                         keywordList.map((obj)=>{
                             return <View  key={`keyword_${obj}`}
-                                        style={[filter.includes(obj)? {backgroundColor:'grey'}: {}, {margin: 5}]}>
+                                        style={[styles.filterStyle, 
+                                            filter.includes(obj)? {backgroundColor: Util.filterSelected}: {}
+                                        ]}>
                                 <TouchableOpacity onPress={()=>{
                                     this.setState({
                                         filter: !filter.includes(obj)? [...filter, obj]:
                                                     filter.filter((filtered)=>filtered!=obj)
                                     })
                                 }}>
-                                    <Text>{obj}</Text>
+                                    <Text style={styles.filterTextStyle}>{obj}</Text>
                                 </TouchableOpacity>
                             </View>
                         })
@@ -198,11 +205,9 @@ const styles = StyleSheet.create({
     },
     filterContainer: {
         flexDirection: 'row',
-        height: 50,
         margin: 5,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: 'yellow'
     },
     scrollContainer: {
         flex: 1
@@ -237,6 +242,19 @@ const styles = StyleSheet.create({
     },
     textStyle: {
         textAlign: 'center'
+    },
+
+    filterStyle: {
+        backgroundColor: Util.grey,
+        borderRadius: 50,
+        paddingLeft: 5,
+        paddingRight: 5,
+        marginLeft: 2,
+        marginRight: 2,
+    },
+    filterTextStyle: {
+        fontSize: 11,
+        color: 'white'
     }
 })
 
