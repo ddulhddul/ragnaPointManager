@@ -2,12 +2,13 @@ import React, { Component } from 'react'
 import { 
     View, StyleSheet, Dimensions, ActivityIndicator 
 } from 'react-native'
+import Util from './Util';
 
 class Loading extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <ActivityIndicator size="large" color="#0000ff" style={styles.imageStyle} />
+                <ActivityIndicator size="large" color={Util.tabColor} style={styles.imageStyle} />
             </View>
         )
     }

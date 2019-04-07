@@ -204,7 +204,8 @@ class ItemList extends SqlUtil {
                                     </View>
                                     <View style={[{alignSelf: 'flex-start'}]}>
                                         <Text style={[styles.textStyle, {fontSize: 11, color: Util.grey, textAlign: 'left'}]}>{
-                                            item.recipe.map((optionObj, optionIndex)=>{
+                                            !item.recipe || !item.recipe.length ? '':
+                                            '재료: '+item.recipe.map((optionObj, optionIndex)=>{
                                                 return `${optionObj.name} ${optionObj.number}`
                                             }).join(', ')
                                         }</Text>
