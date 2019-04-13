@@ -7,7 +7,7 @@ import {
 import DB from '../components/common/ragnaDB'
 import ItemList from '../components/item/ItemList'
 
-export default class HomeScreen extends Component {
+export default class ItemScreen extends Component {
   static navigationOptions = {
     header: null,
   }

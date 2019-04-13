@@ -4,12 +4,12 @@ import { createStackNavigator, createBottomTabNavigator, createMaterialTopTabNav
 
 import Util from '../components/common/Util'
 import TabBarIcon from '../components/TabBarIcon';
-import HomeScreen from '../screens/HomeScreen';
+import ItemScreen from '../screens/ItemScreen';
 import LinksScreen from '../screens/LinksScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 
 const HomeStack = createStackNavigator({
-  Home: HomeScreen,
+  Home: ItemScreen,
 });
 
 HomeStack.navigationOptions = {
