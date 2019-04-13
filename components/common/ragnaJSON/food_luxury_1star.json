@@ -1,0 +1,391 @@
+[
+    {
+        "name": "건강식 나물무침",
+        "firstChar": "ᄀ",
+        "difficult": "1",
+        "nutrition": [
+            {
+                "name": "MaxHP",
+                "number": 90,
+                "unit": "＋",
+                "origin": "MaxHP＋90"
+            },
+            {
+                "name": "MaxSP",
+                "number": 9,
+                "unit": "＋",
+                "origin": "MaxSP＋9"
+            },
+            {
+                "name": "MATK",
+                "number": 12,
+                "unit": "＋",
+                "origin": "MATK＋12"
+            }
+        ],
+        "calory": [
+            {
+                "name": "HP칼로리",
+                "number": 2000,
+                "unit": "",
+                "origin": "HP칼로리 2000"
+            },
+            {
+                "name": "SP칼로리",
+                "number": 200,
+                "unit": "",
+                "origin": "SP칼로리 200"
+            }
+        ],
+        "satiety": "18",
+        "ingredient": [
+            {
+                "name": "서쪽 문의 토마토",
+                "number": 1,
+                "unit": "x",
+                "origin": "서쪽 문의 토마토 x1"
+            },
+            {
+                "name": "소금",
+                "number": 1,
+                "unit": "x",
+                "origin": "소금 x1"
+            }
+        ],
+        "keyword": [
+            "MaxHP",
+            "MaxSP",
+            "MATK"
+        ]
+    },
+    {
+        "name": "여행자의 고기볶음",
+        "firstChar": "ᄋ",
+        "difficult": "1",
+        "nutrition": [
+            {
+                "name": "MaxHP",
+                "number": 90,
+                "unit": "＋",
+                "origin": "MaxHP＋90"
+            },
+            {
+                "name": "MaxSP",
+                "number": 9,
+                "unit": "＋",
+                "origin": "MaxSP＋9"
+            },
+            {
+                "name": "DEF",
+                "number": 12,
+                "unit": "＋",
+                "origin": "DEF＋12"
+            }
+        ],
+        "calory": [
+            {
+                "name": "HP칼로리",
+                "number": 2000,
+                "unit": "",
+                "origin": "HP칼로리 2000"
+            },
+            {
+                "name": "SP칼로리",
+                "number": 200,
+                "unit": "",
+                "origin": "SP칼로리 200"
+            }
+        ],
+        "satiety": "18",
+        "ingredient": [
+            {
+                "name": "토끼고기",
+                "number": 1,
+                "unit": "x",
+                "origin": "토끼고기 x1"
+            },
+            {
+                "name": "소금",
+                "number": 1,
+                "unit": "x",
+                "origin": "소금 x1"
+            }
+        ],
+        "keyword": [
+            "MaxHP",
+            "MaxSP",
+            "DEF"
+        ]
+    },
+    {
+        "name": "초보자 과일잼",
+        "firstChar": "ᄎ",
+        "difficult": "1",
+        "nutrition": [
+            {
+                "name": "MaxHP",
+                "number": 60,
+                "unit": "＋",
+                "origin": "MaxHP＋60"
+            },
+            {
+                "name": "MaxSP",
+                "number": 6,
+                "unit": "＋",
+                "origin": "MaxSP＋6"
+            },
+            {
+                "name": "MATK",
+                "number": 8,
+                "unit": "＋",
+                "origin": "MATK＋8"
+            }
+        ],
+        "calory": [
+            {
+                "name": "HP칼로리",
+                "number": 1500,
+                "unit": "",
+                "origin": "HP칼로리 1500"
+            },
+            {
+                "name": "SP칼로리",
+                "number": 150,
+                "unit": "",
+                "origin": "SP칼로리 150"
+            }
+        ],
+        "satiety": "12",
+        "ingredient": [
+            {
+                "name": "과일",
+                "number": 1,
+                "unit": "x",
+                "origin": "과일 x1"
+            }
+        ],
+        "keyword": [
+            "MaxHP",
+            "MaxSP",
+            "MATK"
+        ]
+    },
+    {
+        "name": "초보자 볶음요리",
+        "firstChar": "ᄎ",
+        "difficult": "1",
+        "nutrition": [
+            {
+                "name": "MaxHP",
+                "number": 60,
+                "unit": "＋",
+                "origin": "MaxHP＋60"
+            },
+            {
+                "name": "MaxSP",
+                "number": 6,
+                "unit": "＋",
+                "origin": "MaxSP＋6"
+            },
+            {
+                "name": "MDEF",
+                "number": 8,
+                "unit": "＋",
+                "origin": "MDEF＋8"
+            }
+        ],
+        "calory": [
+            {
+                "name": "HP칼로리",
+                "number": 1500,
+                "unit": "",
+                "origin": "HP칼로리 1500"
+            },
+            {
+                "name": "SP칼로리",
+                "number": 150,
+                "unit": "",
+                "origin": "SP칼로리 150"
+            }
+        ],
+        "satiety": "12",
+        "ingredient": [
+            {
+                "name": "채소",
+                "number": 1,
+                "unit": "x",
+                "origin": "채소 x1"
+            }
+        ],
+        "keyword": [
+            "MaxHP",
+            "MaxSP",
+            "MDEF"
+        ]
+    },
+    {
+        "name": "초보자 생선요리",
+        "firstChar": "ᄎ",
+        "difficult": "1",
+        "nutrition": [
+            {
+                "name": "MaxHP",
+                "number": 60,
+                "unit": "＋",
+                "origin": "MaxHP＋60"
+            },
+            {
+                "name": "MaxSP",
+                "number": 6,
+                "unit": "＋",
+                "origin": "MaxSP＋6"
+            },
+            {
+                "name": "ATK",
+                "number": 8,
+                "unit": "＋",
+                "origin": "ATK＋8"
+            }
+        ],
+        "calory": [
+            {
+                "name": "HP칼로리",
+                "number": 1500,
+                "unit": "",
+                "origin": "HP칼로리 1500"
+            },
+            {
+                "name": "SP칼로리",
+                "number": 150,
+                "unit": "",
+                "origin": "SP칼로리 150"
+            }
+        ],
+        "satiety": "12",
+        "ingredient": [
+            {
+                "name": "해산물",
+                "number": 1,
+                "unit": "x",
+                "origin": "해산물 x1"
+            }
+        ],
+        "keyword": [
+            "MaxHP",
+            "MaxSP",
+            "ATK"
+        ]
+    },
+    {
+        "name": "초보자 스테이크",
+        "firstChar": "ᄎ",
+        "difficult": "1",
+        "nutrition": [
+            {
+                "name": "MaxHP",
+                "number": 60,
+                "unit": "＋",
+                "origin": "MaxHP＋60"
+            },
+            {
+                "name": "MaxSP",
+                "number": 6,
+                "unit": "＋",
+                "origin": "MaxSP＋6"
+            },
+            {
+                "name": "DEF",
+                "number": 8,
+                "unit": "＋",
+                "origin": "DEF＋8"
+            }
+        ],
+        "calory": [
+            {
+                "name": "HP칼로리",
+                "number": 1500,
+                "unit": "",
+                "origin": "HP칼로리 1500"
+            },
+            {
+                "name": "SP칼로리",
+                "number": 150,
+                "unit": "",
+                "origin": "SP칼로리 150"
+            }
+        ],
+        "satiety": "12",
+        "ingredient": [
+            {
+                "name": "육류",
+                "number": 1,
+                "unit": "x",
+                "origin": "육류 x1"
+            }
+        ],
+        "keyword": [
+            "MaxHP",
+            "MaxSP",
+            "DEF"
+        ]
+    },
+    {
+        "name": "해물잡채",
+        "firstChar": "ᄒ",
+        "difficult": "1",
+        "nutrition": [
+            {
+                "name": "MaxHP",
+                "number": 90,
+                "unit": "＋",
+                "origin": "MaxHP＋90"
+            },
+            {
+                "name": "MaxSP",
+                "number": 9,
+                "unit": "＋",
+                "origin": "MaxSP＋9"
+            },
+            {
+                "name": "ATK",
+                "number": 12,
+                "unit": "＋",
+                "origin": "ATK＋12"
+            }
+        ],
+        "calory": [
+            {
+                "name": "HP칼로리",
+                "number": 2000,
+                "unit": "",
+                "origin": "HP칼로리 2000"
+            },
+            {
+                "name": "SP칼로리",
+                "number": 200,
+                "unit": "",
+                "origin": "SP칼로리 200"
+            }
+        ],
+        "satiety": "18",
+        "ingredient": [
+            {
+                "name": "게살",
+                "number": 1,
+                "unit": "x",
+                "origin": "게살 x1"
+            },
+            {
+                "name": "밀가루",
+                "number": 1,
+                "unit": "x",
+                "origin": "밀가루 x1"
+            }
+        ],
+        "keyword": [
+            "MaxHP",
+            "MaxSP",
+            "ATK"
+        ]
+    }
+]

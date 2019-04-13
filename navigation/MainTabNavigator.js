@@ -5,26 +5,45 @@ import { createStackNavigator, createBottomTabNavigator, createMaterialTopTabNav
 import Util from '../components/common/Util'
 import TabBarIcon from '../components/TabBarIcon';
 import ItemScreen from '../screens/ItemScreen';
+import FoodScreen from '../screens/FoodScreen';
 import LinksScreen from '../screens/LinksScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 
-const HomeStack = createStackNavigator({
-  Home: ItemScreen,
-});
+const ItemStack = createStackNavigator({
+  Item: ItemScreen,
+}, {
+  navigationOptions: ()=>({
+    tabBarLabel: 'Item',
+    tabBarIcon: ({ focused }) => (
+      <TabBarIcon
+        focused={focused}
+        name={
+          Platform.OS === 'ios'
+            ? `ios-information-circle${focused ? '' : '-outline'}`
+            : 'md-information-circle'
+        }
+      />
+    ),
+  })
+})
+const FoodStack = createStackNavigator({
+  Food: FoodScreen,
+}, {
+  navigationOptions: ()=>({
+    tabBarLabel: 'Food',
+    tabBarIcon: ({ focused }) => (
+      <TabBarIcon
+        focused={focused}
+        name={
+          Platform.OS === 'ios'
+            ? `ios-information-circle${focused ? '' : '-outline'}`
+            : 'md-information-circle'
+        }
+      />
+    ),
+  })
+})
 
-HomeStack.navigationOptions = {
-  tabBarLabel: 'Clothes',
-  tabBarIcon: ({ focused }) => (
-    <TabBarIcon
-      focused={focused}
-      name={
-        Platform.OS === 'ios'
-          ? `ios-information-circle${focused ? '' : '-outline'}`
-          : 'md-information-circle'
-      }
-    />
-  ),
-};
 
 const LinksStack = createStackNavigator({
   Links: LinksScreen,
@@ -55,7 +74,8 @@ SettingsStack.navigationOptions = {
 };
 
 export default createMaterialTopTabNavigator({
-  HomeStack,
+  FoodStack,
+  ItemStack,
   LinksStack,
   SettingsStack,
 }, {

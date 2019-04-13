@@ -4,7 +4,28 @@ import save_atk_1 from './ragnaJSON/save_atk_1.json'
 import save_atk_2 from './ragnaJSON/save_atk_2.json'
 import save_smeltatk_1 from './ragnaJSON/save_smeltatk_1.json'
 
+import food_luxury_1star from './ragnaJSON/food_luxury_1star.json'
+
 export default {
+
+  getFoodList(){
+    const result = Array(0).concat(
+      food_luxury_1star.map((obj)=>{return {...obj,type:'럭셔리 조리대'}}),
+    ).filter((obj, index, self)=>{
+      let indexNumber = undefined
+      self.find((selfObj, selfIndex)=>{
+        if(selfObj.name==obj.name) indexNumber=selfIndex
+      })
+      return indexNumber === index
+    }).sort((obj1, obj2)=>{
+      return obj1.name > obj2.name? 1: -1
+    }).map((obj, index)=>{
+      return {...obj, key:index}
+    })
+    
+    return result
+  },
+  
   getItemList(){
     const result = Array(0).concat(
       open_atk_1, 
@@ -184,5 +205,60 @@ JSON.stringify(
     trObj.recipe = trObj.recipe.map(mapFunction)
     return {...trObj, keyword}
   })
+)
+*/
+
+/*
+  럭셔리 조리대 1성 요리 레시피
+  food_luxury_1star.json : https://cafe.naver.com/ragnarokmmorpg/156805
+
+JSON.stringify(
+Array.from(document.querySelectorAll('table')[5].querySelectorAll('tr'))
+.reduce((resultEntry, trObj, trIndex)=>{
+  const index = trIndex
+  if(index == 0) return resultEntry
+  else{
+    function htmlToStr(str){
+      return str.replace(/\&nbsp\;\<br\>/g,' ')
+                .replace(/\&amp\;/g,'&')
+                .replace(/null/g,'')
+                .trim()
+    }
+    function htmlToList(str){return htmlToStr(str).split('<br>').map((obj)=>obj.trim())}
+    const $tds = trObj.querySelectorAll('td')
+    const resultObj = {}
+    resultObj.name = htmlToStr($tds[0].innerHTML)
+    resultObj.firstChar = String.fromCharCode(((resultObj.name.charCodeAt(0) - 44032)/28)/21 + 4352)
+    resultObj.difficult = htmlToStr($tds[1].innerHTML).replace(/[^0-9]/g,'')
+    resultObj.nutrition = htmlToList($tds[2].innerHTML)
+    resultObj.calory = htmlToList($tds[3].innerHTML)
+    resultObj.satiety = htmlToStr($tds[4].innerHTML)
+    resultObj.ingredient = htmlToList($tds[5].innerHTML)
+    resultEntry.push(resultObj)
+  }
+  return resultEntry
+}, [])
+.map((trObj)=>{
+  function mapFunction(obj){
+    const thisKey = obj.replace(/[0-9\+\- \개\.\,\%\x\＋]+$/,'')
+    const thisValue = obj.replace(/(.*?)([0-9\+\- \개\.\,\%\x\＋]+$)/,'$2').trim()
+    return {
+      name: thisKey,
+      number: Number(thisValue.replace(/([^0-9]*)([0-9]*)([^0-9]*$)/,'$2').replace(/,/g,'')),
+      unit: thisValue.replace(/([0-9]*)([^0-9]*$)/,'$2'),
+      origin: obj,
+    }
+  }
+  const keyword = []
+  function mapFunctionWithKeyword(obj){
+    const thisKey = obj.replace(/[0-9\+\- \개\.\,\%\x\＋]+$/,'')
+    if(!keyword.includes(thisKey)) keyword.push(thisKey)
+    return mapFunction(obj)
+  }
+  trObj.calory = trObj.calory.map(mapFunction)
+  trObj.ingredient = trObj.ingredient.map(mapFunction)
+  trObj.nutrition = trObj.nutrition.map(mapFunctionWithKeyword)
+  return {...trObj, keyword}
+})
 )
 */
