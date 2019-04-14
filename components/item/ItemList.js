@@ -1,6 +1,6 @@
 import React from 'react'
 import { 
-    CheckBox, ScrollView, View, Text, StyleSheet,
+    CheckBox, ScrollView, View, Text, StyleSheet, AsyncStorage,
     TextInput, Picker, Image, FlatList, TouchableOpacity
 } from 'react-native'
 import SqlUtil from '../common/SqlUtil'
@@ -41,15 +41,47 @@ class ItemList extends SqlUtil {
         this.focusListener = navigation.addListener("didFocus", async () => {
             this.isReady = false
             const itemList = await this.searchItemList()
+            let searchParam = {}
+            try {
+                const value = await AsyncStorage.getItem('ITEM_SEARCH')
+                if (value !== null) {
+                    const itemSearchObj = JSON.parse(value)
+                    searchParam = {
+                        filter: itemSearchObj.filter, 
+                        saveFilter: itemSearchObj.saveFilter,
+                        openFilter: itemSearchObj.openFilter,
+                        sort: itemSearchObj.sort,
+                    }
+                }
+            } catch (error) {
+                // Error retrieving data
+            }
             this.isReady = true
             this.setState({
-                itemList: itemList
+                itemList: itemList,
+                ...searchParam
             })
         })
+        this.willBlurListener = navigation.addListener("willBlur", async () => {
+            this.beforeUnmountSave()
+        })
+    }
+
+    beforeUnmountSave = async()=>{
+        try {
+            const {filter, saveFilter, openFilter, sort} = this.state
+            await AsyncStorage.setItem('ITEM_SEARCH', JSON.stringify({
+                filter, saveFilter, openFilter, sort
+            }))
+        } catch (error) {
+            // Error retrieving data
+        }
     }
     
     componentWillUnmount(){
+        this.beforeUnmountSave()
         this.focusListener && this.focusListener.remove()
+        this.willBlurListener && this.willBlurListener.remove()
     }
 
     searchItemList = async () => {

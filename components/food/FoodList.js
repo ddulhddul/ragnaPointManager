@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { 
     CheckBox, ScrollView, View, Text, StyleSheet,
-    TextInput, Picker, Image, FlatList, TouchableOpacity
+    TextInput, AsyncStorage, FlatList, TouchableOpacity
 } from 'react-native'
 import SqlUtil from '../common/SqlUtil'
 import { withNavigation } from 'react-navigation'
@@ -42,11 +42,42 @@ class FoodList extends SqlUtil {
         this.focusListener = navigation.addListener("didFocus", async () => {
             this.isReady = false
             const foodList = await this.searchFoodList()
+            let searchParam = {}
+            try {
+                const value = await AsyncStorage.getItem('FOOD_SEARCH')
+                if (value !== null) {
+                    const foodSearchObj = JSON.parse(value)
+                    searchParam = {
+                        cookingFilter: foodSearchObj.cookingFilter, 
+                        tastingFilter: foodSearchObj.tastingFilter,
+                        nutritionFilter: foodSearchObj.nutritionFilter, 
+                        saveFilter: foodSearchObj.saveFilter
+                    }
+                }
+            } catch (error) {
+                // Error retrieving data
+            }
             this.isReady = true
             this.setState({
-                foodList: foodList
+                foodList: foodList,
+                ...searchParam
             })
         })
+        this.willBlurListener = navigation.addListener("willBlur", async () => {
+            this.beforeUnmountSave()
+        })
+    }
+
+    beforeUnmountSave = async()=>{
+        try {
+            const {cookingFilter, tastingFilter, nutritionFilter, saveFilter} = this.state
+            await AsyncStorage.setItem('FOOD_SEARCH', JSON.stringify({
+                cookingFilter, tastingFilter,
+                nutritionFilter, saveFilter
+            }))
+        } catch (error) {
+            // Error retrieving data
+        }            
     }
 
     searchFoodList= async () => {
@@ -64,7 +95,9 @@ class FoodList extends SqlUtil {
     }
     
     componentWillUnmount(){
+        this.beforeUnmountSave()
         this.focusListener && this.focusListener.remove()
+        this.willBlurListener && this.willBlurListener.remove()
     }
 
     executeUpdateFood = async (obj) => {
