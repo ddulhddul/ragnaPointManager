@@ -135,6 +135,13 @@ class FoodList extends SqlUtil {
         const saveKeywordList = this.state.saveKeywordList || []
         const nutritionFilter = this.state.nutritionFilter || []
         const saveFilter = this.state.saveFilter || []
+
+        function checkedSaveCheck(list=[]){
+            return list.reduce((entry, optionObj)=>{
+                if(entry) return entry
+                return saveFilter.includes(optionObj.name)
+            }, false)
+        }
         const foodList = (this.state.foodList || [])
         .filter((obj)=>{
             if(!searchEnabled || !searchValue) return true
@@ -142,8 +149,8 @@ class FoodList extends SqlUtil {
         })
         .filter((obj)=>{
             if(!cookingFilter && !tastingFilter) return true
-            return (cookingFilter && obj.cookingYn != 'Y') 
-                || (tastingFilter && obj.tastingYn != 'Y')
+            return (cookingFilter && obj.cookingYn != 'Y' && checkedSaveCheck(obj.cooking)) 
+                || (tastingFilter && obj.tastingYn != 'Y' && checkedSaveCheck(obj.tasting))
         })
         .filter((obj)=>{
             if(!nutritionFilter.length) return true

@@ -137,6 +137,13 @@ class ItemList extends SqlUtil {
         const keywordList = this.state.keywordList || []
         const filter = this.state.filter || []
         const nameSearchGuideList = []
+
+        function checkedSaveCheck(list=[]){
+            return list.reduce((entry, optionObj)=>{
+                if(entry) return entry
+                return filter.includes(optionObj.name)
+            }, false)
+        }
         const itemList = (this.state.itemList || []).filter((obj)=>{
             // filterList
             if(!filter.length) return true
@@ -145,13 +152,10 @@ class ItemList extends SqlUtil {
                 return (obj.keyword || []).includes(filterObj)
             }, false)
         }).filter((obj)=>{
-            // saveFilter
-            if(!saveFilter) return true
-            return obj.saveYn != 'Y'
-        }).filter((obj)=>{
-            // openFilter
-            if(!openFilter) return true
-            return obj.openYn != 'Y'
+            // saveFilter, openFilter
+            if(!saveFilter && !openFilter) return true
+            return (saveFilter && obj.saveYn != 'Y' && checkedSaveCheck(obj.savePoint)) 
+                || (openFilter && obj.openYn != 'Y' && checkedSaveCheck(obj.openPoint))
         }).filter((obj)=>{
             // searchValue
             if(!searchEnabled || !searchValue) return true
@@ -242,9 +246,10 @@ class ItemList extends SqlUtil {
 
                 {
                     !searchEnabled? null:
-                    <View style={{width: '50%', alignSelf: 'flex-end', marginTop: -12, marginRight: 5,
-                        borderWidth: 3, borderColor: Util.filterSelected}}>
+                    <View style={{width: '95%', alignSelf: 'flex-end', borderWidth: 3, borderColor: Util.filterSelected,
+                        marginLeft: 5, marginRight: 5}}>
                         <TextInput
+                            autoFocus={true}
                             style={{borderColor: 'gray'}}
                             onChangeText={(text) => this.setState({searchValue: text})}
                             value={searchValue}
