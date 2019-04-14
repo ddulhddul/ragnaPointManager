@@ -141,7 +141,7 @@ class ItemList extends SqlUtil {
         function checkedSaveCheck(list=[]){
             return list.reduce((entry, optionObj)=>{
                 if(entry) return entry
-                return filter.includes(optionObj.name)
+                return !filter.length? true: filter.includes(optionObj.name)
             }, false)
         }
         const itemList = (this.state.itemList || []).filter((obj)=>{

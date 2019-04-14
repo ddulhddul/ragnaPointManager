@@ -139,7 +139,7 @@ class FoodList extends SqlUtil {
         function checkedSaveCheck(list=[]){
             return list.reduce((entry, optionObj)=>{
                 if(entry) return entry
-                return saveFilter.includes(optionObj.name)
+                return !saveFilter.length? true: saveFilter.includes(optionObj.name)
             }, false)
         }
         const foodList = (this.state.foodList || [])
