@@ -1,6 +1,6 @@
 import React from 'react'
 import { 
-    CheckBox, ScrollView, View, Text, StyleSheet,
+    CheckBox, ScrollView, View, Text, StyleSheet, Alert,
     TextInput, AsyncStorage, FlatList, TouchableOpacity
 } from 'react-native'
 import SqlUtil from '../common/SqlUtil'
@@ -9,6 +9,7 @@ import Util from '../common/Util'
 import Loading from '../common/Loading'
 import { Icon } from 'expo'
 import CommonStyles from '../common/style'
+import specialIngredientList from '../common/ragnaJSON/food/food_ingredient_from.json'
 const saveColor= 'rgb(230, 126, 34)'
 const openColor= 'rgb(41, 128, 185)'
 
@@ -32,6 +33,9 @@ class FoodList extends SqlUtil {
         }, []).sort()
         this.state = {
             foodList: [],
+            specialIngredientNameList: specialIngredientList.map((obj)=>{
+                return obj.재료.trim()
+            }),
             nutritionKeywordList,
             saveKeywordList
         }
@@ -132,6 +136,16 @@ class FoodList extends SqlUtil {
             message: param.tastingYn=='Y'? `${param.name} 맛보기완료 취소`: `${param.name} 맛보기완료`
         })
     }
+
+    showIngredientInfo(name){
+        const specialIngredient = specialIngredientList.find((obj)=>obj.재료.trim()==name.trim())
+        if(!name || !specialIngredient) return
+        Alert.alert(
+            name,
+            `${specialIngredient.획득몹}`,
+            [{text: '확인'}]
+        )          
+    }
     
     render() {
         const { searchValue, scrolling, cookingFilter, tastingFilter, searchEnabled } = this.state
@@ -139,6 +153,7 @@ class FoodList extends SqlUtil {
         const saveKeywordList = this.state.saveKeywordList || []
         const nutritionFilter = this.state.nutritionFilter || []
         const saveFilter = this.state.saveFilter || []
+        const specialIngredientNameList = this.state.specialIngredientNameList || []
 
         function checkedSaveCheck(list=[]){
             return list.reduce((entry, optionObj)=>{
@@ -322,12 +337,24 @@ class FoodList extends SqlUtil {
                                             }
                                             {
                                                 (!item.ingredient || !item.ingredient.length)? null:
-                                                <View style={[{alignSelf: 'flex-start'}]}>
-                                                    <Text style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left'}]}>{
-                                                        '재료: '+(item.ingredient||[]).map((optionObj, optionIndex)=>{
-                                                            return `${optionObj.name} ${optionObj.number||''}`
-                                                        }).join(', ')
-                                                    }</Text>
+                                                <View style={[{alignSelf: 'flex-start', flexDirection: 'row'}]}>
+                                                    <Text style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left'}]}>재료:</Text>
+                                                    {
+                                                        (item.ingredient||[]).map((optionObj, optionIndex)=>{
+                                                            if(!specialIngredientNameList.includes(optionObj.name.trim())){
+                                                                return <Text key={`food_ingredient_${optionObj.name}_${item.name}_${optionIndex}`}
+                                                                    style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left', marginLeft: 5}]}>
+                                                                    {optionObj.name} {optionObj.number||''}
+                                                                </Text>
+                                                            }else{
+                                                                return <TouchableOpacity onPress={()=>{this.showIngredientInfo(optionObj.name)}} key={`food_ingredient_${optionObj.name}_${item.name}_${optionIndex}`}>
+                                                                    <Text style={[styles.textStyle, {fontSize: 12, color: Util.black, textAlign: 'left', marginLeft: 5}]}>
+                                                                        {optionObj.name} {optionObj.number||''}
+                                                                    </Text>
+                                                                </TouchableOpacity>
+                                                            }
+                                                        })
+                                                    }
                                                 </View>
                                             }
                                             {
