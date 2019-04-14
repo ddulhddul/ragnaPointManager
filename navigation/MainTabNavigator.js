@@ -1,13 +1,16 @@
-import React from 'react';
-import { Platform } from 'react-native';
-import { createStackNavigator, createBottomTabNavigator, createMaterialTopTabNavigator } from 'react-navigation';
+import React from 'react'
+import { Platform } from 'react-native'
+import { Icon } from 'expo'
+import { 
+  createStackNavigator, createBottomTabNavigator, createMaterialTopTabNavigator 
+} from 'react-navigation'
 
 import Util from '../components/common/Util'
-import TabBarIcon from '../components/TabBarIcon';
-import ItemScreen from '../screens/ItemScreen';
-import FoodScreen from '../screens/FoodScreen';
-import LinksScreen from '../screens/LinksScreen';
-import SettingsScreen from '../screens/SettingsScreen';
+import Colors from '../constants/Colors'
+import TabBarIcon from '../components/TabBarIcon'
+import ItemScreen from '../screens/ItemScreen'
+import FoodScreen from '../screens/FoodScreen'
+import SettingsScreen from '../screens/SettingsScreen'
 
 const ItemStack = createStackNavigator({
   Item: ItemScreen,
@@ -15,13 +18,11 @@ const ItemStack = createStackNavigator({
   navigationOptions: ()=>({
     tabBarLabel: 'Item',
     tabBarIcon: ({ focused }) => (
-      <TabBarIcon
-        focused={focused}
-        name={
-          Platform.OS === 'ios'
-            ? `ios-information-circle${focused ? '' : '-outline'}`
-            : 'md-information-circle'
-        }
+      <Icon.AntDesign
+        name={'skin'}
+        size={26}
+        style={{ marginBottom: -3 }}
+        color={focused ? Colors.tabIconSelected : Colors.tabIconDefault}
       />
     ),
   })
@@ -32,32 +33,16 @@ const FoodStack = createStackNavigator({
   navigationOptions: ()=>({
     tabBarLabel: 'Food',
     tabBarIcon: ({ focused }) => (
-      <TabBarIcon
-        focused={focused}
-        name={
-          Platform.OS === 'ios'
-            ? `ios-information-circle${focused ? '' : '-outline'}`
-            : 'md-information-circle'
-        }
+      <Icon.MaterialCommunityIcons
+        name={'food'}
+        size={26}
+        style={{ marginBottom: -3 }}
+        color={focused ? Colors.tabIconSelected : Colors.tabIconDefault}
       />
     ),
   })
 })
 
-
-const LinksStack = createStackNavigator({
-  Links: LinksScreen,
-});
-
-LinksStack.navigationOptions = {
-  tabBarLabel: 'Links',
-  tabBarIcon: ({ focused }) => (
-    <TabBarIcon
-      focused={focused}
-      name={Platform.OS === 'ios' ? 'ios-link' : 'md-link'}
-    />
-  ),
-};
 
 const SettingsStack = createStackNavigator({
   Settings: SettingsScreen,
@@ -76,7 +61,6 @@ SettingsStack.navigationOptions = {
 export default createBottomTabNavigator({
   FoodStack,
   ItemStack,
-  LinksStack,
   SettingsStack,
 }, {
   tabBarOptions: {
