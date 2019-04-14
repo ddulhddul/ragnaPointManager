@@ -10,6 +10,7 @@ import Colors from '../constants/Colors'
 import TabBarIcon from '../components/TabBarIcon'
 import ItemScreen from '../screens/ItemScreen'
 import FoodScreen from '../screens/FoodScreen'
+import CardScreen from '../screens/CardScreen'
 import WebScreen from '../screens/WebScreen'
 import SettingsScreen from '../screens/SettingsScreen'
 
@@ -36,6 +37,21 @@ const FoodStack = createStackNavigator({
     tabBarIcon: ({ focused }) => (
       <Icon.MaterialCommunityIcons
         name={'food'}
+        size={26}
+        style={{ marginBottom: -3 }}
+        color={focused ? Colors.tabIconSelected : Colors.tabIconDefault}
+      />
+    ),
+  })
+})
+const CardStack = createStackNavigator({
+  Card: CardScreen,
+}, {
+  navigationOptions: ()=>({
+    tabBarLabel: 'Card',
+    tabBarIcon: ({ focused }) => (
+      <Icon.MaterialCommunityIcons
+        name={'cards-outline'}
         size={26}
         style={{ marginBottom: -3 }}
         color={focused ? Colors.tabIconSelected : Colors.tabIconDefault}
@@ -77,7 +93,8 @@ SettingsStack.navigationOptions = {
 export default createBottomTabNavigator({
   FoodStack,
   ItemStack,
-  WebStack,
+  CardStack,
+  WebStack
 }, {
   tabBarOptions: {
     labelStyle: {
