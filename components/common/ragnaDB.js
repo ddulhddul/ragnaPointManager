@@ -4,12 +4,13 @@ import save_atk_1 from './ragnaJSON/save_atk_1.json'
 import save_atk_2 from './ragnaJSON/save_atk_2.json'
 import save_smeltatk_1 from './ragnaJSON/save_smeltatk_1.json'
 
+import food_recipe from './ragnaJSON/food_recipe.json'
 import food_luxury_1star from './ragnaJSON/food_luxury_1star.json'
 
 export default {
 
   getFoodList(){
-    const result = Array(0).concat(
+    const homepageDic = Array(0).concat(
       food_luxury_1star.map((obj)=>{return {...obj,type:'럭셔리 조리대'}}),
     ).filter((obj, index, self)=>{
       let indexNumber = undefined
@@ -17,11 +18,37 @@ export default {
         if(selfObj.name==obj.name) indexNumber=selfIndex
       })
       return indexNumber === index
-    }).sort((obj1, obj2)=>{
-      return obj1.name > obj2.name? 1: -1
-    }).map((obj, index)=>{
-      return {...obj, key:index}
     })
+    
+    const result = food_recipe.map((obj, index)=>{
+      const home = homepageDic.find((home)=>{
+        return home.name == obj.이름
+      }) || {}
+
+      function htmlToList(str){
+        return (str||'').split(', ').map((obj)=>{
+          const thisKey = obj.replace(/[0-9\+\- \개\.\,\%]+$/,'')
+          // if(!keyword.includes(thisKey)) keyword.push(thisKey)
+          const thisValue = obj.replace(/(.*?)([0-9\+\- \개\.\,\%]+$)/,'$2').trim()
+          return {
+            name: thisKey,
+            number: Number(thisValue.replace(/(.*?)([^0-9]*$)/,'$1').replace(/,/g,'')) || '',
+            unit: thisValue.replace(/(.*?)([^0-9]*$)/,'$2'),
+            origin: obj,
+          }
+        })
+      }
+
+      return {
+        ...home,
+        name: obj.이름 || home.name,
+        difficult: String(obj.등급||'').replace(/[^0-9]/g,''),
+        key:index,
+        cooking: htmlToList(obj.쿠킹),
+        tasting: htmlToList(obj.맛보기),
+      }
+    })
+
     
     return result
   },

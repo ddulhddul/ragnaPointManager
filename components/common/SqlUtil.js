@@ -5,6 +5,84 @@ const db = SQLite.openDatabase('ragnaPoint.db')
 
 class SqlUtil extends React.Component {
 
+    initFoodTable = async (param) => {
+        const { res } = await this.queryExecute(`
+          SELECT 1 FROM sqlite_master 
+          WHERE type='table' 
+          AND name='TN_FOOD'
+          AND EXISTS (
+            SELECT 1 
+            FROM sqlite_master 
+            WHERE name = 'TN_FOOD' 
+            AND sql LIKE '%name%'
+          )
+        `, [])
+        if (param || res.rows.length == 0) {
+            await this.queryExecute('DROP TABLE IF EXISTS TN_FOOD', [])
+            const { tx1, res1 } = await this.queryExecute(
+                `CREATE TABLE IF NOT EXISTS TN_FOOD (
+              id INTEGER PRIMARY KEY AUTOINCREMENT, 
+              name VARCHAR(255) UNIQUE,
+              cookingYn VARCHAR(1) default 'N',
+              tastingYn VARCHAR(1) default 'N'
+            )`,
+                [])
+        }
+    }
+
+    listTnFood = async (param = {}, callback = () => {}) => {
+        const { res } = await this.queryExecute(
+            `SELECT * FROM TN_FOOD`,
+            []
+        )
+        return (res.rows||{})._array || []
+    }
+
+    selectFoodByName = async (param = {}, callback = () => {}) => {
+        const { res } = await this.queryExecute(
+            `SELECT 
+                FOOD.* 
+            FROM TN_FOOD FOOD
+            WHERE name = ?`,
+            [param.name]
+        )
+        return ((res.rows||{})._array || [])[0]
+    }
+
+    insertFood = async (param = {}, callback = () => {}) => {
+        const { res } = await this.queryExecute(
+            `insert into TN_FOOD (
+                name,
+                cookingYn,
+                tastingYn
+              ) values (
+                ?, ?, ?
+              )`,
+            [
+                param.name,
+                param.cookingYn=='Y'?'Y':'N',
+                param.tastingYn=='Y'?'Y':'N',
+            ]
+        )
+        return res
+    }
+
+    updateFood = async (param = {}, callback = () => {}) => {
+        const { res } = await this.queryExecute(
+            `update TN_FOOD
+            set 
+                cookingYn = ?,
+                tastingYn = ?
+            WHERE name = ?`,
+            [
+                param.cookingYn=='Y'?'Y':'N',
+                param.tastingYn=='Y'?'Y':'N',
+                param.name
+            ]
+        )
+        return res
+    }
+
     listTnItem = async (param = {}, callback = () => {}) => {
         const { res } = await this.queryExecute(
             `SELECT * FROM TN_ITEM`,
