@@ -1,0 +1,148 @@
+[
+    {
+        "name": "열정의 과일쥬스",
+        "firstChar": "ᄋ",
+        "difficult": "5",
+        "nutrition": [
+            "MaxHP +600",
+            "MaxSP+60",
+            "MATK+40",
+            "DEF+40",
+            "물리관통+2.5%",
+            "마법관통+2.5%"
+        ],
+        "calory": [
+            "HP칼로리 10000",
+            "SP칼로리 1000"
+        ],
+        "satiety": "30",
+        "ingredient": [
+            "골렘의 수박 x1",
+            "빅풋의 파인애플 x1",
+            "고블린의 딸기 x1",
+            "요요의 바나나 x1",
+            "무지개 가루 x1"
+        ]
+    },
+    {
+        "name": "열정의 과자",
+        "firstChar": "ᄋ",
+        "difficult": "5",
+        "nutrition": [
+            "MaxHP＋600",
+            "MaxSP＋60",
+            "DEF＋40",
+            "MDEF＋40",
+            "일반 몬스터 ATK＋2.5%"
+        ],
+        "calory": [
+            "HP칼로리 10000",
+            "SP칼로리 1000"
+        ],
+        "satiety": "30",
+        "ingredient": [
+            "골렘의 수박 x1",
+            "빅풋의 파인애플 x1",
+            "고블린의 딸기 x1",
+            "요요의 바나나 x1",
+            "비법가루 x1"
+        ]
+    },
+    {
+        "name": "열정의 디저트",
+        "firstChar": "ᄋ",
+        "difficult": "5",
+        "nutrition": [
+            "MaxHP＋600",
+            "MaxSP＋60",
+            "ATK＋40",
+            "MATK＋40",
+            "보스 몬스터 ATK＋2.5%"
+        ],
+        "calory": [
+            "HP칼로리 10000",
+            "SP칼로리 1000"
+        ],
+        "satiety": "30",
+        "ingredient": [
+            "골렘의 수박 x1",
+            "빅풋의 파인애플 x1",
+            "고블린의 딸기 x1",
+            "비법가루 x1",
+            "무지개 가루 x1"
+        ]
+    },
+    {
+        "name": "왕실 과일쥬스",
+        "firstChar": "ᄋ",
+        "difficult": "5",
+        "nutrition": [
+            "MaxHP +500",
+            "MaxSP+50",
+            "MATK+38",
+            "DEF+38",
+            "물리관통+2.25%",
+            "마법관통+2.25%"
+        ],
+        "calory": [
+            "HP칼로리 9000",
+            "SP칼로리 900"
+        ],
+        "satiety": "30",
+        "ingredient": [
+            "골렘의 수박 x1",
+            "요요의 바나나 x1",
+            "스모키의 포도 x1",
+            "치즈 x1",
+            "버터 x1"
+        ]
+    },
+    {
+        "name": "왕실 과자",
+        "firstChar": "ᄋ",
+        "difficult": "5",
+        "nutrition": [
+            "MaxHP＋500",
+            "MaxSP＋50",
+            "DEF＋38",
+            "MDEF＋38",
+            "일반 몬스터 ATK＋2.25%"
+        ],
+        "calory": [
+            "HP칼로리 9000",
+            "SP칼로리 900"
+        ],
+        "satiety": "30",
+        "ingredient": [
+            "골렘의 수박 x1",
+            "빅풋의 파인애플 x1",
+            "포링의 사과 x1",
+            "치즈 x1",
+            "버터 x1"
+        ]
+    },
+    {
+        "name": "왕실 디저트",
+        "firstChar": "ᄋ",
+        "difficult": "5",
+        "nutrition": [
+            "MaxHP＋500",
+            "MaxSP＋50",
+            "ATK＋38",
+            "MATK＋38",
+            "보스 몬스터 ATK＋2.25%"
+        ],
+        "calory": [
+            "HP칼로리 9000",
+            "SP칼로리 900"
+        ],
+        "satiety": "30",
+        "ingredient": [
+            "빅풋의 파인애플 x1",
+            "고블린의 딸기 x1",
+            "포링의 사과 x1",
+            "치즈 x1",
+            "버터 x1"
+        ]
+    }
+]

@@ -19,7 +19,7 @@ class FoodList extends SqlUtil {
         const nutritionKeywordList = (props.foodList||[]).reduce((entry, obj)=>{
             (obj.nutrition||[]).map((target)=>{
                 const keyword = target.name
-                !keyword.match(/[^a-zA-Z]/) && !entry.includes(keyword) && entry.push(keyword)
+                keyword && !keyword.match(/[^a-zA-Z]/) && !entry.includes(keyword) && entry.push(keyword)
             })
             return entry
         }, []).sort()
@@ -186,7 +186,7 @@ class FoodList extends SqlUtil {
                 </View>
 
                 <View style={[styles.searchContainer]}>
-                    <View style={[styles.trContainer, {marginLeft: 10}]}>
+                    <View style={[styles.trContainer, {marginLeft: 10, justifyContent: 'flex-end'}]}>
                         <CheckBox value={cookingFilter} onValueChange={()=>
                             {this.setState({cookingFilter: !cookingFilter})}} />
                         <TouchableOpacity onPress={()=>
@@ -199,7 +199,7 @@ class FoodList extends SqlUtil {
                             {this.setState({tastingFilter: !tastingFilter})}}>
                             <Text style={[styles.thTextStyle, {color: openColor}]}>맛보기필요</Text>
                         </TouchableOpacity>
-                        <View style={[{marginLeft: 10, marginRight: 5, padding: 5}, 
+                        <View style={[{marginLeft: 10, padding: 5}, 
                             searchEnabled? {backgroundColor: Util.filterSelected, borderRadius: 10}: null]}>
                             <TouchableOpacity onPress={()=>{this.setState({searchEnabled: !searchEnabled})}}>
                                 <Icon.Ionicons name="md-search" size={20}

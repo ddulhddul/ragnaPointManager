@@ -4,20 +4,80 @@ import save_atk_1 from './ragnaJSON/save_atk_1.json'
 import save_atk_2 from './ragnaJSON/save_atk_2.json'
 import save_smeltatk_1 from './ragnaJSON/save_smeltatk_1.json'
 
-import food_recipe from './ragnaJSON/food_recipe.json'
-import food_luxury_1star from './ragnaJSON/food_luxury_1star.json'
+import food_recipe from './ragnaJSON/food/food_recipe.json'
+import food_luxury_1star from './ragnaJSON/food/food_luxury_1star.json'
+import food_luxury_2star from './ragnaJSON/food/food_luxury_2star.json'
+import food_luxury_3star from './ragnaJSON/food/food_luxury_3star.json'
+import food_luxury_4star from './ragnaJSON/food/food_luxury_4star.json'
+import food_luxury_5star from './ragnaJSON/food/food_luxury_5star.json'
+import food_bbq_1star from './ragnaJSON/food/food_bbq_1star.json'
+import food_bbq_2star from './ragnaJSON/food/food_bbq_2star.json'
+import food_bbq_3star from './ragnaJSON/food/food_bbq_3star.json'
+import food_bbq_4star from './ragnaJSON/food/food_bbq_4star.json'
+import food_bbq_5star from './ragnaJSON/food/food_bbq_5star.json'
+import food_magic_1star from './ragnaJSON/food/food_magic_1star.json'
+import food_magic_2star from './ragnaJSON/food/food_magic_2star.json'
+import food_magic_3star from './ragnaJSON/food/food_magic_3star.json'
+import food_magic_4star from './ragnaJSON/food/food_magic_4star.json'
+import food_magic_5star from './ragnaJSON/food/food_magic_5star.json'
+import food_tea_1star from './ragnaJSON/food/food_tea_1star.json'
+import food_tea_2star from './ragnaJSON/food/food_tea_2star.json'
+import food_tea_3star from './ragnaJSON/food/food_tea_3star.json'
+import food_tea_4star from './ragnaJSON/food/food_tea_4star.json'
+import food_tea_5star from './ragnaJSON/food/food_tea_5star.json'
 
 export default {
 
   getFoodList(){
     const homepageDic = Array(0).concat(
       food_luxury_1star.map((obj)=>{return {...obj,type:'럭셔리 조리대'}}),
+      food_luxury_2star.map((obj)=>{return {...obj,type:'럭셔리 조리대'}}),
+      food_luxury_3star.map((obj)=>{return {...obj,type:'럭셔리 조리대'}}),
+      food_luxury_4star.map((obj)=>{return {...obj,type:'럭셔리 조리대'}}),
+      food_luxury_5star.map((obj)=>{return {...obj,type:'럭셔리 조리대'}}),
+      food_bbq_1star.map((obj)=>{return {...obj,type:'모험 바비큐 그릴'}}),
+      food_bbq_2star.map((obj)=>{return {...obj,type:'모험 바비큐 그릴'}}),
+      food_bbq_3star.map((obj)=>{return {...obj,type:'모험 바비큐 그릴'}}),
+      food_bbq_4star.map((obj)=>{return {...obj,type:'모험 바비큐 그릴'}}),
+      food_bbq_5star.map((obj)=>{return {...obj,type:'모험 바비큐 그릴'}}),
+      food_magic_1star.map((obj)=>{return {...obj,type:'마법의 압력솥'}}),
+      food_magic_2star.map((obj)=>{return {...obj,type:'마법의 압력솥'}}),
+      food_magic_3star.map((obj)=>{return {...obj,type:'마법의 압력솥'}}),
+      food_magic_4star.map((obj)=>{return {...obj,type:'마법의 압력솥'}}),
+      food_magic_5star.map((obj)=>{return {...obj,type:'마법의 압력솥'}}),
+      food_tea_1star.map((obj)=>{return {...obj,type:'로맨틱 냉음료차'}}),
+      food_tea_2star.map((obj)=>{return {...obj,type:'로맨틱 냉음료차'}}),
+      food_tea_3star.map((obj)=>{return {...obj,type:'로맨틱 냉음료차'}}),
+      food_tea_4star.map((obj)=>{return {...obj,type:'로맨틱 냉음료차'}}),
+      food_tea_5star.map((obj)=>{return {...obj,type:'로맨틱 냉음료차'}}),
     ).filter((obj, index, self)=>{
       let indexNumber = undefined
       self.find((selfObj, selfIndex)=>{
         if(selfObj.name==obj.name) indexNumber=selfIndex
       })
       return indexNumber === index
+    })
+    .map((trObj)=>{
+      function mapFunction(obj){
+        const thisKey = obj.replace(/[0-9\+\- \개\.\,\%\x\＋]+$/,'')
+        const thisValue = obj.replace(/(.*?)([0-9\+\- \개\.\,\%\x\＋]+$)/,'$2').trim()
+        return {
+          name: thisKey,
+          number: Number(thisValue.replace(/([^0-9]*)([0-9]*)([^0-9]*$)/,'$2').replace(/,/g,'')),
+          unit: thisValue.replace(/([0-9]*)([^0-9]*$)/,'$2'),
+          origin: obj,
+        }
+      }
+      const keyword = []
+      function mapFunctionWithKeyword(obj){
+        const thisKey = obj.replace(/[0-9\+\- \개\.\,\%\x\＋]+$/,'')
+        if(!keyword.includes(thisKey)) keyword.push(thisKey)
+        return mapFunction(obj)
+      }
+      trObj.calory = trObj.calory.map(mapFunction)
+      trObj.ingredient = trObj.ingredient.map(mapFunction)
+      trObj.nutrition = trObj.nutrition.map(mapFunctionWithKeyword)
+      return {...trObj, keyword}
     })
     
     const result = food_recipe.map((obj, index)=>{
@@ -232,60 +292,5 @@ JSON.stringify(
     trObj.recipe = trObj.recipe.map(mapFunction)
     return {...trObj, keyword}
   })
-)
-*/
-
-/*
-  럭셔리 조리대 1성 요리 레시피
-  food_luxury_1star.json : https://cafe.naver.com/ragnarokmmorpg/156805
-
-JSON.stringify(
-Array.from(document.querySelectorAll('table')[5].querySelectorAll('tr'))
-.reduce((resultEntry, trObj, trIndex)=>{
-  const index = trIndex
-  if(index == 0) return resultEntry
-  else{
-    function htmlToStr(str){
-      return str.replace(/\&nbsp\;\<br\>/g,' ')
-                .replace(/\&amp\;/g,'&')
-                .replace(/null/g,'')
-                .trim()
-    }
-    function htmlToList(str){return htmlToStr(str).split('<br>').map((obj)=>obj.trim())}
-    const $tds = trObj.querySelectorAll('td')
-    const resultObj = {}
-    resultObj.name = htmlToStr($tds[0].innerHTML)
-    resultObj.firstChar = String.fromCharCode(((resultObj.name.charCodeAt(0) - 44032)/28)/21 + 4352)
-    resultObj.difficult = htmlToStr($tds[1].innerHTML).replace(/[^0-9]/g,'')
-    resultObj.nutrition = htmlToList($tds[2].innerHTML)
-    resultObj.calory = htmlToList($tds[3].innerHTML)
-    resultObj.satiety = htmlToStr($tds[4].innerHTML)
-    resultObj.ingredient = htmlToList($tds[5].innerHTML)
-    resultEntry.push(resultObj)
-  }
-  return resultEntry
-}, [])
-.map((trObj)=>{
-  function mapFunction(obj){
-    const thisKey = obj.replace(/[0-9\+\- \개\.\,\%\x\＋]+$/,'')
-    const thisValue = obj.replace(/(.*?)([0-9\+\- \개\.\,\%\x\＋]+$)/,'$2').trim()
-    return {
-      name: thisKey,
-      number: Number(thisValue.replace(/([^0-9]*)([0-9]*)([^0-9]*$)/,'$2').replace(/,/g,'')),
-      unit: thisValue.replace(/([0-9]*)([^0-9]*$)/,'$2'),
-      origin: obj,
-    }
-  }
-  const keyword = []
-  function mapFunctionWithKeyword(obj){
-    const thisKey = obj.replace(/[0-9\+\- \개\.\,\%\x\＋]+$/,'')
-    if(!keyword.includes(thisKey)) keyword.push(thisKey)
-    return mapFunction(obj)
-  }
-  trObj.calory = trObj.calory.map(mapFunction)
-  trObj.ingredient = trObj.ingredient.map(mapFunction)
-  trObj.nutrition = trObj.nutrition.map(mapFunctionWithKeyword)
-  return {...trObj, keyword}
-})
 )
 */

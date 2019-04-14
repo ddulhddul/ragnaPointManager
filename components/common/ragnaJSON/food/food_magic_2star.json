@@ -1,0 +1,130 @@
+[
+    {
+        "name": "대만족",
+        "firstChar": "ᄃ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋180",
+            "MaxSP＋18",
+            "DEF＋20",
+            "장비 ASPD＋1.5%"
+        ],
+        "calory": [
+            "HP칼로리 4000",
+            "SP칼로리 400"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "세비지의 고기 x1",
+            "무카 고기 x1",
+            "설탕 x1"
+        ]
+    },
+    {
+        "name": "따뜻한 해류",
+        "firstChar": "ᄄ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋120",
+            "MaxSP＋12",
+            "ATK＋16",
+            "MDEF＋16",
+            "방어 무시＋0.75%"
+        ],
+        "calory": [
+            "HP칼로리 3000",
+            "SP칼로리 300"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "오징어 촉수 x1",
+            "말미잘의 살 x1",
+            "밀가루 x1"
+        ]
+    },
+    {
+        "name": "맛있는 야채수프",
+        "firstChar": "ᄆ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋120",
+            "MaxSP＋12",
+            "MATK＋16",
+            "MDEF＋16"
+        ],
+        "calory": [
+            "HP칼로리 3000",
+            "SP칼로리 300"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "산맥의 샐러리 x1",
+            "마법 버섯 x1",
+            "고블린의 딸기 x1"
+        ]
+    },
+    {
+        "name": "열정 오아시스",
+        "firstChar": "ᄋ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋180",
+            "MaxSP＋18",
+            "MATK＋20",
+            "MDEF＋20"
+        ],
+        "calory": [
+            "HP칼로리 4000",
+            "SP칼로리 400"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "대나무숲의 가지 x1",
+            "황금 호박 x1",
+            "바닐라 x1"
+        ]
+    },
+    {
+        "name": "영혼의 중주",
+        "firstChar": "ᄋ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋180",
+            "MaxSP＋18",
+            "ATK＋20",
+            "MDEF＋20",
+            "방어 무시＋1%"
+        ],
+        "calory": [
+            "HP칼로리 4000",
+            "SP칼로리 400"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "변이 어육 x1",
+            "마르크의 고기 x1",
+            "우유 x1"
+        ]
+    },
+    {
+        "name": "오르골 고깃국",
+        "firstChar": "ᄋ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋120",
+            "MaxSP＋12",
+            "DEF＋16",
+            "장비 ASPD＋1%"
+        ],
+        "calory": [
+            "HP칼로리 3000",
+            "SP칼로리 300"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "픽키 살 x1",
+            "메뚜기 다리 x1",
+            "설탕 x1"
+        ]
+    }
+]

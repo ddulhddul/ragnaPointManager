@@ -1,0 +1,135 @@
+[
+    {
+        "name": "공간파 파르페",
+        "firstChar": "ᄀ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋120",
+            "MaxSP＋12",
+            "ATK＋16",
+            "MATK＋16",
+            "보스 몬스터 ATK＋0.75%"
+        ],
+        "calory": [
+            "HP칼로리 3000",
+            "SP칼로리 300"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "스모키의 포도 x1",
+            "포링의 사과 x1",
+            "고블린의 딸기 x1"
+        ]
+    },
+    {
+        "name": "달콤한 치즈케익",
+        "firstChar": "ᄃ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋120",
+            "MaxSP＋12",
+            "MATK＋16",
+            "일반 몬스터 ATK＋0.75%"
+        ],
+        "calory": [
+            "HP칼로리 3000",
+            "SP칼로리 300"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "고블린의 딸기 x1",
+            "우유 x1",
+            "밀가루 x1"
+        ]
+    },
+    {
+        "name": "바닷바람 홍차",
+        "firstChar": "ᄇ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP +120",
+            "MaxSP+12",
+            "MATK+16",
+            "DEF+16",
+            "물리관통+0.75%",
+            "마법관통+0.75%"
+        ],
+        "calory": [
+            "HP칼로리 3000",
+            "SP칼로리 300"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "요요의 바나나 x1",
+            "설탕 x1",
+            "우유 x1"
+        ]
+    },
+    {
+        "name": "백작 과일쥬스",
+        "firstChar": "ᄇ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP +180",
+            "MaxSP+18",
+            "MATK+20",
+            "DEF+20",
+            "물리관통+1%",
+            "마법관통+1%"
+        ],
+        "calory": [
+            "HP칼로리 4000",
+            "SP칼로리 400"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "골렘의 수박 x1",
+            "고블린의 딸기 x1",
+            "바닐라 x1"
+        ]
+    },
+    {
+        "name": "센파니즈의 빵",
+        "firstChar": "ᄉ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋180",
+            "MaxSP＋18",
+            "DEF＋20",
+            "MDEF＋20",
+            "일반 몬스터 ATK＋1%"
+        ],
+        "calory": [
+            "HP칼로리 4000",
+            "SP칼로리 400"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "세비지의 고기 x1",
+            "황금 호박 x1",
+            "바닐라 x1"
+        ]
+    },
+    {
+        "name": "전통꿀",
+        "firstChar": "ᄌ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋180",
+            "MaxSP＋18",
+            "ATK＋20",
+            "MATK＋20",
+            "보스 몬스터 ATK＋1%"
+        ],
+        "calory": [
+            "HP칼로리 4000",
+            "SP칼로리 400"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "골렘의 수박 x1",
+            "빅풋의 파인애플 x1",
+            "바닐라 x1"
+        ]
+    }
+]

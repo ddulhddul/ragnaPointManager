@@ -1,0 +1,138 @@
+[
+    {
+        "name": "브랑디 행진곡",
+        "firstChar": "ᄇ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋420",
+            "MaxSP＋42",
+            "DEF＋36",
+            "MDEF＋36",
+            "장비 ASPD＋3%"
+        ],
+        "calory": [
+            "HP칼로리 8000",
+            "SP칼로리 800"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "무카 고기 x1",
+            "세비지의 고기 x1",
+            "장 x1",
+            "사과식초 x1"
+        ]
+    },
+    {
+        "name": "샹송의 노래",
+        "firstChar": "ᄉ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋420",
+            "MaxSP＋42",
+            "ATK＋36",
+            "MDEF＋36",
+            "방어 무시＋2%"
+        ],
+        "calory": [
+            "HP칼로리 8000",
+            "SP칼로리 800"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "변이 어육 x1",
+            "마르크의 고기 x1",
+            "치즈 x1",
+            "사과식초 x1"
+        ]
+    },
+    {
+        "name": "숙녀의 우아함",
+        "firstChar": "ᄉ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋360",
+            "MaxSP＋36",
+            "MATK＋32",
+            "MDEF＋32"
+        ],
+        "calory": [
+            "HP칼로리 7000",
+            "SP칼로리 700"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "마법 버섯 x1",
+            "산맥의 샐러리 x1",
+            "바닐라 x1",
+            "소금 x1"
+        ]
+    },
+    {
+        "name": "알데바란 어탕",
+        "firstChar": "ᄋ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋360",
+            "MaxSP＋36",
+            "ATK＋32",
+            "MDEF＋32",
+            "방어 무시＋1.75%"
+        ],
+        "calory": [
+            "HP칼로리 7000",
+            "SP칼로리 700"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "오징어 촉수 x1",
+            "마리나의 살 x1",
+            "설탕 x1",
+            "바닐라 x1"
+        ]
+    },
+    {
+        "name": "어머니의 품",
+        "firstChar": "ᄋ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋360",
+            "MaxSP＋36",
+            "DEF＋32",
+            "MDEF＋32",
+            "장비 ASPD＋2.5%"
+        ],
+        "calory": [
+            "HP칼로리 7000",
+            "SP칼로리 700"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "데저트 울프의 고기 x1",
+            "토끼고기 x1",
+            "바닐라 x1",
+            "고추 x1"
+        ]
+    },
+    {
+        "name": "황혼의 현자",
+        "firstChar": "ᄒ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋420",
+            "MaxSP＋42",
+            "MATK＋36",
+            "MDEF＋36"
+        ],
+        "calory": [
+            "HP칼로리 8000",
+            "SP칼로리 800"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "황금 호박 x1",
+            "대나무숲의 가지 x1",
+            "우유 x1",
+            "치즈 x1"
+        ]
+    }
+]

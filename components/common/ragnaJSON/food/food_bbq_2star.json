@@ -1,0 +1,128 @@
+[
+    {
+        "name": "농부의 미소",
+        "firstChar": "ᄂ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋120",
+            "MaxSP＋12",
+            "MDEF＋16"
+        ],
+        "calory": [
+            "HP칼로리 3000",
+            "SP칼로리 300"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "마법 버섯 x1",
+            "포링의 사과 x1",
+            "설탕 x1"
+        ]
+    },
+    {
+        "name": "맛있는 해물구이",
+        "firstChar": "ᄆ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋180",
+            "MaxSP＋18",
+            "ATK＋20",
+            "DEF＋20",
+            "유저에 데미지 증가＋1%"
+        ],
+        "calory": [
+            "HP칼로리 4000",
+            "SP칼로리 400"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "변이 어육 x1",
+            "마리나의 살 x1",
+            "고추 x1"
+        ]
+    },
+    {
+        "name": "산적",
+        "firstChar": "ᄉ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋200",
+            "MaxSP＋12",
+            "DEF＋16",
+            "MDEF＋16"
+        ],
+        "calory": [
+            "HP칼로리 3000",
+            "SP칼로리 300"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "데저트 울프의 고기 x1",
+            "메뚜기 다리 x1",
+            "마법 버섯 x1"
+        ]
+    },
+    {
+        "name": "이즈루드의 자랑",
+        "firstChar": "ᄋ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋120",
+            "MaxSP＋12",
+            "ATK＋16",
+            "DEF＋16",
+            "유저에 데미지 증가＋0.75%"
+        ],
+        "calory": [
+            "HP칼로리 3000",
+            "SP칼로리 300"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "마리나의 살 x1",
+            "오징어 촉수 x1",
+            "게살 x1"
+        ]
+    },
+    {
+        "name": "화염 야채꼬치",
+        "firstChar": "ᄒ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋180",
+            "MaxSP＋18",
+            "MDEF＋20"
+        ],
+        "calory": [
+            "HP칼로리 4000",
+            "SP칼로리 400"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "황금 호박 x1",
+            "마법 버섯 x1",
+            "고추 x1"
+        ]
+    },
+    {
+        "name": "황금 산적",
+        "firstChar": "ᄒ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋300",
+            "MaxSP＋18",
+            "DEF＋20",
+            "MDEF＋20"
+        ],
+        "calory": [
+            "HP칼로리 4000",
+            "SP칼로리 400"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "무카 고기 x1",
+            "픽키 살 x1",
+            "바닐라 x1"
+        ]
+    }
+]

@@ -1,0 +1,144 @@
+[
+    {
+        "name": "게펜 스테이크",
+        "firstChar": "ᄀ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋360",
+            "MaxSP＋36",
+            "DEF＋32",
+            "",
+            "상태이상 공격을 받을 때",
+            "",
+            "이번 상태이상에 면역",
+            "해당 효과 CD시간 15초",
+            "상태이상 공격에 최대 4회 면역"
+        ],
+        "calory": [
+            "HP칼로리 7000",
+            "SP칼로리 700"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "데저트 울프의 고기 x1",
+            "픽키 살 x1",
+            "고추 x1",
+            "밀가루 x1"
+        ]
+    },
+    {
+        "name": "고수",
+        "firstChar": "ᄀ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋420",
+            "MaxSP＋42",
+            "MATK＋36",
+            "스킬 딜레이－2%"
+        ],
+        "calory": [
+            "HP칼로리 8000",
+            "SP칼로리 800"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "대나무숲의 가지 x1",
+            "산맥의 샐러리 x1",
+            "장 x1",
+            "버터 x1"
+        ]
+    },
+    {
+        "name": "밀림의 보물",
+        "firstChar": "ᄆ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋360",
+            "MaxSP＋36",
+            "MATK＋32",
+            "스킬 딜레이－1.75%"
+        ],
+        "calory": [
+            "HP칼로리 7000",
+            "SP칼로리 700"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "산맥의 샐러리 x1",
+            "남쪽 문의 당근 x1",
+            "설탕 x1",
+            "고추 x1"
+        ]
+    },
+    {
+        "name": "사막 스테이크",
+        "firstChar": "ᄉ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋420",
+            "MaxSP＋42",
+            "DEF＋36",
+            "",
+            "상태이상 공격을 받을 때",
+            "",
+            "이번 상태이상에 면역",
+            "해당 효과 CD시간 15초",
+            "상태이상 공격에 최대 4회 면역"
+        ],
+        "calory": [
+            "HP칼로리 8000",
+            "SP칼로리 800"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "세비지의 고기 x1",
+            "데저트 울프의 고기 x1",
+            "사과식초 x1",
+            "치즈 x1"
+        ]
+    },
+    {
+        "name": "어부의 영혼",
+        "firstChar": "ᄋ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋420",
+            "MaxSP＋42",
+            "ATK＋36",
+            "이동속도＋3%"
+        ],
+        "calory": [
+            "HP칼로리 8000",
+            "SP칼로리 800"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "마르크의 고기 x1",
+            "마리나의 살 x1",
+            "사과식초 x1",
+            "장 x1"
+        ]
+    },
+    {
+        "name": "히드라",
+        "firstChar": "ᄒ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋360",
+            "MaxSP＋36",
+            "ATK＋32",
+            "이동속도＋2.5%"
+        ],
+        "calory": [
+            "HP칼로리 7000",
+            "SP칼로리 700"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "마리나의 살 x1",
+            "말미잘의 살 x1",
+            "고추 x1",
+            "바닐라 x1"
+        ]
+    }
+]

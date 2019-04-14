@@ -1,0 +1,139 @@
+[
+    {
+        "name": "달달한 빵",
+        "firstChar": "ᄃ",
+        "difficult": "3",
+        "nutrition": [
+            "MaxHP +300",
+            "MaxSP+30",
+            "MATK+30",
+            "DEF+30",
+            "물리관통+1.5%",
+            "마법관통+1.5%"
+        ],
+        "calory": [
+            "HP칼로리 6000",
+            "SP칼로리 600"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "토끼고기 x1",
+            "고블린의 딸기 x1",
+            "소금 x1",
+            "밀가루 x1"
+        ]
+    },
+    {
+        "name": "달달한 쿠키",
+        "firstChar": "ᄃ",
+        "difficult": "3",
+        "nutrition": [
+            "MaxHP＋300",
+            "MaxSP＋30",
+            "ATK＋30",
+            "MATK＋30",
+            "보스 몬스터 ATK＋1.5%"
+        ],
+        "calory": [
+            "HP칼로리 6000",
+            "SP칼로리 600"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "요요의 바나나 x1",
+            "스모키의 포도 x1",
+            "설탕 x1",
+            "우유 x1"
+        ]
+    },
+    {
+        "name": "마법 디저트",
+        "firstChar": "ᄆ",
+        "difficult": "3",
+        "nutrition": [
+            "MaxHP＋300",
+            "MaxSP＋30",
+            "DEF＋30",
+            "MDEF＋30",
+            "일반 몬스터 ATK＋1.5%"
+        ],
+        "calory": [
+            "HP칼로리 6000",
+            "SP칼로리 600"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "포링의 사과 x1",
+            "고블린의 딸기 x1",
+            "설탕 x1",
+            "우유 x1"
+        ]
+    },
+    {
+        "name": "맛있는 과일차",
+        "firstChar": "ᄆ",
+        "difficult": "3",
+        "nutrition": [
+            "MaxHP＋216",
+            "MaxSP＋21",
+            "DEF＋24",
+            "MDEF＋24",
+            "일반 몬스터 ATK＋1.25%"
+        ],
+        "calory": [
+            "HP칼로리 5000",
+            "SP칼로리 500"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "골렘의 수박 x1",
+            "빅풋의 파인애플 x1",
+            "우유 x1"
+        ]
+    },
+    {
+        "name": "맛있는 과자",
+        "firstChar": "ᄆ",
+        "difficult": "3",
+        "nutrition": [
+            "MaxHP＋216",
+            "MaxSP＋21",
+            "ATK＋24",
+            "MATK＋24",
+            "보스 몬스터 ATK＋1.25%"
+        ],
+        "calory": [
+            "HP칼로리 5000",
+            "SP칼로리 500"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "골렘의 수박 x1",
+            "포링의 사과 x1",
+            "버터 x1"
+        ]
+    },
+    {
+        "name": "맛있는 케익",
+        "firstChar": "ᄆ",
+        "difficult": "3",
+        "nutrition": [
+            "MaxHP +216",
+            "MaxSP+21",
+            "MATK+24",
+            "DEF+24",
+            "물리관통+1.25%",
+            "마법관통+1.25%"
+        ],
+        "calory": [
+            "HP칼로리 5000",
+            "SP칼로리 500"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "빅풋의 파인애플 x1",
+            "스모키의 포도 x1",
+            "버터 x1"
+        ]
+    }
+]

@@ -1,0 +1,147 @@
+[
+    {
+        "name": "거탑",
+        "firstChar": "ᄀ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋700",
+            "MaxSP＋42",
+            "DEF＋36"
+        ],
+        "calory": [
+            "HP칼로리 8000",
+            "SP칼로리 800"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "무카 고기 x1",
+            "픽키 살 x1",
+            "버터 x1",
+            "장 x1"
+        ]
+    },
+    {
+        "name": "바다의 외침",
+        "firstChar": "ᄇ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋360",
+            "MaxSP＋36",
+            "ATK＋32",
+            "DEF＋32",
+            "유저에 데미지 증가＋1.75%",
+            "치명적인 데미지를 입을 때",
+            "사망하지 않음",
+            "1HP 보류, 다음 2초 동안 무적 상태",
+            "",
+            "해당 효과 CD시간 15초",
+            "치사 효과 최대 1회 발동 가능"
+        ],
+        "calory": [
+            "HP칼로리 7000",
+            "SP칼로리 700"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "오징어 촉수 x1",
+            "게살 x1",
+            "고추 x1",
+            "바닐라 x1"
+        ]
+    },
+    {
+        "name": "천공의 검",
+        "firstChar": "ᄎ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋420",
+            "MaxSP＋42",
+            "MATK＋36",
+            "MDEF＋36",
+            "",
+            "치명적인 데미지를 입을 때",
+            "",
+            "사망하지 않음",
+            "1HP 보류, 다음 2초 동안 무적 상태",
+            "해당 효과 CD시간 15초",
+            "치사 효과 최대 1회 발동 가능"
+        ],
+        "calory": [
+            "HP칼로리 8000",
+            "SP칼로리 800"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "황금 호박 x1",
+            "마법 버섯 x1",
+            "장 x1",
+            "사과식초 x1"
+        ]
+    },
+    {
+        "name": "트루비 해물꼬치",
+        "firstChar": "ᄐ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋420",
+            "MaxSP＋42",
+            "ATK＋36",
+            "DEF＋36",
+            "유저에 데미지 증가＋2%"
+        ],
+        "calory": [
+            "HP칼로리 8000",
+            "SP칼로리 800"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "변이 어육 x1",
+            "오징어 촉수 x1",
+            "사과식초 x1",
+            "치즈 x1"
+        ]
+    },
+    {
+        "name": "페이욘 야채꼬치",
+        "firstChar": "ᄑ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋360",
+            "MaxSP＋36",
+            "MATK＋32",
+            "MDEF＋32"
+        ],
+        "calory": [
+            "HP칼로리 7000",
+            "SP칼로리 700"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "마법 버섯 x1",
+            "서쪽 문의 토마토 x1",
+            "우유 x1",
+            "바닐라 x1"
+        ]
+    },
+    {
+        "name": "황금 십자산적",
+        "firstChar": "ᄒ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋600",
+            "MaxSP＋36",
+            "DEF＋32"
+        ],
+        "calory": [
+            "HP칼로리 7000",
+            "SP칼로리 700"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "픽키 살 x1",
+            "메뚜기 다리 x1",
+            "바닐라 x1",
+            "고추 x1"
+        ]
+    }
+]

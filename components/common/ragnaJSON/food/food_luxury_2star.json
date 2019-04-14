@@ -1,0 +1,139 @@
+[
+    {
+        "name": "매운 가지 채식",
+        "firstChar": "ᄆ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋180",
+            "MaxSP＋18",
+            "MATK＋20",
+            "스킬 딜레이－1%"
+        ],
+        "calory": [
+            "HP칼로리 4000",
+            "SP칼로리 400"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "대나무숲의 가지 x1",
+            "남쪽 문의 당근 x1",
+            "고추 x1"
+        ]
+    },
+    {
+        "name": "아시안 해물구이",
+        "firstChar": "ᄋ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋180",
+            "MaxSP＋18",
+            "ATK＋20",
+            "이동속도＋1.5%"
+        ],
+        "calory": [
+            "HP칼로리 4000",
+            "SP칼로리 400"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "마르크의 고기 x1",
+            "오징어 촉수 x1",
+            "고추 x1"
+        ]
+    },
+    {
+        "name": "채식 음식",
+        "firstChar": "ᄎ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋120",
+            "MaxSP＋12",
+            "MATK＋16",
+            "스킬 딜레이－0.75%"
+        ],
+        "calory": [
+            "HP칼로리 3000",
+            "SP칼로리 300"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "산맥의 샐러리 x1",
+            "마법 버섯 x1",
+            "우유 x1"
+        ]
+    },
+    {
+        "name": "챱 스테이크",
+        "firstChar": "ᄎ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋120",
+            "MaxSP＋12",
+            "DEF＋16",
+            "MDEF＋16",
+            "",
+            "상태이상 공격을 받을 때",
+            "",
+            "이번 상태이상에 면역",
+            "해당 효과 CD시간 15초",
+            "상태이상 공격에 최대 2회 면역"
+        ],
+        "calory": [
+            "HP칼로리 3000",
+            "SP칼로리 300"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "픽키 살 x1",
+            "데저트 울프의 고기 x1",
+            "산맥의 샐러리 x1"
+        ]
+    },
+    {
+        "name": "해물 볶음밥",
+        "firstChar": "ᄒ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋120",
+            "MaxSP＋12",
+            "ATK＋16",
+            "이동속도＋1%"
+        ],
+        "calory": [
+            "HP칼로리 3000",
+            "SP칼로리 300"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "마리나의 살 x1",
+            "오징어 촉수 x1",
+            "우유 x1"
+        ]
+    },
+    {
+        "name": "화신의 계보",
+        "firstChar": "ᄒ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋180",
+            "MaxSP＋18",
+            "DEF＋20",
+            "",
+            "상태이상 공격을 받을 때",
+            "",
+            "이번 상태이상에 면역",
+            "해당 효과 CD시간 15초",
+            "상태이상 공격에 최대 3회 면역"
+        ],
+        "calory": [
+            "HP칼로리 4000",
+            "SP칼로리 400"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "세비지의 고기 x1",
+            "데저트 울프의 고기 x1",
+            "고추 x1"
+        ]
+    }
+]

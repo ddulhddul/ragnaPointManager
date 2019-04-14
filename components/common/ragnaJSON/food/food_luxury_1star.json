@@ -1,0 +1,131 @@
+[
+    {
+        "name": "건강식 나물무침",
+        "firstChar": "ᄀ",
+        "difficult": "1",
+        "nutrition": [
+            "MaxHP＋90",
+            "MaxSP＋9",
+            "MATK＋12"
+        ],
+        "calory": [
+            "HP칼로리 2000",
+            "SP칼로리 200"
+        ],
+        "satiety": "18",
+        "ingredient": [
+            "서쪽 문의 토마토 x1",
+            "소금 x1"
+        ]
+    },
+    {
+        "name": "여행자의 고기볶음",
+        "firstChar": "ᄋ",
+        "difficult": "1",
+        "nutrition": [
+            "MaxHP＋90",
+            "MaxSP＋9",
+            "DEF＋12"
+        ],
+        "calory": [
+            "HP칼로리 2000",
+            "SP칼로리 200"
+        ],
+        "satiety": "18",
+        "ingredient": [
+            "토끼고기 x1",
+            "소금 x1"
+        ]
+    },
+    {
+        "name": "초보자 과일잼",
+        "firstChar": "ᄎ",
+        "difficult": "1",
+        "nutrition": [
+            "MaxHP＋60",
+            "MaxSP＋6",
+            "MATK＋8"
+        ],
+        "calory": [
+            "HP칼로리 1500",
+            "SP칼로리 150"
+        ],
+        "satiety": "12",
+        "ingredient": [
+            "과일 x1"
+        ]
+    },
+    {
+        "name": "초보자 볶음요리",
+        "firstChar": "ᄎ",
+        "difficult": "1",
+        "nutrition": [
+            "MaxHP＋60",
+            "MaxSP＋6",
+            "MDEF＋8"
+        ],
+        "calory": [
+            "HP칼로리 1500",
+            "SP칼로리 150"
+        ],
+        "satiety": "12",
+        "ingredient": [
+            "채소 x1"
+        ]
+    },
+    {
+        "name": "초보자 생선요리",
+        "firstChar": "ᄎ",
+        "difficult": "1",
+        "nutrition": [
+            "MaxHP＋60",
+            "MaxSP＋6",
+            "ATK＋8"
+        ],
+        "calory": [
+            "HP칼로리 1500",
+            "SP칼로리 150"
+        ],
+        "satiety": "12",
+        "ingredient": [
+            "해산물 x1"
+        ]
+    },
+    {
+        "name": "초보자 스테이크",
+        "firstChar": "ᄎ",
+        "difficult": "1",
+        "nutrition": [
+            "MaxHP＋60",
+            "MaxSP＋6",
+            "DEF＋8"
+        ],
+        "calory": [
+            "HP칼로리 1500",
+            "SP칼로리 150"
+        ],
+        "satiety": "12",
+        "ingredient": [
+            "육류 x1"
+        ]
+    },
+    {
+        "name": "해물잡채",
+        "firstChar": "ᄒ",
+        "difficult": "1",
+        "nutrition": [
+            "MaxHP＋90",
+            "MaxSP＋9",
+            "ATK＋12"
+        ],
+        "calory": [
+            "HP칼로리 2000",
+            "SP칼로리 200"
+        ],
+        "satiety": "18",
+        "ingredient": [
+            "게살 x1",
+            "밀가루 x1"
+        ]
+    }
+]

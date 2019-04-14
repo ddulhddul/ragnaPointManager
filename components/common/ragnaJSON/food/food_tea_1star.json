@@ -1,0 +1,133 @@
+[
+    {
+        "name": "샹송 레이",
+        "firstChar": "ᄉ",
+        "difficult": "1",
+        "nutrition": [
+            "MaxHP＋90",
+            "MaxSP＋9",
+            "MDEF＋12"
+        ],
+        "calory": [
+            "HP칼로리 2000",
+            "SP칼로리 200"
+        ],
+        "satiety": "18",
+        "ingredient": [
+            "남쪽 문의 당근 x1",
+            "밀가루 x1"
+        ]
+    },
+    {
+        "name": "스모키 과자",
+        "firstChar": "ᄉ",
+        "difficult": "1",
+        "nutrition": [
+            "MaxHP＋90",
+            "MaxSP＋9",
+            "MATK＋12"
+        ],
+        "calory": [
+            "HP칼로리 2000",
+            "SP칼로리 200"
+        ],
+        "satiety": "18",
+        "ingredient": [
+            "스모키의 포도 x1",
+            "밀가루 x1",
+            "소금 x1"
+        ]
+    },
+    {
+        "name": "시원한 아이스크림",
+        "firstChar": "ᄉ",
+        "difficult": "1",
+        "nutrition": [
+            "MaxHP＋90",
+            "MaxSP＋9",
+            "MATK＋12",
+            "DEF＋12"
+        ],
+        "calory": [
+            "HP칼로리 2000",
+            "SP칼로리 200"
+        ],
+        "satiety": "18",
+        "ingredient": [
+            "포링의 사과 x1",
+            "스모키의 포도 x1"
+        ]
+    },
+    {
+        "name": "초보자 과일",
+        "firstChar": "ᄎ",
+        "difficult": "1",
+        "nutrition": [
+            "MaxHP＋60",
+            "MaxSP＋6",
+            "MATK＋8"
+        ],
+        "calory": [
+            "HP칼로리 1500",
+            "SP칼로리 150"
+        ],
+        "satiety": "12",
+        "ingredient": [
+            "과일 x1"
+        ]
+    },
+    {
+        "name": "초보자 샐러드",
+        "firstChar": "ᄎ",
+        "difficult": "1",
+        "nutrition": [
+            "MaxHP＋60",
+            "MaxSP＋6",
+            "MDEF＋8"
+        ],
+        "calory": [
+            "HP칼로리 1500",
+            "SP칼로리 150"
+        ],
+        "satiety": "12",
+        "ingredient": [
+            "채소 x1"
+        ]
+    },
+    {
+        "name": "초보자 초밥",
+        "firstChar": "ᄎ",
+        "difficult": "1",
+        "nutrition": [
+            "MaxHP＋60",
+            "MaxSP＋6",
+            "ATK＋8"
+        ],
+        "calory": [
+            "HP칼로리 1500",
+            "SP칼로리 150"
+        ],
+        "satiety": "12",
+        "ingredient": [
+            "해산물 x1"
+        ]
+    },
+    {
+        "name": "초보자 회",
+        "firstChar": "ᄎ",
+        "difficult": "1",
+        "nutrition": [
+            "MaxHP＋60",
+            "MaxSP＋6",
+            "DEF＋8"
+        ],
+        "calory": [
+            "HP칼로리 1500",
+            "SP칼로리 150"
+        ],
+        "satiety": "12",
+        "ingredient": [
+            "육류 x1"
+        ]
+    }
+]

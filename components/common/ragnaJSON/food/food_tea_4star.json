@@ -1,0 +1,142 @@
+[
+    {
+        "name": "가트의 궁전",
+        "firstChar": "ᄀ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋420",
+            "MaxSP＋42",
+            "ATK＋36",
+            "MATK＋36",
+            "보스 몬스터 ATK＋2%"
+        ],
+        "calory": [
+            "HP칼로리 8000",
+            "SP칼로리 800"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "빅풋의 파인애플 x1",
+            "요요의 바나나 x1",
+            "버터 x1",
+            "치즈 x1"
+        ]
+    },
+    {
+        "name": "공주의 홍차",
+        "firstChar": "ᄀ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋420",
+            "MaxSP＋42",
+            "DEF＋36",
+            "MDEF＋36",
+            "일반 몬스터 ATK＋2%"
+        ],
+        "calory": [
+            "HP칼로리 8000",
+            "SP칼로리 800"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "골렘의 수박 x1",
+            "빅풋의 파인애플 x1",
+            "설탕 x1",
+            "치즈 x1"
+        ]
+    },
+    {
+        "name": "귀공자의 홍차",
+        "firstChar": "ᄀ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP +360",
+            "MaxSP+36",
+            "MATK+32",
+            "DEF+32",
+            "물리관통+1.75%",
+            "마법관통+1.75%"
+        ],
+        "calory": [
+            "HP칼로리 7000",
+            "SP칼로리 700"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "고블린의 딸기 x1",
+            "포링의 사과 x1",
+            "설탕 x1",
+            "바닐라 x1"
+        ]
+    },
+    {
+        "name": "빅풋 숲 과자",
+        "firstChar": "ᄇ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋360",
+            "MaxSP＋36",
+            "ATK＋32",
+            "MATK＋32",
+            "보스 몬스터 ATK＋1.75%"
+        ],
+        "calory": [
+            "HP칼로리 7000",
+            "SP칼로리 700"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "고블린의 딸기 x1",
+            "요요의 바나나 x1",
+            "바닐라 x1",
+            "밀가루 x1"
+        ]
+    },
+    {
+        "name": "상인의 케익",
+        "firstChar": "ᄉ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋360",
+            "MaxSP＋36",
+            "DEF＋32",
+            "MDEF＋32",
+            "일반 몬스터 ATK＋1.75%"
+        ],
+        "calory": [
+            "HP칼로리 7000",
+            "SP칼로리 700"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "요요의 바나나 x1",
+            "스모키의 포도 x1",
+            "우유 x1",
+            "바닐라 x1"
+        ]
+    },
+    {
+        "name": "여름의 별",
+        "firstChar": "ᄋ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP +420",
+            "MaxSP+42",
+            "MATK+36",
+            "DEF+36",
+            "물리관통+2%",
+            "마법관통+2%"
+        ],
+        "calory": [
+            "HP칼로리 8000",
+            "SP칼로리 800"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "골렘의 수박 x1",
+            "고블린의 딸기 x1",
+            "버터 x1",
+            "치즈 x1"
+        ]
+    }
+]

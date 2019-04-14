@@ -1,0 +1,145 @@
+[
+    {
+        "name": "열정의 산적",
+        "firstChar": "ᄋ",
+        "difficult": "5",
+        "nutrition": [
+            "MaxHP＋1000",
+            "MaxSP＋60",
+            "DEF＋40"
+        ],
+        "calory": [
+            "HP칼로리 10000",
+            "SP칼로리 1000"
+        ],
+        "satiety": "30",
+        "ingredient": [
+            "세비지의 고기 x1",
+            "무카 고기 x1",
+            "데저트 울프의 고기 x1",
+            "픽키 살 x1",
+            "비법가루 x1"
+        ]
+    },
+    {
+        "name": "열정의 생선꼬치",
+        "firstChar": "ᄋ",
+        "difficult": "5",
+        "nutrition": [
+            "MaxHP＋600",
+            "MaxSP＋60",
+            "ATK＋40",
+            "DEF＋40",
+            "유저에 데미지 증가＋2.5%"
+        ],
+        "calory": [
+            "HP칼로리 10000",
+            "SP칼로리 1000"
+        ],
+        "satiety": "30",
+        "ingredient": [
+            "마르크의 고기 x1",
+            "변이 어육 x1",
+            "마리나의 살 x1",
+            "오징어 촉수 x1",
+            "비법가루 x1"
+        ]
+    },
+    {
+        "name": "열정의 야채구이",
+        "firstChar": "ᄋ",
+        "difficult": "5",
+        "nutrition": [
+            "MaxHP＋600",
+            "MaxSP＋60",
+            "MATK＋40",
+            "MDEF＋40",
+            "치명적인 데미지를 입을 때",
+            "사망하지 않음",
+            "1HP 보류, 다음 2초 동안 무적 상태",
+            "해당 효과 CD시간 15초",
+            "치사 효과 최대 2회 발동 가능"
+        ],
+        "calory": [
+            "HP칼로리 10000",
+            "SP칼로리 1000"
+        ],
+        "satiety": "30",
+        "ingredient": [
+            "대나무숲의 가지 x1",
+            "황금 호박 x1",
+            "마법 버섯 x1",
+            "산맥의 샐러리 x1",
+            "비법가루 x1"
+        ]
+    },
+    {
+        "name": "왕실 산적",
+        "firstChar": "ᄋ",
+        "difficult": "5",
+        "nutrition": [
+            "MaxHP＋830",
+            "MaxSP＋50",
+            "DEF＋38"
+        ],
+        "calory": [
+            "HP칼로리 9000",
+            "SP칼로리 900"
+        ],
+        "satiety": "30",
+        "ingredient": [
+            "무카 고기 x1",
+            "픽키 살 x1",
+            "메뚜기 다리 x1",
+            "사과식초 x1",
+            "장 x1"
+        ]
+    },
+    {
+        "name": "왕실 생선꼬치",
+        "firstChar": "ᄋ",
+        "difficult": "5",
+        "nutrition": [
+            "MaxHP＋500",
+            "MaxSP＋50",
+            "ATK＋38",
+            "DEF＋38",
+            "유저에 데미지 증가＋2.25%"
+        ],
+        "calory": [
+            "HP칼로리 9000",
+            "SP칼로리 900"
+        ],
+        "satiety": "30",
+        "ingredient": [
+            "변이 어육 x1",
+            "마리나의 살 x1",
+            "게살 x1",
+            "장 x1",
+            "사과식초 x1"
+        ]
+    },
+    {
+        "name": "왕실 야채구이",
+        "firstChar": "ᄋ",
+        "difficult": "5",
+        "nutrition": [
+            "MaxHP＋500",
+            "MaxSP＋50",
+            "MDEF＋38",
+            "스킬 딜레이－2.25%"
+        ],
+        "calory": [
+            "HP칼로리 9000",
+            "SP칼로리 900"
+        ],
+        "satiety": "30",
+        "ingredient": [
+            "황금 호박 x1",
+            "산맥의 샐러리 x1",
+            "서쪽 문의 토마토 x1",
+            "치즈 x1",
+            "사과식초 x1"
+        ]
+    }
+]

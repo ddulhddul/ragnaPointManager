@@ -1,0 +1,141 @@
+[
+    {
+        "name": "맛있는 산적",
+        "firstChar": "ᄆ",
+        "difficult": "3",
+        "nutrition": [
+            "MaxHP＋360",
+            "MaxSP＋21",
+            "DEF＋24",
+            "MDEF＋24"
+        ],
+        "calory": [
+            "HP칼로리 5000",
+            "SP칼로리 500"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "무카 고기 x1",
+            "데저트 울프의 고기 x1",
+            "사과식초 x1"
+        ]
+    },
+    {
+        "name": "맛있는 채소구이",
+        "firstChar": "ᄆ",
+        "difficult": "3",
+        "nutrition": [
+            "MaxHP＋216",
+            "MaxSP＋21",
+            "MATK＋24",
+            "MDEF＋24"
+        ],
+        "calory": [
+            "HP칼로리 5000",
+            "SP칼로리 500"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "황금 호박 x1",
+            "남쪽 문의 당근 x1",
+            "사과식초 x1"
+        ]
+    },
+    {
+        "name": "맛있는 해물꼬치",
+        "firstChar": "ᄆ",
+        "difficult": "3",
+        "nutrition": [
+            "MaxHP＋216",
+            "MaxSP＋21",
+            "ATK＋24",
+            "DEF＋24",
+            "유저에 데미지 증가＋1.25%"
+        ],
+        "calory": [
+            "HP칼로리 5000",
+            "SP칼로리 500"
+        ],
+        "satiety": "24",
+        "ingredient": [
+            "변이 어육 x1",
+            "게살 x1",
+            "사과식초 x1"
+        ]
+    },
+    {
+        "name": "신비 야채구이",
+        "firstChar": "ᄉ",
+        "difficult": "3",
+        "nutrition": [
+            "MaxHP＋300",
+            "MaxSP＋30",
+            "MATK＋30",
+            "MDEF＋30",
+            "",
+            "치명적인 데미지를 입을 때",
+            "",
+            "사망하지 않음",
+            "",
+            "1HP 보류, 다음 2초 동안 무적 상태",
+            "해당 효과 CD시간 15초",
+            "치사 효과 최대 1회 발동 가능"
+        ],
+        "calory": [
+            "HP칼로리 6000",
+            "SP칼로리 600"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "마법 버섯 x1",
+            "서쪽 문의 토마토 x1",
+            "소금 x1",
+            "밀가루 x1"
+        ]
+    },
+    {
+        "name": "신비 해물꼬치",
+        "firstChar": "ᄉ",
+        "difficult": "3",
+        "nutrition": [
+            "MaxHP＋300",
+            "MaxSP＋30",
+            "ATK＋30",
+            "MDEF＋30",
+            "유저에 데미지 증가＋1.5%"
+        ],
+        "calory": [
+            "HP칼로리 6000",
+            "SP칼로리 600"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "오징어 촉수 x1",
+            "말미잘의 살 x1",
+            "서쪽 문의 토마토 x1",
+            "소금 x1"
+        ]
+    },
+    {
+        "name": "신비한 산적",
+        "firstChar": "ᄉ",
+        "difficult": "3",
+        "nutrition": [
+            "MaxHP＋500",
+            "MaxSP＋30",
+            "MATK＋30",
+            "DEF＋30"
+        ],
+        "calory": [
+            "HP칼로리 6000",
+            "SP칼로리 600"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "토끼고기 x1",
+            "데저트 울프의 고기 x1",
+            "포링의 사과 x1",
+            "소금 x1"
+        ]
+    }
+]
