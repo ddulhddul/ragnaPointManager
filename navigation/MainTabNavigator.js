@@ -73,7 +73,7 @@ SettingsStack.navigationOptions = {
   ),
 };
 
-export default createMaterialTopTabNavigator({
+export default createBottomTabNavigator({
   FoodStack,
   ItemStack,
   LinksStack,
@@ -87,8 +87,8 @@ export default createMaterialTopTabNavigator({
       // width: 100,
     },
     style: {
-      paddingTop: 20,
-      backgroundColor: Util.tabColor
+      // paddingTop: 20,
+      // backgroundColor: Util.tabColor
     },
   }
 });
