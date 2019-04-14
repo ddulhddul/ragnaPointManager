@@ -54,9 +54,10 @@ export default {
     filterContainer: {
         flexDirection: 'row',
         margin: 5,
-        marginTop: 10,
+        marginTop: 3,
         justifyContent: 'center',
         alignItems: 'center',
+        paddingLeft: 5,
     },
     searchContainer: {
         flexDirection: 'row',
@@ -78,6 +79,13 @@ export default {
         marginLeft: 2,
         marginRight: 2,
     },
+    filterRecStyle: {
+      backgroundColor: 'black',
+      paddingLeft: 5,
+      paddingRight: 5,
+      marginLeft: 2,
+      marginRight: 2,
+  },
     filterTextStyle: {
         fontSize: 11,
         color: 'white'

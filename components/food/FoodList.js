@@ -16,8 +16,24 @@ class FoodList extends SqlUtil {
     
     constructor(props){
         super(props)
+        const nutritionKeywordList = (props.foodList||[]).reduce((entry, obj)=>{
+            (obj.nutrition||[]).map((target)=>{
+                const keyword = target.name
+                !keyword.match(/[^a-zA-Z]/) && !entry.includes(keyword) && entry.push(keyword)
+            })
+            return entry
+        }, []).sort()
+        const saveKeywordList = (props.foodList||[]).reduce((entry, obj)=>{
+            (obj.cooking||[]).concat(obj.tasting||[]).map((target)=>{
+                const keyword = target.name
+                keyword!='?' && !entry.includes(keyword) && entry.push(keyword)
+            })
+            return entry
+        }, []).sort()
         this.state = {
-            foodList: []
+            foodList: [],
+            nutritionKeywordList,
+            saveKeywordList
         }
     }
 
@@ -81,12 +97,130 @@ class FoodList extends SqlUtil {
     }
     
     render() {
-        const { scrolling, foodList } = this.state
+        const { searchValue, scrolling, cookingFilter, tastingFilter, searchEnabled } = this.state
+        const nutritionKeywordList = this.state.nutritionKeywordList || []
+        const saveKeywordList = this.state.saveKeywordList || []
+        const nutritionFilter = this.state.nutritionFilter || []
+        const saveFilter = this.state.saveFilter || []
+        const foodList = (this.state.foodList || [])
+        .filter((obj)=>{
+            if(!searchEnabled || !searchValue) return true
+            return obj.name.indexOf(searchValue) != -1
+        })
+        .filter((obj)=>{
+            if(!cookingFilter && !tastingFilter) return true
+            return (cookingFilter && obj.cookingYn != 'Y') 
+                || (tastingFilter && obj.tastingYn != 'Y')
+        })
+        .filter((obj)=>{
+            if(!nutritionFilter.length) return true
+            return (obj.nutrition||[]).reduce((entry, target)=>{
+                if(entry) return entry
+                return nutritionFilter.includes(target.name)
+            }, false)
+        })
+        .filter((obj)=>{
+            if(!saveFilter.length) return true
+            return (obj.cooking||[]).concat(obj.tasting||[]).reduce((entry, target)=>{
+                if(entry) return entry
+                return saveFilter.includes(target.name)
+            }, false)
+        })
         
         return (
             <View style={styles.container}>
                 {(!this.isReady)? <Loading />:null}
 
+                <View style={styles.filterContainer}>
+                    <View style={[styles.filterStyle, {backgroundColor: Util.green}]}>
+                        <TouchableOpacity onPress={()=>{this.setState({nutritionFilter: []})}}>
+                            <Text style={[styles.filterTextStyle]}>영양 Reset</Text>
+                        </TouchableOpacity>
+                    </View>
+                    <ScrollView horizontal={true} style={{marginLeft: 5}}>
+                    {
+                        nutritionKeywordList.map((obj)=>{
+                            return <View  key={`nutritionKeyword_${obj}`}
+                                        style={[styles.filterStyle, 
+                                            nutritionFilter.includes(obj)? {backgroundColor: Util.filterSelected}: {}
+                                        ]}>
+                                <TouchableOpacity onPress={()=>{
+                                    this.setState({
+                                        nutritionFilter: !nutritionFilter.includes(obj)? [...nutritionFilter, obj]:
+                                                    nutritionFilter.filter((filtered)=>filtered!=obj)
+                                    })
+                                }}>
+                                    <Text style={styles.filterTextStyle}>{obj}</Text>
+                                </TouchableOpacity>
+                            </View>
+                        })
+                    }
+                    </ScrollView>
+                </View>
+
+                <View style={styles.filterContainer}>
+                    <View style={[styles.filterStyle, {backgroundColor: Util.green}]}>
+                        <TouchableOpacity onPress={()=>{this.setState({saveFilter: []})}}>
+                            <Text style={[styles.filterTextStyle]}>저장 Reset</Text>
+                        </TouchableOpacity>
+                    </View>
+                    <ScrollView horizontal={true} style={{marginLeft: 5}}>
+                    {
+                        saveKeywordList.map((obj)=>{
+                            return <View  key={`saveKeyword_${obj}`}
+                                        style={[styles.filterStyle, 
+                                            saveFilter.includes(obj)? {backgroundColor: Util.filterSelected}: {}
+                                        ]}>
+                                <TouchableOpacity onPress={()=>{
+                                    this.setState({
+                                        saveFilter: !saveFilter.includes(obj)? [...saveFilter, obj]:
+                                                    saveFilter.filter((filtered)=>filtered!=obj)
+                                    })
+                                }}>
+                                    <Text style={styles.filterTextStyle}>{obj}</Text>
+                                </TouchableOpacity>
+                            </View>
+                        })
+                    }
+                    </ScrollView>
+                </View>
+
+                <View style={[styles.searchContainer]}>
+                    <View style={[styles.trContainer, {marginLeft: 10}]}>
+                        <CheckBox value={cookingFilter} onValueChange={()=>
+                            {this.setState({cookingFilter: !cookingFilter})}} />
+                        <TouchableOpacity onPress={()=>
+                            {this.setState({cookingFilter: !cookingFilter})}}>
+                            <Text style={[styles.thTextStyle, {color: saveColor}]}>쿠킹필요</Text>
+                        </TouchableOpacity>
+                        <CheckBox value={tastingFilter} onValueChange={()=>
+                            {this.setState({tastingFilter: !tastingFilter})}} />
+                        <TouchableOpacity onPress={()=>
+                            {this.setState({tastingFilter: !tastingFilter})}}>
+                            <Text style={[styles.thTextStyle, {color: openColor}]}>맛보기필요</Text>
+                        </TouchableOpacity>
+                        <View style={[{marginLeft: 10, marginRight: 5, padding: 5}, 
+                            searchEnabled? {backgroundColor: Util.filterSelected, borderRadius: 10}: null]}>
+                            <TouchableOpacity onPress={()=>{this.setState({searchEnabled: !searchEnabled})}}>
+                                <Icon.Ionicons name="md-search" size={20}
+                                    color={searchEnabled?"white":"black"} />
+                            </TouchableOpacity>
+                        </View>
+                    </View>
+                </View>
+
+                {
+                    !searchEnabled? null:
+                    <View style={{width: '95%', alignSelf: 'flex-end', borderWidth: 3, borderColor: Util.filterSelected,
+                        marginLeft: 5, marginRight: 5}}>
+                        <TextInput
+                            autoFocus={true}
+                            style={{borderColor: 'gray'}}
+                            onChangeText={(text) => this.setState({searchValue: text})}
+                            value={searchValue}
+                        />
+                    </View>
+                }
                 {
                     !foodList.length? null:
                     <View style={{alignItems: 'flex-end', marginRight: 10}}>
@@ -116,39 +250,55 @@ class FoodList extends SqlUtil {
                                     <View style={[styles.trContainer]}>
                                         <View style={[styles.tdContainer, {marginLeft: 10, marginRight: 10}]}>
                                             <View style={[styles.trContainer, {marginBottom: 3, alignSelf: 'flex-start'}]}>
-                                                <View style={{flex:1}}>
+                                                {
+                                                    isNaN(Number(item.difficult))? null:
+                                                    Array.from(Array(Number(item.difficult))).map((obj, index)=>{
+                                                        return <Icon.AntDesign key={`${item.name}_star_${index}`} style={{marginLeft: -3}}
+                                                                    name="star" size={12} color='rgb(241, 196, 15)' />
+                                                    })
+                                                }
+                                                <View style={{flex:1, marginLeft: 5}}>
                                                     <Text style={[styles.textStyle, {fontSize: 11, color: Util.grey, textAlign: 'left'}]}>
                                                         {item.type}
                                                     </Text>
                                                 </View>
-                                                {
-                                                    isNaN(Number(item.difficult))? null:
-                                                    Array.from(Array(Number(item.difficult))).map((obj, index)=>{
-                                                        return <Icon.AntDesign key={`${item.name}_star_${index}`} 
-                                                                    name="star" size={12} color='rgb(241, 196, 15)' />
-                                                    })
-                                                }
                                             </View>
                                             <View style={[{marginBottom: 3, alignSelf: 'flex-start'}]}>
                                                 <Text style={[styles.textStyle, {fontSize: 17, fontWeight: 'bold', textAlign: 'left'}]}>{item.name}</Text>
                                             </View>
-                                            <View style={[{marginBottom: 3, alignSelf: 'flex-start'}]}>
-                                                <Text style={[styles.textStyle, {fontSize: 13, color: Util.grey, textAlign: 'left'}]}>{
-                                                    (item.nutrition||[]).map((optionObj, optionIndex)=>{
-                                                        return `${optionObj.name} ${optionObj.number||''}`
-                                                    }).join(', ')
-                                                }</Text>
-                                            </View>
-                                            <View style={[{alignSelf: 'flex-start'}]}>
-                                                <Text style={[styles.textStyle, {fontSize: 11, color: Util.grey, textAlign: 'left'}]}>{
-                                                    (item.calory||[]).map((optionObj, optionIndex)=>{
-                                                        return `${optionObj.name} ${optionObj.number||''}`
-                                                    }).join(', ')
-                                                }</Text>
-                                            </View>
+                                            {
+                                                (!item.nutrition || !item.nutrition.length)? null:
+                                                <View style={[{alignSelf: 'flex-start'}]}>
+                                                    <Text style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left'}]}>{
+                                                        '영양: '+(item.nutrition||[]).map((optionObj, optionIndex)=>{
+                                                            return `${optionObj.name} ${optionObj.number||''}`
+                                                        }).join(', ')
+                                                    }</Text>
+                                                </View>
+                                            }
+                                            {
+                                                (!item.ingredient || !item.ingredient.length)? null:
+                                                <View style={[{alignSelf: 'flex-start'}]}>
+                                                    <Text style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left'}]}>{
+                                                        '재료: '+(item.ingredient||[]).map((optionObj, optionIndex)=>{
+                                                            return `${optionObj.name} ${optionObj.number||''}`
+                                                        }).join(', ')
+                                                    }</Text>
+                                                </View>
+                                            }
+                                            {
+                                                (!item.calory || !item.calory.length)? null:
+                                                <View style={[{alignSelf: 'flex-start'}]}>
+                                                    <Text style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left'}]}>{
+                                                        '칼로리: '+(item.calory||[]).map((optionObj, optionIndex)=>{
+                                                            return `${optionObj.name} ${optionObj.number||''}`
+                                                        }).join(', ')
+                                                    }</Text>
+                                                </View>
+                                            }
                                         </View>
                                     </View>
-                                    <View style={styles.trContainer}>
+                                    <View style={[styles.trContainer, {marginTop: 3}]}>
                                         <View style={[styles.tdContainer, {flex: 0.5, borderBottomWidth: 3, marginRight: 5}, 
                                             item.cookingYn=='Y'?{borderColor: saveColor}:{borderColor: 'white'}]}>
                                             <TouchableOpacity onPress={()=>this.updateCookingChecked(item)}>
