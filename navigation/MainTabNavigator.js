@@ -10,6 +10,7 @@ import Colors from '../constants/Colors'
 import TabBarIcon from '../components/TabBarIcon'
 import ItemScreen from '../screens/ItemScreen'
 import FoodScreen from '../screens/FoodScreen'
+import WebScreen from '../screens/WebScreen'
 import SettingsScreen from '../screens/SettingsScreen'
 
 const ItemStack = createStackNavigator({
@@ -42,6 +43,21 @@ const FoodStack = createStackNavigator({
     ),
   })
 })
+const WebStack = createStackNavigator({
+  Web: WebScreen,
+}, {
+  navigationOptions: ()=>({
+    tabBarLabel: 'Inven',
+    tabBarIcon: ({ focused }) => (
+      <Icon.MaterialCommunityIcons
+        name={'web'}
+        size={26}
+        style={{ marginBottom: -3 }}
+        color={focused ? Colors.tabIconSelected : Colors.tabIconDefault}
+      />
+    ),
+  })
+})
 
 
 const SettingsStack = createStackNavigator({
@@ -61,7 +77,7 @@ SettingsStack.navigationOptions = {
 export default createBottomTabNavigator({
   FoodStack,
   ItemStack,
-  SettingsStack,
+  WebStack,
 }, {
   tabBarOptions: {
     labelStyle: {

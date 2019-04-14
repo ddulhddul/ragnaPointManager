@@ -3,8 +3,7 @@ import Util from './Util'
 export default {
   commonStyles: {
     container: {
-        flex: 1,
-        paddingTop: 30
+        flex: 1
     },
 
     itemImageStyle: {
