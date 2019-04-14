@@ -16,17 +16,25 @@ class ItemList extends SqlUtil {
 
     constructor(props){
         super(props)
-        const keywordList = (props.itemList||[]).reduce((entry, obj)=>{
-            (obj.keyword||[]).map((keyword)=>{
-                if(keyword && !keyword.match(/[^a-zA-Z]/) && !entry.includes(keyword)){
-                    entry.push(keyword)
-                }
+        const optionKeywordList = (props.itemList||[]).reduce((entry, obj)=>{
+            (obj.option||[]).map((target)=>{
+                const keyword = target.name
+                // keyword && !keyword.match(/[^a-zA-Z]/) && !entry.includes(keyword) && entry.push(keyword)
+                keyword && keyword.length<9 && !entry.includes(keyword) && entry.push(keyword)
+            })
+            return entry
+        }, []).sort()
+        const saveKeywordList = (props.itemList||[]).reduce((entry, obj)=>{
+            (obj.savePoint||[]).concat(obj.openPoint||[]).map((target)=>{
+                const keyword = target.name
+                keyword && !entry.includes(keyword) && entry.push(keyword)
             })
             return entry
         }, []).sort()
         this.state = {
             itemList: [],
-            keywordList,
+            optionKeywordList,
+            saveKeywordList,
             filter: [],
             saveFilter: false,
             openFilter: false,
@@ -65,6 +73,10 @@ class ItemList extends SqlUtil {
         this.willBlurListener = navigation.addListener("willBlur", async () => {
             this.beforeUnmountSave()
         })
+    }
+
+    componentDidUpdate(){
+        this.beforeUnmountSave()
     }
 
     beforeUnmountSave = async()=>{
@@ -134,7 +146,9 @@ class ItemList extends SqlUtil {
 
     render() {
         const { scrolling, saveFilter, openFilter, sort, searchEnabled, searchValue } = this.state
-        const keywordList = this.state.keywordList || []
+        const optionKeywordList = this.state.optionKeywordList || []
+        const saveKeywordList = this.state.saveKeywordList || []
+        const optionFilter = this.state.optionFilter || []
         const filter = this.state.filter || []
         const nameSearchGuideList = []
 
@@ -147,9 +161,16 @@ class ItemList extends SqlUtil {
         const itemList = (this.state.itemList || []).filter((obj)=>{
             // filterList
             if(!filter.length) return true
-            return filter.reduce((entry, filterObj)=>{
-                if(entry) return true
-                return (obj.keyword || []).includes(filterObj)
+            return (obj.savePoint||[]).concat(obj.openPoint||[]).reduce((entry, target)=>{
+                if(entry) return entry
+                return filter.includes(target.name)
+            }, false)
+        }).filter((obj)=>{
+            // optionFilter
+            if(!optionFilter.length) return true
+            return (obj.option||[]).reduce((entry, target)=>{
+                if(entry) return entry
+                return optionFilter.includes(target.name)
             }, false)
         }).filter((obj)=>{
             // saveFilter, openFilter
@@ -181,15 +202,43 @@ class ItemList extends SqlUtil {
         return (
             <View style={styles.container}>
                 {(!this.isReady)? <Loading />:null}
+                
                 <View style={styles.filterContainer}>
                     <View style={[styles.filterStyle, {backgroundColor: Util.green}]}>
-                        <TouchableOpacity onPress={()=>{this.setState({filter: []})}}>
-                            <Text style={[styles.filterTextStyle]}>Reset</Text>
+                        <TouchableOpacity onPress={()=>{this.setState({optionFilter: []})}}>
+                            <Text style={[styles.filterTextStyle]}>옵션 Reset</Text>
                         </TouchableOpacity>
                     </View>
                     <ScrollView horizontal={true} style={{marginLeft: 5}}>
                     {
-                        keywordList.map((obj)=>{
+                        optionKeywordList.map((obj)=>{
+                            return <View  key={`keyword_${obj}`}
+                                        style={[styles.filterStyle, 
+                                            optionFilter.includes(obj)? {backgroundColor: Util.filterSelected}: {}
+                                        ]}>
+                                <TouchableOpacity onPress={()=>{
+                                    this.setState({
+                                        optionFilter: !optionFilter.includes(obj)? [...optionFilter, obj]:
+                                                    optionFilter.filter((filtered)=>filtered!=obj)
+                                    })
+                                }}>
+                                    <Text style={styles.filterTextStyle}>{obj}</Text>
+                                </TouchableOpacity>
+                            </View>
+                        })
+                    }
+                    </ScrollView>
+                </View>
+
+                <View style={styles.filterContainer}>
+                    <View style={[styles.filterStyle, {backgroundColor: Util.green}]}>
+                        <TouchableOpacity onPress={()=>{this.setState({filter: []})}}>
+                            <Text style={[styles.filterTextStyle]}>저장 Reset</Text>
+                        </TouchableOpacity>
+                    </View>
+                    <ScrollView horizontal={true} style={{marginLeft: 5}}>
+                    {
+                        saveKeywordList.map((obj)=>{
                             return <View  key={`keyword_${obj}`}
                                         style={[styles.filterStyle, 
                                             filter.includes(obj)? {backgroundColor: Util.filterSelected}: {}

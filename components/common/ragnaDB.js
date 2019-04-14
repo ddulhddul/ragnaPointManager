@@ -1,9 +1,11 @@
-import open_atk_1 from './ragnaJSON/open_atk_1.json'
-import open_atk_2 from './ragnaJSON/open_atk_2.json'
-import save_atk_1 from './ragnaJSON/save_atk_1.json'
-import save_atk_2 from './ragnaJSON/save_atk_2.json'
-import save_smeltatk_1 from './ragnaJSON/save_smeltatk_1.json'
+import item from './ragnaJSON/item/item.json'
+import open_atk_1 from './ragnaJSON/item/open_atk_1.json'
+import open_atk_2 from './ragnaJSON/item/open_atk_2.json'
+import save_atk_1 from './ragnaJSON/item/save_atk_1.json'
+import save_atk_2 from './ragnaJSON/item/save_atk_2.json'
+import save_smeltatk_1 from './ragnaJSON/item/save_smeltatk_1.json'
 
+import food from './ragnaJSON/food/food.json'
 import food_recipe from './ragnaJSON/food/food_recipe.json'
 import food_luxury_1star from './ragnaJSON/food/food_luxury_1star.json'
 import food_luxury_2star from './ragnaJSON/food/food_luxury_2star.json'
@@ -29,6 +31,8 @@ import food_tea_5star from './ragnaJSON/food/food_tea_5star.json'
 export default {
 
   getFoodList(){
+    return food
+
     const homepageDic = Array(0).concat(
       food_luxury_1star.map((obj)=>{return {...obj,type:'럭셔리 조리대'}}),
       food_luxury_2star.map((obj)=>{return {...obj,type:'럭셔리 조리대'}}),
@@ -109,11 +113,13 @@ export default {
       }
     })
 
-    
+    console.log('result', JSON.stringify(result))
     return result
   },
   
   getItemList(){
+    return item
+
     const result = Array(0).concat(
       open_atk_1, 
       open_atk_2,
@@ -143,6 +149,7 @@ export default {
     // recipeList.sort()
     // console.log('recipeList',recipeList)
 
+    console.log('result', JSON.stringify(result))
     return result
   },
 

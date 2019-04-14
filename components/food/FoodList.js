@@ -68,6 +68,10 @@ class FoodList extends SqlUtil {
         })
     }
 
+    componentDidUpdate(){
+        this.beforeUnmountSave()
+    }
+
     beforeUnmountSave = async()=>{
         try {
             const {cookingFilter, tastingFilter, nutritionFilter, saveFilter} = this.state
