@@ -145,6 +145,7 @@ class ItemList extends SqlUtil {
     }
 
     render() {
+        const { itemImages } = this.props
         const { scrolling, saveFilter, openFilter, sort, searchEnabled, searchValue } = this.state
         const optionKeywordList = this.state.optionKeywordList || []
         const saveKeywordList = this.state.saveKeywordList || []
@@ -334,7 +335,7 @@ class ItemList extends SqlUtil {
                                 return <View style={styles.componentContainer} key={`item_${encodeURI(item.name)}_${index}`}>
                                     <View style={[styles.trContainer]}>
                                         <View style={[styles.tdContainer, {flex: 0.3, marginLeft: 5, marginRight: 5}]}>
-                                            <Image source={require('../../assets/images/items/거시기.png')} style={styles.itemImageStyle} />
+                                            <Image source={itemImages[item.name.replace(/ /g,'').replace(/\[.*\]/g,'')]} style={styles.itemImageStyle} />
                                         </View>
                                         <View style={[styles.tdContainer, {flex: 0.7}]}>
                                             {
@@ -375,7 +376,7 @@ class ItemList extends SqlUtil {
                                                 </View>
                                                 <View style={[styles.trContainer, {flex: 0.5}]}>{
                                                     item.savePoint.map((optionObj, optionIndex)=>{
-                                                        return <Text style={[styles.textStyle, {color: Util.grey},
+                                                        return <Text style={[styles.textStyle, {color: Util.grey, marginLeft:5, marginRight:5},
                                                             item.saveYn=='Y'?{color: saveColor}:null]} key={`saveOption_${encodeURI(item.name)}_${optionIndex}`}>
                                                             {`${optionObj.name} ${optionObj.number}`}
                                                         </Text>
@@ -393,7 +394,7 @@ class ItemList extends SqlUtil {
                                                 </View>
                                                 <View style={[styles.trContainer, {flex: 0.5}]}>{
                                                     item.openPoint.map((optionObj, optionIndex)=>{
-                                                        return <Text style={[styles.textStyle, {color: Util.grey},
+                                                        return <Text style={[styles.textStyle, {color: Util.grey, marginLeft:5, marginRight:5},
                                                             item.openYn=='Y'?{color: openColor}:null]} key={`openOption_${encodeURI(item.name)}_${optionIndex}`}>
                                                             {`${optionObj.name} ${optionObj.number}`}
                                                         </Text>

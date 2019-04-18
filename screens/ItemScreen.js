@@ -15,7 +15,8 @@ export default class ItemScreen extends Component {
   constructor(props){
     super(props)
     this.state = {
-      itemList: DB.getItemList()
+      itemList: DB.getItemList(),
+      itemImages: DB.getItemImages()
     }
   }
 
@@ -24,7 +25,9 @@ export default class ItemScreen extends Component {
       <View style={styles.container}>
         
         <View style={[styles.container, styles.contentContainer]}>
-          <ItemList itemList={this.state.itemList} />
+          <ItemList 
+            itemImages={this.state.itemImages}
+            itemList={this.state.itemList} />
         </View>
 
       </View>

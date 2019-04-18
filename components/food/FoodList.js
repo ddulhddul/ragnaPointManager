@@ -381,7 +381,7 @@ class FoodList extends SqlUtil {
                                                 </View>
                                                 <View style={[styles.trContainer, {flex: 0.5}]}>{
                                                     (item.cooking||[]).map((optionObj, optionIndex)=>{
-                                                        return <Text style={[styles.textStyle, {color: Util.grey},
+                                                        return <Text style={[styles.textStyle, {color: Util.grey, marginLeft:5, marginRight:5},
                                                             item.cookingYn=='Y'?{color: saveColor}:null]} key={`cooking_${encodeURI(item.name)}_${optionIndex}`}>
                                                             {`${optionObj.name} ${optionObj.number}`}
                                                         </Text>
@@ -399,7 +399,7 @@ class FoodList extends SqlUtil {
                                                 </View>
                                                 <View style={[styles.trContainer, {flex: 0.5}]}>{
                                                     (item.tasting||[]).map((optionObj, optionIndex)=>{
-                                                        return <Text style={[styles.textStyle, {color: Util.grey},
+                                                        return <Text style={[styles.textStyle, {color: Util.grey, marginLeft:5, marginRight:5},
                                                             item.tastingYn=='Y'?{color: openColor}:null]} key={`tasting_${encodeURI(item.name)}_${optionIndex}`}>
                                                             {`${optionObj.name} ${optionObj.number}`}
                                                         </Text>
