@@ -1,0 +1,42 @@
+[
+    {
+        "name": "에드가 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfODkg/MDAxNTI0ODIzODIyNzQ2.z4M9NO30rIZbCF3n_ZrRXcna2nMNyyy69LLWmyflTnEg.oQSbgaMwi0NzixPbai_qZErSgUiU0nQU-H53tbqlJEYg.JPEG.gravity001/01.jpg?type=w740",
+        "position": "신발",
+        "rate": "보라",
+        "monster": "에드가",
+        "openPoint": "MaxHP +5%",
+        "savePoint": "ATK +12",
+        "option": "▶ MaxHP－20%\n▶ 무한 【인듀어】 상태\n"
+    },
+    {
+        "name": "타임홀더 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjc3/MDAxNTI0ODM3MzMwNjM5.0plS_GGUH4gnqMnpZh_F8DqvGENSXUqS6XuHq-PLFkkg.vxltoBu1fV429Wwvnrug2aSQLJ-EHefZ8mUXfymfXPkg.PNG.gravity001/%ED%83%80%EC%9E%84%ED%99%80%EB%8D%94_%EC%B9%B4%EB%93%9C.png?type=w740",
+        "position": "신발",
+        "rate": "보라",
+        "monster": "타임홀더",
+        "openPoint": "MaxHP +14",
+        "savePoint": "ASPD +5%",
+        "option": "▶ ATK +40\n▶ MaxHP +500\n▶ 장비 ASPD +5%\n▶ HP회복 +2\n"
+    },
+    {
+        "name": "다크 로드 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfOTgg/MDAxNTI0ODIzOTM0MzMw.5Sk6ZY51DdTzHTEBalcr_4qI5knLzSaxl1_7iUmvr5sg.JrDVK8ytcA7-QmCf9w1wqXFev8hU43M0uib8XJUx26gg.JPEG.gravity001/02.jpg?type=w740",
+        "position": "신발",
+        "rate": "보라",
+        "monster": "다크로드",
+        "openPoint": "화속성 데미지 +8%",
+        "savePoint": "MaxHP +70",
+        "option": "▶ 물리 스킬 공격을 받으면 일정 확률로 10레벨 메테오 스톰 시전\n"
+    },
+    {
+        "name": "월야화 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTA1/MDAxNTI0ODIzOTY0ODE5.hBNwY5FD7kXmG6WSE6_worC5TjbYakOWG7Z__PrABVAg.B0xqLwglyyHVHkPkZxMARGHqQYFyauimkG4P9PpHuREg.JPEG.gravity001/03.jpg?type=w740",
+        "position": "신발",
+        "rate": "보라",
+        "monster": "월야화",
+        "openPoint": "DEF +6",
+        "savePoint": "MaxHP +112",
+        "option": "▶ 이동속도 25% 영구 증가\n"
+    }
+]

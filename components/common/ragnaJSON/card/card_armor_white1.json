@@ -1,0 +1,42 @@
+[
+    {
+        "name": "로다 프로그 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjM0/MDAxNTI0ODIyMTEzNTkx.XsEZoG9Hx9AcoBFGbX1uTG0U7paHLcF2Kzfi-udsnOMg.G5tjWRnbvl0LxHQJYdyq2YR7iGU_CT0-W3rPjwQ0DBYg.JPEG.gravity001/01.jpg?type=w740",
+        "position": "갑옷",
+        "rate": "일반",
+        "monster": "로다 프로그",
+        "openPoint": "MaxHP +24",
+        "savePoint": "SP회복 +1",
+        "option": "▶ MaxHP＋150\n▶ MaxSP＋50\n"
+    },
+    {
+        "name": "포링 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNjQg/MDAxNTI0ODIyMTMyMjE2.3JTuMVHZmhhralaU63xAKNtsKewOc17aInnZDZ8H84og.DpQF3aNJd5xuU8rO_3ONlqw04J0TWvPto2lgawtI58cg.JPEG.gravity001/02.jpg?type=w740",
+        "position": "갑옷",
+        "rate": "일반",
+        "monster": "포링",
+        "openPoint": "DEF +2",
+        "savePoint": "FLEE +2",
+        "option": "▶ LUK＋1\n▶ FLEE＋1\n"
+    },
+    {
+        "name": "푸파 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMzUg/MDAxNTI0ODIyMTYyMTA4.D-l0e9tWxVDLfk5Gi0i8XvVNikLnE6zx2urN2jrFhJUg.k3drPLhrK2p7tOUkgrX1F0ZM9ZUIUt3XiUdCliMh8Ncg.JPEG.gravity001/03.jpg?type=w740",
+        "position": "갑옷",
+        "rate": "일반",
+        "monster": "푸파",
+        "openPoint": "MaxHP +24",
+        "savePoint": "MaxHP +20, 스턴 저항 +5%",
+        "option": "▶ MaxHP＋200\n"
+    },
+    {
+        "name": "픽키 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTkx/MDAxNTI0ODIyMjQ2NzQ2.ARn9r7w_LSi9vgXHpmDZ323UbE3Oqxyb85oE8Lpi8fwg.y5ilryg0u7QWOi6ZJldA3ITUbGC0p6ePCYWrUCBpzsAg.JPEG.gravity001/04.jpg?type=w740",
+        "position": "갑옷",
+        "rate": "일반",
+        "monster": "픽키",
+        "openPoint": "MaxHP +24",
+        "savePoint": "STR +1",
+        "option": "▶ STR＋1\n▶ ATK＋10\n"
+    }
+]

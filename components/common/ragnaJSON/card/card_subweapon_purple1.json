@@ -1,0 +1,32 @@
+[
+    {
+        "name": "라플레시아 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNTQg/MDAxNTI0ODM3MjAwMzc5.sMBGMy_Y2yC8O79rhxC-PueNoe8mu0Q4rWM7wYnHs0Qg.FaC0N_iKmpbrwPA4ZVA4WawSR4Iji4zZU9S2QjhXPzkg.PNG.gravity001/%EB%9D%BC%ED%94%8C%EB%A0%88%EC%8B%9C%EC%95%84_%EC%B9%B4%EB%93%9C.png?type=w740",
+        "position": "보조",
+        "rate": "보라",
+        "monster": "라플레시아",
+        "openPoint": "곤충형에 데미지 +1%",
+        "savePoint": "곤충형에 데미지 +5%",
+        "option": "▶ 곤충형에 데미지＋25%\n"
+    },
+    {
+        "name": "마야 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjU1/MDAxNTI0ODE3NTQ1NDkz.F4fHpEvlA5BetWubgsb4RFHWLltx9BgtmUShBVFem_cg.zQ8cgM3QWFqgHCNb60rDDwKmhhbmSwpSx3dufEKCbgwg.JPEG.gravity001/01.jpg?type=w740",
+        "position": "보조",
+        "rate": "보라",
+        "monster": "마야",
+        "openPoint": "마법 데미지 증가 +2%",
+        "savePoint": "마법 데미지 증가 +3%",
+        "option": "▶ 마법 데미지 20% 반사\n"
+    },
+    {
+        "name": "황금 도둑벌레 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjUx/MDAxNTI0ODE3OTQ2NTg5.OUwvxLO8LIT2IB8G3Np3grWU0zUZ5xVqjwJMTQwsTt0g.Ud26YzgVS25121MdVs3v_m9PBtoOBAD2St5CJ4_TSdcg.JPEG.gravity001/00.jpg?type=w740",
+        "position": "보조",
+        "rate": "보라",
+        "monster": "황금 도둑벌레",
+        "openPoint": "MaxHP +112",
+        "savePoint": "마법 데미지 추가 -5%",
+        "option": "▶ 받는 모든 마법 데미지 -50%\n▶ 스킬 사용 시 SP 소모량 +100%"
+    }
+]

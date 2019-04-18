@@ -1,0 +1,52 @@
+[
+    {
+        "name": "고블린 리더 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTM4/MDAxNTI0Nzk2MjM5MTEw.YU35n407SNqjLyT78VeIe32D9D5mCDyQbaGRSJvVlqYg.iRpcibj_ro5471MmV9VHTPiwCyr5UzSCqwarekB4ajcg.JPEG.gravity001/card_30006.jpg?type=w740",
+        "position": "무기",
+        "rate": "보라",
+        "monster": "고블린 리더",
+        "openPoint": "ATK +12",
+        "savePoint": "자신의 HP 30% 미만일 때, 고블린 리더 카드로 흡혈 효과 발동 시\n50% 확률로 크리티컬 발생",
+        "option": "▶ 근거리 일반공격 시 데미지 5%의 HP 회복\n"
+    },
+    {
+        "name": "드레이크 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTM4/MDAxNTI0Nzk2NDI2NDc3.tOHjnu8WhgH01KGLr_2b01hY0XE5bXfQsMMNJCg02Isg.1iZjG-c5zkLsQJRGh4smICbme8nGco2utg31UQ-gG7Eg.JPEG.gravity001/card_30004.jpg?type=w740",
+        "position": "무기",
+        "rate": "보라",
+        "monster": "드레이크",
+        "openPoint": "물리 데미지 증가 +1%",
+        "savePoint": "물리 데미지 증가 +2%",
+        "option": "▶ 소형, 중형, 몬스터(大)에게 100% 데미지\n"
+    },
+    {
+        "name": "심연의 기사 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMzgg/MDAxNTI0Nzk2Njk3ODE2.jRYa_NzSwRLF2V8ubm0GEfgOtSe4HnYdchgYAQF1TGsg.JrnPL_7yA4_qHk5vvzqzOoAgwwvHYuddrL6lCsCsgicg.JPEG.gravity001/card_10084.jpg?type=w740",
+        "position": "무기",
+        "rate": "보라",
+        "monster": "심연의 기사",
+        "openPoint": "BOSS몬스터에 데미지 +1%",
+        "savePoint": "심연의 기사 카드 장착 시 BOSS몬스터에 데미지 +5%(중첩 불가)",
+        "option": "▶ BOSS몬스터에 데미지＋10%\n"
+    },
+    {
+        "name": "아트로스 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTQ1/MDAxNTI0Nzk2NzQzOTAw._LdRwfRgIgqFIQRC0Fn6ruM9aPhYAFnt3R_RIo7vCTcg.fdI4mw9nVmZfcpdgqVUpdNG93cUajYa3YeBETUm0Ltgg.JPEG.gravity001/card_30023.jpg?type=w740",
+        "position": "무기",
+        "rate": "보라",
+        "monster": "아트로스",
+        "openPoint": "ATK +12",
+        "savePoint": "아트로스 카드로 급속 효과 발동 시 ATK +50, 10초 지속",
+        "option": "▶ 일반공격 시 5% 확률로 급속 효과 획득(장비 ASPD＋20%, 10초 지속)\n"
+    },
+    {
+        "name": "프리오니 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTcw/MDAxNTI0Nzk2ODM4NDc0.O-CS8yw_Riqiu_P2GGVwXcgFTSj8zzSQv6TaVZ_oBI8g.9ASnhLKA2UPUAqDsWXOZe7Kk3-NE10MMJsi4tROGHVQg.JPEG.gravity001/card_30009.jpg?type=w740",
+        "position": "무기",
+        "rate": "보라",
+        "monster": "프리오니",
+        "openPoint": "HIT +10",
+        "savePoint": "회피마다 자신의 ATK +10, 최대 10회 중첩 가능, 15초 지속",
+        "option": "▶ HIT＋100\n"
+    }
+]

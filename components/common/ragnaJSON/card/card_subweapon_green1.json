@@ -1,0 +1,42 @@
+[
+    {
+        "name": "마르크 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjY3/MDAxNTI0ODE4OTIyMjM4.s8M8nYhzSu77BQ_I65ReW-Km3U-pCZj51RgH56gAMVog.dLdKLvvhe97bW7AkLM5GAy8gjw1YRWY1UfkA3qH6X9sg.JPEG.gravity001/01.jpg?type=w740",
+        "position": "보조",
+        "rate": "녹색",
+        "monster": "마르크",
+        "openPoint": "받는 수속성 데미지 -2%",
+        "savePoint": "받는 수속성 데미지 -8%",
+        "option": "▶ 받는 수속성 데미지－15%\n▶ 동빙 상태 면제\n"
+    },
+    {
+        "name": "아누비스 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjMg/MDAxNTI0ODE4OTczMDE3.1vRGMID43dxrXxvKkPjOxG3orzIsl_Gtej4iMGEiNbAg.Xm4fqTDEFTs8c0VIAqdJAZPoCTpzjROEBAP5hGDnl-0g.JPEG.gravity001/02.jpg?type=w740",
+        "position": "보조",
+        "rate": "녹색",
+        "monster": "아누비스",
+        "openPoint": "MaxHP +84",
+        "savePoint": "천사형 몬스터 데미지 감소 +10%",
+        "option": "▶ 천사형 몬스터로부터 받는 몬스터 데미지－30%\n"
+    },
+    {
+        "name": "칼리츠버그 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTA1/MDAxNTI0ODE5MDEzMzYz.8VDoXt51q27Fs6x1eHpT1Zty_7jOEiOrHaPU7Yq_vnIg.jky2BZEqNHv_1kbx6T5nizDZ8VDdgjSlep_kS1cshf8g.JPEG.gravity001/03.jpg?type=w740",
+        "position": "보조",
+        "rate": "녹색",
+        "monster": "칼리츠버그, 소미나, 애쉴리, 에일린",
+        "openPoint": "악마형 데미지 감소 +1%",
+        "savePoint": "MaxHP +18",
+        "option": "▶ 악마형 몬스터로부터 받는 데미지 감소＋10%\n"
+    },
+    {
+        "name": "하이오크 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjE3/MDAxNTI0ODE5MDYxMDI2.pYpKiBJzL1hRJRUaDuWhrAtHxem5r_Eak66DADk8LAIg.QcmPIRn3HAG4dNhGM1JugJ5RNOYoGA6IRLF8iP9ptUEg.JPEG.gravity001/04.jpg?type=w740",
+        "position": "보조",
+        "rate": "녹색",
+        "monster": "하이오크",
+        "openPoint": "MaxHP +24",
+        "savePoint": "하이오크 카드 장착 시 30초마다 물리 데미지 +1%, 5초 지속",
+        "option": "▶ 적으로부터 물리공격을 받으면 물리 데미지 10%를 적에게 반사\n"
+    }
+]

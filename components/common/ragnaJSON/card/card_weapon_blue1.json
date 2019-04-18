@@ -1,0 +1,182 @@
+[
+    {
+        "name": "고블린 스팀라이더 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTc3/MDAxNTI0Nzk2OTk5Mzg3.EjVH4sgxMcUj2t5ggTUP6aHKnXp0vJl6LEegqka22z0g.hJdEtFoYeOL0LFgkT40x31FQ3j_Ny5jyx-8BR1LUl8cg.JPEG.gravity001/card_10035.jpg?type=w740",
+        "position": "무기",
+        "rate": "파랑",
+        "monster": "고블린 스팀라이더",
+        "openPoint": "CRI.D +5%",
+        "savePoint": "무형 몬스터에 대한 CRI.D +5%",
+        "option": "▶ CRI.D＋10%\n▶ 무형 몬스터에 대한 CRI＋20\n"
+    },
+    {
+        "name": "고블린 아쳐 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTgw/MDAxNTI0Nzk3MDEzNTgz.q2AY3xnCceA0CJpBdShe56CrytaFF-wVc_VDXN9g9PAg.xX5lLv_Hh195xdhijHoo6FWZzFJQq1aSBUTpKbBwnGwg.JPEG.gravity001/card_10034.jpg?type=w740",
+        "position": "무기",
+        "rate": "파랑",
+        "monster": "고블린 아쳐",
+        "openPoint": "CRI.D +5%",
+        "savePoint": "불사형 몬스터에 대한 CRI.D +5%",
+        "option": "▶ CRI.D＋10%\n▶ 불사형 몬스터에 대한 CRI＋20\n"
+    },
+    {
+        "name": "그리폰 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTkg/MDAxNTI0Nzk3MDg3NzU5._a4qMvTWu4i9CsJe32vCbDBzjH4rhw1Fvq-nhSqEXCMg.t9_cN8yjc8ob6WqZ6LmfyY15da03EFn8pN0wKSfBu8Qg.JPEG.gravity001/card_20009.jpg?type=w740",
+        "position": "무기",
+        "rate": "파랑",
+        "monster": "그리폰",
+        "openPoint": "ATK +8",
+        "savePoint": "그리폰 카드 장착 시 검사 계열 일반공격으로 [볼링 배쉬]를 시전하는 확률 상승",
+        "option": "▶ FLEE＋10\n▶ CRI＋5\n▶ 검사계열 장착 시 일반공격 시 3% 확률로 【볼링 배쉬】Lv.5 자동 시전\n"
+    },
+    {
+        "name": "데저트 울프 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjcy/MDAxNTI0Nzk3MTY3MjU0.emUS8Y061spYvIuFTx5lVeoK-RT3Q7VuLGm653EmKxgg.ihZ1UXGYqLe0LeW15wNax_xDoGooKcYL2nLoBv-kUjYg.JPEG.gravity001/card_10049.jpg?type=w740",
+        "position": "무기",
+        "rate": "파랑",
+        "monster": "데저트 울프",
+        "openPoint": "ATK +8",
+        "savePoint": "통찰 : 몬스터 더블 방어 50% 무시\n(몬스터(小) 데미지 추가 속성이 50% 초과 시 적용)",
+        "option": "▶ 몬스터(小)에 데미지＋25%\n▶ ATK＋15\n"
+    },
+    {
+        "name": "로터자이로 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTQ0/MDAxNTI0Nzk3MjY3MjI1.u9siofDyFlLk_5pQ6LHiwp9GaBoYA6aWdsOASGPjt6Mg.SJWLV7YLE8UPPHmq17ToxkTHKQNEGXJtJhziWUDkeakg.JPEG.gravity001/card_20006.jpg?type=w740",
+        "position": "무기",
+        "rate": "파랑",
+        "monster": "로터자이로",
+        "openPoint": "CRI +2",
+        "savePoint": "CRI.D +1%",
+        "option": "▶ CRI＋7\n▶ CRI.D＋10%\n"
+    },
+    {
+        "name": "마이너 우로스 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjI4/MDAxNTI0Nzk3Mjg3NTAz.glTBItXylzyZYMaIrYpE8x5iUrV-QhX7OWPXyQuCKd0g.T8B3jCWmUdxpI7k8ITGdDECJKV1o9tJT_VBESuZqvv4g.JPEG.gravity001/card_10062.jpg?type=w740",
+        "position": "무기",
+        "rate": "파랑",
+        "monster": "마이너 우로스",
+        "openPoint": "ATK +8",
+        "savePoint": "통찰: 몬스터 더블 방어 50% 무시\n(몬스터(大) 데미지 추가 속성이 50% 초과 시 적용)",
+        "option": "▶ 몬스터(大)에 데미지＋25%\n▶ ATK＋15\n"
+    },
+    {
+        "name": "만드라 씨앗 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjAg/MDAxNTI0Nzk3MzY3NDE5.pRGIb-kqagcLY0FXbEQMaldosgV0XsUeIL9N-i0nQu8g.NhjzgilMJ7lV8vPLuR9bPd_cShKaLWDvDMWo-EbtK8Mg.JPEG.gravity001/card_17000.jpg?type=w740",
+        "position": "무기",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +24",
+        "savePoint": "MaxHP +70",
+        "option": "▶ 일반공격 시 5%일정 확률로 대상이 일정 시간 공포에 빠짐\n"
+    },
+    {
+        "name": "뮤턴트 드래고노이드 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNzIg/MDAxNTI0Nzk3NTI1NDI3.0Q66JTkx1hckShy2AhRwJkZiE_WL3XncrIw4tMZJWosg.iie4XKD2Xc6T1vPBSBfluxHUrKPXvoCz2dZbEg1MgYYg.JPEG.gravity001/card_20012.jpg?type=w740",
+        "position": "무기",
+        "rate": "파랑",
+        "monster": "뮤턴트 드래고노이드",
+        "openPoint": "MaxHP +84",
+        "savePoint": "일반공격 [화이어 볼] 시전 확률 상승",
+        "option": "▶ ATK＋15\n▶ 일반공격 시 3% 확률로 【화이어 볼】Lv.5 자동 시전\n"
+    },
+    {
+        "name": "보컬 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjI1/MDAxNTI0Nzk3NTcxMjQy.ckIkt0ZhwbcHRZ3szu2p37QeVdKi9TA6-13OL91eOYAg.-iEGo7E6nXE0Kffo5uZvX3w1Nwa7oRPFh8XkgbxyiG0g.JPEG.gravity001/card_10012.jpg?type=w740",
+        "position": "무기",
+        "rate": "파랑",
+        "monster": "보컬",
+        "openPoint": "ATK +8",
+        "savePoint": "ATK +1%",
+        "option": "▶ ATK＋7%\n▶ DEX＋3\n"
+    },
+    {
+        "name": "비타타 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTE5/MDAxNTI0Nzk3NjA3MzQ1.NGtt5kJ5TxqOjlH0-a4STELfQKYVIc69go4e6yYbqdkg.xmQpLWPjhfurgA5XLDllbg1PQVyw9PJdhdtK9p5Jqxgg.JPEG.gravity001/card_10044.jpg?type=w740",
+        "position": "무기",
+        "rate": "파랑",
+        "monster": "비타타",
+        "openPoint": "MaxHP +56",
+        "savePoint": "MaxHP +84",
+        "option": "▶ 스킬 【힐】Lv.2 사용 가능\n"
+    },
+    {
+        "name": "솔져 스켈레톤 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNTQg/MDAxNTI0Nzk3NjI1MDEy.E8tDhZfGG8uWAbWWXWO-SJEGU8mvEeXFrqO6hfLxIsAg.hB5OBpSYHA8T97AZA6ISHQ99WRd_0G0dhIeVfGrU76wg.JPEG.gravity001/card_10050.jpg?type=w740",
+        "position": "무기",
+        "rate": "파랑",
+        "monster": "솔져 스켈레톤",
+        "openPoint": "CRI +1",
+        "savePoint": "CRI.D +1%",
+        "option": "▶ CRI＋9\n"
+    },
+    {
+        "name": "스켈워커 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjUg/MDAxNTI0Nzk3NzU1MTgw.Sb3ThESExbT8jwBol09A0_0gi44fkEs7Hid4lmkhKeQg.1MUFOuaxEXxSMlvZ81GK3xmgVJ_t51_1cndpN_yNaVog.JPEG.gravity001/card_400300.jpg?type=w740",
+        "position": "무기",
+        "rate": "파랑",
+        "monster": "스켈워커",
+        "openPoint": "MaxHP +28",
+        "savePoint": "ATK +10",
+        "option": "▶ 몬스터(中)에 데미지＋15%\n▶ ATK＋5\n"
+    },
+    {
+        "name": "스트라우프 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjE1/MDAxNTI0Nzk3ODUyMTk5.BvwUnSZzVYsxzc_zlg8kPQfJwTq92B525Ltn4hZY7C4g.cJR5pN0QsiS2cuNN1aMdNm55ihEiGMmIDIIVhXwpqSAg.JPEG.gravity001/card_30005.jpg?type=w740",
+        "position": "무기",
+        "rate": "파랑",
+        "monster": "스트라우프",
+        "openPoint": "악마형 데미지 추가 +2%",
+        "savePoint": "악마형 데미지 추가 +3%",
+        "option": "▶ 악마형 몬스터에 데미지＋25%\n"
+    },
+    {
+        "name": "아울 듀크 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTIy/MDAxNTI0Nzk3OTE1MTc0.sufVpQHRqWR0y2eQg_VH29IItDgHEm_SJa68baY2GzEg.fBJEnb_YYhy8F8kEd-mBCygXoy5J53df-s1nH50o_H0g.JPEG.gravity001/card_30018.jpg?type=w740",
+        "position": "무기",
+        "rate": "파랑",
+        "monster": "아울 듀크",
+        "openPoint": "ATK +10",
+        "savePoint": "MaxHP +70",
+        "option": "▶ 일반공격 시 5% 확률로 자신에게 【임포시티오 마누스】Lv.10스킬 시전\n"
+    },
+    {
+        "name": "아울 바론 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfOSAg/MDAxNTI0Nzk3OTc4Mzgy.DKUwRfo4CPtPGfrv01e9t4lE87izGC2uUmzDcr5iDXcg.xO1saJULITYAKmBlNycfJy7GbcoZr7Fp0Pep5C2_9qAg.JPEG.gravity001/card_20013.jpg?type=w740",
+        "position": "무기",
+        "rate": "파랑",
+        "monster": "아울 바론",
+        "openPoint": "INT +2",
+        "savePoint": "MaxHP +70",
+        "option": "▶ 일반공격 시 5% 확률로 【렉스 에테르나】Lv.1스킬 자동 시전\n"
+    },
+    {
+        "name": "아쳐 스켈레톤 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjMz/MDAxNTI0Nzk4MDM5NTQz.4XmXAAUEbmZOueruyigy4DHlnn5mtEBlGtR6-G3qxqUg.6wfZeIA7DKDwzxy9EF1rVCCZbza_FogIw_R2aJC80Lcg.JPEG.gravity001/card_10063.jpg?type=w740",
+        "position": "무기",
+        "rate": "파랑",
+        "monster": "아쳐 스켈레톤",
+        "openPoint": "ATK +8",
+        "savePoint": "아쳐 스켈레톤 카드 장착 시 ATK +5%",
+        "option": "▶ 근거리 ATK＋5%\n▶ 원거리 ATK＋10%\n"
+    },
+    {
+        "name": "퍼씰 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTM5/MDAxNTI0Nzk4MTQxNzEx.pWsyg4cyTEgjgBo0e2UAtPfsVb3yXSBf43IvbNirraEg.2zvJ91ze0FdQtREaomaoBKEYzuWbCTWRm8xTI2CcYLYg.JPEG.gravity001/card_400420.jpg?type=w740",
+        "position": "무기",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "HIT +5",
+        "option": "▶ HIT＋15\n▶ FLEE＋5\n▶ 복사 계열 장착 시 악마형 및 불사 속성에 대한 CRI＋9\n"
+    },
+    {
+        "name": "히드라 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfOSAg/MDAxNTI0Nzk4MjAwMTI5.2hS6Fgmrc98yKRlR9VwH7k9v6pXbIkcTceX4rDYiMfYg.XuO2cjmorKvInDgo1BER_tW6NiKUUPm1w9DwACdQkj0g.JPEG.gravity001/card_10017.jpg?type=w740",
+        "position": "무기",
+        "rate": "파랑",
+        "monster": "히드라★",
+        "openPoint": "인간형 몬스터 데미지 추가 +2%",
+        "savePoint": "인간형 몬스터 데미지 추가 +2%",
+        "option": "▶ 인간형 몬스터 데미지 추가＋15%\n"
+    }
+]

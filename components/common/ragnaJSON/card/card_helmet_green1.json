@@ -1,0 +1,82 @@
+[
+    {
+        "name": "가이아스 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNTAg/MDAxNTI0ODI4OTMyMDE5.f44ktMwWgSdyMkm2Ol-LNcMkZ-htp8K8GQS3f6g2xPIg.6I0HM3kTIGNLsZSoGryzzyd2VHON7cWjS3IXcIY4xgsg.JPEG.gravity001/01.jpg?type=w740",
+        "position": "투구",
+        "rate": "녹색",
+        "monster": "가이아스",
+        "openPoint": "지속성 데미지 -2%",
+        "savePoint": "MaxHP +18",
+        "option": "▶ 수면 상태 면제\n"
+    },
+    {
+        "name": "나이트메어 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNjAg/MDAxNTI0ODI4OTQ3OTkz.Tbh4UYhxHpIW_eglGTgEzRXEVEYKszCAvsXRtkJAHPIg.r9gPSuj9k_NIujdkLChKAk3YEel1pxDqnsKPo-3M_iYg.JPEG.gravity001/02.jpg?type=w740",
+        "position": "투구",
+        "rate": "녹색",
+        "monster": "나이트메어",
+        "openPoint": "MaxHP +24",
+        "savePoint": "MaxHP +18",
+        "option": "▶ 수면 상태 면제\n▶ AGI＋1\n"
+    },
+    {
+        "name": "도나 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjk2/MDAxNTI0ODM3NDcyNjI4.StQF6CQ0Xt7XnjB9sFGW5IVpAc6HtKoR6F6CxE-O1IEg.PorW-2j2Ce4aaF0QOzqr16c7_WDkO853fXT8yhHwjyUg.PNG.gravity001/%EB%8F%84%EB%82%98%EC%B9%B4%EB%93%9C.png?type=w740",
+        "position": "투구",
+        "rate": "녹색",
+        "monster": "도나",
+        "openPoint": "MATK +1.5",
+        "savePoint": "MATK +7.5",
+        "option": "▶ INT＋1\n▶ MATK＋10\n\n\n"
+    },
+    {
+        "name": "라이드워드 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjM4/MDAxNTI0ODI5MDU0OTYy.gyQ_YsWJUZRTYR9J4j1Cskx_dtEx_TZz-0-pPqd0LqYg.o0GytcguCp4WaFLyrfTD6fek6z0kQ3RcCYazheXPvygg.JPEG.gravity001/03.jpg?type=w740",
+        "position": "투구",
+        "rate": "녹색",
+        "monster": "-",
+        "openPoint": "MATK +1.5",
+        "savePoint": "MaxHP +18",
+        "option": "▶ INT＋5\n▶ MDEF＋20\n"
+    },
+    {
+        "name": "미스트케이스 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTAx/MDAxNTI0ODM3NDgyOTQx.SvI0ivE9FfGg8wanMbwqRErQMDzlbeBVfeUWJMEhUTIg.UjVR5TyGyHrXPtAPF6OpV69IR2ME0C4irQp68ORjeWkg.PNG.gravity001/%EB%AF%B8%EC%8A%A4%ED%8A%B8%EC%BC%80%EC%9D%B4%EC%8A%A4_%EC%B9%B4%EB%93%9C.png?type=w740",
+        "position": "투구",
+        "rate": "녹색",
+        "monster": "미스트케이스",
+        "openPoint": "MaxHP +40",
+        "savePoint": "DEX +1, ATK +4.5",
+        "option": "▶ 매회 몬스터 처치 시 본인 SP 10 회복, 효과는 5초마다 최대 1회 발동\n"
+    },
+    {
+        "name": "엘더 윌로우 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNDkg/MDAxNTI0ODI5MTE3OTQ4.-EvHnFqOOsywGDokeV25KT2ymfljHXVsT-RIfLEEfjQg.YUrrLwKRhNQfngex_tj5pTmMF4gYoor3DPvtoXsW5Dsg.JPEG.gravity001/04.jpg?type=w740",
+        "position": "투구",
+        "rate": "녹색",
+        "monster": "엘더 윌로우",
+        "openPoint": "MDEF +2",
+        "savePoint": "ATK +6",
+        "option": "▶ INT＋3\n"
+    },
+    {
+        "name": "캐럿카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNjAg/MDAxNTI0ODM3NDg4ODA1.e6YtSDLrJRWTXjCLvYjQF8FZ9i27Fq7JRNOpD2-M7wEg.Qfh9G8h16LclBQOyY9jEO5s1F-bSCF_NT0POhi-Oc8Yg.PNG.gravity001/%EC%BC%80%EB%9F%BF_%EC%B9%B4%EB%93%9C.png?type=w740",
+        "position": "투구",
+        "rate": "녹색",
+        "monster": "캐럿카드",
+        "openPoint": "MATK +4.5",
+        "savePoint": "MaxHP +48",
+        "option": "▶ INT+2\n▶ 최대SP+80\n"
+    },
+    {
+        "name": "크램프 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNzEg/MDAxNTI0ODI5MTcxNDAw.OYbkXkbfnrd2wXTwNxRACuoVtB4G4BbfR7HmS_GO5WEg.ghH2gCeYhlWDbEnvZyAMfZtqcETfaoSCwZ5pI76rJ3cg.JPEG.gravity001/05.jpg?type=w740",
+        "position": "투구",
+        "rate": "녹색",
+        "monster": "크램프",
+        "openPoint": "FLEE +4",
+        "savePoint": "MaxHP +18",
+        "option": "▶ LUK＋3\n▶ FLEE＋5\n"
+    }
+]

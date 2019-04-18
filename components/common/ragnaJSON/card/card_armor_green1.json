@@ -1,0 +1,62 @@
+[
+    {
+        "name": "도깨비 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjIy/MDAxNTI0ODIxODAxMDYx.-Ejk7u78XWXPm038YvVKfMXKuUUGhnZ2q0bLpHycv2kg.tsuTrcekwDaCfcCA6QIkhFVy0XW5d9rWzbHvoIaBoCUg.JPEG.gravity001/01.jpg?type=w740",
+        "position": "갑옷",
+        "rate": "녹색",
+        "monster": "도깨비",
+        "openPoint": "DEF +4",
+        "savePoint": "도깨비 카드 장착 시 경직 속성으로부터 영향을 받지 않습니다.",
+        "option": "▶ 갑옷 속성을 풍속성으로 전환\n"
+    },
+    {
+        "name": "브릴라이트 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfOTYg/MDAxNTI0ODM3Mjc5NjEz.a3S7Li51e1tbOcn0eK1VYflL_ajYZXdlBrXX0wwtUfEg.d65mWqx4sHD6ckAgM5E9E7xbuKYnoWp6rG-IJoph2TUg.PNG.gravity001/%EB%B8%8C%EB%A6%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8_%EC%B9%B4%EB%93%9C.png?type=w740",
+        "position": "갑옷",
+        "rate": "녹색",
+        "monster": "브릴라이트",
+        "openPoint": "MaxHP +12",
+        "savePoint": "STR +1",
+        "option": "▶ STR＋3\n▶ VIT＋1\n▶ MaxHP＋100\n"
+    },
+    {
+        "name": "세비지 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTM4/MDAxNTI0ODIxOTE2NDQw.EQ4Kw2ToSrMcp_7HG6LYAlE0vAxwboMqlkkDPwC9hyog.e-7EOqHFy084N_0rkq448B0T9Tj_KjsrpCaPUETB7kIg.JPEG.gravity001/02.jpg?type=w740",
+        "position": "갑옷",
+        "rate": "녹색",
+        "monster": "세비지",
+        "openPoint": "DEF +4",
+        "savePoint": "VIT +1, 세비지 공격을 받으면 VIT 1마다 반사 데미지 추가",
+        "option": "▶ VIT＋3\n"
+    },
+    {
+        "name": "아놀리안 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNzIg/MDAxNTI0ODIxOTQxMTUw.zds_r4KL6442al5G0quJpLtdx5C_ehqPbtK_a2iN5P0g.axot5_ugYFe3KBHzlLw0BrNlP7slemFXFoSWX6sXLYog.JPEG.gravity001/03.jpg?type=w740",
+        "position": "갑옷",
+        "rate": "녹색",
+        "monster": "아놀리안",
+        "openPoint": "AGI +1",
+        "savePoint": "MaxHP +18",
+        "option": "▶ 받는 물리 데미지 시 3% 확률로 AGI＋5, DEX＋5, 2분 지속\n"
+    },
+    {
+        "name": "아르지오프 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfODYg/MDAxNTI0ODIxOTczODIx.EFfmD6V89JiCV8LHKV2aanPgIlx5f5eJeCaUXgZ7Qe4g.vrv9vTEh6hT6_MEPM_P0s5sNG8BTvLeA4-NoqPtXlgQg.JPEG.gravity001/04.jpg?type=w740",
+        "position": "갑옷",
+        "rate": "녹색",
+        "monster": "아르지오프",
+        "openPoint": "DEF +4",
+        "savePoint": "아르지오프 카드 장착 시 중독 효과로부터 영향을 받지 않습니다.",
+        "option": "▶ 갑옷 속성을 독속성으로 전환\n▶ DEF＋20\n"
+    },
+    {
+        "name": "클락 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjI4/MDAxNTI0ODM3Mjg4MDA2.d0X58e4k57gsmGgEnWZcQzvyQ55trZJp3yDgeQikUt0g.GHu2xm8We0JVLXv4wgVIplzQzwFxTFz1gXDcvZPN-M0g.PNG.gravity001/%ED%81%B4%EB%9D%BD%EC%B9%B4%EB%93%9C.png?type=w740",
+        "position": "갑옷",
+        "rate": "녹색",
+        "monster": "클락",
+        "openPoint": "MaxHP +12",
+        "savePoint": "MaxHP +30",
+        "option": "▶ STR＋2\n▶ VIT＋1\n▶ MaxHP＋1%\n"
+    }
+]

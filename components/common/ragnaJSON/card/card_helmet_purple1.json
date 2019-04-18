@@ -1,0 +1,22 @@
+[
+    {
+        "name": "미스트레스 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfOTIg/MDAxNTI0ODI4NDUxNTk2.S8AmCEDa_Xfq_QB-fVCL_UYjOK0CFwt9LyfIuqniNlUg.PNMqQI_Vwp5teKLpFACccllxHWg7UDGHUDOHgBnm8v4g.JPEG.gravity001/01.jpg?type=w740",
+        "position": "투구",
+        "rate": "보라",
+        "monster": "미스트레스",
+        "openPoint": "마법 데미지 -2%",
+        "savePoint": "MATK +12",
+        "option": "▶ 변동 캐스팅 시간－5%\n▶ 젬스톤이 필요한 스킬의 젬스톤 소모량－1\n"
+    },
+    {
+        "name": "오크히어로 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjQ5/MDAxNTI0ODI4NDczNDI5.ALEvKF5mhdNCIjY_i5kfMeTTVVXbZ88m-wbfePv1aPUg.EN4DbLadbalo_P0aJZsS5psJB_8EDDida9MbYFr4rSog.JPEG.gravity001/02.jpg?type=w740",
+        "position": "투구",
+        "rate": "보라",
+        "monster": "오크히어로",
+        "openPoint": "MaxHP +10",
+        "savePoint": "BOSS 몬스터 데미지 +5%",
+        "option": "▶ VIT＋5\n▶ 스턴 상태 면제\n"
+    }
+]

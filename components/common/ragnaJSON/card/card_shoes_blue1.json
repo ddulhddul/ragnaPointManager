@@ -1,0 +1,42 @@
+[
+    {
+        "name": "미스틸테인 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMzIg/MDAxNTI0ODI0MDAyMDA0.zwWB0JhpTAsspyAeToZ8eFDeZNrdyWGg1e780u0FxFEg.USxr7mxMyVxtXdkrRAppa4DfhC0jmYgQBQZajroV8fcg.JPEG.gravity001/01.jpg?type=w740",
+        "position": "신발",
+        "rate": "파랑",
+        "monster": "미스틸테인",
+        "openPoint": "받는 몬스터(소) 데미지 -1%",
+        "savePoint": "MATK +10",
+        "option": "▶ 받는 몬스터(소) 데미지 -30%\n▶ DEF +10\n"
+    },
+    {
+        "name": "베릿트 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjQ1/MDAxNTI0ODI0MDQyMTYz.1L8lrnZurQhSf6UHwjsZv-Krlq6QARGrs9KEVvU2VP8g.69xN8ACb-Ocy6ICC7iKBayajmBRlSxEg5UaLGlhAcg8g.JPEG.gravity001/02.jpg?type=w740",
+        "position": "신발",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "MaxHP +140",
+        "option": "▶ MaxHP＋8%\n▶ MaxSP＋8%\n"
+    },
+    {
+        "name": "에기라 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjI5/MDAxNTI0ODI0MDYxMzQ3.z6rvSKsYG_WvkyQERrTuAcf5aVbBmLxOdJTciY0FlN4g.MJu55JQsNapX0q4Jn37ATMMARrNAhYVE19VjmkK5pTkg.JPEG.gravity001/03.jpg?type=w740",
+        "position": "신발",
+        "rate": "파랑",
+        "monster": "에기라",
+        "openPoint": "MaxHP +28",
+        "savePoint": "MATK +10",
+        "option": "▶ INT＋2\n▶ SP 회복＋5\n"
+    },
+    {
+        "name": "페러스 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjQ4/MDAxNTI0ODI0MDgxNTk1._B1W-Y_p0UDipOuekimZtOA_gBAtHC9MOOsD2hd_QZgg.DXwNL4jgYbUesB1rSI9on3IWRqbdCZ8UYRZN_ZYX20Ug.JPEG.gravity001/04.jpg?type=w740",
+        "position": "신발",
+        "rate": "파랑",
+        "monster": "페러스",
+        "openPoint": "MaxHP +24",
+        "savePoint": "MaxHP +70",
+        "option": "▶ VIT＋2\n▶ MaxHP＋10%\n"
+    }
+]

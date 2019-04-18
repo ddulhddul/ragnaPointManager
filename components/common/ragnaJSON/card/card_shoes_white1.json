@@ -1,0 +1,22 @@
+[
+    {
+        "name": "수컷 도둑벌레 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMiAg/MDAxNTI0ODI0NDAzMDA3.FyKNzS3wqLrWq0mTTn4OVkpkCnKKUv8TYnsdQlTLE4Ag.gjzdX8EWa58LxsrI8j6xNsDnbLS9bQyzbmTIXzsdX-kg.JPEG.gravity001/01.jpg?type=w740",
+        "position": "신발",
+        "rate": "일반",
+        "monster": "-",
+        "openPoint": "ATK +6",
+        "savePoint": "MaxHP +10",
+        "option": "▶ 장비 ASPD＋3%\n"
+    },
+    {
+        "name": "촌촌 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjIy/MDAxNTI0ODI0NDE4MDY0.fsbrcV4G5F-Jy27zpgyXjRi6PEypN4sPMWpn8gUL45og.VfuqDDd6jMlrLVYVtNEGbu-L10SOi2jKV0p0axtvN9Ig.JPEG.gravity001/02.jpg?type=w740",
+        "position": "신발",
+        "rate": "일반",
+        "monster": "촌촌",
+        "openPoint": "DEF +2",
+        "savePoint": "MaxHP +10",
+        "option": "▶ STR＋2\n"
+    }
+]

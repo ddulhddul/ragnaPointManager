@@ -1,0 +1,182 @@
+[
+    {
+        "name": "마린 스피어 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjgy/MDAxNTI0ODI0NTI3MTg3.WBYTnLKzNQGBrd0Xfdffqi2wvQszmifQOgBp_DKR6IUg.aXlwraAodvqAECE9gIThoMal7BZA_ozooFUvdbe2PYcg.JPEG.gravity001/01.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "마린 스피어",
+        "openPoint": "MaxHP +24",
+        "savePoint": "매그넘 브레이크 스킬 데미지 +50% \n(단 매그넘 브레이크 스킬을 사용 할 때 마다 자신의 HP감소)",
+        "option": "▶ 스킬 【매그넘 브레이크】Lv.3 사용 가능\n"
+    },
+    {
+        "name": "맨티스 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjM4/MDAxNTI0ODI0NTc0NjAy.2jdioOD8_I3j5Ivkfbejte4KCF8rUR53Mlo2kAHmBAog.wWaelFkVlUHw3bxuPIud1ewyyQhvnxHN02HxGfrh63Eg.JPEG.gravity001/02.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "맨티스",
+        "openPoint": "MaxHP +28",
+        "savePoint": "STR +1",
+        "option": "▶ STR＋5\n"
+    },
+    {
+        "name": "묘괴 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNjAg/MDAxNTI0ODI0NjQ5ODE5.lYX2QEV7eDHf3pcDiK4nx1tHwR3IvLCuy-1_GoMSIDAg.nfF9ByCrn68RY1FoEGxshdorT-Xf9G128RwNg3F5hPcg.JPEG.gravity001/03.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "몬스터(염)에 데미지 +1%",
+        "option": "▶ 몬스터(염)에 데미지＋15%\n"
+    },
+    {
+        "name": "산타포링 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTQ0/MDAxNTI0ODI0NzE0NDc2.5odMgS9B2eAqNnwcgbJUX47xxXmThY884aAjFwRAbGIg.4z-xxVOUOAHXG7HzC2dlYur9UPTWGZj2drdD6PYUnoAg.JPEG.gravity001/04.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "몬스터(암)에 데미지 +1%",
+        "option": "▶ 몬스터(암)에 데미지＋15%\n"
+    },
+    {
+        "name": "스모키 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTcy/MDAxNTI0ODI0NzM2NDA0.ZYxAxNbiL87GfPJRjGCxqifxCmJdECqbwjTpiUxYfuQg.vjC9kEYvySGvCjDko484c2cITtzHZF1iFxVr6ySoEYcg.JPEG.gravity001/05.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "스모키",
+        "openPoint": "DEF +4",
+        "savePoint": "MaxHP +70",
+        "option": "▶ 스킬 【하이딩】Lv.1 사용 가능\n"
+    },
+    {
+        "name": "스콜피온 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjkx/MDAxNTI0ODI0NzY5MTA5.uhNi9yKeDCM_bYRSbcWjk97hQFjZp2W9XjqiefHr6Ecg.-KIZ8HAThjDuRWGkoBOAun-59zilZKTQmCc8Stm5vZAg.JPEG.gravity001/06.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "식물형 데미지 추가 +1%",
+        "option": "▶ 식물형 몬스터에 데미지＋10%\n"
+    },
+    {
+        "name": "스템웜 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTky/MDAxNTI0ODM3MzgzNjYz.SbLbewZZS125gCvjOVo9rbiZCnVvl1QuoAqBSOQ3Xa4g.JG4hBCotQTXETTTynLhoLn3b8qdEOrjEa46ujalAMhsg.PNG.gravity001/%EC%8A%A4%ED%85%9C%EC%9B%9C_%EC%B9%B4%EB%93%9C.png?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "스템웜",
+        "openPoint": "ATK +6",
+        "savePoint": "[소닉 블로우] 데미지 +5%",
+        "option": "▶ 【소닉 블로우】스킬 딜레이－0.3초\n"
+    },
+    {
+        "name": "아나콘다크 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTM3/MDAxNTI0ODI0OTAwNDQ0.WWlTy4b1P6psT4-9pvXwSl8k1SH2lRHo6lXd7guDZzQg.SaRaPLchCpUUABHpYZH4iQnxVMoPjWO1XZuQMO1QLf0g.JPEG.gravity001/07.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "몬스터(독)에 데미지 +1%",
+        "option": "▶ 몬스터(독)에 데미지＋15%\n"
+    },
+    {
+        "name": "웜테일 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTI1/MDAxNTI0ODI0OTMyMDIx.GIgPcgNeKms9ciurSDE20hyki4O8SKg6IjwrSs1TbWYg.rTpzMHU7QAvn3OmBh2oZjtSUcxe4yVyvynH_TPdA1UMg.JPEG.gravity001/08.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "웜테일",
+        "openPoint": "MaxHP +28",
+        "savePoint": "INT +1",
+        "option": "▶ DEX＋1\n▶ INT＋4\n"
+    },
+    {
+        "name": "윈드 고스트 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNjQg/MDAxNTI0ODI0OTczOTA0.DWb8dq-ExDACMVY7G6Cr31U6QJLPF8JBIAKlgJ8e0NAg.zRIruL2rQENLVikg3PXxi7zFWHSPWhkRsiiyW2_1UZMg.JPEG.gravity001/09.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "윈드 고스트",
+        "openPoint": "MaxHP +21",
+        "savePoint": "MaxHP +70",
+        "option": "▶ 일반공격 시 5% 확률로 【유피텔 썬더】Lv.5스킬 자동 시전\n"
+    },
+    {
+        "name": "제롬 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNzkg/MDAxNTI0ODI1MDEzMTY2.h859idFJeKHPeeN5YPiD6-HdDROm0lfeMkIo-oyHBQwg.GkVCxzQtyGRIuR3tfB1uilIgZ6u4iEhOcVzaexoBvogg.JPEG.gravity001/10.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "DEX +1",
+        "option": "▶ DEX＋4\n▶ INT＋1\n"
+    },
+    {
+        "name": "카라멜 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMzgg/MDAxNTI0ODI1MDQ3NTk5.yIc_rCDllzsTOXZ7g97JaxexBV8tbVoJUwGBOUB3G2og.-XiA1zJ3LAcmf0HK8XeKnHi42zFJ1edG1JjL0jm8Zlsg.JPEG.gravity001/11.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "곤충형 몬스터 데미지 추가 +1%",
+        "option": "▶ 곤충형 몬스터에 데미지＋10%\n"
+    },
+    {
+        "name": "카호 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjM5/MDAxNTI0ODI1MDc1NTAz.DNjEgKcVokeBhkOsf2eOKrp-GdJTWOd2IgqYOPqEt7wg.Rpt84Y6EvzOLDtDWXEPaU9at19Dtim4Oc2zlZHJyxXog.JPEG.gravity001/12.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "몬스터(지)에 데미지 +1%",
+        "option": "▶ 몬스터(지)에 데미지＋15%\n"
+    },
+    {
+        "name": "코볼트 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTk0/MDAxNTI0ODI1MTAzMjY0.unApE4IIauYXwRy81gd3PP8zDYZJwxSkZUKlxw-t0D0g.u0t2kJdETesEhO3kCXLtFeVd4THCNvQzquZG8cXdG0Ug.JPEG.gravity001/13.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "코볼트(도끼), 코볼트(해머), 코볼트(모닝스타)",
+        "openPoint": "MaxHP +24",
+        "savePoint": "STR +1",
+        "option": "▶ STR＋4\n▶ CRI＋10\n"
+    },
+    {
+        "name": "쿠크레 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjgz/MDAxNTI0ODI1MTQyMjk3.C-mnf6PPneGAHiks3KAo4J3cW5hvS-TB5yFSvg7J3-cg.TepTEpoOcBqTFR_SdzBigoD2HXopx7AZSMpeHwFw0Lsg.JPEG.gravity001/14.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "AGI +1",
+        "option": "▶ AGI＋3\n▶ LUK＋2\n"
+    },
+    {
+        "name": "크리미 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTUz/MDAxNTI0ODI1MTkzNzAz._jRWfRU5eUJRsbpFWpGJcm-PdryXkEDeMZnC8nQRmQIg.tIvQEjWlu-OWukx87-Or0Azpueh6HXao-9wbAg8ivFYg.JPEG.gravity001/15.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "크리미★",
+        "openPoint": "MDEF +4",
+        "savePoint": "MaxHP +28",
+        "option": "▶ 스킬 【텔레포테이션】Lv.1 사용 가능\n"
+    },
+    {
+        "name": "휀 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMzEg/MDAxNTI0ODI1MjEyNDc0.YeQDyOaY3vjCHU9Z_Ev3ngcqs9lxL_ywT-36wkr5Wmsg.jx_-u9P0c56tQTrEIugiwI-POvC2cQwJ2DhL2Lt9UeMg.JPEG.gravity001/16.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "휀",
+        "openPoint": "MDEF +4",
+        "savePoint": "MaxHP +70",
+        "option": "▶ 캐스팅 중단 내성＋20%\n"
+    },
+    {
+        "name": "연수 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTcw/MDAxNTI0ODM3Mzk1MDcy.WEP8tKfm8l9AeY5okiPP7wQA_0Pv5MrbV-dK400_2gAg.ksDfCY1ON3R7yAIVRlPdCnejo9Q9xteIe1flDULcWiQg.PNG.gravity001/%EC%97%B0%EC%88%98_%EC%B9%B4%EB%93%9C.png?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +60",
+        "savePoint": "ATK +6",
+        "option": "▶ 전체 능력 +1\n▶ FLEE +5\n"
+    }
+]

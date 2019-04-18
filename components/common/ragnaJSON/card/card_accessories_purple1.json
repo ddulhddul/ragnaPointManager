@@ -1,0 +1,12 @@
+[
+    {
+        "name": "오시리스 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTUg/MDAxNTI0ODI0NDc1MzYy.pJ-SkmHg_h-VaOPn7_yNDSaelw-u2ScIGpZFR35WVe0g.tkG_IT-dSIBpWzfGmEoqsEGp6NjBZxKJFjAcH63NiTkg.JPEG.gravity001/01.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "보라",
+        "monster": "오시리스",
+        "openPoint": "MaxHP +112",
+        "savePoint": "MaxHP +112",
+        "option": "▶ 부활 시 HP 및 SP 모두 회복\n"
+    }
+]

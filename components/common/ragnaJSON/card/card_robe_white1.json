@@ -1,0 +1,22 @@
+[
+    {
+        "name": "마리오네트 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTIy/MDAxNTI0ODIzNzcxODMx.9-u3DNVXa17HaoNrEBelDswRng206aMgaqFy8Z1H3rAg.aBg-if51J_lsEKHHLlEk1D9nndF1XL3ZkXdIrpGlnBYg.JPEG.gravity001/01.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "일반",
+        "monster": "마리오네트",
+        "openPoint": "MaxHP +24",
+        "savePoint": "네이팜 발칸 데미지 +10%",
+        "option": "▶ 받는 염속성 데미지－15%\n"
+    },
+    {
+        "name": "이시스 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjMg/MDAxNTI0ODIzNzc4NTkw.MR1uGlEc9T1j4NY5xoZBp_dLONM_Lw_RE6B0tvzvc6Qg.hLFWsS64B7f7mNrEE-ohKFzMck676UobWtBlFXTteksg.JPEG.gravity001/02.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "일반",
+        "monster": "이시스",
+        "openPoint": "MaxHP +20",
+        "savePoint": "일정 확률로 대상의 SP가 0으로 감소합니다",
+        "option": "▶ 받는 암속성 데미지－15%\n"
+    }
+]

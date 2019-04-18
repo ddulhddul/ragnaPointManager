@@ -1,0 +1,102 @@
+[
+    {
+        "name": "고스트링 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjk3/MDAxNTI0ODIxMzcxNTc3.-6XVZz4DEWUz7olWOELhnNDM0R_l-KkOTlSgzjS7VtEg.4t_YLhB2xocEt3kFcX_NtGgL9A54r9W7SCIEhymJxokg.JPEG.gravity001/01.jpg?type=w740",
+        "position": "갑옷",
+        "rate": "파랑",
+        "monster": "고스트링",
+        "openPoint": "DEF +4",
+        "savePoint": "염속성 데미지 발생 시 -10%",
+        "option": "▶ 갑옷 속성을 염속성으로 전환\n▶ HP 회복－50%\n"
+    },
+    {
+        "name": "바소리 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjY3/MDAxNTI0ODIxNDIwNzQw.1r4S5njMN2_DeEoXov9Gef20tKPJ7U_-LaG77wRthmQg.sO7WHLf51wKE95HxCqAEslD7NbfrW9AAbqkPVjl7nOkg.JPEG.gravity001/02.jpg?type=w740",
+        "position": "갑옷",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "성속성 데미지 +1%",
+        "option": "▶ 갑옷 속성을 암속성으로 전환\n"
+    },
+    {
+        "name": "샌드맨 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfODcg/MDAxNTI0ODIxNDYzMDQx.2bRKZoYNo_A1PE07osZtUBToQxlfvKb7w1W6bu0Wemog.6_zN7bVdfSu1YkmMUs1q3jViwtz_posbzUwFKyscza0g.JPEG.gravity001/03.jpg?type=w740",
+        "position": "갑옷",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "화속성 데미지 +1%",
+        "option": "▶ 갑옷 속성을 지속성으로 전환\n"
+    },
+    {
+        "name": "서큐버스 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMSAg/MDAxNTI0ODIxNDk3MjEx.BffziGtuKmr_YP0gCmlQ4JP65UKZ8jMoQbY4LNHHz2Eg.UwZk735eIuBYoueO-Ei9f7_zGhgLlORYmON-kQRFi0Ig.JPEG.gravity001/04.jpg?type=w740",
+        "position": "갑옷",
+        "rate": "파랑",
+        "monster": "서큐버스",
+        "openPoint": "HP 회복 +1%",
+        "savePoint": "MATK +10",
+        "option": "▶ MaxHP＋500\n▶ HP 회복＋15%\n"
+    },
+    {
+        "name": "소드피쉬 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfOTcg/MDAxNTI0ODIxNTU4NjEx.bgB2jeZiiGDm5M18Ef2At3GOVwwygdbVqguww-bCHJIg.OB5zVI1cEpaFBZyl47XJGt7XegTPsPqr8rg-BrJk0Uwg.JPEG.gravity001/05.jpg?type=w740",
+        "position": "갑옷",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "풍속성 데미지 +1%",
+        "option": "▶ 갑옷 속성을 수속성으로 전환\n"
+    },
+    {
+        "name": "아가브 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMzQg/MDAxNTI0ODIxNjEzMzcy.KaA16ADGD51O3Ez7OVsGDO9otUtFeHB9lj-bhUjF1vEg.gcB2fVGfDcSW7Wr27DJSmnTJdY5NNnqFSeguwOHCg3Ag.JPEG.gravity001/06.jpg?type=w740",
+        "position": "갑옷",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "MATK +1%",
+        "option": "▶ MATK＋5%\n▶ 마법사 계열 장착 시 MATK＋3%, MaxHP＋300, MaxSP＋150\n"
+    },
+    {
+        "name": "이블 드루이드 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfOTEg/MDAxNTI0ODIxNjQwMjg5.2WG-0V4-370BHhTe4m1wI049pSJXFU5wsmfNH9fs4M8g.aqS5sIvWm6D3d4Jp8uTgMPcxQxXWXmSp-PsiTm7lgCgg.JPEG.gravity001/07.jpg?type=w740",
+        "position": "갑옷",
+        "rate": "파랑",
+        "monster": "이블 드루이드",
+        "openPoint": "DEF +4",
+        "savePoint": "MaxHP +70",
+        "option": "▶ 갑옷 속성을 불사 속성으로 전환\n▶ INT＋4\n"
+    },
+    {
+        "name": "타라 프로그 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNTUg/MDAxNTI0ODIxNjYyODc1.TmfBjNaT-RXoYKPdLds8J8w9duxxjJJuoBuEinz6tCkg.z8zGyKZV-x2Stg6OcG_WSVUHH1Ch4hqclgLKDqugtEcg.JPEG.gravity001/08.jpg?type=w740",
+        "position": "갑옷",
+        "rate": "파랑",
+        "monster": "타라 프로그",
+        "openPoint": "MDEF +2",
+        "savePoint": "인간형 몬스터로부터 받는 데미지 감소 +1%,\n몬스터에게 피해 데미지 -20",
+        "option": "▶ 인간형 몬스터 데미지 감소＋30%\n"
+    },
+    {
+        "name": "파사나 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjU2/MDAxNTI0ODIxNzExNTA3.ZeSULEnZ5UOuz4SNwHtobDid64LJojfacIkdTSSYQwEg.gVHBqGLtgxU58Cm7vznHJT0VSU7eUJ7DT5K1N22kZy0g.JPEG.gravity001/09.jpg?type=w740",
+        "position": "갑옷",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "수속성 데미지 +1%",
+        "option": "▶ 갑옷 속성을 화속성으로 전환\n"
+    },
+    {
+        "name": "페코페코 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTQx/MDAxNTI0ODIxNzMwNTcx.WN23kMxkhu0W6-3xb4mOBKJRAsOchLG4r9ScuwWaNwUg.UrW74IKhi3h0ZUpDNrXlF6iAvd9sr0TVI0Ri5SCW9esg.JPEG.gravity001/10.jpg?type=w740",
+        "position": "갑옷",
+        "rate": "파랑",
+        "monster": "페코페코",
+        "openPoint": "MaxHP +28",
+        "savePoint": "페코페코 카드 장착 시 라이프 이그니션 효과 강화",
+        "option": "▶ MaxHP＋10%\n"
+    }
+]

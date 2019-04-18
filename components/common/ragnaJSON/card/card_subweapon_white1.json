@@ -1,0 +1,72 @@
+[
+    {
+        "name": "공중쁘띠 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjU3/MDAxNTI0ODE5MTk1ODk4.AqAB2Hnt-UDmbhEwGvgh9GzP0OkkjTFdRfBb73F4p-cg.vOSKlQI9UbZPqbNdqfnVwsA76tnKF1lm_lhhVD8zR2cg.JPEG.gravity001/01.jpg?type=w740",
+        "position": "보조",
+        "rate": "일반",
+        "monster": "공중쁘띠",
+        "openPoint": "MaxHP +24",
+        "savePoint": "드래곤 몬스터의 공격으로 HP가 50%일 때 자신의 \nMaxHP 및 MaxSP에 따라 데미지 면역 쉴드 추가, \n10초 또는 격파될 때까지 지속(최대 60초마다 1회 발동)",
+        "option": "▶ 용족 몬스터로부터 받는 데미지－15%\n"
+    },
+    {
+        "name": "도둑벌레 알 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTU3/MDAxNTI0ODE5MjM0NDUz.vkHP9QmKM8z4REPrhTKA27Is1ltJXPE5KZ6axqBZ_Wgg.YH5buyML-cUh4W_ulRWIEQK6bd7QzQvS7_UKwd65Zpgg.JPEG.gravity001/02.jpg?type=w740",
+        "position": "보조",
+        "rate": "일반",
+        "monster": "도둑벌레 알",
+        "openPoint": "MaxHP +24",
+        "savePoint": "피격마다 10% 확률로 목표의 MaxSP 1% 차감",
+        "option": "▶ MaxHP＋200\n"
+    },
+    {
+        "name": "도둑벌레 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTYw/MDAxNTI0ODE5MjU4OTk2.EaHYqlwaab8l2ASXf4LR3IDvYrhnN4RV1pIHLXwCFxgg.fKuF7X-CcyyyL9G1jLkQIwTSR-_QcrLJoJYJ-31nFDUg.JPEG.gravity001/03.jpg?type=w740",
+        "position": "보조",
+        "rate": "일반",
+        "monster": "도둑벌레",
+        "openPoint": "ATK +3",
+        "savePoint": "파티 인원에 따라 파티 부스트 효과 증가: \n일정 범위 내 모든 적의 FLEE 최고 50 감소(다른 파티의 효과와 중첩 불가)",
+        "option": "▶ HIT＋10\n"
+    },
+    {
+        "name": "무낙 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNTAg/MDAxNTI0ODE5MjgzNDQy.t_3wsFtUeBhAEEG_L3f81zKqr_T2VnXGmY5Wx4beEpsg.dUbKObXyfCO6Mo9mCfsWY4Ej3lIuK4j-tJbfHCpkAvEg.JPEG.gravity001/04.jpg?type=w740",
+        "position": "보조",
+        "rate": "일반",
+        "monster": "무낙",
+        "openPoint": "MATK +3",
+        "savePoint": "MATK +12",
+        "option": "▶ 받는 지속성 데미지－10%\n▶ DEF＋10\n"
+    },
+    {
+        "name": "빅풋 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTcy/MDAxNTI0ODE5MzA3MzA4.BBldrWdNiNwTsADJU-U1MrOG_ipF1NyeeuxeLdxs3LYg.rCFUBLxd9bPBslPUFg1C7NcVWAfaQdRJcsZmgkS1ojIg.JPEG.gravity001/05.jpg?type=w740",
+        "position": "보조",
+        "rate": "일반",
+        "monster": "빅풋",
+        "openPoint": "곤충형 몬스터 데미지 추가 +2%",
+        "savePoint": "곤충형 몬스터 데미지 추가 +8%",
+        "option": "▶ 받는 곤충형 몬스터 데미지－15%\n"
+    },
+    {
+        "name": "스팅 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjYx/MDAxNTI0ODE5MzM0ODA1.yw3dij3RMbJgisf9e17bNIWYbYxWedKTn6vpAlvKoXAg.K1f3TBso8M3MSzwni_kofeZQN8p-z_Glzg0GftmE1xUg.JPEG.gravity001/06.jpg?type=w740",
+        "position": "보조",
+        "rate": "일반",
+        "monster": "스팅",
+        "openPoint": "MDEF +2",
+        "savePoint": "마법 데미지 -2%",
+        "option": "▶ DEF＋10\n▶ MDEF＋15\n"
+    },
+    {
+        "name": "오크워리어 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjUg/MDAxNTI0ODE5MzY0MTgx.fJPjqSlT2dU7m9hY8UsFUuPsIM9TMKfpx6fcT1NZsx8g.Uhq_E9zcl4Bn1RO7z-OAAtiCjTdl0ncyW71R0K-5f6gg.JPEG.gravity001/07.jpg?type=w740",
+        "position": "보조",
+        "rate": "일반",
+        "monster": "오크워리어",
+        "openPoint": "FLEE +10",
+        "savePoint": "동물형 몬스터 데미지 감소 +2%",
+        "option": "▶ 동물형 몬스터 데미지 감소＋20%\n"
+    }
+]

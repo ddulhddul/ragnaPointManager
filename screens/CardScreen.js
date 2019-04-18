@@ -5,7 +5,7 @@ import {
 } from 'react-native'
 
 import DB from '../components/common/ragnaDB'
-// import FoodList from '../components/food/FoodList'
+import CardList from '../components/card/CardList'
 
 export default class CardScreen extends Component {
   static navigationOptions = {
@@ -15,6 +15,8 @@ export default class CardScreen extends Component {
   constructor(props){
     super(props)
     this.state = {
+      cardList: DB.getCardList(),
+      cardImages: DB.getCardImages()
     }
   }
 
@@ -23,6 +25,9 @@ export default class CardScreen extends Component {
       <View style={styles.container}>
         
         <View style={[styles.container, styles.contentContainer]}>
+          <CardList 
+            cardImages={this.state.cardImages}
+            cardList={this.state.cardList} />
         </View>
 
       </View>

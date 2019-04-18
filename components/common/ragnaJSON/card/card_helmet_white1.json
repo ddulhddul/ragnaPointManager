@@ -1,0 +1,22 @@
+[
+    {
+        "name": "마르두크 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjE2/MDAxNTI0ODI5MjA4OTgx.lNDNWgPdwOsfac7K7FKns7aNXGFyJvy-Dmv4hIZgMPsg.Q0MSnqTaYBsOeinscK7lFNQ5-l8JDbFwM5jZ6B64UqIg.JPEG.gravity001/01.jpg?type=w740",
+        "position": "투구",
+        "rate": "일반",
+        "monster": "마르두크",
+        "openPoint": "MDEF +4",
+        "savePoint": "MaxHP +10",
+        "option": "▶ 침묵 상태 면제\n"
+    },
+    {
+        "name": "윌로우 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNDQg/MDAxNTI0ODI5MjE2MjI2.8lpDqg7LtcyX7UAFmz8f4bU_PV9D02_i25UT1vmESvog.vBmAHA0vv9yaqRHYl92l7rfDNLZ31V0hwbYV3oe5t64g.JPEG.gravity001/02.jpg?type=w740",
+        "position": "투구",
+        "rate": "일반",
+        "monster": "윌로우",
+        "openPoint": "MaxSP +10",
+        "savePoint": "MaxHP +10",
+        "option": "▶ MaxSP＋100\n"
+    }
+]

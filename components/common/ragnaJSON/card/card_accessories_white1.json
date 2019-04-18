@@ -1,0 +1,82 @@
+[
+    {
+        "name": "새끼 데저트울프 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjE4/MDAxNTI0ODM3NDMxMDM4.k6A2Rn4xCok-bbHpa5tVBUZTUS37QzZdO3XpGXGyTDAg.2sZGEFjEIxKG_pF8sq6skzLCEFkSvhG3uQ0ixD3Dkasg.PNG.gravity001/%EC%83%88%EB%81%BC_%EB%8D%B0%EC%A0%80%ED%8A%B8%EC%9A%B8%ED%94%84.png?type=w740",
+        "position": "액세서리",
+        "rate": "일반",
+        "monster": "-",
+        "openPoint": "인간형 몬스터 데미지 추가 +1%",
+        "savePoint": "인간형 몬스터 데미지 추가 +1%",
+        "option": "▶ 인간형 몬스터 데미지 추가 +3%\n"
+    },
+    {
+        "name": "무카 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTY1/MDAxNTI0ODI4MDI0MDA4.KI2g2uv81TZVeZoGZwaR5mtFYiXIcIqpyVmZZwtDWBgg.odbPGZegTLc5FEy3YaaUoTtX8db54bykLzvud2SBezEg.JPEG.gravity001/01.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "일반",
+        "monster": "무카",
+        "openPoint": "MaxHP +24",
+        "savePoint": "MaxHP +28",
+        "option": "▶ HP 회복＋10\n"
+    },
+    {
+        "name": "미믹 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfODgg/MDAxNTI0ODI4MDQyMzg0._iPiYgXNctUeR2PHb4so84ZuQyh7vOigKFfnjBOISF0g.1KuspJNt4NM9uzvq6V1crA06u-PYpLlqCFEWPRKWbyEg.JPEG.gravity001/02.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "일반",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "ATK +4.5",
+        "option": "▶ 효과 없음\n"
+    },
+    {
+        "name": "바포메트의 환영 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjU3/MDAxNTI0ODI4MDY1ODgy.tavXJ9r_n8TLqQcF89TlTc1uUI7futn2aJeNr-ZcrIEg.NRjokyHP8zqgYSPvpitsQCYa8rMY8rKnyjHhotDJ1Csg.PNG.gravity001/03.png?type=w740",
+        "position": "액세서리",
+        "rate": "일반",
+        "monster": "-",
+        "openPoint": "MaxHP +12",
+        "savePoint": "MaxHP +10",
+        "option": "▶ 인간형 몬스터 데미지 추가＋2%\n"
+    },
+    {
+        "name": "오본느 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjE3/MDAxNTI0ODI4MTM3NzUz.e6192nnI3-BSXTRDKdCg3VACw2FGavWyETbjXt8_vTsg.G2tLIVoxTd5vR63qAOmzD6KltfQJ01IqK8K0gqyhJKAg.JPEG.gravity001/04.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "일반",
+        "monster": "오본느★",
+        "openPoint": "MaxHP +64",
+        "savePoint": "MaxHP +72",
+        "option": "▶ 스킬 【클리어런스】Lv.1 사용 가능\n"
+    },
+    {
+        "name": "오크 아쳐 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjgg/MDAxNTI0ODI4MTY1ODQ1.5qMDHdx8-noQHxaMVXT-YQlmSNnf57-ji53BDwhbTlsg.GbHBHxQiNCg1KBWpNdoytSfx1hitLg2WJ2VhhaZdEDYg.JPEG.gravity001/05.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "일반",
+        "monster": "오크 아쳐",
+        "openPoint": "FLEE +10",
+        "savePoint": "SP회복 +2",
+        "option": "▶ 인간형 몬스터 처치 시 10% 확률로 자신의 SP 20 회복\n"
+    },
+    {
+        "name": "포이즌 스포아 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMzEg/MDAxNTI0ODI4MTgzMDA4.XGsBxIaSZl2N3lOsJcg3awqmNtPXIniA2hO_QG46ZIgg.hj_1j3zV1tp8rBfZAonSTVET5IwEoyei_xUps91ZL4Eg.JPEG.gravity001/06.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "일반",
+        "monster": "포이즌 스포아",
+        "openPoint": "ATK +3",
+        "savePoint": "MaxHP +10",
+        "option": "▶ 스킬 【베넘 나이프】Lv.1 사용 가능\n"
+    },
+    {
+        "name": "호롱 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjM0/MDAxNTI0ODI4MjUxNDY3.OxEbi1q8HqAE5B9itZ81kIfK976HQbSaVGL5-KIkyqQg.qF-KosEUVvlEND3msowiOPOuIwVS3GIdx9rq_pUl4usg.JPEG.gravity001/07.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "일반",
+        "monster": "호롱★",
+        "openPoint": "MDEF +4",
+        "savePoint": "MaxHP +10",
+        "option": "▶ 스킬 【사이트】Lv.1 사용 가능\n"
+    }
+]

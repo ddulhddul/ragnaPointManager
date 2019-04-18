@@ -1,0 +1,152 @@
+[
+    {
+        "name": "더스티네스 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTkx/MDAxNTI0ODIyNDQ3Mzg2.HDiPhFKg5fkidGxjs_CLlB3-znDFFY_irUOE1pCW_hQg.A7EQWuJmVB-OfonXBQ1156yZYWgdcYTaC4vz49CF7isg.JPEG.gravity001/01.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "파랑",
+        "monster": "더스티네스",
+        "openPoint": "MaxHP +28",
+        "savePoint": "FLEE +5",
+        "option": "▶ 받는 풍속성 데미지－15%\n▶ FLEE＋5\n"
+    },
+    {
+        "name": "드래곤 플라이 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNjYg/MDAxNTI0ODIyNzI3MjYw.PhFeN2E6NyIbSpyHL8iUKb9iGBSAyLAwHdCxQNCCSZUg.DZeGxPDy3NFce5no-OvMYyz6v5FnVyqRDpI2IHLsf0cg.JPEG.gravity001/02.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "파랑",
+        "monster": "드래곤 플라이",
+        "openPoint": "ATK +8",
+        "savePoint": "ATK +10",
+        "option": "▶ AGI＋4\n▶ FLEE＋5\n"
+    },
+    {
+        "name": "떠돌이 늑대 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjkx/MDAxNTI0ODIyOTMzODI1.vevaYdpAh5kzsnhUQ7Zit_pq7S07oP1IuthNUfTAk1sg.myYMe_6V9DzEEn9o8T26QONgW5m5QPf5IKeHGLz6ZSwg.JPEG.gravity001/03.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "파랑",
+        "monster": "떠돌이 늑대",
+        "openPoint": "ATK +8",
+        "savePoint": "MaxHP +70",
+        "option": "▶ STR＋4\n▶ FLEE＋5\n"
+    },
+    {
+        "name": "레이드릭 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTgy/MDAxNTI0ODIyOTY1MjY1.KxA320sp38ulkY_GPRcwRKFE-VuhOCIUy7KIEiQv7rgg.TKu2I37HQK3NbTCu0X0Yhuxy-hVcHfyDrmBUMQEEk_og.JPEG.gravity001/04.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "파랑",
+        "monster": "레이드릭, 윈드 검사 에르윅",
+        "openPoint": "무속성 데미지 -1%",
+        "savePoint": "MaxHP +70",
+        "option": "▶ 받는 무속성 데미지－10%\n"
+    },
+    {
+        "name": "마르스 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfOTMg/MDAxNTI0ODIzMDE2OTIw.f8HsRPp51bK9NbHqdb487w3y-1kxuYgHf8EDzsZtq8gg.FCE2VVhCDRgpkme5_h3IF-u1LU_WW7p2qcMK1eC1fKMg.JPEG.gravity001/05.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "FLEE +5",
+        "option": "▶ 받는 수속성 데미지－15%\n▶ FLEE＋5\n"
+    },
+    {
+        "name": "마스터링 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjI2/MDAxNTI0ODIzMDY0NTEx.R5g3iHyIOxWpdvOyUyzpmoEiuSlmPC5VSpkS0JokWGEg._PYma31nDWGUZzMXXEe8kt2xARUffFJrhQBHWIUWIcIg.JPEG.gravity001/06.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "파랑",
+        "monster": "마스터링",
+        "openPoint": "MaxHP +24",
+        "savePoint": "MaxHP +70",
+        "option": "▶ LUK＋4\n▶ FLEE＋5\n"
+    },
+    {
+        "name": "미스트 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfODYg/MDAxNTI0ODIzMTIyMDgy.WCM62e6FpiVIrlA5uNUK_0lVhkDHupl50z89_FWm9JYg.IhS-U4bQ_uGpgBguQ5-_nACTlcXeR7mZ9SwfrmTXifEg.JPEG.gravity001/07.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "FLEE +5",
+        "option": "▶ 받는 독속성 데미지－15%\n▶ FLEE＋5\n"
+    },
+    {
+        "name": "바포메트 주니어 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjYw/MDAxNTI0ODIzMTc3MzU4.1JbGR_xU5D65BUGTn1JBsw_pRuMpck43UBL_0908ABAg.79myhFg0mybfNVkEymXqkziHSx2JjsE0P4RqXa7mI-Ug.JPEG.gravity001/08.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "CRI +1",
+        "savePoint": "MaxHP +70",
+        "option": "▶ AGI＋2\n▶ CRI＋5\n"
+    },
+    {
+        "name": "오크베이비 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTE3/MDAxNTI0ODIzMjEzNTA1.CY-rs9Jye90SemjZlZ6I9XDaqL78tj6cdoEoSfOBUi4g.oG_zg_w0uLNhVx4ntf0uMNNUMIwxLiaL6eMmiYltp5sg.JPEG.gravity001/09.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "파랑",
+        "monster": "오크베이비",
+        "openPoint": "MaxHP +84",
+        "savePoint": "무속성 데미지 -5%, 일정 확률로 상대방 및 자신의 레벨차에 따라 HP회복",
+        "option": "▶ 받는 무속성 데미지－30%\n▶ FLEE＋10\n"
+    },
+    {
+        "name": "위스퍼 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMzcg/MDAxNTI0ODIzMzY0NDg0.RP04v5Z09xVt749dp8YqtBLyRSJeTCejhsWYGlm_yLcg._4eCf3mJ8NCnmONL7G9czMiyn-H0Rahp2h25L_Qyx0cg.JPEG.gravity001/10.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "파랑",
+        "monster": "위스퍼",
+        "openPoint": "몬스터(염)에 데미지 +2%",
+        "savePoint": "염속성 데미지 -50%",
+        "option": "▶ 받는 염속성 데미지＋50%\n▶ FLEE＋20\n"
+    },
+    {
+        "name": "이클립스 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjgz/MDAxNTI0ODIzMzk4NDYw.xJYxuJ2ibBhB15AYYJJsL_ZCsa3fzQpXiOg2kbWy8rkg.MfQIHTIPbm6UPpzjdYIWPMTik_YlfdVF3RLUX8K7u0Ag.JPEG.gravity001/11.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "파랑",
+        "monster": "이클립스",
+        "openPoint": "MaxHP +84",
+        "savePoint": "MaxHP +84",
+        "option": "▶ VIT＋4\n▶ FLEE＋5\n"
+    },
+    {
+        "name": "토드 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTky/MDAxNTI0ODIzNDM2MDUz.EgjuYitWAb5DLNDOp2UZpR7y0QIphJ_35M2PdB2KJPsg.RYnpzEfWFFgRzLCXg0AQU5OTg7yA7WOmQ7CZPBmObLMg.JPEG.gravity001/12.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "파랑",
+        "monster": "토드",
+        "openPoint": "DEF +4",
+        "savePoint": "MaxHP +70",
+        "option": "▶ DEX＋4\n▶ FLEE＋5\n"
+    },
+    {
+        "name": "호드 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjQy/MDAxNTI0ODIzNDg1MTMz.ZpSSO5OWyxKxynJGq6Q_ICJ29FJ7fS-koQSyseX0rGYg.8efc_T_-x_SxSJN51IIYCR_k-2QCcDkwfqCHHQt-3dUg.JPEG.gravity001/13.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "FLEE +5",
+        "option": "▶ 받는 지속성 데미지－15%\n▶ FLEE＋5\n"
+    },
+    {
+        "name": "잭 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjU1/MDAxNTI0ODIzNTE1NTUw.kqEn-nYWe00K6Ing1tUntY5mI8f4X9d1z0uB4VxQiTgg.y4p0tf6IPBoOFk_GyyDd9DCJfvSubUeKX4xm0VgJTlUg.JPEG.gravity001/14.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "파랑",
+        "monster": "잭",
+        "openPoint": "MaxHP +84",
+        "savePoint": "화속성 데미지 -20%,\n일정 확률로 상대방 및 자신의 레벨차에 따라 HP회복",
+        "option": "▶ 받는 화속성 데미지 -30%\n▶ FLEE +10\n"
+    },
+    {
+        "name": "혜군 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTIy/MDAxNTI0ODIzNTQ3NTkw.IfWBpCmyJpv5ViW7g-fuWdiI7ASIwqi1fyaRG23vJ6Ug.gvjXOLJ9044NgoTwFbn1lFd3Oc60VBKw6Hhu2WqoLA0g.JPEG.gravity001/15.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "파랑",
+        "monster": "혜군",
+        "openPoint": "MaxHP +84",
+        "savePoint": "MaxHP +84",
+        "option": "▶ FLEE +20\n▶ CRI +5\n"
+    }
+]

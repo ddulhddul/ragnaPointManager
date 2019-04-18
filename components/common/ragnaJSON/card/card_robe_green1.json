@@ -1,0 +1,32 @@
+[
+    {
+        "name": "구미호 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjY5/MDAxNTI0ODIzNjA1Mjk3.w60aNv43LbovG6YJd5705IknXBOw6lVpcuQuGuxEhp8g.SZYRtoYFtDbNScKKB-o--4tfP0-vbA8N3YpuP2vjznYg.JPEG.gravity001/01.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "녹색",
+        "monster": "구미호",
+        "openPoint": "FLEE +10",
+        "savePoint": "MaxHP +18",
+        "option": "▶ AGI＋2\n▶ FLEE＋5\n"
+    },
+    {
+        "name": "오크좀비 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTk3/MDAxNTI0ODIzNjI0NTc1.afMW12pkCfuQbNMQtoyhGG_OjydXUVwdPWF2HToEHSMg.jfNHpXV8a2C_LSAQGZfYx_wWTgQbVwfucWQ8UwXsNckg.JPEG.gravity001/02.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "녹색",
+        "monster": "오크좀비",
+        "openPoint": "MaxHP +24",
+        "savePoint": "자신의 일정 범위 내 불사형 몬스터 ATK 20% 감소",
+        "option": "▶ 받는 불사 속성 데미지－20%\n"
+    },
+    {
+        "name": "펑크 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTQy/MDAxNTI0ODM3MzE0MDg1.Z0-i-IZx6FVNPj0TBqA4zNsrfP-Tk7SXpPfBNZYvZnsg.8LK4Qv_0sgvlGpZZ6Uy-np012-7K8Xbivcv3DzVSbDEg.PNG.gravity001/%ED%8E%91%ED%81%AC_%EC%B9%B4%EB%93%9C.png?type=w740",
+        "position": "걸칠것",
+        "rate": "녹색",
+        "monster": "펑크",
+        "openPoint": "MaxHP +6, MaxSP +1",
+        "savePoint": "MaxHP +60, MaxSP +10",
+        "option": "▶ MaxHP＋200\n▶ MaxSP＋50\n"
+    }
+]

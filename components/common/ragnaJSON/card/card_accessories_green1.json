@@ -1,0 +1,82 @@
+[
+    {
+        "name": "가고일 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjI4/MDAxNTI0ODI1MzM4NTMw.Pi-s-hGRRxzMgrLj89Bf6tjfka_t4e03-uzvuWAZWWUg.q0V_qC8TQehKnT1EgRisRS3RpfNpTfXaTnrXJ0LRnvMg.JPEG.gravity001/01.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "녹색",
+        "monster": "가고일",
+        "openPoint": "이동속도 +1%",
+        "savePoint": "MaxHP +18",
+        "option": "▶ 곤충형 몬스터 처치 시 3% 확률로 이동속도 25% 증가, 20초 지속\n"
+    },
+    {
+        "name": "레이쓰 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMiAg/MDAxNTI0ODI1MzYzMDc0.amQEc3SuQ8rgqD9jzvFS00PCFTL_NmOu0FCQvzed9oIg.ilpG3eKiO4BqYeK2IVpqjHC9E4GNzyeiDmF-GnEiOjAg.JPEG.gravity001/02.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "녹색",
+        "monster": "레이쓰",
+        "openPoint": "MaxHP +28",
+        "savePoint": "MaxHP +30",
+        "option": "▶ 불사형 몬스터 처치 시 3% 확률로 데미지 9%의 HP 회복\n"
+    },
+    {
+        "name": "스포아 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjQx/MDAxNTI0ODI1Mzg0NDgy.v9YUtT-f7Tcgebv3Q5fNLGhqNPT-xL7nQwk4MW0kkkUg.2IjvIELIO0nguAMH41XRoC4wxMVJ3rJdaF-K-fwczpgg.JPEG.gravity001/03.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "녹색",
+        "monster": "스포아",
+        "openPoint": "MATK +4.5",
+        "savePoint": "MaxHP +18",
+        "option": "▶ VIT＋2\n"
+    },
+    {
+        "name": "요요 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjEg/MDAxNTI0ODI1NDA4MjI5.ow5Uvvqlz9GtWrm60lBW2XnNt2GXf84oJf9kjlIor6cg.0tnI3qTkppI604ad6ehcd0FCs1mv66a0-luZxyrmjv8g.JPEG.gravity001/04.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "녹색",
+        "monster": "요요",
+        "openPoint": "DEF +2",
+        "savePoint": "ATK +6",
+        "option": "▶ AGI＋2\n"
+    },
+    {
+        "name": "조커 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjI1/MDAxNTI0ODI1NDM1NTk4.iLPYRp07Doy8HObWDjoglOEgESGKa5ojkU2X2OlXOU4g.S443r-NK8xHp_bVL-wEko6eLYo1t8rCNDuj_jetK2LQg.JPEG.gravity001/05.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "녹색",
+        "monster": "조커, 조커-권력의 지팡이, 조커-별화폐, 조커-성배, 조커-보검",
+        "openPoint": "MATK +1.5",
+        "savePoint": "MaxHP +18",
+        "option": "▶ 스킬 【스톤 커스】Lv.5 사용 가능\n"
+    },
+    {
+        "name": "천하대장군 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMzgg/MDAxNTI0ODI1NDUyNTA4.SrZJvTsugo-duGjRoWkUgyRGigfBZoISVpxb_UPeTRAg.VX2rFIe5nwwpZk_1o6yyR-havPzRNstLvAxBExu5h-Ag.JPEG.gravity001/06.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "녹색",
+        "monster": "천하대장군",
+        "openPoint": "MDEF +2",
+        "savePoint": "MaxHP +18",
+        "option": "▶ 일반공격 시 3% 확률로 축기(최종 데미지＋10%) 1분 지속\n"
+    },
+    {
+        "name": "쿠키 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTU3/MDAxNTI0ODM3NDE3MzQ4.wgGX_C3pD9PE9BegEdtPjBenT1tqTGpLJ0Qn-0oqMwUg.6KQGp9QZV1TpSd2uimrryApOi6e6HluGQ3_tjgnP85sg.PNG.gravity001/%EC%BF%A0%ED%82%A4_%EC%B9%B4%EB%93%9C.png?type=w740",
+        "position": "액세서리",
+        "rate": "녹색",
+        "monster": "초록 쿠키",
+        "openPoint": "MDEF +2",
+        "savePoint": "MaxHP +48",
+        "option": "▶ LUK＋3\n"
+    },
+    {
+        "name": "타로우 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNTIg/MDAxNTI0ODI1NTIyNzM3.qRMfY4l-wIo0tgBBAVDZdhYuu6GDyy4W3gC1TBseFF8g.HY83Kp85bslzvP5x8OdSkVTVhEQlKARAN1urwlcuXUcg.JPEG.gravity001/07.jpg?type=w740",
+        "position": "액세서리",
+        "rate": "녹색",
+        "monster": "타로우",
+        "openPoint": "ATK +3",
+        "savePoint": "MaxHP +18",
+        "option": "▶ STR＋2\n"
+    }
+]

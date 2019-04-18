@@ -1,0 +1,62 @@
+[
+    {
+        "name": "데비루치 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjQ1/MDAxNTI0ODI4NzU2MzQ2.3getIgYnAWaWvObw6PshzXLTnyclC4VCYY3hK5Mfd7kg.0iRx6t0twV9cCxtv0ofuKquCzuS6u5MgXgv_cMFfaa0g.JPEG.gravity001/01.jpg?type=w740",
+        "position": "투구",
+        "rate": "파랑",
+        "monster": "데비루치",
+        "openPoint": "MaxHP +24",
+        "savePoint": "악마형 데미지 추가 +2%",
+        "option": "▶ STR＋3\n▶ 암흑 상태 면제\n"
+    },
+    {
+        "name": "봉인된 베스퍼 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjQ4/MDAxNTI0ODI4Nzc3Nzg2.4dL8lr_FNh8Je5Gkbwx31x6WfHW1KQ4sTYU9iSmkrMcg.my54UFlgzZYSzBTuzVwMAL36Zmj9tOd8wv9Uafoo_DMg.JPEG.gravity001/02.jpg?type=w740",
+        "position": "투구",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "MDEF 무시 +2",
+        "option": "▶ MDEF 무시＋10%\n▶ DEF＋40\n"
+    },
+    {
+        "name": "봉인된 백소진 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjE0/MDAxNTI0ODI4ODAwMjY1.SPaW9ASj2E6bqXNcEufwuww5v-tVoTcWT8QGTTx5JA8g.W5ev-LUZcFNa0r_4gy3SVT9gmp4o45A9nNu8r7SNfR0g.JPEG.gravity001/03.jpg?type=w740",
+        "position": "투구",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "INT +1",
+        "option": "▶ 힐, 생츄어리 효과 10% 증가\n▶ SP소모 +20%\n"
+    },
+    {
+        "name": "시계탑 관리자 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNzQg/MDAxNTI0ODM3NDU1NDcx.gNH752NiyLIFGE_MmB-lo9L89C_Zl469nGnVBkBgNPgg.bJmmzMzQu3KxRAjQxy92GIq4cY93bdfbmgI3nCxInqgg.PNG.gravity001/%EC%8B%9C%EA%B3%84%ED%83%91%EA%B4%80%EB%A6%AC%EC%9E%90.png?type=w740",
+        "position": "투구",
+        "rate": "파랑",
+        "monster": "시계탑 관리자",
+        "openPoint": "MaxHP +14",
+        "savePoint": "MaxHP +70, INT +1",
+        "option": "▶ INT +2\n▶ 마법 데미지 +2%\n▶ MaxHP +400\n"
+    },
+    {
+        "name": "인큐버스 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjAw/MDAxNTI0ODI4ODg1NTA2.z4m8g28Bi44ygrp6uIs5A6db1n7HR1BlReVv49dhjIAg.xrIYZ__XhgCXr0StKNWJTKVI-p6k012Flx7Hy30BSmYg.JPEG.gravity001/04.jpg?type=w740",
+        "position": "투구",
+        "rate": "파랑",
+        "monster": "인큐버스",
+        "openPoint": "SP회복 +1%",
+        "savePoint": "MaxHP +70",
+        "option": "▶ MaxSP＋200\n▶ SP 회복＋15%\n"
+    },
+    {
+        "name": "파이어럿 스켈 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTA4/MDAxNTI0ODI4OTA0MTk0._VKcUTWoJYdHNPzf8OmTUuVXWtKIeQr_wB8kDpsZ-GIg.-aqcdY94pmIL2necpl99Pvgti94NAZwNhzEISJ-ODHYg.JPEG.gravity001/05.jpg?type=w740",
+        "position": "투구",
+        "rate": "파랑",
+        "monster": "파이어럿 스켈",
+        "openPoint": "ATK +4",
+        "savePoint": "MATK +10",
+        "option": "▶ 스킬 【배쉬】Lv.6 사용 가능\n"
+    }
+]

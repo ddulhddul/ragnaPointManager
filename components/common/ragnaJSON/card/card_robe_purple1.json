@@ -1,0 +1,12 @@
+[
+    {
+        "name": "데빌링 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfOTAg/MDAxNTI0ODIyMzU0NzYx.amgBsp42dKNYu4Ns_epoZwo3kQR4xOkn3_BxNm-jB0og.tTzFdCA-dO0tk_XlQCWkYJZR7CxxB_aTxP8jNKR94DAg.JPEG.gravity001/01.jpg?type=w740",
+        "position": "걸칠것",
+        "rate": "보라",
+        "monster": "데빌링",
+        "openPoint": "받는 물리 데미지 감소 +2%",
+        "savePoint": "MaxHP +70",
+        "option": "▶ 받는 무속성 데미지－50%\n▶ 받는 기타 모든 속성 데미지＋50%\n"
+    }
+]

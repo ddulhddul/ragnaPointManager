@@ -1,0 +1,52 @@
+[
+    {
+        "name": "XMAS쿠키 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNDcg/MDAxNTI0ODM3MzQ3MDcw.PrKLlcniD8seuIOZ86UpO6wI_if_zy4UNVu3nijSXE8g.sqPkLWGav1ym50KY5lXQUCLQv4-OuC8Qa7vMgYzRW1Ig.PNG.gravity001/xmas%EC%BF%A0%ED%82%A4_%EC%B9%B4%EB%93%9C.png?type=w740",
+        "position": "신발",
+        "rate": "녹색",
+        "monster": "빨강쿠키",
+        "openPoint": "DEF +2",
+        "savePoint": "MaxHP +48",
+        "option": "▶ LUK+2\n▶ 【쥬덱스】데미지+5%\n"
+    },
+    {
+        "name": "마타 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTQ2/MDAxNTI0ODI0MjE1MjIz.sK5KpI4fGf3MDhzP568z3T-yqLYmQT3Zn5shjzD4X84g.Ad1fs_Gqz1vQWDcRGV5XEwHmJL2qlPxXb3li0fl4Qp4g.JPEG.gravity001/01.jpg?type=w740",
+        "position": "신발",
+        "rate": "녹색",
+        "monster": "마타",
+        "openPoint": "MaxHP +48",
+        "savePoint": "MaxHP +48",
+        "option": "▶ AGI＋1\n▶ MaxHP＋5%\n"
+    },
+    {
+        "name": "소희 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTUw/MDAxNTI0ODI0MjM2NTI0.mO2EjESnpXKE580yBQMIvbuDiMNQM7JyswZUG4yvYq8g.5Y4xrIOSJyb5YwVCJxD6C91_FdZQct2msC-lE8f1skwg.JPEG.gravity001/02.jpg?type=w740",
+        "position": "신발",
+        "rate": "녹색",
+        "monster": "소희",
+        "openPoint": "MaxSP +20",
+        "savePoint": "MaxHP +18",
+        "option": "▶ MaxSP＋15%\n▶ SP 회복＋2\n"
+    },
+    {
+        "name": "알람 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTAg/MDAxNTI0ODM3MzU5MDM1.Pnj86wIcrb1LsnGv-awJLXE94ZTEAPmuNFBLCc5m70cg.m_2gKBATdm-gHN7IHUdHkIts1jdc7wNMfyEpiSjc9lwg.PNG.gravity001/%EC%95%8C%EB%9E%8C_%EC%B9%B4%EB%93%9C.png?type=w740",
+        "position": "신발",
+        "rate": "녹색",
+        "monster": "-",
+        "openPoint": "MaxHP +12",
+        "savePoint": "ATK +7.5, MATK +7.5",
+        "option": "▶ MaxHP＋300\n▶ VIT＋1\n▶ INT＋1\n"
+    },
+    {
+        "name": "와일드 로즈 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjgw/MDAxNTI0ODI0MzcwMDAy.q4bHhPm9acIw12a5XPH5HtRrKZ4oTt9_lpxfvRoFQN8g.ejaFbXC1lG5SnYaDSpPgUGC-jzs2_8NRCKVK1skhKMsg.JPEG.gravity001/03.jpg?type=w740",
+        "position": "신발",
+        "rate": "녹색",
+        "monster": "와일드 로즈",
+        "openPoint": "MaxHP +24",
+        "savePoint": "MATK +6",
+        "option": "▶ AGI＋2\n▶ FLEE＋5\n"
+    }
+]

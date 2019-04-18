@@ -91,9 +91,9 @@ SettingsStack.navigationOptions = {
 };
 
 export default createBottomTabNavigator({
+  CardStack,
   FoodStack,
   ItemStack,
-  CardStack,
   WebStack
 }, {
   tabBarOptions: {

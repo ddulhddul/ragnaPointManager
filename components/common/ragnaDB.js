@@ -28,7 +28,97 @@ import food_tea_3star from './ragnaJSON/food/food_tea_3star.json'
 import food_tea_4star from './ragnaJSON/food/food_tea_4star.json'
 import food_tea_5star from './ragnaJSON/food/food_tea_5star.json'
 
+import card from './ragnaJSON/card/card.json'
+import card_robe_purple1 from './ragnaJSON/card/card_robe_purple1.json'
+import card_accessories_blue1 from './ragnaJSON/card/card_accessories_blue1.json'
+import card_robe_white1 from './ragnaJSON/card/card_robe_white1.json'
+import card_accessories_green1 from './ragnaJSON/card/card_accessories_green1.json'
+import card_shoes_blue1 from './ragnaJSON/card/card_shoes_blue1.json'
+import card_accessories_purple1 from './ragnaJSON/card/card_accessories_purple1.json'
+import card_shoes_green1 from './ragnaJSON/card/card_shoes_green1.json'
+import card_accessories_white1 from './ragnaJSON/card/card_accessories_white1.json'
+import card_shoes_purple1 from './ragnaJSON/card/card_shoes_purple1.json'
+import card_armor_blue1 from './ragnaJSON/card/card_armor_blue1.json'
+import card_shoes_white1 from './ragnaJSON/card/card_shoes_white1.json'
+import card_armor_green1 from './ragnaJSON/card/card_armor_green1.json'
+import card_subweapon_blue1 from './ragnaJSON/card/card_subweapon_blue1.json'
+import card_armor_purple1 from './ragnaJSON/card/card_armor_purple1.json'
+import card_subweapon_green1 from './ragnaJSON/card/card_subweapon_green1.json'
+import card_armor_white1 from './ragnaJSON/card/card_armor_white1.json'
+import card_subweapon_purple1 from './ragnaJSON/card/card_subweapon_purple1.json'
+import card_helmet_blue1 from './ragnaJSON/card/card_helmet_blue1.json'
+import card_subweapon_white1 from './ragnaJSON/card/card_subweapon_white1.json'
+import card_helmet_green1 from './ragnaJSON/card/card_helmet_green1.json'
+import card_weapon_blue1 from './ragnaJSON/card/card_weapon_blue1.json'
+import card_helmet_purple1 from './ragnaJSON/card/card_helmet_purple1.json'
+import card_weapon_green1 from './ragnaJSON/card/card_weapon_green1.json'
+import card_helmet_white1 from './ragnaJSON/card/card_helmet_white1.json'
+import card_weapon_purple1 from './ragnaJSON/card/card_weapon_purple1.json'
+import card_robe_blue1 from './ragnaJSON/card/card_robe_blue1.json'
+import card_weapon_white1 from './ragnaJSON/card/card_weapon_white1.json'
+import card_robe_green1 from './ragnaJSON/card/card_robe_green1.json'
+
 export default {
+
+  getCardList(){
+    return card
+
+    const homepageDic = Array(0).concat(
+      card_robe_purple1,
+      card_accessories_blue1,
+      card_robe_white1,
+      card_accessories_green1,
+      card_shoes_blue1,
+      card_accessories_purple1,
+      card_shoes_green1,
+      card_accessories_white1,
+      card_shoes_purple1,
+      card_armor_blue1,
+      card_shoes_white1,
+      card_armor_green1,
+      card_subweapon_blue1,
+      card_armor_purple1,
+      card_subweapon_green1,
+      card_armor_white1,
+      card_subweapon_purple1,
+      card_helmet_blue1,
+      card_subweapon_white1,
+      card_helmet_green1,
+      card_weapon_blue1,
+      card_helmet_purple1,
+      card_weapon_green1,
+      card_helmet_white1,
+      card_weapon_purple1,
+      card_robe_blue1,
+      card_weapon_white1,
+      card_robe_green1,
+    ).filter((obj, index, self)=>{
+      let indexNumber = undefined
+      self.find((selfObj, selfIndex)=>{
+        if(selfObj.name==obj.name) indexNumber=selfIndex
+      })
+      return indexNumber === index
+    })
+    .map((trObj)=>{
+      function mapFunction(obj){
+        const thisKey = obj.replace(/[0-9\+\- \개\.\,\%\x\＋]+$/,'')
+        const thisValue = obj.replace(/(.*?)([0-9\+\- \개\.\,\%\x\＋]+$)/,'$2').trim().replace(/\n/g,'')
+        return {
+          name: thisKey,
+          number: Number(thisValue.replace(/([^0-9]*)([0-9]*)([^0-9]*$)/,'$2').replace(/,/g,'')),
+          unit: thisValue.replace(/([0-9]*)([^0-9]*$)/,'$2'),
+          origin: obj,
+        }
+      }
+      trObj.openPoint = mapFunction(trObj.openPoint)
+      trObj.savePoint = mapFunction(trObj.savePoint)
+      trObj.option = trObj.option.split('▶').map((obj)=>obj.trim()).filter((obj)=>obj).map(mapFunction)
+      return {...trObj}
+    })
+    
+    console.log('homepageDic', JSON.stringify(homepageDic))
+    return homepageDic
+  },
 
   getFoodList(){
     return food
@@ -159,6 +249,10 @@ export default {
 
   getItemImages(){
     return itemImages
+  },
+
+  getCardImages(){
+    return cardImages
   }
   
 }
@@ -341,6 +435,201 @@ const itemImages = {
   '메긴캡': require('../../assets/images/items/메긴캡.png'),
   '아가미헬름': require('../../assets/images/items/아가미헬름.png'),
 }
+
+const cardImages = {
+  'XMAS쿠키카드': require('../../assets/images/card/XMAS쿠키카드.png'),
+  '미스트케이스카드': require('../../assets/images/card/미스트케이스카드.png'),
+  '오크히어로카드': require('../../assets/images/card/오크히어로카드.png'),
+  '가고일카드': require('../../assets/images/card/가고일카드.png'),
+  '미스틸테인카드': require('../../assets/images/card/미스틸테인카드.png'),
+  '와일드로즈카드': require('../../assets/images/card/와일드로즈카드.png'),
+  '가이아스카드': require('../../assets/images/card/가이아스카드.png'),
+  '미이라카드': require('../../assets/images/card/미이라카드.png'),
+  '요요카드': require('../../assets/images/card/요요카드.png'),
+  '개미알카드': require('../../assets/images/card/개미알카드.png'),
+  '바돈카드': require('../../assets/images/card/바돈카드.png'),
+  '우드고블린카드': require('../../assets/images/card/우드고블린카드.png'),
+  '고블린리더카드': require('../../assets/images/card/고블린리더카드.png'),
+  '바소리카드': require('../../assets/images/card/바소리카드.png'),
+  '울프카드': require('../../assets/images/card/울프카드.png'),
+  '고블린스팀라이더카드': require('../../assets/images/card/고블린스팀라이더카드.png'),
+  '바포메트의환영카드': require('../../assets/images/card/바포메트의환영카드.png'),
+  '월야화카드': require('../../assets/images/card/월야화카드.png'),
+  '고블린아쳐카드': require('../../assets/images/card/고블린아쳐카드.png'),
+  '바포메트주니어카드': require('../../assets/images/card/바포메트주니어카드.png'),
+  '웜테일카드': require('../../assets/images/card/웜테일카드.png'),
+  '고블린카드': require('../../assets/images/card/고블린카드.png'),
+  '배회하는자카드': require('../../assets/images/card/배회하는자카드.png'),
+  '위스퍼카드': require('../../assets/images/card/위스퍼카드.png'),
+  '고스트링카드': require('../../assets/images/card/고스트링카드.png'),
+  '백련옥카드': require('../../assets/images/card/백련옥카드.png'),
+  '윈드고스트카드': require('../../assets/images/card/윈드고스트카드.png'),
+  '골렘카드': require('../../assets/images/card/골렘카드.png'),
+  '베릿트카드': require('../../assets/images/card/베릿트카드.png'),
+  '윌로우카드': require('../../assets/images/card/윌로우카드.png'),
+  '곰인형카드': require('../../assets/images/card/곰인형카드.png'),
+  '보컬카드': require('../../assets/images/card/보컬카드.png'),
+  '이블드루이드카드': require('../../assets/images/card/이블드루이드카드.png'),
+  '공중쁘띠카드': require('../../assets/images/card/공중쁘띠카드.png'),
+  '본건카드': require('../../assets/images/card/본건카드.png'),
+  '이시스카드': require('../../assets/images/card/이시스카드.png'),
+  '구미호카드': require('../../assets/images/card/구미호카드.png'),
+  '봉인된백소진카드': require('../../assets/images/card/봉인된백소진카드.png'),
+  '이클립스카드': require('../../assets/images/card/이클립스카드.png'),
+  '그리폰카드': require('../../assets/images/card/그리폰카드.png'),
+  '봉인된베스퍼카드': require('../../assets/images/card/봉인된베스퍼카드.png'),
+  '인저스티스카드': require('../../assets/images/card/인저스티스카드.png'),
+  '나이트메어카드': require('../../assets/images/card/나이트메어카드.png'),
+  '브릴라이트카드': require('../../assets/images/card/브릴라이트카드.png'),
+  '인큐버스카드': require('../../assets/images/card/인큐버스카드.png'),
+  '노비스카드': require('../../assets/images/card/노비스카드.png'),
+  '비타타카드': require('../../assets/images/card/비타타카드.png'),
+  '잭카드': require('../../assets/images/card/잭카드.png'),
+  '다크로드카드': require('../../assets/images/card/다크로드카드.png'),
+  '빅풋카드': require('../../assets/images/card/빅풋카드.png'),
+  '제롬카드': require('../../assets/images/card/제롬카드.png'),
+  '다크쉐도우카드': require('../../assets/images/card/다크쉐도우카드.png'),
+  '쁘띠카드': require('../../assets/images/card/쁘띠카드.png'),
+  '조커카드': require('../../assets/images/card/조커카드.png'),
+  '다크프리스트카드': require('../../assets/images/card/다크프리스트카드.png'),
+  '산타포링카드': require('../../assets/images/card/산타포링카드.png'),
+  '지퍼베어카드': require('../../assets/images/card/지퍼베어카드.png'),
+  '더스티네스카드': require('../../assets/images/card/더스티네스카드.png'),
+  '새끼데저트울프카드': require('../../assets/images/card/새끼데저트울프카드.png'),
+  '천하대장군카드': require('../../assets/images/card/천하대장군카드.png'),
+  '데비루치카드': require('../../assets/images/card/데비루치카드.png'),
+  '샌드맨카드': require('../../assets/images/card/샌드맨카드.png'),
+  '촌촌카드': require('../../assets/images/card/촌촌카드.png'),
+  '데빌링카드': require('../../assets/images/card/데빌링카드.png'),
+  '서큐버스카드': require('../../assets/images/card/서큐버스카드.png'),
+  '카라멜카드': require('../../assets/images/card/카라멜카드.png'),
+  '데저트울프카드': require('../../assets/images/card/데저트울프카드.png'),
+  '세비지카드': require('../../assets/images/card/세비지카드.png'),
+  '카호카드': require('../../assets/images/card/카호카드.png'),
+  '도깨비카드': require('../../assets/images/card/도깨비카드.png'),
+  '센티페데카드': require('../../assets/images/card/센티페데카드.png'),
+  '칼리츠버그카드': require('../../assets/images/card/칼리츠버그카드.png'),
+  '도나카드': require('../../assets/images/card/도나카드.png'),
+  '소드피쉬카드': require('../../assets/images/card/소드피쉬카드.png'),
+  '캐럿카드': require('../../assets/images/card/캐럿카드.png'),
+  '도둑벌레알카드': require('../../assets/images/card/도둑벌레알카드.png'),
+  '소희카드': require('../../assets/images/card/소희카드.png'),
+  '코르누스카드': require('../../assets/images/card/코르누스카드.png'),
+  '도둑벌레카드': require('../../assets/images/card/도둑벌레카드.png'),
+  '솔져스켈레톤카드': require('../../assets/images/card/솔져스켈레톤카드.png'),
+  '코볼트아쳐카드': require('../../assets/images/card/코볼트아쳐카드.png'),
+  '드라코카드': require('../../assets/images/card/드라코카드.png'),
+  '수컷도둑벌레카드': require('../../assets/images/card/수컷도둑벌레카드.png'),
+  '코볼트카드': require('../../assets/images/card/코볼트카드.png'),
+  '드래곤플라이카드': require('../../assets/images/card/드래곤플라이카드.png'),
+  '스모키카드': require('../../assets/images/card/스모키카드.png'),
+  '쿠크레카드': require('../../assets/images/card/쿠크레카드.png'),
+  '드레이크카드': require('../../assets/images/card/드레이크카드.png'),
+  '스켈레톤카드': require('../../assets/images/card/스켈레톤카드.png'),
+  '쿠키카드': require('../../assets/images/card/쿠키카드.png'),
+  '드레인리어카드': require('../../assets/images/card/드레인리어카드.png'),
+  '스켈워커카드': require('../../assets/images/card/스켈워커카드.png'),
+  '크램프카드': require('../../assets/images/card/크램프카드.png'),
+  '떠돌이늑대카드': require('../../assets/images/card/떠돌이늑대카드.png'),
+  '스콜피온카드': require('../../assets/images/card/스콜피온카드.png'),
+  '크루이저카드': require('../../assets/images/card/크루이저카드.png'),
+  '라이드워드카드': require('../../assets/images/card/라이드워드카드.png'),
+  '스템웜카드': require('../../assets/images/card/스템웜카드.png'),
+  '크리미카드': require('../../assets/images/card/크리미카드.png'),
+  '라플레시아카드': require('../../assets/images/card/라플레시아카드.png'),
+  '스트라우프카드': require('../../assets/images/card/스트라우프카드.png'),
+  '클락카드': require('../../assets/images/card/클락카드.png'),
+  '레이드릭아쳐카드': require('../../assets/images/card/레이드릭아쳐카드.png'),
+  '스팅카드': require('../../assets/images/card/스팅카드.png'),
+  '타라프로그카드': require('../../assets/images/card/타라프로그카드.png'),
+  '레이드릭카드': require('../../assets/images/card/레이드릭카드.png'),
+  '스포아카드': require('../../assets/images/card/스포아카드.png'),
+  '타로우카드': require('../../assets/images/card/타로우카드.png'),
+  '레이쓰카드': require('../../assets/images/card/레이쓰카드.png'),
+  '시계탑관리자카드': require('../../assets/images/card/시계탑관리자카드.png'),
+  '타임홀더카드': require('../../assets/images/card/타임홀더카드.png'),
+  '로다프로그카드': require('../../assets/images/card/로다프로그카드.png'),
+  '심연의기사카드': require('../../assets/images/card/심연의기사카드.png'),
+  '토드카드': require('../../assets/images/card/토드카드.png'),
+  '로커카드': require('../../assets/images/card/로커카드.png'),
+  '아가브카드': require('../../assets/images/card/아가브카드.png'),
+  '파브르카드': require('../../assets/images/card/파브르카드.png'),
+  '로터자이로카드': require('../../assets/images/card/로터자이로카드.png'),
+  '아나콘다크카드': require('../../assets/images/card/아나콘다크카드.png'),
+  '파사나카드': require('../../assets/images/card/파사나카드.png'),
+  '루나틱카드': require('../../assets/images/card/루나틱카드.png'),
+  '아놀리안카드': require('../../assets/images/card/아놀리안카드.png'),
+  '파이어럿스켈카드': require('../../assets/images/card/파이어럿스켈카드.png'),
+  '루시올라베스파카드': require('../../assets/images/card/루시올라베스파카드.png'),
+  '아누비스카드': require('../../assets/images/card/아누비스카드.png'),
+  '퍼밀리어카드': require('../../assets/images/card/퍼밀리어카드.png'),
+  '마르두크카드': require('../../assets/images/card/마르두크카드.png'),
+  '아르지오프카드': require('../../assets/images/card/아르지오프카드.png'),
+  '퍼씰카드': require('../../assets/images/card/퍼씰카드.png'),
+  '마르스카드': require('../../assets/images/card/마르스카드.png'),
+  '아울듀크카드': require('../../assets/images/card/아울듀크카드.png'),
+  '펑크카드': require('../../assets/images/card/펑크카드.png'),
+  '마르크카드': require('../../assets/images/card/마르크카드.png'),
+  '아울바론카드': require('../../assets/images/card/아울바론카드.png'),
+  '페노메나카드': require('../../assets/images/card/페노메나카드.png'),
+  '마리나카드': require('../../assets/images/card/마리나카드.png'),
+  '아쳐스켈레톤카드': require('../../assets/images/card/아쳐스켈레톤카드.png'),
+  '페러스카드': require('../../assets/images/card/페러스카드.png'),
+  '마리오네트카드': require('../../assets/images/card/마리오네트카드.png'),
+  '아쿠아엘레멘탈카드': require('../../assets/images/card/아쿠아엘레멘탈카드.png'),
+  '페코페코알카드': require('../../assets/images/card/페코페코알카드.png'),
+  '마린스피어카드': require('../../assets/images/card/마린스피어카드.png'),
+  '아트로스카드': require('../../assets/images/card/아트로스카드.png'),
+  '페코페코카드': require('../../assets/images/card/페코페코카드.png'),
+  '마스터링카드': require('../../assets/images/card/마스터링카드.png'),
+  '알람카드': require('../../assets/images/card/알람카드.png'),
+  '포링카드': require('../../assets/images/card/포링카드.png'),
+  '마야카드': require('../../assets/images/card/마야카드.png'),
+  '암컷도둑벌레카드': require('../../assets/images/card/암컷도둑벌레카드.png'),
+  '포이즌스포아카드': require('../../assets/images/card/포이즌스포아카드.png'),
+  '마이너우로스카드': require('../../assets/images/card/마이너우로스카드.png'),
+  '앙드레카드': require('../../assets/images/card/앙드레카드.png'),
+  '푸파카드': require('../../assets/images/card/푸파카드.png'),
+  '마타카드': require('../../assets/images/card/마타카드.png'),
+  '에기라카드': require('../../assets/images/card/에기라카드.png'),
+  '프리오니카드': require('../../assets/images/card/프리오니카드.png'),
+  '만드라고라카드': require('../../assets/images/card/만드라고라카드.png'),
+  '에드가카드': require('../../assets/images/card/에드가카드.png'),
+  '플로라카드': require('../../assets/images/card/플로라카드.png'),
+  '만드라씨앗카드': require('../../assets/images/card/만드라씨앗카드.png'),
+  '엘더윌로우카드': require('../../assets/images/card/엘더윌로우카드.png'),
+  '픽키카드': require('../../assets/images/card/픽키카드.png'),
+  '맨블릿카드': require('../../assets/images/card/맨블릿카드.png'),
+  '엘더카드': require('../../assets/images/card/엘더카드.png'),
+  '하이오크카드': require('../../assets/images/card/하이오크카드.png'),
+  '맨티스카드': require('../../assets/images/card/맨티스카드.png'),
+  '연수카드': require('../../assets/images/card/연수카드.png'),
+  '헌터플라이카드': require('../../assets/images/card/헌터플라이카드.png'),
+  '메틀러카드': require('../../assets/images/card/메틀러카드.png'),
+  '오본느카드': require('../../assets/images/card/오본느카드.png'),
+  '혜군카드': require('../../assets/images/card/혜군카드.png'),
+  '묘괴카드': require('../../assets/images/card/묘괴카드.png'),
+  '오시리스카드': require('../../assets/images/card/오시리스카드.png'),
+  '호넷카드': require('../../assets/images/card/호넷카드.png'),
+  '무낙카드': require('../../assets/images/card/무낙카드.png'),
+  '오크레이디카드': require('../../assets/images/card/오크레이디카드.png'),
+  '호드카드': require('../../assets/images/card/호드카드.png'),
+  '무카카드': require('../../assets/images/card/무카카드.png'),
+  '오크베이비카드': require('../../assets/images/card/오크베이비카드.png'),
+  '호롱카드': require('../../assets/images/card/호롱카드.png'),
+  '뮤턴트드래고노이드카드': require('../../assets/images/card/뮤턴트드래고노이드카드.png'),
+  '오크스켈레톤카드': require('../../assets/images/card/오크스켈레톤카드.png'),
+  '황금도둑벌레카드': require('../../assets/images/card/황금도둑벌레카드.png'),
+  '미믹카드': require('../../assets/images/card/미믹카드.png'),
+  '오크아쳐카드': require('../../assets/images/card/오크아쳐카드.png'),
+  '휀카드': require('../../assets/images/card/휀카드.png'),
+  '미스트레스카드': require('../../assets/images/card/미스트레스카드.png'),
+  '오크워리어카드': require('../../assets/images/card/오크워리어카드.png'),
+  '히드라카드': require('../../assets/images/card/히드라카드.png'),
+  '미스트카드': require('../../assets/images/card/미스트카드.png'),
+  '오크좀비카드': require('../../assets/images/card/오크좀비카드.png'),  
+}
+
 /*
   해체 보상(ATK)
     open_atk_1.json : https://cafe.naver.com/ragnarokmmorpg/269290

@@ -1,0 +1,152 @@
+[
+    {
+        "name": "고블린 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNzIg/MDAxNTI0ODE2MDUyNTMy.n6iXx0VAxHdG9FquF9wFHuERgjdzKenR_3k4Q79tVsYg.uucUHjsQPUb_26HQalHbwT6i8ESua1jjbRLYtY_ZY0og.JPEG.gravity001/01.jpg?type=w740",
+        "position": "무기",
+        "rate": "일반",
+        "monster": "-",
+        "openPoint": "동물형 몬스터 데미지 추가 +2%",
+        "savePoint": "동물형 몬스터 데미지 추가 +2%",
+        "option": "▶ 동물형 몬스터 데미지 추가＋15%\n"
+    },
+    {
+        "name": "골렘 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfODkg/MDAxNTI0ODE2MDkwOTgy.oCk-SJ2u_Uv7FqVq_YHY66qjoob628Zu20d447Ntmncg.dv4MAwP1rzaCjftC1Gu6ph7G1tXq4d0stTcbyILLMsQg.JPEG.gravity001/02.jpg?type=w740",
+        "position": "무기",
+        "rate": "일반",
+        "monster": "골렘",
+        "openPoint": "MaxHP +24",
+        "savePoint": "석화 저항 +5%",
+        "option": "▶ 석화 저항＋20%\n"
+    },
+    {
+        "name": "노비스 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTM1/MDAxNTI0ODE2MTI3Nzgw.siI7R1L4HrTHhVT1oK5LSnYAa6Bz0SanQn3SOJVBMzgg.IxhaaYAmq56Lb9ZAkSFBCrpOEw59U_i30BcPMjeMLs4g.JPEG.gravity001/03.jpg?type=w740",
+        "position": "무기",
+        "rate": "일반",
+        "monster": "-",
+        "openPoint": "MaxHP +48",
+        "savePoint": "MaxHP +48",
+        "option": "▶ MaxHP＋50\n▶ MaxSP＋10\n"
+    },
+    {
+        "name": "로커 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTAw/MDAxNTI0ODE2MzE3MjMw.SdD6eLbLnMzrTBT2-C8-sCw4y-VLQpvs8M9BDzH5sXgg.Q6UetlCC5pArCUbig-g8jfS-FpYoCZWHw3wEIxnHrT8g.JPEG.gravity001/04.jpg?type=w740",
+        "position": "무기",
+        "rate": "일반",
+        "monster": "로커",
+        "openPoint": "ATK +3",
+        "savePoint": "DEX +1, ATK +4.5",
+        "option": "▶ DEX＋1\n▶ ATK＋5\n"
+    },
+    {
+        "name": "루나틱 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjAx/MDAxNTI0ODE2MzM3NjM4.K7VYUFOD-Dt6BDF1fqxQKX9mWfuekpo2vDYzsAZSRiIg.rmEAvLVb142ksqKtvrER6kkL9DrS1U4tv0KuNtxoxX0g.JPEG.gravity001/05.jpg?type=w740",
+        "position": "무기",
+        "rate": "일반",
+        "monster": "루나틱",
+        "openPoint": "ATK +3",
+        "savePoint": "ATK +4.5",
+        "option": "▶ LUK＋1\n▶ CRI＋1\n"
+    },
+    {
+        "name": "마리나 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTgg/MDAxNTI0ODE2MzczNTk4.x5Dpw_WaULaXPOyOeYfBsZ_W30zLTXA_MT9GwYApPK0g.-wt7Gf1TfbWbFHLvGUJuLr-9rUsFjlYroUhnvH-svVMg.JPEG.gravity001/06.jpg?type=w740",
+        "position": "무기",
+        "rate": "일반",
+        "monster": "마리나",
+        "openPoint": "MDEF +2",
+        "savePoint": "마리나 카드를 장착한 상태에서 일반공격 시 동빙 확률 +5%,\n동빙 상태인 목표에 데미지 +25%",
+        "option": "▶ 일반공격 시 5% 확률로 적 5초간 동빙\n▶ ATK＋10\n"
+    },
+    {
+        "name": "미이라 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjQy/MDAxNTI0ODE2NDI2MDc2.SCi6OAGGxa1LJkUzLoZUULaLI7yArqQ0U1llAgxgghYg.KiOqPfhHVpUMCFPPiIZit7XVMM4eBU-BxoEL2DSklXgg.JPEG.gravity001/07.jpg?type=w740",
+        "position": "무기",
+        "rate": "일반",
+        "monster": "미이라",
+        "openPoint": "HIT +5, ATK +3",
+        "savePoint": "MATK +6",
+        "option": "▶ HIT＋10\n"
+    },
+    {
+        "name": "바돈 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTM2/MDAxNTI0ODE2NDYyNzIw.oYlHYqCkDs7vKWAnkQvlmMcekwLtzo2SmaibwUWzjtMg.1jrrXZduOCUUF5D7s8vIsMPZdmRvfRYhhkt_MT7fBpcg.JPEG.gravity001/08.jpg?type=w740",
+        "position": "무기",
+        "rate": "일반",
+        "monster": "바돈",
+        "openPoint": "몬스터(화)에 데미지 +2%",
+        "savePoint": "몬스터(화)에 데미지 +5%",
+        "option": "▶ 몬스터(화)에 데미지＋15%\n"
+    },
+    {
+        "name": "본건 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMyAg/MDAxNTI0ODE2NTE5NjA4.O3XjDDah5X_-TLbRFTebJz0g_k3aRYsx8khVBc6zsTkg.zfrp1SlY7EcxFbDCER4_cqcbq-tgf_RSAMxlxlSCBwEg.JPEG.gravity001/09.jpg?type=w740",
+        "position": "무기",
+        "rate": "일반",
+        "monster": "본건",
+        "openPoint": "MDEF +2",
+        "savePoint": "배쉬 스킬은 STR의 영향을 받습니다.(중첩불가)",
+        "option": "▶ 일반공격 시 3% 확률로 【배쉬】Lv.5 자동 시전\n"
+    },
+    {
+        "name": "앙드레 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMSAg/MDAxNTI0ODE2NTUwNzQ1.B0x3l-OLx2C-E_mkLInX793G9SK2FS2Q3Kzls3NfzQQg.j_q5e7Js-gZkWtcEVDBx7c0_TeqlUYvp-80NkPYTipIg.JPEG.gravity001/10.jpg?type=w740",
+        "position": "무기",
+        "rate": "일반",
+        "monster": "앙드레, 피에르, 데니로★",
+        "openPoint": "ATK +3",
+        "savePoint": "ATK +4.5",
+        "option": "▶ ATK＋10\n"
+    },
+    {
+        "name": "인저스티스 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTMy/MDAxNTI0ODE2NTg4MTM3.ws53P7FJfgrQf-QGpiVhbJ3ZQ50DAcPK4ADHTAG-4tsg.K94J3C_SKY2oEtzej3mtFmURIP53tUHubk3LmwxZt-wg.JPEG.gravity001/11.jpg?type=w740",
+        "position": "무기",
+        "rate": "일반",
+        "monster": "인저스티스",
+        "openPoint": "STR +1",
+        "savePoint": "MATK +4.5",
+        "option": "▶ 일반공격 시 3% 확률로 【소닉 블로우】Lv.5 자동 시전\n"
+    },
+    {
+        "name": "파브르 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfOTgg/MDAxNTI0ODE2NjE3MTcw.OE7EN1iuARXVj4RiXoxP5JJXujQJ53rmDtMpe9QqsDMg.TPWvPq96ZbsMGOweQ7szORFc5eeXMj_Za6zG2HpVLPEg.JPEG.gravity001/12.jpg?type=w740",
+        "position": "무기",
+        "rate": "일반",
+        "monster": "파브르",
+        "openPoint": "MaxHP +24",
+        "savePoint": "MaxHP +36",
+        "option": "▶ VIT＋1\n▶ MaxHP＋50\n"
+    },
+    {
+        "name": "퍼밀리어 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTM5/MDAxNTI0ODE2NjQ4Njg5.rkncIMtT9f0-jbz2tS5y26TeQ9Jwf_XCqrCLA-cFH20g.x-9yyvzbedJuOf7iOnr9GmMEoSXauwzEPGvhyD_bQK4g.JPEG.gravity001/13.jpg?type=w740",
+        "position": "무기",
+        "rate": "일반",
+        "monster": "퍼밀리어",
+        "openPoint": "ATK +3",
+        "savePoint": "INT +1, MATK +4.5",
+        "option": "▶ INT＋1\n▶ MATK＋5\n"
+    },
+    {
+        "name": "페코페코 알 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTc5/MDAxNTI0ODE2NzAxMTYy.ACBKeUJrPYfkw1m0cCrCvynVx9uilwqgA-MXNI6qxDcg.qBxRwfpA-plzHaekjl_eSygA9Mh5NyRIf73PXKgivGkg.JPEG.gravity001/14.jpg?type=w740",
+        "position": "무기",
+        "rate": "일반",
+        "monster": "페코페코 알",
+        "openPoint": "MaxHP +24",
+        "savePoint": "무형 몬스터 데미지 추가 +2%",
+        "option": "▶ 무형 몬스터에 데미지＋15%\n"
+    },
+    {
+        "name": "플로라 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNDAg/MDAxNTI0ODE3MDUwNDU1.hlpUIxkrn3aKPr9p00BREXunhHhJ1xTnsWNEhctcBGYg.cMyjp1pBOq0nTBKmewirXJVpIZ33wTG_T74yrgXqYaIg.JPEG.gravity001/15.jpg?type=w740",
+        "position": "무기",
+        "rate": "일반",
+        "monster": "플로라",
+        "openPoint": "어패류 몬스터 데미지 추가 +2%",
+        "savePoint": "어패류 몬스터 데미지 추가 +2%",
+        "option": "▶ 어패류 몬스터 데미지 추가＋15%\n"
+    }
+]

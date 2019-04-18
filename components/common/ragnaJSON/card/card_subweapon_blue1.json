@@ -1,0 +1,92 @@
+[
+    {
+        "name": "곰인형 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjEz/MDAxNTI0ODE4MzExMjE4.61155A59SuRQpqs34yGaSIaAPLWN-qMmkbfLQiB6DXkg.XSY0SbsHaXGYsrf9T8f3eF4LRhBJjcrB364ROIlIiUMg.JPEG.gravity001/02.jpg?type=w740",
+        "position": "보조",
+        "rate": "파랑",
+        "monster": "곰인형",
+        "openPoint": "MaxHP +28",
+        "savePoint": "불사형 몬스터 데미지 추가 +1%",
+        "option": "▶ 불사형 몬스터 데미지 감소＋10%\n"
+    },
+    {
+        "name": "다크 쉐도우 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjA0/MDAxNTI0ODE4Mzk1MjQ5.6uwvIl1Yl-RLIKFxr1IiCU7pSXCQLyqeSKB9zfuWIcUg.5cMTggnZxeUXBGrkRcFpjw8Ce9_GeUCHx2Dy1DKAYwsg.JPEG.gravity001/02.jpg?type=w740",
+        "position": "보조",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "몬스터(암)에 데미지 +1%",
+        "option": "▶ 받는 암속성 데미지－15%\n▶ 몬스터(암)에 데미지＋5%\n"
+    },
+    {
+        "name": "드라코 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjQ5/MDAxNTI0ODE4NDUxNDEy.A-ZTxQGjX9ycv_eHR3DKkm-4GGsItCh-bB_hW6AFDJYg.fX8FkixEJggfN2AHvuL8izicJdRBzrvsSps1SXhv4akg.JPEG.gravity001/03.jpg?type=w740",
+        "position": "보조",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "몬스터(지)에 데미지 +1%",
+        "option": "▶ 받는 지속성 데미지－15%\n▶ 몬스터(지)에 데미지＋5%\n"
+    },
+    {
+        "name": "루시올라 베스파 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTEg/MDAxNTI0ODE4NTI5ODM2.xFijMqbZsndhDD2uz2KNdkS4PdSn6WJQvezgGwRPeUkg.vlznbqIxqf9qu7sHcQRUip9OoB_Pim6FP6n_ElRlB28g.JPEG.gravity001/04.jpg?type=w740",
+        "position": "보조",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "몬스터(풍)에 데미지 +1%",
+        "option": "▶ 받는 풍속성 데미지－15%\n▶ 몬스터(풍)에 데미지＋5%\n"
+    },
+    {
+        "name": "센티페데 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNDQg/MDAxNTI0ODE4NTc5Mzcz.ndVr4dc6jACCvKRpMP_RyLQw3gHN4NUDTbOF_GaKrSog.YqEUnDawPSx0txOtkEEmiYzf72SdvXHQDzm7-mjLcFkg.JPEG.gravity001/05.jpg?type=w740",
+        "position": "보조",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "몬스터(독)에 데미지 +1%",
+        "option": "▶ 받는 독속성 데미지－15%\n▶ 몬스터(독)에 데미지＋5%\n"
+    },
+    {
+        "name": "아쿠아 엘레멘탈 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNDEg/MDAxNTI0ODE4NjExMzMz.dMI6Xe9x7JQM1rUP1myKw6hRIkVCFPKiipk1LV_3SoMg.8DbWMDultng_XR1gq4Pm4COJCQHo4NJ9n7AxAAwHXTsg.JPEG.gravity001/06.jpg?type=w740",
+        "position": "보조",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "몬스터(수)에 데미지 +1%",
+        "option": "▶ 받는 수속성 데미지－15%\n▶ 몬스터(수)에 데미지＋5%\n"
+    },
+    {
+        "name": "우드 고블린 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTQy/MDAxNTI0ODE4NjQwMzg5.sePFtm69zqyXNRVPk_v4CT1DrLCSgrnDvYV4SZ3juuog.6c6d4B7R4eGIbPeE8IhEKU9A1-Q3PdFgSmuGuent8TEg.JPEG.gravity001/07.jpg?type=w740",
+        "position": "보조",
+        "rate": "파랑",
+        "monster": "우드 고블린",
+        "openPoint": "MATK +12",
+        "savePoint": "마법 데미지 증가 +2%",
+        "option": "▶ MaxSP＋20%\n"
+    },
+    {
+        "name": "코르누스 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMjg0/MDAxNTI0ODE4Njk0OTc0.fhPc2m0zY0Ac9iMy3tcZr2vAN01ZV17i63ShUj_FwEUg.9a9Qoxrg0kZ9ltBMpg8CR2UxdoMLNJfvCO4gHHNl2cog.JPEG.gravity001/08.jpg?type=w740",
+        "position": "보조",
+        "rate": "파랑",
+        "monster": "-",
+        "openPoint": "MaxHP +28",
+        "savePoint": "몬스터(성)에 데미지 +1%",
+        "option": "▶ 받는 성속성 데미지－15%\n▶ 몬스터(성)에 데미지＋5%\n"
+    },
+    {
+        "name": "페노메나 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfMTIz/MDAxNTI0ODE4NzQ3NDg4.uSx3Y0KFZ1R1rdEE4okfWOHmiPULq2w9elW4gwd95WYg.CoKUweU4BaKfGBqrGTwX5jpEBZCL0wq4wSkJRi8Hbgsg.JPEG.gravity001/09.jpg?type=w740",
+        "position": "보조",
+        "rate": "파랑",
+        "monster": "페노메나",
+        "openPoint": "MaxHP +28",
+        "savePoint": "무형 몬스터 데미지 추가 +1%",
+        "option": "▶ 무형 몬스터 데미지 감소＋10%\n"
+    }
+]
