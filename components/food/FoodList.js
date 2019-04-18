@@ -338,8 +338,14 @@ class FoodList extends SqlUtil {
                                             {
                                                 (!item.ingredient || !item.ingredient.length)? null:
                                                 <View style={[{alignSelf: 'flex-start', flexDirection: 'row'}]}>
-                                                    <Text style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left'}]}>재료:</Text>
-                                                    {
+                                                    <Text
+                                                        style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left'}]}>
+                                                        {'재료: '+(item.ingredient||[]).map((optionObj)=>{
+                                                            return `${optionObj.name} ${optionObj.number||''}`
+                                                        }).join(', ')}
+                                                    </Text>
+                                                    {/* <Text style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left'}]}>재료:</Text> */}
+                                                    {/* {
                                                         (item.ingredient||[]).map((optionObj, optionIndex)=>{
                                                             if(!specialIngredientNameList.includes(optionObj.name.trim())){
                                                                 return <Text key={`food_ingredient_${optionObj.name}_${item.name}_${optionIndex}`}
@@ -354,7 +360,7 @@ class FoodList extends SqlUtil {
                                                                 </TouchableOpacity>
                                                             }
                                                         })
-                                                    }
+                                                    } */}
                                                 </View>
                                             }
                                             {
