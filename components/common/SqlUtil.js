@@ -5,6 +5,90 @@ const db = SQLite.openDatabase('ragnaPoint.db')
 
 class SqlUtil extends React.Component {
 
+    /* 
+        Card
+    */
+   initCardTable = async (param) => {
+        const { res } = await this.queryExecute(`
+        SELECT 1 FROM sqlite_master 
+        WHERE type='table' 
+        AND name='TN_CARD'
+        AND EXISTS (
+            SELECT 1 
+            FROM sqlite_master 
+            WHERE name = 'TN_CARD' 
+            AND sql LIKE '%name%'
+        )
+        `, [])
+        if (param || res.rows.length == 0) {
+            await this.queryExecute('DROP TABLE IF EXISTS TN_CARD', [])
+            const { tx1, res1 } = await this.queryExecute(
+                `CREATE TABLE IF NOT EXISTS TN_CARD (
+            id INTEGER PRIMARY KEY AUTOINCREMENT, 
+            name VARCHAR(255) UNIQUE,
+            saveYn VARCHAR(1) default 'N',
+            openYn VARCHAR(1) default 'N'
+            )`,
+                [])
+        }
+    }
+
+    listTnCard = async (param = {}, callback = () => {}) => {
+        const { res } = await this.queryExecute(
+            `SELECT * FROM TN_CARD`,
+            []
+        )
+        return (res.rows||{})._array || []
+    }
+
+    selectCardByName = async (param = {}, callback = () => {}) => {
+        const { res } = await this.queryExecute(
+            `SELECT 
+                Card.* 
+            FROM TN_CARD Card
+            WHERE name = ?`,
+            [param.name]
+        )
+        return ((res.rows||{})._array || [])[0]
+    }
+
+    insertCard = async (param = {}, callback = () => {}) => {
+        const { res } = await this.queryExecute(
+            `insert into TN_CARD (
+                name,
+                saveYn,
+                openYn
+            ) values (
+                ?, ?, ?
+            )`,
+            [
+                param.name,
+                param.saveYn=='Y'?'Y':'N',
+                param.openYn=='Y'?'Y':'N',
+            ]
+        )
+        return res
+    }
+
+    updateCard = async (param = {}, callback = () => {}) => {
+        const { res } = await this.queryExecute(
+            `update TN_CARD
+            set 
+                saveYn = ?,
+                openYn = ?
+            WHERE name = ?`,
+            [
+                param.saveYn=='Y'?'Y':'N',
+                param.openYn=='Y'?'Y':'N',
+                param.name
+            ]
+        )
+        return res
+    }
+    
+    /* 
+        Food
+    */
     initFoodTable = async (param) => {
         const { res } = await this.queryExecute(`
           SELECT 1 FROM sqlite_master 
@@ -83,6 +167,9 @@ class SqlUtil extends React.Component {
         return res
     }
 
+    /* 
+        ITem
+    */
     listTnItem = async (param = {}, callback = () => {}) => {
         const { res } = await this.queryExecute(
             `SELECT * FROM TN_ITEM`,

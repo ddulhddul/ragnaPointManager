@@ -1,5 +1,38 @@
 [
   {
+    "name": "XMAS쿠키 카드",
+    "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNDcg/MDAxNTI0ODM3MzQ3MDcw.PrKLlcniD8seuIOZ86UpO6wI_if_zy4UNVu3nijSXE8g.sqPkLWGav1ym50KY5lXQUCLQv4-OuC8Qa7vMgYzRW1Ig.PNG.gravity001/xmas%EC%BF%A0%ED%82%A4_%EC%B9%B4%EB%93%9C.png?type=w740",
+    "position": "신발",
+    "rate": "녹색",
+    "monster": "빨강쿠키",
+    "openPoint": {
+      "name": "DEF",
+      "number": 2,
+      "unit": "+",
+      "origin": "DEF +2"
+    },
+    "savePoint": {
+      "name": "MaxHP",
+      "number": 48,
+      "unit": "+",
+      "origin": "MaxHP +48"
+    },
+    "option": [
+      {
+        "name": "LUK",
+        "number": 2,
+        "unit": "+",
+        "origin": "LUK+2"
+      },
+      {
+        "name": "【쥬덱스】데미지",
+        "number": 5,
+        "unit": "+%",
+        "origin": "【쥬덱스】데미지+5%"
+      }
+    ]
+  },
+  {
     "name": "데빌링 카드",
     "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfOTAg/MDAxNTI0ODIyMzU0NzYx.amgBsp42dKNYu4Ns_epoZwo3kQR4xOkn3_BxNm-jB0og.tTzFdCA-dO0tk_XlQCWkYJZR7CxxB_aTxP8jNKR94DAg.JPEG.gravity001/01.jpg?type=w740",
     "position": "걸칠것",
@@ -215,7 +248,7 @@
     "option": [
       {
         "name": "【소닉 블로우】스킬 딜레이－0.3초",
-        "number": null,
+        "number": "",
         "unit": "【소닉 블로우】스킬 딜레이－0.초",
         "origin": "【소닉 블로우】스킬 딜레이－0.3초"
       }
@@ -302,7 +335,7 @@
     "option": [
       {
         "name": "일반공격 시 5% 확률로 【유피텔 썬더】Lv.5스킬 자동 시전",
-        "number": null,
+        "number": "",
         "unit": "일반공격 시 5% 확률로 【유피텔 썬더】Lv.스킬 자동 시전",
         "origin": "일반공격 시 5% 확률로 【유피텔 썬더】Lv.5스킬 자동 시전"
       }
@@ -623,7 +656,7 @@
     "option": [
       {
         "name": "곤충형 몬스터 처치 시 3% 확률로 이동속도 25% 증가, 20초 지속",
-        "number": null,
+        "number": "",
         "unit": "곤충형 몬스터 처치 시 3% 확률로 이동속도 25% 증가, 초 지속",
         "origin": "곤충형 몬스터 처치 시 3% 확률로 이동속도 25% 증가, 20초 지속"
       }
@@ -650,7 +683,7 @@
     "option": [
       {
         "name": "불사형 몬스터 처치 시 3% 확률로 데미지 9%의 HP 회복",
-        "number": null,
+        "number": "",
         "unit": "불사형 몬스터 처치 시 3% 확률로 데미지 %의 HP 회복",
         "origin": "불사형 몬스터 처치 시 3% 확률로 데미지 9%의 HP 회복"
       }
@@ -758,7 +791,7 @@
     "option": [
       {
         "name": "일반공격 시 3% 확률로 축기(최종 데미지＋10%) 1분 지속",
-        "number": null,
+        "number": "",
         "unit": "일반공격 시 3% 확률로 축기(최종 데미지＋10%) 분 지속",
         "origin": "일반공격 시 3% 확률로 축기(최종 데미지＋10%) 1분 지속"
       }
@@ -974,39 +1007,6 @@
         "number": 0,
         "unit": "부활 시 HP 및 SP 모두 회복",
         "origin": "부활 시 HP 및 SP 모두 회복"
-      }
-    ]
-  },
-  {
-    "name": "XMAS쿠키 카드",
-    "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNDcg/MDAxNTI0ODM3MzQ3MDcw.PrKLlcniD8seuIOZ86UpO6wI_if_zy4UNVu3nijSXE8g.sqPkLWGav1ym50KY5lXQUCLQv4-OuC8Qa7vMgYzRW1Ig.PNG.gravity001/xmas%EC%BF%A0%ED%82%A4_%EC%B9%B4%EB%93%9C.png?type=w740",
-    "position": "신발",
-    "rate": "녹색",
-    "monster": "빨강쿠키",
-    "openPoint": {
-      "name": "DEF",
-      "number": 2,
-      "unit": "+",
-      "origin": "DEF +2"
-    },
-    "savePoint": {
-      "name": "MaxHP",
-      "number": 48,
-      "unit": "+",
-      "origin": "MaxHP +48"
-    },
-    "option": [
-      {
-        "name": "LUK",
-        "number": 2,
-        "unit": "+",
-        "origin": "LUK+2"
-      },
-      {
-        "name": "【쥬덱스】데미지",
-        "number": 5,
-        "unit": "+%",
-        "origin": "【쥬덱스】데미지+5%"
       }
     ]
   },
@@ -1304,7 +1304,7 @@
     "option": [
       {
         "name": "인간형 몬스터 처치 시 10% 확률로 자신의 SP 20 회복",
-        "number": null,
+        "number": "",
         "unit": "인간형 몬스터 처치 시 10% 확률로 자신의 SP  회복",
         "origin": "인간형 몬스터 처치 시 10% 확률로 자신의 SP 20 회복"
       }
@@ -1723,7 +1723,7 @@
     },
     "savePoint": {
       "name": "인간형 몬스터로부터 받는 데미지 감소 +1%,\n몬스터에게 피해 데미지",
-      "number": null,
+      "number": "",
       "unit": "인간형 몬스터로부터 받는 데미지 감소 +1%, -",
       "origin": "인간형 몬스터로부터 받는 데미지 감소 +1%,\n몬스터에게 피해 데미지 -20"
     },
@@ -1924,7 +1924,7 @@
     },
     "savePoint": {
       "name": "VIT +1, 세비지 공격을 받으면 VIT 1마다 반사 데미지 추가",
-      "number": null,
+      "number": "",
       "unit": "VIT +1, 세비지 공격을 받으면 VIT 마다 반사 데미지 추가",
       "origin": "VIT +1, 세비지 공격을 받으면 VIT 1마다 반사 데미지 추가"
     },
@@ -1958,7 +1958,7 @@
     "option": [
       {
         "name": "받는 물리 데미지 시 3% 확률로 AGI＋5, DEX＋5, 2분 지속",
-        "number": null,
+        "number": "",
         "unit": "받는 물리 데미지 시 3% 확률로 AGI＋5, DEX＋5, 분 지속",
         "origin": "받는 물리 데미지 시 3% 확률로 AGI＋5, DEX＋5, 2분 지속"
       }
@@ -2416,7 +2416,7 @@
     },
     "savePoint": {
       "name": "하이오크 카드 장착 시 30초마다 물리 데미지 +1%, 5초 지속",
-      "number": null,
+      "number": "",
       "unit": "하이오크 카드 장착 시 30초마다 물리 데미지 +1%, 초 지속",
       "origin": "하이오크 카드 장착 시 30초마다 물리 데미지 +1%, 5초 지속"
     },
@@ -2854,7 +2854,7 @@
     },
     "savePoint": {
       "name": "드래곤 몬스터의 공격으로 HP가 50%일 때 자신의 \nMaxHP 및 MaxSP에 따라 데미지 면역 쉴드 추가, \n10초 또는 격파될 때까지 지속(최대 60초마다 1회 발동)",
-      "number": null,
+      "number": "",
       "unit": "드래곤 몬스터의 공격으로 HP가 50%일 때 자신의 MaxHP 및 MaxSP에 따라 데미지 면역 쉴드 추가, 10초 또는 격파될 때까지 지속(최대 60초마다 회 발동)",
       "origin": "드래곤 몬스터의 공격으로 HP가 50%일 때 자신의 \nMaxHP 및 MaxSP에 따라 데미지 면역 쉴드 추가, \n10초 또는 격파될 때까지 지속(최대 60초마다 1회 발동)"
     },
@@ -2881,7 +2881,7 @@
     },
     "savePoint": {
       "name": "피격마다 10% 확률로 목표의 MaxSP 1% 차감",
-      "number": null,
+      "number": "",
       "unit": "피격마다 10% 확률로 목표의 MaxSP % 차감",
       "origin": "피격마다 10% 확률로 목표의 MaxSP 1% 차감"
     },
@@ -3188,7 +3188,7 @@
     "option": [
       {
         "name": "매회 몬스터 처치 시 본인 SP 10 회복, 효과는 5초마다 최대 1회 발동",
-        "number": null,
+        "number": "",
         "unit": "매회 몬스터 처치 시 본인 SP 10 회복, 효과는 5초마다 최대 회 발동",
         "origin": "매회 몬스터 처치 시 본인 SP 10 회복, 효과는 5초마다 최대 1회 발동"
       }
@@ -3386,7 +3386,7 @@
       },
       {
         "name": "검사계열 장착 시 일반공격 시 3% 확률로 【볼링 배쉬】Lv.5 자동 시전",
-        "number": null,
+        "number": "",
         "unit": "검사계열 장착 시 일반공격 시 3% 확률로 【볼링 배쉬】Lv. 자동 시전",
         "origin": "검사계열 장착 시 일반공격 시 3% 확률로 【볼링 배쉬】Lv.5 자동 시전"
       }
@@ -3406,7 +3406,7 @@
     },
     "savePoint": {
       "name": "통찰 : 몬스터 더블 방어 50% 무시\n(몬스터(小) 데미지 추가 속성이 50% 초과 시 적용)",
-      "number": null,
+      "number": "",
       "unit": "통찰 : 몬스터 더블 방어 50% 무시(몬스터(小) 데미지 추가 속성이 % 초과 시 적용)",
       "origin": "통찰 : 몬스터 더블 방어 50% 무시\n(몬스터(小) 데미지 추가 속성이 50% 초과 시 적용)"
     },
@@ -3472,7 +3472,7 @@
     },
     "savePoint": {
       "name": "통찰: 몬스터 더블 방어 50% 무시\n(몬스터(大) 데미지 추가 속성이 50% 초과 시 적용)",
-      "number": null,
+      "number": "",
       "unit": "통찰: 몬스터 더블 방어 50% 무시(몬스터(大) 데미지 추가 속성이 % 초과 시 적용)",
       "origin": "통찰: 몬스터 더블 방어 50% 무시\n(몬스터(大) 데미지 추가 속성이 50% 초과 시 적용)"
     },
@@ -3545,7 +3545,7 @@
       },
       {
         "name": "일반공격 시 3% 확률로 【화이어 볼】Lv.5 자동 시전",
-        "number": null,
+        "number": "",
         "unit": "일반공격 시 3% 확률로 【화이어 볼】Lv. 자동 시전",
         "origin": "일반공격 시 3% 확률로 【화이어 볼】Lv.5 자동 시전"
       }
@@ -3719,7 +3719,7 @@
     "option": [
       {
         "name": "일반공격 시 5% 확률로 자신에게 【임포시티오 마누스】Lv.10스킬 시전",
-        "number": null,
+        "number": "",
         "unit": "일반공격 시 5% 확률로 자신에게 【임포시티오 마누스】Lv.스킬 시전",
         "origin": "일반공격 시 5% 확률로 자신에게 【임포시티오 마누스】Lv.10스킬 시전"
       }
@@ -3746,7 +3746,7 @@
     "option": [
       {
         "name": "일반공격 시 5% 확률로 【렉스 에테르나】Lv.1스킬 자동 시전",
-        "number": null,
+        "number": "",
         "unit": "일반공격 시 5% 확률로 【렉스 에테르나】Lv.스킬 자동 시전",
         "origin": "일반공격 시 5% 확률로 【렉스 에테르나】Lv.1스킬 자동 시전"
       }
@@ -4019,7 +4019,7 @@
     "option": [
       {
         "name": "악마형 몬스터 처치 시 10% 확률로 자신의 제련 ATK 일정 시간 동안 증가,\n해당 효과 최대 3회까지 중첩 가능",
-        "number": null,
+        "number": "",
         "unit": "악마형 몬스터 처치 시 10% 확률로 자신의 제련 ATK 일정 시간 동안 증가,해당 효과 최대 회까지 중첩 가능",
         "origin": "악마형 몬스터 처치 시 10% 확률로 자신의 제련 ATK 일정 시간 동안 증가,\n해당 효과 최대 3회까지 중첩 가능"
       }
@@ -4139,7 +4139,7 @@
     "option": [
       {
         "name": "일반공격 시 5%일정 확률로 【인저리 애로우】Lv.5스킬 시전",
-        "number": null,
+        "number": "",
         "unit": "일반공격 시 5%일정 확률로 【인저리 애로우】Lv.스킬 시전",
         "origin": "일반공격 시 5%일정 확률로 【인저리 애로우】Lv.5스킬 시전"
       }
@@ -4166,7 +4166,7 @@
     "option": [
       {
         "name": "일반공격 시 5% 확률로 자신의 SP 30 회복",
-        "number": null,
+        "number": "",
         "unit": "일반공격 시 5% 확률로 자신의 SP  회복",
         "origin": "일반공격 시 5% 확률로 자신의 SP 30 회복"
       }
@@ -4220,7 +4220,7 @@
     "option": [
       {
         "name": "일반공격 시 3% 확률로 적 5초간 스턴",
-        "number": null,
+        "number": "",
         "unit": "일반공격 시 3% 확률로 적 초간 스턴",
         "origin": "일반공격 시 3% 확률로 적 5초간 스턴"
       }
@@ -4487,7 +4487,7 @@
     "option": [
       {
         "name": "물리스킬 공격 시 3% 확률로 MaxHP 2%의 HP 회복",
-        "number": null,
+        "number": "",
         "unit": "물리스킬 공격 시 3% 확률로 MaxHP %의 HP 회복",
         "origin": "물리스킬 공격 시 3% 확률로 MaxHP 2%의 HP 회복"
       }
@@ -4594,7 +4594,7 @@
     },
     "savePoint": {
       "name": "자신의 HP 30% 미만일 때, 고블린 리더 카드로 흡혈 효과 발동 시\n50% 확률로 크리티컬 발생",
-      "number": null,
+      "number": "",
       "unit": "자신의 HP 30% 미만일 때, 고블린 리더 카드로 흡혈 효과 발동 시% 확률로 크리티컬 발생",
       "origin": "자신의 HP 30% 미만일 때, 고블린 리더 카드로 흡혈 효과 발동 시\n50% 확률로 크리티컬 발생"
     },
@@ -4675,14 +4675,14 @@
     },
     "savePoint": {
       "name": "아트로스 카드로 급속 효과 발동 시 ATK +50, 10초 지속",
-      "number": null,
+      "number": "",
       "unit": "아트로스 카드로 급속 효과 발동 시 ATK +50, 초 지속",
       "origin": "아트로스 카드로 급속 효과 발동 시 ATK +50, 10초 지속"
     },
     "option": [
       {
         "name": "일반공격 시 5% 확률로 급속 효과 획득(장비 ASPD＋20%, 10초 지속)",
-        "number": null,
+        "number": "",
         "unit": "일반공격 시 5% 확률로 급속 효과 획득(장비 ASPD＋20%, 초 지속)",
         "origin": "일반공격 시 5% 확률로 급속 효과 획득(장비 ASPD＋20%, 10초 지속)"
       }
@@ -4702,7 +4702,7 @@
     },
     "savePoint": {
       "name": "회피마다 자신의 ATK +10, 최대 10회 중첩 가능, 15초 지속",
-      "number": null,
+      "number": "",
       "unit": "회피마다 자신의 ATK +10, 최대 10회 중첩 가능, 초 지속",
       "origin": "회피마다 자신의 ATK +10, 최대 10회 중첩 가능, 15초 지속"
     },
@@ -5371,14 +5371,14 @@
     },
     "savePoint": {
       "name": "마리나 카드를 장착한 상태에서 일반공격 시 동빙 확률 +5%,\n동빙 상태인 목표에 데미지",
-      "number": null,
+      "number": "",
       "unit": "마리나 카드를 장착한 상태에서 일반공격 시 동빙 확률 +5%, +%",
       "origin": "마리나 카드를 장착한 상태에서 일반공격 시 동빙 확률 +5%,\n동빙 상태인 목표에 데미지 +25%"
     },
     "option": [
       {
         "name": "일반공격 시 5% 확률로 적 5초간 동빙",
-        "number": null,
+        "number": "",
         "unit": "일반공격 시 5% 확률로 적 초간 동빙",
         "origin": "일반공격 시 5% 확률로 적 5초간 동빙"
       },
@@ -5465,7 +5465,7 @@
     "option": [
       {
         "name": "일반공격 시 3% 확률로 【배쉬】Lv.5 자동 시전",
-        "number": null,
+        "number": "",
         "unit": "일반공격 시 3% 확률로 【배쉬】Lv. 자동 시전",
         "origin": "일반공격 시 3% 확률로 【배쉬】Lv.5 자동 시전"
       }
@@ -5519,7 +5519,7 @@
     "option": [
       {
         "name": "일반공격 시 3% 확률로 【소닉 블로우】Lv.5 자동 시전",
-        "number": null,
+        "number": "",
         "unit": "일반공격 시 3% 확률로 【소닉 블로우】Lv. 자동 시전",
         "origin": "일반공격 시 3% 확률로 【소닉 블로우】Lv.5 자동 시전"
       }

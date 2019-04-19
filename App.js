@@ -31,6 +31,7 @@ export default class App extends SqlUtil {
   _loadResourcesAsync = async () => {
     await this.initFoodTable()
     await this.initItemTable()
+    await this.initCardTable()
     const result = await this.initIngredientTable()
     if(result){
       return Promise.all([

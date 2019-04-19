@@ -16,16 +16,17 @@ class CardList extends SqlUtil {
     
     constructor(props){
         super(props)
-        const saveKeywordList = (props.cardList||[]).reduce((entry, obj)=>{
+        const optionKeywordList = (props.cardList||[]).reduce((entry, obj)=>{
             [obj.openPoint||{},obj.savePoint||{}].map((target)=>{
                 const keyword = target.name
                 keyword!='?' && !entry.includes(keyword) && entry.push(keyword)
             })
             return entry
-        }, []).sort()
+        }, []).filter((obj)=>obj.length<15).sort()
+
         this.state = {
-            cardList: props.cardList||[],
-            saveKeywordList
+            cardList: [],
+            optionKeywordList
         }
     }
 
@@ -33,26 +34,26 @@ class CardList extends SqlUtil {
         const { navigation } = this.props
         this.focusListener = navigation.addListener("didFocus", async () => {
             this.isReady = false
-            // const cardList = await this.searchCardList()
-            // let searchParam = {}
-            // try {
-            //     const value = await AsyncStorage.getItem('FOOD_SEARCH')
-            //     if (value !== null) {
-            //         const foodSearchObj = JSON.parse(value)
-            //         searchParam = {
-            //             cookingFilter: foodSearchObj.cookingFilter, 
-            //             tastingFilter: foodSearchObj.tastingFilter,
-            //             saveFilter: foodSearchObj.saveFilter
-            //         }
-            //     }
-            // } catch (error) {
-            //     // Error retrieving data
-            // }
+            const cardList = await this.searchCardList()
+            let searchParam = {}
+            try {
+                const value = await AsyncStorage.getItem('CARD_SEARCH')
+                if (value !== null) {
+                    const cardSearchObj = JSON.parse(value)
+                    searchParam = {
+                        saveFilter: cardSearchObj.saveFilter,  
+                        openFilter: cardSearchObj.openFilter, 
+                        optionFilter: cardSearchObj.optionFilter, 
+                    }
+                }
+            } catch (error) {
+                // Error retrieving data
+            }
             this.isReady = true
-            // this.setState({
-            //     cardList: cardList,
-            //     ...searchParam
-            // })
+            this.setState({
+                cardList: cardList,
+                ...searchParam
+            })
         })
         this.willBlurListener = navigation.addListener("willBlur", async () => {
             this.beforeUnmountSave()
@@ -64,27 +65,26 @@ class CardList extends SqlUtil {
     }
 
     beforeUnmountSave = async()=>{
-        // try {
-        //     const {cookingFilter, tastingFilter, saveFilter} = this.state
-        //     await AsyncStorage.setItem('FOOD_SEARCH', JSON.stringify({
-        //         cookingFilter, tastingFilter,
-        //         saveFilter
-        //     }))
-        // } catch (error) {
-        //     // Error retrieving data
-        // }            
+        try {
+            const {saveFilter, openFilter, optionFilter} = this.state
+            await AsyncStorage.setItem('CARD_SEARCH', JSON.stringify({
+                saveFilter, openFilter, optionFilter
+            }))
+        } catch (error) {
+            // Error retrieving data
+        }      
     }
 
     searchCardList= async () => {
-        const savedList = (await this.listTnFood()) || []
+        const savedList = (await this.listTnCard()) || []
         return this.props.cardList.map((obj)=>{
             const saved = savedList.find((saved)=>{
                 return saved.name == obj.name
             }) || {}
             return {
                 ...obj,
-                cookingYn: saved.cookingYn || 'N',
-                tastingYn: saved.tastingYn || 'N',
+                saveYn: saved.saveYn || 'N',
+                openYn: saved.openYn || 'N',
             }
         })
     }
@@ -95,29 +95,139 @@ class CardList extends SqlUtil {
         this.willBlurListener && this.willBlurListener.remove()
     }
 
-    updateSaveChecked(){
+    executeUpdateItem = async (obj) => {
+        const dbObj = await this.selectCardByName(obj)
+        if(dbObj) await this.updateCard(obj)
+        else await this.insertCard(obj)
 
+        Util.toast(obj.message)
+        this.setState({
+            cardList: await this.searchCardList()
+        })
+    }
+
+    updateSaveChecked(param){
+        this.executeUpdateItem({
+            ...param,
+            saveYn: param.saveYn=='Y'? 'N': 'Y',
+            message: param.saveYn=='Y'? `${param.name} 저장 취소`: `${param.name} 저장`
+        })
     }
     
-    updateOpenChecked(){
-
+    updateOpenChecked(param){
+        this.executeUpdateItem({
+            ...param,
+            openYn: param.openYn=='Y'? 'N': 'Y',
+            message: param.openYn=='Y'? `${param.name} 해제 취소`: `${param.name} 해제`
+        })
     }
 
     render() {
         const { cardImages } = this.props
-        const { searchValue, scrolling, searchEnabled } = this.state
-        const saveKeywordList = this.state.saveKeywordList || []
-        const saveFilter = this.state.saveFilter || []
+        const { saveFilter, openFilter, searchValue, scrolling, searchEnabled } = this.state
+        const optionKeywordList = this.state.optionKeywordList || []
+        const optionFilter = this.state.optionFilter || []
 
+        function checkedSaveCheck(list=[]){
+            return list.reduce((entry, optionObj)=>{
+                if(entry) return entry
+                return !optionFilter.length? true: optionFilter.includes(optionObj.name)
+            }, false)
+        }
         const cardList = (this.state.cardList || [])
+        .filter((obj)=>{
+            // optionFilter
+            if(!optionFilter.length) return true
+            return [(obj.savePoint||{})].concat([obj.openPoint||{}]).reduce((entry, target)=>{
+                if(entry) return entry
+                return optionFilter.includes(target.name)
+            }, false)
+        })
+        .filter((obj)=>{
+            // saveFilter, openFilter
+            if(!saveFilter && !openFilter) return true
+            return (saveFilter && obj.saveYn != 'Y' && checkedSaveCheck([obj.savePoint])) 
+                || (openFilter && obj.openYn != 'Y' && checkedSaveCheck([obj.openPoint]))
+        })
         .filter((obj)=>{
             if(!searchEnabled || !searchValue) return true
             return obj.name.indexOf(searchValue) != -1
         })
+        .map((obj)=>{
+            return {...obj, 
+                color: obj.rate=="파랑"? 'blue':
+                    obj.rate=="녹색"? 'green':
+                    obj.rate=="보라"? 'purple':
+                    obj.rate=="일반"? 'grey': null,
+            }
+        })
         
         return (
             <View style={styles.container}>
-                {/* {(!this.isReady)? <Loading />:null} */}
+                {(!this.isReady)? <Loading />:null}
+
+                <View style={styles.filterContainer}>
+                    <View style={[styles.filterStyle, {backgroundColor: Util.green}]}>
+                        <TouchableOpacity onPress={()=>{this.setState({optionFilter: []})}}>
+                            <Text style={[styles.filterTextStyle]}>저장 Reset</Text>
+                        </TouchableOpacity>
+                    </View>
+                    <ScrollView horizontal={true} style={{marginLeft: 5}}>
+                    {
+                        optionKeywordList.map((obj)=>{
+                            return <View  key={`keyword_${obj}`}
+                                        style={[styles.filterStyle, 
+                                            optionFilter.includes(obj)? {backgroundColor: Util.filterSelected}: {}
+                                        ]}>
+                                <TouchableOpacity onPress={()=>{
+                                    this.setState({
+                                        optionFilter: !optionFilter.includes(obj)? [...optionFilter, obj]:
+                                                    optionFilter.filter((filtered)=>filtered!=obj)
+                                    })
+                                }}>
+                                    <Text style={styles.filterTextStyle}>{obj}</Text>
+                                </TouchableOpacity>
+                            </View>
+                        })
+                    }
+                    </ScrollView>
+                </View>
+
+                <View style={[styles.searchContainer]}>
+                    <View style={[styles.trContainer, {marginLeft: 10, justifyContent: 'flex-end'}]}>
+                        <CheckBox value={saveFilter} onValueChange={()=>
+                            {this.setState({saveFilter: !saveFilter})}} />
+                        <TouchableOpacity onPress={()=>
+                            {this.setState({saveFilter: !saveFilter})}}>
+                            <Text style={[styles.thTextStyle, {color: saveColor}]}>저장필요</Text>
+                        </TouchableOpacity>
+                        <CheckBox value={openFilter} onValueChange={()=>
+                            {this.setState({openFilter: !openFilter})}} />
+                        <TouchableOpacity onPress={()=>
+                            {this.setState({openFilter: !openFilter})}}>
+                            <Text style={[styles.thTextStyle, {color: openColor}]}>해제필요</Text>
+                        </TouchableOpacity>
+                        <View style={[{marginLeft: 10, padding: 5}, 
+                            searchEnabled? {backgroundColor: Util.filterSelected, borderRadius: 10}: null]}>
+                            <TouchableOpacity onPress={()=>{this.setState({searchEnabled: !searchEnabled})}}>
+                                <Icon.Ionicons name="md-search" size={20}
+                                    color={searchEnabled?"white":"black"} />
+                            </TouchableOpacity>
+                        </View>
+                    </View>
+                </View>
+                {
+                    !searchEnabled? null:
+                    <View style={{width: '95%', alignSelf: 'flex-end', borderWidth: 3, borderColor: Util.filterSelected,
+                        marginLeft: 5, marginRight: 5}}>
+                        <TextInput
+                            autoFocus={true}
+                            style={{borderColor: 'gray'}}
+                            onChangeText={(text) => this.setState({searchValue: text})}
+                            value={searchValue}
+                        />
+                    </View>
+                }
 
                 {
                     !cardList.length? null:
@@ -144,7 +254,7 @@ class CardList extends SqlUtil {
                             data={cardList}
                             keyExtractor={(item) => item.name}
                             renderItem={({item, index}) => {
-                                return <View style={styles.componentContainer} key={`card_${encodeURI(item.name)}_${index}`}>
+                                return <View style={[styles.componentContainer, {borderTopColor: item.color, borderTopWidth: 2}]} key={`card_${encodeURI(item.name)}_${index}`}>
                                     <View style={[styles.trContainer]}>
                                         <View style={[styles.tdContainer, {flex: 0.3, marginLeft: 5, marginRight: 5, paddingLeft: 10, paddingRight: 10}]}>
                                             <Image source={cardImages[item.name.replace(/ /g,'').replace(/\[.*\]/g,'')]} style={[styles.itemImageStyle, {borderRadius: 5}]} />
@@ -155,7 +265,10 @@ class CardList extends SqlUtil {
                                                     {item.position}
                                                 </Text>
                                             </View>
-                                            <View style={[{marginBottom: 3, alignSelf: 'flex-start'}]}>
+                                            <View style={[{flexDirection:'row', alignItems: 'center', marginBottom: 3, alignSelf: 'flex-start'}]}>
+                                                <View style={[
+                                                    {backgroundColor: item.color, borderRadius: 50, width: 10, height: 10, marginRight: 5, marginLeft: 5}
+                                                ]}></View>
                                                 <Text style={[styles.textStyle, {fontSize: 17, fontWeight: 'bold', textAlign: 'left'}]}>{item.name}</Text>
                                             </View>
                                             <View style={[{marginBottom: 3, alignSelf: 'flex-start'}]}>
