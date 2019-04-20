@@ -98,18 +98,16 @@ class ItemList extends SqlUtil {
 
     searchItemList = async () => {
         const dbItemList = await this.listTnItem()
-        const ingredientList = await this.listTnIngredient()
+        const itemIngredients = await this.getTnIngredient()
         return this.props.itemList.map((item)=>{
             const targetDbObj = (dbItemList.find((dbItem)=>dbItem.name==item.name) || {})
             return {
                 ...item,
                 price: item.recipe.reduce((entry, obj)=>{
                     if(entry < 0) return entry
-                    const ingreObj = ingredientList.find((ingre)=>{
-                        return ingre.name == obj.name && ingre.price > 0
-                    })
-                    if(!ingreObj) return -1
-                    return entry + (ingreObj.price * obj.number)
+                    const ingreObjPrice = (itemIngredients[obj.name.replace(/ /g,'')]||{}).price
+                    if(!ingreObjPrice) return -1
+                    return entry + (ingreObjPrice * obj.number)
                 }, 0),
                 saveYn: targetDbObj.saveYn,
                 openYn: targetDbObj.openYn,

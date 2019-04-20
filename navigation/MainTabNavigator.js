@@ -73,8 +73,6 @@ const WebStack = createStackNavigator({
     ),
   })
 })
-
-
 const SettingsStack = createStackNavigator({
   Settings: SettingsScreen,
 });
@@ -90,12 +88,13 @@ SettingsStack.navigationOptions = {
 };
 
 export default createMaterialBottomTabNavigator({
-  ItemStack,
   FoodStack,
+  ItemStack,
   CardStack,
-  WebStack
+  WebStack,
+  SettingsStack
 }, {
-  initialRouteName: 'ItemStack',
+  initialRouteName: 'SettingsStack',
   activeColor: Colors.tabIconSelected,
   inactiveColor: Colors.tabIconDefault,
   barStyle: { backgroundColor: 'white' },

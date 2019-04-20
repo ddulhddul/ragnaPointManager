@@ -178,12 +178,21 @@ class SqlUtil extends React.Component {
         return (res.rows||{})._array || []
     }
 
-    listTnIngredient = async (param = {}, callback = () => {}) => {
+    getTnIngredient = async (param = {}, callback = () => {}) => {
+        let itemIngredients = ragnaDB.getItemIngredientsList().reduce((entry, obj)=>{
+            const name = obj.name.replace(/ /g,'')
+            entry[name] = {...obj, name, displayName: obj.name}
+            return entry
+        }, {})
         const { res } = await this.queryExecute(
             `SELECT * FROM TN_INGREDIENT`,
             []
-        )
-        return (res.rows||{})._array || []
+            )
+        const list = (res.rows||{})._array || []
+        list.map((obj)=>{
+            if(obj.price && itemIngredients[obj.name]) itemIngredients[obj.name].price = obj.price || 0
+        })
+        return itemIngredients
     }
 
     selectItemByName = async (param = {}, callback = () => {}) => {
@@ -192,7 +201,7 @@ class SqlUtil extends React.Component {
                 ITEM.* 
             FROM TN_ITEM ITEM
             WHERE name = ?`,
-            [param.name]
+            [param.name.replace(/ /g,'')]
         )
         return ((res.rows||{})._array || [])[0]
     }
@@ -207,7 +216,7 @@ class SqlUtil extends React.Component {
                 ?, ?, ?
               )`,
             [
-                param.name,
+                param.name.replace(/ /g,''),
                 param.saveYn=='Y'?'Y':'N',
                 param.openYn=='Y'?'Y':'N',
             ]
@@ -225,7 +234,7 @@ class SqlUtil extends React.Component {
             [
                 param.saveYn=='Y'?'Y':'N',
                 param.openYn=='Y'?'Y':'N',
-                param.name
+                param.name.replace(/ /g,'')
             ]
         )
         return res
@@ -279,26 +288,64 @@ class SqlUtil extends React.Component {
                     price NUMBER default 0
                 )`,
             [])
-            result = await this.insertIngredientList()
+            result = res1
         }
         return result
     }
 
-    insertIngredientList = async (param = {}, callback = () => {}) => {
-        const ingredientList = ragnaDB.getIngredientList()
+    insertIngredient = async (obj = {}, callback = () => {}) => {
+        const date = new Date()
         const { res } = await this.queryExecute(
             `insert into TN_INGREDIENT (
                 name,
                 date,
                 price
-                ) values 
-                ${ingredientList.map((obj)=>{
-                    return `('${obj.name}', '${obj.date}', ${obj.price})`
-                }).join(', ')}
-                `,
-            []
+                ) values (
+                ?,?,?
+            )`,
+            [
+                obj.name,
+                [
+                    date.getFullYear(),
+                    String(date.getMonth()+1).padStart('0',2),
+                    String(date.getDate()).padStart('0',2),
+                ].join(''),
+                obj.price
+            ]
         )
         return res
+    }
+
+    updateIngredient = async (param = {}, callback = () => {}) => {
+        const date = new Date()
+        const { res } = await this.queryExecute(
+            `update TN_INGREDIENT
+            set 
+                price = ?,
+                date = ?
+            WHERE name = ?`,
+            [
+                param.price,
+                [
+                    date.getFullYear(),
+                    String(date.getMonth()+1).padStart('0',2),
+                    String(date.getDate()).padStart('0',2),
+                ].join(''),
+                param.name
+            ]
+        )
+        return res
+    }
+
+    selectIngredientByName = async (param = {}, callback = () => {}) => {
+        const { res } = await this.queryExecute(
+            `SELECT
+                INGREDIENT.* 
+            FROM TN_INGREDIENT INGREDIENT
+            WHERE name = ?`,
+            [param.name]
+        )
+        return ((res.rows||{})._array || [])[0]
     }
 
     queryExecute = async (sql = '', param = [], callback = () => { }) => {
