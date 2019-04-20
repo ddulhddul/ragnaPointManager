@@ -61,7 +61,7 @@ import card_robe_green1 from './ragnaJSON/card/card_robe_green1.json'
 export default {
 
   getCardList(){
-    return card
+    // return card
 
     const homepageDic = Array(0).concat(
       card_robe_purple1,
@@ -101,22 +101,29 @@ export default {
     })
     .map((trObj)=>{
       function mapFunction(obj){
+        obj = obj.trim()
         const thisKey = obj.replace(/[0-9\+\- \개\.\,\%\x\＋]+$/,'')
         const thisValue = obj.replace(/(.*?)([0-9\+\- \개\.\,\%\x\＋]+$)/,'$2').trim().replace(/\n/g,'')
         return {
           name: thisKey,
-          number: Number(thisValue.replace(/([^0-9]*)([0-9]*)([^0-9]*$)/,'$2').replace(/,/g,'')),
+          number: Number(thisValue.replace(/([^0-9]*)([0-9]*)([^0-9]*$)/,'$2').replace(/,/g,'')) || '',
           unit: thisValue.replace(/([0-9]*)([^0-9]*$)/,'$2'),
           origin: obj,
         }
       }
-      trObj.openPoint = mapFunction(trObj.openPoint)
-      trObj.savePoint = mapFunction(trObj.savePoint)
-      trObj.option = trObj.option.split('▶').map((obj)=>obj.trim()).filter((obj)=>obj).map(mapFunction)
+      trObj.openPoint = trObj.openPoint.replace(/,( [^A-Za-z])/g,'$1')
+        .replace(/\n/g,' ').split(',').map((obj)=>mapFunction(obj))
+      trObj.savePoint = trObj.savePoint.replace(/,( [^A-Za-z])/g,'$1')
+        .replace(/\n/g,' ').split(',').map((obj)=>mapFunction(obj))
+      trObj.option = trObj.option.replace(/\n/g,' ').split('▶').map((obj)=>obj.trim()).filter((obj)=>obj).map(mapFunction)
       return {...trObj}
+    })
+    .sort((obj1,obj2)=>{
+      return obj1.name > obj2.name? 1: -1
     })
     
     console.log('homepageDic', JSON.stringify(homepageDic))
+    // console.log('homepageDic', (homepageDic))
     return homepageDic
   },
 

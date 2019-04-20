@@ -17,7 +17,7 @@ class CardList extends SqlUtil {
     constructor(props){
         super(props)
         const optionKeywordList = (props.cardList||[]).reduce((entry, obj)=>{
-            [obj.openPoint||{},obj.savePoint||{}].map((target)=>{
+            (obj.openPoint||[]).concat(obj.savePoint||[]).map((target)=>{
                 const keyword = target.name
                 keyword!='?' && !entry.includes(keyword) && entry.push(keyword)
             })
@@ -138,7 +138,7 @@ class CardList extends SqlUtil {
         .filter((obj)=>{
             // optionFilter
             if(!optionFilter.length) return true
-            return [(obj.savePoint||{})].concat([obj.openPoint||{}]).reduce((entry, target)=>{
+            return (obj.savePoint||[]).concat(obj.openPoint||[]).reduce((entry, target)=>{
                 if(entry) return entry
                 return optionFilter.includes(target.name)
             }, false)
@@ -146,8 +146,8 @@ class CardList extends SqlUtil {
         .filter((obj)=>{
             // saveFilter, openFilter
             if(!saveFilter && !openFilter) return true
-            return (saveFilter && obj.saveYn != 'Y' && checkedSaveCheck([obj.savePoint])) 
-                || (openFilter && obj.openYn != 'Y' && checkedSaveCheck([obj.openPoint]))
+            return (saveFilter && obj.saveYn != 'Y' && checkedSaveCheck(obj.savePoint)) 
+                || (openFilter && obj.openYn != 'Y' && checkedSaveCheck(obj.openPoint))
         })
         .filter((obj)=>{
             if(!searchEnabled || !searchValue) return true
@@ -296,7 +296,7 @@ class CardList extends SqlUtil {
                                                         item.saveYn=='Y'?{color: saveColor}:null]}>저장</Text>
                                                 </View>
                                                 <View style={[styles.trContainer, {flex: 0.5}]}>{
-                                                    ([item.savePoint||{}]).map((optionObj, optionIndex)=>{
+                                                    (item.savePoint||[]).map((optionObj, optionIndex)=>{
                                                         return <Text style={[styles.textStyle, {color: Util.grey, marginLeft:5, marginRight:5},
                                                             item.saveYn=='Y'?{color: saveColor}:null]} key={`save_${encodeURI(item.name)}_${optionIndex}`}>
                                                             {`${optionObj.name} ${optionObj.number}`}
@@ -314,7 +314,7 @@ class CardList extends SqlUtil {
                                                         item.openYn=='Y'?{color: openColor}:null]}>해제</Text>
                                                 </View>
                                                 <View style={[styles.trContainer, {flex: 0.5}]}>{
-                                                    ([item.openPoint||{}]).map((optionObj, optionIndex)=>{
+                                                    (item.openPoint||[]).map((optionObj, optionIndex)=>{
                                                         return <Text style={[styles.textStyle, {color: Util.grey, marginLeft:5, marginRight:5},
                                                             item.openYn=='Y'?{color: openColor}:null]} key={`open_${encodeURI(item.name)}_${optionIndex}`}>
                                                             {`${optionObj.name} ${optionObj.number}`}
