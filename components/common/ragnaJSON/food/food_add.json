@@ -1,0 +1,201 @@
+[
+    {
+        "name": "초보자 생선국",
+        "type": "마법의 압력솥",
+        "firstChar": "ᄎ",
+        "difficult": "1",
+        "nutrition": [
+            "MaxHP＋60",
+            "MaxSP＋6",
+            "ATK＋8"
+        ],
+        "calory": [
+            "Hp칼로리1500",
+            "Sp칼로리150"
+        ],
+        "satiety": "12",
+        "ingredient": [
+            "해산물 x1"
+        ]
+    },
+    {
+        "name": "잘 익은 산적",
+        "type": "모험 바비큐 그릴",
+        "firstChar": "ᄌ",
+        "difficult": "1",
+        "nutrition": [
+            "MaxHP＋90",
+            "MaxSP＋9",
+            "DEF＋12"
+        ],
+        "calory": [
+            "Hp칼로리2000",
+            "Sp칼로리200"
+        ],
+        "satiety": "18",
+        "ingredient": [
+            "메뚜기 다리 x1",
+            "소금 x1"
+        ]
+    },
+    {
+        "name": "샹송레이",
+        "type": "로맨틱 냉음료차",
+        "firstChar": "ᄉ",
+        "difficult": "1",
+        "nutrition": [
+            "MaxHP＋90",
+            "MaxSP＋9",
+            "MDEF＋12"
+        ],
+        "calory": [
+            "Hp칼로리2000",
+            "Sp칼로리200"
+        ],
+        "satiety": "18",
+        "ingredient": [
+            "남쪽 문의 당근 x1",
+            "밀가루 x1"
+        ]
+    },
+    {
+        "name": "신선한 야채수프",
+        "type": "마법의 압력솥",
+        "firstChar": "ᄉ",
+        "difficult": "2",
+        "nutrition": [
+            "MaxHP＋120",
+            "MaxSP＋12",
+            "MATK＋16",
+            "MDEF＋16"
+        ],
+        "calory": [
+            "Hp칼로리3000",
+            "Sp칼로리300"
+        ],
+        "satiety": "24",
+        "ingredient": [            
+            "산맥의 샐러리 x1",
+            "마법 버섯 x1",
+            "고블린의 딸기 x1"
+        ]
+    },
+    {
+        "name": "진한 생선국",
+        "type": "마법의 압력솥",
+        "firstChar": "ᄌ",
+        "difficult": "3",
+        "nutrition": [
+            "MaxHP＋300",
+            "MaxSP＋30",
+            "ATK＋30",
+            "DEF＋30",
+            "DEF, MDEF 무시＋1.5%"
+        ],
+        "calory": [
+            "Hp칼로리6000",
+            "Sp칼로리600"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "마리나의 살 x1",
+            "말미잘의 살 x1",
+            "우유 x1",
+            "소금 x1"
+        ]
+    },
+    {
+        "name": "진한 야채스프",
+        "type": "마법의 압력솥",
+        "firstChar": "ᄌ",
+        "difficult": "3",
+        "nutrition": [
+            "MaxHP＋300",
+            "MaxSP＋30",
+            "MATK＋30",
+            "MDEF＋30"
+        ],
+        "calory": [
+            "Hp칼로리6000",
+            "Sp칼로리600"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "서쪽 문의 토마토 x1",
+            "남쪽 문의 당근 x1",
+            "산맥의 샐러리 x1",
+            "밀가루 x1"
+        ]
+    },
+    {
+        "name": "알데바란 생선국",
+        "type": "마법의 압력솥",
+        "firstChar": "ᄋ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋360",
+            "MaxSP＋36",
+            "ATK＋32",
+            "MDEF＋32",
+            "DEF, MDEF 무시＋1.75%"
+        ],
+        "calory": [
+            "Hp칼로리7000",
+            "Sp칼로리700"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "오징어 촉수 x1",
+            "마리나의 살 x1",
+            "설탕 x1",
+            "바닐라 x1"
+        ]
+    },
+    {
+        "name": "폐이욘 야채꼬치",
+        "type": "모험 바비큐 그릴",
+        "firstChar": "ᄑ",
+        "difficult": "4",
+        "nutrition": [
+            "MaxHP＋360",
+            "MaxSP＋36",
+            "MATK＋32",
+            "MDEF＋32"
+        ],
+        "calory": [
+            "Hp칼로리7000",
+            "Sp칼로리700"
+        ],
+        "satiety": "26",
+        "ingredient": [
+            "마법 버섯 x1",
+            "서쪽 문의 토마토 x1",
+            "우유 x1",
+            "바닐라 x1"
+        ]
+    },
+    {
+        "name": "열정의 야채스프",
+        "type": "마법의 압력솥",
+        "firstChar": "ᄋ",
+        "difficult": "5",
+        "nutrition": [
+            "MaxHP＋600",
+            "MaxSP＋60",
+            "MATK＋40",
+            "MDEF＋40"
+        ],
+        "calory": [
+            "Hp칼로리10000",
+            "Sp칼로리1000"
+        ],
+        "satiety": "30",
+        "ingredient": [
+            "대나무숲의 가지 x1",
+            "황금 호박 x1",
+            "마법 버섯 x1",
+            "산맥의 샐러리 x1",
+            "비법가루 x1"
+        ]
+    }
+]

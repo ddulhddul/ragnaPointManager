@@ -7,6 +7,7 @@ import save_smeltatk_1 from './ragnaJSON/item/save_smeltatk_1.json'
 
 import food from './ragnaJSON/food/food.json'
 import food_recipe from './ragnaJSON/food/food_recipe.json'
+import food_add from './ragnaJSON/food/food_add.json'
 import food_luxury_1star from './ragnaJSON/food/food_luxury_1star.json'
 import food_luxury_2star from './ragnaJSON/food/food_luxury_2star.json'
 import food_luxury_3star from './ragnaJSON/food/food_luxury_3star.json'
@@ -128,7 +129,7 @@ export default {
   },
 
   getFoodList(){
-    return food
+    // return food
 
     const homepageDic = Array(0).concat(
       food_luxury_1star.map((obj)=>{return {...obj,type:'럭셔리 조리대'}}),
@@ -151,6 +152,8 @@ export default {
       food_tea_3star.map((obj)=>{return {...obj,type:'로맨틱 냉음료차'}}),
       food_tea_4star.map((obj)=>{return {...obj,type:'로맨틱 냉음료차'}}),
       food_tea_5star.map((obj)=>{return {...obj,type:'로맨틱 냉음료차'}}),
+      food_tea_5star.map((obj)=>{return {...obj,type:'로맨틱 냉음료차'}}),
+      food_add
     ).filter((obj, index, self)=>{
       let indexNumber = undefined
       self.find((selfObj, selfIndex)=>{
