@@ -310,11 +310,9 @@ class FoodList extends SqlUtil {
                                     <View style={[styles.trContainer]}>
                                         <View style={[styles.tdContainer, {marginLeft: 10, marginRight: 10}]}>
                                             <View style={[styles.trContainer]}>
-                                                {!foodImages[item.name.replace(/ /g,'').replace(/\[.*\]/g,'')]? null:
-                                                    <View style={[styles.tdContainer, {flex: 0.2, marginRight: 5}]}>
-                                                        <Image source={foodImages[item.name.replace(/ /g,'').replace(/\[.*\]/g,'')]} style={styles.itemImageStyle} />
-                                                    </View>
-                                                }
+                                                <View style={[styles.tdContainer, {flex: 0.2, marginRight: 5}]}>
+                                                    <Image source={foodImages[item.name.replace(/ /g,'').replace(/\[.*\]/g,'')] || foodImages['undefined']} style={styles.itemImageStyle} />
+                                                </View>
                                                 <View style={[styles.tdContainer, {flex: 0.8}]}>
                                                     <View style={[styles.trContainer, {marginBottom: 3, alignSelf: 'flex-start'}]}>
                                                         {
@@ -347,7 +345,7 @@ class FoodList extends SqlUtil {
                                             }
                                             {
                                                 (!item.ingredient || !item.ingredient.length)? null:
-                                                <View style={[{flex:1, flexDirection: 'row', alignSelf: 'flex-start', alignItems:'center'}]}>
+                                                <View style={[{flex:1, flexDirection: 'row', alignSelf: 'flex-start'/* , alignItems:'center' */}]}>
                                                     <Text style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left'}]}>
                                                         {'재료: '}
                                                     </Text>

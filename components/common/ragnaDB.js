@@ -402,6 +402,7 @@ const foodIngreImages = {
 }
 
 const foodImages = {
+  'undefined': require('../../assets/images/food/undefined.png'),
   '가트의궁전': require('../../assets/images/food/가트의궁전.png'),
   '거탑': require('../../assets/images/food/거탑.png'),
   '건강식나물무침': require('../../assets/images/food/건강식나물무침.png'),
@@ -471,7 +472,7 @@ const foodImages = {
   '열정의생선요리': require('../../assets/images/food/열정의생선요리.png'),
   '열정의스테이크': require('../../assets/images/food/열정의스테이크.png'),
   '열정의야채구이': require('../../assets/images/food/열정의야채구이.png'),
-  '열정의야채수프': require('../../assets/images/food/열정의야채수프.png'),
+  '열정의야채스프': require('../../assets/images/food/열정의야채스프.png'),
   '열정의해물탕': require('../../assets/images/food/열정의해물탕.png'),
   '영혼의중주': require('../../assets/images/food/영혼의중주.png'),
   '오르골고깃국': require('../../assets/images/food/오르골고깃국.png'),
@@ -492,7 +493,7 @@ const foodImages = {
   '전통꿀': require('../../assets/images/food/전통꿀.png'),
   '진한고깃국': require('../../assets/images/food/진한고깃국.png'),
   '진한생선국': require('../../assets/images/food/진한생선국.png'),
-  '진한야채수프': require('../../assets/images/food/진한야채수프.png'),
+  '진한야채스프': require('../../assets/images/food/진한야채스프.png'),
   '채식음식': require('../../assets/images/food/채식음식.png'),
   '챱스테이크': require('../../assets/images/food/챱스테이크.png'),
   '천공의검': require('../../assets/images/food/천공의검.png'),
