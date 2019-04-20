@@ -1,9 +1,8 @@
 import React from 'react'
 import { Platform } from 'react-native'
 import { Icon } from 'expo'
-import { 
-  createStackNavigator, createBottomTabNavigator, createMaterialTopTabNavigator 
-} from 'react-navigation'
+import { createStackNavigator } from 'react-navigation'
+import { createMaterialBottomTabNavigator } from "react-navigation-material-bottom-tabs";
 
 import Util from '../components/common/Util'
 import Colors from '../constants/Colors'
@@ -90,22 +89,14 @@ SettingsStack.navigationOptions = {
   ),
 };
 
-export default createBottomTabNavigator({
-  CardStack,
-  FoodStack,
+export default createMaterialBottomTabNavigator({
   ItemStack,
+  FoodStack,
+  CardStack,
   WebStack
 }, {
-  tabBarOptions: {
-    labelStyle: {
-      // fontSize: 12,
-    },
-    tabStyle: {
-      // width: 100,
-    },
-    style: {
-      // paddingTop: 20,
-      // backgroundColor: Util.tabColor
-    },
-  }
-});
+  initialRouteName: 'CardStack',
+  activeColor: Colors.tabIconSelected,
+  inactiveColor: Colors.tabIconDefault,
+  barStyle: { backgroundColor: 'white' },
+})
