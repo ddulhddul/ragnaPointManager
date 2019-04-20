@@ -16,7 +16,8 @@ export default class FoodScreen extends Component {
     super(props)
     this.state = {
       foodList: DB.getFoodList(),
-      foodImages: DB.getFoodImages()
+      foodImages: DB.getFoodImages(),
+      foodIngreImages: DB.getFoodIngreImages(),
     }
   }
 
@@ -27,6 +28,7 @@ export default class FoodScreen extends Component {
         <View style={[styles.container, styles.contentContainer]}>
           <FoodList 
             foodImages={this.state.foodImages}
+            foodIngreImages={this.state.foodIngreImages}
             foodList={this.state.foodList} />
         </View>
 

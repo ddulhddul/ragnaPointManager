@@ -129,7 +129,7 @@ export default {
   },
 
   getFoodList(){
-    // return food
+    return food
 
     const homepageDic = Array(0).concat(
       food_luxury_1star.map((obj)=>{return {...obj,type:'럭셔리 조리대'}}),
@@ -261,6 +261,10 @@ export default {
     return foodImages
   },
 
+  getFoodIngreImages(){
+    return foodIngreImages
+  },
+
   getItemImages(){
     return itemImages
   },
@@ -357,6 +361,45 @@ const ingredientsList = [
   {date: '20190407', price: 0,    name: "혜안"}, 
   {date: '20190407', price: 0,    name: "흑운모"},
 ]
+
+const foodIngreImages = {
+  '게살': require('../../assets/images/foodingre/게살.png'),
+  '고블린의딸기': require('../../assets/images/foodingre/고블린의딸기.png'),
+  '고추': require('../../assets/images/foodingre/고추.png'),
+  '골렘의수박': require('../../assets/images/foodingre/골렘의수박.png'),
+  '남쪽문의당근': require('../../assets/images/foodingre/남쪽문의당근.png'),
+  '대나무숲의가지': require('../../assets/images/foodingre/대나무숲의가지.png'),
+  '데저트울프의고기': require('../../assets/images/foodingre/데저트울프의고기.png'),
+  '마르크의고기': require('../../assets/images/foodingre/마르크의고기.png'),
+  '마리나의살': require('../../assets/images/foodingre/마리나의살.png'),
+  '마법버섯': require('../../assets/images/foodingre/마법버섯.png'),
+  '말미잘의살': require('../../assets/images/foodingre/말미잘의살.png'),
+  '메뚜기다리': require('../../assets/images/foodingre/메뚜기다리.png'),
+  '무지개가루': require('../../assets/images/foodingre/무지개가루.png'),
+  '무카고기': require('../../assets/images/foodingre/무카고기.png'),
+  '밀가루': require('../../assets/images/foodingre/밀가루.png'),
+  '바닐라': require('../../assets/images/foodingre/바닐라.png'),
+  '버터': require('../../assets/images/foodingre/버터.png'),
+  '변이어육': require('../../assets/images/foodingre/변이어육.png'),
+  '비법가루': require('../../assets/images/foodingre/비법가루.png'),
+  '빅풋의파인애플': require('../../assets/images/foodingre/빅풋의파인애플.png'),
+  '사과식초': require('../../assets/images/foodingre/사과식초.png'),
+  '산맥의샐러리': require('../../assets/images/foodingre/산맥의샐러리.png'),
+  '서쪽문의토마토': require('../../assets/images/foodingre/서쪽문의토마토.png'),
+  '설탕': require('../../assets/images/foodingre/설탕.png'),
+  '세비지의고기': require('../../assets/images/foodingre/세비지의고기.png'),
+  '소금': require('../../assets/images/foodingre/소금.png'),
+  '스모키의포도': require('../../assets/images/foodingre/스모키의포도.png'),
+  '오징어촉수': require('../../assets/images/foodingre/오징어촉수.png'),
+  '요요의바나나': require('../../assets/images/foodingre/요요의바나나.png'),
+  '우유': require('../../assets/images/foodingre/우유.png'),
+  '장': require('../../assets/images/foodingre/장.png'),
+  '치즈': require('../../assets/images/foodingre/치즈.png'),
+  '토끼고기': require('../../assets/images/foodingre/토끼고기.png'),
+  '포링의사과': require('../../assets/images/foodingre/포링의사과.png'),
+  '픽키살': require('../../assets/images/foodingre/픽키살.png'),
+'황금호박': require('../../assets/images/foodingre/황금호박.png'),
+}
 
 const foodImages = {
   '가트의궁전': require('../../assets/images/food/가트의궁전.png'),

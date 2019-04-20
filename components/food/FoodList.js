@@ -148,7 +148,7 @@ class FoodList extends SqlUtil {
     }
     
     render() {
-        const { foodImages } = this.props
+        const { foodImages, foodIngreImages } = this.props
         const { searchValue, scrolling, cookingFilter, tastingFilter, searchEnabled } = this.state
         const nutritionKeywordList = this.state.nutritionKeywordList || []
         const saveKeywordList = this.state.saveKeywordList || []
@@ -310,9 +310,11 @@ class FoodList extends SqlUtil {
                                     <View style={[styles.trContainer]}>
                                         <View style={[styles.tdContainer, {marginLeft: 10, marginRight: 10}]}>
                                             <View style={[styles.trContainer]}>
-                                                <View style={[styles.tdContainer, {flex: 0.2, marginRight: 5}]}>
-                                                    <Image source={foodImages[item.name.replace(/ /g,'').replace(/\[.*\]/g,'')]} style={styles.itemImageStyle} />
-                                                </View>
+                                                {!foodImages[item.name.replace(/ /g,'').replace(/\[.*\]/g,'')]? null:
+                                                    <View style={[styles.tdContainer, {flex: 0.2, marginRight: 5}]}>
+                                                        <Image source={foodImages[item.name.replace(/ /g,'').replace(/\[.*\]/g,'')]} style={styles.itemImageStyle} />
+                                                    </View>
+                                                }
                                                 <View style={[styles.tdContainer, {flex: 0.8}]}>
                                                     <View style={[styles.trContainer, {marginBottom: 3, alignSelf: 'flex-start'}]}>
                                                         {
@@ -345,24 +347,29 @@ class FoodList extends SqlUtil {
                                             }
                                             {
                                                 (!item.ingredient || !item.ingredient.length)? null:
-                                                <View style={[{flexDirection: 'row', alignSelf: 'flex-start', flexDirection: 'row'}]}>
+                                                <View style={[{flex:1, flexDirection: 'row', alignSelf: 'flex-start', alignItems:'center'}]}>
                                                     <Text style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left'}]}>
                                                         {'재료: '}
                                                     </Text>
                                                     <View style={[styles.tdContainer, {alignItems: 'flex-start'}]}>
-                                                        <View style={{flexDirection: 'row'}}>{
-                                                            item.ingredient.map((optionObj, optionIndex)=>
-                                                                <View key={`food_ingredient_${optionObj.name}_${item.name}_${optionIndex}`}>{
-                                                                    !specialIngredientNameList.includes(optionObj.name.trim())? 
-                                                                    <Text style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left', marginLeft: 5}]}>
-                                                                        {`${optionObj.name} `}
-                                                                    </Text>:
-                                                                    <TouchableOpacity onPress={()=>{this.showIngredientInfo(optionObj.name)}}>
-                                                                        <Text style={[styles.textStyle, {fontSize: 12, color: Util.black, textAlign: 'left', marginLeft: 5}]}>
+                                                        <View style={[styles.trContainer, {justifyContent: 'flex-start', flexWrap: 'wrap'}]}>{
+                                                            (item.ingredient||[]).map((optionObj, optionIndex)=>
+                                                                <View style={{flexDirection:'row', marginLeft: 5}} key={`food_ingredient_${optionObj.name}_${item.name}_${optionIndex}`}>
+                                                                    {!foodIngreImages[optionObj.name.replace(/ /g,'').replace(/\[.*\]/g,'')]? null:
+                                                                        <Image style={[styles.itemImageStyle, {width: 20, height:20}]} source={foodIngreImages[optionObj.name.replace(/ /g,'').replace(/\[.*\]/g,'')]} />
+                                                                    }
+                                                                    {
+                                                                        !specialIngredientNameList.includes(optionObj.name.trim())? 
+                                                                        <Text style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left', fontWeight:'bold', marginLeft: 5}]}>
                                                                             {`${optionObj.name} `}
-                                                                        </Text>
-                                                                    </TouchableOpacity>
-                                                                }</View>
+                                                                        </Text>:
+                                                                        <TouchableOpacity onPress={()=>{this.showIngredientInfo(optionObj.name)}}>
+                                                                            <Text style={[styles.textStyle, {fontSize: 12, color: Util.black, textAlign: 'left', fontWeight:'bold', marginLeft: 5}]}>
+                                                                                {`${optionObj.name} `}
+                                                                            </Text>
+                                                                        </TouchableOpacity>
+                                                                    }
+                                                                </View>
                                                             )
                                                         }</View>
                                                     </View>
