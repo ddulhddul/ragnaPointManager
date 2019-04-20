@@ -345,30 +345,27 @@ class FoodList extends SqlUtil {
                                             }
                                             {
                                                 (!item.ingredient || !item.ingredient.length)? null:
-                                                <View style={[{alignSelf: 'flex-start', flexDirection: 'row'}]}>
-                                                    <Text
-                                                        style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left'}]}>
-                                                        {'재료: '+(item.ingredient||[]).map((optionObj)=>{
-                                                            return `${optionObj.name} ${optionObj.number||''}`
-                                                        }).join(', ')}
+                                                <View style={[{flexDirection: 'row', alignSelf: 'flex-start', flexDirection: 'row'}]}>
+                                                    <Text style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left'}]}>
+                                                        {'재료: '}
                                                     </Text>
-                                                    {/* <Text style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left'}]}>재료:</Text> */}
-                                                    {/* {
-                                                        (item.ingredient||[]).map((optionObj, optionIndex)=>{
-                                                            if(!specialIngredientNameList.includes(optionObj.name.trim())){
-                                                                return <Text key={`food_ingredient_${optionObj.name}_${item.name}_${optionIndex}`}
-                                                                    style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left', marginLeft: 5}]}>
-                                                                    {optionObj.name} {optionObj.number||''}
-                                                                </Text>
-                                                            }else{
-                                                                return <TouchableOpacity onPress={()=>{this.showIngredientInfo(optionObj.name)}} key={`food_ingredient_${optionObj.name}_${item.name}_${optionIndex}`}>
-                                                                    <Text style={[styles.textStyle, {fontSize: 12, color: Util.black, textAlign: 'left', marginLeft: 5}]}>
-                                                                        {optionObj.name} {optionObj.number||''}
-                                                                    </Text>
-                                                                </TouchableOpacity>
-                                                            }
-                                                        })
-                                                    } */}
+                                                    <View style={[styles.tdContainer, {alignItems: 'flex-start'}]}>
+                                                        <View style={{flexDirection: 'row'}}>{
+                                                            item.ingredient.map((optionObj, optionIndex)=>
+                                                                <View key={`food_ingredient_${optionObj.name}_${item.name}_${optionIndex}`}>{
+                                                                    !specialIngredientNameList.includes(optionObj.name.trim())? 
+                                                                    <Text style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left', marginLeft: 5}]}>
+                                                                        {`${optionObj.name} `}
+                                                                    </Text>:
+                                                                    <TouchableOpacity onPress={()=>{this.showIngredientInfo(optionObj.name)}}>
+                                                                        <Text style={[styles.textStyle, {fontSize: 12, color: Util.black, textAlign: 'left', marginLeft: 5}]}>
+                                                                            {`${optionObj.name} `}
+                                                                        </Text>
+                                                                    </TouchableOpacity>
+                                                                }</View>
+                                                            )
+                                                        }</View>
+                                                    </View>
                                                 </View>
                                             }
                                             {
