@@ -1,0 +1,491 @@
+[
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjk4/MDAxNTMwMTg0NzU1MDQ1.p_n3JAyQKQzKWMhu8NBEOEWVM6BPp6AbQOLNa2Ib_qIg.h21qGpXPaHyUGFn1HYXiSCFQ-cjIPn_eAKaBQzMWwcwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_270.png?type=w740",
+        "name": "양자리 왕관",
+        "firstChar": "ᄋ",
+        "option": [
+            "LUK +1"
+        ],
+        "savePoint": [
+            "MaxHP +18"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "빨간 염료 15개",
+            "노란 염료 15개",
+            "초록 염료 15개",
+            "파란 염료 15개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMSAg/MDAxNTMwMTg0NzY1MTk2.suXhMhfexbHFABdlF7Z3wztuqkQgyRqE6pArQXQykVMg.e9jzvaJ2WP0cjOxKE1e4t1HMDGg8Xq0OSgxqJSgdUrwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_271.png?type=w740",
+        "name": "황소자리 왕관",
+        "firstChar": "ᄒ",
+        "option": [
+            "VIT +1"
+        ],
+        "savePoint": [
+            "MaxHP +18"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "빨간 염료 15개",
+            "노란 염료 15개",
+            "초록 염료 15개",
+            "파란 염료 15개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjA2/MDAxNTMwMTg0NzgwMDU0.U4rwFLnuIeyh_F-4mLyyzSazPSYOuouQ1NoH2IjlJC0g.8X6EF8sLdh1muhSA_oB4B3UO3nxT9-w0FBEeEPXeLxgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_272.png?type=w740",
+        "name": "쌍둥이자리 왕관",
+        "firstChar": "ᄊ",
+        "option": [
+            "AGI +1"
+        ],
+        "savePoint": [
+            "MaxHP +18"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "빨간 염료 15개",
+            "노란 염료 15개",
+            "초록 염료 15개",
+            "파란 염료 15개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTkw/MDAxNTMwMTg0Nzg5NDY4.fz74NwezLZd6Hpb0Moi4xb717L2d8i4KvJTqMI5A5Sgg.IdQhYEM8voJnUiDs1_WHpnJSqLn2uZgohFQQUzpIyWQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_273.png?type=w740",
+        "name": "게자리 왕관",
+        "firstChar": "ᄀ",
+        "option": [
+            "ATK +1",
+            "HIT +1"
+        ],
+        "savePoint": [
+            "MaxHP +18"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "빨간 염료 15개",
+            "노란 염료 15개",
+            "초록 염료 15개",
+            "파란 염료 15개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNDAg/MDAxNTMwMTg0Nzk2NTg0.D1H5vDGFJUZ-aY1RB4YpGY6sYE1KKpjitvEXp8-AgNMg.gUpM4UMGSf5lrnzJf7pgfKh73S0Ieum7Bw_H_ZaBkA4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_274.png?type=w740",
+        "name": "사자자리 왕관",
+        "firstChar": "ᄉ",
+        "option": [
+            "DEX +1"
+        ],
+        "savePoint": [
+            "MaxHP +18"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "빨간 염료 15개",
+            "노란 염료 15개",
+            "초록 염료 15개",
+            "파란 염료 15개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTA5/MDAxNTMwMTg0ODA1MTYy.i3rAG02hUfJAWZJZcu4vzlKIUpN8Ch_aIrHXpK4L9bMg.e3GH1M2YA7P9au36cTIDqokdOn_vhUYwnF0_YG-2qNsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_275.png?type=w740",
+        "name": "처녀자리 왕관",
+        "firstChar": "ᄎ",
+        "option": [
+            "MaxHP +30",
+            "ATK +1"
+        ],
+        "savePoint": [
+            "MaxHP +18"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "빨간 염료 15개",
+            "노란 염료 15개",
+            "초록 염료 15개",
+            "파란 염료 15개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTYg/MDAxNTMwMTg0ODE4Njc2.T6wYxO9CeZdl_o2uh0Fd2AjrRxTJ4VKZnlj2PyiHMy4g.d9PlOKfKpQBnfZkpE_vpk6AFih_pPi1xOksoiIS3AI0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_276.png?type=w740",
+        "name": "천칭자리 왕관",
+        "firstChar": "ᄎ",
+        "option": [
+            "장비 ASPD +1%"
+        ],
+        "savePoint": [
+            "MaxHP +18"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "빨간 염료 15개",
+            "노란 염료 15개",
+            "초록 염료 15개",
+            "파란 염료 15개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfOTcg/MDAxNTMwMTg0ODI1MDg5.yV25PiVuOsTCL3rlyg8RQl4yGmLhMHm9eoy6OYPizjEg.RvfLI4yvHeT8WDurgzZdmIfOxRHFEwuPdAQbkuvNSCIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_277.png?type=w740",
+        "name": "전갈자리 왕관",
+        "firstChar": "ᄌ",
+        "option": [
+            "MATK +1",
+            "MaxHP +30"
+        ],
+        "savePoint": [
+            "MaxHP +18"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "빨간 염료 15개",
+            "노란 염료 15개",
+            "초록 염료 15개",
+            "파란 염료 15개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjcx/MDAxNTMwMTg0ODMyMjYz.kAlJZRdIvFksot88_lw03HiSZUcGZBOSt16e1Y8ZgJ4g.PTmtGQMJ12LkVZ79C2lC0mZlyYm3y31FHmF0D_5XCWgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_278.png?type=w740",
+        "name": "사수자리 왕관",
+        "firstChar": "ᄉ",
+        "option": [
+            "INT +1"
+        ],
+        "savePoint": [
+            "MaxHP +18"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "빨간 염료 15개",
+            "노란 염료 15개",
+            "초록 염료 15개",
+            "파란 염료 15개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjc0/MDAxNTMwMTg0ODQxMzEw.C0ZRy4MtAlxfNiclgEgnND84zbTZnOS4ZP16jGngYLQg.oRzqPvO5BGflBm6gP6T3ucgWlBN90CZVz-V6qa_z27Ug.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_279.png?type=w740",
+        "name": "염소자리 왕관",
+        "firstChar": "ᄋ",
+        "option": [
+            "장비 ASPD +1%"
+        ],
+        "savePoint": [
+            "MaxHP +18"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "빨간 염료 15개",
+            "노란 염료 15개",
+            "초록 염료 15개",
+            "파란 염료 15개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfODgg/MDAxNTMwMTg0ODQ4OTA3.f9AvhtG1ifQTOuk2sA2WijXetltBjlL_n8wxAyryeNcg.wJjx2DHzIqlVm-xLlKZ817lnl5YwhfW4tKLQLOAQwLsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_280.png?type=w740",
+        "name": "물병자리 왕관",
+        "firstChar": "ᄆ",
+        "option": [
+            "STR +1"
+        ],
+        "savePoint": [
+            "MaxHP +18"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "빨간 염료 15개",
+            "노란 염료 15개",
+            "초록 염료 15개",
+            "파란 염료 15개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTI4/MDAxNTMwMTg0ODU3OTQ2.8Q3jW6dkkE4HyHO6dEZiFduLUyF3C2OnPz9lMhkUroAg.uFh6hmB3ZHD_32Cf7EM2Oj7UmdQ51C6_uDN5jazo9NIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_281.png?type=w740",
+        "name": "물고기자리 왕관",
+        "firstChar": "ᄆ",
+        "option": [
+            "INT +1"
+        ],
+        "savePoint": [
+            "MaxHP +18"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "빨간 염료 15개",
+            "노란 염료 15개",
+            "초록 염료 15개",
+            "파란 염료 15개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTY0/MDAxNTMwMTg0ODY1ODQ4.jm6-XXSZ1MNjSNEA3vKNwK0L3TSw-W6BCxFVSV6QZMEg.SIDnAGGVnB1g4g31b8nOm1NoqYl59Zk1abyAv0Fy7Swg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_282.png?type=w740",
+        "name": "양자리 보관[1]",
+        "firstChar": "ᄋ",
+        "option": [
+            "LUK +3"
+        ],
+        "savePoint": [
+            "LUK +1"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "하얀 염료 8개",
+            "검은 염료 8개",
+            "보라 염료 10개",
+            "마스테라의 열매 1개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTAw/MDAxNTMwMTg0ODc1OTc4.9ucO-gwcMhkkMPUmwgm5eOqisSlHzQj__lkRtU0grY0g.v2NDEm9S72hdsUfw54PfnLzPfapRHOcJWzG72KN66zgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_283.png?type=w740",
+        "name": "황소자리 보관[1]",
+        "firstChar": "ᄒ",
+        "option": [
+            "VIT +3"
+        ],
+        "savePoint": [
+            "VIT +1"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "하얀 염료 8개",
+            "검은 염료 8개",
+            "보라 염료 10개",
+            "마스테라의 열매 1개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTg4/MDAxNTMwMTg0ODg0MDg1.Xoig4uy9XepYn6UulnTYf8nS5kHCbE1Sf2-5qVAwkaEg.wV7_D9szkZFRa8cZ2B0jk0DZTdvHbUvOxaStTeVjAxsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_284.png?type=w740",
+        "name": "쌍둥이자리 보관[1]",
+        "firstChar": "ᄊ",
+        "option": [
+            "AGI +3"
+        ],
+        "savePoint": [
+            "AGI +1"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "하얀 염료 8개",
+            "검은 염료 8개",
+            "보라 염료 10개",
+            "마스테라의 열매 1개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTU0/MDAxNTMwMTg0ODkxNDQx._GwyibKqG9DSVmemFIE8StYruvsOtsFOWVV9Yr9niIMg.YoBt_FqFwGkwzcKJCW2JkTxmyEwhX_HQz9Nrxzou58wg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_285.png?type=w740",
+        "name": "게자리 보관[1]",
+        "firstChar": "ᄀ",
+        "option": [
+            "STR +2",
+            "DEX +1"
+        ],
+        "savePoint": [
+            "MaxHP +70"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "하얀 염료 8개",
+            "검은 염료 8개",
+            "보라 염료 10개",
+            "마스테라의 열매 1개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTI2/MDAxNTMwMTg0ODk5MDQ4.4IKxAVep8YMborwRMxPdRJzyBUwC_1upijkpoYzupmAg.smIAq1ZRHATptK9dqeZa8sSncKxKdOCNX7SDrfMvKG4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_286.png?type=w740",
+        "name": "사자자리 보관[1]",
+        "firstChar": "ᄉ",
+        "option": [
+            "DEX +3"
+        ],
+        "savePoint": [
+            "DEX +1"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "하얀 염료 8개",
+            "검은 염료 8개",
+            "보라 염료 10개",
+            "마스테라의 열매 1개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjU0/MDAxNTMwMTg0OTA2OTcy.jYzLkLQQrdEa4rilmYTXRAgJBbJNuMnu3msd8jFmusQg.ynbvefB93Mk4Wwh1axqSjrGMHpAbtugrdNOG7LgMQkgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_287.png?type=w740",
+        "name": "처녀자리 보관[1]",
+        "firstChar": "ᄎ",
+        "option": [
+            "VIT +2",
+            "STR +1"
+        ],
+        "savePoint": [
+            "MaxHP +70"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "하얀 염료 8개",
+            "검은 염료 8개",
+            "보라 염료 10개",
+            "마스테라의 열매 1개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTA3/MDAxNTMwMTg0OTE0ODUx.sSO9zrMzWD6P8-qVMZ5RYfLLqQGKdTYTGJn31Vo_en4g.86NxWjcFmgt0rAUjONc3vIsj8KTD2R2P4J-BCheMqJsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_288.png?type=w740",
+        "name": "천칭자리 보관[1]",
+        "firstChar": "ᄎ",
+        "option": [
+            "AGI +2",
+            "LUK +1"
+        ],
+        "savePoint": [
+            "MaxHP +70"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "하얀 염료 8개",
+            "검은 염료 8개",
+            "보라 염료 10개",
+            "마스테라의 열매 1개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjEy/MDAxNTMwMTg0OTIxMzQ2.6EWDmMReu8-YcfjaggT1Gf6TWO1M_Fhpz22iAIl5_wMg.jO80QC3--XV93Z8sR9KZjQ6lTu3zBlgpQHTJ70yL4tEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_289.png?type=w740",
+        "name": "전갈자리 보관[1]",
+        "firstChar": "ᄌ",
+        "option": [
+            "INT +2",
+            "VIT +1"
+        ],
+        "savePoint": [
+            "MaxHP +70"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "하얀 염료 8개",
+            "검은 염료 8개",
+            "보라 염료 10개",
+            "마스테라의 열매 1개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTUw/MDAxNTMwMTg0OTI4OTg4.JZ2_6UqU02gUpm4oG3U1yw9Tzh1qp4PfwC_CcXL8tE8g.q8jqVkwPS18UdOaJcMocaZGul-oXAo9vfAk3gr23Y30g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_290.png?type=w740",
+        "name": "사수자리 보관[1]",
+        "firstChar": "ᄉ",
+        "option": [
+            "LUK +2",
+            "INT +1"
+        ],
+        "savePoint": [
+            "MaxHP +70"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "하얀 염료 8개",
+            "검은 염료 8개",
+            "보라 염료 10개",
+            "마스테라의 열매 1개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfOTYg/MDAxNTMwMTg0OTM3OTU5.8lmD6xCu4IRNlluFqHshtp0FbPbDArOUxh6egW8ick8g.HyNi7uGbButhlQ-Inp3zt6OeNSVdXn48O4GC5by2YRwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_291.png?type=w740",
+        "name": "염소자리 보관[1]",
+        "firstChar": "ᄋ",
+        "option": [
+            "DEX +2",
+            "AGI +1"
+        ],
+        "savePoint": [
+            "MaxHP +70"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "하얀 염료 8개",
+            "검은 염료 8개",
+            "보라 염료 10개",
+            "마스테라의 열매 1개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjEg/MDAxNTMwMTg0OTQ0OTM2.VRjnyUi4W5MxujuGwK8iiIwLsH3hJsa68lGe8tzbm7Qg.w5npGct46BbepztMjE-MBNC1oPbYQvWewHlBcIicih0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_292.png?type=w740",
+        "name": "물병자리 보관[1]",
+        "firstChar": "ᄆ",
+        "option": [
+            "STR +3"
+        ],
+        "savePoint": [
+            "STR +1"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "하얀 염료 8개",
+            "검은 염료 8개",
+            "보라 염료 10개",
+            "마스테라의 열매 1개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTY1/MDAxNTMwMTg0OTUyODQ4.Bm_AajveS0BAqUKZw7ZIrIy8RQPdSfJ_fXSXWTENNQ0g.xQDjIB_tSKEav1--g83Y-shllfwp3DytLg-FltrHke4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_293.png?type=w740",
+        "name": "물고기자리 보관[1]",
+        "firstChar": "ᄆ",
+        "option": [
+            "INT +3"
+        ],
+        "savePoint": [
+            "INT +1"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "하얀 염료 8개",
+            "검은 염료 8개",
+            "보라 염료 10개",
+            "마스테라의 열매 1개"
+        ]
+    }
+]

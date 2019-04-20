@@ -1,0 +1,83 @@
+[
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjM3/MDAxNTMwMTkyMTk5NDYx.-mF7Lv4cfoEzCApmU046wwEz7ITIjNt3NGywaiglP4Mg.Ygw2rXyLPF2vveSTKKGJ_Qm2m2P_gnkRGgNejmSY6W0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_245.png?type=w740",
+        "name": "금색 크리스마스 방울",
+        "firstChar": "ᄀ",
+        "option": [
+            "성속성 공격 +8%, \n받는 암속성",
+            "염속성",
+            "불사 속성",
+            "독속성 데미지 -10%"
+        ],
+        "savePoint": [
+            "ATK +10"
+        ],
+        "openPoint": [
+            "MATK +8"
+        ],
+        "recipe": [
+            "크리스탈 뼈 3000개",
+            "하티의 이빨 15개",
+            "시간 왜곡 버튼 15개",
+            "눈사람 550개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjkw/MDAxNTMwMTkyMjI0NjY3.aIZLYqWzsDXHdrbFHm0EMGjvO5BQzXs5uNbFRJr-MHMg.bNSk57pRpusKMy8eumhf4dMK114z0Ql3dy13nfC9WUEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_036.png?type=w740",
+        "name": "망자의 머리띠",
+        "firstChar": "ᄆ",
+        "option": [
+            "AGI +2",
+            "받는 암속성 데미지 -15%"
+        ],
+        "savePoint": [
+            "MaxHP +10"
+        ],
+        "openPoint": [
+            "ATK +4.5"
+        ],
+        "recipe": [
+            "망자의 유물 518개",
+            "썩은 붕대 647개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjI0/MDAxNTMwMTkyMjM1MDI3.JXYhc4PBHaxX3MAubfZIjiuZzJAC32l1WtP_nX8Su_kg.EAAfC3RLVs8T-opGJYudy5nIJ8yT7p3FGPZFVgc4dnwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_161.png?type=w740",
+        "name": "사신의 두건[1]",
+        "firstChar": "ᄉ",
+        "option": [
+            "불사형 몬스터의 스킬 공격을 받지 않는다. \n받는 불사 속성 데미지 -20%"
+        ],
+        "savePoint": [
+            "MaxHP +19"
+        ],
+        "openPoint": [
+            "MaxHP +32"
+        ],
+        "recipe": [
+            "성흥 1,103개",
+            "혜안 1,103개",
+            "뼈조각 118개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTUw/MDAxNTMwMTkyMjQ3MzI5.SruprRnpclu8CNAWvxKbHimBW6plOKZyXsVkELiyi78g.RvcraltDz2iqExs-ySP7uEM5LifqOkCpKnYIqmLC-Qog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_182.png?type=w740",
+        "name": "본헬름",
+        "firstChar": "ᄇ",
+        "option": [
+            "DEF +5",
+            "받는 암속성 데미지 -15%"
+        ],
+        "savePoint": [
+            "MaxHP +19"
+        ],
+        "openPoint": [
+            "ATK +3"
+        ],
+        "recipe": [
+            "비정한 마음 613개",
+            "혜안 735개",
+            "뼈조각 79개"
+        ]
+    }
+]

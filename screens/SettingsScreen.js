@@ -71,8 +71,7 @@ class SettingsScreen extends SqlUtil {
   }
 
   render() {
-    const { scrolling, itemIngredientPriceData } = this.state
-    const itemIngredients = this.state.itemIngredients || {}
+    const { scrolling, itemIngredientPriceData='', itemIngredients={} } = this.state
     const itemIngredientsList = Array.from(Object.keys(itemIngredients)).map((key)=>{
       return itemIngredients[key]
     })

@@ -1,0 +1,70 @@
+[
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjk0/MDAxNTMwMTk5NDgxNDkw.xUO0_8qv3OHJXarL2NVakaxlDpVE5CpLsWr5O332FuQg.j6T-7jSyrxnXAh7MUoDS4nOJDS06OXN2W5PhOIqnmXIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_292.png?type=w740",
+        "name": "물병자리 보관[1]",
+        "firstChar": "ᄆ",
+        "option": [
+            "STR +3"
+        ],
+        "savePoint": [
+            "STR +1"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "하얀 염료 8개",
+            "검은 염료 8개",
+            "보라 염료 10개",
+            "마스테라의 열매 1개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMzQg/MDAxNTMwMTk5NDk2MzY1.YJbQ81gsUuC68W6vPUs3s2MWcRl8OUwe7-uilxMqa2Ug.pJ1UHzZoN9OkkjZVAsM_2WY97ZwRkNw4yPrubwwaMKgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_064.png?type=w740",
+        "name": "드라이버밴드(Y)[1]",
+        "firstChar": "ᄃ",
+        "option": [
+            "STR +1",
+            "DEX +1",
+            "MDEF +10",
+            "STR 120 시 ATK +15",
+            "CRI +5"
+        ],
+        "savePoint": [
+            "MaxHP +19"
+        ],
+        "openPoint": [
+            "STR +1"
+        ],
+        "recipe": [
+            "유리구슬 1,283개",
+            "부품 1개",
+            "핏빛의 룬 1개",
+            "아메디스트 20개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjM4/MDAxNTMwMTk5NTE1NDM5.68FWW2TXyeyKwBT8kjG5M_-5lMxgLY7Mb2gaPtxfZ1kg.IhwzNRlxD8Y-02atMVe1OWSQtYQd516QqKA4HSUE9K4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_157.png?type=w740",
+        "name": "룬 서클릿[1]",
+        "firstChar": "ᄅ",
+        "option": [
+            "STR +2",
+            "INT +2",
+            "MDEF +10",
+            "STR 120 시 ATK +10",
+            "제련 ATK +10"
+        ],
+        "savePoint": [
+            "MaxHP +19"
+        ],
+        "openPoint": [
+            "STR +1"
+        ],
+        "recipe": [
+            "사이파 438개",
+            "수정으로 만든 거울 3개",
+            "장미석영 3개",
+            "사금 200개"
+        ]
+    }
+]

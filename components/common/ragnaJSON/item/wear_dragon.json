@@ -1,0 +1,419 @@
+[
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTE1/MDAxNTMwMTkzNDEzOTU0.JPiuO7OBHYy6cBg9PtvnWh2CBhLvmxS1fgSmYf1z1M4g.aEFLIvvGEJXMfn5bKw1P0jYIsEaLmt5dt64Bpg1r88Qg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_212.png?type=w740",
+        "name": "광대 마스크",
+        "firstChar": "ᄀ",
+        "option": [
+            "DEF +10",
+            "인간형에게 데미지 감소 +5%"
+        ],
+        "savePoint": [
+            "MaxHP +30"
+        ],
+        "openPoint": [
+            "MaxHP +30"
+        ],
+        "recipe": [
+            "얼음 조각 359개",
+            "얼음 심장 359개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTQ5/MDAxNTMwMTkzNDIyMzUw.O-Z4SdbUTVjuwzf9zDErpy_i_lJKYRQBDZfjY1GQy0cg.wikqtGw65YZuAE1ZOP6ZmgbUZJsFdSNhQ9xO2GDRs4kg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_227.png?type=w740",
+        "name": "한냐 가면",
+        "firstChar": "ᄒ",
+        "option": [
+            "인간형에게 대미지 추가 +3%",
+            "ATK +5"
+        ],
+        "savePoint": [
+            "MATK +4.5"
+        ],
+        "openPoint": [
+            "MaxHP +30"
+        ],
+        "recipe": [
+            "얼음 심장 503개",
+            "화려한 껍질 43개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNjIg/MDAxNTMwMTkzNDMzMDAy.TqlzEi6WlfjOu3kTn8XzFI0qX1dDujKeq8rEAGoyXwog.SVkkzIT3x3maoi4iGC3LfDm996Cu-IpG5omvqRh1Hfsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_232.png?type=w740",
+        "name": "시간의 바드",
+        "firstChar": "ᄉ",
+        "option": [
+            "STR +5",
+            "인간형에게 데미지 추가 + 5%",
+            "카타르 장착 시 ATK + 4%, \n1제련 당 [소닉 블로우] 데미지 + 1%"
+        ],
+        "savePoint": [
+            "인간형에게 데미지 추가 +1%"
+        ],
+        "openPoint": [
+            "MaxHP +21"
+        ],
+        "recipe": [
+            "시간의 결정 2479개",
+            "시계탑의 열쇠 15개",
+            "장미석영 15개",
+            "괘종시계 760개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjYw/MDAxNTMwMTkzNDQ2OTA0.L443TzT9u3ly-ds_G8-mndZUm59KakV8qYYSR6WWrCYg.ePVgp2lkvMQTcBybXB8kEj_jE-fLIEn9HL7orn2-ejUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_363.png?type=w740",
+        "name": "판다와 포링의 대나무[1]",
+        "firstChar": "ᄑ",
+        "option": [
+            "ATK +3%",
+            "인간형에게 데미지 추가 +5%"
+        ],
+        "savePoint": [
+            "MaxHP +120"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "2018.5월 뽑기"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTMx/MDAxNTMwMTkzNDU2NzI1.80IuyNstfLCwQB-cGhFfsjhBueH0kUQ2RsO5lffFZMkg.Y0mpGQDvmEq8-9bVStMUy4Sz90xt8Kcne22czfYlU3wg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_382.png?type=w740",
+        "name": "스팀라이더 가방",
+        "firstChar": "ᄉ",
+        "option": [
+            "가방 칸 +10",
+            "전체 능력 +1",
+            "인간형에게 데미지 추가 +2%"
+        ],
+        "savePoint": [
+            "파티원이 5명이 되면 자신의 HP 회복 +1",
+            "SP 회복 +1"
+        ],
+        "openPoint": [
+            "가방칸 +2"
+        ],
+        "recipe": [
+            "질콘 40개",
+            "석탄 200개",
+            "부품15개",
+            "셀 1094개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNTEg/MDAxNTMwMTkzNDY5ODc3.TxJIEKIRuNuZY-bto6UxYy0Qvp7YW7oaWOgV2vrehcwg.YeaWZxQqceiNpcKMOstXvYMsxsjuX4I6OE4isQ66fHEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_066.png?type=w740",
+        "name": "고블린족 가면",
+        "firstChar": "ᄀ",
+        "option": [
+            "DEF +5",
+            "인간형에게 데미지 감소 +5%"
+        ],
+        "savePoint": [
+            "MaxHP +10"
+        ],
+        "openPoint": [
+            "MATK +4.5"
+        ],
+        "recipe": [
+            "끈적끈적한 액체 483개",
+            "가렛 483개",
+            "철 26개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTM4/MDAxNTMwMTkzNDc4NzMy.kwS1_bMimPaWWfxMSduvUoo7RGd8IPIe_ZuwKGD7b4og.Kuq1hPWxdrrU72Em2zM0Jxo4hgoPHr0ZcLGbq8smLW4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_067.png?type=w740",
+        "name": "놀란눈 가면",
+        "firstChar": "ᄂ",
+        "option": [
+            "인간형에게 데미지 감소 +10%"
+        ],
+        "savePoint": [
+            "MaxHP +10"
+        ],
+        "openPoint": [
+            "ATK +3"
+        ],
+        "recipe": [
+            "망자의 유물 483개",
+            "끈적끈적한 액체 483개",
+            "철 26개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjcg/MDAxNTMwMTkzNDg3ODI3.UoJv8zpZZ7byKSr04kR3bw9TfLX2mqFk3DnvHWMf5bgg.UpEatm5kcmmHEQeoqRnNbxIYj-_AIc8wsWnsA2gLskEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_068.png?type=w740",
+        "name": "무표정 가면",
+        "firstChar": "ᄆ",
+        "option": [
+            "인간형에게 데미지 감소 +10%"
+        ],
+        "savePoint": [
+            "MaxHP +10"
+        ],
+        "openPoint": [
+            "ATK +3"
+        ],
+        "recipe": [
+            "망자의 유물 483개",
+            "끈적끈적한 액체 483개",
+            "철 26개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjY5/MDAxNTMwMTkzNDk1MTc3.TqCerRXT_H2v7m0v0SA5kpS83uOAR0aHdDeTqxrMpJgg.k7tvEOC2o0QI7fcH8b_Lkd_Cvo0BYd-vrMVOvObTdBog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_069.png?type=w740",
+        "name": "귀찮은 가면",
+        "firstChar": "ᄀ",
+        "option": [
+            "인간형에게 데미지 감소 +10%"
+        ],
+        "savePoint": [
+            "MaxHP +10"
+        ],
+        "openPoint": [
+            "ATK +3"
+        ],
+        "recipe": [
+            "망자의 유물 483개",
+            "끈적끈적한 액체 483개",
+            "철 26개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTkz/MDAxNTMwMTkzNTA0MTI2.EXx-OreRLDXZFO5HxqYW8sc-_PTZAN7zMxH4gYsTN3Yg.fqw7HZBZ_E93JFky4Gqak0jboJFBfrHC9gspwGeLdm8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_070.png?type=w740",
+        "name": "음흉한 가면",
+        "firstChar": "ᄋ",
+        "option": [
+            "인간형에게 데미지 감소 +10%"
+        ],
+        "savePoint": [
+            "MaxHP +10"
+        ],
+        "openPoint": [
+            "MaxHP +24"
+        ],
+        "recipe": [
+            "망자의 유물 483개",
+            "끈적끈적한 액체 483개",
+            "철 26개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjk3/MDAxNTMwMTkzNTExMDUy.SSl7RyTS1XwwzKUsAGAtW3E-fnqB9xQVVURwGzddcpsg.HTQ-iyyphO6kFAre7u9kaS8qG2lYSDLpPMDg_ecRHGUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_071.png?type=w740",
+        "name": "웃음의 가면",
+        "firstChar": "ᄋ",
+        "option": [
+            "인간형에게 데미지 감소 +10%"
+        ],
+        "savePoint": [
+            "MaxHP +10"
+        ],
+        "openPoint": [
+            "MaxHP +24"
+        ],
+        "recipe": [
+            "망자의 유물 483개",
+            "끈적끈적한 액체 483개",
+            "철 26개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjg5/MDAxNTMwMTkzNTE4MDIx.uVRlCRCdazyaJO0374s9NGqbWs61USZku9q97Q_IyKgg.Wye921wt7Rg5q-97zZEFCWeu-ntOUsO0iMI4aU4d0pcg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_072.png?type=w740",
+        "name": "사악한 가면",
+        "firstChar": "ᄉ",
+        "option": [
+            "인간형에게 데미지 감소 +10%"
+        ],
+        "savePoint": [
+            "MaxHP +10"
+        ],
+        "openPoint": [
+            "MaxHP +24"
+        ],
+        "recipe": [
+            "망자의 유물 483개",
+            "끈적끈적한 액체 483개",
+            "철 26개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjkz/MDAxNTMwMTkzNTI3OTk3.1LHSc-5vemqv-y9SitlVTg0kQIKAHS2_B-EdV0HXtUwg.XT4BtE6wI-IggWqRKEVVnei7EIddyPgeJ5D3xEFpoiQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_074.png?type=w740",
+        "name": "분노의 입",
+        "firstChar": "ᄇ",
+        "option": [
+            "변동 캐스팅 시간 -10%",
+            "인간형에게 데미지 감소 +5%,\n 1제련 당 인간형에게 데미지 감소 +1% 최대 +15%까지 증가"
+        ],
+        "savePoint": [
+            "MATK +10"
+        ],
+        "openPoint": [
+            "MDEF +5"
+        ],
+        "recipe": [
+            "불사의 심장 1,723개",
+            "빛의 알갱이 15개",
+            "오크의 손톱 18개",
+            "철 140개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMzAw/MDAxNTMwMTkzNTM2OTI3.9YmX8rACEjYyovTV4PXTqDAWy1UeNE3jlP79NsImfrgg.NscQgo_d8_FEF1vRYFIq2ZHwA-aKT5TDcbgB3Xplqesg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_075.png?type=w740",
+        "name": "고블린 리더 가면",
+        "firstChar": "ᄀ",
+        "option": [
+            "DEF -30",
+            "인간형에게 데미지 감소 +30%"
+        ],
+        "savePoint": [
+            "MaxHP +10"
+        ],
+        "openPoint": [
+            "MaxHP +55"
+        ],
+        "recipe": [
+            "끈적끈적한 액체 863개",
+            "셀 663개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfODgg/MDAxNTMwMTkzNTQ4NDAx._tPWkNDR_CgoO4J2TG0mniNw6fIYNazctNy_UQ9aVFIg.oRq8rScpYjM1eWdmT8FcNzVcSig_fQop8o67MgTEFFQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_108.png?type=w740",
+        "name": "베레모",
+        "firstChar": "ᄇ",
+        "option": [
+            "DEF +5",
+            "인간형에게 데미지 감소 +10%"
+        ],
+        "savePoint": [
+            "MaxHP +19"
+        ],
+        "openPoint": [
+            "인간형 몬스터 데미지 감소 +4%"
+        ],
+        "recipe": [
+            "단단한 껍질 848개",
+            "가렛 1,103개",
+            "사금 30개",
+            "초록 염료 9개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNjUg/MDAxNTMwMTkzNTU2NTM1.cWytqhr2hxsi--x2AekttU5JfZKQwUh9SFM6hqs62Vkg.QHcE0UNwTLMqMFaoziO81mnKaoryTSaD4Ro0zw31hdQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_110.png?type=w740",
+        "name": "쇠못 마스크",
+        "firstChar": "ᄉ",
+        "option": [
+            "DEF +5",
+            "VIT +2",
+            "인간형에게 데미지 추가 +5%,\n 인간형에게 데미지 감소 +5%"
+        ],
+        "savePoint": [
+            "MaxHP +19"
+        ],
+        "openPoint": [
+            "MATK +14"
+        ],
+        "recipe": [
+            "유리구슬 1,283개",
+            "핏빛의 룬 1개",
+            "부품 1개",
+            "아메디스트 20개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjYx/MDAxNTMwMTkzNTYzOTIw.f3x3eweCCA6P6hucJMBS8xWr16q-4g7KtKgf8a6kJpwg.uSMVMbi9NztQfzrk1QJxB7WfdbzcGQ-ccfT-iRm3JNsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_117.png?type=w740",
+        "name": "거시기",
+        "firstChar": "ᄀ",
+        "option": [
+            "인간형에게 데미지 감소 +10%"
+        ],
+        "savePoint": [
+            "ATK +6"
+        ],
+        "openPoint": [
+            "MDEF +3"
+        ],
+        "recipe": [
+            "셀 557개",
+            "가렛 725개",
+            "꿀 21개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTQ5/MDAxNTMwMTkzNTc0NTA3.cz36b8B12c6pTs94cZpnXBtJKTEbMTi2oS5ZEQtwYoIg.xwMBKrzt7jsX_7ZFlEoE1B4bwMXgGH-nnREFzg9tt3Eg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_123.png?type=w740",
+        "name": "깃털베레모[1]",
+        "firstChar": "ᄀ",
+        "option": [
+            "DEF +10",
+            "MDEF +5",
+            "인간형에게 데미지 감소 +10%"
+        ],
+        "savePoint": [
+            "MaxHP +19"
+        ],
+        "openPoint": [
+            "MaxHP +64"
+        ],
+        "recipe": [
+            "자르곤 1,673개",
+            "부드러운 깃털 4개",
+            "단단한 껍질 2,060개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMzYg/MDAxNTMwMTkzNTkwNjU5.EnD7sgA7uqLT1WaYyOOelLWPQHayduJaJYII_bIy2_0g.D8SFALKsq_fNRnFvserz__uBK45i1W34Z_EdXEE1UzMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_176.png?type=w740",
+        "name": "하키 마스크",
+        "firstChar": "ᄒ",
+        "option": [
+            "인간형에게 데미지 추가 +10%",
+            "인간형에게 데미지 감소 +10%"
+        ],
+        "savePoint": [
+            "MaxHP +10"
+        ],
+        "openPoint": [
+            "ATK +3"
+        ],
+        "recipe": [
+            "브리간 345개",
+            "수정으로 만든 거울 5개",
+            "핏빛의 룬 6개",
+            "강철 200개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTQg/MDAxNTMwMTkzNTk4Nzc3.h_1ktlQYYldr1Ethw0FLhfbUPu_TX-TlCzdb55Ih4LQg.p9WKeoPwKp3KnkpLIr-3db-OKFTBEHTkMw4gtXrZArQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_189.png?type=w740",
+        "name": "나비 가면",
+        "firstChar": "ᄂ",
+        "option": [
+            "인간형에게 데미지 추가 +8%"
+        ],
+        "savePoint": [
+            "MaxHP +19"
+        ],
+        "openPoint": [
+            "인간형 몬스터 데미지 추가 +1%"
+        ],
+        "recipe": [
+            "심연의 꽃 525개",
+            "장미석영 12개",
+            "수정으로 만든 거울 7개",
+            "철 400개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNTEg/MDAxNTMwMTkzNjA5OTY5.LxeYUR45SbiKazidcXuHZ3UPDBMJJ5LfOhBJNVO2xlUg.SMUtqyH59Re05A4XLXM6KZTxhkAGFGEtjwgAIVyzsyMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_209.png?type=w740",
+        "name": "거짓말쟁이의 코",
+        "firstChar": "ᄀ",
+        "option": [
+            "인간형에게 데미지 추가 +5%"
+        ],
+        "savePoint": [
+            "ATK +3"
+        ],
+        "openPoint": [
+            "MaxHP +30"
+        ],
+        "recipe": [
+            "얼음 조각 359개",
+            "선물 포장지 359개"
+        ]
+    }
+]

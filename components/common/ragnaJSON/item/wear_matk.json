@@ -1,0 +1,190 @@
+[
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjAy/MDAxNTMwMTk3MzQ0NzM4.-KZUKJcI8_YakT_UmtOUE5gtdcwP9FWyJQXBWqXPYJ8g.11yb7bMndiL_vVhb2lWNXW4snxNnMFLDtlado-Wa6Ysg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_085.png?type=w740",
+        "name": "천사의 팬텀",
+        "firstChar": "ᄎ",
+        "option": [
+            "ATK +4%",
+            "MATK +4%"
+        ],
+        "savePoint": [
+            "MaxHP +19"
+        ],
+        "openPoint": [
+            "MATK +14"
+        ],
+        "recipe": [
+            "악마의 뿔 1,283개",
+            "별의 모서리 1개",
+            "진주 1개",
+            "토파즈 20개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjE0/MDAxNTMwMTk3MzU1MjM5.7lImiQ5_6zshwH0m2CZ7s7bryAuoJz5nHUK4Bd6WZT0g.ziJcSPBSCWdk9aWzdmX53BN3Kaq_68PSEHBacZ0Fx_Yg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_094.png?type=w740",
+        "name": "요정의 귀",
+        "firstChar": "ᄋ",
+        "option": [
+            "INT +2",
+            "MATK +5%"
+        ],
+        "savePoint": [
+            "MATK +8"
+        ],
+        "openPoint": [
+            "MaxHP +97"
+        ],
+        "recipe": [
+            "불사의 심장 1,077개",
+            "단단한 껍질 1,077개",
+            "마스테라의 열매 14개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjM4/MDAxNTMwMTk3MzY3ODA3.QF98lUgh-pQdbFcUyIeACeLEPorvF-urYZIll72Jd24g._DallAqU0Cy2Suq-qxDZlTb_-jHakdseTbdKBMOPNUIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_168.png?type=w740",
+        "name": "외눈 안경",
+        "firstChar": "ᄋ",
+        "option": [
+            "MATK +5%",
+            "1제련 당 MATK +1% 획득",
+            "최대 +15%까지 증가"
+        ],
+        "savePoint": [
+            "MATK +10"
+        ],
+        "openPoint": [
+            "MATK +4.5"
+        ],
+        "recipe": [
+            "사이파 1.050개",
+            "수정으로 만든 거울 10개",
+            "부품 10개",
+            "수은 200개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMyAg/MDAxNTMwMTk3Mzc5ODIz.0RaL26h8LjpVeGzpDkarhqQYo9JSSLXeltdxQpD6bGQg.dQJ1v4fYui2uBiVVScxJ3HFGIPbLQ3DfY5L4-2Y2tjMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_178.png?type=w740",
+        "name": "수녀의 모자[1]",
+        "firstChar": "ᄉ",
+        "option": [
+            "MaxSP +100",
+            "마법 데미지 +5%"
+        ],
+        "savePoint": [
+            "제련 MATK +10"
+        ],
+        "openPoint": [
+            "MATK +4"
+        ],
+        "recipe": [
+            "심연의 꽃 1,488개",
+            "투명한 천조각 15개",
+            "리본 끈 12개",
+            "성흔 1,785개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTY1/MDAxNTMwMTk3Mzk1Mjg1.XbLC1-3pbMhIi79EhPdrBpwgovXE7I1hpXk4rWylsbwg.rGbZdYUb0kHkDYL8Ku8gFUY0DdSP7bli6XJI1iTURw4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_191.png?type=w740",
+        "name": "히드라",
+        "firstChar": "ᄒ",
+        "option": [
+            "INT +8",
+            "MATK +15"
+        ],
+        "savePoint": [
+            "제련 MATK +10"
+        ],
+        "openPoint": [
+            "MATK +8"
+        ],
+        "recipe": [
+            "사이파 2,479개",
+            "흑운모 22개",
+            "드래곤의 비늘 15개",
+            "마스테라의 열매 20개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNyAg/MDAxNTMwMTk3NDE2MTM4.4uydR5EnGRm-tTUDUv4ZStfdYkxvtSaU0NlVuCbfYMgg.FhNUuhMTBjAPuTE0RVG7ZucqswACtKLxVWOpcAxICkkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_217.png?type=w740",
+        "name": "동백 머리띠[1]",
+        "firstChar": "ᄃ",
+        "option": [
+            "MaxSP +50",
+            "MATK +5"
+        ],
+        "savePoint": [
+            "MaxHP +18"
+        ],
+        "openPoint": [
+            "MaxHP +6"
+        ],
+        "recipe": [
+            "마녀의 별모래 204개",
+            "리본 끈 2개",
+            "심연의 꽃 407개",
+            "마스테라의 열매 1개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjYx/MDAxNTMwMTk3NDIzNTIx.IoYBYnPl5NcJY3R5VFc5yNr5lvIdvuN9BR0pEnozYnAg.v8Rl2-0y-BYJgd8k_GcV6iVuVXt8dfgcYSgy5AZgg9Ag.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_222.png?type=w740",
+        "name": "사만바이아[1]",
+        "firstChar": "ᄉ",
+        "option": [
+            "ATK +10",
+            "MATK +10",
+            "장비ASPD +2%",
+            "받는 치유량 +2%"
+        ],
+        "savePoint": [
+            "MaxHP +60"
+        ],
+        "openPoint": [
+            "ATK +8"
+        ],
+        "recipe": [
+            "선물 포장지 930개",
+            "네잎 클로버 6개",
+            "끈적끈적한 액체 1200개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjg2/MDAxNTMwMTk3NDM4OTcx.I9uCpi_MFWZUNWiUdsI6LXBfhEOUtC14aeVm6qCPLDUg.FoktPrw7uKtfwib27ry--5_jmGG6cy7lB_AHRtUr1kkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_228.png?type=w740",
+        "name": "여우왕의 미소[1]",
+        "firstChar": "ᄋ",
+        "option": [
+            "MATK +10",
+            "MaxSP + 100"
+        ],
+        "savePoint": [
+            "MaxHP +30"
+        ],
+        "openPoint": [
+            "ATK +4.5"
+        ],
+        "recipe": [
+            "선물 포장지 305개",
+            "얼음 가루 2개",
+            "마녀의 별모래 305개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjcg/MDAxNTMwMTk3NDU0NjA4.oFV7UHvsro7xUFf62ppGG92406I__Z-edtQwXh1CwqQg.JEE0_iE1L4MrBqjLQtkoQYROtc2P07UHELSdViOJ7p0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_233.png?type=w740",
+        "name": "시간 통찰",
+        "firstChar": "ᄉ",
+        "option": [
+            "MaxSP +50",
+            "제련 MATK +5"
+        ],
+        "savePoint": [
+            "MaxHP +21"
+        ],
+        "openPoint": [
+            "MaxHP +7"
+        ],
+        "recipe": [
+            "시간의 결정 240개",
+            "사이파 479개",
+            "크리스탈 뼈 240개"
+        ]
+    }
+]

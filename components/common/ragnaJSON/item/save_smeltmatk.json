@@ -1,0 +1,66 @@
+[
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMzkg/MDAxNTMwMjAwNDYxNDAy.-I9z_tM0UgZlMleXlBQJLlkEx5WxtbpKH6TPkdoHjiYg.Q-zrQ0h4TuL7uJk7YUWCaKVse6MqWLBdDw4XxK0XtRkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_061.png?type=w740",
+        "name": "마법사의 모자[1]",
+        "firstChar": "ᄆ",
+        "option": [
+            "DEF +5",
+            "INT +2",
+            "MaxSP +150"
+        ],
+        "savePoint": [
+            "제련 MATK +8"
+        ],
+        "openPoint": [
+            "MaxHP +64"
+        ],
+        "recipe": [
+            "자르곤 1,283개",
+            "저주받은 루비 1개",
+            "빛의 알갱이 1개",
+            "오크워리어 증표 20개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTU3/MDAxNTMwMjAwNDgyMTcw.tRcu0Cb9-YQZP3d8kfaHZBPWkWQ35pNKkE0OwVJlzMYg.U61Kj1fVFyEfFytbi_DLaB4jKlREDYRNVrVM4BJomXsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_178.png?type=w740",
+        "name": "수녀의 모자[1]",
+        "firstChar": "ᄉ",
+        "option": [
+            "MaxSP +100",
+            "마법 데미지 +5%"
+        ],
+        "savePoint": [
+            "제련 MATK +10"
+        ],
+        "openPoint": [
+            "MATK +4"
+        ],
+        "recipe": [
+            "심연의 꽃 1,488개",
+            "투명한 천조각 15개",
+            "리본 끈 12개",
+            "성흔 1,785개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTc2/MDAxNTMwMjAwNDkwMDgx.iea0hUKp-0yx_SBXCqWX5VX7891rhao9zCq8EedO8cYg.twxKhAXR9q3r23HFJYo1wZQuGkwr71kW_wxP8iO2MJMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_191.png?type=w740",
+        "name": "히드라",
+        "firstChar": "ᄒ",
+        "option": [
+            "INT +8",
+            "MATK +15"
+        ],
+        "savePoint": [
+            "제련 MATK +10"
+        ],
+        "openPoint": [
+            "MATK +8"
+        ],
+        "recipe": [
+            "사이파 2,479개",
+            "흑운모 22개",
+            "드래곤의 비늘 15개",
+            "마스테라의 열매 20개"
+        ]
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTk3/MDAxNTMwMTkxMzQzMzc2.LYBE_3ZNhdKyTzxZMChJ6WzhAFf0jIfv0uXgSEKgOFgg.dvuEQgcVYaklvFHKpl0TadCz_xDY6ZS16CAMJ-Cwsz8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_149.png?type=w740",
+        "name": "쁘띠의 꼬리",
+        "firstChar": "ᄈ",
+        "option": [
+            "이동속도 +5%",
+            "용족 몬스터로부터 스킬 공격을 받지 않는다"
+        ],
+        "savePoint": [
+            "MaxHP +19"
+        ],
+        "openPoint": [
+            "MATK +4.5"
+        ],
+        "recipe": [
+            "성흔 744개",
+            "드래곤의 비늘 3개",
+            "브리간 744개",
+            "불사의 심장 1,144개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTkx/MDAxNTMwMTkxMzU1Mjkx.TYLFrEmgkhM3r1EipHLhnu2JyNfTyIZ17yO6xdI5UvYg.1QDYVwjlNT3PZBvv_zuwjqIPAOR5ddozcleYZYD9SG8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_241.png?type=w740",
+        "name": "햄스터 나팔수",
+        "firstChar": "ᄒ",
+        "option": [
+            "AGI +2",
+            "이동속도 +2%"
+        ],
+        "savePoint": [
+            "MaxHP +30"
+        ],
+        "openPoint": [
+            "ATK +3"
+        ],
+        "recipe": [
+            "얼음 조각 359개",
+            "크리스탈 뼈 359개",
+            "눈사람 50개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNSAg/MDAxNTMwMTkxNDM1Mzkx.JqJd0K56aF_fog_4MsDhzkXtGn5QIgyzWIOE6QCHxmgg.q7X_kIu4WaCqYqIx3ZvG8lvlYbw5HhELqH8CcUz9iQ0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_313.png?type=w740",
+        "name": "기관차 모자",
+        "firstChar": "ᄀ",
+        "option": [
+            "LUK +2",
+            "이동속도 +3%"
+        ],
+        "savePoint": [
+            "MaxHP +30"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "2018.5월 한정 특전 구매"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNzAg/MDAxNTMwMTkxNDQ1OTIx.ryf_vpzfMzy-IMRfnxf1uQAr9jazziV9-ATteeDFx94g.GKh59HnjfWuh_iFmCRbSGEDeQ12v8f8r_ZbFQPhepGwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_361.png?type=w740",
+        "name": "늦었어요[1]",
+        "firstChar": "ᄂ",
+        "option": [
+            "FLEE +5",
+            "이동속도 +3%"
+        ],
+        "savePoint": [
+            "ATK +4",
+            "MATK+4"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "2018.4월 뽑기"
+        ]
+    }
+]

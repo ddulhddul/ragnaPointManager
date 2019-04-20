@@ -1,0 +1,402 @@
+[
+    {
+        "imageSrc": "https: //cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjMz/MDAxNTMwMTk5NzQ3MDg2.E59RTdX3zdHwHAgaSoLvLbFuseV5kDMNKsaXCwqZVJUg.vGnHvQWTM1cJbh0bNOlf_g7s6svDYnlBM6Xown-0RwYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_008.png?type=w740",
+        "name": "스마일 가면",
+        "firstChar": "ᄉ",
+        "option": [
+            "DEF +5"
+        ],
+        "savePoint": [
+            "MaxHP +10"
+        ],
+        "openPoint": [
+            "MDEF +2"
+        ],
+        "recipe": [
+            "젤로피 693개",
+            "철 15개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTQ2/MDAxNTMwMTk5NzU1ODYx.VYNmXG4lg_8mN08GHGyQZU784PJ85EGGKaUJKspUlmUg.NS_6gcAkANuPWvxD2neUwc3d5yNJPRgCyAj-SDYTTFwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_012.png?type=w740",
+        "name": "꽃 머리띠",
+        "firstChar": "ᄁ",
+        "option": [
+            "DEF +10"
+        ],
+        "savePoint": [
+            "MaxHP +10"
+        ],
+        "openPoint": [
+            "MDEF +3"
+        ],
+        "recipe": [
+            "망자의 유물 423개",
+            "끈적끈적한 액체 423개",
+            "꿀 1개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjI5/MDAxNTMwMTk5NzY3NzI4.suGu58aMIAHV4RWwuoCBFnjVqys-SVFhG-8R-jilY58g.vAjOA0Jh9i_yPhirTb9XCjo91sqnWEO93JLBsfN7LcMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_019.png?type=w740",
+        "name": "천사의 머리띠",
+        "firstChar": "ᄎ",
+        "option": [
+            "AGI +2",
+            "LUK +5",
+            "악마형 몬스터로부터 받은 데미지 -10% \n10제련 이상 시 MDEF +25"
+        ],
+        "savePoint": [
+            "MaxHP +28"
+        ],
+        "openPoint": [
+            "MDEF +5"
+        ],
+        "recipe": [
+            "가렛 2240개",
+            "빛의 알갱이 15개",
+            "부드러운 깃털 13개",
+            "하얀 염료 4개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTEg/MDAxNTMwMTk5Nzc4NjQ4.s1LgT7uG48BR7b-HEoSZaPGt0bwTPwO3Yi1-kPXMsrgg.QcfqXNe7cekOUP5hyQKBsDzF-PH8IWrRqQ3fwoO1Jfwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_023.png?type=w740",
+        "name": "골든 헤드기어",
+        "firstChar": "ᄀ",
+        "option": [
+            "DEF +20 10제련 이상 시 DEF +10%"
+        ],
+        "savePoint": [
+            "MaxHP +28"
+        ],
+        "openPoint": [
+            "MDEF +5"
+        ],
+        "recipe": [
+            "끈적끈적한 액체 1,400개",
+            "별의 모서리 9개",
+            "부품 10개",
+            "강철 88개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTA0/MDAxNTMwMTk5NzkwNTcz.kN0rkJVyeUTnHW-KZM9SlpWZw5ldNOEh65yJedqY0mYg.ZMj6uMTRDlvdsg9HF7I0Xoiq_aDfkRuqkO_LaP-oV_kg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_028.png?type=w740",
+        "name": "장식용 꽃",
+        "firstChar": "ᄌ",
+        "option": [
+            "식물형 데미지 감소 +10%"
+        ],
+        "savePoint": [
+            "MaxHP +10"
+        ],
+        "openPoint": [
+            "MDEF +3"
+        ],
+        "recipe": [
+            "젤로피 1,380개",
+            "만드라 15개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjE2/MDAxNTMwMTk5Nzk4OTIw.QAJcOIBbutmB7FbL-nQk4sQkkh2jstSOHNbjQEIr_SYg.iAsbikKpxoJaLAQNfP7iLXW4YnBJuCAiYPA3Ijh7rM0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_031.png?type=w740",
+        "name": "악마의 머리띠",
+        "firstChar": "ᄋ",
+        "option": [
+            "STR +3",
+            "MDEF +10 10제련 이상 시 DEF +10%"
+        ],
+        "savePoint": [
+            "제련 ATK +10"
+        ],
+        "openPoint": [
+            "MDEF +5"
+        ],
+        "recipe": [
+            "망자의 유물 2,240개",
+            "빛의 알갱이 15개",
+            "부드러운 깃털 13개",
+            "검은 염료 4개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTI5/MDAxNTMwMTk5ODA4MTAw.W_uBz_c1gQmm5r9csxTz2ZDpIs9eKLJGz9KQ9TsZ76kg.XDi9xW1G7agUa0Lo8BXMAIliJjxzmW42SlEiY05UQRYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_041.png?type=w740",
+        "name": "입에 문 물고기",
+        "firstChar": "ᄋ",
+        "option": [
+            "어패류 몬스터 처치 시 캐릭터 레벨에 따라 일정 범위 내 HP 회복"
+        ],
+        "savePoint": [
+            "MaxHP +19"
+        ],
+        "openPoint": [
+            "MDEF +4"
+        ],
+        "recipe": [
+            "썩은 붕대 1,148개",
+            "끈적끈적한 액체 919개",
+            "꿀 5개",
+            "파란 염료 8개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjgw/MDAxNTMwMTk5ODMwODgy.auX0sPNcmRISqiSAHhc78_phSuSETMVV6hKpQwxL50Ag.ujKWhzdOrElPE71ei_FqJCKnAoC_wox5wvzADj_7eUgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_074.png?type=w740",
+        "name": "분노의 입",
+        "firstChar": "ᄇ",
+        "option": [
+            "변동 캐스팅 시간 -10%",
+            "인간형에게 데미지 감소 +5%, \n1제련 당 인간형에게 데미지 감소 +1% 최대 +15%까지 증가"
+        ],
+        "savePoint": [
+            "MATK +10"
+        ],
+        "openPoint": [
+            "MDEF +5"
+        ],
+        "recipe": [
+            "불사의 심장 1,723개",
+            "빛의 알갱이 15개",
+            "오크의 손톱 18개",
+            "철 140개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTc2/MDAxNTMwMTk5ODQyMTI1.f8wCtrY3jUVA7qjNktk0qnmjuzBPaSsZiTcMDc232dIg.2-1izkz4LyW01nak-a-4iw8E0m12a4oldDr0gOHNyagg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_076.png?type=w740",
+        "name": "베고니아 헤어핀",
+        "firstChar": "ᄇ",
+        "option": [
+            "DEX +1",
+            "INT +1",
+            "MDEF +5"
+        ],
+        "savePoint": [
+            "MATK +6"
+        ],
+        "openPoint": [
+            "MDEF +3"
+        ],
+        "recipe": [
+            "가렛 785개",
+            "끈적끈적한 액체 785개",
+            "빨간 염료 13개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTQ0/MDAxNTMwMTk5ODUwMjM5.rGM-4jUZbZxyWE8sXU9TJO37OjYmtQeNwBdlCpPeC8og.TAaTt8flN-ZXCM0a9ZycF5yrZ3E68zRQFJNXTEqh2zQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_077.png?type=w740",
+        "name": "나비의 날개 귀",
+        "firstChar": "ᄂ",
+        "option": [
+            "DEF +15"
+        ],
+        "savePoint": [
+            "MaxHP +19"
+        ],
+        "openPoint": [
+            "MDEF +4"
+        ],
+        "recipe": [
+            "셀 1,373개",
+            "부드러운 깃털 2개",
+            "부드러운 털 2,231개",
+            "질콘 20개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjI0/MDAxNTMwMTk5ODU4NTc0.UV3JmCwcpkAZ0t9C8UT_j3rmX9mKleOqinp1CjGBaXIg.Vojhw4zbrZ9R2_ZoNL13ryGNg9xboBOCKml9fEKcBU4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_091.png?type=w740",
+        "name": "페코페코의 날개",
+        "firstChar": "ᄑ",
+        "option": [
+            "DEF +5",
+            "AGI +2",
+            "MDEF +10"
+        ],
+        "savePoint": [
+            "MaxHP +19"
+        ],
+        "openPoint": [
+            "MDEF +4"
+        ],
+        "recipe": [
+            "불사의 심장 1,373개",
+            "부드러운 깃털 2개",
+            "단단한 껍질 1,373개",
+            "질콘 20개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNDQg/MDAxNTMwMTk5ODY4MTg5.RSNGs_hnZjf6eOlCB1mZB8S72Ds41tM1AbXcV8VcAf8g.5ZqCGuo2cDWwzO0kyqFaIYahO4EiGRhl0YC51mmvfxIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_096.png?type=w740",
+        "name": "여왕의 머리장식",
+        "firstChar": "ᄋ",
+        "option": [
+            "DEF +10"
+        ],
+        "savePoint": [
+            "MaxHP +10"
+        ],
+        "openPoint": [
+            "MDEF +2"
+        ],
+        "recipe": [
+            "불사의 심장 796개",
+            "셀 796개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfOTcg/MDAxNTMwMTk5ODc1MTQ1.2SRt7APDBlYBDz3kfoPPP1e61S_0ln_DCXoaWA0JTWsg.N7mrr6cQX0qfDBtFrmPmVcMKi99s3H2Ob_g4ehv29SAg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_100.png?type=w740",
+        "name": "열혈머리띠",
+        "firstChar": "ᄋ",
+        "option": [
+            "DEF +5",
+            "STR +2"
+        ],
+        "savePoint": [
+            "ATK +6"
+        ],
+        "openPoint": [
+            "MDEF +2"
+        ],
+        "recipe": [
+            "썩은 붕대 679개",
+            "부드러운 털 679개",
+            "하얀 염료 1개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNDAg/MDAxNTMwMTk5ODgyODEw.eOm2Qzt7IIVl5yB7Uw3B9tWClyzufXmMiJKO54iCp2wg.rwmHGuEYFBl0u2-1iKs1Fe1ojOnf8y-zPBu0HboB1-sg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_101.png?type=w740",
+        "name": "고대여왕의 왕관",
+        "firstChar": "ᄀ",
+        "option": [
+            "DEF +15"
+        ],
+        "savePoint": [
+            "MaxHP +19"
+        ],
+        "openPoint": [
+            "MDEF +4"
+        ],
+        "recipe": [
+            "망자의 유물 1,785개",
+            "진주 2개",
+            "셀 1,373개",
+            "토파즈 20개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTkw/MDAxNTMwMTk5ODkxMDc2.r1zoEtlV4zMHOr_vQkWr2dmjWT4yYUv5sq3Buy74XH4g.95cBpnCDzdRfcYO72e3h5Ef8HpP_aFbHgbS_w7du8Q4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_117.png?type=w740",
+        "name": "거시기",
+        "firstChar": "ᄀ",
+        "option": [
+            "인간형에게 데미지 감소 +10%"
+        ],
+        "savePoint": [
+            "ATK +6"
+        ],
+        "openPoint": [
+            "MDEF +3"
+        ],
+        "recipe": [
+            "셀 557개",
+            "가렛 725개",
+            "꿀 21개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMzcg/MDAxNTMwMTk5OTAwMzIy.AVxasWbYLCB65Dg14A_sdKFZphqCYQ_TgS8B4QYSy_gg.hl7WM9MIFJW3k1ChygdwTq-U7fnjDK9lBROp9YJshlAg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_121.png?type=w740",
+        "name": "도끼눈",
+        "firstChar": "ᄃ",
+        "option": [
+            "DEF +10"
+        ],
+        "savePoint": [
+            "MaxHP +10"
+        ],
+        "openPoint": [
+            "MDEF +2"
+        ],
+        "recipe": [
+            "가렛 725개",
+            "끈적끈적한 액체 725개",
+            "하얀 염료 1개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjI0/MDAxNTMwMTk5OTE1MTgw.Bx6w6IF_o4rUq3T41ll9eq2iMUTxOb55uQFzq5MGh9Ug.j9zJCEVJrlhAE3q2vkWtAayeKwu0Go3ja2JeWkDE_jwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_122.png?type=w740",
+        "name": "심지",
+        "firstChar": "ᄉ",
+        "option": [
+            "DEF +10"
+        ],
+        "savePoint": [
+            "MaxHP +10"
+        ],
+        "openPoint": [
+            "MDEF +3"
+        ],
+        "recipe": [
+            "썩은 붕대 906개",
+            "셀 557개",
+            "석탄 39개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjI2/MDAxNTMwMTk5OTI1MTcy.YQGnL5f0y_xaJEVjufqQfXFzmiHMbpybL_LiBWVd69cg.Bos6s0YXvsXJsYkPU-Gg8HJ_ikEtYPFHU3k9zZhQxT8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_194.png?type=w740",
+        "name": "암흑의 투구",
+        "firstChar": "ᄋ",
+        "option": [
+            "VIT +2",
+            "1제련 당 MDEF +1% 획득",
+            "최대 +15%까지 증가"
+        ],
+        "savePoint": [
+            "MaxHP +10"
+        ],
+        "openPoint": [
+            "MDEF +1"
+        ],
+        "recipe": [
+            "사이파 503개",
+            "브리간 604개",
+            "보라 염료 2개",
+            "갑옷 조각 32개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTI4/MDAxNTMwMTk5OTM1MTU5.Cngyx4NGohHZopO6wE1Aq77XtG3wRCLNX0hUDGrtmMkg.FW2i11AKPiQIygIXXnhjG10SA1sDgjUCu195RkePv74g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_197.png?type=w740",
+        "name": "이블본후드",
+        "firstChar": "ᄋ",
+        "option": [
+            "MDEF +10"
+        ],
+        "savePoint": [
+            "MaxHP +10"
+        ],
+        "openPoint": [
+            "MDEF +1"
+        ],
+        "recipe": [
+            "비정한 마음 503개",
+            "혜안 604개",
+            "파란 염료 10개",
+            "뼈조각 32개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjE1/MDAxNTMwMTk5OTQ0MzY3.3xgy0awkECCMHfapYGS6k2745d9zq95siYFyIFKH7vsg.880FXyuxyzWBAUufiRUGxzPaj3FBoc4ymuvBlnarUhsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_215.png?type=w740",
+        "name": "빙설 낙인",
+        "firstChar": "ᄇ",
+        "option": [
+            "수속성 공격 +10%",
+            "15초마다 주변 2미터의 적은 동빙 상태에 빠짐"
+        ],
+        "savePoint": [
+            "MDEF +3"
+        ],
+        "openPoint": [
+            "MATK +8"
+        ],
+        "recipe": [
+            "얼음 조각 2,958개",
+            "하티의 이빨 15개",
+            "얼음 가루 15개",
+            "구멍난 빨간 양말 25개"
+        ]
+    }
+]

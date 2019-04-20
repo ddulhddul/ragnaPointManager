@@ -4,49 +4,17 @@
         "name": "낙원단 가방",
         "firstChar": "ᄂ",
         "option": [
-            {
-                "name": "HIT",
-                "number": 5,
-                "unit": "",
-                "origin": "HIT +5"
-            }
+            "HIT + 5"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 6,
-                "unit": "",
-                "origin": "ATK +6"
-            }
+            "ATK +6"
         ],
         "openPoint": [
-            {
-                "name": "DEF",
-                "number": 2,
-                "unit": "",
-                "origin": "DEF +2"
-            }
+            "DEF +2"
         ],
         "recipe": [
-            {
-                "name": "썩은 붕대",
-                "number": 275,
-                "unit": "개",
-                "origin": "썩은 붕대 275개"
-            },
-            {
-                "name": "젤로피",
-                "number": 275,
-                "unit": "개",
-                "origin": "젤로피 275개"
-            }
-        ],
-        "keyword": [
-            "HIT",
-            "ATK",
-            "DEF",
-            "썩은 붕대",
-            "젤로피"
+            "썩은 붕대 275개",
+            "젤로피 275개"
         ]
     },
     {
@@ -54,41 +22,16 @@
         "name": "눈가리개",
         "firstChar": "ᄂ",
         "option": [
-            {
-                "name": "DEF",
-                "number": 5,
-                "unit": "",
-                "origin": "DEF +5"
-            }
+            "DEF +5"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 6,
-                "unit": "",
-                "origin": "ATK +6"
-            }
+            "ATK +6"
         ],
         "openPoint": [
-            {
-                "name": "DEF",
-                "number": 2,
-                "unit": "",
-                "origin": "DEF +2"
-            }
+            "DEF +2"
         ],
         "recipe": [
-            {
-                "name": "썩은 붕대",
-                "number": 220,
-                "unit": "개",
-                "origin": "썩은 붕대 220개"
-            }
-        ],
-        "keyword": [
-            "DEF",
-            "ATK",
-            "썩은 붕대"
+            "썩은 붕대 220개"
         ]
     },
     {
@@ -96,63 +39,19 @@
         "name": "토끼 머리띠[1]",
         "firstChar": "ᄐ",
         "option": [
-            {
-                "name": "DEF",
-                "number": 5,
-                "unit": "",
-                "origin": "DEF +5"
-            },
-            {
-                "name": "LUK",
-                "number": 2,
-                "unit": "",
-                "origin": "LUK +2"
-            }
+            "DEF +5",
+            "LUK +2"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 6,
-                "unit": "",
-                "origin": "ATK +6"
-            }
+            "ATK +6"
         ],
         "openPoint": [
-            {
-                "name": "MaxHP",
-                "number": 64,
-                "unit": "",
-                "origin": "MaxHP +64"
-            }
+            "MaxHP +64"
         ],
         "recipe": [
-            {
-                "name": "부드러운 털",
-                "number": 474,
-                "unit": "개",
-                "origin": "부드러운 털 474개"
-            },
-            {
-                "name": "네잎 클로버",
-                "number": 4,
-                "unit": "개",
-                "origin": "네잎 클로버 4개"
-            },
-            {
-                "name": "하얀 염로",
-                "number": 1,
-                "unit": "개",
-                "origin": "하얀 염로 1개"
-            }
-        ],
-        "keyword": [
-            "DEF",
-            "LUK",
-            "ATK",
-            "MaxHP",
-            "부드러운 털",
-            "네잎 클로버",
-            "하얀 염로"
+            "부드러운 털 474개",
+            "네잎 클로버 4개",
+            "하얀 염로 1개"
         ]
     },
     {
@@ -160,49 +59,17 @@
         "name": "광대코",
         "firstChar": "ᄀ",
         "option": [
-            {
-                "name": "DEF",
-                "number": 10,
-                "unit": "",
-                "origin": "DEF +10"
-            }
+            "DEF +10"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 6,
-                "unit": "",
-                "origin": "ATK +6"
-            }
+            "ATK +6"
         ],
         "openPoint": [
-            {
-                "name": "암속성 데미지",
-                "number": -2,
-                "unit": "%",
-                "origin": "암속성 데미지 -2%"
-            }
+            "암속성 데미지 -2%"
         ],
         "recipe": [
-            {
-                "name": "젤로피",
-                "number": 647,
-                "unit": "개",
-                "origin": "젤로피 647개"
-            },
-            {
-                "name": "부드러운털",
-                "number": 647,
-                "unit": "개",
-                "origin": "부드러운털 647개"
-            }
-        ],
-        "keyword": [
-            "DEF",
-            "ATK",
-            "암속성 데미지",
-            "젤로피",
-            "부드러운털"
+            "젤로피 647개",
+            "부드러운털 647개"
         ]
     },
     {
@@ -210,55 +77,18 @@
         "name": "아가미 헬름",
         "firstChar": "ᄋ",
         "option": [
-            {
-                "name": "DEF",
-                "number": 10,
-                "unit": "",
-                "origin": "DEF +10"
-            }
+            "DEF +10"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 6,
-                "unit": "",
-                "origin": "ATK +6"
-            }
+            "ATK +6"
         ],
         "openPoint": [
-            {
-                "name": "ATK",
-                "number": 4.5,
-                "unit": "",
-                "origin": "ATK +4.5"
-            }
+            "ATK +4.5"
         ],
         "recipe": [
-            {
-                "name": "망자의 유물",
-                "number": 776,
-                "unit": "개",
-                "origin": "망자의 유물 776개"
-            },
-            {
-                "name": "가렛",
-                "number": 776,
-                "unit": "개",
-                "origin": "가렛 776개"
-            },
-            {
-                "name": "아쿠아마린",
-                "number": 20,
-                "unit": "개",
-                "origin": "아쿠아마린 20개"
-            }
-        ],
-        "keyword": [
-            "DEF",
-            "ATK",
-            "망자의 유물",
-            "가렛",
-            "아쿠아마린"
+            "망자의 유물 776개",
+            "가렛 776개",
+            "아쿠아마린 20개"
         ]
     },
     {
@@ -266,62 +96,19 @@
         "name": "보따리",
         "firstChar": "ᄇ",
         "option": [
-            {
-                "name": "화속성 공격",
-                "number": 5,
-                "unit": "%",
-                "origin": "화속성 공격 +5%"
-            }
+            "화속성 공격 +5%"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 6,
-                "unit": "",
-                "origin": "ATK +6"
-            }
+            "ATK +6"
         ],
         "openPoint": [
-            {
-                "name": "ATK",
-                "number": 4,
-                "unit": "",
-                "origin": "ATK +4"
-            }
+            "ATK +4"
         ],
         "recipe": [
-            {
-                "name": "보따리 도면",
-                "number": 1,
-                "unit": "개",
-                "origin": "보따리 도면 1개"
-            },
-            {
-                "name": "젤로피",
-                "number": 1378,
-                "unit": "개",
-                "origin": "젤로피 1,378개"
-            },
-            {
-                "name": "썩은 붕대",
-                "number": 1378,
-                "unit": "개",
-                "origin": "썩은 붕대 1,378개"
-            },
-            {
-                "name": "파란 염료",
-                "number": 19,
-                "unit": "개",
-                "origin": "파란 염료 19개"
-            }
-        ],
-        "keyword": [
-            "화속성 공격",
-            "ATK",
-            "보따리 도면",
-            "젤로피",
-            "썩은 붕대",
-            "파란 염료"
+            "보따리 도면 1개",
+            "젤로피 1,378개",
+            "썩은 붕대 1,378개",
+            "파란 염료 19개"
         ]
     },
     {
@@ -329,55 +116,18 @@
         "name": "의적 안대",
         "firstChar": "ᄋ",
         "option": [
-            {
-                "name": "DEF",
-                "number": 10,
-                "unit": "",
-                "origin": "DEF +10"
-            }
+            "DEF +10"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 6,
-                "unit": "",
-                "origin": "ATK +6"
-            }
+            "ATK +6"
         ],
         "openPoint": [
-            {
-                "name": "DEF",
-                "number": 2,
-                "unit": "",
-                "origin": "DEF +2"
-            }
+            "DEF +2"
         ],
         "recipe": [
-            {
-                "name": "망자의 유물",
-                "number": 483,
-                "unit": "개",
-                "origin": "망자의 유물 483개"
-            },
-            {
-                "name": "썩은 붕대",
-                "number": 604,
-                "unit": "개",
-                "origin": "썩은 붕대 604개"
-            },
-            {
-                "name": "검은 염료",
-                "number": 1,
-                "unit": "개",
-                "origin": "검은 염료 1개"
-            }
-        ],
-        "keyword": [
-            "DEF",
-            "ATK",
-            "망자의 유물",
-            "썩은 붕대",
-            "검은 염료"
+            "망자의 유물 483개",
+            "썩은 붕대 604개",
+            "검은 염료 1개"
         ]
     },
     {
@@ -385,63 +135,19 @@
         "name": "깃털모자[1]",
         "firstChar": "ᄀ",
         "option": [
-            {
-                "name": "DEF",
-                "number": 8,
-                "unit": "",
-                "origin": "DEF +8"
-            },
-            {
-                "name": "AGI",
-                "number": 8,
-                "unit": "",
-                "origin": "AGI +8"
-            }
+            "DEF +8",
+            "AGI +8"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 6,
-                "unit": "",
-                "origin": "ATK +6"
-            }
+            "ATK +6"
         ],
         "openPoint": [
-            {
-                "name": "MaxHP",
-                "number": 64,
-                "unit": "",
-                "origin": "MaxHP +64"
-            }
+            "MaxHP +64"
         ],
         "recipe": [
-            {
-                "name": "끈적끈적한 액체",
-                "number": 483,
-                "unit": "개",
-                "origin": "끈적끈적한 액체 483개"
-            },
-            {
-                "name": "부드러운 털",
-                "number": 604,
-                "unit": "개",
-                "origin": "부드러운 털 604개"
-            },
-            {
-                "name": "초록 염료",
-                "number": 8,
-                "unit": "개",
-                "origin": "초록 염료 8개"
-            }
-        ],
-        "keyword": [
-            "DEF",
-            "AGI",
-            "ATK",
-            "MaxHP",
-            "끈적끈적한 액체",
-            "부드러운 털",
-            "초록 염료"
+            "끈적끈적한 액체 483개",
+            "부드러운 털 604개",
+            "초록 염료 8개"
         ]
     },
     {
@@ -449,63 +155,19 @@
         "name": "화살주머니",
         "firstChar": "ᄒ",
         "option": [
-            {
-                "name": "원거리 ATK",
-                "number": 7,
-                "unit": "%",
-                "origin": "원거리 ATK +7%"
-            }
+            "원거리 ATK +7%"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 6,
-                "unit": "",
-                "origin": "ATK +6"
-            }
+            "ATK +6"
         ],
         "openPoint": [
-            {
-                "name": "MaxHP",
-                "number": 24,
-                "unit": "",
-                "origin": "MaxHP +24"
-            }
+            "MaxHP +24"
         ],
         "recipe": [
-            {
-                "name": "질콘",
-                "number": 15,
-                "unit": "개",
-                "origin": "질콘 15개"
-            },
-            {
-                "name": "끈적끈적한 액체",
-                "number": 270,
-                "unit": "개",
-                "origin": "끈적끈적한 액체 270개"
-            },
-            {
-                "name": "석탄",
-                "number": 17,
-                "unit": "개",
-                "origin": "석탄 17개"
-            },
-            {
-                "name": "투명한 천조각",
-                "number": 3,
-                "unit": "개",
-                "origin": "투명한 천조각 3개"
-            }
-        ],
-        "keyword": [
-            "원거리 ATK",
-            "ATK",
-            "MaxHP",
-            "질콘",
-            "끈적끈적한 액체",
-            "석탄",
-            "투명한 천조각"
+            "질콘 15개",
+            "끈적끈적한 액체 270개",
+            "석탄 17개",
+            "투명한 천조각 3개"
         ]
     },
     {
@@ -513,49 +175,17 @@
         "name": "사막의 왕자[1]",
         "firstChar": "ᄉ",
         "option": [
-            {
-                "name": "DEF",
-                "number": 10,
-                "unit": "",
-                "origin": "DEF +10"
-            }
+            "DEF +10"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 6,
-                "unit": "",
-                "origin": "ATK +6"
-            }
+            "ATK +6"
         ],
         "openPoint": [
-            {
-                "name": "MaxHP",
-                "number": 64,
-                "unit": "",
-                "origin": "MaxHP +64"
-            }
+            "MaxHP +64"
         ],
         "recipe": [
-            {
-                "name": "불사의 심장",
-                "number": 531,
-                "unit": "개",
-                "origin": "불사의 심장 531개"
-            },
-            {
-                "name": "썩은 붕대",
-                "number": 863,
-                "unit": "개",
-                "origin": "썩은 붕대 863개"
-            }
-        ],
-        "keyword": [
-            "DEF",
-            "ATK",
-            "MaxHP",
-            "불사의 심장",
-            "썩은 붕대"
+            "불사의 심장 531개",
+            "썩은 붕대 863개"
         ]
     },
     {
@@ -563,63 +193,19 @@
         "name": "열혈머리띠",
         "firstChar": "ᄋ",
         "option": [
-            {
-                "name": "DEF",
-                "number": 5,
-                "unit": "",
-                "origin": "DEF +5"
-            },
-            {
-                "name": "STR",
-                "number": 2,
-                "unit": "",
-                "origin": "STR +2"
-            }
+            "DEF +5",
+            "STR +2"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 6,
-                "unit": "",
-                "origin": "ATK +6"
-            }
+            "ATK +6"
         ],
         "openPoint": [
-            {
-                "name": "MDEF",
-                "number": 2,
-                "unit": "",
-                "origin": "MDEF +2"
-            }
+            "MDEF +2"
         ],
         "recipe": [
-            {
-                "name": "썩은 붕대",
-                "number": 679,
-                "unit": "개",
-                "origin": "썩은 붕대 679개"
-            },
-            {
-                "name": "부드러운 털",
-                "number": 679,
-                "unit": "개",
-                "origin": "부드러운 털 679개"
-            },
-            {
-                "name": "하얀 염료",
-                "number": 1,
-                "unit": "개",
-                "origin": "하얀 염료 1개"
-            }
-        ],
-        "keyword": [
-            "DEF",
-            "STR",
-            "ATK",
-            "MDEF",
-            "썩은 붕대",
-            "부드러운 털",
-            "하얀 염료"
+            "썩은 붕대 679개",
+            "부드러운 털 679개",
+            "하얀 염료 1개"
         ]
     },
     {
@@ -627,56 +213,18 @@
         "name": "거시기",
         "firstChar": "ᄀ",
         "option": [
-            {
-                "name": "인간형에게 데미지 감소",
-                "number": 10,
-                "unit": "%",
-                "origin": "인간형에게 데미지 감소 +10%"
-            }
+            "인간형에게 데미지 감소 +10%"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 6,
-                "unit": "",
-                "origin": "ATK +6"
-            }
+            "ATK +6"
         ],
         "openPoint": [
-            {
-                "name": "MDEF",
-                "number": 3,
-                "unit": "",
-                "origin": "MDEF +3"
-            }
+            "MDEF +3"
         ],
         "recipe": [
-            {
-                "name": "셀",
-                "number": 557,
-                "unit": "개",
-                "origin": "셀 557개"
-            },
-            {
-                "name": "가렛",
-                "number": 725,
-                "unit": "개",
-                "origin": "가렛 725개"
-            },
-            {
-                "name": "꿀",
-                "number": 21,
-                "unit": "개",
-                "origin": "꿀 21개"
-            }
-        ],
-        "keyword": [
-            "인간형에게 데미지 감소",
-            "ATK",
-            "MDEF",
-            "셀",
-            "가렛",
-            "꿀"
+            "셀 557개",
+            "가렛 725개",
+            "꿀 21개"
         ]
     },
     {
@@ -684,76 +232,21 @@
         "name": "데비루치 모자",
         "firstChar": "ᄃ",
         "option": [
-            {
-                "name": "DEF",
-                "number": 10,
-                "unit": "",
-                "origin": "DEF +10"
-            },
-            {
-                "name": "STR",
-                "number": 1,
-                "unit": "",
-                "origin": "STR +1"
-            },
-            {
-                "name": "INT",
-                "number": 1,
-                "unit": "",
-                "origin": "INT +1"
-            }
+            "DEF +10",
+            "STR +1",
+            "INT +1"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 8,
-                "unit": "",
-                "origin": "ATK +8"
-            }
+            "ATK +8"
         ],
         "openPoint": [
-            {
-                "name": "ATK",
-                "number": 3,
-                "unit": "",
-                "origin": "ATK +3"
-            }
+            "ATK +3"
         ],
         "recipe": [
-            {
-                "name": "브리간",
-                "number": 473,
-                "unit": "개",
-                "origin": "브리간 473개"
-            },
-            {
-                "name": "저주받은 루비",
-                "number": 5,
-                "unit": "개",
-                "origin": "저주받은 루비 5개"
-            },
-            {
-                "name": "더듬이",
-                "number": 6,
-                "unit": "개",
-                "origin": "더듬이 6개"
-            },
-            {
-                "name": "검은 염료",
-                "number": 2,
-                "unit": "개",
-                "origin": "검은 염료 2개"
-            }
-        ],
-        "keyword": [
-            "DEF",
-            "STR",
-            "INT",
-            "ATK",
-            "브리간",
-            "저주받은 루비",
-            "더듬이",
-            "검은 염료"
+            "브리간 473개",
+            "저주받은 루비 5개",
+            "더듬이 6개",
+            "검은 염료 2개"
         ]
     },
     {
@@ -761,56 +254,18 @@
         "name": "혼자놀기 상자[1]",
         "firstChar": "ᄒ",
         "option": [
-            {
-                "name": "DEF",
-                "number": 10,
-                "unit": "",
-                "origin": "DEF +10"
-            }
+            "DEF +10"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 6,
-                "unit": "",
-                "origin": "ATK +6"
-            }
+            "ATK +6"
         ],
         "openPoint": [
-            {
-                "name": "MaxHP",
-                "number": 64,
-                "unit": "",
-                "origin": "MaxHP +64"
-            }
+            "MaxHP +64"
         ],
         "recipe": [
-            {
-                "name": "성흔",
-                "number": 543,
-                "unit": "개",
-                "origin": "성흔 543개"
-            },
-            {
-                "name": "끈적끈적한 액체",
-                "number": 1087,
-                "unit": "개",
-                "origin": "끈적끈적한 액체 1,087개"
-            },
-            {
-                "name": "검은 염료",
-                "number": 2,
-                "unit": "개",
-                "origin": "검은 염료 2개"
-            }
-        ],
-        "keyword": [
-            "DEF",
-            "ATK",
-            "MaxHP",
-            "성흔",
-            "끈적끈적한 액체",
-            "검은 염료"
+            "성흔 543개",
+            "끈적끈적한 액체 1,087개",
+            "검은 염료 2개"
         ]
     },
     {
@@ -818,55 +273,18 @@
         "name": "초승달 머리핀",
         "firstChar": "ᄎ",
         "option": [
-            {
-                "name": "HIT",
-                "number": 10,
-                "unit": "",
-                "origin": "HIT +10"
-            }
+            "HIT +10"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 6,
-                "unit": "",
-                "origin": "ATK +6"
-            }
+            "ATK +6"
         ],
         "openPoint": [
-            {
-                "name": "HIT",
-                "number": 2,
-                "unit": "",
-                "origin": "HIT +2"
-            }
+            "HIT +2"
         ],
         "recipe": [
-            {
-                "name": "심연의 꽃",
-                "number": 575,
-                "unit": "개",
-                "origin": "심연의 꽃 575개"
-            },
-            {
-                "name": "별의 모서리",
-                "number": 1,
-                "unit": "개",
-                "origin": "별의 모서리 1개"
-            },
-            {
-                "name": "철",
-                "number": 50,
-                "unit": "개",
-                "origin": "철 50개"
-            }
-        ],
-        "keyword": [
-            "HIT",
-            "ATK",
-            "심연의 꽃",
-            "별의 모서리",
-            "철"
+            "심연의 꽃 575개",
+            "별의 모서리 1개",
+            "철 50개"
         ]
     },
     {
@@ -874,69 +292,20 @@
         "name": "머리에 박힌 나사",
         "firstChar": "ᄆ",
         "option": [
-            {
-                "name": "HIT",
-                "number": 5,
-                "unit": "",
-                "origin": "HIT +5"
-            },
-            {
-                "name": "DEF 무시",
-                "number": 5,
-                "unit": "%",
-                "origin": "DEF 무시 +5%"
-            }
+            "HIT +5",
+            "DEF 무시 +5%"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 6,
-                "unit": "",
-                "origin": "ATK +6"
-            }
+            "ATK +6"
         ],
         "openPoint": [
-            {
-                "name": "ATK",
-                "number": 3,
-                "unit": "",
-                "origin": "ATK +3"
-            }
+            "ATK +3"
         ],
         "recipe": [
-            {
-                "name": "혜안",
-                "number": 781,
-                "unit": "개",
-                "origin": "혜안 781개"
-            },
-            {
-                "name": "부품",
-                "number": 3,
-                "unit": "개",
-                "origin": "부품 3개"
-            },
-            {
-                "name": "자르곤",
-                "number": 976,
-                "unit": "개",
-                "origin": "자르곤 976개"
-            },
-            {
-                "name": "어둠에 잠긴 칼날",
-                "number": 20,
-                "unit": "개",
-                "origin": "어둠에 잠긴 칼날 20개"
-            }
-        ],
-        "keyword": [
-            "HIT",
-            "DEF 무시",
-            "ATK",
-            "혜안",
-            "부품",
-            "자르곤",
-            "어둠에 잠긴 칼날"
+            "혜안 781개",
+            "부품 3개",
+            "자르곤 976개",
+            "어둠에 잠긴 칼날 20개"
         ]
     },
     {
@@ -944,55 +313,18 @@
         "name": "쿠키 헤어핀",
         "firstChar": "ᄏ",
         "option": [
-            {
-                "name": "MaxHP",
-                "number": 50,
-                "unit": "",
-                "origin": "MaxHP +50"
-            },
-            {
-                "name": "MaxSP",
-                "number": 50,
-                "unit": "",
-                "origin": "MaxSP +50"
-            }
+            "MaxHP +50",
+            "MaxSP +50"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 3,
-                "unit": "",
-                "origin": "ATK +3"
-            }
+            "ATK +3"
         ],
         "openPoint": [
-            {
-                "name": "ATK",
-                "number": 3,
-                "unit": "",
-                "origin": "ATK +3"
-            }
+            "ATK +3"
         ],
         "recipe": [
-            {
-                "name": "얼음 조각",
-                "number": 503,
-                "unit": "개",
-                "origin": "얼음 조각 503개"
-            },
-            {
-                "name": "하얀 염료",
-                "number": 12,
-                "unit": "개",
-                "origin": "하얀 염료 12개"
-            }
-        ],
-        "keyword": [
-            "MaxHP",
-            "MaxSP",
-            "ATK",
-            "얼음 조각",
-            "하얀 염료"
+            "얼음 조각 503개",
+            "하얀 염료 12개"
         ]
     },
     {
@@ -1000,62 +332,19 @@
         "name": "선물상자",
         "firstChar": "ᄉ",
         "option": [
-            {
-                "name": "DEF",
-                "number": 10,
-                "unit": "",
-                "origin": "DEF +10"
-            },
-            {
-                "name": "MaxHP",
-                "number": 100,
-                "unit": "",
-                "origin": "MaxHP +100"
-            }
+            "DEF +10",
+            "MaxHP +100"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 3,
-                "unit": "",
-                "origin": "ATK +3"
-            }
+            "ATK +3"
         ],
         "openPoint": [
-            {
-                "name": "MaxHP",
-                "number": 30,
-                "unit": "",
-                "origin": "MaxHP +30"
-            }
+            "MaxHP +30"
         ],
         "recipe": [
-            {
-                "name": "얼음 심장",
-                "number": 305,
-                "unit": "개",
-                "origin": "얼음 심장 305개"
-            },
-            {
-                "name": "리본 끈",
-                "number": 2,
-                "unit": "개",
-                "origin": "리본 끈 2개"
-            },
-            {
-                "name": "선물 포장지",
-                "number": 305,
-                "unit": "개",
-                "origin": "선물 포장지 305개"
-            }
-        ],
-        "keyword": [
-            "DEF",
-            "MaxHP",
-            "ATK",
-            "얼음 심장",
-            "리본 끈",
-            "선물 포장지"
+            "얼음 심장 305개",
+            "리본 끈 2개",
+            "선물 포장지 305개"
         ]
     },
     {
@@ -1063,49 +352,17 @@
         "name": "거짓말쟁이의 코",
         "firstChar": "ᄀ",
         "option": [
-            {
-                "name": "인간형에게 데미지 추가",
-                "number": 5,
-                "unit": "%",
-                "origin": "인간형에게 데미지 추가 +5%"
-            }
+            "인간형에게 데미지 추가 +5%"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 3,
-                "unit": "",
-                "origin": "ATK +3"
-            }
+            "ATK +3"
         ],
         "openPoint": [
-            {
-                "name": "MaxHP",
-                "number": 30,
-                "unit": "",
-                "origin": "MaxHP +30"
-            }
+            "MaxHP +30"
         ],
         "recipe": [
-            {
-                "name": "얼음 조각",
-                "number": 359,
-                "unit": "개",
-                "origin": "얼음 조각 359개"
-            },
-            {
-                "name": "선물 포장지",
-                "number": 359,
-                "unit": "개",
-                "origin": "선물 포장지 359개"
-            }
-        ],
-        "keyword": [
-            "인간형에게 데미지 추가",
-            "ATK",
-            "MaxHP",
-            "얼음 조각",
-            "선물 포장지"
+            "얼음 조각 359개",
+            "선물 포장지 359개"
         ]
     },
     {
@@ -1113,70 +370,20 @@
         "name": "향긋한 꿀단지",
         "firstChar": "ᄒ",
         "option": [
-            {
-                "name": "MaxSP",
-                "number": 100,
-                "unit": "",
-                "origin": "MaxSP +100"
-            },
-            {
-                "name": "SP회복",
-                "number": 1,
-                "unit": "",
-                "origin": "SP회복 +1"
-            }
+            "MaxSP +100",
+            "SP회복 +1"
         ],
         "savePoint": [
-            {
-                "name": "ATK",
-                "number": 3,
-                "unit": "",
-                "origin": "ATK +3"
-            }
+            "ATK +3"
         ],
         "openPoint": [
-            {
-                "name": "MaxHP",
-                "number": 30,
-                "unit": "",
-                "origin": "MaxHP +30"
-            }
+            "MaxHP +30"
         ],
         "recipe": [
-            {
-                "name": "얼음 조각",
-                "number": 438,
-                "unit": "개",
-                "origin": "얼음 조각 438개"
-            },
-            {
-                "name": "하티의 이빨",
-                "number": 6,
-                "unit": "개",
-                "origin": "하티의 이빨 6개"
-            },
-            {
-                "name": "얼음 가루",
-                "number": 6,
-                "unit": "개",
-                "origin": "얼음 가루 6개"
-            },
-            {
-                "name": "꿀",
-                "number": 20,
-                "unit": "개",
-                "origin": "꿀 20개"
-            }
-        ],
-        "keyword": [
-            "MaxSP",
-            "SP회복",
-            "ATK",
-            "MaxHP",
-            "얼음 조각",
-            "하티의 이빨",
-            "얼음 가루",
-            "꿀"
+            "얼음 조각 438개",
+            "하티의 이빨 6개",
+            "얼음 가루 6개",
+            "꿀 20개"
         ]
     }
 ]

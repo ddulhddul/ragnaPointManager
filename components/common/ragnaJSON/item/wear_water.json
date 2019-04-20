@@ -1,0 +1,103 @@
+[
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTMg/MDAxNTMwMTkyODY3NjU3.blho3BkDwc5XN_5dciPwLEuZett7kZKob02JSo7HubAg.nUSKv4zP8tm-cAOGrryBQUbVdOTpu4lnBenAG9grc2Ag.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_353.png?type=w740",
+        "name": "조화의 우산",
+        "firstChar": "ᄌ",
+        "option": [
+            "몬스터(수)에 데미지 +10%",
+            "받는 수속성 데미지 -10%"
+        ],
+        "savePoint": [
+            "MaxHP +120"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "2018.3월 뽑기"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTQg/MDAxNTMwMTkyOTIxMjc3.ukoiDT7WknMCVY2QqkzpatgP31oUaZ2NUhX7bE8Ns28g.V49fdBFtR534BaCsfFf2uTNS3yNcWRt_BfK992jnPIsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_215.png?type=w740",
+        "name": "빙설 낙인",
+        "firstChar": "ᄇ",
+        "option": [
+            "수속성 공격 +10%",
+            "15초마다 주변 2미터의 적은 동빙 상태에 빠짐"
+        ],
+        "savePoint": [
+            "MDEF +3"
+        ],
+        "openPoint": [
+            "MATK +8"
+        ],
+        "recipe": [
+            "얼음 조각 2,958개",
+            "하티의 이빨 15개",
+            "얼음 가루 15개",
+            "구멍난 빨간 양말 25개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTUw/MDAxNTMwMTkyOTM0Mzcz.lhXVmUo3DB6oj2fCKfDV7-WoT7yL5lqRASQJ8nnNY14g.TgSiLgHmQ0I5fbbm9oxaHRaceJV4c0iDIKzR6Jxt4V8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_220.png?type=w740",
+        "name": "우산 모자",
+        "firstChar": "ᄋ",
+        "option": [
+            "수속성 공격 +2%",
+            "DEX +1"
+        ],
+        "savePoint": [
+            "MaxHP +35"
+        ],
+        "openPoint": [
+            "MaxHP +14"
+        ],
+        "recipe": [
+            "시간의 결정 620개",
+            "투명한 천조각 8개",
+            "썩은 붕대 3,719개",
+            "마스테라의 열매 1개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTM0/MDAxNTMwMTkyOTQyNzUw.CamVDFojHPWEMNiSeQ5kNGuTnkBIP1QplTlOQ11-Kvkg.aEPZb_Y5-2YS5uOueOqkcmazHbcdCxwh6kijMKjFCEkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_357.png?type=w740",
+        "name": "세이지의 책",
+        "firstChar": "ᄉ",
+        "option": [
+            "풍",
+            "지",
+            "수",
+            "화",
+            "성속성 공격 +5%",
+            "변동 캐스팅 시간 -10%"
+        ],
+        "savePoint": [
+            "ATK +1%",
+            "MATK +1%,"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "2018.4월 뽑기"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjM1/MDAxNTMwMTkyOTUxMTYx.fnTJV5fJHMh0EmAI2wYPG77HpTpesOSAcAbyQWAGhfQg.vKtQ6Ut3YpSKwYfHEVm2UE6eDSGjGCJI0I4DJxDDakMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_372.png?type=w740",
+        "name": "삼형제 꽃 크랩[1]",
+        "firstChar": "ᄉ",
+        "option": [
+            "MaxHP + 100",
+            "수속성 공격 +3%"
+        ],
+        "savePoint": [
+            "MaxHP +60"
+        ],
+        "openPoint": [
+            ""
+        ],
+        "recipe": [
+            "2018.6월 뽑기"
+        ]
+    }
+]

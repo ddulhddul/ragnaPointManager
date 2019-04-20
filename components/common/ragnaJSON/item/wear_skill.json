@@ -1,0 +1,82 @@
+[
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjU1/MDAxNTMwMTg4ODgwNjcy.0_GKPlK6S4KvXP7sulzuydpkyeHA5Jej2x4Lpz08jk8g.KcwkPBsRv4nQ3UDKEPZEZCLxhwks2zJLRlq-36ltXFQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_105.png?type=w740",
+        "name": "보석의 투구[1]",
+        "firstChar": "ᄇ",
+        "option": [
+            "일반 공격이나 스킬 사용 시 3% 확률로 저주 시전"
+        ],
+        "savePoint": [
+            "MaxHP +19"
+        ],
+        "openPoint": [
+            "MaxHP +64"
+        ],
+        "recipe": [
+            "악마의 뿔 3,347개",
+            "방울 2개",
+            "오크히어로 증표 2개",
+            "아메디스트 50개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjE5/MDAxNTMwMTg4ODkwMDE4.G2DpzfC9bj9HxsdA5aS0mjfvWEXelFcQmE8Mzar49Bkg.QXgxmt1FhWskaXIBFA7SyxlFooqY4vPa0nVi61bOAe0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_172.png?type=w740",
+        "name": "로키의 속삭임",
+        "firstChar": "ᄅ",
+        "option": [
+            "일반공격이나 스킬 공격 사용 시 일정 확률로 \n대상의 ATK 일정 시간 동안 5% 감소"
+        ],
+        "savePoint": [
+            "MaxHP +19"
+        ],
+        "openPoint": [
+            "MaxHP +32"
+        ],
+        "recipe": [
+            "성흔 420개",
+            "수정으로 만든 거울 10개",
+            "빨간 염료 8개",
+            "보라 염료 2개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTgx/MDAxNTMwMTg4ODk4NDgz.Y6DeVHtIcJnCtndb1Ls1HO3sti2HRAZrMOl7TxlAVvwg.f4hCBDtWruBC2SM0tkbU2zG919EFut1Pn3EgUDP6iWYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_179.png?type=w740",
+        "name": "호롱",
+        "firstChar": "ᄒ",
+        "option": [
+            "[소울 스트라이크] Lv.10 사용 가능"
+        ],
+        "savePoint": [
+            "MaxHP +19"
+        ],
+        "openPoint": [
+            "MATK +4"
+        ],
+        "recipe": [
+            "심연의 꽃 875개",
+            "장미석영 6개",
+            "불사의 심장 1,615개",
+            "석탄 290개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTc3/MDAxNTMwMTg4OTA5MTU2.vH3ehFJcyJKCOMAeX9yhPFTL6r1gfuiTDTY2SBaWYlcg.wQHaHxLIuxQPJKoq5I_eey4dLn14TaXNqalUr79VPVkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_188.png?type=w740",
+        "name": "카타나",
+        "firstChar": "ᄏ",
+        "option": [
+            "패시스 스킬 [더블 어택] Lv.3 획득"
+        ],
+        "savePoint": [
+            "제련 ATK +8"
+        ],
+        "openPoint": [
+            "ATK +4"
+        ],
+        "recipe": [
+            "사이파 930개",
+            "흑운모 12개",
+            "핏빛의 룬 10개",
+            "어둠에 잠긴 칼날 20개"
+        ]
+    }
+]

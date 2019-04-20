@@ -1,0 +1,103 @@
+[
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfOTkg/MDAxNTMwMTk5MDQ5MTQ5.ipovztr6t6sXtoJqn9TjxKUXb_lmvEs0gRjUMaurPU8g.8MyzLiKsZhDrbdpVX7fpEK61lIcqhB6WoYB7BL8ItyEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_108.png?type=w740",
+        "name": "베레모",
+        "firstChar": "ᄇ",
+        "option": [
+            "DEF +5",
+            "인간형에게 데미지 감소 +10%"
+        ],
+        "savePoint": [
+            "MaxHP +19"
+        ],
+        "openPoint": [
+            "인간형 몬스터 데미지 감소 +4%"
+        ],
+        "recipe": [
+            "단단한 껍질 848개",
+            "가렛 1,103개",
+            "사금 30개",
+            "초록 염료 9개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfODEg/MDAxNTMwMTk5MDY2Mzg3.BcfJnJG2FFuHTNoqOEGx2KJKanlqXbyzbDDSJF4AjlQg.VuzB_7Tk4qNbcoLqVT8SRkfd9zRgdHNg_nW_kuI31oog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_035.png?type=w740",
+        "name": "두건",
+        "firstChar": "ᄃ",
+        "option": [
+            "DEF +10"
+        ],
+        "savePoint": [
+            "MaxHP +10"
+        ],
+        "openPoint": [
+            "불사형 몬스터 데미지 감소 +4%"
+        ],
+        "recipe": [
+            "썩은 붕대 647개",
+            "부드러운 털 647개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTQ2/MDAxNTMwMTk5MDc5MjYw.y0ku_JYpQIIPRG9ZcF6xTUmprihciLG4IUObuvGRqs0g.Ew9aWFOrTvpK1AKp5sB_IFRHI-9RRZLBhuVzoAduzTkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_189.png?type=w740",
+        "name": "나비 가면",
+        "firstChar": "ᄂ",
+        "option": [
+            "인간형에게 데미지 추가 +8%"
+        ],
+        "savePoint": [
+            "MaxHP +19"
+        ],
+        "openPoint": [
+            "인간형 몬스터 데미지 추가 +1%"
+        ],
+        "recipe": [
+            "심연의 꽃 525개",
+            "장미석영 12개",
+            "수정으로 만든 거울 7개",
+            "철 400개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjAy/MDAxNTMwMTk5MDg4NzI0.bCxVaFHXT43A5_fnSNspbd-gQk4Mi98bGwmIx42Crjsg.V6m3n77uc10nejmIsnG0jH0h7JEUJL6RfokmE1cEPkgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_205.png?type=w740",
+        "name": "슈페샤를의 속삭임",
+        "firstChar": "ᄉ",
+        "option": [
+            "불사형 몬스터에 데미지 추가 +10%, \n1제련 당 불사형 몬스터 데미지 추가 +1%"
+        ],
+        "savePoint": [
+            "불사형 몬스터에 데미지 추가 +4%"
+        ],
+        "openPoint": [
+            "불사형 몬스터에 데미지 추가 +1%"
+        ],
+        "recipe": [
+            "마녀의 별모래 2,479개",
+            "시계탑의 열쇠 12개",
+            "시간 왜곡 버튼 8개",
+            "시간의 결정 2,479개"
+        ]
+    },
+    {
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTk0/MDAxNTMwMTk5MTU5MDc2.91gbbAmAvZaKGyfKUWn37UsEtmyHLQ0tFfU9m4Rv2sMg.atwblfD3YRQdI3ezH6ko0Lnk3w_1SOaBrRDOXPqt1N8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_232.png?type=w740",
+        "name": "시간의 바드",
+        "firstChar": "ᄉ",
+        "option": [
+            "STR +5",
+            "인간형에게 데미지 추가 + 5%, \n카타르 장착 시 ATK + 4%",
+            "1제련 당 [소닉 블로우] 데미지 + 1%"
+        ],
+        "savePoint": [
+            "인간형에게 데미지 추가 +1%"
+        ],
+        "openPoint": [
+            "MaxHP +21"
+        ],
+        "recipe": [
+            "시간의 결정 2479개",
+            "시계탑의 열쇠 15개",
+            "장미석영 15개",
+            "괘종시계 760개"
+        ]
+    }
+]
