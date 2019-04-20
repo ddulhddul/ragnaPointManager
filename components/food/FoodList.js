@@ -1,6 +1,6 @@
 import React from 'react'
 import { 
-    CheckBox, ScrollView, View, Text, StyleSheet, Alert,
+    CheckBox, ScrollView, View, Text, StyleSheet, Alert, Image,
     TextInput, AsyncStorage, FlatList, TouchableOpacity
 } from 'react-native'
 import SqlUtil from '../common/SqlUtil'
@@ -148,6 +148,7 @@ class FoodList extends SqlUtil {
     }
     
     render() {
+        const { foodImages } = this.props
         const { searchValue, scrolling, cookingFilter, tastingFilter, searchEnabled } = this.state
         const nutritionKeywordList = this.state.nutritionKeywordList || []
         const saveKeywordList = this.state.saveKeywordList || []
@@ -308,22 +309,29 @@ class FoodList extends SqlUtil {
                                 return <View style={styles.componentContainer} key={`item_${encodeURI(item.name)}_${index}`}>
                                     <View style={[styles.trContainer]}>
                                         <View style={[styles.tdContainer, {marginLeft: 10, marginRight: 10}]}>
-                                            <View style={[styles.trContainer, {marginBottom: 3, alignSelf: 'flex-start'}]}>
-                                                {
-                                                    isNaN(Number(item.difficult))? null:
-                                                    Array.from(Array(Number(item.difficult))).map((obj, index)=>{
-                                                        return <Icon.AntDesign key={`${item.name}_star_${index}`} style={{marginLeft: -3}}
-                                                                    name="star" size={12} color='rgb(241, 196, 15)' />
-                                                    })
-                                                }
-                                                <View style={{flex:1, marginLeft: 5}}>
-                                                    <Text style={[styles.textStyle, {fontSize: 11, color: Util.grey, textAlign: 'left'}]}>
-                                                        {item.type}
-                                                    </Text>
+                                            <View style={[styles.trContainer]}>
+                                                <View style={[styles.tdContainer, {flex: 0.2, marginRight: 5}]}>
+                                                    <Image source={foodImages[item.name.replace(/ /g,'').replace(/\[.*\]/g,'')]} style={styles.itemImageStyle} />
                                                 </View>
-                                            </View>
-                                            <View style={[{marginBottom: 3, alignSelf: 'flex-start'}]}>
-                                                <Text style={[styles.textStyle, {fontSize: 17, fontWeight: 'bold', textAlign: 'left'}]}>{item.name}</Text>
+                                                <View style={[styles.tdContainer, {flex: 0.8}]}>
+                                                    <View style={[styles.trContainer, {marginBottom: 3, alignSelf: 'flex-start'}]}>
+                                                        {
+                                                            isNaN(Number(item.difficult))? null:
+                                                            Array.from(Array(Number(item.difficult))).map((obj, index)=>{
+                                                                return <Icon.AntDesign key={`${item.name}_star_${index}`} style={{marginLeft: -3}}
+                                                                            name="star" size={12} color='rgb(241, 196, 15)' />
+                                                            })
+                                                        }
+                                                        <View style={{flex:1, marginLeft: 5}}>
+                                                            <Text style={[styles.textStyle, {fontSize: 11, color: Util.grey, textAlign: 'left'}]}>
+                                                                {item.type}
+                                                            </Text>
+                                                        </View>
+                                                    </View>
+                                                    <View style={[{marginBottom: 3, alignSelf: 'flex-start'}]}>
+                                                        <Text style={[styles.textStyle, {fontSize: 17, fontWeight: 'bold', textAlign: 'left'}]}>{item.name}</Text>
+                                                    </View>
+                                                </View>
                                             </View>
                                             {
                                                 (!item.nutrition || !item.nutrition.length)? null:
