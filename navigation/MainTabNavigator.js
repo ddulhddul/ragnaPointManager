@@ -62,7 +62,7 @@ const WebStack = createStackNavigator({
   Web: WebScreen,
 }, {
   navigationOptions: ()=>({
-    tabBarLabel: 'Inven',
+    tabBarLabel: 'Web',
     tabBarIcon: ({ focused }) => (
       <Icon.MaterialCommunityIcons
         name={'web'}
