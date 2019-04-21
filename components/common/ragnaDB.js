@@ -100,18 +100,14 @@ import card_weapon_purple1 from './ragnaJSON/card/card_weapon_purple1.json'
 import card_robe_blue1 from './ragnaJSON/card/card_robe_blue1.json'
 import card_weapon_white1 from './ragnaJSON/card/card_weapon_white1.json'
 import card_robe_green1 from './ragnaJSON/card/card_robe_green1.json'
+import card_star_purple from './ragnaJSON/card/card_star_purple.json'
+import card_star_green from './ragnaJSON/card/card_star_green.json'
+import card_star_blue from './ragnaJSON/card/card_star_blue.json'
 
 export default {
 
   getCardList(){
     return card
-    .sort((obj1,obj2)=>{
-      return obj1.name < obj2.name ? 1 : -1
-    })
-    .sort((obj1,obj2)=>{
-      const sortStandard = {'일반':1, '녹색':2, '파랑':3, '보라':4}
-      return sortStandard[obj1.rate] > sortStandard[obj2.rate] ? 1 : -1
-    })
 
     const homepageDic = Array(0).concat(
       card_robe_purple1,
@@ -142,6 +138,9 @@ export default {
       card_robe_blue1,
       card_weapon_white1,
       card_robe_green1,
+      card_star_purple,
+      card_star_green,
+      card_star_blue,
     ).filter((obj, index, self)=>{
       let indexNumber = undefined
       self.find((selfObj, selfIndex)=>{
@@ -169,7 +168,11 @@ export default {
       return {...trObj}
     })
     .sort((obj1,obj2)=>{
-      return obj1.name > obj2.name? 1: -1
+      return obj1.name < obj2.name ? 1 : -1
+    })
+    .sort((obj1,obj2)=>{
+      const sortStandard = {'일반':1, '녹색':2, '파랑':3, '보라':4}
+      return sortStandard[obj1.rate] > sortStandard[obj2.rate] ? 1 : -1
     })
     
     console.log('homepageDic', JSON.stringify(homepageDic))

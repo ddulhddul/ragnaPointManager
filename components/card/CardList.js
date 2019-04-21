@@ -257,7 +257,7 @@ class CardList extends SqlUtil {
                                 return <View style={[styles.componentContainer, {borderTopColor: item.color, borderTopWidth: 2}]} key={`card_${encodeURI(item.name)}_${index}`}>
                                     <View style={[styles.trContainer]}>
                                         <View style={[styles.tdContainer, {flex: 0.3, marginLeft: 5, marginRight: 5, paddingLeft: 10, paddingRight: 10}]}>
-                                            <Image source={cardImages[item.name.replace(/ /g,'').replace(/\[.*\]/g,'')]} style={[styles.itemImageStyle, {borderRadius: 5}]} />
+                                            <Image source={cardImages[item.name.replace(/ /g,'').replace(/\[.*\]/g,'').replace(/\★/g,'')]} style={[styles.itemImageStyle, {borderRadius: 5}]} />
                                         </View>
                                         <View style={[styles.tdContainer, {flex: 0.7}]}>
                                             <View style={[{marginBottom: 3, alignSelf: 'flex-start'}]}>

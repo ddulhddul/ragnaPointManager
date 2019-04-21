@@ -34,6 +34,11 @@
     card_helmet_blue1.json: https://cafe.naver.com/ragnarokmmorpg/154027
     card_helmet_green1.json: https://cafe.naver.com/ragnarokmmorpg/154028
     card_helmet_white1.json: https://cafe.naver.com/ragnarokmmorpg/154029
+  star 카드
+    card_star_purple.json: https://cafe.naver.com/ragnarokmmorpg/212088
+    card_star_green.json: https://cafe.naver.com/ragnarokmmorpg/223266
+    card_star_blue.json: https://cafe.naver.com/ragnarokmmorpg/223267
+
 */
 JSON.stringify(
     Array.from(document.querySelectorAll('table')[5].querySelectorAll('tr'))

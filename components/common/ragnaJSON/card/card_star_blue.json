@@ -1,0 +1,22 @@
+[
+    {
+        "name": "푸파★ 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfMTg2/MDAxNTI4MTAxMjMwOTUx.bXVmnvzBzULr2WA-VXGOpdI20GSrqvB-qYkhVwpVlI4g.nStiNYHEP6oryi4bNszQcAlEKt3s2XmUQQfL2SzrEZog.PNG.gravity001/K-006.png?type=w740",
+        "position": "걸칠것",
+        "rate": "파랑",
+        "monster": "고급 제작: 푸파 카드 3개 + 그람 가루 100개",
+        "openPoint": "MaxHP +60",
+        "savePoint": "MaxHP +72",
+        "option": "▶ DEF + 15\n▶ DEF + 5%"
+    },
+    {
+        "name": "윌로우★ 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfMjYw/MDAxNTI4MDk1NzczMjU4.m3COY94JAKHlA7z3WOHCjtToGTk-LJwCuID8XBonpOMg.Mj9mZRR3hoVXqrDLKFqY8UOcC4bGbRH-e8wzkZDq-r4g.PNG.gravity001/K-007.png?type=w740",
+        "position": "걸칠것",
+        "rate": "파랑",
+        "monster": "고급 제작: 윌로우 카드 3개 + 그람 가루 100개",
+        "openPoint": "MaxHP +60",
+        "savePoint": "MaxHP +72",
+        "option": "▶ MDEF + 10\n▶ MDEF + 5%"
+    }
+]

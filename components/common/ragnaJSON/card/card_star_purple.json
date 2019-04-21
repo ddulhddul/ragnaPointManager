@@ -1,0 +1,22 @@
+[
+    {
+        "name": "스팅★ 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA1MjlfMjIz/MDAxNTI3NTcxNjI0Mzk5.QYs_wq91TWgjGE8v_TiSdGjK8xskfm3-Ddr7V4eJjUYg.m3yW8EGyHz0JZDCSsMUkht6SJmhnDj0bDf7cKnbbPY4g.PNG.gravity001/K-011.png?type=w740",
+        "position": "무기",
+        "rate": "보라",
+        "monster": "고급 제작 : 스팅 카드 5장 + 그람 가루 600개",
+        "openPoint": "ATK +12",
+        "savePoint": "CRI.D +2%",
+        "option": "▶ DEF + 10%\n▶ MDEF + 10%\n"
+    },
+    {
+        "name": "무낙★ 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA1MjlfMTM3/MDAxNTI3NTcxNjQwMjgy.9BFPUGoH4VZJNd_CRmYIRwvmzIuBWaKzqpisZgoWrpYg.cRp3Yzd8rCy2tExwevasNj3V1CyAcygwzLaf8ZqWT8og.PNG.gravity001/K-012.png?type=w740",
+        "position": "갑옷",
+        "rate": "보라",
+        "monster": "고급 제작: 무낙 카드 4장 + 그람 가루 800개",
+        "openPoint": "MaxHP +112",
+        "savePoint": "ATK + 9\nMATK +9",
+        "option": "▶ DEF 무시 15%\n▶ MDEF 무시 15%"
+    }
+]

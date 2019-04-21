@@ -1,0 +1,32 @@
+[
+    {
+        "name": "구미호★ 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfNDUg/MDAxNTI4MDk2NjY3MTIx.gJCdf88Q2ZF3SyfJ_OU-iRx5HWbdwBTTOAsdyici904g.KbvIarj6Nn8W27DTKTdSDMFMrDTWhHgetKJ7_Iz7Wiwg.PNG.gravity001/K-006.png?type=w740",
+        "position": "신발",
+        "rate": "녹색",
+        "monster": "고급 제작: 구미호 카드 1개 + 그람 가루 50개",
+        "openPoint": "MaxHP +30",
+        "savePoint": "HP 회복 + 1%",
+        "option": "▶ DEX＋2\n▶ FLEE＋5\n"
+    },
+    {
+        "name": "미이라★ 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfOSAg/MDAxNTI4MDk2NzcyNzE3.GXbHFHFkUMwtRIUfFxCoUwKb9X58SwdtY9VxZs8zbbEg.dx0Jq1Y2f7SZoloquoNkZgRFBcoJy-eM3CJIu6IvTcwg.PNG.gravity001/K-007.png?type=w740",
+        "position": "투구",
+        "rate": "녹색",
+        "monster": "고급 제작: 미이라 카드 2개 + 그람 가루 50개",
+        "openPoint": "MaxHP +30",
+        "savePoint": "MaxHP +36",
+        "option": "▶ HIT＋25\n▶ FLEE＋2"
+    },
+    {
+        "name": "와일드 로즈★ 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfMjQg/MDAxNTI4MDk2ODQ4NDM1.tBt4LPPkBY1M-NzZvo0uOaXvoDoFXDEXf7AOW7r_WzAg.AXqVeJDtv8X4IKYTs0cmU1H-08iTyM_NtxDG1x1TsYQg.PNG.gravity001/K-013.png?type=w740",
+        "position": "걸칠것",
+        "rate": "녹색",
+        "monster": "고급 제작: 와일드 로즈 카드 1개 + 그람 가루 50개",
+        "openPoint": "MaxHP +30",
+        "savePoint": "SP 회복 + 1%",
+        "option": "▶ INT + 2\n▶ FLEE＋5"
+    }
+]
