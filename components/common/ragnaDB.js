@@ -333,16 +333,12 @@ export default {
                   .replace(/null/g,'')
       }
       function htmlToList(str){return htmlToStr(str).split(', ')}
-      if(index == 1){
-        obj.name = htmlToStr(obj.name)
-        obj.firstChar = String.fromCharCode(((obj.name.charCodeAt(0) - 44032)/28)/21 + 4352)
-        obj.option = htmlToList(obj.option)
-      }else if(index == 3){
-        obj.savePoint = htmlToList(obj.savePoint)
-        obj.openPoint = htmlToList(obj.openPoint)
-      }else if(index == 5){
-        obj.recipe = htmlToList(obj.recipe)
-      }
+      obj.name = htmlToStr(obj.name)
+      obj.firstChar = String.fromCharCode(((obj.name.charCodeAt(0) - 44032)/28)/21 + 4352)
+      obj.option = htmlToList(obj.option)
+      obj.savePoint = htmlToList(obj.savePoint)
+      obj.openPoint = htmlToList(obj.openPoint)
+      obj.recipe = htmlToList(obj.recipe)
       return {...obj}
     }).sort((obj1, obj2)=>{
       return obj1.name > obj2.name? 1: -1

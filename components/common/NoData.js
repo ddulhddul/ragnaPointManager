@@ -5,7 +5,7 @@ class NoData extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style={{ flex: 0.7, alignSelf: 'center', justifyContent: 'center', alignItems: 'center' }}>
+        <View style={{ flex: 0.8, alignSelf: 'center', justifyContent: 'center', alignItems: 'center' }}>
           <View style={{ position: 'relative', top: 10, flexDirection: 'row', alignItems: 'flex-end' }}>
             <Text style={{ color: 'rgb(190, 190, 190)', fontSize: 25 }}>없</Text>
             <Text style={{ color: 'rgb(190, 190, 190)', fontSize: 20 }}>네</Text>
@@ -13,7 +13,7 @@ class NoData extends Component {
             <Text style={{ color: 'rgb(190, 190, 190)', fontSize: 10 }}>...</Text>
           </View>
         </View>
-        <View style={{ flex: 0.3 }}></View>
+        <View style={{ flex: 0.2 }}></View>
       </View>
     )
   }
