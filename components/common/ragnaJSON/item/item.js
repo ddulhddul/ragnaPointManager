@@ -101,16 +101,18 @@ JSON.stringify(
     if(index == 0) resultEntry.push({})
     else{
       const thisObj = resultEntry[resultEntry.length-1]
-      function htmlToStr(str){
-        return str.replace(/\&nbsp\;\<br\>/g,' ')
-                  .replace(/\&amp\;/g,'&')
-                  .replace(/null/g,'')
-      }
-      function htmlToList(str){return htmlToStr(str).split(', ')}
+      function htmlToStr(str){return str}
+      function htmlToList(str){return str}
+    //   function htmlToStr(str){
+    //     return str.replace(/\&nbsp\;\<br\>/g,' ')
+    //               .replace(/\&amp\;/g,'&')
+    //               .replace(/null/g,'')
+    //   }
+    //   function htmlToList(str){return htmlToStr(str).split(', ')}
       if(index == 1){
         thisObj.imageSrc = trObj.querySelectorAll('td')[0].querySelector('img').getAttribute('src')
         thisObj.name = htmlToStr(trObj.querySelectorAll('td')[1].innerText)
-        thisObj.firstChar = String.fromCharCode(((thisObj.name.charCodeAt(0) - 44032)/28)/21 + 4352)
+        // thisObj.firstChar = String.fromCharCode(((thisObj.name.charCodeAt(0) - 44032)/28)/21 + 4352)
         thisObj.option = htmlToList(trObj.querySelectorAll('td')[2].innerText)
       }else if(index == 3){
         thisObj.savePoint = htmlToList(trObj.querySelectorAll('td')[0].innerText)

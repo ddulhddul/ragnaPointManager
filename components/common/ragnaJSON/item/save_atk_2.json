@@ -2,359 +2,145 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjU4/MDAxNTMwMjAxNzEwNjgz.gPHMZKRzR9EiDJ5vVaunwu-o6FD0xDf0LCl-_FSewvwg.0ORACy-Uywlq5w5LdCyFECKr-kmwph7OSIxTgK60phog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_229.png?type=w740",
         "name": "벚꽃 인형",
-        "firstChar": "ᄇ",
-        "option": [
-            "일반공격 시 자신이 약한 유혈 상태가 됩니다. \n유혈 상태에서 일반공격력 (BaseLv*3) 증가"
-        ],
-        "savePoint": [
-            "ATK +6",
-            "MATK+6"
-        ],
-        "openPoint": [
-            "MaxHP +60"
-        ],
-        "recipe": [
-            "얼음 조각 620개",
-            "하티의 이빨 6개",
-            "시간의 결정 620개",
-            "마스테라의 열매 1개"
-        ]
+        "option": "일반공격 시 자신이 약한 유혈 상태가 됩니다. \n유혈 상태에서 일반공격력 (BaseLv*3) 증가",
+        "savePoint": "ATK +6, MATK+6",
+        "openPoint": "MaxHP +60",
+        "recipe": "얼음 조각 620개, 하티의 이빨 6개, 시간의 결정 620개, 마스테라의 열매 1개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMzcg/MDAxNTMwMjAxNzM2MTY4.skq3CEMJ0MO6WV6j9UqHxEfKn2waDQUHU_e0t9xXdRsg.HR4teuFIuPpJh4UFsNrMJtGYs2knU9WPtTXgVOuV0csg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_230.png?type=w740",
         "name": "뻐꾹 뻐꾹",
-        "firstChar": "ᄈ",
-        "option": [
-            "MaxHP +400",
-            "DEF 무시 +2%"
-        ],
-        "savePoint": [
-            "ATK +10"
-        ],
-        "openPoint": [
-            "ATK +4"
-        ],
-        "recipe": [
-            "크리스탈 뼈 1395개",
-            "시계탑의 열쇠 4개",
-            "마녀의 별모래 1395개",
-            "괘종시계 150개,"
-        ]
+        "option": "MaxHP +400, DEF 무시 +2%",
+        "savePoint": "ATK +10",
+        "openPoint": "ATK +4",
+        "recipe": "크리스탈 뼈 1395개, 시계탑의 열쇠 4개, 마녀의 별모래 1395개, 괘종시계 150개,"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNDUg/MDAxNTMwMjAxNzUwNDI5.95kPNlGqK49hzxzMpazZ6l75n-VSMpUsm0AVmEXR95wg.PL7L1mGLTuCEhaMPeHDVPuwR3tfTKGPQj_WpUKSSyhAg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_240.png?type=w740",
         "name": "크리스마스 트리",
-        "firstChar": "ᄏ",
-        "option": [
-            "MATK +10",
-            "DEF +10"
-        ],
-        "savePoint": [
-            "ATK +3"
-        ],
-        "openPoint": [
-            "MaxHP +30"
-        ],
-        "recipe": [
-            "얼음 심장 252개",
-            "마녀의 별모래 252개",
-            "사금 50개"
-        ]
+        "option": "MATK +10, DEF +10",
+        "savePoint": "ATK +3",
+        "openPoint": "MaxHP +30",
+        "recipe": "얼음 심장 252개, 마녀의 별모래 252개, 사금 50개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTgg/MDAxNTMwMjAxNzU4ODI1.c253cosKuBcURuKZZmwtKrwZHTJbkwemCcgufyEulk8g.yE0A6KawtCl9mtIpe-VUduwbIMHq2sU0Q2pURbDvaf4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_245.png?type=w740",
         "name": "금색 크리스마스 방울",
-        "firstChar": "ᄀ",
-        "option": [
-            "성속성 공격 +8%, \n받는 암속성",
-            "염속성",
-            "불사 속성",
-            "독속성 데미지 -10%"
-        ],
-        "savePoint": [
-            "ATK +10"
-        ],
-        "openPoint": [
-            "MATK +8"
-        ],
-        "recipe": [
-            "크리스탈 뼈 3000개",
-            "하티의 이빨 15개",
-            "시간 왜곡 버튼 15개",
-            "눈사람 550개"
-        ]
+        "option": "성속성 공격 +8%, \n받는 암속성, 염속성, 불사 속성, 독속성 데미지 -10%",
+        "savePoint": "ATK +10",
+        "openPoint": "MATK +8",
+        "recipe": "크리스탈 뼈 3000개, 하티의 이빨 15개, 시간 왜곡 버튼 15개, 눈사람 550개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjM0/MDAxNTMwMjAxNzY4NTYw.j2yGiNHL-vafIKd4j19mIfxCyz6Z_g_oToL0BEObScIg.gPIRxbcPSkOF8BtEjdD2rYNX5wCAK7NKnsoGFHeBcT8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_268.png?type=w740",
         "name": "고양이 귀 베레모[1]",
-        "firstChar": "ᄀ",
-        "option": [
-            "ATK +5%"
-        ],
-        "savePoint": [
-            "ATK +6"
-        ],
-        "openPoint": [
-            "MaxHP +64"
-        ],
-        "recipe": [
-            "사탕 10개",
-            "부드러운 깃털 2개",
-            "단단한 껍질 133개"
-        ]
+        "option": "ATK +5%",
+        "savePoint": "ATK +6",
+        "openPoint": "MaxHP +64",
+        "recipe": "사탕 10개, 부드러운 깃털 2개, 단단한 껍질 133개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTEz/MDAxNTMwMjAxNzgzNDA0.lxWR-1iATnxc_dKGyF74P0tr4bY7zLHBt1iMHNh9e-Qg.NWXiSrzsJhMe8Y1xKrrXwgX8qP5S6EFRYrOjOMBy2c4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_309.png?type=w740",
         "name": "식탐 많은 도도리",
-        "firstChar": "ᄉ",
-        "option": [
-            "MDEF +3%",
-            "MaxHP +400"
-        ],
-        "savePoint": [
-            "ATK +8"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "EP 2.0 특전 구매"
-        ]
+        "option": "MDEF +3%, MaxHP +400",
+        "savePoint": "ATK +8",
+        "openPoint": "",
+        "recipe": "EP 2.0 특전 구매"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjY5/MDAxNTMwMjAxODA1NTEx.RnO1Z2cPt16rH-d0SEWFmp_JzmNGCYWfd3goy8jBoTwg.UebG-aeWXf4BUc84tBTiEaHSTt5j08ngWiOJ_GIr3dUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_351.png?type=w740",
         "name": "벚꽃 별빛선[1]",
-        "firstChar": "ᄇ",
-        "option": [
-            "무속성 공격 +8%",
-            "몬스터(中)에 데미지 +5%",
-            "MaxHP +1000"
-        ],
-        "savePoint": [
-            "ATK +1%",
-            "MATK +1%,"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.3월 뽑기"
-        ]
+        "option": "무속성 공격 +8%, 몬스터(中)에 데미지 +5%, MaxHP +1000",
+        "savePoint": "ATK +1%, MATK +1%,",
+        "openPoint": "",
+        "recipe": "2018.3월 뽑기"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjIg/MDAxNTMwMjAxODE3NzM2.VjeWx7phG_P1whIke6dH0ti7m7IJX45HX1Urc2JYfaEg.as4ULCoN8YD3kjcJaPY0SauYoBwJZbwu5Pnf2SdIUlkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_352.png?type=w740",
         "name": "명검 신궁설&천야행",
-        "firstChar": "ᄆ",
-        "option": [
-            "근거리 ATK + 5%",
-            "FLEE +20"
-        ],
-        "savePoint": [
-            "ATK +6",
-            "MATK+6"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.3월 뽑기"
-        ]
+        "option": "근거리 ATK + 5%, FLEE +20",
+        "savePoint": "ATK +6, MATK+6",
+        "openPoint": "",
+        "recipe": "2018.3월 뽑기"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTg0/MDAxNTMwMjAxODI1NDIx.jfy_WevmX4jk1Uc-9vwwry3HeWxc2TllisLIBf_QuQgg.u5MjAZgZ7CMf3amx6sjcydAi4zcj4FpxphLfaOmpDJAg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_354.png?type=w740",
         "name": "천자만홍[1]",
-        "firstChar": "ᄎ",
-        "option": [
-            "MATK +15",
-            "DEX +4"
-        ],
-        "savePoint": [
-            "ATK +4",
-            "MATK+4"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.3월 뽑기"
-        ]
+        "option": "MATK +15, DEX +4",
+        "savePoint": "ATK +4, MATK+4",
+        "openPoint": "",
+        "recipe": "2018.3월 뽑기"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMiAg/MDAxNTMwMjAxODM0Mjc0.LZZ2zPmTxwRv2FY5mKZgH8aP1N75fsRcxBfSDCB6JvYg.pVHlzUgA00I9hc0-i5gmx0DVBY2AlJowKZaebxUfTbog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_357.png?type=w740",
         "name": "세이지의 책",
-        "firstChar": "ᄉ",
-        "option": [
-            "풍",
-            "지",
-            "수",
-            "화",
-            "성속성 공격 +5%",
-            "변동 캐스팅 시간 -10%"
-        ],
-        "savePoint": [
-            "ATK +1%",
-            "MATK +1%,"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.4월 뽑기"
-        ]
+        "option": "풍, 지, 수, 화, 성속성 공격 +5%, 변동 캐스팅 시간 -10%",
+        "savePoint": "ATK +1%, MATK +1%,",
+        "openPoint": "",
+        "recipe": "2018.4월 뽑기"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjg3/MDAxNTMwMjAxODQyNjQw.vEiZwGMRcSg8ZygyBPYAEUAycLt4bZn3JglSP3FcP1Mg.126RiARfP1o6uH3PvozJNlbqLTe21wQUl0_M8KGmQbgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_359.png?type=w740",
         "name": "학교 생활",
-        "firstChar": "ᄒ",
-        "option": [
-            "DEX +5",
-            "INT +5"
-        ],
-        "savePoint": [
-            "ATK +6",
-            "MATK+6"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.4월 뽑기"
-        ]
+        "option": "DEX +5, INT +5",
+        "savePoint": "ATK +6, MATK+6",
+        "openPoint": "",
+        "recipe": "2018.4월 뽑기"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNTIg/MDAxNTMwMjAxODQ5NTM3.uqWmM3PzN8PO5d6tWfzNLpqqWCnDLegktfLcfs0piU0g.BX3xttlLJ-y7F38eMq9kwxidvHY7pDptTEazBemqWGMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_361.png?type=w740",
         "name": "늦었어요[1]",
-        "firstChar": "ᄂ",
-        "option": [
-            "FLEE +5",
-            "이동속도 +3%"
-        ],
-        "savePoint": [
-            "ATK +4",
-            "MATK+4"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.4월 뽑기"
-        ]
+        "option": "FLEE +5, 이동속도 +3%",
+        "savePoint": "ATK +4, MATK+4",
+        "openPoint": "",
+        "recipe": "2018.4월 뽑기"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTU4/MDAxNTMwMjAxODU4MTMy.EaFqdIAyHFhPNbQCRHzNG7_O5UumKRRvub6Tsrw471Ag.9YpekjXlc8M2seBv7qJfLp4uvjyzt5wbaTcMv-0LEG0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_364.png?type=w740",
         "name": "소피의 우주여행",
-        "firstChar": "ᄉ",
-        "option": [
-            "데미지를 받으면 SP 우선 감소",
-            "SP 1마다 데미지 5 흡수, \nPVP진행 시 SP 1마다 데미지 20 흡수"
-        ],
-        "savePoint": [
-            "ATK +1%",
-            "MATK +1%,"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.5월 뽑기"
-        ]
+        "option": "데미지를 받으면 SP 우선 감소, SP 1마다 데미지 5 흡수, \nPVP진행 시 SP 1마다 데미지 20 흡수",
+        "savePoint": "ATK +1%, MATK +1%,",
+        "openPoint": "",
+        "recipe": "2018.5월 뽑기"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNDIg/MDAxNTMwMjAxODY2Mzkx.hIbFMkUU7mgCdgdgwGlE-bTChnXp2UNJzk9257EAjtsg.z8XLs1MEYWSQYcV6TfpOAJc39T2ZkebqYz_6NRsg45Ig.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_365.png?type=w740",
         "name": "피라미드의 수수께끼[1]",
-        "firstChar": "ᄑ",
-        "option": [
-            "INT +3",
-            "MDEF 무시 +5%",
-            "INT 200 달성 시 MDEF 무시 +5%"
-        ],
-        "savePoint": [
-            "ATK +6",
-            "MATK+6"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.5월 뽑기"
-        ]
+        "option": "INT +3, MDEF 무시 +5%, INT 200 달성 시 MDEF 무시 +5%",
+        "savePoint": "ATK +6, MATK+6",
+        "openPoint": "",
+        "recipe": "2018.5월 뽑기"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTEx/MDAxNTMwMjAxODc0MDU5.YEq8M1VEWpu6FBCKZdT6gHSsgMeTbM4oQNxkiqHjo-8g.Z-8BoRD5kmH9fp-Yg5n09htB14Vn9eBs1Y-keIqzBjMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_367.png?type=w740",
         "name": "북쪽 나라의 오로라",
-        "firstChar": "ᄇ",
-        "option": [
-            "STR +2",
-            "DEF 무시 +2%"
-        ],
-        "savePoint": [
-            "ATK +4",
-            "MATK+4"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.5월 뽑기"
-        ]
+        "option": "STR +2, DEF 무시 +2%",
+        "savePoint": "ATK +4, MATK+4",
+        "openPoint": "",
+        "recipe": "2018.5월 뽑기"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjg1/MDAxNTMwMjAxODgxNjcw.pBOMY7QoV2CYlXNdm3s2MtGzM7dHOqD-_pviKiddfn4g.gz6RXI6Q8ICCzLsfCmUjuWpxdy0nM41EKcqLgo7kL9Qg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_369.png?type=w740",
         "name": "휴가중인 타오군 카",
-        "firstChar": "ᄒ",
-        "option": [
-            "MATK + 30",
-            "MATK + 3%",
-            "INT 200 달성 시 MATK +20",
-            "MATK +1%"
-        ],
-        "savePoint": [
-            "ATK +1%",
-            "MATK +1%,"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.6월 뽑기"
-        ]
+        "option": "MATK + 30, MATK + 3%, INT 200 달성 시 MATK +20, MATK +1%",
+        "savePoint": "ATK +1%, MATK +1%,",
+        "openPoint": "",
+        "recipe": "2018.6월 뽑기"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjE4/MDAxNTMwMjAxODkyMjk2.R-p-wpqqMLTfM9OTLrNZBqoxEz82ltolNCciAttRmqYg.lL9SFGS_aC4Gz6oT_uJbfFrcQPqfw1bAZi6xfXH6cqkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_371.png?type=w740",
         "name": "라디오 DJ 고래왕자",
-        "firstChar": "ᄅ",
-        "option": [
-            "풍속성 몬스터에 대한 데미지 +10%",
-            "받는 풍속성 데미지 -10%"
-        ],
-        "savePoint": [
-            "ATK +6",
-            "MATK+6"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.6월 뽑기"
-        ]
+        "option": "풍속성 몬스터에 대한 데미지 +10%, 받는 풍속성 데미지 -10%",
+        "savePoint": "ATK +6, MATK+6",
+        "openPoint": "",
+        "recipe": "2018.6월 뽑기"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTIz/MDAxNTMwMjAxOTAxMzgy.G4zgNqExFc-eA_EtnegwFa-9EfYSaULHmLSJGIXugjwg._idSvt5RKDchri69_2Jsj1CZ5_gEjqjBTdlHyLuii1Ug.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_373.png?type=w740",
         "name": "삼형제 진주조개",
-        "firstChar": "ᄉ",
-        "option": [
-            "MaxHP + 100",
-            "화속성 몬스터에 대한 데미지 +5%"
-        ],
-        "savePoint": [
-            "ATK +4",
-            "MATK+4"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.6월 뽑기"
-        ]
+        "option": "MaxHP + 100, 화속성 몬스터에 대한 데미지 +5%",
+        "savePoint": "ATK +4, MATK+4",
+        "openPoint": "",
+        "recipe": "2018.6월 뽑기"
     }
 ]

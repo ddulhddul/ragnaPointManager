@@ -2,182 +2,73 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjAz/MDAxNTMwMTkxMDY4MzAz.VFyyY300gHAOPfzqtZgWlTc04yKs9xrDozudICeQ1YEg.I2D5ZDHF9ehNFX8YW61DCguLHKuvLc5SoGF4t6GyrJ8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_032.png?type=w740",
         "name": "마스크",
-        "firstChar": "ᄆ",
-        "option": [
-            "침묵저항 +10%"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "MATK +4.5"
-        ],
-        "recipe": [
-            "부드러운 털 863개",
-            "썩은 붕대 863개"
-        ]
+        "option": "침묵저항 +10%",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MATK +4.5",
+        "recipe": "부드러운 털 863개, 썩은 붕대 863개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTcx/MDAxNTMwMTkxMDgyNDU5.RzzMbUKOCaoKAjnTsEkpdzmKfZAfrOKwHAqEewUxqSMg.AtfFDjkkS7J-3BDXExLm5fNYpaRQV1ecKSSiNLwDy-kg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_047.png?type=w740",
         "name": "귀마개",
-        "firstChar": "ᄀ",
-        "option": [
-            "저주저항 +10%"
-        ],
-        "savePoint": [
-            "MATK +6"
-        ],
-        "openPoint": [
-            "MaxHP +24"
-        ],
-        "recipe": [
-            "가렛 604개",
-            "부드러운 털 755개",
-            "하얀 염료 1개"
-        ]
+        "option": "저주저항 +10%",
+        "savePoint": "MATK +6",
+        "openPoint": "MaxHP +24",
+        "recipe": "가렛 604개, 부드러운 털 755개, 하얀 염료 1개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTI0/MDAxNTMwMTkxMDk0NzYy.L1wFcm2z-iftNQsQN4ytfeZ6yMyuyAO79vpL9Ct3tOAg.ljOlT_L0H8gbXzlV4OqpPyQTK5PYBWZ-bmrMg5Gyhhog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_092.png?type=w740",
         "name": "백련옥 모자[1]",
-        "firstChar": "ᄇ",
-        "option": [
-            "DEF +5",
-            "스턴 저항 +5%"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "MaxHP +64"
-        ],
-        "recipe": [
-            "셀 1,115개",
-            "철 19개",
-            "강철 19개"
-        ]
+        "option": "DEF +5, 스턴 저항 +5%",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +64",
+        "recipe": "셀 1,115개, 철 19개, 강철 19개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjE3/MDAxNTMwMTkxMTgxNzkz.m4B9K1U5gl_XrTgQDo8L5e7DcgYAtbD9cS9TaTKO7uEg.K5jYZmV9OP5KDU7YyEDH7kkct-44L1s-kYfhakUNrR0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_093.png?type=w740",
         "name": "스크래치 마스크",
-        "firstChar": "ᄉ",
-        "option": [
-            "석화 저항 +30%",
-            "1제련 당 석화 저항 +2% 최대 +60%까지 증가"
-        ],
-        "savePoint": [
-            "MaxHP +28"
-        ],
-        "openPoint": [
-            "MaxHP +127"
-        ],
-        "recipe": [
-            "유리구슬 2,100개",
-            "빛의 알갱이 22개",
-            "오크의 손톱 27개",
-            "하얀 염료 7개"
-        ]
+        "option": "석화 저항 +30%, 1제련 당 석화 저항 +2% 최대 +60%까지 증가",
+        "savePoint": "MaxHP +28",
+        "openPoint": "MaxHP +127",
+        "recipe": "유리구슬 2,100개, 빛의 알갱이 22개, 오크의 손톱 27개, 하얀 염료 7개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNDQg/MDAxNTMwMTkxMTk3MDY5.7x_Qz068ljND3Qi5DBjiGbNqp5MQArBwdn_8WpM82Z4g.dmz67TGz7CCsgyh02vbu_jyT6fcKzyKsiKpoQwVO2nIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_116.png?type=w740",
         "name": "월계수관[1]",
-        "firstChar": "ᄋ",
-        "option": [
-            "MDEF +5",
-            "LUK +3",
-            "저주 저항 +5%"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "MaxHP +64"
-        ],
-        "recipe": [
-            "불사의 심장 1,373개",
-            "네잎 클로버 1개",
-            "너구리의 나뭇잎 2개",
-            "끈적끈적한 액체 1,785개"
-        ]
+        "option": "MDEF +5, LUK +3, 저주 저항 +5%",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +64",
+        "recipe": "불사의 심장 1,373개, 네잎 클로버 1개, 너구리의 나뭇잎 2개, 끈적끈적한 액체 1,785개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTk4/MDAxNTMwMTkxMjA4MjA3.XVi7mVgFuuu41BUVvhopdL6Y3862aibNZyCfc862yqwg.ARQgG_58HIBod8wv9tIKDdKFv4sVLFotIMzRUGYKZXwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_150.png?type=w740",
         "name": "스켈톤 투구[1]",
-        "firstChar": "ᄉ",
-        "option": [
-            "DEF +10",
-            "STR+2",
-            "MDEF +5",
-            "스턴 저항 +5%"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "MaxHP +64"
-        ],
-        "recipe": [
-            "악마의 뿔 919개",
-            "불사의 심장 1,131개",
-            "수은 39개",
-            "뼈조각 39개"
-        ]
+        "option": "DEF +10, STR+2, MDEF +5, 스턴 저항 +5%",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +64",
+        "recipe": "악마의 뿔 919개, 불사의 심장 1,131개, 수은 39개, 뼈조각 39개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTQy/MDAxNTMwMTkxMjQyMTY2.-h0Vd9KJ4Em-MKu9tLacNPo3F3Dlp5mewNTBLHQ51bYg.i5NwcgRno_m33k0apr4F7K-jtxrtZ8HvjFwzq9YdZTgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_159.png?type=w740",
         "name": "데비루치 꼬리",
-        "firstChar": "ᄃ",
-        "option": [
-            "FLEE +5%",
-            "암흑 저항 +100%"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "MaxSP +30"
-        ],
-        "recipe": [
-            "비정한 마음 1,488개",
-            "핏빛의 룬 6개",
-            "흑운모 5개",
-            "마스테라의 열매 40개"
-        ]
+        "option": "FLEE +5%, 암흑 저항 +100%",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxSP +30",
+        "recipe": "비정한 마음 1,488개, 핏빛의 룬 6개, 흑운모 5개, 마스테라의 열매 40개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjcy/MDAxNTMwMTkxMjg4NDQ4.gh5kQ1xG417XiWdjmsikbp6vLzTJMc3aAIKALMmawNog.i-XAm2hqUi7xa7BfODZ1e3-YCassNy6EsOIq5OT3TOQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_177.png?type=w740",
         "name": "맹목의 후드[1]",
-        "firstChar": "ᄆ",
-        "option": [
-            "암흑 상태에 빠지지 않습니다. \n일반공격 시 일정 확률로 대상의 HIT 40 감소"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "FLEE +2"
-        ],
-        "recipe": [
-            "혜안 1,339개",
-            "저주받은 루비 5개",
-            "흑운모 5개",
-            "비정한 마음 1,116개"
-        ]
+        "option": "암흑 상태에 빠지지 않습니다. \n일반공격 시 일정 확률로 대상의 HIT 40 감소",
+        "savePoint": "MaxHP +19",
+        "openPoint": "FLEE +2",
+        "recipe": "혜안 1,339개, 저주받은 루비 5개, 흑운모 5개, 비정한 마음 1,116개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfODcg/MDAxNTMwMTkxMzA3NDk2.bu3fAX97DJidxxgDxczGW7fXktuo5LHtKQqMHvuGzfYg.G296Kn5jp8z8WXt2ViBmNZtODWlC8g9RdDHwTWIMbhwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_252.png?type=w740",
         "name": "선글래스",
-        "firstChar": "ᄉ",
-        "option": [
-            "연소 저항 +5%"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "받는 암속성 데미지 -2%"
-        ],
-        "recipe": [
-            "젤로피 550개"
-        ]
+        "option": "연소 저항 +5%",
+        "savePoint": "MaxHP +10",
+        "openPoint": "받는 암속성 데미지 -2%",
+        "recipe": "젤로피 550개"
     }
 ]

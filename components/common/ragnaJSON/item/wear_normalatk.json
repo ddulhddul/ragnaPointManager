@@ -2,120 +2,49 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjYy/MDAxNTMwMTg4NzgwNDk4.o2Dj7XkhYWeJlgKFdCkSHx4tgRoPtMWQYbMIM0JOwNAg.0oI4DfqcpFpo2e0dZ_eSXaI3BvlnEO202rkao25eTBsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_105.png?type=w740",
         "name": "보석의 투구[1]",
-        "firstChar": "ᄇ",
-        "option": [
-            "일반 공격이나 스킬 사용 시 3% 확률로 저주 시전"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "MaxHP +64"
-        ],
-        "recipe": [
-            "악마의 뿔 3,347개",
-            "방울 2개",
-            "오크히어로 증표 2개",
-            "아메디스트 50개"
-        ]
+        "option": "일반 공격이나 스킬 사용 시 3% 확률로 저주 시전",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +64",
+        "recipe": "악마의 뿔 3,347개, 방울 2개, 오크히어로 증표 2개, 아메디스트 50개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNjgg/MDAxNTMwMTg4NzkwMjI3.fmdQDyc6w_omuPfbhD0OfUaCEP5XPrb6IKsD1sovQ6og.dXW-bXpsT5dfTD_g_LN0YOULZlWyhKFeIsrl2tJckqgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_172.png?type=w740",
         "name": "로키의 속삭임",
-        "firstChar": "ᄅ",
-        "option": [
-            "일반공격이나 스킬 공격 사용 시 일정 확률로 \n대상의 ATK 일정 시간 동안 5% 감소"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "MaxHP +32"
-        ],
-        "recipe": [
-            "성흔 420개",
-            "수정으로 만든 거울 10개",
-            "빨간 염료 8개",
-            "보라 염료 2개"
-        ]
+        "option": "일반공격이나 스킬 공격 사용 시 일정 확률로 \n대상의 ATK 일정 시간 동안 5% 감소",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +32",
+        "recipe": "성흔 420개, 수정으로 만든 거울 10개, 빨간 염료 8개, 보라 염료 2개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTk1/MDAxNTMwMTg4ODA4NDUw.D2pbiJOll-wKekZjt4_b2X-E1yBc5v-9RVnWtQxvWy0g.LGA61NmXfXqPLkTNUC8Zj1TdOJlMhpcIkPhH3RefUF8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_177.png?type=w740",
         "name": "맹목의 후드[1]",
-        "firstChar": "ᄆ",
-        "option": [
-            "암흑 상태에 빠지지 않습니다. 일반공격 시 \n일정 확률로 대상의 HIT 40 감소"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "FLEE +2"
-        ],
-        "recipe": [
-            "혜안 1,339개",
-            "저주받은 루비 5개",
-            "흑운모 5개",
-            "비정한 마음 1,116개"
-        ]
+        "option": "암흑 상태에 빠지지 않습니다. 일반공격 시 \n일정 확률로 대상의 HIT 40 감소",
+        "savePoint": "MaxHP +19",
+        "openPoint": "FLEE +2",
+        "recipe": "혜안 1,339개, 저주받은 루비 5개, 흑운모 5개, 비정한 마음 1,116개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfOTcg/MDAxNTMwMTg4ODE2NTQ2.EfU1K8w_rkI4en4cTUnMH1wSHAb5K1ArcxCR5avVzNsg.gSx24pbDgivXAYTUqB6O8qCgCjtshYQ56oZ6HP-8rNMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_183.png?type=w740",
         "name": "작은리본[1]",
-        "firstChar": "ᄌ",
-        "option": [
-            "FLEE +20"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "FLEE +2"
-        ],
-        "recipe": [
-            "심연의 꽃 525개",
-            "리본 끈 6개",
-            "빨간 염료 25개"
-        ]
+        "option": "FLEE +20",
+        "savePoint": "MaxHP +19",
+        "openPoint": "FLEE +2",
+        "recipe": "심연의 꽃 525개, 리본 끈 6개, 빨간 염료 25개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNDQg/MDAxNTMwMTg4ODI1Njc3.tGyUsJF9X469y_hQp0dcrHGeV5aDI8F_Vcq5CizqTnwg.F4OF1CwRiYWNkR4Lay79uQCAQ4MFtS7oDTHBDAV4PMMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_192.png?type=w740",
         "name": "드라큘라의 이빨",
-        "firstChar": "ᄃ",
-        "option": [
-            "일반공격 시 일정 확률로 입히는 데미지를 자신의 HP로 회복"
-        ],
-        "savePoint": [
-            "제련 ATK +10"
-        ],
-        "openPoint": [
-            "ATK +8"
-        ],
-        "recipe": [
-            "사이파 1,488개",
-            "수정으로 만든 거울 10개",
-            "송곳니 15개",
-            "마스테라의 열매 20개"
-        ]
+        "option": "일반공격 시 일정 확률로 입히는 데미지를 자신의 HP로 회복",
+        "savePoint": "제련 ATK +10",
+        "openPoint": "ATK +8",
+        "recipe": "사이파 1,488개, 수정으로 만든 거울 10개, 송곳니 15개, 마스테라의 열매 20개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTk0/MDAxNTMwMTg4ODM0NTkx.cwDtGdxewchtAkNL-36jW65xl_i7CWNQNcf5-XPgVBkg.XclccVxIKe_0_dfyvlrg924TPpXBKy4-sbIWGj2873wg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_213.png?type=w740",
         "name": "악마의 성냥",
-        "firstChar": "ᄋ",
-        "option": [
-            "일반공격이나 스킬 사용 시 10% 확률로 목표가 연소 상태에 빠짐"
-        ],
-        "savePoint": [
-            "MATK +6"
-        ],
-        "openPoint": [
-            "MaxHP +60"
-        ],
-        "recipe": [
-            "얼음 심장 438개",
-            "하티의 이빨 6개",
-            "얼음 가루 6개",
-            "크리스마스 화환 75개"
-        ]
+        "option": "일반공격이나 스킬 사용 시 10% 확률로 목표가 연소 상태에 빠짐",
+        "savePoint": "MATK +6",
+        "openPoint": "MaxHP +60",
+        "recipe": "얼음 심장 438개, 하티의 이빨 6개, 얼음 가루 6개, 크리스마스 화환 75개"
     }
 ]

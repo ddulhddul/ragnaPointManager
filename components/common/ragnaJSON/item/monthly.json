@@ -2,72 +2,33 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTgx/MDAxNTMwMTczMDY5MzM3.chDsq9BevNROKV_680PMjeayioYu59O31IBIC_kW0Aog.vK0XBuUJXh-syzNe0-NXCKKRwFE9jwQfBkiolwgykvQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_311.png?type=w740",
         "name": "딸기 머리핀",
-        "firstChar": "ᄄ",
-        "option": [
-            "ATK +10",
-            "MATK +10"
-        ],
-        "savePoint": [
-            "MaxHP +30"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.3월 한정 특전 구매"
-        ]
+        "option": "ATK +10, MATK +10",
+        "savePoint": "MaxHP +30",
+        "openPoint": "",
+        "recipe": "2018.3월 한정 특전 구매"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfOTUg/MDAxNTMwMTczMDgxMzE4.hjoQtVfEcJCJQUs8k21pvBzOau2b-BdOnnk58lxXOSog.kTiWzaji3lewMU4OFZA8BLy1o1BB_jZ3rTqEV8JV_a8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_312.png?type=w740",
         "name": "SAKURA·SAKURA",
-        "firstChar": "Ⴕ",
-        "option": [
-            "MaxSP +100"
-        ],
-        "savePoint": [
-            "MaxHP +30"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.4월 한정 특전 구매"
-        ]
+        "option": "MaxSP +100",
+        "savePoint": "MaxHP +30",
+        "openPoint": "",
+        "recipe": "2018.4월 한정 특전 구매"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTA0/MDAxNTMwMTczMDg4NTgx.cuNNsbrJx1rTQ-BBZcK6Pi1W7Jhw_bVQ99nDkmVC8Gog.46DKTldT6eIUozSW3kM6Nk6O-MOm6FRe6BqxxzkCcDMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_313.png?type=w740",
         "name": "기관차 모자",
-        "firstChar": "ᄀ",
-        "option": [
-            "LUK +2",
-            "이동속도 +3%"
-        ],
-        "savePoint": [
-            "MaxHP +30"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.5월 한정 특전 구매"
-        ]
+        "option": "LUK +2, 이동속도 +3%",
+        "savePoint": "MaxHP +30",
+        "openPoint": "",
+        "recipe": "2018.5월 한정 특전 구매"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjY3/MDAxNTMwMTczMDk2NDk2.Q61b_735eGoqkuBvQ5I6NSg0fyV7kpT4-14zGOvXOxog.VC3w5ND0DTaZX2wIkQetV4sb4vr-b7OaZUNfmLjt6t8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_314.png?type=w740",
         "name": "우든 헬멧",
-        "firstChar": "ᄋ",
-        "option": [
-            "MaxSP +50",
-            "MATK +10"
-        ],
-        "savePoint": [
-            "MaxHP +30"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.6월 한정 특전 구매"
-        ]
+        "option": "MaxSP +50, MATK +10",
+        "savePoint": "MaxHP +30",
+        "openPoint": "",
+        "recipe": "2018.6월 한정 특전 구매"
     }
 ]

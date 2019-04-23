@@ -2,121 +2,49 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTI1/MDAxNTMwMTkzMjMwMDk5.Kz6ca2o0uBZEdF7gnJwpKL1ta0HcNaEQLBFbLkJOX2Yg.IYnBX-OTmQnjASlyelEu6MmCsGA2t2VptZj20iid-2Yg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_236.png?type=w740",
         "name": "망자의 선택",
-        "firstChar": "ᄆ",
-        "option": [
-            "MaxHP +200",
-            "불사형 몬스터에 데미지 +5%"
-        ],
-        "savePoint": [
-            "MaxHP +25"
-        ],
-        "openPoint": [
-            "MaxHP +15"
-        ],
-        "recipe": [
-            "단단한 껍질 800개",
-            "셀 500개"
-        ]
+        "option": "MaxHP +200, 불사형 몬스터에 데미지 +5%",
+        "savePoint": "MaxHP +25",
+        "openPoint": "MaxHP +15",
+        "recipe": "단단한 껍질 800개, 셀 500개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjkz/MDAxNTMwMTkzMjM4OTE4.u9tT9zaEO18CNgAjJqhnj8s1Jn2YLWrAyULY58REEUQg.9-h5afKdA_Cdgwg98_hlqsM5UZ0chJBdechmrqAh_1Qg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_237.png?type=w740",
         "name": "망자의 인도",
-        "firstChar": "ᄆ",
-        "option": [
-            "MaxHP +300",
-            "불사형 몬스터에 데미지 +10%"
-        ],
-        "savePoint": [
-            "MaxHP +35"
-        ],
-        "openPoint": [
-            "MaxHP +25"
-        ],
-        "recipe": [
-            "브리간 1000개",
-            "오크히어로의 증표 6개",
-            "혜안 1000개",
-            "마스테라의 열매 5개"
-        ]
+        "option": "MaxHP +300, 불사형 몬스터에 데미지 +10%",
+        "savePoint": "MaxHP +35",
+        "openPoint": "MaxHP +25",
+        "recipe": "브리간 1000개, 오크히어로의 증표 6개, 혜안 1000개, 마스테라의 열매 5개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNCAg/MDAxNTMwMTkzMjUzNTA1.2_aL3mclkPO16K29S4MwjVguE-XYPPqF-g-Jo3sEkjog.SdZC0-zfz-0uVYQdhGQhGWPxwXX9BlSIfcuJveZUpXUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_124.png?type=w740",
         "name": "솜브레로",
-        "firstChar": "ᄉ",
-        "option": [
-            "STR +3",
-            "곤충형 몬스터 데미지 감소 +10%, \n10제련 이상 시 MaxHP +10%"
-        ],
-        "savePoint": [
-            "제련 ATK +10"
-        ],
-        "openPoint": [
-            "ATK +12"
-        ],
-        "recipe": [
-            "악마의 뿔 1,750개",
-            "오크히어로의 증표 20개",
-            "부품 20개",
-            "석탄 175개"
-        ]
+        "option": "STR +3, 곤충형 몬스터 데미지 감소 +10%, \n10제련 이상 시 MaxHP +10%",
+        "savePoint": "제련 ATK +10",
+        "openPoint": "ATK +12",
+        "recipe": "악마의 뿔 1,750개, 오크히어로의 증표 20개, 부품 20개, 석탄 175개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTc1/MDAxNTMwMTkzMjYyODQx.1Qf9epLfrmfEsE0yo-PSo5kJsrYBOYdHJJUJA1BpQ0og.2T37gBtt4-hb4SNdPCT2UO93DoCqdAP7H7KTt1-Jul8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_126.png?type=w740",
         "name": "무낙모자[1]",
-        "firstChar": "ᄆ",
-        "option": [
-            "불사형 몬스터 데미지 감소 +10%"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "MaxHP +64"
-        ],
-        "recipe": [
-            "자르곤 528개",
-            "망자의 유물 845개",
-            "빨간 염료 14개"
-        ]
+        "option": "불사형 몬스터 데미지 감소 +10%",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +64",
+        "recipe": "자르곤 528개, 망자의 유물 845개, 빨간 염료 14개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjU3/MDAxNTMwMTkzMzg3MjUy.GvqhSTzq_AlJK0mhNg9Zw_0M7iD6V83gwWhFIjOsTs8g.4vg37FIZX3Vxav7Mcdw06VlWj2gifnKEgH4lOuyAhiwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_204.png?type=w740",
         "name": "움직이는 나비[1]",
-        "firstChar": "ᄋ",
-        "option": [
-            "무형 몬스터에 데미지 +5%"
-        ],
-        "savePoint": [
-            "MaxHP +70"
-        ],
-        "openPoint": [
-            "MaxHP +14"
-        ],
-        "recipe": [
-            "크리스탈 뼈 2.975개",
-            "시간 왜곡 버튼 10개",
-            "수정으로 만든 거울 10개",
-            "추억의 보석 25개"
-        ]
+        "option": "무형 몬스터에 데미지 +5%",
+        "savePoint": "MaxHP +70",
+        "openPoint": "MaxHP +14",
+        "recipe": "크리스탈 뼈 2.975개, 시간 왜곡 버튼 10개, 수정으로 만든 거울 10개, 추억의 보석 25개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTcz/MDAxNTMwMTkzMzk1MDQ2.Zoy3MTd4rov6vviwT_X6nnuNOJESCAr3RDBFRjEZhaog.vfnF_q-ZBk0syOP06nkyEHhEaxJJiFrVFIApgN8u0cMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_205.png?type=w740",
         "name": "슈페샤를의 속삭임",
-        "firstChar": "ᄉ",
-        "option": [
-            "불사형 몬스터에 데미지 추가 +10%, \n1제련 당 불사형 몬스터 데미지 추가 +1%"
-        ],
-        "savePoint": [
-            "불사형 몬스터에 데미지 추가 +4%"
-        ],
-        "openPoint": [
-            "불사형 몬스터에 데미지 추가 +1%"
-        ],
-        "recipe": [
-            "마녀의 별모래 2,479개",
-            "시계탑의 열쇠 12개",
-            "시간 왜곡 버튼 8개",
-            "시간의 결정 2,479개"
-        ]
+        "option": "불사형 몬스터에 데미지 추가 +10%, \n1제련 당 불사형 몬스터 데미지 추가 +1%",
+        "savePoint": "불사형 몬스터에 데미지 추가 +4%",
+        "openPoint": "불사형 몬스터에 데미지 추가 +1%",
+        "recipe": "마녀의 별모래 2,479개, 시계탑의 열쇠 12개, 시간 왜곡 버튼 8개, 시간의 결정 2,479개"
     }
 ]

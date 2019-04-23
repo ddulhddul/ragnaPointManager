@@ -2,121 +2,49 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjQ0/MDAxNTMwMTk3MTg3ODg5.axhcQGtXrZoNGWAGNZS8l3Ok8IG2EjnKd0gtjcRhWDIg.EhZLwq3pD-d-dBQaxncTHe8rP_VZqtdaq6wgO16dzngg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_089.png?type=w740",
         "name": "눈 흉터",
-        "firstChar": "ᄂ",
-        "option": [
-            "DEF 무시 +2%"
-        ],
-        "savePoint": [
-            "MaxHP +18"
-        ],
-        "openPoint": [
-            "ATK +3"
-        ],
-        "recipe": [
-            "셀 1,579개. 진주 1개",
-            "빗빛의 룬 1개",
-            "토파즈 20개"
-        ]
+        "option": "DEF 무시 +2%",
+        "savePoint": "MaxHP +18",
+        "openPoint": "ATK +3",
+        "recipe": "셀 1,579개. 진주 1개, 빗빛의 룬 1개, 토파즈 20개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNSAg/MDAxNTMwMTk3MjQ4MTQ0.HauTMLku4D5aP0qN2Pe8izDFjMjJ98NPkx_G2xQLyvog.B26I9mtUZFyEwXgK1IfOy53mtv-vI667YrYIL1VdCL8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_169.png?type=w740",
         "name": "머리에 박힌 나사",
-        "firstChar": "ᄆ",
-        "option": [
-            "HIT +5",
-            "DEF 무시 +5%"
-        ],
-        "savePoint": [
-            "ATK +6"
-        ],
-        "openPoint": [
-            "ATK +3"
-        ],
-        "recipe": [
-            "혜안 781개",
-            "부품 3개",
-            "자르곤 976개",
-            "어둠에 잠긴 칼날 20개"
-        ]
+        "option": "HIT +5, DEF 무시 +5%",
+        "savePoint": "ATK +6",
+        "openPoint": "ATK +3",
+        "recipe": "혜안 781개, 부품 3개, 자르곤 976개, 어둠에 잠긴 칼날 20개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjgz/MDAxNTMwMTk3MjczNjUx.ZT4wfcI6WTk6AqGE_9wU92cFB-rfPoGib2VkggIYkokg.KM4Rds19JNVTmNmf7AkbL1Aj5npqrPNrWQwXPbqlSvUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_190.png?type=w740",
         "name": "마제스틱 고우트",
-        "firstChar": "ᄆ",
-        "option": [
-            "STR +5",
-            "DEF 무시 +10%",
-            "10제련 이상 시 DEF 무시 +10%"
-        ],
-        "savePoint": [
-            "제련 ATK +10"
-        ],
-        "openPoint": [
-            "ATK +8"
-        ],
-        "recipe": [
-            "악마의 뿔 2,231개",
-            "흑운모 25개",
-            "드래곤의 비늘 20개",
-            "비정한 마음 1,488개"
-        ]
+        "option": "STR +5, DEF 무시 +10%, 10제련 이상 시 DEF 무시 +10%",
+        "savePoint": "제련 ATK +10",
+        "openPoint": "ATK +8",
+        "recipe": "악마의 뿔 2,231개, 흑운모 25개, 드래곤의 비늘 20개, 비정한 마음 1,488개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTU4/MDAxNTMwMTk3Mjk2MjYw.zF-9GGEwjA_5h6I1T6bRlTlfWgfHTYl9DB860r2ir1kg.74XADUJhWslkb-YJxcB7HnJeKuo66TdgYb1C-QT9t40g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_230.png?type=w740",
         "name": "뻐꾹 뻐꾹",
-        "firstChar": "ᄈ",
-        "option": [
-            "MaxHP +400",
-            "DEF 무시 +2%"
-        ],
-        "savePoint": [
-            "ATK +10"
-        ],
-        "openPoint": [
-            "ATK +4"
-        ],
-        "recipe": [
-            "크리스탈 뼈 1395개",
-            "시계탑의 열쇠 4개",
-            "마녀의 별모래 1395개",
-            "괘종시계 150개,"
-        ]
+        "option": "MaxHP +400, DEF 무시 +2%",
+        "savePoint": "ATK +10",
+        "openPoint": "ATK +4",
+        "recipe": "크리스탈 뼈 1395개, 시계탑의 열쇠 4개, 마녀의 별모래 1395개, 괘종시계 150개,"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjc4/MDAxNTMwMTk3MzA1MTEz.jwXdM7vLJMQPsSQibKPE_5l9v0nRWRSH6NdT12TASfYg.MI7WP_G6eLLBEI9BFxXHtK08yKqFvlIhfyT54q9UXTMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_358.png?type=w740",
         "name": "I Like You!",
-        "firstChar": "Ⴕ",
-        "option": [
-            "DEF 무시 +5%",
-            "ATK +20"
-        ],
-        "savePoint": [
-            "MaxHP +120"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.4월 뽑기"
-        ]
+        "option": "DEF 무시 +5%, ATK +20",
+        "savePoint": "MaxHP +120",
+        "openPoint": "",
+        "recipe": "2018.4월 뽑기"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMzIg/MDAxNTMwMTk3MzE5Nzc4.6rzQfZs1nT8jKuIBJZfwo6oMTofOvOr_Nyhp66DK3swg.Uhu1Yk8Ca1F51doykXCMeDB6UNOD64TsBve1v7ToZuQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_367.png?type=w740",
         "name": "북쪽 나라의 오로라",
-        "firstChar": "ᄇ",
-        "option": [
-            "STR +2",
-            "DEF 무시 +2%"
-        ],
-        "savePoint": [
-            "ATK +4",
-            "MATK+4"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.5월 뽑기"
-        ]
+        "option": "STR +2, DEF 무시 +2%",
+        "savePoint": "ATK +4, MATK+4",
+        "openPoint": "",
+        "recipe": "2018.5월 뽑기"
     }
 ]

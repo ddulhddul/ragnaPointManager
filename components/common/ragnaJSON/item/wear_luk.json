@@ -2,475 +2,185 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTg2/MDAxNTMwMTkzNjI4ODkx.AhvHbc78u_l13qbWT5oqvkmfknPHpX5G-2GebG5ftqcg.WoYEpBDTlWrNfgNLD_kf_i2xAaXAolPphWxtlRZKKjYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_013.png?type=w740",
         "name": "토끼 머리띠[1]",
-        "firstChar": "ᄐ",
-        "option": [
-            "DEF +5",
-            "LUK +2"
-        ],
-        "savePoint": [
-            "ATK +6"
-        ],
-        "openPoint": [
-            "MaxHP +64"
-        ],
-        "recipe": [
-            "부드러운 털 474개",
-            "네잎 클로버 4개",
-            "하얀 염로 1개"
-        ]
+        "option": "DEF +5, LUK +2",
+        "savePoint": "ATK +6",
+        "openPoint": "MaxHP +64",
+        "recipe": "부드러운 털 474개, 네잎 클로버 4개, 하얀 염로 1개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTE5/MDAxNTMwMTkzNjY1MDAw.iNe4K5osbRvIoQzi-G85wyRwZQ_RNYE1u_Q0tPMoPNQg.YDSIG4wHvOkoTlEZpvWvbTCInLRrm7Ys8vaUD4y-QkUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_019.png?type=w740",
         "name": "천사의 머리띠",
-        "firstChar": "ᄎ",
-        "option": [
-            "AGI +2",
-            "LUK +5",
-            "악마형 몬스터로부터 받은 데미지 -10% \n10제련 이상 시 MDEF +25"
-        ],
-        "savePoint": [
-            "MaxHP +28"
-        ],
-        "openPoint": [
-            "MDEF +5"
-        ],
-        "recipe": [
-            "가렛 2240개",
-            "빛의 알갱이 15개",
-            "부드러운 깃털 13개",
-            "하얀 염료 4개"
-        ]
+        "option": "AGI +2, LUK +5, 악마형 몬스터로부터 받은 데미지 -10% \n10제련 이상 시 MDEF +25",
+        "savePoint": "MaxHP +28",
+        "openPoint": "MDEF +5",
+        "recipe": "가렛 2240개, 빛의 알갱이 15개, 부드러운 깃털 13개, 하얀 염료 4개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjI2/MDAxNTMwMTkzNjc3NDE5.CYNsWWhST5_nqScHGUlnTgQJZrqCsLCLxPdtojFybXYg.YH133kWsKZJt64IgQ3jJKHI3WE0KZte9JJAwOgriPnsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_109.png?type=w740",
         "name": "여우가면",
-        "firstChar": "ᄋ",
-        "option": [
-            "DEF +10",
-            "AGI +1",
-            "LUK +1"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "MATK +14"
-        ],
-        "recipe": [
-            "유리구슬 837개",
-            "오크의 손톱 3개",
-            "마스테라의 열매 13개"
-        ]
+        "option": "DEF +10, AGI +1, LUK +1",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MATK +14",
+        "recipe": "유리구슬 837개, 오크의 손톱 3개, 마스테라의 열매 13개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjM0/MDAxNTMwMTkzNjkxODYy.ZCd-0iMdwoZtXM22BbxsAivB3B0_6MkyIztihG51qfAg.d3fIyGC1g4PHTwadAmO8HZowAtje46UTtd-TSq42nCEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_115.png?type=w740",
         "name": "데빌냥",
-        "firstChar": "ᄃ",
-        "option": [
-            "MaxHP +50",
-            "LUK +1"
-        ],
-        "savePoint": [
-            "MaxHP +18"
-        ],
-        "openPoint": [
-            "MaxHP +18"
-        ],
-        "recipe": [
-            "유리구슬 1,283개",
-            "부품 1개",
-            "투명한 천조각 1개",
-            "아메디스트 20개"
-        ]
+        "option": "MaxHP +50, LUK +1",
+        "savePoint": "MaxHP +18",
+        "openPoint": "MaxHP +18",
+        "recipe": "유리구슬 1,283개, 부품 1개, 투명한 천조각 1개, 아메디스트 20개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTMg/MDAxNTMwMTkzNzA3NzU3.rdAsnOBlopajmQGEBEYPhaSsZ0D1By4ejcoTDCtmBk8g.fiNtY42zAq3rnfHJgM_N6StJpZYqfCkddDb7H6n1_Gwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_116.png?type=w740",
         "name": "월계수관[1]",
-        "firstChar": "ᄋ",
-        "option": [
-            "MDEF +5",
-            "LUK +3",
-            "저주 저항 +5%"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "MaxHP +64"
-        ],
-        "recipe": [
-            "불사의 심장 1,373개",
-            "네잎 클로버 1개",
-            "너구리의 나뭇잎 2개",
-            "끈적끈적한 액체 1,785개"
-        ]
+        "option": "MDEF +5, LUK +3, 저주 저항 +5%",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +64",
+        "recipe": "불사의 심장 1,373개, 네잎 클로버 1개, 너구리의 나뭇잎 2개, 끈적끈적한 액체 1,785개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjk1/MDAxNTMwMTkzNzE2NDI3.7GrTQ08mIqhhigUNZereYSNcTumA4Cv3byonY46ky-og.YwSbhxSO-JclAksMjYgbw04yKWeKzd43FyQJiETthtkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_132.png?type=w740",
         "name": "풋사랑",
-        "firstChar": "ᄑ",
-        "option": [
-            "LUK +3",
-            "FLEE +5",
-            "1제련 당 FLEE +1 최대 +15까지 증가"
-        ],
-        "savePoint": [
-            "MaxHP +28"
-        ],
-        "openPoint": [
-            "DEF +5"
-        ],
-        "recipe": [
-            "유리구슬 1,750개",
-            "더듬이 38개",
-            "수은 175개",
-            "만드라 100개"
-        ]
+        "option": "LUK +3, FLEE +5, 1제련 당 FLEE +1 최대 +15까지 증가",
+        "savePoint": "MaxHP +28",
+        "openPoint": "DEF +5",
+        "recipe": "유리구슬 1,750개, 더듬이 38개, 수은 175개, 만드라 100개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjAg/MDAxNTMwMTkzNzI3NDM1.oNWyGJqnk29OerMaoyreyemkkLZ3RBjHp6ZuibQttR8g.UHG6H8jghhMMtDiw-lnNoT2KvOzGwNlf-6Bv1uyUHWYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_144.png?type=w740",
         "name": "로드 서클릿",
-        "firstChar": "ᄅ",
-        "option": [
-            "STR +1",
-            "INT +1",
-            "LUK +1",
-            "10제련 이상 시 MaxHP +1,000"
-        ],
-        "savePoint": [
-            "MaxHP +28"
-        ],
-        "openPoint": [
-            "ATK +3"
-        ],
-        "recipe": [
-            "혜안 1,400개",
-            "저주받은 루비 16개",
-            "진주 16개",
-            "사금 175개"
-        ]
+        "option": "STR +1, INT +1, LUK +1, 10제련 이상 시 MaxHP +1,000",
+        "savePoint": "MaxHP +28",
+        "openPoint": "ATK +3",
+        "recipe": "혜안 1,400개, 저주받은 루비 16개, 진주 16개, 사금 175개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTEg/MDAxNTMwMTkzNzM1ODMx.JAtrttyvYu1bvG3VlZm-yoKOqh8XtLUUWmJlMKKthJ4g.FCOSXEoLKkl_cx4yvv-VBp6pu342ZkbNVwDR0ibdr3Qg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_152.png?type=w740",
         "name": "쥬얼 크라운",
-        "firstChar": "ᄌ",
-        "option": [
-            "INT +2",
-            "LUK +1",
-            "마법 데미지 5% 반사 \n10제련 이상 시 반사율 10% 증가",
-            "MDEF +5% 획득"
-        ],
-        "savePoint": [
-            "MaxHP +28"
-        ],
-        "openPoint": [
-            "ATK +3"
-        ],
-        "recipe": [
-            "혜안 1,680개",
-            "저주받은 루비 19개",
-            "진주 19개",
-            "사금 210개"
-        ]
+        "option": "INT +2, LUK +1, 마법 데미지 5% 반사 \n10제련 이상 시 반사율 10% 증가, MDEF +5% 획득",
+        "savePoint": "MaxHP +28",
+        "openPoint": "ATK +3",
+        "recipe": "혜안 1,680개, 저주받은 루비 19개, 진주 19개, 사금 210개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTQ0/MDAxNTMwMTkzNzQ0Nzcx.tc7BlShFB5ZV2tg0ccYulKKR3CRvaVNXGjOv61ewTiMg.FmDe-1Jb5n49iXr8qHdCgqNoNbkY9ObWb37NiXBzxk0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_187.png?type=w740",
         "name": "광대 모자",
-        "firstChar": "ᄀ",
-        "option": [
-            "MDEF +5",
-            "LUK +2"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "ATK +3"
-        ],
-        "recipe": [
-            "성흔 966개",
-            "파란 염료 8개",
-            "빨간 염료 8개"
-        ]
+        "option": "MDEF +5, LUK +2",
+        "savePoint": "MaxHP +10",
+        "openPoint": "ATK +3",
+        "recipe": "성흔 966개, 파란 염료 8개, 빨간 염료 8개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjU3/MDAxNTMwMTkzNzUzNjQ5.3fVSMHeMnqBsZcmJd8mNc5yeoqIxuno4HpuRBuh3uN8g.Z2st4lUhH1AkjgFgh_oJmRPKnQF7E0ZLkrBGUdiM-yIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_199.png?type=w740",
         "name": "다크네스 헬름[1]",
-        "firstChar": "ᄃ",
-        "option": [
-            "전체 능력 +2",
-            "MaxHP +800"
-        ],
-        "savePoint": [
-            "MaxHP +70"
-        ],
-        "openPoint": [
-            "MaxHP +14"
-        ],
-        "recipe": [
-            "비정한 마음 2,479개",
-            "장미석영 3개",
-            "드래곤의 비늘 3개",
-            "칠흑의 날개 250개"
-        ]
+        "option": "전체 능력 +2, MaxHP +800",
+        "savePoint": "MaxHP +70",
+        "openPoint": "MaxHP +14",
+        "recipe": "비정한 마음 2,479개, 장미석영 3개, 드래곤의 비늘 3개, 칠흑의 날개 250개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjcg/MDAxNTMwMTkzNzYzNTYw.IIIu0rezeFaQCDHTYs9Plie8isnFArurPo2269lx42Mg.yrWF6O3FfYrSNMFloNFSaZeriG1DdHwEDX4smHzEcl0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_221.png?type=w740",
         "name": "산타 모자",
-        "firstChar": "ᄉ",
-        "option": [
-            "MDEF +5",
-            "LUK +1"
-        ],
-        "savePoint": [
-            "MaxHP +18"
-        ],
-        "openPoint": [
-            "ATK +3"
-        ],
-        "recipe": [
-            "부드러운 털 334개",
-            "젤로피 334개",
-            "끈적끈적한 액체 267개",
-            "빨간 염료 10개"
-        ]
+        "option": "MDEF +5, LUK +1",
+        "savePoint": "MaxHP +18",
+        "openPoint": "ATK +3",
+        "recipe": "부드러운 털 334개, 젤로피 334개, 끈적끈적한 액체 267개, 빨간 염료 10개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTUy/MDAxNTMwMTkzNzcxMjA5.FT4jhn_HGG9VWKFvOzN4Vp3XtLppc5-6FULvs82IENUg.tUUpcsAoWQk8PUYARitm_ytdudLIFPGp51ImlH8Bo7Ig.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_224.png?type=w740",
         "name": "방울리본[1]",
-        "firstChar": "ᄇ",
-        "option": [
-            "AGI +3. LUK +3"
-        ],
-        "savePoint": [
-            "MaxHP +60"
-        ],
-        "openPoint": [
-            "MATK +6"
-        ],
-        "recipe": [
-            "얼음 조각 930개",
-            "리본 끈 6개",
-            "심연의 꽃 1200개"
-        ]
+        "option": "AGI +3. LUK +3",
+        "savePoint": "MaxHP +60",
+        "openPoint": "MATK +6",
+        "recipe": "얼음 조각 930개, 리본 끈 6개, 심연의 꽃 1200개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTE2/MDAxNTMwMTkzNzc5NTQ3.5WmO7zD7Y8kn-hKMxapp-G262fgpN4PZ1eiDeyctrMcg.8uga2Qc8LcC-ZDaZwKIrABrghNUxqYvDGIOFUOiPIPcg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_242.png?type=w740",
         "name": "얼음왕관[1]",
-        "firstChar": "ᄋ",
-        "option": [
-            "전체 능력 +2"
-        ],
-        "savePoint": [
-            "MATK +6"
-        ],
-        "openPoint": [
-            "MaxHP +60"
-        ],
-        "recipe": [
-            "얼음 조각 930개",
-            "얼음 가루 4개",
-            "얼음 심장 930개",
-            "눈사람 250개"
-        ]
+        "option": "전체 능력 +2",
+        "savePoint": "MATK +6",
+        "openPoint": "MaxHP +60",
+        "recipe": "얼음 조각 930개, 얼음 가루 4개, 얼음 심장 930개, 눈사람 250개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfOTYg/MDAxNTMwMTkzNzg3NDI1.frIIJt5q-THnauAnSyFcWqtnC9z16uZCVZ3LC2qgpFgg.qJZi84C7-E2DsTn2Ow5Ccd3it22vLE91MV5v6Yo6nXEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_243.png?type=w740",
         "name": "크리스마스 리본[1]",
-        "firstChar": "ᄏ",
-        "option": [
-            "LUK +5",
-            "MaxSP +100"
-        ],
-        "savePoint": [
-            "MaxHP +60"
-        ],
-        "openPoint": [
-            "MATK +6"
-        ],
-        "recipe": [
-            "크리스탈 뼈 930개",
-            "하티의 이빨 4개",
-            "선물 포장지 930개",
-            "눈사람 250개"
-        ]
+        "option": "LUK +5, MaxSP +100",
+        "savePoint": "MaxHP +60",
+        "openPoint": "MATK +6",
+        "recipe": "크리스탈 뼈 930개, 하티의 이빨 4개, 선물 포장지 930개, 눈사람 250개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTI5/MDAxNTMwMTkzNzk1MDg1.Pqo0R2OzKLDV_IWy0JYLhEC1UCjN3MxOAOM4rYzjwF0g.S-ckbgExjSyF4eWYyiQB6UTKwNptPrwx8Zu6NwXTz5Ag.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_259.png?type=w740",
         "name": "식신왕관 생선꼬치",
-        "firstChar": "ᄉ",
-        "option": [
-            "MaxHP +50",
-            "LUK +2"
-        ],
-        "savePoint": [
-            "MaxHP +18"
-        ],
-        "openPoint": [
-            "MaxHP +6"
-        ],
-        "recipe": [
-            "퀘스트 보상"
-        ]
+        "option": "MaxHP +50, LUK +2",
+        "savePoint": "MaxHP +18",
+        "openPoint": "MaxHP +6",
+        "recipe": "퀘스트 보상"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTg2/MDAxNTMwMTkzODA3ODE1.hAU6PAJpn_K-0A7byWpxCzz8gB9FTFUBfkiGPTsDiI8g.P2tzeJJR47uD7IbAuzY-tXKKSF4j-6EDDOUcCJwWRbQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_265.png?type=w740",
         "name": "식신왕관 아이스크림",
-        "firstChar": "ᄉ",
-        "option": [
-            "ATK +10",
-            "MATK +10",
-            "LUK +1"
-        ],
-        "savePoint": [
-            "MaxHP +18"
-        ],
-        "openPoint": [
-            "MaxHP +6"
-        ],
-        "recipe": [
-            "퀘스트 보상"
-        ]
+        "option": "ATK +10, MATK +10, LUK +1",
+        "savePoint": "MaxHP +18",
+        "openPoint": "MaxHP +6",
+        "recipe": "퀘스트 보상"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjM1/MDAxNTMwMTkzODE4MDYx.MNPNT5ZmirM7meDLX8IcxivXoMbhGh1_QR_21zcAHI8g.WlVpd3lk0kI-UoyTXSQl0EKrPBb2XpyH52Dt5KzwAqUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_270.png?type=w740",
         "name": "양자리 왕관",
-        "firstChar": "ᄋ",
-        "option": [
-            "LUK +1"
-        ],
-        "savePoint": [
-            "MaxHP +18"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "빨간 염료 15개",
-            "노란 염료 15개",
-            "초록 염료 15개",
-            "파란 염료 15개"
-        ]
+        "option": "LUK +1",
+        "savePoint": "MaxHP +18",
+        "openPoint": "",
+        "recipe": "빨간 염료 15개, 노란 염료 15개, 초록 염료 15개, 파란 염료 15개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjkw/MDAxNTMwMTkzODI2Nzkx.AbVqN54T3DPg9wTyhVr9sKIWsnwEZ6KBTB5yvDqVDO0g.yEmU3EIe30BPnoVws_Lh9_2nqcweYHFZOzNkdWHBrHcg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_282.png?type=w740",
         "name": "양자리 보관[1]",
-        "firstChar": "ᄋ",
-        "option": [
-            "LUK +3"
-        ],
-        "savePoint": [
-            "LUK +1"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "하얀 염료 8개",
-            "검은 염료 8개",
-            "보라 염료 10개",
-            "마스테라의 열매 1개"
-        ]
+        "option": "LUK +3",
+        "savePoint": "LUK +1",
+        "openPoint": "",
+        "recipe": "하얀 염료 8개, 검은 염료 8개, 보라 염료 10개, 마스테라의 열매 1개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjIx/MDAxNTMwMTkzODM4OTk0.hJKmBqP_ZkYFLknmDWLCs6nudv2cIpsadUCDRuprpvsg.wSrmw8HF1y7-mtatj6soSYbpJ-jILcS-7mpPCvDKqbQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_288.png?type=w740",
         "name": "천칭자리 보관[1]",
-        "firstChar": "ᄎ",
-        "option": [
-            "AGI +2",
-            "LUK +1"
-        ],
-        "savePoint": [
-            "MaxHP +70"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "하얀 염료 8개",
-            "검은 염료 8개",
-            "보라 염료 10개",
-            "마스테라의 열매 1개"
-        ]
+        "option": "AGI +2, LUK +1",
+        "savePoint": "MaxHP +70",
+        "openPoint": "",
+        "recipe": "하얀 염료 8개, 검은 염료 8개, 보라 염료 10개, 마스테라의 열매 1개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNjMg/MDAxNTMwMTkzODQ4NjI0.ZLcQBF409rUpnwbp21Uf_s1e427JBKf99a11euAdEMUg.vaFQJg0xBCruE0vNqhuiFvyyrDTw00e091LHaXFL7Hwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_290.png?type=w740",
         "name": "사수자리 보관[1]",
-        "firstChar": "ᄉ",
-        "option": [
-            "LUK +2",
-            "INT +1"
-        ],
-        "savePoint": [
-            "MaxHP +70"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "하얀 염료 8개",
-            "검은 염료 8개",
-            "보라 염료 10개",
-            "마스테라의 열매 1개"
-        ]
+        "option": "LUK +2, INT +1",
+        "savePoint": "MaxHP +70",
+        "openPoint": "",
+        "recipe": "하얀 염료 8개, 검은 염료 8개, 보라 염료 10개, 마스테라의 열매 1개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjY5/MDAxNTMwMTkzODYxMDQw.4QapjWLDv9YLYJ_JhGNmAvUpDHT5_nTqtD75eppgIkAg.g3P-6-dKsjMAJfBUkjTkhcrDhSDoB3-Nv5Q12XmfueQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_313.png?type=w740",
         "name": "기관차 모자",
-        "firstChar": "ᄀ",
-        "option": [
-            "LUK +2",
-            "이동속도 +3%"
-        ],
-        "savePoint": [
-            "MaxHP +30"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.5월 한정 특전 구매"
-        ]
+        "option": "LUK +2, 이동속도 +3%",
+        "savePoint": "MaxHP +30",
+        "openPoint": "",
+        "recipe": "2018.5월 한정 특전 구매"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNTIg/MDAxNTMwMTkzODcxMDM0.GGgHHxKZvZg244L45rjmb6vshd56c-Iim3SxSVagC2og.xsurSB39hhPjFVv6AWIFZJmU7Knl4ikkr7AirAkjLxsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_366.png?type=w740",
         "name": "도쿄타워의 향수[1]",
-        "firstChar": "ᄃ",
-        "option": [
-            "전체 능력 +1",
-            "MaxSP +50"
-        ],
-        "savePoint": [
-            "MaxHP +60"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.5월 뽑기"
-        ]
+        "option": "전체 능력 +1, MaxSP +50",
+        "savePoint": "MaxHP +60",
+        "openPoint": "",
+        "recipe": "2018.5월 뽑기"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjgg/MDAxNTMwMTkzODc5NDk2.aGT4MHbrsetJo-dgH-Dj-tK_iy1lPzu2FOqPbXrJxcMg.34eV_zNgeIHJxG0-YBy0JlwUABrL23mVK30wUaBZiY4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_382.png?type=w740",
         "name": "스팀라이더 가방",
-        "firstChar": "ᄉ",
-        "option": [
-            "가방 칸 +10",
-            "전체 능력 +1",
-            "인간형에게 데미지 추가 +2%"
-        ],
-        "savePoint": [
-            "파티원이 5명이 되면 자신의 HP 회복 +1",
-            "SP 회복 +1"
-        ],
-        "openPoint": [
-            "가방칸 +2"
-        ],
-        "recipe": [
-            "질콘 40개",
-            "석탄 200개",
-            "부품15개",
-            "셀 1094개"
-        ]
+        "option": "가방 칸 +10, 전체 능력 +1, 인간형에게 데미지 추가 +2%",
+        "savePoint": "파티원이 5명이 되면 자신의 HP 회복 +1, SP 회복 +1",
+        "openPoint": "가방칸 +2",
+        "recipe": "질콘 40개, 석탄 200개, 부품15개, 셀 1094개"
     }
 ]

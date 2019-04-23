@@ -2,501 +2,209 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjAg/MDAxNTMwMTk5OTk5MzQ2.qEQZPLeB9q6MUq1F6PQCv0mQmmdL9je1_A-CTxU9V-og.hAgf2FllysPABmfG9rpo_FrB8y23kxwkX8GkmFYs42sg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_001.png?type=w740",
         "name": "머리띠",
-        "firstChar": "ᄆ",
-        "option": [
-            "DEF +5"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "DEF +2"
-        ],
-        "recipe": [
-            "젤로피 220개"
-        ]
+        "option": "DEF +5",
+        "savePoint": "MaxHP +10",
+        "openPoint": "DEF +2",
+        "recipe": "젤로피 220개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjE0/MDAxNTMwMjAwMDA4Nzc5.d2rpQm7FA9ru5mVj6WxrfelxouX8Znt4tSb5MA390Ikg.ZSd7gpVbaNvcLslipt2Gkr4AKsc2AVkf9PM-gLxa81sg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_002.png?type=w740",
         "name": "낙원단 가방",
-        "firstChar": "ᄂ",
-        "option": [
-            "HIT + 5"
-        ],
-        "savePoint": [
-            "ATK +6"
-        ],
-        "openPoint": [
-            "DEF +2"
-        ],
-        "recipe": [
-            "썩은 붕대 275개",
-            "젤로피 275개"
-        ]
+        "option": "HIT + 5",
+        "savePoint": "ATK +6",
+        "openPoint": "DEF +2",
+        "recipe": "썩은 붕대 275개, 젤로피 275개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjU0/MDAxNTMwMjAwMDE2MDU5.BZHLk87mKPyrRELb6oyHr1cC6fpq8HmBjNPSA2ne2eQg.AJ7_f5rbvNTlNkdffUrlIwIfAcUCeNaDTMscPiWU7ssg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_006.png?type=w740",
         "name": "눈가리개",
-        "firstChar": "ᄂ",
-        "option": [
-            "DEF +5"
-        ],
-        "savePoint": [
-            "ATK +6"
-        ],
-        "openPoint": [
-            "DEF +2"
-        ],
-        "recipe": [
-            "썩은 붕대 220개"
-        ]
+        "option": "DEF +5",
+        "savePoint": "ATK +6",
+        "openPoint": "DEF +2",
+        "recipe": "썩은 붕대 220개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNjIg/MDAxNTMwMjAwMDIzODc3.4xdxL7UbPMBLh4gTePp4Akv_RHxABdddaI0uTT0_FY8g.DxfpYpNGFjxMfToBN88Wz6KuIcneRi7kP2bF_cesu70g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_015.png?type=w740",
         "name": "포링 모자",
-        "firstChar": "ᄑ",
-        "option": [
-            "DEF +10"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "DEF +3"
-        ],
-        "recipe": [
-            "부드러운 털 755개",
-            "사과 쥬스 43개"
-        ]
+        "option": "DEF +10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "DEF +3",
+        "recipe": "부드러운 털 755개, 사과 쥬스 43개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTIg/MDAxNTMwMjAwMDMxNTA1.2Sptcb_p99XsJYw6I-l9IK51OGlPD3D0ITBa_MYd6Zwg.xuAQ-cEvT8I7jdrBNXsAiXfgwmn5QSlAGHdxbcNBlCUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_017.png?type=w740",
         "name": "고양이 머리띠",
-        "firstChar": "ᄀ",
-        "option": [
-            "DEF +10"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "DEF +4"
-        ],
-        "recipe": [
-            "부드러운 털 641개",
-            "네잎 클로버 1개",
-            "젤로피 641개"
-        ]
+        "option": "DEF +10",
+        "savePoint": "MaxHP +19",
+        "openPoint": "DEF +4",
+        "recipe": "부드러운 털 641개, 네잎 클로버 1개, 젤로피 641개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfODQg/MDAxNTMwMjAwMDQwNjI1.e85XTeJxmG6cLfNSdpDOIBEa41VwiCdnf-szSq1N6rUg.SJ-eEBInc-VwzK-lkJQKsI60hudzk3d_G9noOMzbkZog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_025.png?type=w740",
         "name": "초록 더듬이",
-        "firstChar": "ᄎ",
-        "option": [
-            "DEF +10"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "DEF +3"
-        ],
-        "recipe": [
-            "젤로피 1294개",
-            "만드라 15개"
-        ]
+        "option": "DEF +10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "DEF +3",
+        "recipe": "젤로피 1294개, 만드라 15개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNTYg/MDAxNTMwMjAwMDQ5MzQ3.sNfwlPiOmHRnccfy99F7wFFktcRfKluTPZXmnSzAMv8g.sk8cUrICi81t0DXPZ4iZQq95Ov2KBpgLjcsNSUJ4c1wg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_027.png?type=w740",
         "name": "올드스터 로맨스",
-        "firstChar": "ᄋ",
-        "option": [
-            "DEF +10"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "DEF +3"
-        ],
-        "recipe": [
-            "가렛 423개",
-            "젤로피 528개",
-            "하얀 염료 1개"
-        ]
+        "option": "DEF +10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "DEF +3",
+        "recipe": "가렛 423개, 젤로피 528개, 하얀 염료 1개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjAg/MDAxNTMwMjAwMDU3MDY1.SkOj8mtopqWWtdUfTv22ZObXAwnik4jo0BQHc1cUOkQg.kdg-6TF2cdpgcL9hwbFbO4bjLvHciny2EMPTHZOmYM4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_030.png?type=w740",
         "name": "새하얀 뿔",
-        "firstChar": "ᄉ",
-        "option": [
-            "DEF +10",
-            "MaxHP +200"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "DEF +2"
-        ],
-        "recipe": [
-            "썩은 붕대 1,116개",
-            "더듬이 1개",
-            "가렛 893개"
-        ]
+        "option": "DEF +10, MaxHP +200",
+        "savePoint": "MaxHP +10",
+        "openPoint": "DEF +2",
+        "recipe": "썩은 붕대 1,116개, 더듬이 1개, 가렛 893개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjQw/MDAxNTMwMjAwMDY1NTIy.wIZY15SvnDR5_fneahyRf2bxV20ltAohZ0ECHUvKrH4g.48OJ1YIomlF4rhY1et6tbzNMO19maO2swocCi30G5WYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_045.png?type=w740",
         "name": "반다나",
-        "firstChar": "ᄇ",
-        "option": [
-            "DEF +5"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "DEF +2"
-        ],
-        "recipe": [
-            "썩은 붕대 495개",
-            "부드러운 털 495개"
-        ]
+        "option": "DEF +5",
+        "savePoint": "MaxHP +10",
+        "openPoint": "DEF +2",
+        "recipe": "썩은 붕대 495개, 부드러운 털 495개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTkw/MDAxNTMwMjAwMDczODg0.c-jHTip6ZJsWsJfZD-OQ82KQAOAA10f0KAc3OIKVwYgg.QRE0T6bpIHsTk9dOAwcgAzeZZYlXaAYD2U5umbD9-H4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_046.png?type=w740",
         "name": "파티원 모집 광고판",
-        "firstChar": "ᄑ",
-        "option": [
-            "DEF +5"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "DEF +2"
-        ],
-        "recipe": [
-            "젤로피 693개",
-            "철 15개"
-        ]
+        "option": "DEF +5",
+        "savePoint": "MaxHP +10",
+        "openPoint": "DEF +2",
+        "recipe": "젤로피 693개, 철 15개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTA3/MDAxNTMwMjAwMDgyMDcx.kdWmuJROTHM_FVF1NuCyS7_D72JjFE-NFrGRmWBK6rUg.hbKsaXfCSNNz1gXqQkpalONXEBnx0i6TWvZjWQAWU5kg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_056.png?type=w740",
         "name": "의적 안대",
-        "firstChar": "ᄋ",
-        "option": [
-            "DEF +10"
-        ],
-        "savePoint": [
-            "ATK +6"
-        ],
-        "openPoint": [
-            "DEF +2"
-        ],
-        "recipe": [
-            "망자의 유물 483개",
-            "썩은 붕대 604개",
-            "검은 염료 1개"
-        ]
+        "option": "DEF +10",
+        "savePoint": "ATK +6",
+        "openPoint": "DEF +2",
+        "recipe": "망자의 유물 483개, 썩은 붕대 604개, 검은 염료 1개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjkx/MDAxNTMwMjAwMDkwNjc4.LN7E7c-Yb7Te2AFTBnwOXwC82PZz1dyMq5pXM-I3aVwg.mlJh1YNbUcgTFb4lqdaniqXHldTDo0Ga1IpFuuwqeskg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_073.png?type=w740",
         "name": "프로펠라",
-        "firstChar": "ᄑ",
-        "option": [
-            "DEF +15"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "DEF +4"
-        ],
-        "recipe": [
-            "단단한 껍질 1,373개",
-            "부품 3개",
-            "썩은 붕대 2,231개"
-        ]
+        "option": "DEF +15",
+        "savePoint": "MaxHP +19",
+        "openPoint": "DEF +4",
+        "recipe": "단단한 껍질 1,373개, 부품 3개, 썩은 붕대 2,231개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjE4/MDAxNTMwMjAwMTA2NDkz.KxPU33yFzGzETdIaw4mzRP3fWIXVF64tLp7iT_dxOIAg.z37ErGqYTq80GUk5gXtopFwxu8Twhtr9-36eWAIydwUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_078.png?type=w740",
         "name": "스위트 젠틀",
-        "firstChar": "ᄉ",
-        "option": [
-            "DEF +15"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "DEF +4"
-        ],
-        "recipe": [
-            "단단한 껍질 1,373개",
-            "별의 모서리 3개",
-            "부드러운 털 2,231개"
-        ]
+        "option": "DEF +15",
+        "savePoint": "MaxHP +19",
+        "openPoint": "DEF +4",
+        "recipe": "단단한 껍질 1,373개, 별의 모서리 3개, 부드러운 털 2,231개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjQy/MDAxNTMwMjAwMTE1MjYz.kENdyUuSPoFWv5_ewAZ39rou5o_s2KVGuaH_gDa6HsEg.usqMTZk7yDNBBB7-SbcR_98WQeZ3PxgWnAjdZEIo-lIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_079.png?type=w740",
         "name": "코로넷",
-        "firstChar": "ᄏ",
-        "option": [
-            "INT +3",
-            "식물형 데미지 감소 +10%",
-            "제련 +10이상일 때 추가 VIT +3"
-        ],
-        "savePoint": [
-            "MaxHP +28"
-        ],
-        "openPoint": [
-            "DEF +5"
-        ],
-        "recipe": [
-            "셀 2,585개",
-            "진주 19개",
-            "별의 모서리 21개",
-            "사금 210개"
-        ]
+        "option": "INT +3, 식물형 데미지 감소 +10%, 제련 +10이상일 때 추가 VIT +3",
+        "savePoint": "MaxHP +28",
+        "openPoint": "DEF +5",
+        "recipe": "셀 2,585개, 진주 19개, 별의 모서리 21개, 사금 210개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjM5/MDAxNTMwMjAwMTQ0MDQy.PdYvtQ5cLN_Rr3wr8m847PnomD3EBQOCLGVcm0LfjO4g.3EhgCSouVC0K7oWNYbZfrGRZl0mSooklnunOGCgOKosg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_080.png?type=w740",
         "name": "원주민 머리띠",
-        "firstChar": "ᄋ",
-        "option": [
-            "DEF +10"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "DEF +3"
-        ],
-        "recipe": [
-            "단단한 껍질 354개",
-            "썩은 붕대 575개",
-            "부드러운 털 575개"
-        ]
+        "option": "DEF +10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "DEF +3",
+        "recipe": "단단한 껍질 354개, 썩은 붕대 575개, 부드러운 털 575개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfOTkg/MDAxNTMwMjAwMTUzMTQ0.R1mlkpldzKN9QnCH2KQec7qiat-h2oKZKYjsDWZ-6xgg.fP-_asD2wmIeEIC8mcqMqfgWta9ElM43tquLckBgXHMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_081.png?type=w740",
         "name": "연극 소도구",
-        "firstChar": "ᄋ",
-        "option": [
-            "DEF +10"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "DEF +2"
-        ],
-        "recipe": [
-            "단단한 껍질 743개",
-            "철 26개"
-        ]
+        "option": "DEF +10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "DEF +2",
+        "recipe": "단단한 껍질 743개, 철 26개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTc4/MDAxNTMwMjAwMTYxMzE1.QTsPEBWKUnZzdnB9CQj0BZp4r5dwwc2tMxYX6Je5wG0g.AoF3hfj_1W5dAX64EPnr5ml8XnbKOZrMce1FBBOflJYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_087.png?type=w740",
         "name": "고글",
-        "firstChar": "ᄀ",
-        "option": [
-            "DEF +15"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "DEF +4"
-        ],
-        "recipe": [
-            "토파즈 20개",
-            "단단한 껍질 277개",
-            "사금 23개",
-            "부품 4개"
-        ]
+        "option": "DEF +15",
+        "savePoint": "MaxHP +10",
+        "openPoint": "DEF +4",
+        "recipe": "토파즈 20개, 단단한 껍질 277개, 사금 23개, 부품 4개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTkx/MDAxNTMwMjAwMTY4NTM4.vNJGukyN229alylQCVxlW_G2JamngKfh4ra2Y6BYHTcg.YPecpYSp6E4gtrCnXh7usrXYUAvMpKq_2lpep5P6Q8Yg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_090.png?type=w740",
         "name": "안전모",
-        "firstChar": "ᄋ",
-        "option": [
-            "DEF +7",
-            "MDEF +3"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "DEF +2"
-        ],
-        "recipe": [
-            "단단한 껍질 464개",
-            "젤로피 755개",
-            "노란 염료 10개"
-        ]
+        "option": "DEF +7, MDEF +3",
+        "savePoint": "MaxHP +10",
+        "openPoint": "DEF +2",
+        "recipe": "단단한 껍질 464개, 젤로피 755개, 노란 염료 10개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTIz/MDAxNTMwMjAwMTc5MzI4.ttRZ04G420k5AU7_fXTRLgn4LRggyEfYK7Px-BjD-FYg.Fe9eP46wSVxafi7KKemSglGeDQ-ALG_pVhmkHXrkSPog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_099.png?type=w740",
         "name": "웨스턴 그레이스",
-        "firstChar": "ᄋ",
-        "option": [
-            "DEF +15"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "DEF +3"
-        ],
-        "recipe": [
-            "단단한 껍질 565개",
-            "부품 5개",
-            "더듬이 5개",
-            "갈색 염료 3개"
-        ]
+        "option": "DEF +15",
+        "savePoint": "MaxHP +19",
+        "openPoint": "DEF +3",
+        "recipe": "단단한 껍질 565개, 부품 5개, 더듬이 5개, 갈색 염료 3개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjYg/MDAxNTMwMjAwMTg3OTcz.USSeonolShruVwDD8EiqIl5HRPcNxFxpB20WQ7m5YAMg.DU3BNwvYauIB5cJACTBTmX5q9HOFvpW5unkjXIfq6VEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_103.png?type=w740",
         "name": "명사수의 사과",
-        "firstChar": "ᄆ",
-        "option": [
-            "DEF +2",
-            "DEX +3"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "DEF +3"
-        ],
-        "recipe": [
-            "단단한 껍질 418개",
-            "끈적끈적한 액체 543개",
-            "사과 쥬스 8개"
-        ]
+        "option": "DEF +2, DEX +3",
+        "savePoint": "MaxHP +10",
+        "openPoint": "DEF +3",
+        "recipe": "단단한 껍질 418개, 끈적끈적한 액체 543개, 사과 쥬스 8개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjQ4/MDAxNTMwMjAwMTk1ODAz.xgH0FIK7fInOW8ifBTTJ4VsS3kvgxAYaS-HVp_UFPeMg.w38MIeZ_yL_NiURlPvx2yudpNN47JIWMBv6y0oabozQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_118.png?type=w740",
         "name": "정지 표지판",
-        "firstChar": "ᄌ",
-        "option": [
-            "DEF +10"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "DEF +2"
-        ],
-        "recipe": [
-            "단단한 껍질 531개",
-            "끈적끈적한 액체 690개"
-        ]
+        "option": "DEF +10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "DEF +2",
+        "recipe": "단단한 껍질 531개, 끈적끈적한 액체 690개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTU1/MDAxNTMwMjAwMzYzNjQx.Xl1qjk96vykAI5D2EC_8F_x_O9NHkOPyxkV6YC4qDRUg.orJ-4xWVQB-VvrpJIPu-h13qI4jm5XQ9AqXZstOv7KAg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_132.png?type=w740",
         "name": "풋사랑",
-        "firstChar": "ᄑ",
-        "option": [
-            "LUK +3",
-            "FLEE +5",
-            "1제련 당 FLEE +1 최대 +15까지 증가"
-        ],
-        "savePoint": [
-            "MaxHP +28"
-        ],
-        "openPoint": [
-            "DEF +5"
-        ],
-        "recipe": [
-            "유리구슬 1,750개",
-            "더듬이 38개",
-            "수은 175개",
-            "만드라 100개"
-        ]
+        "option": "LUK +3, FLEE +5, 1제련 당 FLEE +1 최대 +15까지 증가",
+        "savePoint": "MaxHP +28",
+        "openPoint": "DEF +5",
+        "recipe": "유리구슬 1,750개, 더듬이 38개, 수은 175개, 만드라 100개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTc5/MDAxNTMwMjAwMzcxNTYy.Qd891Exee59nvFE1fwCTjpMKPpPlSSl3uRCFUciexQgg.My7UHyyQXGZQokoMP0lFdaTnRwb9tTKJRQ4Hf6hMbTkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_163.png?type=w740",
         "name": "나비 머리핀",
-        "firstChar": "ᄂ",
-        "option": [
-            "DEF +10"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "DEF +1"
-        ],
-        "recipe": [
-            "심연의 꽃 86개",
-            "더듬이 6개",
-            "끈적끈적한 액체 207개",
-            "초룍 염료 8개"
-        ]
+        "option": "DEF +10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "DEF +1",
+        "recipe": "심연의 꽃 86개, 더듬이 6개, 끈적끈적한 액체 207개, 초룍 염료 8개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTgw/MDAxNTMwMjAwMzg2NDk1.KpSxR9teqb6pUkegvptax_FwLqAAdsXSxCBNa16qKoEg.BLnLQDmDWIMcQzCdhb4QxGTvG7x70rlCwQa7Z607f14g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_208.png?type=w740",
         "name": "크루이저 모자[1]",
-        "firstChar": "ᄏ",
-        "option": [
-            "ATK +30"
-        ],
-        "savePoint": [
-            "DEF +2"
-        ],
-        "openPoint": [
-            "ATK +8"
-        ],
-        "recipe": [
-            "선물 포장지 438개",
-            "얼음 가루 6개",
-            "하티의 이빨 6개",
-            "빨간 염료 42개"
-        ]
+        "option": "ATK +30",
+        "savePoint": "DEF +2",
+        "openPoint": "ATK +8",
+        "recipe": "선물 포장지 438개, 얼음 가루 6개, 하티의 이빨 6개, 빨간 염료 42개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNDUg/MDAxNTMwMjAwMzk0Njg5.ckne94LE1pEgBkceq3zKNpcOzWZofD7tkvg9uv3Zkx0g.4Fwgtf9v5CjVkMXrbuagE2quxMqWzrLjPLJdUWN0ZzYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_211.png?type=w740",
         "name": "장난감 못[1]",
-        "firstChar": "ᄌ",
-        "option": [
-            "STR +5",
-            "MaxHP +400"
-        ],
-        "savePoint": [
-            "DEF +2"
-        ],
-        "openPoint": [
-            "ATK +8"
-        ],
-        "recipe": [
-            "선물 포장지 438개",
-            "얼음 가루 6개",
-            "하티의 이빨 6개",
-            "크리스마스 화환 75개"
-        ]
+        "option": "STR +5, MaxHP +400",
+        "savePoint": "DEF +2",
+        "openPoint": "ATK +8",
+        "recipe": "선물 포장지 438개, 얼음 가루 6개, 하티의 이빨 6개, 크리스마스 화환 75개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjY4/MDAxNTMwMjAwNDAyNDk0.pLRqcZmZmSjsLXdPAR740Cg47CbSxLROEPsgo27Xx4og.TIoicZUsad2lbF6jc0IqTsN51pBSVnqI7DSwtyVPEn4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_225.png?type=w740",
         "name": "사슴뿔[1]",
-        "firstChar": "ᄉ",
-        "option": [
-            "받는 동물형 데미지 -15%",
-            "식물형에 대한 데미지 10%"
-        ],
-        "savePoint": [
-            "DEF +4"
-        ],
-        "openPoint": [
-            "ATK +10"
-        ],
-        "recipe": [
-            "선물 포장지 2479개",
-            "오크의 손톱 10개",
-            "얼음 가루 7개",
-            "마스테라의 열매 5개"
-        ]
+        "option": "받는 동물형 데미지 -15%, 식물형에 대한 데미지 10%",
+        "savePoint": "DEF +4",
+        "openPoint": "ATK +10",
+        "recipe": "선물 포장지 2479개, 오크의 손톱 10개, 얼음 가루 7개, 마스테라의 열매 5개"
     }
 ]

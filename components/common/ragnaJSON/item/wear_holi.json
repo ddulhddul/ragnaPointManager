@@ -2,88 +2,33 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjAw/MDAxNTMwMTkyMTA5NDU4.NMaWLkJ6FQRkRBG8FVKkMhyIAkBV3TeTuu-BY54175kg.Zg8xHI0jNmU8TWh9GZtg8UApGafXmn-bLgu4QnvDRyQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_245.png?type=w740",
         "name": "금색 크리스마스 방울",
-        "firstChar": "ᄀ",
-        "option": [
-            "성속성 공격 +8%, \n받는 암속성",
-            "염속성",
-            "불사 속성",
-            "독속성 데미지 -10%"
-        ],
-        "savePoint": [
-            "ATK +10"
-        ],
-        "openPoint": [
-            "MATK +8"
-        ],
-        "recipe": [
-            "크리스탈 뼈 3000개",
-            "하티의 이빨 15개",
-            "시간 왜곡 버튼 15개",
-            "눈사람 550개"
-        ]
+        "option": "성속성 공격 +8%, \n받는 암속성, 염속성, 불사 속성, 독속성 데미지 -10%",
+        "savePoint": "ATK +10",
+        "openPoint": "MATK +8",
+        "recipe": "크리스탈 뼈 3000개, 하티의 이빨 15개, 시간 왜곡 버튼 15개, 눈사람 550개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjAx/MDAxNTMwMTkyMTI5NDYx.SaaTqB5bzXSmMuke06zJSXEION4eUs1ifXjEHUpww5og.OebOxrpidIJxfbY_Fp4XZ_HstfF1xnS5QicMoh9_D0Qg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_357.png?type=w740",
         "name": "세이지의 책",
-        "firstChar": "ᄉ",
-        "option": [
-            "풍",
-            "지",
-            "수",
-            "화",
-            "성속성 공격 +5%",
-            "변동 캐스팅 시간 -10%"
-        ],
-        "savePoint": [
-            "ATK +1%",
-            "MATK +1%,"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.4월 뽑기"
-        ]
+        "option": "풍, 지, 수, 화, 성속성 공격 +5%, 변동 캐스팅 시간 -10%",
+        "savePoint": "ATK +1%, MATK +1%,",
+        "openPoint": "",
+        "recipe": "2018.4월 뽑기"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTU4/MDAxNTMwMTkyMTY5NTQw.OrELcruzJKPRlxiC2nJ_CTtkWdA4gJzmSb--IvGwvW0g.myJUALxCy6VYCN_Njb3ZWaEmMO4I1N5qPAr4mEdlWh0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_034.png?type=w740",
         "name": "위스퍼 마스크",
-        "firstChar": "ᄋ",
-        "option": [
-            "AGI +3",
-            "받는 염속성 데미지 -10%"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "ATK +4.5"
-        ],
-        "recipe": [
-            "썩은 붕대 755개",
-            "가렛 604개",
-            "하얀 염료 1개"
-        ]
+        "option": "AGI +3, 받는 염속성 데미지 -10%",
+        "savePoint": "MaxHP +10",
+        "openPoint": "ATK +4.5",
+        "recipe": "썩은 붕대 755개, 가렛 604개, 하얀 염료 1개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTY2/MDAxNTMwMTkyMTgwMzU4.5pVWvHpVz453nfo5P2k8jcKV0YM1Qe3ZqbqTIzmLqasg.CUGBK851-JDkc9nvRPwr2FZFUXqTt6Vj8slSIlhYZV4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_106.png?type=w740",
         "name": "크라운[1]",
-        "firstChar": "ᄏ",
-        "option": [
-            "INT +3",
-            "몬스터(성)에 데미지 +5%, \n1제련 당 몬스터(성)에 데미지 +1% 최대 15%까지 증가"
-        ],
-        "savePoint": [
-            "MATK +10"
-        ],
-        "openPoint": [
-            "MaxHP +64"
-        ],
-        "recipe": [
-            "자르곤 2,100개",
-            "진주 19개",
-            "방울 18개",
-            "사금 210개"
-        ]
+        "option": "INT +3, 몬스터(성)에 데미지 +5%, \n1제련 당 몬스터(성)에 데미지 +1% 최대 15%까지 증가",
+        "savePoint": "MATK +10",
+        "openPoint": "MaxHP +64",
+        "recipe": "자르곤 2,100개, 진주 19개, 방울 18개, 사금 210개"
     }
 ]

@@ -2,145 +2,57 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjY0/MDAxNTMwMTg4OTMzODM5.9XtrlZ3E_DLyn4F-Zd8uTGG5INhSeCQ_bwBXsbs5YrAg.6iPqsWP3vSvdooixJV4A2G-6GxT_rfR3lgCgrgPsHtwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_060.png?type=w740",
         "name": "풀잎",
-        "firstChar": "ᄑ",
-        "option": [
-            "MaxHP +120",
-            "SP회복 +1"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "MaxHP +28"
-        ],
-        "recipe": [
-            "끈적끈적한 액체 483개",
-            "젤로피 604개",
-            "초록 염료 8개"
-        ]
+        "option": "MaxHP +120, SP회복 +1",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +28",
+        "recipe": "끈적끈적한 액체 483개, 젤로피 604개, 초록 염료 8개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTA1/MDAxNTMwMTg4OTQ3MTk3.Knu-shqW_cjIG6zy_YN0bnJkbXtOxYWP8Kr3xgxl-4og.ODkuy6M76scD2j7q8-WlAagFeMh7UrpcdB0ixnXLVCog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_088.png?type=w740",
         "name": "HP포션병",
-        "firstChar": "Ⴕ",
-        "option": [
-            "MaxHP +100",
-            "HP회복 +5"
-        ],
-        "savePoint": [
-            "MaxHP +60"
-        ],
-        "openPoint": [
-            "MaxHP +60"
-        ],
-        "recipe": [
-            "불사의 심장 1,579개",
-            "빗빛의 룬 1개",
-            "별의 모서리 1개",
-            "토파즈 20개"
-        ]
+        "option": "MaxHP +100, HP회복 +5",
+        "savePoint": "MaxHP +60",
+        "openPoint": "MaxHP +60",
+        "recipe": "불사의 심장 1,579개, 빗빛의 룬 1개, 별의 모서리 1개, 토파즈 20개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTc5/MDAxNTMwMTg4OTU4NTI5.Z_5XeUm9cy82oKHOfCjeMLnggWMT4o04rgwD2_Nl790g.036R_lZ-MkehR64eJdQ3t71GUHFNixmECw1IxONBZY0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_158.png?type=w740",
         "name": "아얌[1]",
-        "firstChar": "ᄋ",
-        "option": [
-            "INT +2",
-            "SP회복 +5%"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "MATK +4"
-        ],
-        "recipe": [
-            "심연의 꽃 930개",
-            "진주 3개",
-            "리본 끈 4개",
-            "마스테라의 열매 25개"
-        ]
+        "option": "INT +2, SP회복 +5%",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MATK +4",
+        "recipe": "심연의 꽃 930개, 진주 3개, 리본 끈 4개, 마스테라의 열매 25개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTk4/MDAxNTMwMTg4OTY3MDYz.Kh23PqH7ZF27jEjQfMQi38EAz92k_lJPwWr2hCJ0_3Eg.p7Id6VU7P7JCtJchGGGI0aVjGnX9DRUZUR54twuoqSIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_210.png?type=w740",
         "name": "향긋한 꿀단지",
-        "firstChar": "ᄒ",
-        "option": [
-            "MaxSP +100",
-            "SP회복 +1"
-        ],
-        "savePoint": [
-            "ATK +3"
-        ],
-        "openPoint": [
-            "MaxHP +30"
-        ],
-        "recipe": [
-            "얼음 조각 438개",
-            "하티의 이빨 6개",
-            "얼음 가루 6개",
-            "꿀 20개"
-        ]
+        "option": "MaxSP +100, SP회복 +1",
+        "savePoint": "ATK +3",
+        "openPoint": "MaxHP +30",
+        "recipe": "얼음 조각 438개, 하티의 이빨 6개, 얼음 가루 6개, 꿀 20개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTQ0/MDAxNTMwMTg4OTc1MTE0.nW_gQrdX3ZR3G5vXA2ITD0kWtWNzK-OdlV7Z92v9rd4g.OID_KWb-NdbuswFSzTUZn9plkUKIefJ4J8uyb3id7TMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_234.png?type=w740",
         "name": "황금시계 관리자[1]",
-        "firstChar": "ᄒ",
-        "option": [
-            "MaxSP +50",
-            "HP 회복 +1"
-        ],
-        "savePoint": [
-            "MaxHP +21"
-        ],
-        "openPoint": [
-            "MaxHP +7"
-        ],
-        "recipe": [
-            "마녀의 별모래 240개",
-            "심연의 꽃 479개",
-            "시간의 결정240개"
-        ]
+        "option": "MaxSP +50, HP 회복 +1",
+        "savePoint": "MaxHP +21",
+        "openPoint": "MaxHP +7",
+        "recipe": "마녀의 별모래 240개, 심연의 꽃 479개, 시간의 결정240개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjA0/MDAxNTMwMTg4OTgyNzMy.yhZk7CuhjX2qdFhWg3O1VkTQ_979iTSO8jDcavKTNqgg.SpY3FyEVrgAHrX53kHSCpo-G21p6rMZ9bq7fmVKleIsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_235.png?type=w740",
         "name": "시간 역류",
-        "firstChar": "ᄉ",
-        "option": [
-            "MaxSP +50",
-            "마법 회복 +1"
-        ],
-        "savePoint": [
-            "MaxSP +10"
-        ],
-        "openPoint": [
-            "MaxSP +5"
-        ],
-        "recipe": [
-            "시간의 결정 611개",
-            "시간 왜곡 버튼 2개",
-            "비정한 마음 1222개",
-            "괘종시계 80개"
-        ]
+        "option": "MaxSP +50, 마법 회복 +1",
+        "savePoint": "MaxSP +10",
+        "openPoint": "MaxSP +5",
+        "recipe": "시간의 결정 611개, 시간 왜곡 버튼 2개, 비정한 마음 1222개, 괘종시계 80개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjI0/MDAxNTMwMTg4OTkxNzc5.xhyN0lpAM5EXKgO-oQ-ncQ09AIhmWq1Y0DS2ELYZpcog.-xoOkYwB57tcfUJRuANQnwmqbb5cDf47jY-QCzYkWpIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_239.png?type=w740",
         "name": "사슴 털모자",
-        "firstChar": "ᄉ",
-        "option": [
-            "MaxSP +100",
-            "HP 회복 +3"
-        ],
-        "savePoint": [
-            "MaxHP +30"
-        ],
-        "openPoint": [
-            "MaxHP +30"
-        ],
-        "recipe": [
-            "선물 포장지 240개",
-            "심연의 꽃 479개",
-            "얼음 심장 240개"
-        ]
+        "option": "MaxSP +100, HP 회복 +3",
+        "savePoint": "MaxHP +30",
+        "openPoint": "MaxHP +30",
+        "recipe": "선물 포장지 240개, 심연의 꽃 479개, 얼음 심장 240개"
     }
 ]

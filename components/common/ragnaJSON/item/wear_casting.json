@@ -2,86 +2,33 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMyAg/MDAxNTMwMTg4MzA4NzU5.zGLIUrVMijR4MjWp6muUXW5JJrlhgxW6XXpRxK0iE4kg.PUTBfG1l2JOpImMxdbolwK09Z3wnyMuioBbNWU_Xfxkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_074.png?type=w740",
         "name": "분노의 입",
-        "firstChar": "ᄇ",
-        "option": [
-            "변동 캐스팅 시간 -10%",
-            "인간형에게 데미지 감소 +5%,\n 1제련 당 인간형에게 데미지 감소 +1% 최대 +15%까지 증가"
-        ],
-        "savePoint": [
-            "MATK +10"
-        ],
-        "openPoint": [
-            "MDEF +5"
-        ],
-        "recipe": [
-            "불사의 심장 1,723개",
-            "빛의 알갱이 15개",
-            "오크의 손톱 18개",
-            "철 140개"
-        ]
+        "option": "변동 캐스팅 시간 -10%, 인간형에게 데미지 감소 +5%,\n 1제련 당 인간형에게 데미지 감소 +1% 최대 +15%까지 증가",
+        "savePoint": "MATK +10",
+        "openPoint": "MDEF +5",
+        "recipe": "불사의 심장 1,723개, 빛의 알갱이 15개, 오크의 손톱 18개, 철 140개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfODYg/MDAxNTMwMTg4MzIyNzU0.dbnq_jM6Cc9Vw9qMqU_HzUPnw5uU4xx71nW4YvNnPG8g.CdqZFcpMAYEeD1pLHWWdWX3QGFBbrKz1egQO5cRoVYUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_171.png?type=w740",
         "name": "나들이 모자",
-        "firstChar": "ᄂ",
-        "option": [
-            "MDEF +10",
-            "변동 캐스팅 시간 -5%, \n10제련 이상 시 변동 캐스팅 시간 -15%"
-        ],
-        "savePoint": [
-            "MATK +8"
-        ],
-        "openPoint": [
-            "ATK +3"
-        ],
-        "recipe": [
-            "성흔 893개",
-            "네잎 클로버 2개",
-            "혜안 893개"
-        ]
+        "option": "MDEF +10, 변동 캐스팅 시간 -5%, \n10제련 이상 시 변동 캐스팅 시간 -15%",
+        "savePoint": "MATK +8",
+        "openPoint": "ATK +3",
+        "recipe": "성흔 893개, 네잎 클로버 2개, 혜안 893개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTg1/MDAxNTMwMTg4MzMyNzU1.OdjzdIcfzAVTb2X2lSM9wDGtmWQde3thRb2Qbvx2sNEg.ltzlJ_fcU-zmzJZZtg-OLKRw_hkmFBfblekF_Dek9iQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_181.png?type=w740",
         "name": "마도사의 모자",
-        "firstChar": "ᄆ",
-        "option": [
-            "DEF +5",
-            "MDEF +5",
-            "변동 캐스팅 시간 -10%, \n스킬 사용 시 SP 소모량 +20%"
-        ],
-        "savePoint": [
-            "MATK +6"
-        ],
-        "openPoint": [
-            "ATK +3"
-        ],
-        "recipe": [
-            "심연의 꽃 403개",
-            "부드러운 털 1,208개",
-            "보라 염료 3개"
-        ]
+        "option": "DEF +5, MDEF +5, 변동 캐스팅 시간 -10%, \n스킬 사용 시 SP 소모량 +20%",
+        "savePoint": "MATK +6",
+        "openPoint": "ATK +3",
+        "recipe": "심연의 꽃 403개, 부드러운 털 1,208개, 보라 염료 3개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMiAg/MDAxNTMwMTg4MzQ2MjEx.prBcBCm5nqzaogCrme844gX7SDd0le_p0AUZqiI1Tqkg.QqFoL9DAZQYyp6PIqZeH4ZDYHgRL06Z5nYMXXidi0ocg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_357.png?type=w740",
         "name": "세이지의 책",
-        "firstChar": "ᄉ",
-        "option": [
-            "풍",
-            "지",
-            "수",
-            "화",
-            "성속성 공격 +5%",
-            "변동 캐스팅 시간 -10%"
-        ],
-        "savePoint": [
-            "ATK +1%",
-            "MATK +1%,"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.4월 뽑기"
-        ]
+        "option": "풍, 지, 수, 화, 성속성 공격 +5%, 변동 캐스팅 시간 -10%",
+        "savePoint": "ATK +1%, MATK +1%,",
+        "openPoint": "",
+        "recipe": "2018.4월 뽑기"
     }
 ]

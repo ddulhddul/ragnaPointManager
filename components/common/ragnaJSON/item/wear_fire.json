@@ -2,84 +2,33 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNTMg/MDAxNTMwMTkyOTY1MzY0.I_z7O5PU24F92LIHXP9AM4muURNmr4MiQ9O_QgJE_pAg.RaAiwZQiwAHBM7aQbGtr_3vEqGtNU2DSwZs02ujkLsUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_373.png?type=w740",
         "name": "삼형제 진주조개",
-        "firstChar": "ᄉ",
-        "option": [
-            "MaxHP + 100",
-            "화속성 몬스터에 대한 데미지 +5%"
-        ],
-        "savePoint": [
-            "ATK +4",
-            "MATK+4"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.6월 뽑기"
-        ]
+        "option": "MaxHP + 100, 화속성 몬스터에 대한 데미지 +5%",
+        "savePoint": "ATK +4, MATK+4",
+        "openPoint": "",
+        "recipe": "2018.6월 뽑기"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMzIg/MDAxNTMwMTkyOTcyNzUz.1h5a7CaHqNymGafk-fZNnqNNqLOcgnMyvLZ_gAmGgtkg.xz8yCTXsLlb4pZlbA8zdbeqF-bywQTjFxOor0Vv8Gtwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_357.png?type=w740",
         "name": "세이지의 책",
-        "firstChar": "ᄉ",
-        "option": [
-            "풍",
-            "지",
-            "수",
-            "화",
-            "성속성 공격 +5%",
-            "변동 캐스팅 시간 -10%"
-        ],
-        "savePoint": [
-            "ATK +1%",
-            "MATK +1%,"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.4월 뽑기"
-        ]
+        "option": "풍, 지, 수, 화, 성속성 공격 +5%, 변동 캐스팅 시간 -10%",
+        "savePoint": "ATK +1%, MATK +1%,",
+        "openPoint": "",
+        "recipe": "2018.4월 뽑기"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjEz/MDAxNTMwMTkzMTg5Nzk3.AGfFjqNe3FnuVPX127xeUshRlDr2A3kzidcz7_5eIPYg.i12dGWmjq52zu_hS7T3b2TJ34nT1SHK6OTf6VtAut1wg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_130.png?type=w740",
         "name": "여우꼬리",
-        "firstChar": "ᄋ",
-        "option": [
-            "FLEE +5%",
-            "받는 화속성 데미지 -10%"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "MaxHP +24"
-        ],
-        "recipe": [
-            "성흔 744개",
-            "오크히어로 증표 4개",
-            "부드러운 털 1,859개",
-            "마스테라의 열매 15개"
-        ]
+        "option": "FLEE +5%, 받는 화속성 데미지 -10%",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +24",
+        "recipe": "성흔 744개, 오크히어로 증표 4개, 부드러운 털 1,859개, 마스테라의 열매 15개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTEy/MDAxNTMwMTkzMjAxNjg0.-RtYS1glIcxTpBZnLlQmVa2z9QokIwruDRc3XkgjKtUg.RHUSk6z3RO1L2K0EBWzajkZntFhlt5q1ZwW6Ftm5y34g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_052.png?type=w740",
         "name": "보따리",
-        "firstChar": "ᄇ",
-        "option": [
-            "화속성 공격 +5%"
-        ],
-        "savePoint": [
-            "ATK +6"
-        ],
-        "openPoint": [
-            "ATK +4"
-        ],
-        "recipe": [
-            "보따리 도면 1개",
-            "젤로피 1,378개",
-            "썩은 붕대 1,378개",
-            "파란 염료 19개"
-        ]
+        "option": "화속성 공격 +5%",
+        "savePoint": "ATK +6",
+        "openPoint": "ATK +4",
+        "recipe": "보따리 도면 1개, 젤로피 1,378개, 썩은 붕대 1,378개, 파란 염료 19개"
     }
 ]

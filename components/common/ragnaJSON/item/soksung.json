@@ -2,73 +2,33 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTMw/MDAxNTMwMTk5MjU5MjQz.ZVB2IPbOBWdvGlWOOX6uk8KKmiPBKrwDfpRlQYmjLN8g.NqCP6j2_k2b6f1oqWisdz9kpWs3tw_FdRReaqb_ttx8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_016.png?type=w740",
         "name": "광대코",
-        "firstChar": "ᄀ",
-        "option": [
-            "DEF +10"
-        ],
-        "savePoint": [
-            "ATK +6"
-        ],
-        "openPoint": [
-            "암속성 데미지 -2%"
-        ],
-        "recipe": [
-            "젤로피 647개",
-            "부드러운털 647개"
-        ]
+        "option": "DEF +10",
+        "savePoint": "ATK +6",
+        "openPoint": "암속성 데미지 -2%",
+        "recipe": "젤로피 647개, 부드러운털 647개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjI1/MDAxNTMwMTk5MzY2Njcw.zpnqu1Ob4WEbscKIZEDKEEasNp7pXHDYqB9qaeWpUiEg.B_iEXZSjtjDZ5W-GKG070dGkfN-5i2P0k48SDd7FsPIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_022.png?type=w740",
         "name": "산소마스크",
-        "firstChar": "ᄉ",
-        "option": [
-            "받는 독속성 데미지 -20%"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "풍속성 데미지 -4%"
-        ],
-        "recipe": [
-            "썩은 붕대 1,078개",
-            "망자의 유물 863개"
-        ]
+        "option": "받는 독속성 데미지 -20%",
+        "savePoint": "MaxHP +10",
+        "openPoint": "풍속성 데미지 -4%",
+        "recipe": "썩은 붕대 1,078개, 망자의 유물 863개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjU5/MDAxNTMwMTk5Mzg1Mjk5.ng56V0uScBsh8U0omc5rZTRe7E9YVQPP7qVEsX0D344g.7WHytdEXrgnj9qEG-ZugyY3rRZ2bUkD2PViLxP7Rrh0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_252.png?type=w740",
         "name": "선글래스",
-        "firstChar": "ᄉ",
-        "option": [
-            "연소 저항 +5%"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "받는 암속성 데미지 -2%"
-        ],
-        "recipe": [
-            "젤로피 550개"
-        ]
+        "option": "연소 저항 +5%",
+        "savePoint": "MaxHP +10",
+        "openPoint": "받는 암속성 데미지 -2%",
+        "recipe": "젤로피 550개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjA5/MDAxNTMwMTk5NDA3MDgw.VDBAQ8XO77ASKc51yOUH55u0d-oal0zTArrB_xLcccQg.kEIsK2rsRzwbm77UD-zhCdhFWb4TNClHQhfEfgQ5v-0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_038.png?type=w740",
         "name": "마리나 모자[1]",
-        "firstChar": "ᄆ",
-        "option": [
-            "MDEF +10"
-        ],
-        "savePoint": [
-            "MATK +6,\n몬스터(수)에 데미지 +3%"
-        ],
-        "openPoint": [
-            "MaxHP +64"
-        ],
-        "recipe": [
-            "끈적끈적한 액체 460개",
-            "썩은 붕대 575개",
-            "마스테라의 열매 5개"
-        ]
+        "option": "MDEF +10",
+        "savePoint": "MATK +6,\n몬스터(수)에 데미지 +3%",
+        "openPoint": "MaxHP +64",
+        "recipe": "끈적끈적한 액체 460개, 썩은 붕대 575개, 마스테라의 열매 5개"
     }
 ]

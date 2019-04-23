@@ -2,164 +2,65 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNDIg/MDAxNTMwMTkyNDMxOTU2.1ndK9dq8ltY5Ni4LRj5Tsgp-IIIItCpNAVtNpNVfNrQg.aHCfU5XRmiQI6HMRiYy3p1XgcJFL2La93rdTA2NV_pQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_225.png?type=w740",
         "name": "사슴뿔[1]",
-        "firstChar": "ᄉ",
-        "option": [
-            "받는 동물형 데미지 -15%",
-            "식물형에 대한 데미지 10%"
-        ],
-        "savePoint": [
-            "DEF +4"
-        ],
-        "openPoint": [
-            "ATK +10"
-        ],
-        "recipe": [
-            "선물 포장지 2479개",
-            "오크의 손톱 10개",
-            "얼음 가루 7개",
-            "마스테라의 열매 5개"
-        ]
+        "option": "받는 동물형 데미지 -15%, 식물형에 대한 데미지 10%",
+        "savePoint": "DEF +4",
+        "openPoint": "ATK +10",
+        "recipe": "선물 포장지 2479개, 오크의 손톱 10개, 얼음 가루 7개, 마스테라의 열매 5개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMzMg/MDAxNTMwMTkyNDgxMzc3.Wu_G_gMGVeFXhJ7zrfVEr-8HYdYutFBi5eNtn6dsTGog.UA99Hx1SXGFw3OzHrtBycAy4xGttScynL-dUxlZxu_Yg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_267.png?type=w740",
         "name": "꽃잎",
-        "firstChar": "ᄁ",
-        "option": [
-            "식물형 데미지 감소 +5%"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "MaxHP +24"
-        ],
-        "recipe": [
-            "젤로피 312개",
-            "만드라 15개"
-        ]
+        "option": "식물형 데미지 감소 +5%",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +24",
+        "recipe": "젤로피 312개, 만드라 15개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjYz/MDAxNTMwMTkyNDkxMzU2.KnK54sxx-KYLNkpml_y9EaPz1fcQsijNJZy-8SlNJrQg.AZmO0VodhFjy5FV-xONLr5wJWjtnX6e8ytlDykZqdhog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_019.png?type=w740",
         "name": "천사의 머리띠",
-        "firstChar": "ᄎ",
-        "option": [
-            "AGI +2",
-            "LUK +5",
-            "악마형 몬스터로부터 받은 데미지 -10%\n 10제련 이상 시 MDEF +25"
-        ],
-        "savePoint": [
-            "MaxHP +28"
-        ],
-        "openPoint": [
-            "MDEF +5"
-        ],
-        "recipe": [
-            "가렛 2240개",
-            "빛의 알갱이 15개",
-            "부드러운 깃털 13개",
-            "하얀 염료 4개"
-        ]
+        "option": "AGI +2, LUK +5, 악마형 몬스터로부터 받은 데미지 -10%\n 10제련 이상 시 MDEF +25",
+        "savePoint": "MaxHP +28",
+        "openPoint": "MDEF +5",
+        "recipe": "가렛 2240개, 빛의 알갱이 15개, 부드러운 깃털 13개, 하얀 염료 4개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNDUg/MDAxNTMwMTkyNTAxMTk3.jn1WJlGpZupGHLTBu_oAitxAQWAVXUxI0WfCfSQwxKEg.49KJhKqePnEoobsvtyWtz9dea62hYIcDsd4_iGXNF40g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_028.png?type=w740",
         "name": "장식용 꽃",
-        "firstChar": "ᄌ",
-        "option": [
-            "식물형 데미지 감소 +10%"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "MDEF +3"
-        ],
-        "recipe": [
-            "젤로피 1,380개",
-            "만드라 15개"
-        ]
+        "option": "식물형 데미지 감소 +10%",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MDEF +3",
+        "recipe": "젤로피 1,380개, 만드라 15개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTQ3/MDAxNTMwMTkyNTEzOTUy.bI-cn3RQ76plrCmebpnVIex5yMBhWqJwH2pNK7TZbu0g.4s3Nnlu-Rjewg2Y8SUlWsMFJukSCSy5UnMzdglZhRF8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_079.png?type=w740",
         "name": "코로넷",
-        "firstChar": "ᄏ",
-        "option": [
-            "INT +3",
-            "식물형 데미지 감소 +10%",
-            "제련 +10이상일 때 추가 VIT +3"
-        ],
-        "savePoint": [
-            "MaxHP +28"
-        ],
-        "openPoint": [
-            "DEF +5"
-        ],
-        "recipe": [
-            "셀 2,585개",
-            "진주 19개",
-            "별의 모서리 21개",
-            "사금 210개"
-        ]
+        "option": "INT +3, 식물형 데미지 감소 +10%, 제련 +10이상일 때 추가 VIT +3",
+        "savePoint": "MaxHP +28",
+        "openPoint": "DEF +5",
+        "recipe": "셀 2,585개, 진주 19개, 별의 모서리 21개, 사금 210개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjgy/MDAxNTMwMTkyNTIxNTgx.cidcrFaEql5CY22PM2SG_5an9ge8yq-7tj2TyO6BS2sg.xv7CrTLIAqI-RPreJc-AJbHkNpShixj40duP4O6NZ1wg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_112.png?type=w740",
         "name": "빨간 나비 리본[1]",
-        "firstChar": "ᄈ",
-        "option": [
-            "불사형 몬스터 데미지 감소 +5%",
-            "악마형 데미지 감소 +5%"
-        ],
-        "savePoint": [
-            "MATK +6"
-        ],
-        "openPoint": [
-            "MaxHP +64"
-        ],
-        "recipe": [
-            "셀 464개",
-            "썩은 붕대 755개",
-            "빨간 염료 10개"
-        ]
+        "option": "불사형 몬스터 데미지 감소 +5%, 악마형 데미지 감소 +5%",
+        "savePoint": "MATK +6",
+        "openPoint": "MaxHP +64",
+        "recipe": "셀 464개, 썩은 붕대 755개, 빨간 염료 10개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTMw/MDAxNTMwMTkyNTQ4ODI3.YBcDufps3XnHvvk0yOXWJnJmi7ux0zKzWbXdOgehbb0g.dyk2vmxcAX0bRysdRl6-HDft6M1dzXNHQKCn9gdil0Ug.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_131.png?type=w740",
         "name": "혜군 모자[1]",
-        "firstChar": "ᄒ",
-        "option": [
-            "DEF +5",
-            "MDEF +5",
-            "악마형 데미지 감소 +10%"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "MaxHP +64"
-        ],
-        "recipe": [
-            "유리구슬 1,673개",
-            "핏빛의 룬 2개",
-            "별의 모서리 2개",
-            "단단한 껍질 2,060개"
-        ]
+        "option": "DEF +5, MDEF +5, 악마형 데미지 감소 +10%",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +64",
+        "recipe": "유리구슬 1,673개, 핏빛의 룬 2개, 별의 모서리 2개, 단단한 껍질 2,060개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjgz/MDAxNTMwMTkyNTU3OTE3.u7BoUXwr9QirJvZsoxs44Nd8CUDqaQUIcZbrF6vIlY0g.GLD_ite3_ysG0RiPUjSC94KscomYwAlB1D9VFsxZMnkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_160.png?type=w740",
         "name": "메이드 머리띠[1]",
-        "firstChar": "ᄆ",
-        "option": [
-            "악마형 데미지 추가 +4%",
-            "STR +2"
-        ],
-        "savePoint": [
-            "MATK +6"
-        ],
-        "openPoint": [
-            "ATK +3"
-        ],
-        "recipe": [
-            "심연의 꽃 744개",
-            "리본 끈 2개",
-            "썩은 붕대 2,231개"
-        ]
+        "option": "악마형 데미지 추가 +4%, STR +2",
+        "savePoint": "MATK +6",
+        "openPoint": "ATK +3",
+        "recipe": "심연의 꽃 744개, 리본 끈 2개, 썩은 붕대 2,231개"
     }
 ]

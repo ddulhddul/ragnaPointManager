@@ -2,88 +2,33 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjMg/MDAxNTMwMTkyMzU0NzE1.w3g_m51Z2BTcjRUT8pymhvZVfMMDxj5TPWmH0UVJPdYg.vX7buzWJiXz5kmEuEbRlkSRlTHSb1Z0z0H8YV-L6-FMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_231.png?type=w740",
         "name": "모라신의 미소[1]",
-        "firstChar": "ᄆ",
-        "option": [
-            "지속성 공격 +5%",
-            "DEX +1"
-        ],
-        "savePoint": [
-            "MATK +8"
-        ],
-        "openPoint": [
-            "ATK +10"
-        ],
-        "recipe": [
-            "크리스탈 뼈 4958개",
-            "시간 왜곡 버튼 15개",
-            "수정으로 만든 거울 15개",
-            "괘종시계 560개"
-        ]
+        "option": "지속성 공격 +5%, DEX +1",
+        "savePoint": "MATK +8",
+        "openPoint": "ATK +10",
+        "recipe": "크리스탈 뼈 4958개, 시간 왜곡 버튼 15개, 수정으로 만든 거울 15개, 괘종시계 560개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjQ3/MDAxNTMwMTkyMzYzNzg0.cx08DvNtlNdtXec5Nx7qAftNJYfMECoSNxJ436Yulk8g.I58S567D3zNZm-r0D1H7Zb-ebRyqaGrDldDeGQaCRtgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_357.png?type=w740",
         "name": "세이지의 책",
-        "firstChar": "ᄉ",
-        "option": [
-            "풍",
-            "지",
-            "수",
-            "화",
-            "성속성 공격 +5%",
-            "변동 캐스팅 시간 -10%"
-        ],
-        "savePoint": [
-            "ATK +1%",
-            "MATK +1%,"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.4월 뽑기"
-        ]
+        "option": "풍, 지, 수, 화, 성속성 공격 +5%, 변동 캐스팅 시간 -10%",
+        "savePoint": "ATK +1%, MATK +1%,",
+        "openPoint": "",
+        "recipe": "2018.4월 뽑기"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTM4/MDAxNTMwMTkyMzc1MzM1.51zjwKc7hxXwJ07xdMqvOebWFIZZWFBpYDycg6mqbQkg.sFj3Rqjwbg4FxQ31oXS7xGKzQdCGUFOZLGqjwsuKZd0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_170.png?type=w740",
         "name": "스팅모자",
-        "firstChar": "ᄉ",
-        "option": [
-            "DEF +10",
-            "STR +2",
-            "VIt +1",
-            "MDEF +3, \n지속성 데미지 감소 +5%",
-            "몬스터(화)에 데미지 +5%"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "ATK +3"
-        ],
-        "recipe": [
-            "심연의 꽃 875개",
-            "성흔 1,050개"
-        ]
+        "option": "DEF +10, STR +2, VIt +1, MDEF +3, \n지속성 데미지 감소 +5%, 몬스터(화)에 데미지 +5%",
+        "savePoint": "MaxHP +19",
+        "openPoint": "ATK +3",
+        "recipe": "심연의 꽃 875개, 성흔 1,050개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTI3/MDAxNTMwMTkyMzg1NTE5.D90qx5KobYpYt6stbSQXfJvGw0L2quL1d4wzQkk_k98g.m-sY8qLdtdKYuUl1_Hr-DnS81WFRQk22Ya5-NX7p6eAg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_095.png?type=w740",
         "name": "티아라[1]",
-        "firstChar": "ᄐ",
-        "option": [
-            "INT +3",
-            "몬스터(지)에 데미지 +5%, \n1제련 당 몬스터(지)에 데미지 +1% 최대 +15%까지 증가"
-        ],
-        "savePoint": [
-            "MATK +10"
-        ],
-        "openPoint": [
-            "MaxHP +64"
-        ],
-        "recipe": [
-            "유리구슬 2,100개",
-            "진주 19개",
-            "핏빛의 룬 20개",
-            "사금 210개"
-        ]
+        "option": "INT +3, 몬스터(지)에 데미지 +5%, \n1제련 당 몬스터(지)에 데미지 +1% 최대 +15%까지 증가",
+        "savePoint": "MATK +10",
+        "openPoint": "MaxHP +64",
+        "recipe": "유리구슬 2,100개, 진주 19개, 핏빛의 룬 20개, 사금 210개"
     }
 ]

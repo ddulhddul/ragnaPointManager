@@ -2,55 +2,25 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTM4/MDAxNTMwMTg0NzI4MDMy.H2ycLNyFBYHLFNbl7ZKL1oiJz4BzC82PBBksJw8Grj4g.FWBed0J9Z1La82_dBIRvLjwnl4QpFvXjwLaOnI2UxwYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_308.png?type=w740",
         "name": "고성 위스퍼 마스크",
-        "firstChar": "ᄀ",
-        "option": [
-            "VIT +4",
-            "MaxHP +500"
-        ],
-        "savePoint": [
-            "MaxHP +60"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "EP 1.0 특전 사용"
-        ]
+        "option": "VIT +4, MaxHP +500",
+        "savePoint": "MaxHP +60",
+        "openPoint": "",
+        "recipe": "EP 1.0 특전 사용"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNzAg/MDAxNTMwMTg0NzE2NTUx.YPJfZftsrPhjNp5LTZFLrRutTQl8QYApcGp9c_biW3Yg.O6Qdggz7fWIepIpfQ9FYg0mCoq6EfCINd6pEvmbZC7Yg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_309.png?type=w740",
         "name": "식탐 많은 도도리",
-        "firstChar": "ᄉ",
-        "option": [
-            "MDEF +3%",
-            "MaxHP +400"
-        ],
-        "savePoint": [
-            "ATK +8"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "EP 2.0 특전 구매"
-        ]
+        "option": "MDEF +3%, MaxHP +400",
+        "savePoint": "ATK +8",
+        "openPoint": "",
+        "recipe": "EP 2.0 특전 구매"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMzAg/MDAxNTMwMTg0NzM1NzQ0.JdNA8-3c48xdDCNtGUn_Bp4GsIzWHwLkfi8mnSXWAuIg.TwtZMrGIOyDk_sx7MkzFN-c717qyc0Y3MdcL434Slc4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_310.png?type=w740",
         "name": "용감한 데빌냥",
-        "firstChar": "ᄋ",
-        "option": [
-            "DEX +4",
-            "MaxHP +500"
-        ],
-        "savePoint": [
-            "MaxHP +60"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "EP 3.0 특전 구매"
-        ]
+        "option": "DEX +4, MaxHP +500",
+        "savePoint": "MaxHP +60",
+        "openPoint": "",
+        "recipe": "EP 3.0 특전 구매"
     }
 ]

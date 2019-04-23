@@ -2,103 +2,41 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjU0/MDAxNTMwMTkxODg1NTEz.SZWbXrkVakW2HureZ43qJPPwdh17WTCAyU3GgCfr7H4g.rb6rzf3g81uzLoUGfwDuxjMsV9XEQU7piD3WcwOWEusg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_223.png?type=w740",
         "name": "스포아 모자[1]",
-        "firstChar": "ᄉ",
-        "option": [
-            "DEF +20",
-            "받는 독 속성 데미지 -25%"
-        ],
-        "savePoint": [
-            "MaxHP +60"
-        ],
-        "openPoint": [
-            "MaxHP +60"
-        ],
-        "recipe": [
-            "얼음 조각 930개",
-            "더듬이 6개",
-            "썩은 붕대 1200개"
-        ]
+        "option": "DEF +20, 받는 독 속성 데미지 -25%",
+        "savePoint": "MaxHP +60",
+        "openPoint": "MaxHP +60",
+        "recipe": "얼음 조각 930개, 더듬이 6개, 썩은 붕대 1200개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjYg/MDAxNTMwMTkxODk2MzQ4.IslfuHFKYhkTyNyc_Ex_7cWoM2VymTY4fzoq5y7SM04g._3SLESZuiMQx8FwbM_RjCoZL0gT0sN6IsB7YGddyD-sg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_245.png?type=w740",
         "name": "금색 크리스마스 방울",
-        "firstChar": "ᄀ",
-        "option": [
-            "성속성 공격 +8%",
-            "받는 암속성",
-            "염속성",
-            "불사 속성",
-            "독속성 데미지 -10%"
-        ],
-        "savePoint": [
-            "ATK +10"
-        ],
-        "openPoint": [
-            "MATK +8"
-        ],
-        "recipe": [
-            "크리스탈 뼈 3000개",
-            "하티의 이빨 15개",
-            "시간 왜곡 버튼 15개",
-            "눈사람 550개"
-        ]
+        "option": "성속성 공격 +8%, 받는 암속성, 염속성, 불사 속성, 독속성 데미지 -10%",
+        "savePoint": "ATK +10",
+        "openPoint": "MATK +8",
+        "recipe": "크리스탈 뼈 3000개, 하티의 이빨 15개, 시간 왜곡 버튼 15개, 눈사람 550개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTgw/MDAxNTMwMTkxOTA0NzU4.RlmZ5pOynNj6eO76tcHFyrFD_-aijKL5GjmdxLMIOFYg.3v2FL-MfP-TXSjf3FnetlkKIYXruNYw1pFGJWbFTnGMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_246.png?type=w740",
         "name": "룬 매듭 머리띠[1]",
-        "firstChar": "ᄅ",
-        "option": [
-            "받는 무속성 데미지 -3%",
-            "HIT +5",
-            "ATK +10",
-            "MATK +10"
-        ],
-        "savePoint": [
-            "MaxHP +18"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "퀘스트 보상"
-        ]
+        "option": "받는 무속성 데미지 -3%, HIT +5, ATK +10, MATK +10",
+        "savePoint": "MaxHP +18",
+        "openPoint": "",
+        "recipe": "퀘스트 보상"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjYz/MDAxNTMwMTkxOTIwODIz.w_8R8_jJXnw7R-aMk0cLWXfdfwfKpKocNXGKfvmpz14g.Hp0kPeeEdfm4OkB0Rz2LhJZHspREBOLgh0jIkgEQUDsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_351.png?type=w740",
         "name": "벚꽃 별빛선[1]",
-        "firstChar": "ᄇ",
-        "option": [
-            "무속성 공격 +8%",
-            "몬스터(中)에 데미지 +5%",
-            "MaxHP +1000"
-        ],
-        "savePoint": [
-            "ATK +1%",
-            "MATK +1%,"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "2018.3월 뽑기"
-        ]
+        "option": "무속성 공격 +8%, 몬스터(中)에 데미지 +5%, MaxHP +1000",
+        "savePoint": "ATK +1%, MATK +1%,",
+        "openPoint": "",
+        "recipe": "2018.3월 뽑기"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjAg/MDAxNTMwMTkxOTMxNjE4.Nwr2h3flLVRBPK9U7rkUVf8aNnnhUx8_ePcc-f0QuSsg.4QpZJpeng3x-36ERxQ4wG5KMde76S6NGEoUpsH90kh0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_032.png?type=w740",
         "name": "산소마스크",
-        "firstChar": "ᄉ",
-        "option": [
-            "받는 독속성 데미지 -20%"
-        ],
-        "savePoint": [
-            "MaxHP +10"
-        ],
-        "openPoint": [
-            "풍속성 데미지 -4%"
-        ],
-        "recipe": [
-            "썩은 붕대 1,078개",
-            "망자의 유물 863개"
-        ]
+        "option": "받는 독속성 데미지 -20%",
+        "savePoint": "MaxHP +10",
+        "openPoint": "풍속성 데미지 -4%",
+        "recipe": "썩은 붕대 1,078개, 망자의 유물 863개"
     }
 ]

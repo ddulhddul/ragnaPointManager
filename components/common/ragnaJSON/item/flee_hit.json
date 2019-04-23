@@ -2,60 +2,25 @@
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTQg/MDAxNTMwMTk5NjU4NTcx.FedCjB6fusAR2B8lKq_11YbkV_RlDgH2YGrMlfK1uJMg.IOqtph1rZv3mVNKc9aDbr3FRwOuHVoABOXQFItTdBb8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_177.png?type=w740",
         "name": "맹목의 후드[1]",
-        "firstChar": "ᄆ",
-        "option": [
-            "암흑 상태에 빠지지 않습니다. \n일반공격 시 일정 확률로 대상의 HIT 40 감소"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "FLEE +2"
-        ],
-        "recipe": [
-            "혜안 1,339개",
-            "저주받은 루비 5개",
-            "흑운모 5개",
-            "비정한 마음 1,116개"
-        ]
+        "option": "암흑 상태에 빠지지 않습니다. \n일반공격 시 일정 확률로 대상의 HIT 40 감소",
+        "savePoint": "MaxHP +19",
+        "openPoint": "FLEE +2",
+        "recipe": "혜안 1,339개, 저주받은 루비 5개, 흑운모 5개, 비정한 마음 1,116개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjE4/MDAxNTMwMTk5NjY3MzQz.GzdH61C-PNKdPzAwMz3KQJXnSCXL7JEDb-6Vt8xhpTcg.4y2_7q5IB723JaQF-Cj4E2OKYVzEGFZR_FMRHbxENuAg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_183.png?type=w740",
         "name": "작은리본[1]",
-        "firstChar": "ᄌ",
-        "option": [
-            "FLEE +20"
-        ],
-        "savePoint": [
-            "MaxHP +19"
-        ],
-        "openPoint": [
-            "FLEE +2"
-        ],
-        "recipe": [
-            "심연의 꽃 525개",
-            "리본 끈 6개",
-            "빨간 염료 25개"
-        ]
+        "option": "FLEE +20",
+        "savePoint": "MaxHP +19",
+        "openPoint": "FLEE +2",
+        "recipe": "심연의 꽃 525개, 리본 끈 6개, 빨간 염료 25개"
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjQy/MDAxNTMwMTk5Njc5MTkx.Zl0JtaUfCCt4QPS6fnx3wIYRnkg80iIjB-F3L2uyLc8g.HcbD9_ycfFKHYLL6aKPY-mFIEXiHJRTiZHeXJAMKR4Qg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_253.png?type=w740",
         "name": "엔젤링 헤어핀",
-        "firstChar": "ᄋ",
-        "option": [
-            "FLEE +1"
-        ],
-        "savePoint": [
-            "FLEE +1"
-        ],
-        "openPoint": [
-            ""
-        ],
-        "recipe": [
-            "빨간 염료 1개",
-            "끈적끈적한 액체 154개",
-            "단단한 껍질 118개",
-            "철 10개"
-        ]
+        "option": "FLEE +1",
+        "savePoint": "FLEE +1",
+        "openPoint": "",
+        "recipe": "빨간 염료 1개, 끈적끈적한 액체 154개, 단단한 껍질 118개, 철 10개"
     }
 ]
