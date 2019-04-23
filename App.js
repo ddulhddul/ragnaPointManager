@@ -3,11 +3,18 @@ import { Platform, StatusBar, StyleSheet, View } from 'react-native';
 import { AppLoading, Asset, Font, Icon } from 'expo';
 import AppNavigator from './navigation/AppNavigator';
 import SqlUtil from './components/common/SqlUtil';
+import Private from './components/common/Private';
+import { AdMobBanner } from 'expo'
+
 
 export default class App extends SqlUtil {
   state = {
     isLoadingComplete: false,
   };
+
+  bannerError(){
+    console.log('bannerError')
+  }
 
   render() {
     if (!this.state.isLoadingComplete && !this.props.skipLoadingScreen) {
@@ -22,6 +29,14 @@ export default class App extends SqlUtil {
       return (
         <View style={styles.container}>
           {Platform.OS === 'ios' && <StatusBar barStyle="default" />}
+          <View style={{height: 30}}>
+            <AdMobBanner
+              bannerSize="banner"
+              adUnitID={Private.admobId}
+              testDeviceID="EMULATOR"
+              style={{height: 30}}
+              onDidFailToReceiveAdWithError={this.bannerError} />
+            </View>
           <AppNavigator />
         </View>
       );
@@ -65,6 +80,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    paddingTop: 30,
+    // paddingTop: 30,
   },
 });
