@@ -258,7 +258,7 @@ class ItemList extends SqlUtil {
                 </View>
 
                 <View style={[styles.searchContainer]}>
-                    <View style={[styles.trContainer]}>
+                    {/* <View style={[styles.trContainer]}>
                         <Picker
                             selectedValue={sort}
                             mode="dropdown"
@@ -269,7 +269,7 @@ class ItemList extends SqlUtil {
                             <Picker.Item label="낮은가격순" value="price_asc" />
                             <Picker.Item label="높은가격순" value="price_desc" />
                         </Picker>
-                    </View>
+                    </View> */}
                     <View style={[styles.trContainer, {marginLeft: 10}]}>
                         <CheckBox value={saveFilter} onValueChange={()=>
                             {this.setState({saveFilter: !saveFilter})}} />

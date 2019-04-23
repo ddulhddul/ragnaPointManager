@@ -92,7 +92,7 @@ export default createMaterialBottomTabNavigator({
   ItemStack,
   CardStack,
   WebStack,
-  SettingsStack
+  // SettingsStack
 }, {
   initialRouteName: 'FoodStack',
   activeColor: Colors.tabIconSelected,

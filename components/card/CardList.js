@@ -285,6 +285,29 @@ class CardList extends SqlUtil {
                                                     {`획득: ${item.monster}`}
                                                 </Text>
                                             </View>
+                                            {
+                                                (!item.ingreCardList || !item.ingreCardList.length)? null:
+                                                <View style={[{flex:1, alignSelf: 'flex-start'/* , alignItems:'center' */}]}>
+                                                    <Text style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left', marginBottom: 3}]}>
+                                                        {'제작'}
+                                                    </Text>
+                                                    <View style={[styles.tdContainer, {alignItems: 'flex-start'}]}>
+                                                        <View style={[styles.trContainer, {justifyContent: 'flex-start', flexWrap: 'wrap'}]}>{
+                                                            (item.ingreCardList||[]).map((optionObj, optionIndex)=>
+                                                                <View style={{flexDirection:'row', marginLeft: 5}} key={`ingreCardList_${optionObj.name}_${item.name}_${optionIndex}`}>
+                                                                    {!cardImages[optionObj.name.replace(/ /g,'').replace(/\[.*\]/g,'')+'카드']? null:
+                                                                        <Image style={[styles.itemImageStyle, {width: 20, height:20, borderRadius: 20}]} 
+                                                                            source={cardImages[optionObj.name.replace(/ /g,'').replace(/\[.*\]/g,'')+'카드']} />
+                                                                    }
+                                                                    <Text style={[styles.textStyle, {fontSize: 12, color: Util.grey, textAlign: 'left', fontWeight:'bold', marginLeft: 5}]}>
+                                                                        {`${optionObj.name} x${optionObj.count}`}
+                                                                    </Text>
+                                                                </View>
+                                                            )
+                                                        }</View>
+                                                    </View>
+                                                </View>
+                                            }
                                         </View>
                                     </View>
                                     <View style={[styles.trContainer, {marginTop: 3}]}>

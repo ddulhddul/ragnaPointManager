@@ -103,13 +103,14 @@ import card_robe_green1 from './ragnaJSON/card/card_robe_green1.json'
 import card_star_purple from './ragnaJSON/card/card_star_purple.json'
 import card_star_green from './ragnaJSON/card/card_star_green.json'
 import card_star_blue from './ragnaJSON/card/card_star_blue.json'
+import card_make from './ragnaJSON/card/card_make.json'
 
 export default {
 
   getCardList(){
-    return card
+    // return card
 
-    const homepageDic = Array(0).concat(
+    let homepageDic = Array(0).concat(
       card_robe_purple1,
       card_accessories_blue1,
       card_robe_white1,
@@ -174,8 +175,39 @@ export default {
       const sortStandard = {'일반':1, '녹색':2, '파랑':3, '보라':4}
       return sortStandard[obj1.rate] > sortStandard[obj2.rate] ? 1 : -1
     })
+
+    card_make.map((make)=>{
+      
+      const thisKey = make.카드명
+      const thisTarget = homepageDic.find((obj)=>{
+        return (obj.name == thisKey+' 카드' || obj.name == thisKey+'카드')  
+      })
+      if(!thisTarget) console.log('make', make)
+
+      const col = ["재료1","재료2","재료3","재료4","재료5"]
+      const ingreCardList = col.reduce((entry, colname)=>{
+        let message = make[colname]
+        if(message){
+          const name = message.replace(/[0-9]+$/g,'').trim()
+          let count = message.replace(/.*([0-9]+$)/g,'$1').trim()
+          if(isNaN(Number(count))) count = 1
+          entry.push({
+            name, count, 
+            origin: message
+          })
+        }
+        return entry
+      }, [])
+      homepageDic = homepageDic.map((obj)=>{
+        if((obj.name == thisKey+' 카드' || obj.name == thisKey+'카드')){
+          return {...obj, ingreCardList}
+        }
+        return obj
+      })
+    })
+
     
-    console.log('homepageDic', JSON.stringify(homepageDic))
+    // console.log('homepageDic', JSON.stringify(homepageDic))
     // console.log('homepageDic', (homepageDic))
     return homepageDic
   },
