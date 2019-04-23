@@ -7,6 +7,7 @@ import SqlUtil from '../common/SqlUtil'
 import { withNavigation } from 'react-navigation'
 import Util from '../common/Util'
 import Loading from '../common/Loading'
+import NoData from '../common/NoData'
 import { Icon } from 'expo'
 import CommonStyles from '../common/style'
 import specialIngredientList from '../common/ragnaJSON/food/food_ingredient_from.json'
@@ -295,6 +296,7 @@ class FoodList extends SqlUtil {
                         </View>
                     </TouchableOpacity>
                 }
+                {!foodList.length? <NoData /> :
                 <View style={{flex:1, flexDirection: 'row', margin: 10}}>
                     <View style={{flex:1}}>
                         <FlatList style={styles.scrollContainer} 
@@ -428,6 +430,7 @@ class FoodList extends SqlUtil {
                             }} />
                     </View>
                 </View>
+                }
             </View>
         )
     }

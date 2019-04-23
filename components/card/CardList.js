@@ -6,6 +6,7 @@ import {
 import SqlUtil from '../common/SqlUtil'
 import { withNavigation } from 'react-navigation'
 import Util from '../common/Util'
+import NoData from '../common/NoData'
 import Loading from '../common/Loading'
 import { Icon } from 'expo'
 import CommonStyles from '../common/style'
@@ -243,6 +244,7 @@ class CardList extends SqlUtil {
                         </View>
                     </TouchableOpacity>
                 }
+                {!cardList.length? <NoData /> :
                 <View style={{flex:1, flexDirection: 'row', margin: 10}}>
                     <View style={{flex:1}}>
                         <FlatList style={styles.scrollContainer} 
@@ -328,6 +330,7 @@ class CardList extends SqlUtil {
                             }} />
                     </View>
                 </View>
+                }
             </View>
         )
     }
