@@ -29,13 +29,13 @@ export default class App extends SqlUtil {
       return (
         <View style={styles.container}>
           {Platform.OS === 'ios' && <StatusBar barStyle="default" />}
-          <View style={{height: 30}}>
-            <AdMobBanner
-              bannerSize="banner"
-              adUnitID={Private.admobId}
-              testDeviceID="EMULATOR"
-              style={{height: 30}}
-              onDidFailToReceiveAdWithError={this.bannerError} />
+            <View style={{height: 30}}>
+              {/* <AdMobBanner
+                bannerSize="banner"
+                adUnitID={Private.admobId}
+                testDeviceID="EMULATOR"
+                style={{height: 30}}
+                onDidFailToReceiveAdWithError={this.bannerError} /> */}
             </View>
           <AppNavigator />
         </View>

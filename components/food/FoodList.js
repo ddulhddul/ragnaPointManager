@@ -8,7 +8,8 @@ import { withNavigation } from 'react-navigation'
 import Util from '../common/Util'
 import Loading from '../common/Loading'
 import NoData from '../common/NoData'
-import { Icon } from 'expo'
+import { Icon, AdMobBanner } from 'expo'
+import Private from '../common/Private'
 import CommonStyles from '../common/style'
 import specialIngredientList from '../common/ragnaJSON/food/food_ingredient_from.json'
 const saveColor= 'rgb(230, 126, 34)'
@@ -308,7 +309,19 @@ class FoodList extends SqlUtil {
                             data={foodList}
                             keyExtractor={(item) => item.name}
                             renderItem={({item, index}) => {
-                                return <View style={styles.componentContainer} key={`item_${encodeURI(item.name)}_${index}`}>
+                                return <View key={`item_${encodeURI(item.name)}_${index}`}>
+                                {
+                                    index%10!=0? null:
+                                    <View style={{justifyContent: 'center', alignItems: 'center'}}>
+                                        <AdMobBanner
+                                        bannerSize="banner"
+                                        adUnitID={Private.admobId}
+                                        testDeviceID="EMULATOR"
+                                        onDidFailToReceiveAdWithError={this.bannerError} />
+                                    </View>
+                                }
+                                <View style={styles.componentContainer}>
+                                    
                                     <View style={[styles.trContainer]}>
                                         <View style={[styles.tdContainer, {marginLeft: 10, marginRight: 10}]}>
                                             <View style={[styles.trContainer]}>
@@ -427,6 +440,7 @@ class FoodList extends SqlUtil {
                                         </View>
                                     </View>
                                 </View>
+                            </View>
                             }} />
                     </View>
                 </View>

@@ -8,7 +8,8 @@ import { withNavigation } from 'react-navigation'
 import Util from '../common/Util'
 import NoData from '../common/NoData'
 import Loading from '../common/Loading'
-import { Icon } from 'expo'
+import { Icon, AdMobBanner } from 'expo'
+import Private from '../common/Private'
 import CommonStyles from '../common/style'
 const saveColor= 'rgb(230, 126, 34)'
 const openColor= 'rgb(41, 128, 185)'
@@ -329,7 +330,18 @@ class ItemList extends SqlUtil {
                             data={itemList}
                             keyExtractor={(item) => item.name}
                             renderItem={({item, index}) => {
-                                return <View style={styles.componentContainer} key={`item_${encodeURI(item.name)}_${index}`}>
+                                return <View key={`item_${encodeURI(item.name)}_${index}`}>
+                                {
+                                    index%10!=0? null:
+                                    <View style={{justifyContent: 'center', alignItems: 'center'}}>
+                                        <AdMobBanner
+                                        bannerSize="banner"
+                                        adUnitID={Private.admobId}
+                                        testDeviceID="EMULATOR"
+                                        onDidFailToReceiveAdWithError={this.bannerError} />
+                                    </View>
+                                }
+                                <View style={styles.componentContainer}>
                                     <View style={[styles.trContainer]}>
                                         <View style={[styles.tdContainer, {flex: 0.3, marginLeft: 5, marginRight: 5}]}>
                                             <Image source={itemImages[item.name.replace(/ /g,'').replace(/\[.*\]/g,'')]} style={styles.itemImageStyle} />
@@ -394,6 +406,7 @@ class ItemList extends SqlUtil {
                                         </View>
                                     </View>
                                 </View>
+                            </View>
                             }} />
                     </View>
                     {/* {
