@@ -25,23 +25,23 @@ export default class WebScreen extends Component {
           source={{uri: this.state.url}}
           ref={c => this._webview = c}
           javaScriptEnabled={true}
-          injectedJavaScript={`document.querySelectorAll('.topslideAd,#mobileTailAd_Layer').forEach((obj)=>obj.remove())`}
+          injectedJavaScript={`document.querySelectorAll('.topslideAd,#mobileTailAd_Layer,#mobileTailAd_LayerDummy,#mobileTailAd').forEach((obj)=>obj.remove())`}
           // document.querySelectorAll('.topslideAd,#mobileTailAd_Layer').forEach((obj)=>obj.remove())
         />
         <View style={styles.iconContainer}>
-          <TouchableOpacity style={[styles.webControlIconStyle, {left: 10}]} 
+          <TouchableOpacity style={[styles.webControlIconStyle, {}]} 
             onPress={()=>{this._webview.goBack()}}>
             <View><Icon.AntDesign name="caretleft" size={20} color={Util.tabColor} /></View>
           </TouchableOpacity>
-          <TouchableOpacity style={[styles.webControlIconStyle, {left: 10}]} 
+          <TouchableOpacity style={[styles.webControlIconStyle, {}]} 
             onPress={()=>{this.setState({url: 'http://rom.inven.co.kr/'})}}>
             <View><Icon.Entypo name="home" size={20} color={Util.tabColor} /></View>
           </TouchableOpacity>
-          <TouchableOpacity style={[styles.webControlIconStyle, {left: 10}]} 
+          <TouchableOpacity style={[styles.webControlIconStyle, {}]} 
             onPress={()=>{this.setState({url: 'https://cafe.naver.com/ragnarokmmorpg'})}}>
             <View><Icon.Ionicons name="ios-cafe" size={20} color={Util.tabColor} /></View>
           </TouchableOpacity>
-          <TouchableOpacity style={[styles.webControlIconStyle, {right: 10}]} 
+          <TouchableOpacity style={[styles.webControlIconStyle, {}]} 
             onPress={()=>{this._webview.goForward()}}>
             <View><Icon.AntDesign name="caretright" size={20} color={Util.tabColor} /></View>
           </TouchableOpacity>

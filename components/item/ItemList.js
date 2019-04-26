@@ -382,7 +382,7 @@ class ItemList extends SqlUtil {
                                                         item.saveYn=='Y'?{color: saveColor}:null]}>저장</Text>
                                                 </View>
                                                 <View style={[styles.trContainer, {flex: 0.5}]}>
-                                                    <Text style={[styles.textStyle, {color: Util.grey, marginLeft:5, marginRight:5},
+                                                    <Text style={[styles.textStyle, {color: Util.grey, marginLeft:5, marginRight:5, fontSize:11},
                                                         item.saveYn=='Y'?{color: saveColor}:null
                                                     ]}>{item.savePoint}</Text>
                                                 </View>
@@ -397,7 +397,7 @@ class ItemList extends SqlUtil {
                                                         item.openYn=='Y'?{color: openColor}:null]}>해제</Text>
                                                 </View>
                                                 <View style={[styles.trContainer, {flex: 0.5}]}>
-                                                    <Text style={[styles.textStyle, {color: Util.grey, marginLeft:5, marginRight:5},
+                                                    <Text style={[styles.textStyle, {color: Util.grey, marginLeft:5, marginRight:5, fontSize:11},
                                                         item.openYn=='Y'?{color: openColor}:null]}>{
                                                         item.openPoint
                                                     }</Text>
