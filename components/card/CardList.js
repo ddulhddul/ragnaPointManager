@@ -18,16 +18,22 @@ class CardList extends SqlUtil {
     constructor(props){
         super(props)
         const optionKeywordList = (props.cardList||[]).reduce((entry, obj)=>{
-            (obj.openPoint||[]).concat(obj.savePoint||[]).map((target)=>{
-                const keyword = target.name
-                keyword!='?' && !entry.includes(keyword) && entry.push(keyword)
+            (obj.optionKeyword||[]).map((target)=>{
+                if(!entry.includes(target)) entry.push(target)
             })
             return entry
-        }, []).filter((obj)=>obj.length<15).sort()
+        }, []).sort()
+        const saveKeywordList = (props.cardList||[]).reduce((entry, obj)=>{
+            (obj.saveKeyword||[]).concat(obj.openKeyword||[]).map((target)=>{
+                if(!entry.includes(target)) entry.push(target)
+            })
+            return entry
+        }, []).sort()
 
         this.state = {
             cardList: [],
-            optionKeywordList
+            optionKeywordList,
+            saveKeywordList
         }
     }
 
@@ -42,6 +48,7 @@ class CardList extends SqlUtil {
                 if (value !== null) {
                     const cardSearchObj = JSON.parse(value)
                     searchParam = {
+                        filter: cardSearchObj.filter, 
                         saveFilter: cardSearchObj.saveFilter,  
                         openFilter: cardSearchObj.openFilter, 
                         optionFilter: cardSearchObj.optionFilter, 
@@ -67,9 +74,9 @@ class CardList extends SqlUtil {
 
     beforeUnmountSave = async()=>{
         try {
-            const {saveFilter, openFilter, optionFilter} = this.state
+            const {filter, saveFilter, openFilter, optionFilter} = this.state
             await AsyncStorage.setItem('CARD_SEARCH', JSON.stringify({
-                saveFilter, openFilter, optionFilter
+                filter, saveFilter, openFilter, optionFilter
             }))
         } catch (error) {
             // Error retrieving data
@@ -128,27 +135,37 @@ class CardList extends SqlUtil {
         const { saveFilter, openFilter, searchValue, scrolling, searchEnabled } = this.state
         const optionKeywordList = this.state.optionKeywordList || []
         const optionFilter = this.state.optionFilter || []
+        const saveKeywordList = this.state.saveKeywordList || []
+        const filter = this.state.filter || []
 
         function checkedSaveCheck(list=[]){
             return list.reduce((entry, optionObj)=>{
                 if(entry) return entry
-                return !optionFilter.length? true: optionFilter.includes(optionObj.name)
+                return !optionFilter.length? true: optionFilter.includes(optionObj)
             }, false)
         }
         const cardList = (this.state.cardList || [])
         .filter((obj)=>{
+            // filterList
+            if(!filter.length) return true
+            return (obj.saveKeyword||[]).concat(obj.openKeyword||[]).reduce((entry, target)=>{
+                if(entry) return entry
+                return filter.includes(target)
+            }, false)
+        })
+        .filter((obj)=>{
             // optionFilter
             if(!optionFilter.length) return true
-            return (obj.savePoint||[]).concat(obj.openPoint||[]).reduce((entry, target)=>{
+            return (obj.optionKeyword||[]).reduce((entry, target)=>{
                 if(entry) return entry
-                return optionFilter.includes(target.name)
+                return optionFilter.includes(target)
             }, false)
         })
         .filter((obj)=>{
             // saveFilter, openFilter
             if(!saveFilter && !openFilter) return true
-            return (saveFilter && obj.saveYn != 'Y' && checkedSaveCheck(obj.savePoint)) 
-                || (openFilter && obj.openYn != 'Y' && checkedSaveCheck(obj.openPoint))
+            return (saveFilter && obj.saveYn != 'Y' && checkedSaveCheck(obj.saveKeyword)) 
+                || (openFilter && obj.openYn != 'Y' && checkedSaveCheck(obj.openKeyword))
         })
         .filter((obj)=>{
             if(!searchEnabled || !searchValue) return true
@@ -170,7 +187,7 @@ class CardList extends SqlUtil {
                 <View style={styles.filterContainer}>
                     <View style={[styles.filterStyle, {backgroundColor: Util.green}]}>
                         <TouchableOpacity onPress={()=>{this.setState({optionFilter: []})}}>
-                            <Text style={[styles.filterTextStyle]}>저장 Reset</Text>
+                            <Text style={[styles.filterTextStyle]}>옵션 Reset</Text>
                         </TouchableOpacity>
                     </View>
                     <ScrollView horizontal={true} style={{marginLeft: 5}}>
@@ -184,6 +201,33 @@ class CardList extends SqlUtil {
                                     this.setState({
                                         optionFilter: !optionFilter.includes(obj)? [...optionFilter, obj]:
                                                     optionFilter.filter((filtered)=>filtered!=obj)
+                                    })
+                                }}>
+                                    <Text style={styles.filterTextStyle}>{obj}</Text>
+                                </TouchableOpacity>
+                            </View>
+                        })
+                    }
+                    </ScrollView>
+                </View>
+                
+                <View style={styles.filterContainer}>
+                    <View style={[styles.filterStyle, {backgroundColor: Util.green}]}>
+                        <TouchableOpacity onPress={()=>{this.setState({filter: []})}}>
+                            <Text style={[styles.filterTextStyle]}>저장 Reset</Text>
+                        </TouchableOpacity>
+                    </View>
+                    <ScrollView horizontal={true} style={{marginLeft: 5}}>
+                    {
+                        saveKeywordList.map((obj)=>{
+                            return <View  key={`keyword_save_${obj}`}
+                                        style={[styles.filterStyle, 
+                                            filter.includes(obj)? {backgroundColor: Util.filterSelected}: {}
+                                        ]}>
+                                <TouchableOpacity onPress={()=>{
+                                    this.setState({
+                                        filter: !filter.includes(obj)? [...filter, obj]:
+                                                    filter.filter((filtered)=>filtered!=obj)
                                     })
                                 }}>
                                     <Text style={styles.filterTextStyle}>{obj}</Text>
@@ -275,9 +319,7 @@ class CardList extends SqlUtil {
                                             </View>
                                             <View style={[{marginBottom: 3, alignSelf: 'flex-start'}]}>
                                                 <Text style={[styles.textStyle, {fontSize: 13, color: Util.grey, textAlign: 'left'}]}>{
-                                                    (item.option||[]).map((optionObj, optionIndex)=>{
-                                                        return `${optionObj.name} ${optionObj.number||''}`
-                                                    }).join(', ')
+                                                    item.option
                                                 }</Text>
                                             </View>
                                             <View style={[{alignSelf: 'flex-start'}]}>
@@ -320,14 +362,12 @@ class CardList extends SqlUtil {
                                                     <Text style={[styles.thTextStyle, {color: Util.grey, fontWeight: 'bold'},
                                                         item.saveYn=='Y'?{color: saveColor}:null]}>저장</Text>
                                                 </View>
-                                                <View style={[styles.trContainer, {flex: 0.5}]}>{
-                                                    (item.savePoint||[]).map((optionObj, optionIndex)=>{
-                                                        return <Text style={[styles.textStyle, {color: Util.grey, marginLeft:5, marginRight:5},
-                                                            item.saveYn=='Y'?{color: saveColor}:null]} key={`save_${encodeURI(item.name)}_${optionIndex}`}>
-                                                            {`${optionObj.name} ${optionObj.number}`}
-                                                        </Text>
-                                                    })
-                                                }</View>
+                                                <View style={[styles.trContainer, {flex: 0.5}]}>
+                                                    <Text style={[styles.textStyle, {color: Util.grey, marginLeft:5, marginRight:5},
+                                                        item.saveYn=='Y'?{color: saveColor}:null]}>{
+                                                        item.savePoint
+                                                    }</Text>
+                                                </View>
                                             </TouchableOpacity>
                                         </View>
                                         <View style={[styles.tdContainer, {flex: 0.5, borderBottomWidth: 3, marginLeft: 5}, 
@@ -338,14 +378,12 @@ class CardList extends SqlUtil {
                                                     <Text style={[styles.thTextStyle, {color: Util.grey, fontWeight: 'bold'},
                                                         item.openYn=='Y'?{color: openColor}:null]}>해제</Text>
                                                 </View>
-                                                <View style={[styles.trContainer, {flex: 0.5}]}>{
-                                                    (item.openPoint||[]).map((optionObj, optionIndex)=>{
-                                                        return <Text style={[styles.textStyle, {color: Util.grey, marginLeft:5, marginRight:5},
-                                                            item.openYn=='Y'?{color: openColor}:null]} key={`open_${encodeURI(item.name)}_${optionIndex}`}>
-                                                            {`${optionObj.name} ${optionObj.number}`}
-                                                        </Text>
-                                                    })
-                                                }</View>
+                                                <View style={[styles.trContainer, {flex: 0.5}]}>
+                                                    <Text style={[styles.textStyle, {color: Util.grey, marginLeft:5, marginRight:5},
+                                                        item.openYn=='Y'?{color: openColor}:null]}>{
+                                                        item.openPoint
+                                                    }</Text>
+                                                </View>
                                             </TouchableOpacity>
                                         </View>
                                     </View>

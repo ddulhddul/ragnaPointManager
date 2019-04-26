@@ -18,17 +18,14 @@ class ItemList extends SqlUtil {
     constructor(props){
         super(props)
         const optionKeywordList = (props.itemList||[]).reduce((entry, obj)=>{
-            (obj.option||[]).map((target)=>{
-                const keyword = target.name
-                // keyword && !keyword.match(/[^a-zA-Z]/) && !entry.includes(keyword) && entry.push(keyword)
-                keyword && keyword.length<9 && !entry.includes(keyword) && entry.push(keyword)
+            (obj.optionKeyword||[]).map((target)=>{
+                if(!entry.includes(target)) entry.push(target)
             })
             return entry
         }, []).sort()
         const saveKeywordList = (props.itemList||[]).reduce((entry, obj)=>{
-            (obj.savePoint||[]).concat(obj.openPoint||[]).map((target)=>{
-                const keyword = target.name
-                keyword && !entry.includes(keyword) && entry.push(keyword)
+            (obj.saveKeyword||[]).concat(obj.openKeyword||[]).map((target)=>{
+                if(!entry.includes(target)) entry.push(target)
             })
             return entry
         }, []).sort()
@@ -104,7 +101,7 @@ class ItemList extends SqlUtil {
             const targetDbObj = (dbItemList.find((dbItem)=>dbItem.name==item.name) || {})
             return {
                 ...item,
-                price: item.recipe.reduce((entry, obj)=>{
+                price: item.recipeList.reduce((entry, obj)=>{
                     if(entry < 0) return entry
                     const ingreObjPrice = (itemIngredients[obj.name.replace(/ /g,'')]||{}).price
                     if(!ingreObjPrice) return -1
@@ -155,28 +152,28 @@ class ItemList extends SqlUtil {
         function checkedSaveCheck(list=[]){
             return list.reduce((entry, optionObj)=>{
                 if(entry) return entry
-                return !filter.length? true: filter.includes(optionObj.name)
+                return !filter.length? true: filter.includes(optionObj)
             }, false)
         }
         const itemList = (this.state.itemList || []).filter((obj)=>{
             // filterList
             if(!filter.length) return true
-            return (obj.savePoint||[]).concat(obj.openPoint||[]).reduce((entry, target)=>{
+            return (obj.saveKeyword||[]).concat(obj.openKeyword||[]).reduce((entry, target)=>{
                 if(entry) return entry
-                return filter.includes(target.name)
+                return filter.includes(target)
             }, false)
         }).filter((obj)=>{
             // optionFilter
             if(!optionFilter.length) return true
-            return (obj.option||[]).reduce((entry, target)=>{
+            return (obj.optionKeyword||[]).reduce((entry, target)=>{
                 if(entry) return entry
-                return optionFilter.includes(target.name)
+                return optionFilter.includes(target)
             }, false)
         }).filter((obj)=>{
             // saveFilter, openFilter
             if(!saveFilter && !openFilter) return true
-            return (saveFilter && obj.saveYn != 'Y' && checkedSaveCheck(obj.savePoint)) 
-                || (openFilter && obj.openYn != 'Y' && checkedSaveCheck(obj.openPoint))
+            return (saveFilter && obj.saveYn != 'Y' && checkedSaveCheck(obj.saveKeyword)) 
+                || (openFilter && obj.openYn != 'Y' && checkedSaveCheck(obj.openKeyword))
         }).filter((obj)=>{
             // searchValue
             if(!searchEnabled || !searchValue) return true
@@ -270,7 +267,7 @@ class ItemList extends SqlUtil {
                             <Picker.Item label="높은가격순" value="price_desc" />
                         </Picker>
                     </View> */}
-                    <View style={[styles.trContainer, {marginLeft: 10}]}>
+                    <View style={[styles.trContainer, {marginLeft: 10, justifyContent: 'flex-end'}]}>
                         <CheckBox value={saveFilter} onValueChange={()=>
                             {this.setState({saveFilter: !saveFilter})}} />
                         <TouchableOpacity onPress={()=>
@@ -349,15 +346,13 @@ class ItemList extends SqlUtil {
                                             </View>
                                             <View style={[{marginBottom: 3, alignSelf: 'flex-start'}]}>
                                                 <Text style={[styles.textStyle, {fontSize: 13, color: Util.grey, textAlign: 'left'}]}>{
-                                                    item.option.map((optionObj, optionIndex)=>{
-                                                        return `${optionObj.name} ${optionObj.number||''}`
-                                                    }).join(', ')
+                                                    item.option
                                                 }</Text>
                                             </View>
                                             <View style={[{alignSelf: 'flex-start'}]}>
                                                 <Text style={[styles.textStyle, {fontSize: 11, color: Util.grey, textAlign: 'left'}]}>{
-                                                    !item.recipe || !item.recipe.length ? '':
-                                                    '재료: '+item.recipe.map((optionObj, optionIndex)=>{
+                                                    !item.recipeList || !item.recipeList.length ? '':
+                                                    '재료: '+item.recipeList.map((optionObj, optionIndex)=>{
                                                         return `${optionObj.name} ${optionObj.number||''}`
                                                     }).join(', ')
                                                 }</Text>
@@ -374,14 +369,11 @@ class ItemList extends SqlUtil {
                                                     <Text style={[styles.thTextStyle, {color: Util.grey, fontWeight: 'bold'},
                                                         item.saveYn=='Y'?{color: saveColor}:null]}>저장</Text>
                                                 </View>
-                                                <View style={[styles.trContainer, {flex: 0.5}]}>{
-                                                    item.savePoint.map((optionObj, optionIndex)=>{
-                                                        return <Text style={[styles.textStyle, {color: Util.grey, marginLeft:5, marginRight:5},
-                                                            item.saveYn=='Y'?{color: saveColor}:null]} key={`saveOption_${encodeURI(item.name)}_${optionIndex}`}>
-                                                            {`${optionObj.name} ${optionObj.number}`}
-                                                        </Text>
-                                                    })
-                                                }</View>
+                                                <View style={[styles.trContainer, {flex: 0.5}]}>
+                                                    <Text style={[styles.textStyle, {color: Util.grey, marginLeft:5, marginRight:5},
+                                                        item.saveYn=='Y'?{color: saveColor}:null
+                                                    ]}>{item.savePoint}</Text>
+                                                </View>
                                             </TouchableOpacity>
                                         </View>
                                         <View style={[styles.tdContainer, {flex: 0.5, borderBottomWidth: 3, marginLeft: 5}, 
@@ -392,14 +384,12 @@ class ItemList extends SqlUtil {
                                                     <Text style={[styles.thTextStyle, {color: Util.grey, fontWeight: 'bold'},
                                                         item.openYn=='Y'?{color: openColor}:null]}>해제</Text>
                                                 </View>
-                                                <View style={[styles.trContainer, {flex: 0.5}]}>{
-                                                    item.openPoint.map((optionObj, optionIndex)=>{
-                                                        return <Text style={[styles.textStyle, {color: Util.grey, marginLeft:5, marginRight:5},
-                                                            item.openYn=='Y'?{color: openColor}:null]} key={`openOption_${encodeURI(item.name)}_${optionIndex}`}>
-                                                            {`${optionObj.name} ${optionObj.number}`}
-                                                        </Text>
-                                                    })
-                                                }</View>
+                                                <View style={[styles.trContainer, {flex: 0.5}]}>
+                                                    <Text style={[styles.textStyle, {color: Util.grey, marginLeft:5, marginRight:5},
+                                                        item.openYn=='Y'?{color: openColor}:null]}>{
+                                                        item.openPoint
+                                                    }</Text>
+                                                </View>
                                             </TouchableOpacity>
                                         </View>
                                     </View>

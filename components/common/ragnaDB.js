@@ -104,8 +104,62 @@ import card_star_purple from './ragnaJSON/card/card_star_purple.json'
 import card_star_green from './ragnaJSON/card/card_star_green.json'
 import card_star_blue from './ragnaJSON/card/card_star_blue.json'
 import card_make from './ragnaJSON/card/card_make.json'
+const keywordSet = [ 
+  [ 
+    "제련ATK", "SP소모량", "MaxHP", "MaxSP", "DEF무시", "MATK", "MDEF", "CRI.D", "HP회복", "SP회복", "원거리", "전체능력", 
+    "몬스터(大)", "몬스터(中)", "몬스터(小)", "물리데미지", "AGI", "ASPD", "ATK", "CRI", "DEF", "DEX", "FLEE", "HIT", "HP", "INT", "LUK", "PVP", "SP", "STR", "VIT", 
+  ], 
+  [ 
+    "이동속도", "캐스팅", "치유량", "마법데미지", "마법회복", "반사", "스킬", "BOSS몬스터", 
+    "흡혈", "중독", "경직", "공포", "수면", "석화", "연소", "동빙", "유혈", "스턴", "침묵", "암흑", "저주", "가방칸", 
+    "동물형", "식물형", "인간형", "불사형", "천사형", "악마형", "곤충형", "무형", "용족", "어패류", "드래곤", 
+    "성속성", "암속성", "염속성", "불사속성", "독속성", "풍속성", "무속성", "지속성", "화속성", "수속성" 
+  ] 
+]
 
 export default {
+
+  getKeyword(){
+    return [...keywordSet].map((obj)=>{
+      return obj.sort()
+    })
+  },
+
+  contractKeyword(str){
+    const keywordDB = keywordSet.reduce((entry, obj)=>{
+      entry = entry.concat(obj)
+      return entry
+    }, [])
+
+    let keywordList = []
+    let optionStr = String(str || '')
+        .toUpperCase().replace(/ /g,'')
+        .replace('풍, 지, 수, 화, ', '풍속성, 지속성, 수속성, 화속성, ')
+        .replace('몬스터(성)', "성속성") 
+        .replace('몬스터(암)', "암속성") 
+        .replace('몬스터(염)', "염속성") 
+        .replace('몬스터(불사)', "불사속성") 
+        .replace('몬스터(독)', "독속성") 
+        .replace('몬스터(풍)', "풍속성") 
+        .replace('몬스터(무)', "무속성") 
+        .replace('몬스터(지)', "지속성") 
+        .replace('몬스터(화)', "화속성") 
+        .replace('몬스터(수)', "수속성")
+        .replace('몬스터(대)', "몬스터(大)")
+        .replace('몬스터(중)', "몬스터(中)")
+        .replace('몬스터(소)', "몬스터(小)")
+        .replace('축기', "【축기")
+    if(optionStr.indexOf('【') != -1 || optionStr.indexOf('[') != -1) keywordList.push('스킬')
+    keywordDB.map((keyword)=>{
+      const upperKey = keyword.toUpperCase()
+      if(optionStr.indexOf(upperKey) != -1){
+        if(!keywordList.includes(keyword)) keywordList.push(keyword)
+        optionStr = optionStr.replace(new RegExp(`${upperKey}`,'g'), '')
+      }
+    })
+    return keywordList
+
+  },
 
   getCardList(){
     // return card
@@ -150,23 +204,10 @@ export default {
       return indexNumber === index
     })
     .map((trObj)=>{
-      function mapFunction(obj){
-        obj = obj.trim()
-        const thisKey = obj.replace(/[0-9\+\- \개\.\,\%\x\＋]+$/,'')
-        const thisValue = obj.replace(/(.*?)([0-9\+\- \개\.\,\%\x\＋]+$)/,'$2').trim().replace(/\n/g,'')
-        return {
-          name: thisKey,
-          number: Number(thisValue.replace(/([^0-9]*)([0-9]*)([^0-9]*$)/,'$2').replace(/,/g,'')) || '',
-          unit: thisValue.replace(/([0-9]*)([^0-9]*$)/,'$2'),
-          origin: obj,
-        }
-      }
-      trObj.openPoint = trObj.openPoint.replace(/,( [^A-Za-z])/g,'$1')
-        .replace(/\n/g,' ').split(',').map((obj)=>mapFunction(obj))
-      trObj.savePoint = trObj.savePoint.replace(/,( [^A-Za-z])/g,'$1')
-        .replace(/\n/g,' ').split(',').map((obj)=>mapFunction(obj))
-      trObj.option = trObj.option.replace(/\n/g,' ').split('▶').map((obj)=>obj.trim()).filter((obj)=>obj).map(mapFunction)
-      return {...trObj}
+      const optionKeyword = this.contractKeyword(String(trObj.option||''))
+      const saveKeyword = this.contractKeyword(String(trObj.savePoint||''))
+      const openKeyword = this.contractKeyword(String(trObj.openPoint||''))
+      return {...trObj, optionKeyword, saveKeyword, openKeyword}
     })
     .sort((obj1,obj2)=>{
       return obj1.name < obj2.name ? 1 : -1
@@ -182,7 +223,7 @@ export default {
       const thisTarget = homepageDic.find((obj)=>{
         return (obj.name == thisKey+' 카드' || obj.name == thisKey+'카드')  
       })
-      if(!thisTarget) console.log('make', make)
+      // if(!thisTarget) console.log('make', make)
 
       const col = ["재료1","재료2","재료3","재료4","재료5"]
       const ingreCardList = col.reduce((entry, colname)=>{
@@ -297,7 +338,7 @@ export default {
       }
     })
 
-    console.log('result', JSON.stringify(result))
+    // console.log('result', JSON.stringify(result))
     return result
   },
   
@@ -360,43 +401,68 @@ export default {
       return indexNumber === index
     }).map((obj)=>{
       function htmlToStr(str){
-        return str.replace(/\&nbsp\;\<br\>/g,' ')
+        return String(str||'').replace(/\&nbsp\;\<br\>/g,' ')
                   .replace(/\&amp\;/g,'&')
                   .replace(/null/g,'')
       }
-      function htmlToList(str){return htmlToStr(str).split(', ')}
-      obj.name = htmlToStr(obj.name)
+      // function htmlToList(str){return htmlToStr(str).split(', ')}
       obj.firstChar = String.fromCharCode(((obj.name.charCodeAt(0) - 44032)/28)/21 + 4352)
-      obj.option = htmlToList(obj.option)
-      obj.savePoint = htmlToList(obj.savePoint)
-      obj.openPoint = htmlToList(obj.openPoint)
-      obj.recipe = htmlToList(obj.recipe)
-      return {...obj}
+      obj.name = htmlToStr(obj.name)
+      obj.recipe = String(obj.recipe||'')
+        .replace(/초룍/g,'초록')
+        .replace(/오크히어로의 증표/g,'오크히어로 증표')
+        .replace(/성흥/g,'성흔')
+        .replace(/부드러운털/g,'부드러운 털')
+        .replace(/부드러운 깃털/g,'부드러운 털')
+        .replace(/하얀 염로/g,'하얀 염료')
+        .replace(/드래곤 비늘/g,'드래곤의 비늘')
+        .replace(/개\. /g,'개, ')
+
+      obj.recipeList = String(obj.recipe||'').split(', ')
+      .map((obj)=>{
+        return obj.trim().replace(/,$/,'')
+      })
+      .filter((obj)=>{
+        return obj.trim().match(/개$/)
+      })
+      .map((obj)=>{
+        const name = obj.replace(/[0-9\,\.]+개$/,'').trim()
+        const unit = obj.replace(new RegExp(`${name}`),'').trim().replace(/\./g,',').replace(/개$/,'').replace(/,/g,'')
+        return {
+          name, unit
+        }
+      })
+
+      const saveKeyword = this.contractKeyword(String(obj.savePoint||''))
+      const openKeyword = this.contractKeyword(String(obj.openPoint||''))
+      const optionKeyword = this.contractKeyword(String(obj.option||''))
+
+      return {...obj, optionKeyword, saveKeyword, openKeyword}
     }).sort((obj1, obj2)=>{
       return obj1.name > obj2.name? 1: -1
     }).map((obj, index)=>{
       return {...obj, key:index}
     })
-    .map((trObj)=>{
-      const keyword = []
-      function mapFunction(obj){
-        obj = obj.replace(/\n/g,' ').trim()
-        const thisKey = obj.replace(/[0-9\+\- \개\.\,\%]+$/,'')
-        if(!keyword.includes(thisKey)) keyword.push(thisKey)
-        const thisValue = obj.replace(/(.*?)([0-9\+\- \개\.\,\%]+$)/,'$2').trim()
-        return {
-          name: thisKey,
-          number: Number(thisValue.replace(/(.*?)([^0-9]*$)/,'$1').replace(/,/g,'')),
-          unit: thisValue.replace(/(.*?)([^0-9]*$)/,'$2'),
-          origin: obj,
-        }
-      }
-      trObj.option = trObj.option.map(mapFunction)
-      trObj.savePoint = trObj.savePoint.map(mapFunction)
-      trObj.openPoint = trObj.openPoint.map(mapFunction)
-      trObj.recipe = trObj.recipe.map(mapFunction)
-      return {...trObj, keyword}
-    })
+    // .map((trObj)=>{
+    //   const keyword = []
+    //   function mapFunction(obj){
+    //     obj = obj.replace(/\n/g,' ').trim()
+    //     const thisKey = obj.replace(/[0-9\+\- \개\.\,\%]+$/,'')
+    //     if(!keyword.includes(thisKey)) keyword.push(thisKey)
+    //     const thisValue = obj.replace(/(.*?)([0-9\+\- \개\.\,\%]+$)/,'$2').trim()
+    //     return {
+    //       name: thisKey,
+    //       number: Number(thisValue.replace(/(.*?)([^0-9]*$)/,'$1').replace(/,/g,'')),
+    //       unit: thisValue.replace(/(.*?)([^0-9]*$)/,'$2'),
+    //       origin: obj,
+    //     }
+    //   }
+    //   trObj.option = trObj.option.map(mapFunction)
+    //   trObj.savePoint = trObj.savePoint.map(mapFunction)
+    //   trObj.openPoint = trObj.openPoint.map(mapFunction)
+    //   trObj.recipe = trObj.recipe.map(mapFunction)
+    //   return {...trObj, keyword}
+    // })
 
     // const recipeList = []
     // result.map((obj)=>{
@@ -411,9 +477,9 @@ export default {
     //   return {name: obj, price: 0}
     // })))
     // console.log('result', JSON.stringify(result))
-    console.log('result', JSON.stringify(result.map((obj)=>{
-      return {name: obj.name, imageSrc: obj.imageSrc}
-    })))
+    // console.log('result', JSON.stringify(result.map((obj)=>{
+    //   return {name: obj.name, imageSrc: obj.imageSrc}
+    // })))
     return result
   },
 
