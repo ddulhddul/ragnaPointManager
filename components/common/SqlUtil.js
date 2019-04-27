@@ -180,7 +180,7 @@ class SqlUtil extends React.Component {
 
     getTnIngredient = async (param = {}, callback = () => {}) => {
         let itemIngredients = ragnaDB.getItemIngredientsList().reduce((entry, obj)=>{
-            const name = obj.name.replace(/ /g,'')
+            const name = obj.name
             entry[name] = {...obj, name, displayName: obj.name}
             return entry
         }, {})
@@ -201,7 +201,7 @@ class SqlUtil extends React.Component {
                 ITEM.* 
             FROM TN_ITEM ITEM
             WHERE name = ?`,
-            [param.name.replace(/ /g,'')]
+            [param.name]
         )
         return ((res.rows||{})._array || [])[0]
     }
@@ -216,7 +216,7 @@ class SqlUtil extends React.Component {
                 ?, ?, ?
               )`,
             [
-                param.name.replace(/ /g,''),
+                param.name,
                 param.saveYn=='Y'?'Y':'N',
                 param.openYn=='Y'?'Y':'N',
             ]
@@ -234,7 +234,7 @@ class SqlUtil extends React.Component {
             [
                 param.saveYn=='Y'?'Y':'N',
                 param.openYn=='Y'?'Y':'N',
-                param.name.replace(/ /g,'')
+                param.name
             ]
         )
         return res

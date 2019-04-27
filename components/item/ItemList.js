@@ -104,7 +104,7 @@ class ItemList extends SqlUtil {
                 ...item,
                 price: item.recipeList.reduce((entry, obj)=>{
                     if(entry < 0) return entry
-                    const ingreObjPrice = (itemIngredients[obj.name.replace(/ /g,'')]||{}).price
+                    const ingreObjPrice = (itemIngredients[obj.name]||{}).price
                     if(!ingreObjPrice) return -1
                     return entry + (ingreObjPrice * obj.number)
                 }, 0),
