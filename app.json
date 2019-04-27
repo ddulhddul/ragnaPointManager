@@ -10,7 +10,7 @@
     "android": {
       "package": "com.ddulh.ragnaPointManager",
       "permissions": [],
-      "versionCode": 11
+      "versionCode": 12
     },
     "version": "1.0.0",
     "orientation": "portrait",
