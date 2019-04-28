@@ -18,5 +18,35 @@
         "openPoint": "MaxHP +112",
         "savePoint": "ATK + 9\nMATK +9",
         "option": "▶ DEF 무시 15%\n▶ MDEF 무시 15%"
+    },
+    {
+        "name": "지퍼베어★ 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA1MjlfMjQw/MDAxNTI3NTcxNjQ5Njgz.iOzsZb4BSZ39MeqDhyuu4JOg_SAQrG8mvZNcj8uk4hQg.C154Zoulm4R31CyUwR9dEH4zNMKMYuBUKyJD--OHejcg.PNG.gravity001/K-013.png?type=w740",
+        "position": "액세서리 카드",
+        "rate": "보라",
+        "monster": "고급 제작: 지퍼베어 카드 5장 + 그람 가루 600개",
+        "openPoint": "MaxHP + 112",
+        "savePoint": "DEF + 1%\nMEDF + 1%",
+        "option": "▶ HIT + 10\n▶ ATK + 3%\n▶ MATK + 3%"
+    },
+    {
+        "name": "타라 프로그★ 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA1MjlfNzIg/MDAxNTI3NTcxNjU5Mzky.0DDpU4QKsw-_Wud6vj7roKipkOADXAAWnofJc6O1oiMg.MHaZd0q_hRM3jGaxxyAIywbUG7nFeggUORvVtT33Z9Mg.PNG.gravity001/K-014.png?type=w740",
+        "position": "보조",
+        "rate": "보라",
+        "monster": "고급 제작: 타라 프로그 카드 1장 + 그람 가루 500개",
+        "openPoint": "MATK + 12",
+        "savePoint": "ATK + 12",
+        "option": "▶ 인간형 종족 데미지 증가 3%\n▶ 인간형 종족 데미지 감소 3%\n"
+    },
+    {
+        "name": "루나틱★ 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA1MjlfMjAy/MDAxNTI3NTcxNjY5NzI0.lG8wMJe-WWio2tePXobm4DQ_uXK8Jc78wwVm_M7hNp0g.SZaulYG8tUVYBAzXwlagkTyUAaxmmTs-mZtUUUfU8wkg.PNG.gravity001/K-015.png?type=w740",
+        "position": "보조",
+        "rate": "보라",
+        "monster": "고급 제작: 루나틱 카드 5장 + 그람 가루 600개",
+        "openPoint": "PVP(GVG) 유저 받는 데미지 -2%",
+        "savePoint": "PVP(GVG) 유저에 대한 데미지 +2%",
+        "option": "▶ CDEF + 30\n"
     }
 ]

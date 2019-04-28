@@ -376,8 +376,7 @@ class ItemList extends SqlUtil {
                                             item.saveYn=='Y'?{borderColor: saveColor}:{borderColor: 'white'}]}>
                                             <TouchableOpacity onPress={()=>this.updateSaveChecked(item)}>
                                                 <View style={[styles.trContainer]}>
-                                                    <CheckBox containerStyle={{backgroundColor: 'grey'}}
-                                                        value={item.saveYn=='Y'?true:false} onValueChange={()=>this.updateSaveChecked(item)} />
+                                                    <CheckBox disabled={true} value={item.saveYn=='Y'?true:false} />
                                                     <Text style={[styles.thTextStyle, {color: Util.grey, fontWeight: 'bold'},
                                                         item.saveYn=='Y'?{color: saveColor}:null]}>저장</Text>
                                                 </View>
@@ -392,7 +391,7 @@ class ItemList extends SqlUtil {
                                             item.openYn=='Y'?{borderColor: openColor}:{borderColor: 'white'}]}>
                                             <TouchableOpacity onPress={()=>this.updateOpenChecked(item)}>
                                                 <View style={[styles.trContainer]}>
-                                                    <CheckBox value={item.openYn=='Y'?true:false} onValueChange={()=>this.updateOpenChecked(item)} />
+                                                    <CheckBox disabled={true} value={item.openYn=='Y'?true:false} />
                                                     <Text style={[styles.thTextStyle, {color: Util.grey, fontWeight: 'bold'},
                                                         item.openYn=='Y'?{color: openColor}:null]}>해제</Text>
                                                 </View>

@@ -405,8 +405,7 @@ class FoodList extends SqlUtil {
                                             item.cookingYn=='Y'?{borderColor: saveColor}:{borderColor: 'white'}]}>
                                             <TouchableOpacity onPress={()=>this.updateCookingChecked(item)}>
                                                 <View style={[styles.trContainer]}>
-                                                    <CheckBox containerStyle={{backgroundColor: 'grey'}}
-                                                        value={item.cookingYn=='Y'?true:false} onValueChange={()=>this.updateCookingChecked(item)} />
+                                                    <CheckBox disabled={true} value={item.cookingYn=='Y'?true:false} />
                                                     <Text style={[styles.thTextStyle, {color: Util.grey, fontWeight: 'bold'},
                                                         item.cookingYn=='Y'?{color: saveColor}:null]}>쿠킹</Text>
                                                 </View>
@@ -424,7 +423,7 @@ class FoodList extends SqlUtil {
                                             item.tastingYn=='Y'?{borderColor: openColor}:{borderColor: 'white'}]}>
                                             <TouchableOpacity onPress={()=>this.updateTastingChecked(item)}>
                                                 <View style={[styles.trContainer]}>
-                                                    <CheckBox value={item.tastingYn=='Y'?true:false} onValueChange={()=>this.updateTastingChecked(item)} />
+                                                    <CheckBox disabled={true} value={item.tastingYn=='Y'?true:false} />
                                                     <Text style={[styles.thTextStyle, {color: Util.grey, fontWeight: 'bold'},
                                                         item.tastingYn=='Y'?{color: openColor}:null]}>맛보기</Text>
                                                 </View>

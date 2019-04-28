@@ -42,6 +42,9 @@
 */
 JSON.stringify(
     Array.from(document.querySelectorAll('table')[5].querySelectorAll('tr'))
+    // .concat(Array.from(document.querySelectorAll('table')[6].querySelectorAll('tr')))
+    // .concat(Array.from(document.querySelectorAll('table')[7].querySelectorAll('tr')))
+    // .concat(Array.from(document.querySelectorAll('table')[8].querySelectorAll('tr')))
     .reduce((resultEntry, trObj, trIndex) => {
         const index = trIndex % 8
         if (index == 0) resultEntry.push({})

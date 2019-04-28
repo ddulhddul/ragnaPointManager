@@ -18,5 +18,55 @@
         "openPoint": "MaxHP +60",
         "savePoint": "MaxHP +72",
         "option": "▶ MDEF + 10\n▶ MDEF + 5%"
+    },
+    {
+        "name": "도나★ 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfNDcg/MDAxNTI4MDk1OTA5NDE4.DlSNcSNrE6rD5rTsByBX6DztJ4oCS-smjKg_FXvH-VAg.OYdF9gZuEFktZV6oYuHOvrLESiVwmyoLtf1moxb4vnEg.PNG.gravity001/K-008.png?type=w740",
+        "position": "신발",
+        "rate": "파랑",
+        "monster": "고급 제작: 도나 카드 3개 + 그람 가루 150개",
+        "openPoint": "ATK + 8",
+        "savePoint": "AGI + 1, MaxHP +30",
+        "option": "▶ MATK + 20\n▶ VIT + 2\n▶ INT + 2"
+    },
+    {
+        "name": "엘더 윌로우★ 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfMTQy/MDAxNTI4MDk1OTI2MjA3.tSqLWC4N7cJGLnMK1u4rPdJDRHf6vWlnK04KNZdAqWgg.y3FQPoUxxyNRMfn1ibsIC4Y_3kaoz-XQtEVKe34UPQ0g.PNG.gravity001/K-009.png?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "고급 제작: 엘더 윌로우 카드 3개 + 그람 가루 90개",
+        "openPoint": "MDEF + 4",
+        "savePoint": "STR + 1, MaxHP +30",
+        "option": "▶ INT +4\n▶ MATK + 10"
+    },
+    {
+        "name": "타로우★ 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfMjg5/MDAxNTI4MDk2MTgyMDU4._Jt5Mp7wAGINjKYDk_XnAO50oUlAla6RIBwaQaSMD7Yg.eSPxn_QkdKPNxGyr8bUBn1N4vuAPwGioQ7lRBieesgEg.PNG.gravity001/K-010.png?type=w740",
+        "position": "액세서리",
+        "rate": "파랑",
+        "monster": "고급 제작: 타로우 카드 3개 + 그람 가루 50개",
+        "openPoint": "DEF +4",
+        "savePoint": "INT + 1, MaxHP +30",
+        "option": "▶ STR +4\n▶ ATK + 15"
+    },
+    {
+        "name": "아쳐 스켈레톤★ 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfMjc5/MDAxNTI4MDk2Mjg1MjQ0.cQlB7VSrmj4_YGvTR4nOVq3rUSva04ZM4vPBYHa95ysg._gkyt0n96knsXV035yh9aGe-sscD_MPguFhDeZBAev0g.PNG.gravity001/K-011.png?type=w740",
+        "position": "갑옷",
+        "rate": "파랑",
+        "monster": "고급 제작: 아쳐 스켈레톤 카드 1개 + 그람 가루 100개",
+        "openPoint": "MATK + 8",
+        "savePoint": "LUK + 1, MaxHP +30",
+        "option": "▶ STR + 2\n▶ ATK + 5%"
+    },
+    {
+        "name": "로커★ 카드",
+        "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfMjQy/MDAxNTI4MDk2Mzg0MjYw.99qxsJSuU4XzQ4hh5vz-cfPNUhlZZQ2D0cAskP56J9Mg.wx2WMqZad1c_3w-IYKmDBKGcUIf5zGyml0UXZMuf3J0g.PNG.gravity001/K-012.png?type=w740",
+        "position": "투구",
+        "rate": "파랑",
+        "monster": "고급 제작: 로커 카드 2개 + 그람 가루 100개",
+        "openPoint": "MaxHP +60",
+        "savePoint": "DEX + 1, MaxHP +30",
+        "option": "▶ DEX + 2\n▶ ATK + 20"
     }
 ]

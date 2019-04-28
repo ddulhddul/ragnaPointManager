@@ -106,7 +106,7 @@ import card_star_blue from './ragnaJSON/card/card_star_blue.json'
 import card_make from './ragnaJSON/card/card_make.json'
 const keywordSet = [ 
   [ 
-    "제련ATK", "SP소모량", "MaxHP", "MaxSP", "DEF무시", "MATK", "MDEF", "CRI.D", "HP회복", "SP회복", "원거리", "전체능력", 
+    "제련ATK", "SP소모량", "MaxHP", "MaxSP", "DEF무시", "MATK", "MDEF", "CDEF", "CRI.D", "HP회복", "SP회복", "원거리", "전체능력", 
     "몬스터(大)", "몬스터(中)", "몬스터(小)", "물리데미지", "AGI", "ASPD", "ATK", "CRI", "DEF", "DEX", "FLEE", "HIT", "HP", "INT", "LUK", "PVP", "SP", "STR", "VIT", 
   ], 
   [ 

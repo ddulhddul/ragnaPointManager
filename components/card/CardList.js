@@ -142,7 +142,7 @@ class CardList extends SqlUtil {
         function checkedSaveCheck(list=[]){
             return list.reduce((entry, optionObj)=>{
                 if(entry) return entry
-                return !optionFilter.length? true: optionFilter.includes(optionObj)
+                return !filter.length? true: filter.includes(optionObj)
             }, false)
         }
         const cardList = (this.state.cardList || [])
@@ -369,8 +369,7 @@ class CardList extends SqlUtil {
                                             item.saveYn=='Y'?{borderColor: saveColor}:{borderColor: 'white'}]}>
                                             <TouchableOpacity onPress={()=>this.updateSaveChecked(item)}>
                                                 <View style={[styles.trContainer]}>
-                                                    <CheckBox containerStyle={{backgroundColor: 'grey'}}
-                                                        value={item.saveYn=='Y'?true:false} onValueChange={()=>this.updateSaveChecked(item)} />
+                                                    <CheckBox disabled={true} value={item.saveYn=='Y'?true:false} />
                                                     <Text style={[styles.thTextStyle, {color: Util.grey, fontWeight: 'bold'},
                                                         item.saveYn=='Y'?{color: saveColor}:null]}>저장</Text>
                                                 </View>
@@ -386,7 +385,7 @@ class CardList extends SqlUtil {
                                             item.openYn=='Y'?{borderColor: openColor}:{borderColor: 'white'}]}>
                                             <TouchableOpacity onPress={()=>this.updateOpenChecked(item)}>
                                                 <View style={[styles.trContainer]}>
-                                                    <CheckBox value={item.openYn=='Y'?true:false} onValueChange={()=>this.updateOpenChecked(item)} />
+                                                    <CheckBox disabled={true} value={item.openYn=='Y'?true:false} />
                                                     <Text style={[styles.thTextStyle, {color: Util.grey, fontWeight: 'bold'},
                                                         item.openYn=='Y'?{color: openColor}:null]}>해제</Text>
                                                 </View>
