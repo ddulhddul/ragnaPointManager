@@ -135,6 +135,27 @@
         "key": 4
     },
     {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=45117",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45117.png?v=180720a",
+        "name": "강아지 머리띠",
+        "option": "DEF＋15",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +24",
+        "recipe": "",
+        "firstChar": "ᄀ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 5
+    },
+    {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjYx/MDAxNTMwMTkzNTYzOTIw.f3x3eweCCA6P6hucJMBS8xWr16q-4g7KtKgf8a6kJpwg.uSMVMbi9NztQfzrk1QJxB7WfdbzcGQ-ccfT-iRm3JNsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_117.png?type=w740",
         "name": "거시기",
         "option": "인간형에게 데미지 감소 +10%",
@@ -165,7 +186,7 @@
         "openKeyword": [
             "MDEF"
         ],
-        "key": 5
+        "key": 6
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNTEg/MDAxNTMwMTkzNjA5OTY5.LxeYUR45SbiKazidcXuHZ3UPDBMJJ5LfOhBJNVO2xlUg.SMUtqyH59Re05A4XLXM6KZTxhkAGFGEtjwgAIVyzsyMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_209.png?type=w740",
@@ -194,7 +215,28 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 6
+        "key": 7
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=47021",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_47021.png?v=180720a",
+        "name": "검은 고양이 휘케바인",
+        "option": "DEF＋15",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +24",
+        "recipe": "",
+        "firstChar": "ᄀ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 8
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNjkg/MDAxNTMwMTk1NTgyNzU3.vXxRicfhwjkeJV9QyNQ7hZAFVKo6OESKa1V1IRcoT7Ig.uuYgAw4GQIi9Yah952SFN4gXwP2xlfcfJ-b7N9QGkw4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_162.png?type=w740",
@@ -232,7 +274,7 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 7
+        "key": 9
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTg2/MDAxNTMwMTk1MDUzMzM0._ohLM12nVTxBiXRVOo998Wx_biDL2f_AAzuw1vmi9LAg.aS5Qp5eGlPa___o5fMJBdsN13sArNRkKtsx67iXWCt0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_062.png?type=w740",
@@ -271,7 +313,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 8
+        "key": 10
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTU0/MDAxNTMwMTg0ODkxNDQx._GwyibKqG9DSVmemFIE8StYruvsOtsFOWVV9Yr9niIMg.YoBt_FqFwGkwzcKJCW2JkTxmyEwhX_HQz9Nrxzou58wg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_285.png?type=w740",
@@ -307,7 +349,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 9
+        "key": 11
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTkw/MDAxNTMwMTg0Nzg5NDY4.fz74NwezLZd6Hpb0Moi4xb717L2d8i4KvJTqMI5A5Sgg.IdQhYEM8voJnUiDs1_WHpnJSqLn2uZgohFQQUzpIyWQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_273.png?type=w740",
@@ -343,7 +385,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 10
+        "key": 12
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTc4/MDAxNTMwMjAwMTYxMzE1.QTsPEBWKUnZzdnB9CQj0BZp4r5dwwc2tMxYX6Je5wG0g.AoF3hfj_1W5dAX64EPnr5ml8XnbKOZrMce1FBBOflJYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_087.png?type=w740",
@@ -380,7 +422,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 11
+        "key": 13
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNDAg/MDAxNTMwMTk5ODgyODEw.eOm2Qzt7IIVl5yB7Uw3B9tWClyzufXmMiJKO54iCp2wg.rwmHGuEYFBl0u2-1iKs1Fe1ojOnf8y-zPBu0HboB1-sg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_101.png?type=w740",
@@ -417,7 +459,7 @@
         "openKeyword": [
             "MDEF"
         ],
-        "key": 12
+        "key": 14
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMzAw/MDAxNTMwMTkzNTM2OTI3.9YmX8rACEjYyovTV4PXTqDAWy1UeNE3jlP79NsImfrgg.NscQgo_d8_FEF1vRYFIq2ZHwA-aKT5TDcbgB3Xplqesg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_075.png?type=w740",
@@ -447,7 +489,30 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 13
+        "key": 15
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=45550",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45550.png?v=180720a",
+        "name": "고블린 비행사",
+        "option": "DEX＋1, LUK＋1, MaxSP＋100",
+        "savePoint": "MDEF +2",
+        "openPoint": "DEF +2",
+        "recipe": "고블린 비행사 도면 x1, 가렛 x998, 끈적끈적한 액체 x998, 검은 염료 x5, 질콘 x20, 51,000 Zeny",
+        "firstChar": "ᄀ",
+        "recipeList": [],
+        "optionKeyword": [
+            "MaxSP",
+            "DEX",
+            "LUK"
+        ],
+        "saveKeyword": [
+            "MDEF"
+        ],
+        "openKeyword": [
+            "DEF"
+        ],
+        "key": 16
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNTEg/MDAxNTMwMTkzNDY5ODc3.TxJIEKIRuNuZY-bto6UxYy0Qvp7YW7oaWOgV2vrehcwg.YeaWZxQqceiNpcKMOstXvYMsxsjuX4I6OE4isQ66fHEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_066.png?type=w740",
@@ -481,7 +546,7 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 14
+        "key": 17
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTM4/MDAxNTMwMTg0NzI4MDMy.H2ycLNyFBYHLFNbl7ZKL1oiJz4BzC82PBBksJw8Grj4g.FWBed0J9Z1La82_dBIRvLjwnl4QpFvXjwLaOnI2UxwYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_308.png?type=w740",
@@ -500,7 +565,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 15
+        "key": 18
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNTQg/MDAxNTMwMTk4ODQwNDQ5.TEBu-a8g_sUtjq6VfXEzsClNt-_WKxzQn1gZ0T819mkg.SqUC2mNkC1eF7RSWOFAh2Kw_fz-K7-ScF3KPq3Ms9cAg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_268.png?type=w740",
@@ -533,7 +598,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 16
+        "key": 19
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTIg/MDAxNTMwMjAwMDMxNTA1.2Sptcb_p99XsJYw6I-l9IK51OGlPD3D0ITBa_MYd6Zwg.xuAQ-cEvT8I7jdrBNXsAiXfgwmn5QSlAGHdxbcNBlCUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_017.png?type=w740",
@@ -566,7 +631,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 17
+        "key": 20
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTEg/MDAxNTMwMTk5Nzc4NjQ4.s1LgT7uG48BR7b-HEoSZaPGt0bwTPwO3Yi1-kPXMsrgg.QcfqXNe7cekOUP5hyQKBsDzF-PH8IWrRqQ3fwoO1Jfwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_023.png?type=w740",
@@ -603,7 +668,7 @@
         "openKeyword": [
             "MDEF"
         ],
-        "key": 18
+        "key": 21
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTQw/MDAxNTMwMTk4OTMzMzYy._47H3ObUsqihSr3DOqpLWpa6H7A82VBrhwNVmwPJgx0g.78S4g9grnLu8vPfeWeIKPBfCNiXXYFz-aNytlzvM5LQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_362.png?type=w740",
@@ -622,7 +687,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 19
+        "key": 22
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTE1/MDAxNTMwMTkzNDEzOTU0.JPiuO7OBHYy6cBg9PtvnWh2CBhLvmxS1fgSmYf1z1M4g.aEFLIvvGEJXMfn5bKw1P0jYIsEaLmt5dt64Bpg1r88Qg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_212.png?type=w740",
@@ -652,7 +717,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 20
+        "key": 23
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTQ0/MDAxNTMwMTkzNzQ0Nzcx.tc7BlShFB5ZV2tg0ccYulKKR3CRvaVNXGjOv61ewTiMg.FmDe-1Jb5n49iXr8qHdCgqNoNbkY9ObWb37NiXBzxk0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_187.png?type=w740",
@@ -686,7 +751,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 21
+        "key": 24
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTMw/MDAxNTMwMTk5MjU5MjQz.ZVB2IPbOBWdvGlWOOX6uk8KKmiPBKrwDfpRlQYmjLN8g.NqCP6j2_k2b6f1oqWisdz9kpWs3tw_FdRReaqb_ttx8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_016.png?type=w740",
@@ -715,7 +780,7 @@
         "openKeyword": [
             "암속성"
         ],
-        "key": 22
+        "key": 25
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTcx/MDAxNTMwMTkxMDgyNDU5.RzzMbUKOCaoKAjnTsEkpdzmKfZAfrOKwHAqEewUxqSMg.AtfFDjkkS7J-3BDXExLm5fNYpaRQV1ecKSSiNLwDy-kg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_047.png?type=w740",
@@ -748,7 +813,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 23
+        "key": 26
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjY5/MDAxNTMwMTkzNDk1MTc3.TqCerRXT_H2v7m0v0SA5kpS83uOAR0aHdDeTqxrMpJgg.k7tvEOC2o0QI7fcH8b_Lkd_Cvo0BYd-vrMVOvObTdBog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_069.png?type=w740",
@@ -781,7 +846,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 24
+        "key": 27
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjEz/MDAxNTMwMTk1MDQwOTQ5.bE2nylJiarU3QRJ7U6wTi6VEaiPm1PYysuhbrfceuCEg.-Q6fx36Jv4m4SeyhFZOiDA5Oikdd5RI9P9RSjD1AGY4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_059.png?type=w740",
@@ -816,7 +881,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 25
+        "key": 28
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTI2/MDAxNTMwMTk0NzQ4MTIy.AEwp3EucGwfBv_ob5jeIyxmnRAHepL4eCOCd-yy2SsUg.KXtm6pohW6eMRxqgxDyXcU0T7u4xrW1QmImZs78R7_0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_114.png?type=w740",
@@ -854,7 +919,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 26
+        "key": 29
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjYg/MDAxNTMwMTkxODk2MzQ4.IslfuHFKYhkTyNyc_Ex_7cWoM2VymTY4fzoq5y7SM04g._3SLESZuiMQx8FwbM_RjCoZL0gT0sN6IsB7YGddyD-sg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_245.png?type=w740",
@@ -895,7 +960,7 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 27
+        "key": 30
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTA0/MDAxNTMwMTczMDg4NTgx.cuNNsbrJx1rTQ-BBZcK6Pi1W7Jhw_bVQ99nDkmVC8Gog.46DKTldT6eIUozSW3kM6Nk6O-MOm6FRe6BqxxzkCcDMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_313.png?type=w740",
@@ -914,7 +979,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 28
+        "key": 31
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNjIg/MDAxNTMwMTk1NTMyNzY3.6e1fKvJ_WxZUHxfrQeuGqpDHOOaGvVrRGSBq5lj6u-Yg.VNo27ps2muuvYi2fe2vL7HxZ_vt0GhBnmxVqtJjIlSsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_057.png?type=w740",
@@ -948,7 +1013,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 29
+        "key": 32
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTQ5/MDAxNTMwMTkzNTc0NTA3.cz36b8B12c6pTs94cZpnXBtJKTEbMTi2oS5ZEQtwYoIg.xwMBKrzt7jsX_7ZFlEoE1B4bwMXgGH-nnREFzg9tt3Eg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_123.png?type=w740",
@@ -983,7 +1048,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 30
+        "key": 33
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTQ2/MDAxNTMwMTk5NzU1ODYx.VYNmXG4lg_8mN08GHGyQZU784PJ85EGGKaUJKspUlmUg.NS_6gcAkANuPWvxD2neUwc3d5yNJPRgCyAj-SDYTTFwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_012.png?type=w740",
@@ -1016,7 +1081,7 @@
         "openKeyword": [
             "MDEF"
         ],
-        "key": 31
+        "key": 34
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMzMg/MDAxNTMwMTkyNDgxMzc3.Wu_G_gMGVeFXhJ7zrfVEr-8HYdYutFBi5eNtn6dsTGog.UA99Hx1SXGFw3OzHrtBycAy4xGttScynL-dUxlZxu_Yg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_267.png?type=w740",
@@ -1045,7 +1110,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 32
+        "key": 35
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfODYg/MDAxNTMwMTg4MzIyNzU0.dbnq_jM6Cc9Vw9qMqU_HzUPnw5uU4xx71nW4YvNnPG8g.CdqZFcpMAYEeD1pLHWWdWX3QGFBbrKz1egQO5cRoVYUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_171.png?type=w740",
@@ -1079,7 +1144,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 33
+        "key": 36
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTQg/MDAxNTMwMTkzNTk4Nzc3.h_1ktlQYYldr1Ethw0FLhfbUPu_TX-TlCzdb55Ih4LQg.p9WKeoPwKp3KnkpLIr-3db-OKFTBEHTkMw4gtXrZArQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_189.png?type=w740",
@@ -1116,7 +1181,7 @@
         "openKeyword": [
             "인간형"
         ],
-        "key": 34
+        "key": 37
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTc5/MDAxNTMwMjAwMzcxNTYy.Qd891Exee59nvFE1fwCTjpMKPpPlSSl3uRCFUciexQgg.My7UHyyQXGZQokoMP0lFdaTnRwb9tTKJRQ4Hf6hMbTkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_163.png?type=w740",
@@ -1153,7 +1218,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 35
+        "key": 38
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTQ0/MDAxNTMwMTk5ODUwMjM5.rGM-4jUZbZxyWE8sXU9TJO37OjYmtQeNwBdlCpPeC8og.TAaTt8flN-ZXCM0a9ZycF5yrZ3E68zRQFJNXTEqh2zQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_077.png?type=w740",
@@ -1190,7 +1255,7 @@
         "openKeyword": [
             "MDEF"
         ],
-        "key": 36
+        "key": 39
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjE0/MDAxNTMwMjAwMDA4Nzc5.d2rpQm7FA9ru5mVj6WxrfelxouX8Znt4tSb5MA390Ikg.ZSd7gpVbaNvcLslipt2Gkr4AKsc2AVkf9PM-gLxa81sg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_002.png?type=w740",
@@ -1219,7 +1284,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 37
+        "key": 40
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTQ3/MDAxNTMwMjAyODk2NzU4.Ry9gva2Y0pQZB0el6NQmmVu94w8Q8byEUii94n7NN2Qg.iTmQaomMY8ZQo-_U9nYBzijP4Hb7z7xfeSF7WPQ9W_8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_003.png?type=w740",
@@ -1248,7 +1313,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 38
+        "key": 41
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjE4/MDAxNTMwMTk1MDk4NDEx.VW-7PYkg7VgnsAfAvE8EF-Y-q62WtVwCn7XDMuyWahog.ai9U0miCArd5xl0bI3h6jyPn5SZlLDuiwP9FxUKhXXQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_139.png?type=w740",
@@ -1286,7 +1351,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 39
+        "key": 42
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjgy/MDAxNTMwMjAzMTA4NTAx.vlOCdc9ofUeGYq1VL_M6WrKHNbJDWqH7jEl2kYf_mDAg.IjQi8rKNujkoYEAb3nThd6yncfBoMIWAupDu8-Xx29Ug.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_119.png?type=w740",
@@ -1323,7 +1388,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 40
+        "key": 43
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTM4/MDAxNTMwMTkzNDc4NzMy.kwS1_bMimPaWWfxMSduvUoo7RGd8IPIe_ZuwKGD7b4og.Kuq1hPWxdrrU72Em2zM0Jxo4hgoPHr0ZcLGbq8smLW4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_067.png?type=w740",
@@ -1356,7 +1421,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 41
+        "key": 44
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjQ0/MDAxNTMwMTk3MTg3ODg5.axhcQGtXrZoNGWAGNZS8l3Ok8IG2EjnKd0gtjcRhWDIg.EhZLwq3pD-d-dBQaxncTHe8rP_VZqtdaq6wgO16dzngg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_089.png?type=w740",
@@ -1393,7 +1458,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 42
+        "key": 45
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjU0/MDAxNTMwMjAwMDE2MDU5.BZHLk87mKPyrRELb6oyHr1cC6fpq8HmBjNPSA2ne2eQg.AJ7_f5rbvNTlNkdffUrlIwIfAcUCeNaDTMscPiWU7ssg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_006.png?type=w740",
@@ -1418,7 +1483,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 43
+        "key": 46
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNzAg/MDAxNTMwMTkxNDQ1OTIx.ryf_vpzfMzy-IMRfnxf1uQAr9jazziV9-ATteeDFx94g.GKh59HnjfWuh_iFmCRbSGEDeQ12v8f8r_ZbFQPhepGwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_361.png?type=w740",
@@ -1438,7 +1503,7 @@
             "ATK"
         ],
         "openKeyword": [],
-        "key": 44
+        "key": 47
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTMz/MDAxNTMwMjAxNjU0NzMx.Tlo9IVlhXwKLt9RrrqNhkIUCQKif2T9BeVSe62Wol1Ug.E19ilK3N4vQvjb76AqU1pFlJjAv0CAT5NswGL7QweUkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_184.png?type=w740",
@@ -1475,7 +1540,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 45
+        "key": 48
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjU3/MDAxNTMwMTkzNzUzNjQ5.3fVSMHeMnqBsZcmJd8mNc5yeoqIxuno4HpuRBuh3uN8g.Z2st4lUhH1AkjgFgh_oJmRPKnQF7E0ZLkrBGUdiM-yIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_199.png?type=w740",
@@ -1513,7 +1578,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 46
+        "key": 49
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTQy/MDAxNTMwMTkxMjQyMTY2.-h0Vd9KJ4Em-MKu9tLacNPo3F3Dlp5mewNTBLHQ51bYg.i5NwcgRno_m33k0apr4F7K-jtxrtZ8HvjFwzq9YdZTgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_159.png?type=w740",
@@ -1551,7 +1616,7 @@
         "openKeyword": [
             "MaxSP"
         ],
-        "key": 47
+        "key": 50
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMzUg/MDAxNTMwMTk0Nzk2NTM3.b-o81ghZsqjBCFrFDRDOnWKWX5zrzgfSfikyliKWsLAg.xrhQnUsQDsetj8cb8k8RCJhLTIRLqNdev9tBCC2bxV4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_138.png?type=w740",
@@ -1590,7 +1655,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 48
+        "key": 51
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNjkg/MDAxNTMwMjAwOTkzOTkw.6G2PQqF-7yXoti2H0qpKoZY_aFAPCcm9d2k9OTAQRn4g.3nqWnG_t5BL1eGqRXN1livuTdhxR0cyq0JTDXERqzTsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_051.png?type=w740",
@@ -1623,7 +1688,7 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 49
+        "key": 52
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjM0/MDAxNTMwMTkzNjkxODYy.ZCd-0iMdwoZtXM22BbxsAivB3B0_6MkyIztihG51qfAg.d3fIyGC1g4PHTwadAmO8HZowAtje46UTtd-TSq42nCEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_115.png?type=w740",
@@ -1661,7 +1726,49 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 50
+        "key": 53
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=145193",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45193.png?v=180720a",
+        "name": "데스케트 투구[1]",
+        "option": "MDEF＋10, 사망 시 경험치 패널티 20% 감소",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +64",
+        "recipe": "데스케트 투구[1] 도면 x1, 가렛 x1,050, 부드러운 털 x4, 강철 x66, 아쿠아마린 x20, 102,000 Zeny",
+        "firstChar": "ᄃ",
+        "recipeList": [],
+        "optionKeyword": [
+            "MDEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 54
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=145184",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45184.png?v=180720a",
+        "name": "도깨비 뿔[1]",
+        "option": "DEF＋10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +64",
+        "recipe": "도깨비 뿔[1] 도면 x1, 불사의 심장 x1,062, 악마의 뿔 x863, 51,000 Zeny",
+        "firstChar": "ᄃ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 55
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMzcg/MDAxNTMwMTk5OTAwMzIy.AVxasWbYLCB65Dg14A_sdKFZphqCYQ_TgS8B4QYSy_gg.hl7WM9MIFJW3k1ChygdwTq-U7fnjDK9lBROp9YJshlAg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_121.png?type=w740",
@@ -1694,7 +1801,7 @@
         "openKeyword": [
             "MDEF"
         ],
-        "key": 51
+        "key": 56
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNTIg/MDAxNTMwMTkzODcxMDM0.GGgHHxKZvZg244L45rjmb6vshd56c-Iim3SxSVagC2og.xsurSB39hhPjFVv6AWIFZJmU7Knl4ikkr7AirAkjLxsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_366.png?type=w740",
@@ -1713,7 +1820,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 52
+        "key": 57
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTc0/MDAxNTMwMTkzOTg4Nzk1.73DE6CyKLu8_O0AqZLHTJ_3P3MHqpPeAP3UyqUjXNeAg.C4UG_3LMbJaWJQOmmCrSTRf9IJKUeDR7p-b2eU43vjwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_136.png?type=w740",
@@ -1748,7 +1855,28 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 53
+        "key": 58
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=145182",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45182.png?v=180720a",
+        "name": "돌심장[1]",
+        "option": "DEF＋10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +64",
+        "recipe": "돌심장[1] 도면 x1, 셀 x730, 망자의 유물 x949, 51,000 Zeny",
+        "firstChar": "ᄃ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 59
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNyAg/MDAxNTMwMTk3NDE2MTM4.4uydR5EnGRm-tTUDUv4ZStfdYkxvtSaU0NlVuCbfYMgg.FhNUuhMTBjAPuTE0RVG7ZucqswACtKLxVWOpcAxICkkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_217.png?type=w740",
@@ -1786,7 +1914,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 54
+        "key": 60
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfODEg/MDAxNTMwMTk5MDY2Mzg3.BcfJnJG2FFuHTNoqOEGx2KJKanlqXbyzbDDSJF4AjlQg.VuzB_7Tk4qNbcoLqVT8SRkfd9zRgdHNg_nW_kuI31oog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_035.png?type=w740",
@@ -1815,7 +1943,28 @@
         "openKeyword": [
             "불사형"
         ],
-        "key": 55
+        "key": 61
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=45092",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45092.png?v=180720a",
+        "name": "둥근 모자",
+        "option": "DEF＋5",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +64",
+        "recipe": "둥근 모자 도면 x1, 부드러운 털 x275, 젤로피 x275, 10,000 Zeny",
+        "firstChar": "ᄃ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 62
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTA4/MDAxNTMwMTkzOTI3OTc1.1U4jRWAshKNAwp6tZAU0RbCafk8ApOL8cNOhCjDAuR8g.edhIykO058ts4tebKunUsEXu3zPkry1XVc9GKDmud2Qg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_064.png?type=w740",
@@ -1856,7 +2005,7 @@
         "openKeyword": [
             "STR"
         ],
-        "key": 56
+        "key": 63
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNDQg/MDAxNTMwMTg4ODI1Njc3.tGyUsJF9X469y_hQp0dcrHGeV5aDI8F_Vcq5CizqTnwg.F4OF1CwRiYWNkR4Lay79uQCAQ4MFtS7oDTHBDAV4PMMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_192.png?type=w740",
@@ -1893,7 +2042,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 57
+        "key": 64
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTM5/MDAxNTMwMTk0MDA0NzQ4.mwNK0LOnxZI94tgOBRO3axuo7vmrANZLxA_Q_Cvy4aEg.c9s5b1_DgfvcBTe3500cM41DPDaBISrThaf-KzjDnUEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_151.png?type=w740",
@@ -1931,7 +2080,29 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 58
+        "key": 65
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=48560",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_48560.png?v=180720a",
+        "name": "드래곤의 문양",
+        "option": "DEX＋10, INT＋5",
+        "savePoint": "MaxHP +28",
+        "openPoint": "MaxHP +24",
+        "recipe": "드래곤의 문양 도면 x1, 브리간 x1,680, 드래곤의 비늘 x18, 더듬이 x23, 뼈조각 x210, 203,000 Zeny",
+        "firstChar": "ᄃ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEX",
+            "INT"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 66
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTgx/MDAxNTMwMTczMDY5MzM3.chDsq9BevNROKV_680PMjeayioYu59O31IBIC_kW0Aog.vK0XBuUJXh-syzNe0-NXCKKRwFE9jwQfBkiolwgykvQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_311.png?type=w740",
@@ -1950,7 +2121,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 59
+        "key": 67
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfOTAg/MDAxNTMwMTkyNTg2MDY2.oE044gIRb91AB17P0zzF1B_R9-YBKyIx24k05Qopai4g.1e4DXOyrUnqm_NsjesL5JZvFytlHmjyGQBNIhmMyVVIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_371.png?type=w740",
@@ -1969,7 +2140,7 @@
             "ATK"
         ],
         "openKeyword": [],
-        "key": 60
+        "key": 68
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjYy/MDAxNTMwMTg4NTkyMDM5.qvMFxHrbTampO80eMlKuUGDHsNrKR7FbKe8BB7SfL0Yg.Rxda_ZnO_iw2pc8KgoMxyVaGLUdNctgi9dCWV_L_gVwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_148.png?type=w740",
@@ -2007,7 +2178,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 61
+        "key": 69
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTY3/MDAxNTMwMTg4NTUxODQ4.bSkNB287JfgFIKQuIWyLJB2M0kTUoEg3mlGiHCwA4dog.bFQ-n42yQ2Btu0phAnolxUIVl6CWQpsXwIdhmwSdmnIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_144.png?type=w740",
@@ -2047,7 +2218,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 62
+        "key": 70
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNjgg/MDAxNTMwMTg4NzkwMjI3.fmdQDyc6w_omuPfbhD0OfUaCEP5XPrb6IKsD1sovQ6og.dXW-bXpsT5dfTD_g_LN0YOULZlWyhKFeIsrl2tJckqgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_172.png?type=w740",
@@ -2085,7 +2256,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 63
+        "key": 71
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTAy/MDAxNTMwMTk4Njg2Mjgz.JuSacV4opQmbd0vd1bKsLdlioQoE7DGdP93w7GOIS5Mg.j87poO4RTTralSd1TxlJQF77QrS1ABuFHy-4ffFHAuIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_214.png?type=w740",
@@ -2124,7 +2295,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 64
+        "key": 72
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTgw/MDAxNTMwMTkxOTA0NzU4.RlmZ5pOynNj6eO76tcHFyrFD_-aijKL5GjmdxLMIOFYg.3v2FL-MfP-TXSjf3FnetlkKIYXruNYw1pFGJWbFTnGMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_246.png?type=w740",
@@ -2145,7 +2316,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 65
+        "key": 73
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTkw/MDAxNTMwMTk0ODYyODY5.WH74Od3pAai18ADvAnX-km2Z1DZi1_xcirJZTq6MZxUg.9pxjTe1hGsWLvUvKeMfi1LpVc9YAuxrIaWQ50Uw_KNMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_157.png?type=w740",
@@ -2186,7 +2357,7 @@
         "openKeyword": [
             "STR"
         ],
-        "key": 66
+        "key": 74
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTg1/MDAxNTMwMTg4MzMyNzU1.OdjzdIcfzAVTb2X2lSM9wDGtmWQde3thRb2Qbvx2sNEg.ltzlJ_fcU-zmzJZZtg-OLKRw_hkmFBfblekF_Dek9iQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_181.png?type=w740",
@@ -2223,7 +2394,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 67
+        "key": 75
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjA5/MDAxNTMwMTk5NDA3MDgw.VDBAQ8XO77ASKc51yOUH55u0d-oal0zTArrB_xLcccQg.kEIsK2rsRzwbm77UD-zhCdhFWb4TNClHQhfEfgQ5v-0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_038.png?type=w740",
@@ -2257,7 +2428,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 68
+        "key": 76
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNjYg/MDAxNTMwMTk4NTg4NDUx.spczCRdSnLkdPVKgHqEwsHCU_ODQajpzuLrCNV-wyhEg.rEGXbw7GiRugLqfE3g8-Qu1IzPN81C_8-gQzSTCRR1Ag.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_218.png?type=w740",
@@ -2287,7 +2458,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 69
+        "key": 77
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjUz/MDAxNTMwMTk0NjI5MDQ5.yXOhhtJBTkltZfU8IfyK5m27Ozk8-2t635yJqS6sCPog.bz_Jky_QsGedxoOvFjFQU2b3AIfyWYNk5ruM76Cdcwcg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_061.png?type=w740",
@@ -2326,7 +2497,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 70
+        "key": 78
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjcy/MDAxNTMwMTk0MDE5ODQ0.N-wQyAOPC9hlK_r_2PZmlK5IRhmvtmXjE9ojf25PAGAg._yGqR1Xxx-DildLRAav6vPQMl2Gz4nq28jM8uDOoHmMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_167.png?type=w740",
@@ -2366,7 +2537,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 71
+        "key": 79
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjAz/MDAxNTMwMTkxMDY4MzAz.VFyyY300gHAOPfzqtZgWlTc04yKs9xrDozudICeQ1YEg.I2D5ZDHF9ehNFX8YW61DCguLHKuvLc5SoGF4t6GyrJ8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_032.png?type=w740",
@@ -2395,7 +2566,28 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 72
+        "key": 80
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=45183",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45183.png?v=180720a",
+        "name": "마이너 우로스의 뿔",
+        "option": "DEF＋10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +24",
+        "recipe": "",
+        "firstChar": "ᄆ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 81
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfODUg/MDAxNTMwMTg4NjM4NzQy.LSVh1sIn3PgFv5Nt92Qtd2yAfgVJHupZf6lMrNHkP_Mg.1q1sy1_Guh3OjdHMp5xwYdhXUeYiFPmIeSys5kmi3FIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_190.png?type=w740",
@@ -2433,7 +2625,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 73
+        "key": 82
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjkw/MDAxNTMwMTkyMjI0NjY3.aIZLYqWzsDXHdrbFHm0EMGjvO5BQzXs5uNbFRJr-MHMg.bNSk57pRpusKMy8eumhf4dMK114z0Ql3dy13nfC9WUEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_036.png?type=w740",
@@ -2463,7 +2655,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 74
+        "key": 83
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTI1/MDAxNTMwMTkzMjMwMDk5.Kz6ca2o0uBZEdF7gnJwpKL1ta0HcNaEQLBFbLkJOX2Yg.IYnBX-OTmQnjASlyelEu6MmCsGA2t2VptZj20iid-2Yg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_236.png?type=w740",
@@ -2493,7 +2685,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 75
+        "key": 84
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjkz/MDAxNTMwMTkzMjM4OTE4.u9tT9zaEO18CNgAjJqhnj8s1Jn2YLWrAyULY58REEUQg.9-h5afKdA_Cdgwg98_hlqsM5UZ0chJBdechmrqAh_1Qg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_237.png?type=w740",
@@ -2531,7 +2723,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 76
+        "key": 85
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTk1/MDAxNTMwMTg4ODA4NDUw.D2pbiJOll-wKekZjt4_b2X-E1yBc5v-9RVnWtQxvWy0g.LGA61NmXfXqPLkTNUC8Zj1TdOJlMhpcIkPhH3RefUF8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_177.png?type=w740",
@@ -2569,7 +2761,28 @@
         "openKeyword": [
             "FLEE"
         ],
-        "key": 77
+        "key": 86
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=145084",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45084.png?v=180720a",
+        "name": "머리 포자기[1]",
+        "option": "DEF＋15",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +64",
+        "recipe": "머리 포자기[1] 도면 x1, 자르곤 x1,283, 방울 x1, 투명한 천조각 x1, 아메디스트 x20, 102,000 Zeny",
+        "firstChar": "ᄆ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 87
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjAy/MDAxNTMwMjAwOTQyNDc0.PzplReNkecZiuib-KQpF2nfDNf67TLQjRM5bRQXisb0g.3yxWzNB5zYGzRlxuorS-ejx2KxCSWGFB0ILLcMWrnvEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_018.png?type=w740",
@@ -2603,7 +2816,7 @@
         "openKeyword": [
             "MaxSP"
         ],
-        "key": 78
+        "key": 88
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjAg/MDAxNTMwMTk5OTk5MzQ2.qEQZPLeB9q6MUq1F6PQCv0mQmmdL9je1_A-CTxU9V-og.hAgf2FllysPABmfG9rpo_FrB8y23kxwkX8GkmFYs42sg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_001.png?type=w740",
@@ -2628,7 +2841,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 79
+        "key": 89
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNSAg/MDAxNTMwMTk3MjQ4MTQ0.HauTMLku4D5aP0qN2Pe8izDFjMjJ98NPkx_G2xQLyvog.B26I9mtUZFyEwXgK1IfOy53mtv-vI667YrYIL1VdCL8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_169.png?type=w740",
@@ -2666,7 +2879,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 80
+        "key": 90
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNTkg/MDAxNTMwMTk0ODQ0NDQx.eJZecgoWOaOVN0iylJaw97y7Ljf9NK6Pr2WW8vORTg0g.JFSefz4vs_af9ZS6Y1ATIe0Ct38GsXEJj55eOo_NuUsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_155.png?type=w740",
@@ -2700,7 +2913,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 81
+        "key": 91
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjgz/MDAxNTMwMTkyNTU3OTE3.u7BoUXwr9QirJvZsoxs44Nd8CUDqaQUIcZbrF6vIlY0g.GLD_ite3_ysG0RiPUjSC94KscomYwAlB1D9VFsxZMnkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_160.png?type=w740",
@@ -2734,7 +2947,29 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 82
+        "key": 92
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=45059",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45059.png?v=180720a",
+        "name": "면사포",
+        "option": "MDEF＋10, MaxHP＋150, 여성 장비 한정",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +32",
+        "recipe": "면사포 도면 x1, 심연의 꽃 x438, 투명한 천조각 x8, 하얀 염료 x4, 마스테라의 열매 x20, 102,000 Zeny",
+        "firstChar": "ᄆ",
+        "recipeList": [],
+        "optionKeyword": [
+            "MaxHP",
+            "MDEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 93
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTQw/MDAxNTMwMTk4ODc2MDY0.kAa_e1FYLOSDAhCljhgWaPyOkTYbnxqn2i0thXvYDtEg.O1ZZJ3slJJ1soehfc2yUmkqHG2IBkXrm87jtwqFOwk4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_352.png?type=w740",
@@ -2754,7 +2989,7 @@
             "ATK"
         ],
         "openKeyword": [],
-        "key": 83
+        "key": 94
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTUw/MDAxNTMwMTkzOTYwOTM5.6DFoQO-gRtNpdLvd4kHTqFYuF-YK2gw9zmw1nZW8wHAg.rI4LqP-l2gmc_uSwwM5OzaAtR1DMpuaEyzzw4eW8phwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_103.png?type=w740",
@@ -2788,7 +3023,28 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 84
+        "key": 95
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=145116",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45116.png?v=180720a",
+        "name": "명탐정의 모자[1]",
+        "option": "DEF＋15",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +64",
+        "recipe": "명탐정의 모자[1] 도면 x1, 단단한 껍질 x707, 부드러운 털 x1,148, 갈색 염료 x3, 102,000 Zeny",
+        "firstChar": "ᄆ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 96
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjMg/MDAxNTMwMTkyMzU0NzE1.w3g_m51Z2BTcjRUT8pymhvZVfMMDxj5TPWmH0UVJPdYg.vX7buzWJiXz5kmEuEbRlkSRlTHSb1Z0z0H8YV-L6-FMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_231.png?type=w740",
@@ -2826,7 +3082,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 85
+        "key": 97
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTIz/MDAxNTMwMTk0NjM3MDQz.KhamApVvwaZPY1J9rGnrfenYOOmvdSnjTY033vcTy_gg.0ziCFaxvj1IHOs1L7DUXQixZ36_yfVTkCsMBHUKWmjUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_063.png?type=w740",
@@ -2864,7 +3120,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 86
+        "key": 98
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTc5/MDAxNTMwMTg4NzM2MjM4.Z3ClxW-ovQjImEWGK2Dd-JrgBQpwOVV0vFUctWrqsisg.zr5IIQPLEyrrEZazYPCbsKJ4g6S14eQ3VBUsDWRdGJ8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_269.png?type=w740",
@@ -2913,7 +3169,7 @@
         "openKeyword": [
             "가방칸"
         ],
-        "key": 87
+        "key": 99
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTc1/MDAxNTMwMTkzMjYyODQx.1Qf9epLfrmfEsE0yo-PSo5kJsrYBOYdHJJUJA1BpQ0og.2T37gBtt4-hb4SNdPCT2UO93DoCqdAP7H7KTt1-Jul8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_126.png?type=w740",
@@ -2946,7 +3202,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 88
+        "key": 100
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjcg/MDAxNTMwMTkzNDg3ODI3.UoJv8zpZZ7byKSr04kR3bw9TfLX2mqFk3DnvHWMf5bgg.UpEatm5kcmmHEQeoqRnNbxIYj-_AIc8wsWnsA2gLskEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_068.png?type=w740",
@@ -2979,7 +3235,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 89
+        "key": 101
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTY1/MDAxNTMwMTg0OTUyODQ4.Bm_AajveS0BAqUKZw7ZIrIy8RQPdSfJ_fXSXWTENNQ0g.xQDjIB_tSKEav1--g83Y-shllfwp3DytLg-FltrHke4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_293.png?type=w740",
@@ -3014,7 +3270,7 @@
             "INT"
         ],
         "openKeyword": [],
-        "key": 90
+        "key": 102
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTI4/MDAxNTMwMTg0ODU3OTQ2.8Q3jW6dkkE4HyHO6dEZiFduLUyF3C2OnPz9lMhkUroAg.uFh6hmB3ZHD_32Cf7EM2Oj7UmdQ51C6_uDN5jazo9NIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_281.png?type=w740",
@@ -3049,7 +3305,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 91
+        "key": 103
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjEg/MDAxNTMwMTg0OTQ0OTM2.VRjnyUi4W5MxujuGwK8iiIwLsH3hJsa68lGe8tzbm7Qg.w5npGct46BbepztMjE-MBNC1oPbYQvWewHlBcIicih0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_292.png?type=w740",
@@ -3084,7 +3340,7 @@
             "STR"
         ],
         "openKeyword": [],
-        "key": 92
+        "key": 104
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfODgg/MDAxNTMwMTg0ODQ4OTA3.f9AvhtG1ifQTOuk2sA2WijXetltBjlL_n8wxAyryeNcg.wJjx2DHzIqlVm-xLlKZ817lnl5YwhfW4tKLQLOAQwLsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_280.png?type=w740",
@@ -3119,7 +3375,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 93
+        "key": 105
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMzAw/MDAxNTMwMjAwOTMyMTQ4.hoS-8dxglWtsTsmrta7kQA9EUmKOompSo-P5dFWEOQ0g.1N6la83PA8r-CAqwaBYXguczzsF7Z7TaDazYW5_8mLMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_014.png?type=w740",
@@ -3156,7 +3412,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 94
+        "key": 106
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjY3/MDAxNTMwMTkzOTE3NTI5.WDDJUye6pm_oqWkv-iJpV41Ege8nnKny4CNP2RUMhYgg.vyd5sXF68Rurs0Fc1wsB-nvlYy-6QFDjS9vd1sz-VPwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_044.png?type=w740",
@@ -3189,7 +3445,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 95
+        "key": 107
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTUy/MDAxNTMwMTg4NjMxMDE4.ZFStKlBxh-nofJ_sDnsk5tuhbIQd2pL3Ho_iPS007Y8g.wMGpUzkfxkgHgBcjAHD98oO7Xk15ttBZqVguRKbuQp8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_186.png?type=w740",
@@ -3227,7 +3483,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 96
+        "key": 108
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjQw/MDAxNTMwMjAwMDY1NTIy.wIZY15SvnDR5_fneahyRf2bxV20ltAohZ0ECHUvKrH4g.48OJ1YIomlF4rhY1et6tbzNMO19maO2swocCi30G5WYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_045.png?type=w740",
@@ -3256,7 +3512,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 97
+        "key": 109
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNDUg/MDAxNTMwMjAxMDU2MzUx.Qs3NVaDJq2g1QnAileoOC1TyurM7vDQgXAgQArCIYr0g.wiRYLOtWmItPQKSqHab_6EWeM4eGYmRB2iJscTskeIcg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_082.png?type=w740",
@@ -3285,7 +3541,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 98
+        "key": 110
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjUw/MDAxNTMwMjAxNTA0OTYz._zDSxX2Rrj_tq_MO1AtkHpppeINQ4sydkjOy7auF5pMg.4WQdG5EnPMNFgVkodSdrvvdBFH8Pac39bOULBtQ6myUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_193.png?type=w740",
@@ -3323,7 +3579,7 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 99
+        "key": 111
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTUy/MDAxNTMwMTkzNzcxMjA5.FT4jhn_HGG9VWKFvOzN4Vp3XtLppc5-6FULvs82IENUg.tUUpcsAoWQk8PUYARitm_ytdudLIFPGp51ImlH8Bo7Ig.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_224.png?type=w740",
@@ -3357,7 +3613,7 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 100
+        "key": 112
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTI0/MDAxNTMwMTkxMDk0NzYy.L1wFcm2z-iftNQsQN4ytfeZ6yMyuyAO79vpL9Ct3tOAg.ljOlT_L0H8gbXzlV4OqpPyQTK5PYBWZ-bmrMg5Gyhhog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_092.png?type=w740",
@@ -3391,7 +3647,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 101
+        "key": 113
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfOTMg/MDAxNTMwMTk0NTE4NzAz.YyBs_K8MlMhUkFXYY5hnM1lbF5GtokNDQhM8URiV9Gog.uqs8xq1_Y4bTytJER7qu1Mcvwe8HBb3Lous_Gd5NnUwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_355.png?type=w740",
@@ -3410,7 +3666,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 102
+        "key": 114
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjYz/MDAxNTMwMTkxOTIwODIz.w_8R8_jJXnw7R-aMk0cLWXfdfwfKpKocNXGKfvmpz14g.Hp0kPeeEdfm4OkB0Rz2LhJZHspREBOLgh0jIkgEQUDsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_351.png?type=w740",
@@ -3431,7 +3687,7 @@
             "ATK"
         ],
         "openKeyword": [],
-        "key": 103
+        "key": 115
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfOTcg/MDAxNTMwMjAwNTc2ODc4.a7-ZHwXwO4AEVb4oIghfB2PBxwxWk5Y7bEsK8RHvsdUg.ZHoQ7k9UDkP_rmzbAEej4P5AHgnI22HpXcS_7SogQXcg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_229.png?type=w740",
@@ -3469,7 +3725,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 104
+        "key": 116
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNDIg/MDAxNTMwMTk4OTA5MDI0.coQk5ukq1rkJIGI0gGz-e2mLUUAv-y2QAkc4UmZEs4Ig.p_AYohjoBiMnv6rVZ_dBlyLoT6XA2yra4J3qx6SmahMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_356.png?type=w740",
@@ -3488,7 +3744,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 105
+        "key": 117
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjQx/MDAxNTMwMTkzOTQyMjc1.A7J7j7vBrayoKRXsiHPeAVYVvbm-pmGWcyAC13hvhQwg.Bv5NdkZ5Nl1LIYLDCHHwNj1q1mLL0SmQGqBbR4uUeHkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_076.png?type=w740",
@@ -3523,7 +3779,7 @@
         "openKeyword": [
             "MDEF"
         ],
-        "key": 106
+        "key": 118
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfODgg/MDAxNTMwMTkzNTQ4NDAx._tPWkNDR_CgoO4J2TG0mniNw6fIYNazctNy_UQ9aVFIg.oRq8rScpYjM1eWdmT8FcNzVcSig_fQop8o67MgTEFFQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_108.png?type=w740",
@@ -3561,7 +3817,7 @@
         "openKeyword": [
             "인간형"
         ],
-        "key": 107
+        "key": 119
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTgw/MDAxNTMwMTk0NTk5NTU2.hIsgaZ29oGt9lMmIg1YUl87OVaLpyKW3aST-5sDAIM8g.0wQXhbxDXV5mzJ58pfhxedEpIzxVrncAFCPTyW_Ep9Eg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_043.png?type=w740",
@@ -3599,7 +3855,28 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 108
+        "key": 120
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=45180",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45180.png?v=180720a",
+        "name": "변신 나뭇잎",
+        "option": "DEF＋10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +24",
+        "recipe": "",
+        "firstChar": "ᄇ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 121
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTEy/MDAxNTMwMTkzMjAxNjg0.-RtYS1glIcxTpBZnLlQmVa2z9QokIwruDRc3XkgjKtUg.RHUSk6z3RO1L2K0EBWzajkZntFhlt5q1ZwW6Ftm5y34g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_052.png?type=w740",
@@ -3636,7 +3913,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 109
+        "key": 122
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTUy/MDAxNTMwMjAwOTQ5OTU4.7KkTT12v4zdA-GIqOLvLb87lw7AfmI7UyjWuF6M7ARMg.UoVOT2dxKZjFEoRMazlOVcWZM_OYOEXTza_tV3A137Yg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_021.png?type=w740",
@@ -3666,7 +3943,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 110
+        "key": 123
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjYy/MDAxNTMwMTg4NzgwNDk4.o2Dj7XkhYWeJlgKFdCkSHx4tgRoPtMWQYbMIM0JOwNAg.0oI4DfqcpFpo2e0dZ_eSXaI3BvlnEO202rkao25eTBsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_105.png?type=w740",
@@ -3704,7 +3981,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 111
+        "key": 124
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTc3/MDAxNTMwMjAxMTE0MzUw.QQQAbY4pIh1wYo2kSCqEDsrkTlYc2hDaGypgtLWXbSYg.DT6IDQnZfIPmCG4g4v8UHZH8imXMw_lXMaY6MHwBrFkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_127.png?type=w740",
@@ -3737,7 +4014,31 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 112
+        "key": 125
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=145057",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45057.png?v=180720a",
+        "name": "본헤드[1]",
+        "option": "DEF＋10, STR＋2, MDEF＋5, 스턴 저항＋5%",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +64",
+        "recipe": "본헤드[1] 도면 x1, 악마의 뿔 x919, 불사의 심장 x1,131, 수은 x39, 뼈조각 x39, 102,000 Zeny",
+        "firstChar": "ᄇ",
+        "recipeList": [],
+        "optionKeyword": [
+            "MDEF",
+            "DEF",
+            "STR",
+            "스턴"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 126
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTUw/MDAxNTMwMTkyMjQ3MzI5.SruprRnpclu8CNAWvxKbHimBW6plOKZyXsVkELiyi78g.RvcraltDz2iqExs-ySP7uEM5LifqOkCpKnYIqmLC-Qog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_182.png?type=w740",
@@ -3771,7 +4072,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 113
+        "key": 127
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjYw/MDAxNTMwMTk2Njc2NTI3.tuEZ6vV-Rp0jAbUjnRCE77hYTigq5mp8DgCNXK0AMb8g.NlFuiCp1oYkQLfG5M2PUTdqt6qZVnGb-vikBa1fG7n8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_367.png?type=w740",
@@ -3791,7 +4092,7 @@
             "ATK"
         ],
         "openKeyword": [],
-        "key": 114
+        "key": 128
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMyAg/MDAxNTMwMTg4MzA4NzU5.zGLIUrVMijR4MjWp6muUXW5JJrlhgxW6XXpRxK0iE4kg.PUTBfG1l2JOpImMxdbolwK09Z3wnyMuioBbNWU_Xfxkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_074.png?type=w740",
@@ -3829,7 +4130,28 @@
         "openKeyword": [
             "MDEF"
         ],
-        "key": 115
+        "key": 129
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=145081",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45081.png?v=180720a",
+        "name": "비레타[1]",
+        "option": "DEF＋10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +64",
+        "recipe": "비레타[1] 도면 x1, 가렛 x483, 썩은 붕대 x604, 하얀 염료 x1, 51,000 Zeny",
+        "firstChar": "ᄇ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 130
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTQg/MDAxNTMwMTkyOTIxMjc3.ukoiDT7WknMCVY2QqkzpatgP31oUaZ2NUhX7bE8Ns28g.V49fdBFtR534BaCsfFf2uTNS3yNcWRt_BfK992jnPIsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_215.png?type=w740",
@@ -3867,7 +4189,7 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 116
+        "key": 131
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjgy/MDAxNTMwMTkyNTIxNTgx.cidcrFaEql5CY22PM2SG_5an9ge8yq-7tj2TyO6BS2sg.xv7CrTLIAqI-RPreJc-AJbHkNpShixj40duP4O6NZ1wg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_112.png?type=w740",
@@ -3901,7 +4223,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 117
+        "key": 132
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTU4/MDAxNTMwMTk3Mjk2MjYw.zF-9GGEwjA_5h6I1T6bRlTlfWgfHTYl9DB860r2ir1kg.74XADUJhWslkb-YJxcB7HnJeKuo66TdgYb1C-QT9t40g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_230.png?type=w740",
@@ -3939,7 +4261,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 118
+        "key": 133
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTk3/MDAxNTMwMTkxMzQzMzc2.LYBE_3ZNhdKyTzxZMChJ6WzhAFf0jIfv0uXgSEKgOFgg.dvuEQgcVYaklvFHKpl0TadCz_xDY6ZS16CAMJ-Cwsz8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_149.png?type=w740",
@@ -3978,7 +4300,7 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 119
+        "key": 134
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMzAg/MDAxNTMwMjAyMjQ2MTQz.p0BwrLtu6DnwbWk6ybsHUwZfwlllQTEzCB_QwXcemTAg.pfcTYCfxWQhIhX5Zri0UK_REcyTQW63Lz4-lnmVJiogg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_083.png?type=w740",
@@ -4007,7 +4329,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 120
+        "key": 135
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjYx/MDAxNTMwMTk3NDIzNTIx.IoYBYnPl5NcJY3R5VFc5yNr5lvIdvuN9BR0pEnozYnAg.v8Rl2-0y-BYJgd8k_GcV6iVuVXt8dfgcYSgy5AZgg9Ag.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_222.png?type=w740",
@@ -4043,7 +4365,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 121
+        "key": 136
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTUw/MDAxNTMwMTg0OTI4OTg4.JZ2_6UqU02gUpm4oG3U1yw9Tzh1qp4PfwC_CcXL8tE8g.q8jqVkwPS18UdOaJcMocaZGul-oXAo9vfAk3gr23Y30g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_290.png?type=w740",
@@ -4079,7 +4401,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 122
+        "key": 137
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjcx/MDAxNTMwMTg0ODMyMjYz.kAlJZRdIvFksot88_lw03HiSZUcGZBOSt16e1Y8ZgJ4g.PTmtGQMJ12LkVZ79C2lC0mZlyYm3y31FHmF0D_5XCWgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_278.png?type=w740",
@@ -4114,7 +4436,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 123
+        "key": 138
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjI0/MDAxNTMwMTg4OTkxNzc5.xhyN0lpAM5EXKgO-oQ-ncQ09AIhmWq1Y0DS2ELYZpcog.-xoOkYwB57tcfUJRuANQnwmqbb5cDf47jY-QCzYkWpIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_239.png?type=w740",
@@ -4148,7 +4470,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 124
+        "key": 139
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNDIg/MDAxNTMwMTkyNDMxOTU2.1ndK9dq8ltY5Ni4LRj5Tsgp-IIIItCpNAVtNpNVfNrQg.aHCfU5XRmiQI6HMRiYy3p1XgcJFL2La93rdTA2NV_pQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_225.png?type=w740",
@@ -4186,7 +4508,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 125
+        "key": 140
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjI0/MDAxNTMwMTkyMjM1MDI3.JXYhc4PBHaxX3MAubfZIjiuZzJAC32l1WtP_nX8Su_kg.EAAfC3RLVs8T-opGJYudy5nIJ8yT7p3FGPZFVgc4dnwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_161.png?type=w740",
@@ -4221,7 +4543,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 126
+        "key": 141
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjg5/MDAxNTMwMTkzNTE4MDIx.uVRlCRCdazyaJO0374s9NGqbWs61USZku9q97Q_IyKgg.Wye921wt7Rg5q-97zZEFCWeu-ntOUsO0iMI4aU4d0pcg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_072.png?type=w740",
@@ -4254,7 +4576,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 127
+        "key": 142
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMSAg/MDAxNTMwMTk2MDA1MjU5.rSx0X7gygVVZ1ua82-EJ4LjfsJ8cvlBMZr-oeKwF-00g.EnsOhkTFBuWmt75UN9RYjWkZ7VygpHoHzilW_M9Fwc0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_203.png?type=w740",
@@ -4292,7 +4614,28 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 128
+        "key": 143
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=145149",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45149.png?v=180720a",
+        "name": "사악한 마칭햇[1]",
+        "option": "MDEF＋15",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +64",
+        "recipe": "사악한 마칭햇[1] 도면 x1, 비정한 마음 x1,302, 리본 끈 x10, 부드러운 털 x8, 단단한 껍질 x2,403, 102,000 Zeny",
+        "firstChar": "ᄉ",
+        "recipeList": [],
+        "optionKeyword": [
+            "MDEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 144
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTI2/MDAxNTMwMTg0ODk5MDQ4.4IKxAVep8YMborwRMxPdRJzyBUwC_1upijkpoYzupmAg.smIAq1ZRHATptK9dqeZa8sSncKxKdOCNX7SDrfMvKG4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_286.png?type=w740",
@@ -4327,7 +4670,7 @@
             "DEX"
         ],
         "openKeyword": [],
-        "key": 129
+        "key": 145
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNDAg/MDAxNTMwMTg0Nzk2NTg0.D1H5vDGFJUZ-aY1RB4YpGY6sYE1KKpjitvEXp8-AgNMg.gUpM4UMGSf5lrnzJf7pgfKh73S0Ieum7Bw_H_ZaBkA4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_274.png?type=w740",
@@ -4362,7 +4705,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 130
+        "key": 146
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjAg/MDAxNTMwMTkxOTMxNjE4.Nwr2h3flLVRBPK9U7rkUVf8aNnnhUx8_ePcc-f0QuSsg.4QpZJpeng3x-36ERxQ4wG5KMde76S6NGEoUpsH90kh0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_032.png?type=w740",
@@ -4391,7 +4734,7 @@
         "openKeyword": [
             "풍속성"
         ],
-        "key": 131
+        "key": 147
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjcg/MDAxNTMwMTkzNzYzNTYw.IIIu0rezeFaQCDHTYs9Plie8isnFArurPo2269lx42Mg.yrWF6O3FfYrSNMFloNFSaZeriG1DdHwEDX4smHzEcl0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_221.png?type=w740",
@@ -4429,7 +4772,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 132
+        "key": 148
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjM1/MDAxNTMwMTkyOTUxMTYx.fnTJV5fJHMh0EmAI2wYPG77HpTpesOSAcAbyQWAGhfQg.vKtQ6Ut3YpSKwYfHEVm2UE6eDSGjGCJI0I4DJxDDakMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_372.png?type=w740",
@@ -4448,7 +4791,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 133
+        "key": 149
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNTMg/MDAxNTMwMTkyOTY1MzY0.I_z7O5PU24F92LIHXP9AM4muURNmr4MiQ9O_QgJE_pAg.RaAiwZQiwAHBM7aQbGtr_3vEqGtNU2DSwZs02ujkLsUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_373.png?type=w740",
@@ -4468,7 +4811,7 @@
             "ATK"
         ],
         "openKeyword": [],
-        "key": 134
+        "key": 150
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjUz/MDAxNTMwMTk1NTA0OTY5.FcnSG7nmbovamigYsgWke7ZEJkaKgHw-zrpf6Q60ymAg.Xw0gBWmZDD-0Xi3dNbu5w260Q2FGkwk9Q3wXu-RsjSgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_026.png?type=w740",
@@ -4498,7 +4841,30 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 135
+        "key": 151
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=45621",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45621.png?v=180720a",
+        "name": "새벽여명단장 모자",
+        "option": "MaxSP＋100, ATK＋10, MATK＋10",
+        "savePoint": "MDEF +2",
+        "openPoint": "DEF +2",
+        "recipe": "새벽여명단장 모자 도면 x1, 불꽃 결정 x600, 51,000 Zeny",
+        "firstChar": "ᄉ",
+        "recipeList": [],
+        "optionKeyword": [
+            "MaxSP",
+            "MATK",
+            "ATK"
+        ],
+        "saveKeyword": [
+            "MDEF"
+        ],
+        "openKeyword": [
+            "DEF"
+        ],
+        "key": 152
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjAg/MDAxNTMwMjAwMDU3MDY1.SkOj8mtopqWWtdUfTv22ZObXAwnik4jo0BQHc1cUOkQg.kdg-6TF2cdpgcL9hwbFbO4bjLvHciny2EMPTHZOmYM4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_030.png?type=w740",
@@ -4532,7 +4898,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 136
+        "key": 153
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNTUg/MDAxNTMwMjAzMTY3ODEy.YmR_JeGapnRjhGmVC-bgWZrrhJUuHhcaznYFI-U9Wikg.3T0o-W7jFKUQhXPSBmmFnzd6dUNgX0wDGWcLfJ2h3Ekg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_141.png?type=w740",
@@ -4565,7 +4931,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 137
+        "key": 154
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjA4/MDAxNTMwMTk0MzU1NzM0.9ZjwieAL8HnuapYNDS4IhBXsMCh7DYg6QMBlkl62Pq8g.b1jWRHB7G9O1GAmfSgyut-G7a3yqUc9OiUpTrXDI9tgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_164.png?type=w740",
@@ -4600,7 +4966,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 138
+        "key": 155
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfODcg/MDAxNTMwMTkxMzA3NDk2.bu3fAX97DJidxxgDxczGW7fXktuo5LHtKQqMHvuGzfYg.G296Kn5jp8z8WXt2ViBmNZtODWlC8g9RdDHwTWIMbhwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_252.png?type=w740",
@@ -4625,7 +4991,7 @@
         "openKeyword": [
             "암속성"
         ],
-        "key": 139
+        "key": 156
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfODgg/MDAxNTMwMjAyMzI3OTk3.HhoKKuU1W_s1_s6WrDgYljpbMw_xvr27hA1i6PSNyX0g.OGnLUu497yCk83-TdyWUl3LcqSWzGlY0Arm7a0l3AgUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_207.png?type=w740",
@@ -4659,7 +5025,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 140
+        "key": 157
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMiAg/MDAxNTMwMTg4MzQ2MjEx.prBcBCm5nqzaogCrme844gX7SDd0le_p0AUZqiI1Tqkg.QqFoL9DAZQYyp6PIqZeH4ZDYHgRL06Z5nYMXXidi0ocg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_357.png?type=w740",
@@ -4679,7 +5045,7 @@
             "ATK"
         ],
         "openKeyword": [],
-        "key": 141
+        "key": 158
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTQg/MDAxNTMwMjAwNjkwNzI1.pGHG0LiIau2BbYrLgPryK9n6bxyeTKWWQIygc6m6rJYg.xuSkeiUr2LFZc3hx8lQGPfoDLEKar6sCzGFhVodCue8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_364.png?type=w740",
@@ -4699,7 +5065,7 @@
             "ATK"
         ],
         "openKeyword": [],
-        "key": 142
+        "key": 159
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjEg/MDAxNTMwMTg4NDc5Mzky.fS3ehFIvvWYcarHO0KV_UUvUWR5TYwGv2QsmIsSu3zkg.FSJcKpvVCMdgnIE1Ng8XK-4X1TqGCcZoQfsL6Ugiq6Ug.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_124.png?type=w740",
@@ -4738,7 +5104,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 143
+        "key": 160
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNjUg/MDAxNTMwMTkzNTU2NTM1.cWytqhr2hxsi--x2AekttU5JfZKQwUh9SFM6hqs62Vkg.QHcE0UNwTLMqMFaoziO81mnKaoryTSaD4Ro0zw31hdQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_110.png?type=w740",
@@ -4777,7 +5143,7 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 144
+        "key": 161
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMyAg/MDAxNTMwMTk3Mzc5ODIz.0RaL26h8LjpVeGzpDkarhqQYo9JSSLXeltdxQpD6bGQg.dQJ1v4fYui2uBiVVScxJ3HFGIPbLQ3DfY5L4-2Y2tjMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_178.png?type=w740",
@@ -4815,7 +5181,7 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 145
+        "key": 162
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTEw/MDAxNTMwMTg4NjU3NjE4.0gsjumUCnbQkv0uY2b69Dr3z8lAoe7aC1slcAiOWon4g.H4rEL24lMLUpQyiLRpJYMFucfEfTvMrhn00AtffEhQUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_205.png?type=w740",
@@ -4852,7 +5218,7 @@
         "openKeyword": [
             "불사형"
         ],
-        "key": 146
+        "key": 163
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjMz/MDAxNTMwMTk5NzQ3MDg2.E59RTdX3zdHwHAgaSoLvLbFuseV5kDMNKsaXCwqZVJUg.vGnHvQWTM1cJbh0bNOlf_g7s6svDYnlBM6Xown-0RwYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_008.png?type=w740",
@@ -4881,7 +5247,7 @@
         "openKeyword": [
             "MDEF"
         ],
-        "key": 147
+        "key": 164
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjE4/MDAxNTMwMjAwMTA2NDkz.KxPU33yFzGzETdIaw4mzRP3fWIXVF64tLp7iT_dxOIAg.z37ErGqYTq80GUk5gXtopFwxu8Twhtr9-36eWAIydwUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_078.png?type=w740",
@@ -4914,7 +5280,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 148
+        "key": 165
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTk4/MDAxNTMwMTkxMjA4MjA3.XVi7mVgFuuu41BUVvhopdL6Y3862aibNZyCfc862yqwg.ARQgG_58HIBod8wv9tIKDdKFv4sVLFotIMzRUGYKZXwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_150.png?type=w740",
@@ -4954,7 +5320,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 149
+        "key": 166
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTI0/MDAxNTMwMTg4NDUwOTY5.J7RL23UtMIyV2luESct75sdTtTz78C5ft-BGSSNiVJ0g.Ef0rf6HLUfXswKMSgbz-Lw8H48wXd_4MGetPzV9VVSwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_093.png?type=w740",
@@ -4991,7 +5357,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 150
+        "key": 167
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMzIg/MDAxNTMwMjAxMTI3Mjk2.eqnwh9WhlgPnwDXEAmhNg4Y8lcLd4CQuPIsyRPDEteIg.o50_EoexzmtFde4DqT3CNYGn_k3Ct655nA9UGbIwipEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_137.png?type=w740",
@@ -5020,7 +5386,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 151
+        "key": 168
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTMx/MDAxNTMwMTkzNDU2NzI1.80IuyNstfLCwQB-cGhFfsjhBueH0kUQ2RsO5lffFZMkg.Y0mpGQDvmEq8-9bVStMUy4Sz90xt8Kcne22czfYlU3wg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_382.png?type=w740",
@@ -5060,7 +5426,7 @@
         "openKeyword": [
             "가방칸"
         ],
-        "key": 152
+        "key": 169
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTM4/MDAxNTMwMTkyMzc1MzM1.51zjwKc7hxXwJ07xdMqvOebWFIZZWFBpYDycg6mqbQkg.sFj3Rqjwbg4FxQ31oXS7xGKzQdCGUFOZLGqjwsuKZd0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_170.png?type=w740",
@@ -5094,7 +5460,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 153
+        "key": 170
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjU0/MDAxNTMwMTkxODg1NTEz.SZWbXrkVakW2HureZ43qJPPwdh17WTCAyU3GgCfr7H4g.rb6rzf3g81uzLoUGfwDuxjMsV9XEQU7piD3WcwOWEusg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_223.png?type=w740",
@@ -5128,7 +5494,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 154
+        "key": 171
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjA0/MDAxNTMwMTg4OTgyNzMy.yhZk7CuhjX2qdFhWg3O1VkTQ_979iTSO8jDcavKTNqgg.SpY3FyEVrgAHrX53kHSCpo-G21p6rMZ9bq7fmVKleIsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_235.png?type=w740",
@@ -5166,7 +5532,7 @@
         "openKeyword": [
             "MaxSP"
         ],
-        "key": 155
+        "key": 172
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjcg/MDAxNTMwMTk3NDU0NjA4.oFV7UHvsro7xUFf62ppGG92406I__Z-edtQwXh1CwqQg.JEE0_iE1L4MrBqjLQtkoQYROtc2P07UHELSdViOJ7p0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_233.png?type=w740",
@@ -5200,7 +5566,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 156
+        "key": 173
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTc3/MDAxNTMwMTg4NjY4NzEz.ySy6PiAkPaBrkZLBq1rvm38qkE7sh0ZleyxnFJwIOWog.IFJDan_lE2dge7N7Tun5tVm2gsQSGhctU7KPIdsctO4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_232.png?type=w740",
@@ -5240,7 +5606,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 157
+        "key": 174
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTU0/MDAxNTMwMTk0NDM1ODY0.GJb2qcy703b5pgceBeLajmDTfQKq28a6eE9OevJVPwIg.vmc4t6UdKyTPiTB2Ea9zwJJimNSMpz19tGlQbTA6dNIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_256.png?type=w740",
@@ -5261,7 +5627,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 158
+        "key": 175
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjM5/MDAxNTMwMTk1Nzc3NzY2.dnotwhRIy_EizQTcU3X8QCJYLQgY_45Hjx95kUBVe5Mg.uOf7tJ0WgHyW-60G2fe8fk_UbfI_tHmVLIMMZw7Ohi4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_257.png?type=w740",
@@ -5282,7 +5648,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 159
+        "key": 176
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjYx/MDAxNTMwMTk1Nzk5NjYx.eJtBFVyMf-I0DHOKO0v7QxTB_oFAGrOFIXk3V1QKPhwg.e4rxLsvpc0MHxuWjGxO9IzMwx8kOcZcsYpX54gjW-ZQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_261.png?type=w740",
@@ -5304,7 +5670,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 160
+        "key": 177
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjMx/MDAxNTMwMTk1MTYyNjQ1.p5OfP7_RK_qdFTM6ecSb66PFj8wCZwdJmq7RTv5wTQog.YfAdEWw9yIrrGBWj6zaIRrR7Ln7wNiW3nRrMPcAdy8cg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_262.png?type=w740",
@@ -5326,7 +5692,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 161
+        "key": 178
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNTkg/MDAxNTMwMTk1MTQzNjUx.Trsa1biJKDrbqwkv6_0dxJXhJs8lmK81K4MxjDV-zwIg.kv0w__BCyY-fbUdzPB4I_dN82eyC9g-IyrY4KANVLHIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_255.png?type=w740",
@@ -5347,7 +5713,30 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 162
+        "key": 179
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=561110",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_551010.png?v=180720a",
+        "name": "식신왕관 생선국",
+        "option": "ATK＋10, MATK＋10, STR＋1",
+        "savePoint": "MaxHP +18",
+        "openPoint": "MaxHP +6",
+        "recipe": "",
+        "firstChar": "ᄉ",
+        "recipeList": [],
+        "optionKeyword": [
+            "MATK",
+            "ATK",
+            "STR"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 180
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTI5/MDAxNTMwMTkzNzk1MDg1.Pqo0R2OzKLDV_IWy0JYLhEC1UCjN3MxOAOM4rYzjwF0g.S-ckbgExjSyF4eWYyiQB6UTKwNptPrwx8Zu6NwXTz5Ag.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_259.png?type=w740",
@@ -5368,7 +5757,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 163
+        "key": 181
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTQ1/MDAxNTMwMTk0MDk3MjMy.-oWvKMvNrZjriiZ2odO0Rkp5DC6Yf-RAF_ZxoR8L0Jwg.MX0C6GdaYpdXTwCo3URDGtwOaCMD2zsnXVWnibT1pm8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_258.png?type=w740",
@@ -5389,7 +5778,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 164
+        "key": 182
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTA1/MDAxNTMwMTk2NTMyNzg3.gtNHPk5Fjrxb2QC-acx-g3jEh36kwIq6VBrHeTMulbcg.W-USpNNPJmFMrExtrEAakAJfTzTZR-_sZ2MjrZDI7qAg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_254.png?type=w740",
@@ -5410,7 +5799,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 165
+        "key": 183
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTg2/MDAxNTMwMTkzODA3ODE1.hAU6PAJpn_K-0A7byWpxCzz8gB9FTFUBfkiGPTsDiI8g.P2tzeJJR47uD7IbAuzY-tXKKSF4j-6EDDOUcCJwWRbQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_265.png?type=w740",
@@ -5432,7 +5821,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 166
+        "key": 184
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTY3/MDAxNTMwMTk0NDQ1Nzky.g2SLFMocbeQFe0rAdUKqO7mpKbqPMTSiBOjdGZIKxgsg.P6pU9JjCRm3Mc9B6z7yHzlRmI6ypB7skmGU4zrTdUrwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_263.png?type=w740",
@@ -5454,7 +5843,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 167
+        "key": 185
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjAy/MDAxNTMwMTk0MTA1OTE4.AgBGhxZj1ihIF7N_2GcqNvbnGrtk-H-RxGBPVCvQTmcg.XzPue2n09puo-w80vNYcZEDZtF73w42iG1dIv-er2dIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_264.png?type=w740",
@@ -5476,7 +5865,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 168
+        "key": 186
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfODQg/MDAxNTMwMTk2NTQwMzQw.W3tr9yOb2hgK6qsMh7t9bxnWZZgldU8goxgmnNIUXpAg.EHaYj-I_FflvNyJZONL_2lXt0wuvNK1p-vjboUf65qMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_260.png?type=w740",
@@ -5498,7 +5887,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 169
+        "key": 187
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNzAg/MDAxNTMwMTg0NzE2NTUx.YPJfZftsrPhjNp5LTZFLrRutTQl8QYApcGp9c_biW3Yg.O6Qdggz7fWIepIpfQ9FYg0mCoq6EfCINd6pEvmbZC7Yg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_309.png?type=w740",
@@ -5517,7 +5906,7 @@
             "ATK"
         ],
         "openKeyword": [],
-        "key": 170
+        "key": 188
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfODgg/MDAxNTMwMjAzMDkwOTM1.0UlyQKh9MPOu-vVi_F4EZPF4YeKIFRX7GPnR2Vu0zW8g.KXLk3Wqws9ZyAD-Djerkkugk2bgLqVhweNCQGL8yPk0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_104.png?type=w740",
@@ -5550,7 +5939,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 171
+        "key": 189
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfOCAg/MDAxNTMwMTg4NzI0ODQx.ADlDPwV4Fhn-OxXlmnc0IsiAijIxLVBZq6Dpjj7nlYMg.qxMp3K-IgfxlcTUHLkvalma_FGD-c6CWLoBZrbJ4N3Ig.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_238.png?type=w740",
@@ -5589,7 +5978,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 172
+        "key": 190
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjk5/MDAxNTMwMTkzOTUyODA3.Z_CXofIbHadYZRQv1eeNb3gHx3P14XDEyMjvOEWy-Log.WZanW1b9qGlYiVqy99j1nhXox5Bny7OuKqdPjTTupr8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_084.png?type=w740",
@@ -5623,7 +6012,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 173
+        "key": 191
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTA5/MDAxNTMwMjAxNDI4NTYx.Mz9YWmSXq5feXVU3MQck9izHy-26wXFVaWgWkN5ovEQg.LLZ3rU10ioxQvPTaSP9sP7IqeWR4zSvLJc0bkD3U1pUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_166.png?type=w740",
@@ -5661,7 +6050,7 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 174
+        "key": 192
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjI0/MDAxNTMwMTk5OTE1MTgw.Bx6w6IF_o4rUq3T41ll9eq2iMUTxOb55uQFzq5MGh9Ug.j9zJCEVJrlhAE3q2vkWtAayeKwu0Go3ja2JeWkDE_jwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_122.png?type=w740",
@@ -5694,7 +6083,7 @@
         "openKeyword": [
             "MDEF"
         ],
-        "key": 175
+        "key": 193
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTg4/MDAxNTMwMTg0ODg0MDg1.Xoig4uy9XepYn6UulnTYf8nS5kHCbE1Sf2-5qVAwkaEg.wV7_D9szkZFRa8cZ2B0jk0DZTdvHbUvOxaStTeVjAxsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_284.png?type=w740",
@@ -5729,7 +6118,7 @@
             "AGI"
         ],
         "openKeyword": [],
-        "key": 176
+        "key": 194
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjA2/MDAxNTMwMTg0NzgwMDU0.U4rwFLnuIeyh_F-4mLyyzSazPSYOuouQ1NoH2IjlJC0g.8X6EF8sLdh1muhSA_oB4B3UO3nxT9-w0FBEeEPXeLxgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_272.png?type=w740",
@@ -5764,7 +6153,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 177
+        "key": 195
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNzUg/MDAxNTMwMjAyMTk2ODI1.DI-Kp2DhOexpj77Ta1p-gv4lD56Y7ZFQT37MzTC-HvUg.z9zva1Wvbmn9945IMWeBmsn0ug71Jw1OHizyfHfz69Eg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_040.png?type=w740",
@@ -5797,7 +6186,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 178
+        "key": 196
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTc5/MDAxNTMwMTg4OTU4NTI5.Z_5XeUm9cy82oKHOfCjeMLnggWMT4o04rgwD2_Nl790g.036R_lZ-MkehR64eJdQ3t71GUHFNixmECw1IxONBZY0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_158.png?type=w740",
@@ -5835,7 +6224,7 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 179
+        "key": 197
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTUx/MDAxNTMwMjAxNDYxMzE5.UpVK6SdjTH76LtGiFNW30rpLp1f2T0AiV8loEoAczm0g.AyVWEnR1AR4e2xuti5q6ZJWb3ZZNkC8ZEquNV2yeoZIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_180.png?type=w740",
@@ -5872,7 +6261,7 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 180
+        "key": 198
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjgy/MDAxNTMwMTk4NzAxODA2.K2Sf908pGlO2X56oYsK-OLxT99kks1pE2gjkglUBpW8g.ZdS8DOmG9uXi12E7ySblYdiSlLgIhfwW0Kciu0pL1YEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_216.png?type=w740",
@@ -5902,7 +6291,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 181
+        "key": 199
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTc2/MDAxNTMwMTk2MDc4MjUx.mbY8mykBH0p0hHQvWl7dP5DXUy4eWaR-wK733ddKE5cg.l0nMGcxqXJwoLrnPlfaDJQdQHaT6tZKMndKOPCFyedgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_031.png?type=w740",
@@ -5941,7 +6330,7 @@
         "openKeyword": [
             "MDEF"
         ],
-        "key": 182
+        "key": 200
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTk0/MDAxNTMwMTg4ODM0NTkx.cwDtGdxewchtAkNL-36jW65xl_i7CWNQNcf5-XPgVBkg.XclccVxIKe_0_dfyvlrg924TPpXBKy4-sbIWGj2873wg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_213.png?type=w740",
@@ -5979,7 +6368,28 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 183
+        "key": 201
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=48559",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_48559.png?v=180720a",
+        "name": "안경",
+        "option": "DEF＋10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +24",
+        "recipe": "안경 도면 x1, 유리구슬 x604, 망자의 유물 x966, 검은 염료 x2, 51,000 Zeny",
+        "firstChar": "ᄋ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 202
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTkx/MDAxNTMwMjAwMTY4NTM4.vNJGukyN229alylQCVxlW_G2JamngKfh4ra2Y6BYHTcg.YPecpYSp6E4gtrCnXh7usrXYUAvMpKq_2lpep5P6Q8Yg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_090.png?type=w740",
@@ -6013,7 +6423,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 184
+        "key": 203
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTg4/MDAxNTMwMTg4NjQ4NzU5.axzy4YEjFjZocfT0fxYEsuO_h6kQwMlshPfuhav9O54g.bHj-R1GgBLoE6R_4r5OHvYQV8mwW1hwQPIu2BAgpKo4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_194.png?type=w740",
@@ -6051,7 +6461,28 @@
         "openKeyword": [
             "MDEF"
         ],
-        "key": 185
+        "key": 204
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=48518",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_48518.png?v=180720a",
+        "name": "애꾸눈의 안대",
+        "option": "DEF＋10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +55",
+        "recipe": "애꾸눈의 안대 도면 x1, 단단한 껍질 x929, 검은 염료 x1, 51,000 Zeny",
+        "firstChar": "ᄋ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 205
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTY0/MDAxNTMwMTg0ODY1ODQ4.jm6-XXSZ1MNjSNEA3vKNwK0L3TSw-W6BCxFVSV6QZMEg.SIDnAGGVnB1g4g31b8nOm1NoqYl59Zk1abyAv0Fy7Swg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_282.png?type=w740",
@@ -6086,7 +6517,7 @@
             "LUK"
         ],
         "openKeyword": [],
-        "key": 186
+        "key": 206
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjk4/MDAxNTMwMTg0NzU1MDQ1.p_n3JAyQKQzKWMhu8NBEOEWVM6BPp6AbQOLNa2Ib_qIg.h21qGpXPaHyUGFn1HYXiSCFQ-cjIPn_eAKaBQzMWwcwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_270.png?type=w740",
@@ -6121,7 +6552,28 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 187
+        "key": 207
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=145005",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45005.png?v=180720a",
+        "name": "어부의 모자[1]",
+        "option": "DEF＋10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +64",
+        "recipe": "어부의 모자[1] 도면 x1, 부드러운 털 x518, 젤로피 x518, 51,000 Zeny",
+        "firstChar": "ᄋ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 208
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTg5/MDAxNTMwMTk0MDg4NDQ4.OofYRjAEgLQz7hOxlthsrMkVRs34vc-ZDZEyQTveDcUg.v4WJh3TIlFGp74gxbeOIIrG5uE42WXNTU5KEOGaa0iYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_244.png?type=w740",
@@ -6160,7 +6612,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 188
+        "key": 209
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTE2/MDAxNTMwMTkzNzc5NTQ3.5WmO7zD7Y8kn-hKMxapp-G262fgpN4PZ1eiDeyctrMcg.8uga2Qc8LcC-ZDaZwKIrABrghNUxqYvDGIOFUOiPIPcg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_242.png?type=w740",
@@ -6197,7 +6649,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 189
+        "key": 210
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjQy/MDAxNTMwMTk5Njc5MTkx.Zl0JtaUfCCt4QPS6fnx3wIYRnkg80iIjB-F3L2uyLc8g.HcbD9_ycfFKHYLL6aKPY-mFIEXiHJRTiZHeXJAMKR4Qg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_253.png?type=w740",
@@ -6232,7 +6684,26 @@
             "FLEE"
         ],
         "openKeyword": [],
-        "key": 190
+        "key": 211
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=45127",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45127.png?v=180720a",
+        "name": "엔젤링핀",
+        "option": "FLEE＋5",
+        "savePoint": "FLEE +1",
+        "openPoint": "",
+        "recipe": "",
+        "firstChar": "ᄋ",
+        "recipeList": [],
+        "optionKeyword": [
+            "FLEE"
+        ],
+        "saveKeyword": [
+            "FLEE"
+        ],
+        "openKeyword": [],
+        "key": 212
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNDQg/MDAxNTMwMTk5ODY4MTg5.RSNGs_hnZjf6eOlCB1mZB8S72Ds41tM1AbXcV8VcAf8g.5ZqCGuo2cDWwzO0kyqFaIYahO4EiGRhl0YC51mmvfxIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_096.png?type=w740",
@@ -6261,7 +6732,7 @@
         "openKeyword": [
             "MDEF"
         ],
-        "key": 191
+        "key": 213
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjI2/MDAxNTMwMTkzNjc3NDE5.CYNsWWhST5_nqScHGUlnTgQJZrqCsLCLxPdtojFybXYg.YH133kWsKZJt64IgQ3jJKHI3WE0KZte9JJAwOgriPnsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_109.png?type=w740",
@@ -6296,7 +6767,7 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 192
+        "key": 214
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjE2/MDAxNTMwMTk0NDA0MjU1.z4qEjpSM5F8bpJx2CJRYvKyzjvBjEJIEmfMwBhBquz8g.5euGgHo4GGxp2BTkXH7q5Z0zJnlqQpMW7s8UsVSLwDwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_226.png?type=w740",
@@ -6334,7 +6805,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 193
+        "key": 215
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjEz/MDAxNTMwMTkzMTg5Nzk3.AGfFjqNe3FnuVPX127xeUshRlDr2A3kzidcz7_5eIPYg.i12dGWmjq52zu_hS7T3b2TJ34nT1SHK6OTf6VtAut1wg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_130.png?type=w740",
@@ -6372,7 +6843,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 194
+        "key": 216
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjg2/MDAxNTMwMTk3NDM4OTcx.I9uCpi_MFWZUNWiUdsI6LXBfhEOUtC14aeVm6qCPLDUg.FoktPrw7uKtfwib27ry--5_jmGG6cy7lB_AHRtUr1kkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_228.png?type=w740",
@@ -6406,7 +6877,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 195
+        "key": 217
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfOTkg/MDAxNTMwMjAwMTUzMTQ0.R1mlkpldzKN9QnCH2KQec7qiat-h2oKZKYjsDWZ-6xgg.fP-_asD2wmIeEIC8mcqMqfgWta9ElM43tquLckBgXHMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_081.png?type=w740",
@@ -6435,7 +6906,28 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 196
+        "key": 218
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=45177",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45177.png?v=180720a",
+        "name": "열매 껍질",
+        "option": "DEF＋15",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +24",
+        "recipe": "",
+        "firstChar": "ᄋ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 219
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfODUg/MDAxNTMwMTk2MTYyNTAy.7jwao46iEe0JxgxztaorNl28LKRdfy4rZ0FwtYh7YAog.0_XeWXcwTvO7OsRaKTQWUu39gGfhh35mJp7JIz1km6Qg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_100.png?type=w740",
@@ -6469,7 +6961,7 @@
         "openKeyword": [
             "MDEF"
         ],
-        "key": 197
+        "key": 220
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfOTYg/MDAxNTMwMTg0OTM3OTU5.8lmD6xCu4IRNlluFqHshtp0FbPbDArOUxh6egW8ick8g.HyNi7uGbButhlQ-Inp3zt6OeNSVdXn48O4GC5by2YRwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_291.png?type=w740",
@@ -6505,7 +6997,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 198
+        "key": 221
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjc0/MDAxNTMwMTg0ODQxMzEw.C0ZRy4MtAlxfNiclgEgnND84zbTZnOS4ZP16jGngYLQg.oRzqPvO5BGflBm6gP6T3ucgWlBN90CZVz-V6qa_z27Ug.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_279.png?type=w740",
@@ -6540,7 +7032,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 199
+        "key": 222
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTY3/MDAxNTMwMTk0MzkxNjU4.njdSH84CSrfBdLqkGCJMkT4Db7-vVDRDGQBWNq3zeP0g.Sxdgyr0-tz-X6cP6f3xCXniGheT6zxh4XtbTcYBGarwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_202.png?type=w740",
@@ -6578,7 +7070,28 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 200
+        "key": 223
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=145080",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45080.png?v=180720a",
+        "name": "영혼고리[1]",
+        "option": "DEF＋10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +64",
+        "recipe": "영혼고리[1] 도면 x1, 망자의 유물 x725, 젤로피 x906, 강철 x39, 질콘 x10, 51,000 Zeny",
+        "firstChar": "ᄋ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 224
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTY1/MDAxNTMwMjAzMTI1Mjcw.otiyo2yzwFhAwH_d8c-N_DOyOA1k9Ht5FHem7hBrn2sg.KKk9IrsqQldyGExYCDXnjeOFTGnBHmFuEnn8xAjdMWcg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_133.png?type=w740",
@@ -6611,7 +7124,28 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 201
+        "key": 225
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=145095",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45095.png?v=180720a",
+        "name": "오크로드의 투구[1]",
+        "option": "DEF＋15",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +64",
+        "recipe": "오크로드의 투구[1] 도면 x1, 악마의 뿔 x1,395, 오크히어로 증표 x1, 드래곤의 비늘 x1, 오크워리어 증표 x20, 102,000 Zeny",
+        "firstChar": "ᄋ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 226
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjc2/MDAxNTMwMTk1MDcwMDYy.m-7a5xcU9kxqCWIgQomYrZIBSnZH1zlyRlit5J_1MLAg.fzhaSzGj-06wIKIVr700XPeQE1mNy45fzTocRnp0ol8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_135.png?type=w740",
@@ -6650,7 +7184,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 202
+        "key": 227
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNTYg/MDAxNTMwMjAwMDQ5MzQ3.sNfwlPiOmHRnccfy99F7wFFktcRfKluTPZXmnSzAMv8g.sk8cUrICi81t0DXPZ4iZQq95Ov2KBpgLjcsNSUJ4c1wg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_027.png?type=w740",
@@ -6683,7 +7217,28 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 203
+        "key": 228
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=45134",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45134.png?v=180720a",
+        "name": "옵저버",
+        "option": "MaxHP＋400",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +7",
+        "recipe": "",
+        "firstChar": "ᄋ",
+        "recipeList": [],
+        "optionKeyword": [
+            "MaxHP"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 229
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTE0/MDAxNTMwMjAwOTcxMjY3.FVpj7qRJjj42w18iJ31SMDRfLIXIx9_wa4wJTxBkT9Eg.rLqHLKrx8WVmbdCC1Gasm5EcorWKHbAjT6ujePJ4-tgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_039.png?type=w740",
@@ -6716,7 +7271,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 204
+        "key": 230
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjkz/MDAxNTMwMTg4NjEzNjA0.kr1tkEwDR4ZrNfHBMhQaRAsZtO1TTcsLFVgWD4GWIBIg.M-6qalAKKM-4bZJvQBFp81m-rt9IqcTU0bTuVSBfXiog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_168.png?type=w740",
@@ -6753,7 +7308,24 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 205
+        "key": 231
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=550001",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_550001.png?v=180720a",
+        "name": "요리사의 모자",
+        "option": "",
+        "savePoint": "MaxHP +18",
+        "openPoint": "",
+        "recipe": "",
+        "firstChar": "ᄋ",
+        "recipeList": [],
+        "optionKeyword": [],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [],
+        "key": 232
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTMy/MDAxNTMwMTk0NjcyNzkw.TO04HCyqwlewywPVuaQ69A0r2JjtzHGzBApRjLaa7g8g.MjlTbDZZnTI2bhx10J886FfMuSkNsiLGkatZEI94SFYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_094.png?type=w740",
@@ -6787,7 +7359,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 206
+        "key": 233
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMzAg/MDAxNTMwMTg0NzM1NzQ0.JdNA8-3c48xdDCNtGUn_Bp4GsIzWHwLkfi8mnSXWAuIg.TwtZMrGIOyDk_sx7MkzFN-c717qyc0Y3MdcL434Slc4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_310.png?type=w740",
@@ -6806,7 +7378,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 207
+        "key": 234
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjY3/MDAxNTMwMTczMDk2NDk2.Q61b_735eGoqkuBvQ5I6NSg0fyV7kpT4-14zGOvXOxog.VC3w5ND0DTaZX2wIkQetV4sb4vr-b7OaZUNfmLjt6t8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_314.png?type=w740",
@@ -6825,7 +7397,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 208
+        "key": 235
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTUw/MDAxNTMwMTkyOTM0Mzcz.lhXVmUo3DB6oj2fCKfDV7-WoT7yL5lqRASQJ8nnNY14g.TgSiLgHmQ0I5fbbm9oxaHRaceJV4c0iDIKzR6Jxt4V8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_220.png?type=w740",
@@ -6863,7 +7435,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 209
+        "key": 236
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTk3/MDAxNTMwMTkzOTY4NDY3.82vzIX9K-WyVLPe0Je-cGhtCSfJY0zsLfvmgamE1xqYg.F4XiRoDCiF_JpNUQD0IhisJ9K-ageYBnLh1MlL6ZUiQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_120.png?type=w740",
@@ -6901,7 +7473,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 210
+        "key": 237
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjU3/MDAxNTMwMTkzMzg3MjUy.GvqhSTzq_AlJK0mhNg9Zw_0M7iD6V83gwWhFIjOsTs8g.4vg37FIZX3Vxav7Mcdw06VlWj2gifnKEgH4lOuyAhiwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_204.png?type=w740",
@@ -6938,7 +7510,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 211
+        "key": 238
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjk3/MDAxNTMwMTkzNTExMDUy.SSl7RyTS1XwwzKUsAGAtW3E-fnqB9xQVVURwGzddcpsg.HTQ-iyyphO6kFAre7u9kaS8qG2lYSDLpPMDg_ecRHGUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_071.png?type=w740",
@@ -6971,7 +7543,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 212
+        "key": 239
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjM5/MDAxNTMwMjAwMTQ0MDQy.PdYvtQ5cLN_Rr3wr8m847PnomD3EBQOCLGVcm0LfjO4g.3EhgCSouVC0K7oWNYbZfrGRZl0mSooklnunOGCgOKosg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_080.png?type=w740",
@@ -7004,7 +7576,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 213
+        "key": 240
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNDQg/MDAxNTMwMTkxMTk3MDY5.7x_Qz068ljND3Qi5DBjiGbNqp5MQArBwdn_8WpM82Z4g.dmz67TGz7CCsgyh02vbu_jyT6fcKzyKsiKpoQwVO2nIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_116.png?type=w740",
@@ -7043,7 +7615,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 214
+        "key": 241
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTIz/MDAxNTMwMjAwMTc5MzI4.ttRZ04G420k5AU7_fXTRLgn4LRggyEfYK7Px-BjD-FYg.Fe9eP46wSVxafi7KKemSglGeDQ-ALG_pVhmkHXrkSPog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_099.png?type=w740",
@@ -7080,7 +7652,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 215
+        "key": 242
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTU4/MDAxNTMwMTkyMTY5NTQw.OrELcruzJKPRlxiC2nJ_CTtkWdA4gJzmSb--IvGwvW0g.myJUALxCy6VYCN_Njb3ZWaEmMO4I1N5qPAr4mEdlWh0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_034.png?type=w740",
@@ -7114,7 +7686,29 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 216
+        "key": 243
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=145107",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45107.png?v=180720a",
+        "name": "위저드햇[1]",
+        "option": "DEF＋5, MaxSP＋100",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +64",
+        "recipe": "위저드햇[1] 도면 x1, 가렛 x483, 부드러운 털 x604, 노란 염료 x8, 51,000 Zeny",
+        "firstChar": "ᄋ",
+        "recipeList": [],
+        "optionKeyword": [
+            "MaxSP",
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 244
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTkz/MDAxNTMwMTkzNTA0MTI2.EXx-OreRLDXZFO5HxqYW8sc-_PTZAN7zMxH4gYsTN3Yg.fqw7HZBZ_E93JFky4Gqak0jboJFBfrHC9gspwGeLdm8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_070.png?type=w740",
@@ -7147,7 +7741,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 217
+        "key": 245
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTA3/MDAxNTMwMjAwMDgyMDcx.kdWmuJROTHM_FVF1NuCyS7_D72JjFE-NFrGRmWBK6rUg.hbKsaXfCSNNz1gXqQkpalONXEBnx0i6TWvZjWQAWU5kg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_056.png?type=w740",
@@ -7180,7 +7774,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 218
+        "key": 246
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTI4/MDAxNTMwMTk5OTM1MTU5.Cngyx4NGohHZopO6wE1Aq77XtG3wRCLNX0hUDGrtmMkg.FW2i11AKPiQIygIXXnhjG10SA1sDgjUCu195RkePv74g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_197.png?type=w740",
@@ -7217,7 +7811,7 @@
         "openKeyword": [
             "MDEF"
         ],
-        "key": 219
+        "key": 247
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTEx/MDAxNTMwMTk2NDQ1NDg3.qiHN6jPsOo9Pg8ymsX1y7H1nmiRZOaOv78icAQKmSl8g.Cvt4v-KRGbRBJruf02EsN4o1-TWVA2ocN09p4aPAJ3Qg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_165.png?type=w740",
@@ -7252,7 +7846,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 220
+        "key": 248
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTI5/MDAxNTMwMTk5ODA4MTAw.W_uBz_c1gQmm5r9csxTz2ZDpIs9eKLJGz9KQ9TsZ76kg.XDi9xW1G7agUa0Lo8BXMAIliJjxzmW42SlEiY05UQRYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_041.png?type=w740",
@@ -7290,7 +7884,28 @@
         "openKeyword": [
             "MDEF"
         ],
-        "key": 221
+        "key": 249
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=48550",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_48550.png?v=180720a",
+        "name": "입에 문 뼈",
+        "option": "DEF＋10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +24",
+        "recipe": "입에 문 뼈 도면 x1, 성흔 x725, 꿀 x10, 뼈조각 x19, 51,000 Zeny",
+        "firstChar": "ᄋ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 250
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjg1/MDAxNTMwMTk4OTU0Mjc0.cbXU4W8PXdWkHVLHW8suCrA_oQyA1uH6c83zqCLfd4Mg.NgpeaLeOofhTVQFSwyqX6IkC3H_6y_nhUZiO8ukEIjsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_368.png?type=w740",
@@ -7309,7 +7924,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 222
+        "key": 251
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfOTcg/MDAxNTMwMTg4ODE2NTQ2.EfU1K8w_rkI4en4cTUnMH1wSHAb5K1ArcxCR5avVzNsg.gSx24pbDgivXAYTUqB6O8qCgCjtshYQ56oZ6HP-8rNMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_183.png?type=w740",
@@ -7342,7 +7957,7 @@
         "openKeyword": [
             "FLEE"
         ],
-        "key": 223
+        "key": 252
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfOTQg/MDAxNTMwMTk2NTAxNTYw.2XipVkDmsGWIxvE8yhxN6sOkcOg1Ecz2FyIdbaxx6tgg.PxlljY_RxDaIZHbPbLQ15BAkq6JL477VTGvt2IFeiNwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_211.png?type=w740",
@@ -7380,7 +7995,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 224
+        "key": 253
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNDUg/MDAxNTMwMTkyNTAxMTk3.jn1WJlGpZupGHLTBu_oAitxAQWAVXUxI0WfCfSQwxKEg.49KJhKqePnEoobsvtyWtz9dea62hYIcDsd4_iGXNF40g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_028.png?type=w740",
@@ -7409,7 +8024,28 @@
         "openKeyword": [
             "MDEF"
         ],
-        "key": 225
+        "key": 254
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=45042",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45042.png?v=180720a",
+        "name": "장식용 알껍질",
+        "option": "DEF＋10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "DEF +2",
+        "recipe": "장식용 알껍질 도면 x1, 끈적끈적한 액체 x431, 젤로피 x539, 51,000 Zeny",
+        "firstChar": "ᄌ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "DEF"
+        ],
+        "key": 255
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjEy/MDAxNTMwMTg0OTIxMzQ2.6EWDmMReu8-YcfjaggT1Gf6TWO1M_Fhpz22iAIl5_wMg.jO80QC3--XV93Z8sR9KZjQ6lTu3zBlgpQHTJ70yL4tEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_289.png?type=w740",
@@ -7445,7 +8081,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 226
+        "key": 256
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfOTcg/MDAxNTMwMTg0ODI1MDg5.yV25PiVuOsTCL3rlyg8RQl4yGmLhMHm9eoy6OYPizjEg.RvfLI4yvHeT8WDurgzZdmIfOxRHFEwuPdAQbkuvNSCIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_277.png?type=w740",
@@ -7481,7 +8117,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 227
+        "key": 257
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjQ4/MDAxNTMwMjAwMTk1ODAz.xgH0FIK7fInOW8ifBTTJ4VsS3kvgxAYaS-HVp_UFPeMg.w38MIeZ_yL_NiURlPvx2yudpNN47JIWMBv6y0oabozQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_118.png?type=w740",
@@ -7510,7 +8146,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 228
+        "key": 258
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNjgg/MDAxNTMwMjAxMzkzODIy.zpaKzWGZVrmF5jL_Tl_mo9alKvC6f-UeHMtXfeQ-rlIg.nfMuDHYaU4g_Zz_iAI9Fa-XtkixGYAW9I0IJkTAYztAg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_134.png?type=w740",
@@ -7547,7 +8183,7 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 229
+        "key": 259
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTMg/MDAxNTMwMTkyODY3NjU3.blho3BkDwc5XN_5dciPwLEuZett7kZKob02JSo7HubAg.nUSKv4zP8tm-cAOGrryBQUbVdOTpu4lnBenAG9grc2Ag.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_353.png?type=w740",
@@ -7565,7 +8201,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 230
+        "key": 260
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjky/MDAxNTMwMTg4NjAxNTMw.ndisrXtyulnvK3zz4o4tUEQusIKBON4Ii0g0BdXBg7Qg.vUzud7UM6AVdUKFaJXF9K9BBUkL3MqYwtyZjOFE7SJsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_152.png?type=w740",
@@ -7606,7 +8242,29 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 231
+        "key": 261
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=145098",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45098.png?v=180720a",
+        "name": "쥬얼 헬름[1]",
+        "option": "DEF＋5, MDEF＋10",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +64",
+        "recipe": "쥬얼 헬름[1] 도면 x1, 자르곤 x1,116, 저주받은 루비 x2, 유리구슬 x1,116, 아메디스트 x20, 102,000 Zeny",
+        "firstChar": "ᄌ",
+        "recipeList": [],
+        "optionKeyword": [
+            "MDEF",
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 262
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjU0/MDAxNTMwMTg0OTA2OTcy.jYzLkLQQrdEa4rilmYTXRAgJBbJNuMnu3msd8jFmusQg.ynbvefB93Mk4Wwh1axqSjrGMHpAbtugrdNOG7LgMQkgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_287.png?type=w740",
@@ -7642,7 +8300,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 232
+        "key": 263
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTA5/MDAxNTMwMTg0ODA1MTYy.i3rAG02hUfJAWZJZcu4vzlKIUpN8Ch_aIrHXpK4L9bMg.e3GH1M2YA7P9au36cTIDqokdOn_vhUYwnF0_YG-2qNsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_275.png?type=w740",
@@ -7678,7 +8336,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 233
+        "key": 264
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjYz/MDAxNTMwMTkyNDkxMzU2.KnK54sxx-KYLNkpml_y9EaPz1fcQsijNJZy-8SlNJrQg.AZmO0VodhFjy5FV-xONLr5wJWjtnX6e8ytlDykZqdhog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_019.png?type=w740",
@@ -7718,7 +8376,7 @@
         "openKeyword": [
             "MDEF"
         ],
-        "key": 234
+        "key": 265
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjAy/MDAxNTMwMTk3MzQ0NzM4.-KZUKJcI8_YakT_UmtOUE5gtdcwP9FWyJQXBWqXPYJ8g.11yb7bMndiL_vVhb2lWNXW4snxNnMFLDtlado-Wa6Ysg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_085.png?type=w740",
@@ -7756,7 +8414,7 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 235
+        "key": 266
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTIz/MDAxNTMwMTk0MTcwODMy.lCenL2XoWxea9iglRiA67imLGOWAAY6NzrDoY2BCcFMg.GyxKN1fle-apK9aBf99lxQttSGxXjEPIrr6Fzg9Ik0Ag.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_354.png?type=w740",
@@ -7776,7 +8434,7 @@
             "ATK"
         ],
         "openKeyword": [],
-        "key": 236
+        "key": 267
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTA3/MDAxNTMwMTg0OTE0ODUx.sSO9zrMzWD6P8-qVMZ5RYfLLqQGKdTYTGJn31Vo_en4g.86NxWjcFmgt0rAUjONc3vIsj8KTD2R2P4J-BCheMqJsg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_288.png?type=w740",
@@ -7812,7 +8470,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 237
+        "key": 268
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTYg/MDAxNTMwMTg0ODE4Njc2.T6wYxO9CeZdl_o2uh0Fd2AjrRxTJ4VKZnlj2PyiHMy4g.d9PlOKfKpQBnfZkpE_vpk6AFih_pPi1xOksoiIS3AI0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_276.png?type=w740",
@@ -7847,7 +8505,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 238
+        "key": 269
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfODQg/MDAxNTMwMjAwMDQwNjI1.e85XTeJxmG6cLfNSdpDOIBEa41VwiCdnf-szSq1N6rUg.SJ-eEBInc-VwzK-lkJQKsI60hudzk3d_G9noOMzbkZog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_025.png?type=w740",
@@ -7876,7 +8534,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 239
+        "key": 270
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTUy/MDAxNTMwMTk0ODU0NTUx.TZ-DZ5-wvZiR-VoP85qHE1yof20QsO0gzRWFGKt3zOcg.r8nwyj94d3Maoqh9HuY8Lr9nw7DpmA52097d8MW5_VYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_156.png?type=w740",
@@ -7913,7 +8571,7 @@
         "openKeyword": [
             "INT"
         ],
-        "key": 240
+        "key": 271
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNiAg/MDAxNTMwMjAyMjkzNjc3.IHN_nUrwjvuurh4QtNjTb38_BXGHVWnaCoc6BVLE8P8g.uxb89vuOpeUrcfJxKCzjb3yyRT0emv70Mvvyqc4Hjuwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_154.png?type=w740",
@@ -7946,7 +8604,7 @@
         "openKeyword": [
             "HIT"
         ],
-        "key": 241
+        "key": 272
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTA2/MDAxNTMwMTk0NjA3OTU2.1xtz30gJeTZN6RtAQjP-jn1Iw_VeaCM2dc1an9ISt0Eg.s_MxbNn3Tdo8_X5XRxVRkE00gQGdKlrfRP8dbVq4yOog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_058.png?type=w740",
@@ -7981,7 +8639,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 242
+        "key": 273
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTgz/MDAxNTMwMjAzMDc0OTE2.AsWBXnqNgF5yEXV9liuInbexSREQyqv_CHrEce56ENwg.v9UlUvx6IVAq0F1sef5OmisOAkYFtPompJgb8yTZRKkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_086.png?type=w740",
@@ -8018,7 +8676,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 243
+        "key": 274
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTc3/MDAxNTMwMTg4OTA5MTU2.vH3ehFJcyJKCOMAeX9yhPFTL6r1gfuiTDTY2SBaWYlcg.wQHaHxLIuxQPJKoq5I_eey4dLn14TaXNqalUr79VPVkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_188.png?type=w740",
@@ -8055,7 +8713,50 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 244
+        "key": 275
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=47096",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_47096.png?v=180720a",
+        "name": "카호의 가호",
+        "option": "자신의 5m 범위 내 파티원(자신 포함)의 지, 화속성 피해－10%, 제련 효과 (제련 ＋1마다 지, 화속성 피해－1%, 최대 15%)",
+        "savePoint": "DEF +2%, MDEF +2%",
+        "openPoint": "ATK +8",
+        "recipe": "카호의 가호 도면 x1, 불타는 심장 x2,958, 화염의 잔해 x20, 반짝이는 성수 x15, 마그마 보석 x25, 203,000 Zeny",
+        "firstChar": "ᄏ",
+        "recipeList": [],
+        "optionKeyword": [
+            "화속성"
+        ],
+        "saveKeyword": [
+            "MDEF",
+            "DEF"
+        ],
+        "openKeyword": [
+            "ATK"
+        ],
+        "key": 276
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=145179",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45179.png?v=180720a",
+        "name": "캡[1]",
+        "option": "DEF＋10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +64",
+        "recipe": "캡[1] 도면 x1, 젤로피 x970, 썩은 붕대 x970, 51,000 Zeny",
+        "firstChar": "ᄏ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 277
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTIz/MDAxNTMwMjAxMzc3MjA1.7JEcEZ9lMbylEbPk1bWxVmyYh63yB0Ti5lXhQKqSNMYg.y6zz7TxVatB75ZcIqzzQhYXqjl-BeJVgYL6tSRZyghog.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_128.png?type=w740",
@@ -8092,7 +8793,7 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 245
+        "key": 278
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNjEg/MDAxNTMwMTk1MDMyMTA4.fTLctiZ6Pehb9dwq_Xk-OSKN4Vky5lEX1-DIlmdiCqkg.QVsTkDkCcyc71lbEXcMFT0Bvzq50GuhJbtGirPl0a14g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_037.png?type=w740",
@@ -8130,7 +8831,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 246
+        "key": 279
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjQg/MDAxNTMwMTg4NDMyNjk2.A0ICnQ1Hz9rVKhrTUsq0qPrD07EHudklwKFgzV_f-0Yg.itVG7eAMfc418aQPLbVSubwLQcMaWkWEmQ9Pv3p0790g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_079.png?type=w740",
@@ -8169,7 +8870,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 247
+        "key": 280
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMzkg/MDAxNTMwMjAyMzE2ODc5.yCVAUu649dnz21UsTO28cbhXKoWE5hv3FAwPOOM76_cg.NE__WAtMzpglu0FuYOV1H2SruK0pk6-soUbtoWs1XCMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_206.png?type=w740",
@@ -8199,7 +8900,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 248
+        "key": 281
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTI5/MDAxNTMwMTg4NDcwNjMy.F4u9PGgRIZl4qqqkfBAgHDPYwT1AXWADRGj3M-A-0dkg.gcl-ykx9yH33q4D6xLc-wWHOPmFECwJozKhsY9UpaNAg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_106.png?type=w740",
@@ -8237,7 +8938,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 249
+        "key": 282
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjMw/MDAxNTMwMTk4NjU3NzIx.YcjlIzyndjs87EYV20D8D71ethifbGQRwdGP5rnK5Vog.HetpNowL-i2nx7nPSr6lhD1frm5aD2PsdQ2Y5DmJtoUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_208.png?type=w740",
@@ -8274,7 +8975,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 250
+        "key": 283
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfOTYg/MDAxNTMwMTkzNzg3NDI1.frIIJt5q-THnauAnSyFcWqtnC9z16uZCVZ3LC2qgpFgg.qJZi84C7-E2DsTn2Ow5Ccd3it22vLE91MV5v6Yo6nXEg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_243.png?type=w740",
@@ -8312,7 +9013,7 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 251
+        "key": 284
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNDUg/MDAxNTMwMjAxNzUwNDI5.95kPNlGqK49hzxzMpazZ6l75n-VSMpUsm0AVmEXR95wg.PL7L1mGLTuCEhaMPeHDVPuwR3tfTKGPQj_WpUKSSyhAg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_240.png?type=w740",
@@ -8346,7 +9047,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 252
+        "key": 285
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTg2/MDAxNTMwMTkzNjI4ODkx.AhvHbc78u_l13qbWT5oqvkmfknPHpX5G-2GebG5ftqcg.WoYEpBDTlWrNfgNLD_kf_i2xAaXAolPphWxtlRZKKjYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_013.png?type=w740",
@@ -8380,7 +9081,30 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 253
+        "key": 286
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=47076",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_47076.png?v=180720a",
+        "name": "투명 날개",
+        "option": "MaxHP＋300, ATK＋60, MATK＋40",
+        "savePoint": "MaxHP +60",
+        "openPoint": "MaxHP +60",
+        "recipe": "",
+        "firstChar": "ᄐ",
+        "recipeList": [],
+        "optionKeyword": [
+            "MaxHP",
+            "MATK",
+            "ATK"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 287
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTYx/MDAxNTMwMTg4NDYxMzkw.yYR2XckGFViQ5_FsIScMu2TXOie_lo9wdS1bPqhWAFAg.DxkE2rgnxqzFzklFNN9pMHWL723cI0YqPU8rv32kJ58g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_095.png?type=w740",
@@ -8418,7 +9142,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 254
+        "key": 288
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTkw/MDAxNTMwMjAwMDczODg0.c-jHTip6ZJsWsJfZD-OQ82KQAOAA10f0KAc3OIKVwYgg.QRE0T6bpIHsTk9dOAwcgAzeZZYlXaAYD2U5umbD9-H4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_046.png?type=w740",
@@ -8447,7 +9171,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 255
+        "key": 289
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjYw/MDAxNTMwMTkzNDQ2OTA0.L443TzT9u3ly-ds_G8-mndZUm59KakV8qYYSR6WWrCYg.ePVgp2lkvMQTcBybXB8kEj_jE-fLIEn9HL7orn2-ejUg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_363.png?type=w740",
@@ -8466,7 +9190,7 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 256
+        "key": 290
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfNjcg/MDAxNTMwMTk1NTQ0Mzc4.5-6KWopWlEoup04CbPky2y5DlZTU6MBHNxPwoN1s9xIg.aeqSowRphACyOVypRCLaMbtX9oqtlo_pCNGOUMrlRi4g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_091.png?type=w740",
@@ -8505,7 +9229,7 @@
         "openKeyword": [
             "MDEF"
         ],
-        "key": 257
+        "key": 291
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfNjIg/MDAxNTMwMjAwMDIzODc3.4xdxL7UbPMBLh4gTePp4Akv_RHxABdddaI0uTT0_FY8g.DxfpYpNGFjxMfToBN88Wz6KuIcneRi7kP2bF_cesu70g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_015.png?type=w740",
@@ -8534,7 +9258,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 258
+        "key": 292
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjY0/MDAxNTMwMTg4OTMzODM5.9XtrlZ3E_DLyn4F-Zd8uTGG5INhSeCQ_bwBXsbs5YrAg.6iPqsWP3vSvdooixJV4A2G-6GxT_rfR3lgCgrgPsHtwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_060.png?type=w740",
@@ -8568,7 +9292,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 259
+        "key": 293
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjk1/MDAxNTMwMTkzNzE2NDI3.7GrTQ08mIqhhigUNZereYSNcTumA4Cv3byonY46ky-og.YwSbhxSO-JclAksMjYgbw04yKWeKzd43FyQJiETthtkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_132.png?type=w740",
@@ -8606,7 +9330,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 260
+        "key": 294
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTIw/MDAxNTMwMTkyNjA0Njg2.V3nvTm5AwBjXnJLkTaWUk90-PRug4K3DHcKFpw9PRbIg.kIJdIwqzjVpsi-Ja0acmu51JSTSIEptGItjEilxClpkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_219.png?type=w740",
@@ -8643,7 +9367,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 261
+        "key": 295
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjkx/MDAxNTMwMjAwMDkwNjc4.LN7E7c-Yb7Te2AFTBnwOXwC82PZz1dyMq5pXM-I3aVwg.mlJh1YNbUcgTFb4lqdaniqXHldTDo0Ga1IpFuuwqeskg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_073.png?type=w740",
@@ -8676,7 +9400,7 @@
         "openKeyword": [
             "DEF"
         ],
-        "key": 262
+        "key": 296
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTkw/MDAxNTMwMjAyODQ5ODYw.bUULtwuoorJf9TAUKn6yZ-2dvPJyO9a7H7l9g0exAgkg.bIAY5DyNiwlUiwHmPk67YjUJznK0A6BH6yEgZsmeyUYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_251.png?type=w740",
@@ -8705,7 +9429,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 263
+        "key": 297
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfOTIg/MDAxNTMwMTk0ODEwNjMw.463oWbbFWqvia2xzHl_ju6ce75BcVCAR05Rp_zKb1_Yg.OjsCB9qFil5KF_FM0vqSxFdFdwskpkvl8BHNjrv8wuwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_140.png?type=w740",
@@ -8744,7 +9468,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 264
+        "key": 298
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjk3/MDAxNTMwMTk0NTM4ODMw.oaIPguCo-cwMzgRBweNePU3zw2zBS8S7HKRtMgKJ5gwg.iqWitX6nAjP-HS4piINI3w4pYFVEG6bHtMn_u1L7sAgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_365.png?type=w740",
@@ -8764,7 +9488,7 @@
             "ATK"
         ],
         "openKeyword": [],
-        "key": 265
+        "key": 299
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMzYg/MDAxNTMwMTkzNTkwNjU5.EnD7sgA7uqLT1WaYyOOelLWPQHayduJaJYII_bIy2_0g.D8SFALKsq_fNRnFvserz__uBK45i1W34Z_EdXEE1UzMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_176.png?type=w740",
@@ -8801,7 +9525,28 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 266
+        "key": 300
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=45077",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45077.png?v=180720a",
+        "name": "하트 머리핀",
+        "option": "DEF＋5",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +28",
+        "recipe": "하트 머리핀 도면 x1, 젤로피 x578, 빨간 염료 x4, 10,000 Zeny",
+        "firstChar": "ᄒ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 301
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTk5/MDAxNTMwMTk0MTg3MDIz.E5pMx2Jnh-Dh54HN33CWHwrup12D8fn_KQHONX3p7Xog.q6TkfPAfSG4Ro6K0j9PXF6Z-pibCKwvaPWlg2Bnn1f0g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_359.png?type=w740",
@@ -8821,7 +9566,7 @@
             "ATK"
         ],
         "openKeyword": [],
-        "key": 267
+        "key": 302
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTIy/MDAxNTMwMTk0MzgyMDA3.tI8m7BrbqUvyJt39nKSyimoljs1p9n00DKgDSsC8TWIg.nXoBct_Gi1jpQMIFSnKMbYQUN-Zs6D5u7Rn166uBDzIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_201.png?type=w740",
@@ -8841,7 +9586,7 @@
             "MaxSP"
         ],
         "openKeyword": [],
-        "key": 268
+        "key": 303
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTQ5/MDAxNTMwMTkzNDIyMzUw.O-Z4SdbUTVjuwzf9zDErpy_i_lJKYRQBDZfjY1GQy0cg.wikqtGw65YZuAE1ZOP6ZmgbUZJsFdSNhQ9xO2GDRs4kg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_227.png?type=w740",
@@ -8871,7 +9616,29 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 269
+        "key": 304
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=145185",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45185.png?v=180720a",
+        "name": "해골 베레모[1]",
+        "option": "불사형에게 선제 공격을 받지 않는다., 불사속성 피해－20%",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +32",
+        "recipe": "해골 베레모[1] 도면 x1, 성흔 x1,103, 혜안 x1,103, 뼈조각 x118, 102,000 Zeny",
+        "firstChar": "ᄒ",
+        "recipeList": [],
+        "optionKeyword": [
+            "불사형",
+            "불사속성"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 305
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTAy/MDAxNTMwMTk2MDkwOTU5.05CmqqciLQUNtAPmRhrACiz_1-cBcXClx2bsqDeIUiUg.Ir7P7RO1i-aEXUHgDz4P3iz_kRAUWFJcTZMCpFOQVy8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_033.png?type=w740",
@@ -8901,7 +9668,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 270
+        "key": 306
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTkx/MDAxNTMwMTkxMzU1Mjkx.TYLFrEmgkhM3r1EipHLhnu2JyNfTyIZ17yO6xdI5UvYg.1QDYVwjlNT3PZBvv_zuwjqIPAOR5ddozcleYZYD9SG8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_241.png?type=w740",
@@ -8935,7 +9702,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 271
+        "key": 307
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTk4/MDAxNTMwMTg4OTY3MDYz.Kh23PqH7ZF27jEjQfMQi38EAz92k_lJPwWr2hCJ0_3Eg.p7Id6VU7P7JCtJchGGGI0aVjGnX9DRUZUR54twuoqSIg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_210.png?type=w740",
@@ -8973,7 +9740,28 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 272
+        "key": 308
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=145097",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45097.png?v=180720a",
+        "name": "헬름[1]",
+        "option": "DEF＋10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +64",
+        "recipe": "헬름[1] 도면 x1, 망자의 유물 x966, 강철 x26, 51,000 Zeny",
+        "firstChar": "ᄒ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 309
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTMw/MDAxNTMwMTkyNTQ4ODI3.YBcDufps3XnHvvk0yOXWJnJmi7ux0zKzWbXdOgehbb0g.dyk2vmxcAX0bRysdRl6-HDft6M1dzXNHQKCn9gdil0Ug.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_131.png?type=w740",
@@ -9012,7 +9800,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 273
+        "key": 310
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTgx/MDAxNTMwMTg4ODk4NDgz.Y6DeVHtIcJnCtndb1Ls1HO3sti2HRAZrMOl7TxlAVvwg.f4hCBDtWruBC2SM0tkbU2zG919EFut1Pn3EgUDP6iWYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_179.png?type=w740",
@@ -9049,7 +9837,49 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 274
+        "key": 311
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=145102",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45102.png?v=180720a",
+        "name": "혼자놀기 상자II[1]",
+        "option": "DEF＋10",
+        "savePoint": "ATK +6",
+        "openPoint": "MaxHP +64",
+        "recipe": "혼자놀기 상자II[1] 도면 x1, 성흔 x543, 끈적끈적한 액체 x1,087, 검은 염료 x2, 51,000 Zeny",
+        "firstChar": "ᄒ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "ATK"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 312
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=145060",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45060.png?v=180720a",
+        "name": "혼자놀기 상자I[1]",
+        "option": "DEF＋10",
+        "savePoint": "MaxHP +10",
+        "openPoint": "MaxHP +64",
+        "recipe": "혼자놀기 상자I[1] 도면 x1, 성흔 x543, 끈적끈적한 액체 x1,087, 검은 염료 x2, 51,000 Zeny",
+        "firstChar": "ᄒ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 313
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjY5/MDAxNTMwMjAyMjg1MjY1._Dm2ItROsh5cB4k5pd04JGk7FBvT6Wg6HBTwMAHFkWkg.bG96jeihKoN4NqSZqoy9EdkaOBW59cgghx7WfWJy_kQg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_153.png?type=w740",
@@ -9082,7 +9912,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 275
+        "key": 314
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTI0/MDAxNTMwMTk4NjI2ODE3.rdkMSb8ivxah2Jla6VC_0P6cg3KFW4-M2eGyBxXBItwg.Ig15cYNvJ6twnFX3T1Ucao0jKv80SNWIMtic-bwHTqkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_065.png?type=w740",
@@ -9120,7 +9950,30 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 276
+        "key": 315
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=145630",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45630.png?v=180720a",
+        "name": "화염 마녀의 모자[1]",
+        "option": "마법관통＋2%, MATK＋30, INT＋2",
+        "savePoint": "ATK +6",
+        "openPoint": "DEF +2, MaxHP +30",
+        "recipe": "화염 마녀의 모자[1] 도면 x1, 불타는 심장 x1,859, 반짝이는 성수 x6, 화염의 잔해 x6, 102,000 Zeny",
+        "firstChar": "ᄒ",
+        "recipeList": [],
+        "optionKeyword": [
+            "MATK",
+            "INT"
+        ],
+        "saveKeyword": [
+            "ATK"
+        ],
+        "openKeyword": [
+            "MaxHP",
+            "DEF"
+        ],
+        "key": 316
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTQ0/MDAxNTMwMTg4OTc1MTE0.nW_gQrdX3ZR3G5vXA2ITD0kWtWNzK-OdlV7Z92v9rd4g.OID_KWb-NdbuswFSzTUZn9plkUKIefJ4J8uyb3id7TMg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_234.png?type=w740",
@@ -9154,7 +10007,7 @@
         "openKeyword": [
             "MaxHP"
         ],
-        "key": 277
+        "key": 317
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMTAw/MDAxNTMwMTg0ODc1OTc4.9ucO-gwcMhkkMPUmwgm5eOqisSlHzQj__lkRtU0grY0g.v2NDEm9S72hdsUfw54PfnLzPfapRHOcJWzG72KN66zgg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_283.png?type=w740",
@@ -9189,7 +10042,7 @@
             "VIT"
         ],
         "openKeyword": [],
-        "key": 278
+        "key": 318
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMSAg/MDAxNTMwMTg0NzY1MTk2.suXhMhfexbHFABdlF7Z3wztuqkQgyRqE6pArQXQykVMg.e9jzvaJ2WP0cjOxKE1e4t1HMDGg8Xq0OSgxqJSgdUrwg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_271.png?type=w740",
@@ -9224,7 +10077,49 @@
             "MaxHP"
         ],
         "openKeyword": [],
-        "key": 279
+        "key": 319
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=45143",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45112.png?v=180720a",
+        "name": "휘케바인의 검은 고양이 귀",
+        "option": "DEF＋15",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +24",
+        "recipe": "",
+        "firstChar": "ᄒ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 320
+    },
+    {
+        "url": "http://rom.inven.co.kr/dataninfo/item/?code=48008",
+        "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_48008.png?v=180720a",
+        "name": "휘케바인의 꼬리",
+        "option": "DEF＋15",
+        "savePoint": "MaxHP +19",
+        "openPoint": "MaxHP +24",
+        "recipe": "휘케바인의 꼬리 도면 x1, 붉은 리본 x60, 부드러운 털 x800, 너구리의 나뭇잎 x2, 102,000 Zeny",
+        "firstChar": "ᄒ",
+        "recipeList": [],
+        "optionKeyword": [
+            "DEF"
+        ],
+        "saveKeyword": [
+            "MaxHP"
+        ],
+        "openKeyword": [
+            "MaxHP"
+        ],
+        "key": 321
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjQx/MDAxNTMwMjAwNjI5Mjc5.VKx0laX1RjpD8DjEsV2HbJ6u5PDtGD2F7-mgYqgXAxUg.GGHQE4XGR6Nrp6f70FoaeFHvvDqBRc-dO7H4b0qGqX8g.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_247.png?type=w740",
@@ -9253,7 +10148,7 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 280
+        "key": 322
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMTcw/MDAxNTMwMjAwNzE0NTkz.voqczRMNS15PVCDcmLyBO9d6WKtJZVfHJECU2tAR2HMg.l76qc6t9nckfts_w2ClwBqQ-lNEHKaC0gvAJ_pRRBTAg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_369.png?type=w740",
@@ -9273,7 +10168,7 @@
             "ATK"
         ],
         "openKeyword": [],
-        "key": 281
+        "key": 323
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjlfMjkx/MDAxNTMwMjAyOTQ0MzI1.zxOm1JN8-x-aNWxOH0AXbmdEEd23QHf0XXlo6IBLFKIg.5mS0qFKnWLCgm56RaPSIL6J36TJldLnhkFSZmnu-ebYg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_042.png?type=w740",
@@ -9306,7 +10201,7 @@
         "openKeyword": [
             "ATK"
         ],
-        "key": 282
+        "key": 324
     },
     {
         "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MjhfMjEy/MDAxNTMwMTk0MzYzODY0.VLF9XocbNzNo8CaPE7e0OLA6_Q_xsMb9T_T_8dORVWYg.iYz7se2szjk07HfjEqRxNgvDV8aubBgdGaWiiQ_5QRkg.PNG.gravity001/%EB%9D%BC%EA%B7%B8M_%EC%9D%98%EC%83%81%EC%95%84%EC%9D%B4%EC%BD%98_191.png?type=w740",
@@ -9344,6 +10239,6 @@
         "openKeyword": [
             "MATK"
         ],
-        "key": 283
+        "key": 325
     }
 ]

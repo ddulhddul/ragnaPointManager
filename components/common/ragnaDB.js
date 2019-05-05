@@ -46,6 +46,7 @@ import wear_casting from './ragnaJSON/item/wear_casting.json'
 import star from './ragnaJSON/item/star.json'
 import episod from './ragnaJSON/item/episod.json'
 import monthly from './ragnaJSON/item/monthly.json'
+import item_inven from './ragnaJSON/item/item_inven.json'
 
 import food from './ragnaJSON/food/food.json'
 import food_recipe from './ragnaJSON/food/food_recipe.json'
@@ -343,7 +344,7 @@ export default {
   },
   
   getItemList(){
-    // return item
+    return item
 
     const result = Array(0).concat(
       open_atk_1,
@@ -393,6 +394,7 @@ export default {
       star,
       episod,
       monthly,
+      item_inven,
     ).filter((obj, index, self)=>{
       let indexNumber = undefined
       self.find((selfObj, selfIndex)=>{
@@ -1079,6 +1081,50 @@ const itemImages = {
   '메이드머리띠': require('../../assets/images/items/메이드머리띠.png'),
   '쁘띠의꼬리': require('../../assets/images/items/쁘띠의꼬리.png'),
   '프리카의서클릿': require('../../assets/images/items/프리카의서클릿.png'),
+
+  '스마일가면':require('../../assets/images/items/스마일가면.png'),
+  '강아지머리띠':require('../../assets/images/items/강아지머리띠.png'),
+  '드래곤의문양':require('../../assets/images/items/드래곤의문양.png'),
+  '비레타':require('../../assets/images/items/비레타.png'),
+  '엔젤링핀':require('../../assets/images/items/엔젤링핀.png'),
+  '입에문뼈':require('../../assets/images/items/입에문뼈.png'),
+  '해골베레모':require('../../assets/images/items/해골베레모.png'),
+  '검은고양이휘케바인':require('../../assets/images/items/검은고양이휘케바인.png'),
+  '마이너우로스의뿔':require('../../assets/images/items/마이너우로스의뿔.png'),
+  '사악한마칭햇':require('../../assets/images/items/사악한마칭햇.png'),
+  '열매껍질':require('../../assets/images/items/열매껍질.png'),
+  '장식용알껍질':require('../../assets/images/items/장식용알껍질.png'),
+  '헬름':require('../../assets/images/items/헬름.png'),
+  '고블린비행사':require('../../assets/images/items/고블린비행사.png'),
+  '머리포자기':require('../../assets/images/items/머리포자기.png'),
+  '새벽여명단장모자':require('../../assets/images/items/새벽여명단장모자.png'),
+  '영혼고리':require('../../assets/images/items/영혼고리.png'),
+  '쥬얼헬름':require('../../assets/images/items/쥬얼헬름.png'),
+  '혼자놀기상자I':require('../../assets/images/items/혼자놀기상자I.png'),
+  '데스케트투구':require('../../assets/images/items/데스케트투구.png'),
+  '면사포':require('../../assets/images/items/면사포.png'),
+  '식신왕관생선국':require('../../assets/images/items/식신왕관생선국.png'),
+  '오크로드의투구':require('../../assets/images/items/오크로드의투구.png'),
+  '카호의가호':require('../../assets/images/items/카호의가호.png'),
+  '혼자놀기상자II':require('../../assets/images/items/혼자놀기상자II.png'),
+  '도깨비뿔':require('../../assets/images/items/도깨비뿔.png'),
+  '명탐정의모자':require('../../assets/images/items/명탐정의모자.png'),
+  '안경':require('../../assets/images/items/안경.png'),
+  '옵저버':require('../../assets/images/items/옵저버.png'),
+  '캡':require('../../assets/images/items/캡.png'),
+  '화염마녀의모자':require('../../assets/images/items/화염마녀의모자.png'),
+  '돌심장':require('../../assets/images/items/돌심장.png'),
+  '변신나뭇잎':require('../../assets/images/items/변신나뭇잎.png'),
+  '애꾸눈의안대':require('../../assets/images/items/애꾸눈의안대.png'),
+  '요리사의모자':require('../../assets/images/items/요리사의모자.png'),
+  '투명날개':require('../../assets/images/items/투명날개.png'),
+  '휘케바인의검은고양이귀':require('../../assets/images/items/휘케바인의검은고양이귀.png'),
+  '둥근모자':require('../../assets/images/items/둥근모자.png'),
+  '본헤드':require('../../assets/images/items/본헤드.png'),
+  '어부의모자':require('../../assets/images/items/어부의모자.png'),
+  '위저드햇':require('../../assets/images/items/위저드햇.png'),
+  '하트머리핀':require('../../assets/images/items/하트머리핀.png'),
+  '휘케바인의꼬리':require('../../assets/images/items/휘케바인의꼬리.png'),
 }
 
 const cardImages = {

@@ -1,0 +1,380 @@
+[
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=45092",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45092.png?v=180720a",
+      "name": "둥근 모자",
+      "option": "DEF＋5",
+      "savePoint": "MaxHP +10",
+      "openPoint": "MaxHP +64",
+      "recipe": "둥근 모자 도면 x1, 부드러운 털 x275, 젤로피 x275, 10,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=45077",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45077.png?v=180720a",
+      "name": "하트 머리핀",
+      "option": "DEF＋5",
+      "savePoint": "MaxHP +10",
+      "openPoint": "MaxHP +28",
+      "recipe": "하트 머리핀 도면 x1, 젤로피 x578, 빨간 염료 x4, 10,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=145193",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45193.png?v=180720a",
+      "name": "데스케트 투구[1]",
+      "option": "MDEF＋10, 사망 시 경험치 패널티 20% 감소",
+      "savePoint": "MaxHP +19",
+      "openPoint": "MaxHP +64",
+      "recipe": "데스케트 투구[1] 도면 x1, 가렛 x1,050, 부드러운 깃털 x4, 강철 x66, 아쿠아마린 x20, 102,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=45180",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45180.png?v=180720a",
+      "name": "변신 나뭇잎",
+      "option": "DEF＋10",
+      "savePoint": "MaxHP +10",
+      "openPoint": "MaxHP +24",
+      "recipe": ""
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=145005",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45005.png?v=180720a",
+      "name": "어부의 모자[1]",
+      "option": "DEF＋10",
+      "savePoint": "MaxHP +10",
+      "openPoint": "MaxHP +64",
+      "recipe": "어부의 모자[1] 도면 x1, 부드러운 털 x518, 젤로피 x518, 51,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=145179",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45179.png?v=180720a",
+      "name": "캡[1]",
+      "option": "DEF＋10",
+      "savePoint": "MaxHP +10",
+      "openPoint": "MaxHP +64",
+      "recipe": "캡[1] 도면 x1, 젤로피 x970, 썩은 붕대 x970, 51,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=145080",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45080.png?v=180720a",
+      "name": "영혼고리[1]",
+      "option": "DEF＋10",
+      "savePoint": "MaxHP +10",
+      "openPoint": "MaxHP +64",
+      "recipe": "영혼고리[1] 도면 x1, 망자의 유물 x725, 젤로피 x906, 강철 x39, 질콘 x10, 51,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=145116",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45116.png?v=180720a",
+      "name": "명탐정의 모자[1]",
+      "option": "DEF＋15",
+      "savePoint": "MaxHP +10",
+      "openPoint": "MaxHP +64",
+      "recipe": "명탐정의 모자[1] 도면 x1, 단단한 껍질 x707, 부드러운 털 x1,148, 갈색 염료 x3, 102,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=48559",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_48559.png?v=180720a",
+      "name": "안경",
+      "option": "DEF＋10",
+      "savePoint": "MaxHP +10",
+      "openPoint": "MaxHP +24",
+      "recipe": "안경 도면 x1, 유리구슬 x604, 망자의 유물 x966, 검은 염료 x2, 51,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=145097",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45097.png?v=180720a",
+      "name": "헬름[1]",
+      "option": "DEF＋10",
+      "savePoint": "MaxHP +10",
+      "openPoint": "MaxHP +64",
+      "recipe": "헬름[1] 도면 x1, 망자의 유물 x966, 강철 x26, 51,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=145081",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45081.png?v=180720a",
+      "name": "비레타[1]",
+      "option": "DEF＋10",
+      "savePoint": "MaxHP +10",
+      "openPoint": "MaxHP +64",
+      "recipe": "비레타[1] 도면 x1, 가렛 x483, 썩은 붕대 x604, 하얀 염료 x1, 51,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=145107",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45107.png?v=180720a",
+      "name": "위저드햇[1]",
+      "option": "DEF＋5, MaxSP＋100",
+      "savePoint": "MaxHP +10",
+      "openPoint": "MaxHP +64",
+      "recipe": "위저드햇[1] 도면 x1, 가렛 x483, 부드러운 털 x604, 노란 염료 x8, 51,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=48518",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_48518.png?v=180720a",
+      "name": "애꾸눈의 안대",
+      "option": "DEF＋10",
+      "savePoint": "MaxHP +10",
+      "openPoint": "MaxHP +55",
+      "recipe": "애꾸눈의 안대 도면 x1, 단단한 껍질 x929, 검은 염료 x1, 51,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=145182",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45182.png?v=180720a",
+      "name": "돌심장[1]",
+      "option": "DEF＋10",
+      "savePoint": "MaxHP +10",
+      "openPoint": "MaxHP +64",
+      "recipe": "돌심장[1] 도면 x1, 셀 x730, 망자의 유물 x949, 51,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=45183",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45183.png?v=180720a",
+      "name": "마이너 우로스의 뿔",
+      "option": "DEF＋10",
+      "savePoint": "MaxHP +10",
+      "openPoint": "MaxHP +24",
+      "recipe": ""
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=145084",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45084.png?v=180720a",
+      "name": "머리 포자기[1]",
+      "option": "DEF＋15",
+      "savePoint": "MaxHP +19",
+      "openPoint": "MaxHP +64",
+      "recipe": "머리 포자기[1] 도면 x1, 자르곤 x1,283, 방울 x1, 투명한 천조각 x1, 아메디스트 x20, 102,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=45042",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45042.png?v=180720a",
+      "name": "장식용 알껍질",
+      "option": "DEF＋10",
+      "savePoint": "MaxHP +10",
+      "openPoint": "DEF +2",
+      "recipe": "장식용 알껍질 도면 x1, 끈적끈적한 액체 x431, 젤로피 x539, 51,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=145184",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45184.png?v=180720a",
+      "name": "도깨비 뿔[1]",
+      "option": "DEF＋10",
+      "savePoint": "MaxHP +10",
+      "openPoint": "MaxHP +64",
+      "recipe": "도깨비 뿔[1] 도면 x1, 불사의 심장 x1,062, 악마의 뿔 x863, 51,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=145098",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45098.png?v=180720a",
+      "name": "쥬얼 헬름[1]",
+      "option": "DEF＋5, MDEF＋10",
+      "savePoint": "MaxHP +19",
+      "openPoint": "MaxHP +64",
+      "recipe": "쥬얼 헬름[1] 도면 x1, 자르곤 x1,116, 저주받은 루비 x2, 유리구슬 x1,116, 아메디스트 x20, 102,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=145095",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45095.png?v=180720a",
+      "name": "오크로드의 투구[1]",
+      "option": "DEF＋15",
+      "savePoint": "MaxHP +19",
+      "openPoint": "MaxHP +64",
+      "recipe": "오크로드의 투구[1] 도면 x1, 악마의 뿔 x1,395, 오크히어로의 증표 x1, 드래곤의 비늘 x1, 오크워리어 증표 x20, 102,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=45177",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45177.png?v=180720a",
+      "name": "열매 껍질",
+      "option": "DEF＋15",
+      "savePoint": "MaxHP +19",
+      "openPoint": "MaxHP +24",
+      "recipe": ""
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=48550",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_48550.png?v=180720a",
+      "name": "입에 문 뼈",
+      "option": "DEF＋10",
+      "savePoint": "MaxHP +10",
+      "openPoint": "MaxHP +24",
+      "recipe": "입에 문 뼈 도면 x1, 성흔 x725, 꿀 x10, 뼈조각 x19, 51,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=45117",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45117.png?v=180720a",
+      "name": "강아지 머리띠",
+      "option": "DEF＋15",
+      "savePoint": "MaxHP +19",
+      "openPoint": "MaxHP +24",
+      "recipe": ""
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=145057",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45057.png?v=180720a",
+      "name": "본헤드[1]",
+      "option": "DEF＋10, STR＋2, MDEF＋5, 스턴 저항＋5%",
+      "savePoint": "MaxHP +19",
+      "openPoint": "MaxHP +64",
+      "recipe": "본헤드[1] 도면 x1, 악마의 뿔 x919, 불사의 심장 x1,131, 수은 x39, 뼈조각 x39, 102,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=48560",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_48560.png?v=180720a",
+      "name": "드래곤의 문양",
+      "option": "DEX＋10, INT＋5",
+      "savePoint": "MaxHP +28",
+      "openPoint": "MaxHP +24",
+      "recipe": "드래곤의 문양 도면 x1, 브리간 x1,680, 드래곤의 비늘 x18, 더듬이 x23, 뼈조각 x210, 203,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=145102",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45102.png?v=180720a",
+      "name": "혼자놀기 상자II[1]",
+      "option": "DEF＋10",
+      "savePoint": "ATK +6",
+      "openPoint": "MaxHP +64",
+      "recipe": "혼자놀기 상자II[1] 도면 x1, 성흔 x543, 끈적끈적한 액체 x1,087, 검은 염료 x2, 51,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=145185",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45185.png?v=180720a",
+      "name": "해골 베레모[1]",
+      "option": "불사형에게 선제 공격을 받지 않는다., 불사속성 피해－20%",
+      "savePoint": "MaxHP +19",
+      "openPoint": "MaxHP +32",
+      "recipe": "해골 베레모[1] 도면 x1, 성흔 x1,103, 혜안 x1,103, 뼈조각 x118, 102,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=45059",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45059.png?v=180720a",
+      "name": "면사포",
+      "option": "MDEF＋10, MaxHP＋150, 여성 장비 한정",
+      "savePoint": "MaxHP +19",
+      "openPoint": "MaxHP +32",
+      "recipe": "면사포 도면 x1, 심연의 꽃 x438, 투명한 천조각 x8, 하얀 염료 x4, 마스테라의 열매 x20, 102,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=145060",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45060.png?v=180720a",
+      "name": "혼자놀기 상자I[1]",
+      "option": "DEF＋10",
+      "savePoint": "MaxHP +10",
+      "openPoint": "MaxHP +64",
+      "recipe": "혼자놀기 상자I[1] 도면 x1, 성흔 x543, 끈적끈적한 액체 x1,087, 검은 염료 x2, 51,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=145149",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45149.png?v=180720a",
+      "name": "사악한 마칭햇[1]",
+      "option": "MDEF＋15",
+      "savePoint": "MaxHP +19",
+      "openPoint": "MaxHP +64",
+      "recipe": "사악한 마칭햇[1] 도면 x1, 비정한 마음 x1,302, 리본 끈 x10, 부드러운 깃털 x8, 단단한 껍질 x2,403, 102,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=45134",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45134.png?v=180720a",
+      "name": "옵저버",
+      "option": "MaxHP＋400",
+      "savePoint": "MaxHP +19",
+      "openPoint": "MaxHP +7",
+      "recipe": ""
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=145630",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45630.png?v=180720a",
+      "name": "화염 마녀의 모자[1]",
+      "option": "마법관통＋2%, MATK＋30, INT＋2",
+      "savePoint": "ATK +6",
+      "openPoint": "DEF +2, MaxHP +30",
+      "recipe": "화염 마녀의 모자[1] 도면 x1, 불타는 심장 x1,859, 반짝이는 성수 x6, 화염의 잔해 x6, 102,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=47096",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_47096.png?v=180720a",
+      "name": "카호의 가호",
+      "option": "자신의 5m 범위 내 파티원(자신 포함)의 지, 화속성 피해－10%, 제련 효과 (제련 ＋1마다 지, 화속성 피해－1%, 최대 15%)",
+      "savePoint": "DEF +2%, MDEF +2%",
+      "openPoint": "ATK +8",
+      "recipe": "카호의 가호 도면 x1, 불타는 심장 x2,958, 화염의 잔해 x20, 반짝이는 성수 x15, 마그마 보석 x25, 203,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=45621",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45621.png?v=180720a",
+      "name": "새벽여명단장 모자",
+      "option": "MaxSP＋100, ATK＋10, MATK＋10",
+      "savePoint": "MDEF +2",
+      "openPoint": "DEF +2",
+      "recipe": "새벽여명단장 모자 도면 x1, 불꽃 결정 x600, 51,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=48008",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_48008.png?v=180720a",
+      "name": "휘케바인의 꼬리",
+      "option": "DEF＋15",
+      "savePoint": "MaxHP +19",
+      "openPoint": "MaxHP +24",
+      "recipe": "휘케바인의 꼬리 도면 x1, 붉은 리본 x60, 부드러운 털 x800, 너구리의 나뭇잎 x2, 102,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=45143",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45112.png?v=180720a",
+      "name": "휘케바인의 검은 고양이 귀",
+      "option": "DEF＋15",
+      "savePoint": "MaxHP +19",
+      "openPoint": "MaxHP +24",
+      "recipe": ""
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=47021",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_47021.png?v=180720a",
+      "name": "검은 고양이 휘케바인",
+      "option": "DEF＋15",
+      "savePoint": "MaxHP +19",
+      "openPoint": "MaxHP +24",
+      "recipe": ""
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=45127",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45127.png?v=180720a",
+      "name": "엔젤링핀",
+      "option": "FLEE＋5",
+      "savePoint": "FLEE +1",
+      "openPoint": "",
+      "recipe": ""
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=561110",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_551010.png?v=180720a",
+      "name": "식신왕관 생선국",
+      "option": "ATK＋10, MATK＋10, STR＋1",
+      "savePoint": "MaxHP +18",
+      "openPoint": "MaxHP +6",
+      "recipe": ""
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=550001",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_550001.png?v=180720a",
+      "name": "요리사의 모자",
+      "option": "",
+      "savePoint": "MaxHP +18",
+      "openPoint": "",
+      "recipe": ""
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=45550",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_45550.png?v=180720a",
+      "name": "고블린 비행사",
+      "option": "DEX＋1, LUK＋1, MaxSP＋100",
+      "savePoint": "MDEF +2",
+      "openPoint": "DEF +2",
+      "recipe": "고블린 비행사 도면 x1, 가렛 x998, 끈적끈적한 액체 x998, 검은 염료 x5, 질콘 x20, 51,000 Zeny"
+    },
+    {
+      "url": "http://rom.inven.co.kr/dataninfo/item/?code=47076",
+      "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/item_47076.png?v=180720a",
+      "name": "투명 날개",
+      "option": "MaxHP＋300, ATK＋60, MATK＋40",
+      "savePoint": "MaxHP +60",
+      "openPoint": "MaxHP +60",
+      "recipe": ""
+    }
+  ]
