@@ -4324,6 +4324,27 @@
     ]
   },
   {
+    "url": "http://rom.inven.co.kr/dataninfo/item/?code=23017",
+    "name": "디타르데우르스 카드",
+    "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/detale.png?v=180720a",
+    "position": "갑옷",
+    "rate": "보라",
+    "monster": "디타르데우르스",
+    "openPoint": "MaxHP +112",
+    "savePoint": "【화이어 볼】 데미지 +15",
+    "option": "▶ 동빙 상태 면제\n▶ 마법공격을 받으면 5% 확률로 【헤븐즈 드라이브】Lv.3 자동 시전",
+    "optionKeyword": [
+      "스킬",
+      "동빙"
+    ],
+    "saveKeyword": [
+      "스킬"
+    ],
+    "openKeyword": [
+      "MaxHP"
+    ]
+  },
+  {
     "name": "라플레시아 카드",
     "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA0MjdfNTQg/MDAxNTI0ODM3MjAwMzc5.sMBGMy_Y2yC8O79rhxC-PueNoe8mu0Q4rWM7wYnHs0Qg.FaC0N_iKmpbrwPA4ZVA4WawSR4Iji4zZU9S2QjhXPzkg.PNG.gravity001/%EB%9D%BC%ED%94%8C%EB%A0%88%EC%8B%9C%EC%95%84_%EC%B9%B4%EB%93%9C.png?type=w740",
     "position": "보조",
@@ -4518,6 +4539,26 @@
     ],
     "openKeyword": [
       "MaxHP"
+    ]
+  },
+  {
+    "url": "http://rom.inven.co.kr/dataninfo/item/?code=23001",
+    "name": "엔젤링 카드",
+    "imageSrc": "http://static.inven.co.kr/image_2011/site_image/rom/itemicon/angeling.png?v=180720a",
+    "position": "갑옷",
+    "rate": "보라",
+    "monster": "엔젤링",
+    "openPoint": "MATK +20",
+    "savePoint": "성속성 데미지 +5%",
+    "option": "▶ 갑옷 속성을 성속성으로 전환",
+    "optionKeyword": [
+      "성속성"
+    ],
+    "saveKeyword": [
+      "성속성"
+    ],
+    "openKeyword": [
+      "MATK"
     ]
   },
   {

@@ -163,7 +163,7 @@ export default {
   },
 
   getCardList(){
-    // return card
+    return card
 
     let homepageDic = Array(0).concat(
       card_robe_purple1,
@@ -197,6 +197,7 @@ export default {
       card_star_purple,
       card_star_green,
       card_star_blue,
+      card_inven,
     ).filter((obj, index, self)=>{
       let indexNumber = undefined
       self.find((selfObj, selfIndex)=>{
