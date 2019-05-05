@@ -21,7 +21,7 @@ class SqlUtil extends React.Component {
         )
         `, [])
         if (param || res.rows.length == 0) {
-            await this.queryExecute('DROP TABLE IF EXISTS TN_CARD', [])
+            // await this.queryExecute('DROP TABLE IF EXISTS TN_CARD', [])
             const { tx1, res1 } = await this.queryExecute(
                 `CREATE TABLE IF NOT EXISTS TN_CARD (
             id INTEGER PRIMARY KEY AUTOINCREMENT, 
@@ -102,7 +102,7 @@ class SqlUtil extends React.Component {
           )
         `, [])
         if (param || res.rows.length == 0) {
-            await this.queryExecute('DROP TABLE IF EXISTS TN_FOOD', [])
+            // await this.queryExecute('DROP TABLE IF EXISTS TN_FOOD', [])
             const { tx1, res1 } = await this.queryExecute(
                 `CREATE TABLE IF NOT EXISTS TN_FOOD (
               id INTEGER PRIMARY KEY AUTOINCREMENT, 
@@ -253,7 +253,7 @@ class SqlUtil extends React.Component {
           )
         `, [])
         if (param || res.rows.length == 0) {
-            await this.queryExecute('DROP TABLE IF EXISTS TN_ITEM', [])
+            // await this.queryExecute('DROP TABLE IF EXISTS TN_ITEM', [])
             const { tx1, res1 } = await this.queryExecute(
                 `CREATE TABLE IF NOT EXISTS TN_ITEM (
               id INTEGER PRIMARY KEY AUTOINCREMENT, 
@@ -279,7 +279,7 @@ class SqlUtil extends React.Component {
         `, [])
         let result = res
         if (param || res.rows.length == 0) {
-            await this.queryExecute('DROP TABLE IF EXISTS TN_INGREDIENT', [])
+            // await this.queryExecute('DROP TABLE IF EXISTS TN_INGREDIENT', [])
             const { tx1, res1 } = await this.queryExecute(
                 `CREATE TABLE IF NOT EXISTS TN_INGREDIENT (
                     id INTEGER PRIMARY KEY AUTOINCREMENT, 
