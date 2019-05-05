@@ -5,29 +5,17 @@
     "position": "무기",
     "rate": "일반",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "동물형 몬스터 데미지 추가",
-        "number": 2,
-        "unit": "+%",
-        "origin": "동물형 몬스터 데미지 추가 +2%"
-      }
+    "openPoint": "동물형 몬스터 데미지 추가 +2%",
+    "savePoint": "동물형 몬스터 데미지 추가 +2%",
+    "option": "▶ 동물형 몬스터 데미지 추가＋15%\n",
+    "optionKeyword": [
+      "동물형"
     ],
-    "savePoint": [
-      {
-        "name": "동물형 몬스터 데미지 추가",
-        "number": 2,
-        "unit": "+%",
-        "origin": "동물형 몬스터 데미지 추가 +2%"
-      }
+    "saveKeyword": [
+      "동물형"
     ],
-    "option": [
-      {
-        "name": "동물형 몬스터 데미지 추가",
-        "number": 15,
-        "unit": "＋%",
-        "origin": "동물형 몬스터 데미지 추가＋15%"
-      }
+    "openKeyword": [
+      "동물형"
     ]
   },
   {
@@ -36,29 +24,17 @@
     "position": "무기",
     "rate": "일반",
     "monster": "골렘",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "석화 저항 +5%",
+    "option": "▶ 석화 저항＋20%\n",
+    "optionKeyword": [
+      "석화"
     ],
-    "savePoint": [
-      {
-        "name": "석화 저항",
-        "number": 5,
-        "unit": "+%",
-        "origin": "석화 저항 +5%"
-      }
+    "saveKeyword": [
+      "석화"
     ],
-    "option": [
-      {
-        "name": "석화 저항",
-        "number": 20,
-        "unit": "＋%",
-        "origin": "석화 저항＋20%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -67,35 +43,20 @@
     "position": "보조",
     "rate": "일반",
     "monster": "공중쁘띠",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "드래곤 몬스터의 공격으로 HP가 50%일 때 자신의 \nMaxHP 및 MaxSP에 따라 데미지 면역 쉴드 추가, \n10초 또는 격파될 때까지 지속(최대 60초마다 1회 발동)",
+    "option": "▶ 용족 몬스터로부터 받는 데미지－15%\n",
+    "optionKeyword": [
+      "용족"
     ],
-    "savePoint": [
-      {
-        "name": "드래곤 몬스터의 공격으로 HP가 50%일 때 자신의  MaxHP 및 MaxSP에 따라 데미지 면역 쉴드 추가",
-        "number": 50,
-        "unit": "드래곤 몬스터의 공격으로 HP가 %일 때 자신의  MaxHP 및 MaxSP에 따라 데미지 면역 쉴드 추가",
-        "origin": "드래곤 몬스터의 공격으로 HP가 50%일 때 자신의  MaxHP 및 MaxSP에 따라 데미지 면역 쉴드 추가"
-      },
-      {
-        "name": "10초 또는 격파될 때까지 지속(최대 60초마다 1회 발동)",
-        "number": "",
-        "unit": "10초 또는 격파될 때까지 지속(최대 60초마다 회 발동)",
-        "origin": "10초 또는 격파될 때까지 지속(최대 60초마다 1회 발동)"
-      }
+    "saveKeyword": [
+      "MaxHP",
+      "MaxSP",
+      "HP",
+      "드래곤"
     ],
-    "option": [
-      {
-        "name": "용족 몬스터로부터 받는 데미지－",
-        "number": 15,
-        "unit": "%",
-        "origin": "용족 몬스터로부터 받는 데미지－15%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -104,35 +65,18 @@
     "position": "무기",
     "rate": "일반",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 48,
-        "unit": "+",
-        "origin": "MaxHP +48"
-      }
+    "openPoint": "MaxHP +48",
+    "savePoint": "MaxHP +48",
+    "option": "▶ MaxHP＋50\n▶ MaxSP＋10\n",
+    "optionKeyword": [
+      "MaxHP",
+      "MaxSP"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 48,
-        "unit": "+",
-        "origin": "MaxHP +48"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "MaxHP",
-        "number": 50,
-        "unit": "＋",
-        "origin": "MaxHP＋50"
-      },
-      {
-        "name": "MaxSP",
-        "number": 10,
-        "unit": "＋",
-        "origin": "MaxSP＋10"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -141,29 +85,17 @@
     "position": "보조",
     "rate": "일반",
     "monster": "도둑벌레 알",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "피격마다 10% 확률로 목표의 MaxSP 1% 차감",
+    "option": "▶ MaxHP＋200\n",
+    "optionKeyword": [
+      "MaxHP"
     ],
-    "savePoint": [
-      {
-        "name": "피격마다 10% 확률로 목표의 MaxSP 1% 차감",
-        "number": "",
-        "unit": "피격마다 10% 확률로 목표의 MaxSP % 차감",
-        "origin": "피격마다 10% 확률로 목표의 MaxSP 1% 차감"
-      }
+    "saveKeyword": [
+      "MaxSP"
     ],
-    "option": [
-      {
-        "name": "MaxHP",
-        "number": 200,
-        "unit": "＋",
-        "origin": "MaxHP＋200"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -172,29 +104,17 @@
     "position": "보조",
     "rate": "일반",
     "monster": "도둑벌레",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 3,
-        "unit": "+",
-        "origin": "ATK +3"
-      }
+    "openPoint": "ATK +3",
+    "savePoint": "파티 인원에 따라 파티 부스트 효과 증가: \n일정 범위 내 모든 적의 FLEE 최고 50 감소(다른 파티의 효과와 중첩 불가)",
+    "option": "▶ HIT＋10\n",
+    "optionKeyword": [
+      "HIT"
     ],
-    "savePoint": [
-      {
-        "name": "파티 인원에 따라 파티 부스트 효과 증가:  일정 범위 내 모든 적의 FLEE 최고 50 감소(다른 파티의 효과와 중첩 불가)",
-        "number": 50,
-        "unit": "파티 인원에 따라 파티 부스트 효과 증가:  일정 범위 내 모든 적의 FLEE 최고  감소(다른 파티의 효과와 중첩 불가)",
-        "origin": "파티 인원에 따라 파티 부스트 효과 증가:  일정 범위 내 모든 적의 FLEE 최고 50 감소(다른 파티의 효과와 중첩 불가)"
-      }
+    "saveKeyword": [
+      "FLEE"
     ],
-    "option": [
-      {
-        "name": "HIT",
-        "number": 10,
-        "unit": "＋",
-        "origin": "HIT＋10"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -203,35 +123,18 @@
     "position": "갑옷",
     "rate": "일반",
     "monster": "로다 프로그",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "SP회복 +1",
+    "option": "▶ MaxHP＋150\n▶ MaxSP＋50\n",
+    "optionKeyword": [
+      "MaxHP",
+      "MaxSP"
     ],
-    "savePoint": [
-      {
-        "name": "SP회복",
-        "number": 1,
-        "unit": "+",
-        "origin": "SP회복 +1"
-      }
+    "saveKeyword": [
+      "SP회복"
     ],
-    "option": [
-      {
-        "name": "MaxHP",
-        "number": 150,
-        "unit": "＋",
-        "origin": "MaxHP＋150"
-      },
-      {
-        "name": "MaxSP",
-        "number": 50,
-        "unit": "＋",
-        "origin": "MaxSP＋50"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -240,41 +143,19 @@
     "position": "무기",
     "rate": "일반",
     "monster": "로커",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 3,
-        "unit": "+",
-        "origin": "ATK +3"
-      }
+    "openPoint": "ATK +3",
+    "savePoint": "DEX +1, ATK +4.5",
+    "option": "▶ DEX＋1\n▶ ATK＋5\n",
+    "optionKeyword": [
+      "ATK",
+      "DEX"
     ],
-    "savePoint": [
-      {
-        "name": "DEX",
-        "number": 1,
-        "unit": "+",
-        "origin": "DEX +1"
-      },
-      {
-        "name": "ATK",
-        "number": 45,
-        "unit": "+4.",
-        "origin": "ATK +4.5"
-      }
+    "saveKeyword": [
+      "ATK",
+      "DEX"
     ],
-    "option": [
-      {
-        "name": "DEX",
-        "number": 1,
-        "unit": "＋",
-        "origin": "DEX＋1"
-      },
-      {
-        "name": "ATK",
-        "number": 5,
-        "unit": "＋",
-        "origin": "ATK＋5"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -283,35 +164,18 @@
     "position": "무기",
     "rate": "일반",
     "monster": "루나틱",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 3,
-        "unit": "+",
-        "origin": "ATK +3"
-      }
+    "openPoint": "ATK +3",
+    "savePoint": "ATK +4.5",
+    "option": "▶ LUK＋1\n▶ CRI＋1\n",
+    "optionKeyword": [
+      "CRI",
+      "LUK"
     ],
-    "savePoint": [
-      {
-        "name": "ATK",
-        "number": 45,
-        "unit": "+4.",
-        "origin": "ATK +4.5"
-      }
+    "saveKeyword": [
+      "ATK"
     ],
-    "option": [
-      {
-        "name": "LUK",
-        "number": 1,
-        "unit": "＋",
-        "origin": "LUK＋1"
-      },
-      {
-        "name": "CRI",
-        "number": 1,
-        "unit": "＋",
-        "origin": "CRI＋1"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -320,29 +184,17 @@
     "position": "투구",
     "rate": "일반",
     "monster": "마르두크",
-    "openPoint": [
-      {
-        "name": "MDEF",
-        "number": 4,
-        "unit": "+",
-        "origin": "MDEF +4"
-      }
+    "openPoint": "MDEF +4",
+    "savePoint": "MaxHP +10",
+    "option": "▶ 침묵 상태 면제\n",
+    "optionKeyword": [
+      "침묵"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 10,
-        "unit": "+",
-        "origin": "MaxHP +10"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "침묵 상태 면제",
-        "number": "",
-        "unit": "침묵 상태 면제",
-        "origin": "침묵 상태 면제"
-      }
+    "openKeyword": [
+      "MDEF"
     ]
   },
   {
@@ -351,41 +203,18 @@
     "position": "무기",
     "rate": "일반",
     "monster": "마리나",
-    "openPoint": [
-      {
-        "name": "MDEF",
-        "number": 2,
-        "unit": "+",
-        "origin": "MDEF +2"
-      }
+    "openPoint": "MDEF +2",
+    "savePoint": "마리나 카드를 장착한 상태에서 일반공격 시 동빙 확률 +5%,\n동빙 상태인 목표에 데미지 +25%",
+    "option": "▶ 일반공격 시 5% 확률로 적 5초간 동빙\n▶ ATK＋10\n",
+    "optionKeyword": [
+      "ATK",
+      "동빙"
     ],
-    "savePoint": [
-      {
-        "name": "마리나 카드를 장착한 상태에서 일반공격 시 동빙 확률",
-        "number": 5,
-        "unit": "+%",
-        "origin": "마리나 카드를 장착한 상태에서 일반공격 시 동빙 확률 +5%"
-      },
-      {
-        "name": "동빙 상태인 목표에 데미지",
-        "number": 25,
-        "unit": "+%",
-        "origin": "동빙 상태인 목표에 데미지 +25%"
-      }
+    "saveKeyword": [
+      "동빙"
     ],
-    "option": [
-      {
-        "name": "일반공격 시 5% 확률로 적 5초간 동빙",
-        "number": "",
-        "unit": "일반공격 시 5% 확률로 적 초간 동빙",
-        "origin": "일반공격 시 5% 확률로 적 5초간 동빙"
-      },
-      {
-        "name": "ATK",
-        "number": 10,
-        "unit": "＋",
-        "origin": "ATK＋10"
-      }
+    "openKeyword": [
+      "MDEF"
     ]
   },
   {
@@ -394,29 +223,15 @@
     "position": "걸칠것",
     "rate": "일반",
     "monster": "마리오네트",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "네이팜 발칸 데미지 +10%",
+    "option": "▶ 받는 염속성 데미지－15%\n",
+    "optionKeyword": [
+      "염속성"
     ],
-    "savePoint": [
-      {
-        "name": "네이팜 발칸 데미지",
-        "number": 10,
-        "unit": "+%",
-        "origin": "네이팜 발칸 데미지 +10%"
-      }
-    ],
-    "option": [
-      {
-        "name": "받는 염속성 데미지－",
-        "number": 15,
-        "unit": "%",
-        "origin": "받는 염속성 데미지－15%"
-      }
+    "saveKeyword": [],
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -425,35 +240,18 @@
     "position": "보조",
     "rate": "일반",
     "monster": "무낙",
-    "openPoint": [
-      {
-        "name": "MATK",
-        "number": 3,
-        "unit": "+",
-        "origin": "MATK +3"
-      }
+    "openPoint": "MATK +3",
+    "savePoint": "MATK +12",
+    "option": "▶ 받는 지속성 데미지－10%\n▶ DEF＋10\n",
+    "optionKeyword": [
+      "DEF",
+      "지속성"
     ],
-    "savePoint": [
-      {
-        "name": "MATK",
-        "number": 12,
-        "unit": "+",
-        "origin": "MATK +12"
-      }
+    "saveKeyword": [
+      "MATK"
     ],
-    "option": [
-      {
-        "name": "받는 지속성 데미지－",
-        "number": 10,
-        "unit": "%",
-        "origin": "받는 지속성 데미지－10%"
-      },
-      {
-        "name": "DEF",
-        "number": 10,
-        "unit": "＋",
-        "origin": "DEF＋10"
-      }
+    "openKeyword": [
+      "MATK"
     ]
   },
   {
@@ -462,29 +260,17 @@
     "position": "액세서리",
     "rate": "일반",
     "monster": "무카",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "MaxHP +28",
+    "option": "▶ HP 회복＋10\n",
+    "optionKeyword": [
+      "HP회복"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "HP 회복",
-        "number": 10,
-        "unit": "＋",
-        "origin": "HP 회복＋10"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -493,29 +279,15 @@
     "position": "액세서리",
     "rate": "일반",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "ATK +4.5",
+    "option": "▶ 효과 없음\n",
+    "optionKeyword": [],
+    "saveKeyword": [
+      "ATK"
     ],
-    "savePoint": [
-      {
-        "name": "ATK",
-        "number": 45,
-        "unit": "+4.",
-        "origin": "ATK +4.5"
-      }
-    ],
-    "option": [
-      {
-        "name": "효과 없음",
-        "number": "",
-        "unit": "효과 없음",
-        "origin": "효과 없음"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -524,35 +296,18 @@
     "position": "무기",
     "rate": "일반",
     "monster": "미이라",
-    "openPoint": [
-      {
-        "name": "HIT",
-        "number": 5,
-        "unit": "+",
-        "origin": "HIT +5"
-      },
-      {
-        "name": "ATK",
-        "number": 3,
-        "unit": "+",
-        "origin": "ATK +3"
-      }
+    "openPoint": "HIT +5, ATK +3",
+    "savePoint": "MATK +6",
+    "option": "▶ HIT＋10\n",
+    "optionKeyword": [
+      "HIT"
     ],
-    "savePoint": [
-      {
-        "name": "MATK",
-        "number": 6,
-        "unit": "+",
-        "origin": "MATK +6"
-      }
+    "saveKeyword": [
+      "MATK"
     ],
-    "option": [
-      {
-        "name": "HIT",
-        "number": 10,
-        "unit": "＋",
-        "origin": "HIT＋10"
-      }
+    "openKeyword": [
+      "ATK",
+      "HIT"
     ]
   },
   {
@@ -561,29 +316,17 @@
     "position": "무기",
     "rate": "일반",
     "monster": "바돈",
-    "openPoint": [
-      {
-        "name": "몬스터(화)에 데미지",
-        "number": 2,
-        "unit": "+%",
-        "origin": "몬스터(화)에 데미지 +2%"
-      }
+    "openPoint": "몬스터(화)에 데미지 +2%",
+    "savePoint": "몬스터(화)에 데미지 +5%",
+    "option": "▶ 몬스터(화)에 데미지＋15%\n",
+    "optionKeyword": [
+      "화속성"
     ],
-    "savePoint": [
-      {
-        "name": "몬스터(화)에 데미지",
-        "number": 5,
-        "unit": "+%",
-        "origin": "몬스터(화)에 데미지 +5%"
-      }
+    "saveKeyword": [
+      "화속성"
     ],
-    "option": [
-      {
-        "name": "몬스터(화)에 데미지",
-        "number": 15,
-        "unit": "＋%",
-        "origin": "몬스터(화)에 데미지＋15%"
-      }
+    "openKeyword": [
+      "화속성"
     ]
   },
   {
@@ -592,29 +335,17 @@
     "position": "액세서리",
     "rate": "일반",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 12,
-        "unit": "+",
-        "origin": "MaxHP +12"
-      }
+    "openPoint": "MaxHP +12",
+    "savePoint": "MaxHP +10",
+    "option": "▶ 인간형 몬스터 데미지 추가＋2%\n",
+    "optionKeyword": [
+      "인간형"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 10,
-        "unit": "+",
-        "origin": "MaxHP +10"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "인간형 몬스터 데미지 추가",
-        "number": 2,
-        "unit": "＋%",
-        "origin": "인간형 몬스터 데미지 추가＋2%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -623,29 +354,18 @@
     "position": "무기",
     "rate": "일반",
     "monster": "본건",
-    "openPoint": [
-      {
-        "name": "MDEF",
-        "number": 2,
-        "unit": "+",
-        "origin": "MDEF +2"
-      }
+    "openPoint": "MDEF +2",
+    "savePoint": "배쉬 스킬은 STR의 영향을 받습니다.(중첩불가)",
+    "option": "▶ 일반공격 시 3% 확률로 【배쉬】Lv.5 자동 시전\n",
+    "optionKeyword": [
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "배쉬 스킬은 STR의 영향을 받습니다.(중첩불가)",
-        "number": "",
-        "unit": "배쉬 스킬은 STR의 영향을 받습니다.(중첩불가)",
-        "origin": "배쉬 스킬은 STR의 영향을 받습니다.(중첩불가)"
-      }
+    "saveKeyword": [
+      "STR",
+      "스킬"
     ],
-    "option": [
-      {
-        "name": "일반공격 시 3% 확률로 【배쉬】Lv.5 자동 시전",
-        "number": "",
-        "unit": "일반공격 시 3% 확률로 【배쉬】Lv. 자동 시전",
-        "origin": "일반공격 시 3% 확률로 【배쉬】Lv.5 자동 시전"
-      }
+    "openKeyword": [
+      "MDEF"
     ]
   },
   {
@@ -654,29 +374,17 @@
     "position": "보조",
     "rate": "일반",
     "monster": "빅풋",
-    "openPoint": [
-      {
-        "name": "곤충형 몬스터 데미지 추가",
-        "number": 2,
-        "unit": "+%",
-        "origin": "곤충형 몬스터 데미지 추가 +2%"
-      }
+    "openPoint": "곤충형 몬스터 데미지 추가 +2%",
+    "savePoint": "곤충형 몬스터 데미지 추가 +8%",
+    "option": "▶ 받는 곤충형 몬스터 데미지－15%\n",
+    "optionKeyword": [
+      "곤충형"
     ],
-    "savePoint": [
-      {
-        "name": "곤충형 몬스터 데미지 추가",
-        "number": 8,
-        "unit": "+%",
-        "origin": "곤충형 몬스터 데미지 추가 +8%"
-      }
+    "saveKeyword": [
+      "곤충형"
     ],
-    "option": [
-      {
-        "name": "받는 곤충형 몬스터 데미지－",
-        "number": 15,
-        "unit": "%",
-        "origin": "받는 곤충형 몬스터 데미지－15%"
-      }
+    "openKeyword": [
+      "곤충형"
     ]
   },
   {
@@ -685,29 +393,17 @@
     "position": "액세서리",
     "rate": "일반",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "인간형 몬스터 데미지 추가",
-        "number": 1,
-        "unit": "+%",
-        "origin": "인간형 몬스터 데미지 추가 +1%"
-      }
+    "openPoint": "인간형 몬스터 데미지 추가 +1%",
+    "savePoint": "인간형 몬스터 데미지 추가 +1%",
+    "option": "▶ 인간형 몬스터 데미지 추가 +3%\n",
+    "optionKeyword": [
+      "인간형"
     ],
-    "savePoint": [
-      {
-        "name": "인간형 몬스터 데미지 추가",
-        "number": 1,
-        "unit": "+%",
-        "origin": "인간형 몬스터 데미지 추가 +1%"
-      }
+    "saveKeyword": [
+      "인간형"
     ],
-    "option": [
-      {
-        "name": "인간형 몬스터 데미지 추가",
-        "number": 3,
-        "unit": "+%",
-        "origin": "인간형 몬스터 데미지 추가 +3%"
-      }
+    "openKeyword": [
+      "인간형"
     ]
   },
   {
@@ -716,29 +412,17 @@
     "position": "신발",
     "rate": "일반",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 6,
-        "unit": "+",
-        "origin": "ATK +6"
-      }
+    "openPoint": "ATK +6",
+    "savePoint": "MaxHP +10",
+    "option": "▶ 장비 ASPD＋3%\n",
+    "optionKeyword": [
+      "ASPD"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 10,
-        "unit": "+",
-        "origin": "MaxHP +10"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "장비 ASPD",
-        "number": 3,
-        "unit": "＋%",
-        "origin": "장비 ASPD＋3%"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -747,35 +431,18 @@
     "position": "보조",
     "rate": "일반",
     "monster": "스팅",
-    "openPoint": [
-      {
-        "name": "MDEF",
-        "number": 2,
-        "unit": "+",
-        "origin": "MDEF +2"
-      }
+    "openPoint": "MDEF +2",
+    "savePoint": "마법 데미지 -2%",
+    "option": "▶ DEF＋10\n▶ MDEF＋15\n",
+    "optionKeyword": [
+      "MDEF",
+      "DEF"
     ],
-    "savePoint": [
-      {
-        "name": "마법 데미지",
-        "number": 2,
-        "unit": "-%",
-        "origin": "마법 데미지 -2%"
-      }
+    "saveKeyword": [
+      "마법데미지"
     ],
-    "option": [
-      {
-        "name": "DEF",
-        "number": 10,
-        "unit": "＋",
-        "origin": "DEF＋10"
-      },
-      {
-        "name": "MDEF",
-        "number": 15,
-        "unit": "＋",
-        "origin": "MDEF＋15"
-      }
+    "openKeyword": [
+      "MDEF"
     ]
   },
   {
@@ -784,29 +451,17 @@
     "position": "무기",
     "rate": "일반",
     "monster": "앙드레, 피에르, 데니로★",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 3,
-        "unit": "+",
-        "origin": "ATK +3"
-      }
+    "openPoint": "ATK +3",
+    "savePoint": "ATK +4.5",
+    "option": "▶ ATK＋10\n",
+    "optionKeyword": [
+      "ATK"
     ],
-    "savePoint": [
-      {
-        "name": "ATK",
-        "number": 45,
-        "unit": "+4.",
-        "origin": "ATK +4.5"
-      }
+    "saveKeyword": [
+      "ATK"
     ],
-    "option": [
-      {
-        "name": "ATK",
-        "number": 10,
-        "unit": "＋",
-        "origin": "ATK＋10"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -815,29 +470,17 @@
     "position": "액세서리",
     "rate": "일반",
     "monster": "오본느★",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 64,
-        "unit": "+",
-        "origin": "MaxHP +64"
-      }
+    "openPoint": "MaxHP +64",
+    "savePoint": "MaxHP +72",
+    "option": "▶ 스킬 【클리어런스】Lv.1 사용 가능\n",
+    "optionKeyword": [
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 72,
-        "unit": "+",
-        "origin": "MaxHP +72"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "스킬 【클리어런스】Lv.1 사용 가능",
-        "number": 1,
-        "unit": "스킬 【클리어런스】Lv. 사용 가능",
-        "origin": "스킬 【클리어런스】Lv.1 사용 가능"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -846,29 +489,18 @@
     "position": "액세서리",
     "rate": "일반",
     "monster": "오크 아쳐",
-    "openPoint": [
-      {
-        "name": "FLEE",
-        "number": 10,
-        "unit": "+",
-        "origin": "FLEE +10"
-      }
+    "openPoint": "FLEE +10",
+    "savePoint": "SP회복 +2",
+    "option": "▶ 인간형 몬스터 처치 시 10% 확률로 자신의 SP 20 회복\n",
+    "optionKeyword": [
+      "SP",
+      "인간형"
     ],
-    "savePoint": [
-      {
-        "name": "SP회복",
-        "number": 2,
-        "unit": "+",
-        "origin": "SP회복 +2"
-      }
+    "saveKeyword": [
+      "SP회복"
     ],
-    "option": [
-      {
-        "name": "인간형 몬스터 처치 시 10% 확률로 자신의 SP 20 회복",
-        "number": "",
-        "unit": "인간형 몬스터 처치 시 10% 확률로 자신의 SP  회복",
-        "origin": "인간형 몬스터 처치 시 10% 확률로 자신의 SP 20 회복"
-      }
+    "openKeyword": [
+      "FLEE"
     ]
   },
   {
@@ -877,29 +509,17 @@
     "position": "보조",
     "rate": "일반",
     "monster": "오크워리어",
-    "openPoint": [
-      {
-        "name": "FLEE",
-        "number": 10,
-        "unit": "+",
-        "origin": "FLEE +10"
-      }
+    "openPoint": "FLEE +10",
+    "savePoint": "동물형 몬스터 데미지 감소 +2%",
+    "option": "▶ 동물형 몬스터 데미지 감소＋20%\n",
+    "optionKeyword": [
+      "동물형"
     ],
-    "savePoint": [
-      {
-        "name": "동물형 몬스터 데미지 감소",
-        "number": 2,
-        "unit": "+%",
-        "origin": "동물형 몬스터 데미지 감소 +2%"
-      }
+    "saveKeyword": [
+      "동물형"
     ],
-    "option": [
-      {
-        "name": "동물형 몬스터 데미지 감소",
-        "number": 20,
-        "unit": "＋%",
-        "origin": "동물형 몬스터 데미지 감소＋20%"
-      }
+    "openKeyword": [
+      "FLEE"
     ]
   },
   {
@@ -908,29 +528,17 @@
     "position": "투구",
     "rate": "일반",
     "monster": "윌로우",
-    "openPoint": [
-      {
-        "name": "MaxSP",
-        "number": 10,
-        "unit": "+",
-        "origin": "MaxSP +10"
-      }
+    "openPoint": "MaxSP +10",
+    "savePoint": "MaxHP +10",
+    "option": "▶ MaxSP＋100\n",
+    "optionKeyword": [
+      "MaxSP"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 10,
-        "unit": "+",
-        "origin": "MaxHP +10"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "MaxSP",
-        "number": 100,
-        "unit": "＋",
-        "origin": "MaxSP＋100"
-      }
+    "openKeyword": [
+      "MaxSP"
     ]
   },
   {
@@ -939,29 +547,17 @@
     "position": "걸칠것",
     "rate": "일반",
     "monster": "이시스",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 20,
-        "unit": "+",
-        "origin": "MaxHP +20"
-      }
+    "openPoint": "MaxHP +20",
+    "savePoint": "일정 확률로 대상의 SP가 0으로 감소합니다",
+    "option": "▶ 받는 암속성 데미지－15%\n",
+    "optionKeyword": [
+      "암속성"
     ],
-    "savePoint": [
-      {
-        "name": "일정 확률로 대상의 SP가 0으로 감소합니다",
-        "number": "",
-        "unit": "일정 확률로 대상의 SP가 으로 감소합니다",
-        "origin": "일정 확률로 대상의 SP가 0으로 감소합니다"
-      }
+    "saveKeyword": [
+      "SP"
     ],
-    "option": [
-      {
-        "name": "받는 암속성 데미지－",
-        "number": 15,
-        "unit": "%",
-        "origin": "받는 암속성 데미지－15%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -970,29 +566,17 @@
     "position": "무기",
     "rate": "일반",
     "monster": "인저스티스",
-    "openPoint": [
-      {
-        "name": "STR",
-        "number": 1,
-        "unit": "+",
-        "origin": "STR +1"
-      }
+    "openPoint": "STR +1",
+    "savePoint": "MATK +4.5",
+    "option": "▶ 일반공격 시 3% 확률로 【소닉 블로우】Lv.5 자동 시전\n",
+    "optionKeyword": [
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "MATK",
-        "number": 45,
-        "unit": "+4.",
-        "origin": "MATK +4.5"
-      }
+    "saveKeyword": [
+      "MATK"
     ],
-    "option": [
-      {
-        "name": "일반공격 시 3% 확률로 【소닉 블로우】Lv.5 자동 시전",
-        "number": "",
-        "unit": "일반공격 시 3% 확률로 【소닉 블로우】Lv. 자동 시전",
-        "origin": "일반공격 시 3% 확률로 【소닉 블로우】Lv.5 자동 시전"
-      }
+    "openKeyword": [
+      "STR"
     ]
   },
   {
@@ -1001,29 +585,17 @@
     "position": "신발",
     "rate": "일반",
     "monster": "촌촌",
-    "openPoint": [
-      {
-        "name": "DEF",
-        "number": 2,
-        "unit": "+",
-        "origin": "DEF +2"
-      }
+    "openPoint": "DEF +2",
+    "savePoint": "MaxHP +10",
+    "option": "▶ STR＋2\n",
+    "optionKeyword": [
+      "STR"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 10,
-        "unit": "+",
-        "origin": "MaxHP +10"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "STR",
-        "number": 2,
-        "unit": "＋",
-        "origin": "STR＋2"
-      }
+    "openKeyword": [
+      "DEF"
     ]
   },
   {
@@ -1032,35 +604,18 @@
     "position": "무기",
     "rate": "일반",
     "monster": "파브르",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "MaxHP +36",
+    "option": "▶ VIT＋1\n▶ MaxHP＋50\n",
+    "optionKeyword": [
+      "MaxHP",
+      "VIT"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 36,
-        "unit": "+",
-        "origin": "MaxHP +36"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "VIT",
-        "number": 1,
-        "unit": "＋",
-        "origin": "VIT＋1"
-      },
-      {
-        "name": "MaxHP",
-        "number": 50,
-        "unit": "＋",
-        "origin": "MaxHP＋50"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -1069,41 +624,19 @@
     "position": "무기",
     "rate": "일반",
     "monster": "퍼밀리어",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 3,
-        "unit": "+",
-        "origin": "ATK +3"
-      }
+    "openPoint": "ATK +3",
+    "savePoint": "INT +1, MATK +4.5",
+    "option": "▶ INT＋1\n▶ MATK＋5\n",
+    "optionKeyword": [
+      "MATK",
+      "INT"
     ],
-    "savePoint": [
-      {
-        "name": "INT",
-        "number": 1,
-        "unit": "+",
-        "origin": "INT +1"
-      },
-      {
-        "name": "MATK",
-        "number": 45,
-        "unit": "+4.",
-        "origin": "MATK +4.5"
-      }
+    "saveKeyword": [
+      "MATK",
+      "INT"
     ],
-    "option": [
-      {
-        "name": "INT",
-        "number": 1,
-        "unit": "＋",
-        "origin": "INT＋1"
-      },
-      {
-        "name": "MATK",
-        "number": 5,
-        "unit": "＋",
-        "origin": "MATK＋5"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -1112,29 +645,17 @@
     "position": "무기",
     "rate": "일반",
     "monster": "페코페코 알",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "무형 몬스터 데미지 추가 +2%",
+    "option": "▶ 무형 몬스터에 데미지＋15%\n",
+    "optionKeyword": [
+      "무형"
     ],
-    "savePoint": [
-      {
-        "name": "무형 몬스터 데미지 추가",
-        "number": 2,
-        "unit": "+%",
-        "origin": "무형 몬스터 데미지 추가 +2%"
-      }
+    "saveKeyword": [
+      "무형"
     ],
-    "option": [
-      {
-        "name": "무형 몬스터에 데미지",
-        "number": 15,
-        "unit": "＋%",
-        "origin": "무형 몬스터에 데미지＋15%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -1143,35 +664,18 @@
     "position": "갑옷",
     "rate": "일반",
     "monster": "포링",
-    "openPoint": [
-      {
-        "name": "DEF",
-        "number": 2,
-        "unit": "+",
-        "origin": "DEF +2"
-      }
+    "openPoint": "DEF +2",
+    "savePoint": "FLEE +2",
+    "option": "▶ LUK＋1\n▶ FLEE＋1\n",
+    "optionKeyword": [
+      "FLEE",
+      "LUK"
     ],
-    "savePoint": [
-      {
-        "name": "FLEE",
-        "number": 2,
-        "unit": "+",
-        "origin": "FLEE +2"
-      }
+    "saveKeyword": [
+      "FLEE"
     ],
-    "option": [
-      {
-        "name": "LUK",
-        "number": 1,
-        "unit": "＋",
-        "origin": "LUK＋1"
-      },
-      {
-        "name": "FLEE",
-        "number": 1,
-        "unit": "＋",
-        "origin": "FLEE＋1"
-      }
+    "openKeyword": [
+      "DEF"
     ]
   },
   {
@@ -1180,29 +684,17 @@
     "position": "액세서리",
     "rate": "일반",
     "monster": "포이즌 스포아",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 3,
-        "unit": "+",
-        "origin": "ATK +3"
-      }
+    "openPoint": "ATK +3",
+    "savePoint": "MaxHP +10",
+    "option": "▶ 스킬 【베넘 나이프】Lv.1 사용 가능\n",
+    "optionKeyword": [
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 10,
-        "unit": "+",
-        "origin": "MaxHP +10"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "스킬 【베넘 나이프】Lv.1 사용 가능",
-        "number": 1,
-        "unit": "스킬 【베넘 나이프】Lv. 사용 가능",
-        "origin": "스킬 【베넘 나이프】Lv.1 사용 가능"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -1211,29 +703,18 @@
     "position": "갑옷",
     "rate": "일반",
     "monster": "푸파",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "MaxHP +20, 스턴 저항 +5%",
+    "option": "▶ MaxHP＋200\n",
+    "optionKeyword": [
+      "MaxHP"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP +20 스턴 저항",
-        "number": 5,
-        "unit": "+%",
-        "origin": "MaxHP +20 스턴 저항 +5%"
-      }
+    "saveKeyword": [
+      "MaxHP",
+      "스턴"
     ],
-    "option": [
-      {
-        "name": "MaxHP",
-        "number": 200,
-        "unit": "＋",
-        "origin": "MaxHP＋200"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -1242,29 +723,17 @@
     "position": "무기",
     "rate": "일반",
     "monster": "플로라",
-    "openPoint": [
-      {
-        "name": "어패류 몬스터 데미지 추가",
-        "number": 2,
-        "unit": "+%",
-        "origin": "어패류 몬스터 데미지 추가 +2%"
-      }
+    "openPoint": "어패류 몬스터 데미지 추가 +2%",
+    "savePoint": "어패류 몬스터 데미지 추가 +2%",
+    "option": "▶ 어패류 몬스터 데미지 추가＋15%\n",
+    "optionKeyword": [
+      "어패류"
     ],
-    "savePoint": [
-      {
-        "name": "어패류 몬스터 데미지 추가",
-        "number": 2,
-        "unit": "+%",
-        "origin": "어패류 몬스터 데미지 추가 +2%"
-      }
+    "saveKeyword": [
+      "어패류"
     ],
-    "option": [
-      {
-        "name": "어패류 몬스터 데미지 추가",
-        "number": 15,
-        "unit": "＋%",
-        "origin": "어패류 몬스터 데미지 추가＋15%"
-      }
+    "openKeyword": [
+      "어패류"
     ]
   },
   {
@@ -1273,35 +742,18 @@
     "position": "갑옷",
     "rate": "일반",
     "monster": "픽키",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "STR +1",
+    "option": "▶ STR＋1\n▶ ATK＋10\n",
+    "optionKeyword": [
+      "ATK",
+      "STR"
     ],
-    "savePoint": [
-      {
-        "name": "STR",
-        "number": 1,
-        "unit": "+",
-        "origin": "STR +1"
-      }
+    "saveKeyword": [
+      "STR"
     ],
-    "option": [
-      {
-        "name": "STR",
-        "number": 1,
-        "unit": "＋",
-        "origin": "STR＋1"
-      },
-      {
-        "name": "ATK",
-        "number": 10,
-        "unit": "＋",
-        "origin": "ATK＋10"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -1310,29 +762,17 @@
     "position": "액세서리",
     "rate": "일반",
     "monster": "호롱★",
-    "openPoint": [
-      {
-        "name": "MDEF",
-        "number": 4,
-        "unit": "+",
-        "origin": "MDEF +4"
-      }
+    "openPoint": "MDEF +4",
+    "savePoint": "MaxHP +10",
+    "option": "▶ 스킬 【사이트】Lv.1 사용 가능\n",
+    "optionKeyword": [
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 10,
-        "unit": "+",
-        "origin": "MaxHP +10"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "스킬 【사이트】Lv.1 사용 가능",
-        "number": 1,
-        "unit": "스킬 【사이트】Lv. 사용 가능",
-        "origin": "스킬 【사이트】Lv.1 사용 가능"
-      }
+    "openKeyword": [
+      "MDEF"
     ]
   },
   {
@@ -1341,35 +781,18 @@
     "position": "신발",
     "rate": "녹색",
     "monster": "빨강쿠키",
-    "openPoint": [
-      {
-        "name": "DEF",
-        "number": 2,
-        "unit": "+",
-        "origin": "DEF +2"
-      }
+    "openPoint": "DEF +2",
+    "savePoint": "MaxHP +48",
+    "option": "▶ LUK+2\n▶ 【쥬덱스】데미지+5%\n",
+    "optionKeyword": [
+      "스킬",
+      "LUK"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 48,
-        "unit": "+",
-        "origin": "MaxHP +48"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "LUK",
-        "number": 2,
-        "unit": "+",
-        "origin": "LUK+2"
-      },
-      {
-        "name": "【쥬덱스】데미지",
-        "number": 5,
-        "unit": "+%",
-        "origin": "【쥬덱스】데미지+5%"
-      }
+    "openKeyword": [
+      "DEF"
     ]
   },
   {
@@ -1378,29 +801,18 @@
     "position": "액세서리",
     "rate": "녹색",
     "monster": "가고일",
-    "openPoint": [
-      {
-        "name": "이동속도",
-        "number": 1,
-        "unit": "+%",
-        "origin": "이동속도 +1%"
-      }
+    "openPoint": "이동속도 +1%",
+    "savePoint": "MaxHP +18",
+    "option": "▶ 곤충형 몬스터 처치 시 3% 확률로 이동속도 25% 증가, 20초 지속\n",
+    "optionKeyword": [
+      "이동속도",
+      "곤충형"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 18,
-        "unit": "+",
-        "origin": "MaxHP +18"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "곤충형 몬스터 처치 시 3% 확률로 이동속도 25% 증가, 20초 지속",
-        "number": "",
-        "unit": "곤충형 몬스터 처치 시 3% 확률로 이동속도 25% 증가, 초 지속",
-        "origin": "곤충형 몬스터 처치 시 3% 확률로 이동속도 25% 증가, 20초 지속"
-      }
+    "openKeyword": [
+      "이동속도"
     ]
   },
   {
@@ -1409,29 +821,17 @@
     "position": "투구",
     "rate": "녹색",
     "monster": "가이아스",
-    "openPoint": [
-      {
-        "name": "지속성 데미지",
-        "number": 2,
-        "unit": "-%",
-        "origin": "지속성 데미지 -2%"
-      }
+    "openPoint": "지속성 데미지 -2%",
+    "savePoint": "MaxHP +18",
+    "option": "▶ 수면 상태 면제\n",
+    "optionKeyword": [
+      "수면"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 18,
-        "unit": "+",
-        "origin": "MaxHP +18"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "수면 상태 면제",
-        "number": "",
-        "unit": "수면 상태 면제",
-        "origin": "수면 상태 면제"
-      }
+    "openKeyword": [
+      "지속성"
     ]
   },
   {
@@ -1440,29 +840,17 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "개미 알",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "MaxHP +36",
+    "option": "▶ MaxHP＋5%\n",
+    "optionKeyword": [
+      "MaxHP"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 36,
-        "unit": "+",
-        "origin": "MaxHP +36"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "MaxHP",
-        "number": 5,
-        "unit": "＋%",
-        "origin": "MaxHP＋5%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -1471,35 +859,18 @@
     "position": "걸칠것",
     "rate": "녹색",
     "monster": "구미호",
-    "openPoint": [
-      {
-        "name": "FLEE",
-        "number": 10,
-        "unit": "+",
-        "origin": "FLEE +10"
-      }
+    "openPoint": "FLEE +10",
+    "savePoint": "MaxHP +18",
+    "option": "▶ AGI＋2\n▶ FLEE＋5\n",
+    "optionKeyword": [
+      "AGI",
+      "FLEE"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 18,
-        "unit": "+",
-        "origin": "MaxHP +18"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "AGI",
-        "number": 2,
-        "unit": "＋",
-        "origin": "AGI＋2"
-      },
-      {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "＋",
-        "origin": "FLEE＋5"
-      }
+    "openKeyword": [
+      "FLEE"
     ]
   },
   {
@@ -1508,34 +879,24 @@
     "position": "신발",
     "rate": "녹색",
     "monster": "고급 제작: 구미호 카드 1개 + 그람 가루 50개",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 30,
-        "unit": "+",
-        "origin": "MaxHP +30"
-      }
+    "openPoint": "MaxHP +30",
+    "savePoint": "HP 회복 + 1%",
+    "option": "▶ DEX＋2\n▶ FLEE＋5\n",
+    "optionKeyword": [
+      "DEX",
+      "FLEE"
     ],
-    "savePoint": [
-      {
-        "name": "HP 회복",
-        "number": 1,
-        "unit": "+ %",
-        "origin": "HP 회복 + 1%"
-      }
+    "saveKeyword": [
+      "HP회복"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "DEX",
-        "number": 2,
-        "unit": "＋",
-        "origin": "DEX＋2"
-      },
-      {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "＋",
-        "origin": "FLEE＋5"
+        "name": "구미호",
+        "count": 1,
+        "origin": "구미호"
       }
     ]
   },
@@ -1545,35 +906,18 @@
     "position": "투구",
     "rate": "녹색",
     "monster": "나이트메어",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "MaxHP +18",
+    "option": "▶ 수면 상태 면제\n▶ AGI＋1\n",
+    "optionKeyword": [
+      "AGI",
+      "수면"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 18,
-        "unit": "+",
-        "origin": "MaxHP +18"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "수면 상태 면제",
-        "number": "",
-        "unit": "수면 상태 면제",
-        "origin": "수면 상태 면제"
-      },
-      {
-        "name": "AGI",
-        "number": 1,
-        "unit": "＋",
-        "origin": "AGI＋1"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -1582,29 +926,17 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "다크 프리스트",
-    "openPoint": [
-      {
-        "name": "장비 ASPD",
-        "number": 1,
-        "unit": "+%",
-        "origin": "장비 ASPD +1%"
-      }
+    "openPoint": "장비 ASPD +1%",
+    "savePoint": "MaxHP +70",
+    "option": "▶ 일반공격 시 일정 확률로 목표 SP 감소\n",
+    "optionKeyword": [
+      "SP"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 70,
-        "unit": "+",
-        "origin": "MaxHP +70"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "일반공격 시 일정 확률로 목표 SP 감소",
-        "number": "",
-        "unit": "일반공격 시 일정 확률로 목표 SP 감소",
-        "origin": "일반공격 시 일정 확률로 목표 SP 감소"
-      }
+    "openKeyword": [
+      "ASPD"
     ]
   },
   {
@@ -1613,29 +945,17 @@
     "position": "갑옷",
     "rate": "녹색",
     "monster": "도깨비",
-    "openPoint": [
-      {
-        "name": "DEF",
-        "number": 4,
-        "unit": "+",
-        "origin": "DEF +4"
-      }
+    "openPoint": "DEF +4",
+    "savePoint": "도깨비 카드 장착 시 경직 속성으로부터 영향을 받지 않습니다.",
+    "option": "▶ 갑옷 속성을 풍속성으로 전환\n",
+    "optionKeyword": [
+      "풍속성"
     ],
-    "savePoint": [
-      {
-        "name": "도깨비 카드 장착 시 경직 속성으로부터 영향을 받지 않습니다",
-        "number": "",
-        "unit": ".",
-        "origin": "도깨비 카드 장착 시 경직 속성으로부터 영향을 받지 않습니다."
-      }
+    "saveKeyword": [
+      "경직"
     ],
-    "option": [
-      {
-        "name": "갑옷 속성을 풍속성으로 전환",
-        "number": "",
-        "unit": "갑옷 속성을 풍속성으로 전환",
-        "origin": "갑옷 속성을 풍속성으로 전환"
-      }
+    "openKeyword": [
+      "DEF"
     ]
   },
   {
@@ -1644,35 +964,18 @@
     "position": "투구",
     "rate": "녹색",
     "monster": "도나",
-    "openPoint": [
-      {
-        "name": "MATK",
-        "number": 15,
-        "unit": "+1.",
-        "origin": "MATK +1.5"
-      }
+    "openPoint": "MATK +1.5",
+    "savePoint": "MATK +7.5",
+    "option": "▶ INT＋1\n▶ MATK＋10\n\n\n",
+    "optionKeyword": [
+      "MATK",
+      "INT"
     ],
-    "savePoint": [
-      {
-        "name": "MATK",
-        "number": 75,
-        "unit": "+7.",
-        "origin": "MATK +7.5"
-      }
+    "saveKeyword": [
+      "MATK"
     ],
-    "option": [
-      {
-        "name": "INT",
-        "number": 1,
-        "unit": "＋",
-        "origin": "INT＋1"
-      },
-      {
-        "name": "MATK",
-        "number": 10,
-        "unit": "＋",
-        "origin": "MATK＋10"
-      }
+    "openKeyword": [
+      "MATK"
     ]
   },
   {
@@ -1681,29 +984,17 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "드레인리어",
-    "openPoint": [
-      {
-        "name": "MATK",
-        "number": 6,
-        "unit": "+",
-        "origin": "MATK +6"
-      }
+    "openPoint": "MATK +6",
+    "savePoint": "몬스터(수)에 데미지 +5%",
+    "option": "▶ 몬스터(수)에 데미지＋20%\n",
+    "optionKeyword": [
+      "수속성"
     ],
-    "savePoint": [
-      {
-        "name": "몬스터(수)에 데미지",
-        "number": 5,
-        "unit": "+%",
-        "origin": "몬스터(수)에 데미지 +5%"
-      }
+    "saveKeyword": [
+      "수속성"
     ],
-    "option": [
-      {
-        "name": "몬스터(수)에 데미지",
-        "number": 20,
-        "unit": "＋%",
-        "origin": "몬스터(수)에 데미지＋20%"
-      }
+    "openKeyword": [
+      "MATK"
     ]
   },
   {
@@ -1712,35 +1003,18 @@
     "position": "투구",
     "rate": "녹색",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MATK",
-        "number": 15,
-        "unit": "+1.",
-        "origin": "MATK +1.5"
-      }
+    "openPoint": "MATK +1.5",
+    "savePoint": "MaxHP +18",
+    "option": "▶ INT＋5\n▶ MDEF＋20\n",
+    "optionKeyword": [
+      "MDEF",
+      "INT"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 18,
-        "unit": "+",
-        "origin": "MaxHP +18"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "INT",
-        "number": 5,
-        "unit": "＋",
-        "origin": "INT＋5"
-      },
-      {
-        "name": "MDEF",
-        "number": 20,
-        "unit": "＋",
-        "origin": "MDEF＋20"
-      }
+    "openKeyword": [
+      "MATK"
     ]
   },
   {
@@ -1749,29 +1023,18 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "레이드릭 아쳐, 크레로-광기의 활, 골드 애로우, 잭클린-데빌 애로우",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 1,
-        "unit": "+",
-        "origin": "ATK +1"
-      }
+    "openPoint": "ATK +1",
+    "savePoint": "MaxHP +18",
+    "option": "▶ 악마형 몬스터 처치 시 10% 확률로 자신의 제련 ATK 일정 시간 동안 증가,\n해당 효과 최대 3회까지 중첩 가능\n",
+    "optionKeyword": [
+      "제련ATK",
+      "악마형"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 18,
-        "unit": "+",
-        "origin": "MaxHP +18"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "악마형 몬스터 처치 시 10% 확률로 자신의 제련 ATK 일정 시간 동안 증가, 해당 효과 최대 3회까지 중첩 가능",
-        "number": "",
-        "unit": "악마형 몬스터 처치 시 10% 확률로 자신의 제련 ATK 일정 시간 동안 증가, 해당 효과 최대 회까지 중첩 가능",
-        "origin": "악마형 몬스터 처치 시 10% 확률로 자신의 제련 ATK 일정 시간 동안 증가, 해당 효과 최대 3회까지 중첩 가능"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -1780,29 +1043,18 @@
     "position": "액세서리",
     "rate": "녹색",
     "monster": "레이쓰",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "MaxHP +30",
+    "option": "▶ 불사형 몬스터 처치 시 3% 확률로 데미지 9%의 HP 회복\n",
+    "optionKeyword": [
+      "HP회복",
+      "불사형"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 30,
-        "unit": "+",
-        "origin": "MaxHP +30"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "불사형 몬스터 처치 시 3% 확률로 데미지 9%의 HP 회복",
-        "number": "",
-        "unit": "불사형 몬스터 처치 시 3% 확률로 데미지 %의 HP 회복",
-        "origin": "불사형 몬스터 처치 시 3% 확률로 데미지 9%의 HP 회복"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -1811,35 +1063,18 @@
     "position": "보조",
     "rate": "녹색",
     "monster": "마르크",
-    "openPoint": [
-      {
-        "name": "받는 수속성 데미지",
-        "number": 2,
-        "unit": "-%",
-        "origin": "받는 수속성 데미지 -2%"
-      }
+    "openPoint": "받는 수속성 데미지 -2%",
+    "savePoint": "받는 수속성 데미지 -8%",
+    "option": "▶ 받는 수속성 데미지－15%\n▶ 동빙 상태 면제\n",
+    "optionKeyword": [
+      "동빙",
+      "수속성"
     ],
-    "savePoint": [
-      {
-        "name": "받는 수속성 데미지",
-        "number": 8,
-        "unit": "-%",
-        "origin": "받는 수속성 데미지 -8%"
-      }
+    "saveKeyword": [
+      "수속성"
     ],
-    "option": [
-      {
-        "name": "받는 수속성 데미지－",
-        "number": 15,
-        "unit": "%",
-        "origin": "받는 수속성 데미지－15%"
-      },
-      {
-        "name": "동빙 상태 면제",
-        "number": "",
-        "unit": "동빙 상태 면제",
-        "origin": "동빙 상태 면제"
-      }
+    "openKeyword": [
+      "수속성"
     ]
   },
   {
@@ -1848,35 +1083,18 @@
     "position": "신발",
     "rate": "녹색",
     "monster": "마타",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 48,
-        "unit": "+",
-        "origin": "MaxHP +48"
-      }
+    "openPoint": "MaxHP +48",
+    "savePoint": "MaxHP +48",
+    "option": "▶ AGI＋1\n▶ MaxHP＋5%\n",
+    "optionKeyword": [
+      "MaxHP",
+      "AGI"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 48,
-        "unit": "+",
-        "origin": "MaxHP +48"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "AGI",
-        "number": 1,
-        "unit": "＋",
-        "origin": "AGI＋1"
-      },
-      {
-        "name": "MaxHP",
-        "number": 5,
-        "unit": "＋%",
-        "origin": "MaxHP＋5%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -1885,29 +1103,17 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "만드라고라",
-    "openPoint": [
-      {
-        "name": "몬스터(풍)에 데미지",
-        "number": 2,
-        "unit": "+%",
-        "origin": "몬스터(풍)에 데미지 +2%"
-      }
+    "openPoint": "몬스터(풍)에 데미지 +2%",
+    "savePoint": "몬스터(풍)에 데미지 +5%",
+    "option": "▶ 몬스터(풍)에 데미지＋20%\n",
+    "optionKeyword": [
+      "풍속성"
     ],
-    "savePoint": [
-      {
-        "name": "몬스터(풍)에 데미지",
-        "number": 5,
-        "unit": "+%",
-        "origin": "몬스터(풍)에 데미지 +5%"
-      }
+    "saveKeyword": [
+      "풍속성"
     ],
-    "option": [
-      {
-        "name": "몬스터(풍)에 데미지",
-        "number": 20,
-        "unit": "＋%",
-        "origin": "몬스터(풍)에 데미지＋20%"
-      }
+    "openKeyword": [
+      "풍속성"
     ]
   },
   {
@@ -1916,29 +1122,17 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "맨블릿",
-    "openPoint": [
-      {
-        "name": "MDEF",
-        "number": 4,
-        "unit": "+",
-        "origin": "MDEF +4"
-      }
+    "openPoint": "MDEF +4",
+    "savePoint": "몬스터(지)에 데미지 +5%",
+    "option": "▶ 몬스터(지)에 데미지＋20%\n",
+    "optionKeyword": [
+      "지속성"
     ],
-    "savePoint": [
-      {
-        "name": "몬스터(지)에 데미지",
-        "number": 5,
-        "unit": "+%",
-        "origin": "몬스터(지)에 데미지 +5%"
-      }
+    "saveKeyword": [
+      "지속성"
     ],
-    "option": [
-      {
-        "name": "몬스터(지)에 데미지",
-        "number": 20,
-        "unit": "＋%",
-        "origin": "몬스터(지)에 데미지＋20%"
-      }
+    "openKeyword": [
+      "MDEF"
     ]
   },
   {
@@ -1947,41 +1141,19 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "메틀러",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 75,
-        "unit": "+7.",
-        "origin": "ATK +7.5"
-      }
+    "openPoint": "ATK +7.5",
+    "savePoint": "장비 ASPD +1%",
+    "option": "▶ STR＋3\n▶ ATK＋20\n▶ 장비 ASPD＋2%\n",
+    "optionKeyword": [
+      "ASPD",
+      "ATK",
+      "STR"
     ],
-    "savePoint": [
-      {
-        "name": "장비 ASPD",
-        "number": 1,
-        "unit": "+%",
-        "origin": "장비 ASPD +1%"
-      }
+    "saveKeyword": [
+      "ASPD"
     ],
-    "option": [
-      {
-        "name": "STR",
-        "number": 3,
-        "unit": "＋",
-        "origin": "STR＋3"
-      },
-      {
-        "name": "ATK",
-        "number": 20,
-        "unit": "＋",
-        "origin": "ATK＋20"
-      },
-      {
-        "name": "장비 ASPD",
-        "number": 2,
-        "unit": "＋%",
-        "origin": "장비 ASPD＋2%"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -1990,35 +1162,18 @@
     "position": "투구",
     "rate": "녹색",
     "monster": "미스트케이스",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 40,
-        "unit": "+",
-        "origin": "MaxHP +40"
-      }
+    "openPoint": "MaxHP +40",
+    "savePoint": "DEX +1, ATK +4.5",
+    "option": "▶ 매회 몬스터 처치 시 본인 SP 10 회복, 효과는 5초마다 최대 1회 발동\n",
+    "optionKeyword": [
+      "SP"
     ],
-    "savePoint": [
-      {
-        "name": "DEX",
-        "number": 1,
-        "unit": "+",
-        "origin": "DEX +1"
-      },
-      {
-        "name": "ATK",
-        "number": 45,
-        "unit": "+4.",
-        "origin": "ATK +4.5"
-      }
+    "saveKeyword": [
+      "ATK",
+      "DEX"
     ],
-    "option": [
-      {
-        "name": "매회 몬스터 처치 시 본인 SP 10 회복, 효과는 5초마다 최대 1회 발동",
-        "number": "",
-        "unit": "매회 몬스터 처치 시 본인 SP 10 회복, 효과는 5초마다 최대 회 발동",
-        "origin": "매회 몬스터 처치 시 본인 SP 10 회복, 효과는 5초마다 최대 1회 발동"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -2027,34 +1182,24 @@
     "position": "투구",
     "rate": "녹색",
     "monster": "고급 제작: 미이라 카드 2개 + 그람 가루 50개",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 30,
-        "unit": "+",
-        "origin": "MaxHP +30"
-      }
+    "openPoint": "MaxHP +30",
+    "savePoint": "MaxHP +36",
+    "option": "▶ HIT＋25\n▶ FLEE＋2",
+    "optionKeyword": [
+      "FLEE",
+      "HIT"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 36,
-        "unit": "+",
-        "origin": "MaxHP +36"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "HIT",
-        "number": 25,
-        "unit": "＋",
-        "origin": "HIT＋25"
-      },
-      {
-        "name": "FLEE",
-        "number": 2,
-        "unit": "＋",
-        "origin": "FLEE＋2"
+        "name": "미이라",
+        "count": "2",
+        "origin": "미이라 2"
       }
     ]
   },
@@ -2064,29 +1209,17 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "배회하는 자",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 15,
-        "unit": "+1.",
-        "origin": "ATK +1.5"
-      }
+    "openPoint": "ATK +1.5",
+    "savePoint": "ATK +6",
+    "option": "▶ 일반공격 시 5%일정 확률로 【인저리 애로우】Lv.5스킬 시전\n",
+    "optionKeyword": [
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "ATK",
-        "number": 6,
-        "unit": "+",
-        "origin": "ATK +6"
-      }
+    "saveKeyword": [
+      "ATK"
     ],
-    "option": [
-      {
-        "name": "일반공격 시 5%일정 확률로 【인저리 애로우】Lv.5스킬 시전",
-        "number": "",
-        "unit": "일반공격 시 5%일정 확률로 【인저리 애로우】Lv.스킬 시전",
-        "origin": "일반공격 시 5%일정 확률로 【인저리 애로우】Lv.5스킬 시전"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -2095,29 +1228,17 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "백련옥",
-    "openPoint": [
-      {
-        "name": "MDEF",
-        "number": 2,
-        "unit": "+",
-        "origin": "MDEF +2"
-      }
+    "openPoint": "MDEF +2",
+    "savePoint": "SP 회복 +1",
+    "option": "▶ 일반공격 시 5% 확률로 자신의 SP 30 회복\n",
+    "optionKeyword": [
+      "SP"
     ],
-    "savePoint": [
-      {
-        "name": "SP 회복",
-        "number": 1,
-        "unit": "+",
-        "origin": "SP 회복 +1"
-      }
+    "saveKeyword": [
+      "SP회복"
     ],
-    "option": [
-      {
-        "name": "일반공격 시 5% 확률로 자신의 SP 30 회복",
-        "number": "",
-        "unit": "일반공격 시 5% 확률로 자신의 SP  회복",
-        "origin": "일반공격 시 5% 확률로 자신의 SP 30 회복"
-      }
+    "openKeyword": [
+      "MDEF"
     ]
   },
   {
@@ -2126,41 +1247,19 @@
     "position": "갑옷",
     "rate": "녹색",
     "monster": "브릴라이트",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 12,
-        "unit": "+",
-        "origin": "MaxHP +12"
-      }
+    "openPoint": "MaxHP +12",
+    "savePoint": "STR +1",
+    "option": "▶ STR＋3\n▶ VIT＋1\n▶ MaxHP＋100\n",
+    "optionKeyword": [
+      "MaxHP",
+      "STR",
+      "VIT"
     ],
-    "savePoint": [
-      {
-        "name": "STR",
-        "number": 1,
-        "unit": "+",
-        "origin": "STR +1"
-      }
+    "saveKeyword": [
+      "STR"
     ],
-    "option": [
-      {
-        "name": "STR",
-        "number": 3,
-        "unit": "＋",
-        "origin": "STR＋3"
-      },
-      {
-        "name": "VIT",
-        "number": 1,
-        "unit": "＋",
-        "origin": "VIT＋1"
-      },
-      {
-        "name": "MaxHP",
-        "number": 100,
-        "unit": "＋",
-        "origin": "MaxHP＋100"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -2169,29 +1268,17 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "쁘띠",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "드래곤 몬스터 데미지 추가 +2%",
+    "option": "▶ 용족 몬스터에 데미지＋20%\n",
+    "optionKeyword": [
+      "용족"
     ],
-    "savePoint": [
-      {
-        "name": "드래곤 몬스터 데미지 추가",
-        "number": 2,
-        "unit": "+%",
-        "origin": "드래곤 몬스터 데미지 추가 +2%"
-      }
+    "saveKeyword": [
+      "드래곤"
     ],
-    "option": [
-      {
-        "name": "용족 몬스터에 데미지",
-        "number": 20,
-        "unit": "＋%",
-        "origin": "용족 몬스터에 데미지＋20%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -2200,29 +1287,18 @@
     "position": "갑옷",
     "rate": "녹색",
     "monster": "세비지",
-    "openPoint": [
-      {
-        "name": "DEF",
-        "number": 4,
-        "unit": "+",
-        "origin": "DEF +4"
-      }
+    "openPoint": "DEF +4",
+    "savePoint": "VIT +1, 세비지 공격을 받으면 VIT 1마다 반사 데미지 추가",
+    "option": "▶ VIT＋3\n",
+    "optionKeyword": [
+      "VIT"
     ],
-    "savePoint": [
-      {
-        "name": "VIT +1 세비지 공격을 받으면 VIT 1마다 반사 데미지 추가",
-        "number": "",
-        "unit": "VIT +1 세비지 공격을 받으면 VIT 마다 반사 데미지 추가",
-        "origin": "VIT +1 세비지 공격을 받으면 VIT 1마다 반사 데미지 추가"
-      }
+    "saveKeyword": [
+      "VIT",
+      "반사"
     ],
-    "option": [
-      {
-        "name": "VIT",
-        "number": 3,
-        "unit": "＋",
-        "origin": "VIT＋3"
-      }
+    "openKeyword": [
+      "DEF"
     ]
   },
   {
@@ -2231,35 +1307,18 @@
     "position": "신발",
     "rate": "녹색",
     "monster": "소희",
-    "openPoint": [
-      {
-        "name": "MaxSP",
-        "number": 20,
-        "unit": "+",
-        "origin": "MaxSP +20"
-      }
+    "openPoint": "MaxSP +20",
+    "savePoint": "MaxHP +18",
+    "option": "▶ MaxSP＋15%\n▶ SP 회복＋2\n",
+    "optionKeyword": [
+      "MaxSP",
+      "SP회복"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 18,
-        "unit": "+",
-        "origin": "MaxHP +18"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "MaxSP",
-        "number": 15,
-        "unit": "＋%",
-        "origin": "MaxSP＋15%"
-      },
-      {
-        "name": "SP 회복",
-        "number": 2,
-        "unit": "＋",
-        "origin": "SP 회복＋2"
-      }
+    "openKeyword": [
+      "MaxSP"
     ]
   },
   {
@@ -2268,29 +1327,17 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "스켈레톤",
-    "openPoint": [
-      {
-        "name": "DEF",
-        "number": 4,
-        "unit": "+",
-        "origin": "DEF +4"
-      }
+    "openPoint": "DEF +4",
+    "savePoint": "스턴 시간 +2초(해당 카드에만 해당)",
+    "option": "▶ 일반공격 시 3% 확률로 적 5초간 스턴\n",
+    "optionKeyword": [
+      "스턴"
     ],
-    "savePoint": [
-      {
-        "name": "스턴 시간 +2초(해당 카드에만 해당)",
-        "number": 2,
-        "unit": "스턴 시간 +초(해당 카드에만 해당)",
-        "origin": "스턴 시간 +2초(해당 카드에만 해당)"
-      }
+    "saveKeyword": [
+      "스턴"
     ],
-    "option": [
-      {
-        "name": "일반공격 시 3% 확률로 적 5초간 스턴",
-        "number": "",
-        "unit": "일반공격 시 3% 확률로 적 초간 스턴",
-        "origin": "일반공격 시 3% 확률로 적 5초간 스턴"
-      }
+    "openKeyword": [
+      "DEF"
     ]
   },
   {
@@ -2299,29 +1346,17 @@
     "position": "액세서리",
     "rate": "녹색",
     "monster": "스포아",
-    "openPoint": [
-      {
-        "name": "MATK",
-        "number": 45,
-        "unit": "+4.",
-        "origin": "MATK +4.5"
-      }
+    "openPoint": "MATK +4.5",
+    "savePoint": "MaxHP +18",
+    "option": "▶ VIT＋2\n",
+    "optionKeyword": [
+      "VIT"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 18,
-        "unit": "+",
-        "origin": "MaxHP +18"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "VIT",
-        "number": 2,
-        "unit": "＋",
-        "origin": "VIT＋2"
-      }
+    "openKeyword": [
+      "MATK"
     ]
   },
   {
@@ -2330,29 +1365,19 @@
     "position": "갑옷",
     "rate": "녹색",
     "monster": "아놀리안",
-    "openPoint": [
-      {
-        "name": "AGI",
-        "number": 1,
-        "unit": "+",
-        "origin": "AGI +1"
-      }
+    "openPoint": "AGI +1",
+    "savePoint": "MaxHP +18",
+    "option": "▶ 받는 물리 데미지 시 3% 확률로 AGI＋5, DEX＋5, 2분 지속\n",
+    "optionKeyword": [
+      "물리데미지",
+      "AGI",
+      "DEX"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 18,
-        "unit": "+",
-        "origin": "MaxHP +18"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "받는 물리 데미지 시 3% 확률로 AGI＋5, DEX＋5, 2분 지속",
-        "number": "",
-        "unit": "받는 물리 데미지 시 3% 확률로 AGI＋5, DEX＋5, 분 지속",
-        "origin": "받는 물리 데미지 시 3% 확률로 AGI＋5, DEX＋5, 2분 지속"
-      }
+    "openKeyword": [
+      "AGI"
     ]
   },
   {
@@ -2361,29 +1386,17 @@
     "position": "보조",
     "rate": "녹색",
     "monster": "아누비스",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 84,
-        "unit": "+",
-        "origin": "MaxHP +84"
-      }
+    "openPoint": "MaxHP +84",
+    "savePoint": "천사형 몬스터 데미지 감소 +10%",
+    "option": "▶ 천사형 몬스터로부터 받는 몬스터 데미지－30%\n",
+    "optionKeyword": [
+      "천사형"
     ],
-    "savePoint": [
-      {
-        "name": "천사형 몬스터 데미지 감소",
-        "number": 10,
-        "unit": "+%",
-        "origin": "천사형 몬스터 데미지 감소 +10%"
-      }
+    "saveKeyword": [
+      "천사형"
     ],
-    "option": [
-      {
-        "name": "천사형 몬스터로부터 받는 몬스터 데미지－",
-        "number": 30,
-        "unit": "%",
-        "origin": "천사형 몬스터로부터 받는 몬스터 데미지－30%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -2392,35 +1405,18 @@
     "position": "갑옷",
     "rate": "녹색",
     "monster": "아르지오프",
-    "openPoint": [
-      {
-        "name": "DEF",
-        "number": 4,
-        "unit": "+",
-        "origin": "DEF +4"
-      }
+    "openPoint": "DEF +4",
+    "savePoint": "아르지오프 카드 장착 시 중독 효과로부터 영향을 받지 않습니다.",
+    "option": "▶ 갑옷 속성을 독속성으로 전환\n▶ DEF＋20\n",
+    "optionKeyword": [
+      "DEF",
+      "독속성"
     ],
-    "savePoint": [
-      {
-        "name": "아르지오프 카드 장착 시 중독 효과로부터 영향을 받지 않습니다",
-        "number": "",
-        "unit": ".",
-        "origin": "아르지오프 카드 장착 시 중독 효과로부터 영향을 받지 않습니다."
-      }
+    "saveKeyword": [
+      "중독"
     ],
-    "option": [
-      {
-        "name": "갑옷 속성을 독속성으로 전환",
-        "number": "",
-        "unit": "갑옷 속성을 독속성으로 전환",
-        "origin": "갑옷 속성을 독속성으로 전환"
-      },
-      {
-        "name": "DEF",
-        "number": 20,
-        "unit": "＋",
-        "origin": "DEF＋20"
-      }
+    "openKeyword": [
+      "DEF"
     ]
   },
   {
@@ -2429,47 +1425,20 @@
     "position": "신발",
     "rate": "녹색",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 12,
-        "unit": "+",
-        "origin": "MaxHP +12"
-      }
+    "openPoint": "MaxHP +12",
+    "savePoint": "ATK +7.5, MATK +7.5",
+    "option": "▶ MaxHP＋300\n▶ VIT＋1\n▶ INT＋1\n",
+    "optionKeyword": [
+      "MaxHP",
+      "INT",
+      "VIT"
     ],
-    "savePoint": [
-      {
-        "name": "ATK",
-        "number": 75,
-        "unit": "+7.",
-        "origin": "ATK +7.5"
-      },
-      {
-        "name": "MATK",
-        "number": 75,
-        "unit": "+7.",
-        "origin": "MATK +7.5"
-      }
+    "saveKeyword": [
+      "MATK",
+      "ATK"
     ],
-    "option": [
-      {
-        "name": "MaxHP",
-        "number": 300,
-        "unit": "＋",
-        "origin": "MaxHP＋300"
-      },
-      {
-        "name": "VIT",
-        "number": 1,
-        "unit": "＋",
-        "origin": "VIT＋1"
-      },
-      {
-        "name": "INT",
-        "number": 1,
-        "unit": "＋",
-        "origin": "INT＋1"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -2478,35 +1447,18 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "암컷 도둑벌레",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 6,
-        "unit": "+",
-        "origin": "ATK +6"
-      }
+    "openPoint": "ATK +6",
+    "savePoint": "HIT +5",
+    "option": "▶ AGI＋1\n▶ HIT＋5\n",
+    "optionKeyword": [
+      "AGI",
+      "HIT"
     ],
-    "savePoint": [
-      {
-        "name": "HIT",
-        "number": 5,
-        "unit": "+",
-        "origin": "HIT +5"
-      }
+    "saveKeyword": [
+      "HIT"
     ],
-    "option": [
-      {
-        "name": "AGI",
-        "number": 1,
-        "unit": "＋",
-        "origin": "AGI＋1"
-      },
-      {
-        "name": "HIT",
-        "number": 5,
-        "unit": "＋",
-        "origin": "HIT＋5"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -2515,29 +1467,17 @@
     "position": "투구",
     "rate": "녹색",
     "monster": "엘더 윌로우",
-    "openPoint": [
-      {
-        "name": "MDEF",
-        "number": 2,
-        "unit": "+",
-        "origin": "MDEF +2"
-      }
+    "openPoint": "MDEF +2",
+    "savePoint": "ATK +6",
+    "option": "▶ INT＋3\n",
+    "optionKeyword": [
+      "INT"
     ],
-    "savePoint": [
-      {
-        "name": "ATK",
-        "number": 6,
-        "unit": "+",
-        "origin": "ATK +6"
-      }
+    "saveKeyword": [
+      "ATK"
     ],
-    "option": [
-      {
-        "name": "INT",
-        "number": 3,
-        "unit": "＋",
-        "origin": "INT＋3"
-      }
+    "openKeyword": [
+      "MDEF"
     ]
   },
   {
@@ -2546,29 +1486,17 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "엘더",
-    "openPoint": [
-      {
-        "name": "PVP에서 유저에 대한",
-        "number": 1,
-        "unit": "+%",
-        "origin": "PVP에서 유저에 대한 +1%"
-      }
+    "openPoint": "PVP에서 유저에 대한 +1%",
+    "savePoint": "PVP에서 유저에 대한 +1%",
+    "option": "▶ PVP에서 유저에 데미지＋3%\n",
+    "optionKeyword": [
+      "PVP"
     ],
-    "savePoint": [
-      {
-        "name": "PVP에서 유저에 대한",
-        "number": 1,
-        "unit": "+%",
-        "origin": "PVP에서 유저에 대한 +1%"
-      }
+    "saveKeyword": [
+      "PVP"
     ],
-    "option": [
-      {
-        "name": "PVP에서 유저에 데미지",
-        "number": 3,
-        "unit": "＋%",
-        "origin": "PVP에서 유저에 데미지＋3%"
-      }
+    "openKeyword": [
+      "PVP"
     ]
   },
   {
@@ -2577,29 +1505,17 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "오크레이디",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 45,
-        "unit": "+4.",
-        "origin": "ATK +4.5"
-      }
+    "openPoint": "ATK +4.5",
+    "savePoint": "곤충형에 데미지 +2%",
+    "option": "▶ 곤충형에 데미지＋5%\n",
+    "optionKeyword": [
+      "곤충형"
     ],
-    "savePoint": [
-      {
-        "name": "곤충형에 데미지",
-        "number": 2,
-        "unit": "+%",
-        "origin": "곤충형에 데미지 +2%"
-      }
+    "saveKeyword": [
+      "곤충형"
     ],
-    "option": [
-      {
-        "name": "곤충형에 데미지",
-        "number": 5,
-        "unit": "＋%",
-        "origin": "곤충형에 데미지＋5%"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -2608,29 +1524,17 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "오크스켈레톤",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "몬스터(성)에 데미지 +5%",
+    "option": "▶ 몬스터(성)에 데미지＋20%\n",
+    "optionKeyword": [
+      "성속성"
     ],
-    "savePoint": [
-      {
-        "name": "몬스터(성)에 데미지",
-        "number": 5,
-        "unit": "+%",
-        "origin": "몬스터(성)에 데미지 +5%"
-      }
+    "saveKeyword": [
+      "성속성"
     ],
-    "option": [
-      {
-        "name": "몬스터(성)에 데미지",
-        "number": 20,
-        "unit": "＋%",
-        "origin": "몬스터(성)에 데미지＋20%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -2639,29 +1543,18 @@
     "position": "걸칠것",
     "rate": "녹색",
     "monster": "오크좀비",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "자신의 일정 범위 내 불사형 몬스터 ATK 20% 감소",
+    "option": "▶ 받는 불사 속성 데미지－20%\n",
+    "optionKeyword": [
+      "불사속성"
     ],
-    "savePoint": [
-      {
-        "name": "자신의 일정 범위 내 불사형 몬스터 ATK 20% 감소",
-        "number": 20,
-        "unit": "자신의 일정 범위 내 불사형 몬스터 ATK % 감소",
-        "origin": "자신의 일정 범위 내 불사형 몬스터 ATK 20% 감소"
-      }
+    "saveKeyword": [
+      "ATK",
+      "불사형"
     ],
-    "option": [
-      {
-        "name": "받는 불사 속성 데미지－",
-        "number": 20,
-        "unit": "%",
-        "origin": "받는 불사 속성 데미지－20%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -2670,35 +1563,18 @@
     "position": "신발",
     "rate": "녹색",
     "monster": "와일드 로즈",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "MATK +6",
+    "option": "▶ AGI＋2\n▶ FLEE＋5\n",
+    "optionKeyword": [
+      "AGI",
+      "FLEE"
     ],
-    "savePoint": [
-      {
-        "name": "MATK",
-        "number": 6,
-        "unit": "+",
-        "origin": "MATK +6"
-      }
+    "saveKeyword": [
+      "MATK"
     ],
-    "option": [
-      {
-        "name": "AGI",
-        "number": 2,
-        "unit": "＋",
-        "origin": "AGI＋2"
-      },
-      {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "＋",
-        "origin": "FLEE＋5"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -2707,34 +1583,24 @@
     "position": "걸칠것",
     "rate": "녹색",
     "monster": "고급 제작: 와일드 로즈 카드 1개 + 그람 가루 50개",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 30,
-        "unit": "+",
-        "origin": "MaxHP +30"
-      }
+    "openPoint": "MaxHP +30",
+    "savePoint": "SP 회복 + 1%",
+    "option": "▶ INT + 2\n▶ FLEE＋5",
+    "optionKeyword": [
+      "FLEE",
+      "INT"
     ],
-    "savePoint": [
-      {
-        "name": "SP 회복",
-        "number": 1,
-        "unit": "+ %",
-        "origin": "SP 회복 + 1%"
-      }
+    "saveKeyword": [
+      "SP회복"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "INT",
-        "number": 2,
-        "unit": "+ ",
-        "origin": "INT + 2"
-      },
-      {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "＋",
-        "origin": "FLEE＋5"
+        "name": "와일드 로즈",
+        "count": 1,
+        "origin": "와일드 로즈"
       }
     ]
   },
@@ -2744,29 +1610,17 @@
     "position": "액세서리",
     "rate": "녹색",
     "monster": "요요",
-    "openPoint": [
-      {
-        "name": "DEF",
-        "number": 2,
-        "unit": "+",
-        "origin": "DEF +2"
-      }
+    "openPoint": "DEF +2",
+    "savePoint": "ATK +6",
+    "option": "▶ AGI＋2\n",
+    "optionKeyword": [
+      "AGI"
     ],
-    "savePoint": [
-      {
-        "name": "ATK",
-        "number": 6,
-        "unit": "+",
-        "origin": "ATK +6"
-      }
+    "saveKeyword": [
+      "ATK"
     ],
-    "option": [
-      {
-        "name": "AGI",
-        "number": 2,
-        "unit": "＋",
-        "origin": "AGI＋2"
-      }
+    "openKeyword": [
+      "DEF"
     ]
   },
   {
@@ -2775,35 +1629,18 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "울프",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 6,
-        "unit": "+",
-        "origin": "ATK +6"
-      }
+    "openPoint": "ATK +6",
+    "savePoint": "ATK +9",
+    "option": "▶ ATK＋15\n▶ CRI＋2\n",
+    "optionKeyword": [
+      "ATK",
+      "CRI"
     ],
-    "savePoint": [
-      {
-        "name": "ATK",
-        "number": 9,
-        "unit": "+",
-        "origin": "ATK +9"
-      }
+    "saveKeyword": [
+      "ATK"
     ],
-    "option": [
-      {
-        "name": "ATK",
-        "number": 15,
-        "unit": "＋",
-        "origin": "ATK＋15"
-      },
-      {
-        "name": "CRI",
-        "number": 2,
-        "unit": "＋",
-        "origin": "CRI＋2"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -2812,29 +1649,17 @@
     "position": "액세서리",
     "rate": "녹색",
     "monster": "조커, 조커-권력의 지팡이, 조커-별화폐, 조커-성배, 조커-보검",
-    "openPoint": [
-      {
-        "name": "MATK",
-        "number": 15,
-        "unit": "+1.",
-        "origin": "MATK +1.5"
-      }
+    "openPoint": "MATK +1.5",
+    "savePoint": "MaxHP +18",
+    "option": "▶ 스킬 【스톤 커스】Lv.5 사용 가능\n",
+    "optionKeyword": [
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 18,
-        "unit": "+",
-        "origin": "MaxHP +18"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "스킬 【스톤 커스】Lv.5 사용 가능",
-        "number": 5,
-        "unit": "스킬 【스톤 커스】Lv. 사용 가능",
-        "origin": "스킬 【스톤 커스】Lv.5 사용 가능"
-      }
+    "openKeyword": [
+      "MATK"
     ]
   },
   {
@@ -2843,29 +1668,17 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "지퍼베어",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 40,
-        "unit": "+",
-        "origin": "MaxHP +40"
-      }
+    "openPoint": "MaxHP +40",
+    "savePoint": "MATK +4.5",
+    "option": "▶ ATK+25\n",
+    "optionKeyword": [
+      "ATK"
     ],
-    "savePoint": [
-      {
-        "name": "MATK",
-        "number": 45,
-        "unit": "+4.",
-        "origin": "MATK +4.5"
-      }
+    "saveKeyword": [
+      "MATK"
     ],
-    "option": [
-      {
-        "name": "ATK",
-        "number": 25,
-        "unit": "+",
-        "origin": "ATK+25"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -2874,29 +1687,17 @@
     "position": "액세서리",
     "rate": "녹색",
     "monster": "천하대장군",
-    "openPoint": [
-      {
-        "name": "MDEF",
-        "number": 2,
-        "unit": "+",
-        "origin": "MDEF +2"
-      }
+    "openPoint": "MDEF +2",
+    "savePoint": "MaxHP +18",
+    "option": "▶ 일반공격 시 3% 확률로 축기(최종 데미지＋10%) 1분 지속\n",
+    "optionKeyword": [
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 18,
-        "unit": "+",
-        "origin": "MaxHP +18"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "일반공격 시 3% 확률로 축기(최종 데미지＋10%) 1분 지속",
-        "number": "",
-        "unit": "일반공격 시 3% 확률로 축기(최종 데미지＋10%) 분 지속",
-        "origin": "일반공격 시 3% 확률로 축기(최종 데미지＋10%) 1분 지속"
-      }
+    "openKeyword": [
+      "MDEF"
     ]
   },
   {
@@ -2905,29 +1706,17 @@
     "position": "보조",
     "rate": "녹색",
     "monster": "칼리츠버그, 소미나, 애쉴리, 에일린",
-    "openPoint": [
-      {
-        "name": "악마형 데미지 감소",
-        "number": 1,
-        "unit": "+%",
-        "origin": "악마형 데미지 감소 +1%"
-      }
+    "openPoint": "악마형 데미지 감소 +1%",
+    "savePoint": "MaxHP +18",
+    "option": "▶ 악마형 몬스터로부터 받는 데미지 감소＋10%\n",
+    "optionKeyword": [
+      "악마형"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 18,
-        "unit": "+",
-        "origin": "MaxHP +18"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "악마형 몬스터로부터 받는 데미지 감소",
-        "number": 10,
-        "unit": "＋%",
-        "origin": "악마형 몬스터로부터 받는 데미지 감소＋10%"
-      }
+    "openKeyword": [
+      "악마형"
     ]
   },
   {
@@ -2936,35 +1725,18 @@
     "position": "투구",
     "rate": "녹색",
     "monster": "캐럿카드",
-    "openPoint": [
-      {
-        "name": "MATK",
-        "number": 45,
-        "unit": "+4.",
-        "origin": "MATK +4.5"
-      }
+    "openPoint": "MATK +4.5",
+    "savePoint": "MaxHP +48",
+    "option": "▶ INT+2\n▶ 최대SP+80\n",
+    "optionKeyword": [
+      "INT",
+      "SP"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 48,
-        "unit": "+",
-        "origin": "MaxHP +48"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "INT",
-        "number": 2,
-        "unit": "+",
-        "origin": "INT+2"
-      },
-      {
-        "name": "최대SP",
-        "number": 80,
-        "unit": "+",
-        "origin": "최대SP+80"
-      }
+    "openKeyword": [
+      "MATK"
     ]
   },
   {
@@ -2973,35 +1745,19 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "코볼트 아쳐",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP+24"
-      }
+    "openPoint": "MaxHP+24",
+    "savePoint": "코볼트 아쳐 카드 장착 시 HIT +25",
+    "option": "▶ CRI.D＋10%\n▶ 식물형 몬스터에 대한 CRI＋20\n",
+    "optionKeyword": [
+      "CRI.D",
+      "CRI",
+      "식물형"
     ],
-    "savePoint": [
-      {
-        "name": "코볼트 아쳐 카드 장착 시 HIT",
-        "number": 25,
-        "unit": "+",
-        "origin": "코볼트 아쳐 카드 장착 시 HIT +25"
-      }
+    "saveKeyword": [
+      "HIT"
     ],
-    "option": [
-      {
-        "name": "CRI.D",
-        "number": 10,
-        "unit": "＋%",
-        "origin": "CRI.D＋10%"
-      },
-      {
-        "name": "식물형 몬스터에 대한 CRI",
-        "number": 20,
-        "unit": "＋",
-        "origin": "식물형 몬스터에 대한 CRI＋20"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -3010,29 +1766,17 @@
     "position": "액세서리",
     "rate": "녹색",
     "monster": "초록 쿠키",
-    "openPoint": [
-      {
-        "name": "MDEF",
-        "number": 2,
-        "unit": "+",
-        "origin": "MDEF +2"
-      }
+    "openPoint": "MDEF +2",
+    "savePoint": "MaxHP +48",
+    "option": "▶ LUK＋3\n",
+    "optionKeyword": [
+      "LUK"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 48,
-        "unit": "+",
-        "origin": "MaxHP +48"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "LUK",
-        "number": 3,
-        "unit": "＋",
-        "origin": "LUK＋3"
-      }
+    "openKeyword": [
+      "MDEF"
     ]
   },
   {
@@ -3041,35 +1785,18 @@
     "position": "투구",
     "rate": "녹색",
     "monster": "크램프",
-    "openPoint": [
-      {
-        "name": "FLEE",
-        "number": 4,
-        "unit": "+",
-        "origin": "FLEE +4"
-      }
+    "openPoint": "FLEE +4",
+    "savePoint": "MaxHP +18",
+    "option": "▶ LUK＋3\n▶ FLEE＋5\n",
+    "optionKeyword": [
+      "FLEE",
+      "LUK"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 18,
-        "unit": "+",
-        "origin": "MaxHP +18"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "LUK",
-        "number": 3,
-        "unit": "＋",
-        "origin": "LUK＋3"
-      },
-      {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "＋",
-        "origin": "FLEE＋5"
-      }
+    "openKeyword": [
+      "FLEE"
     ]
   },
   {
@@ -3078,35 +1805,19 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "크루이저",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 45,
-        "unit": "+4.",
-        "origin": "ATK +4.5"
-      }
+    "openPoint": "ATK +4.5",
+    "savePoint": "MaxHP +48",
+    "option": "▶ CRI.D＋7%\n▶ 동물형 몬스터에게 CRI＋10\n",
+    "optionKeyword": [
+      "CRI.D",
+      "CRI",
+      "동물형"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 48,
-        "unit": "+",
-        "origin": "MaxHP +48"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "CRI.D",
-        "number": 7,
-        "unit": "＋%",
-        "origin": "CRI.D＋7%"
-      },
-      {
-        "name": "동물형 몬스터에게 CRI",
-        "number": 10,
-        "unit": "＋",
-        "origin": "동물형 몬스터에게 CRI＋10"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -3115,41 +1826,19 @@
     "position": "갑옷",
     "rate": "녹색",
     "monster": "클락",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 12,
-        "unit": "+",
-        "origin": "MaxHP +12"
-      }
+    "openPoint": "MaxHP +12",
+    "savePoint": "MaxHP +30",
+    "option": "▶ STR＋2\n▶ VIT＋1\n▶ MaxHP＋1%\n",
+    "optionKeyword": [
+      "MaxHP",
+      "STR",
+      "VIT"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 30,
-        "unit": "+",
-        "origin": "MaxHP +30"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "STR",
-        "number": 2,
-        "unit": "＋",
-        "origin": "STR＋2"
-      },
-      {
-        "name": "VIT",
-        "number": 1,
-        "unit": "＋",
-        "origin": "VIT＋1"
-      },
-      {
-        "name": "MaxHP",
-        "number": 1,
-        "unit": "＋%",
-        "origin": "MaxHP＋1%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -3158,29 +1847,17 @@
     "position": "액세서리",
     "rate": "녹색",
     "monster": "타로우",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 3,
-        "unit": "+",
-        "origin": "ATK +3"
-      }
+    "openPoint": "ATK +3",
+    "savePoint": "MaxHP +18",
+    "option": "▶ STR＋2\n",
+    "optionKeyword": [
+      "STR"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 18,
-        "unit": "+",
-        "origin": "MaxHP +18"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "STR",
-        "number": 2,
-        "unit": "＋",
-        "origin": "STR＋2"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -3189,47 +1866,20 @@
     "position": "걸칠것",
     "rate": "녹색",
     "monster": "펑크",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 6,
-        "unit": "+",
-        "origin": "MaxHP +6"
-      },
-      {
-        "name": "MaxSP",
-        "number": 1,
-        "unit": "+",
-        "origin": "MaxSP +1"
-      }
+    "openPoint": "MaxHP +6, MaxSP +1",
+    "savePoint": "MaxHP +60, MaxSP +10",
+    "option": "▶ MaxHP＋200\n▶ MaxSP＋50\n",
+    "optionKeyword": [
+      "MaxHP",
+      "MaxSP"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 60,
-        "unit": "+",
-        "origin": "MaxHP +60"
-      },
-      {
-        "name": "MaxSP",
-        "number": 10,
-        "unit": "+",
-        "origin": "MaxSP +10"
-      }
+    "saveKeyword": [
+      "MaxHP",
+      "MaxSP"
     ],
-    "option": [
-      {
-        "name": "MaxHP",
-        "number": 200,
-        "unit": "＋",
-        "origin": "MaxHP＋200"
-      },
-      {
-        "name": "MaxSP",
-        "number": 50,
-        "unit": "＋",
-        "origin": "MaxSP＋50"
-      }
+    "openKeyword": [
+      "MaxHP",
+      "MaxSP"
     ]
   },
   {
@@ -3238,29 +1888,18 @@
     "position": "보조",
     "rate": "녹색",
     "monster": "하이오크",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "하이오크 카드 장착 시 30초마다 물리 데미지 +1%, 5초 지속",
+    "option": "▶ 적으로부터 물리공격을 받으면 물리 데미지 10%를 적에게 반사\n",
+    "optionKeyword": [
+      "물리데미지",
+      "반사"
     ],
-    "savePoint": [
-      {
-        "name": "하이오크 카드 장착 시 30초마다 물리 데미지 +1% 5초 지속",
-        "number": "",
-        "unit": "하이오크 카드 장착 시 30초마다 물리 데미지 +1% 초 지속",
-        "origin": "하이오크 카드 장착 시 30초마다 물리 데미지 +1% 5초 지속"
-      }
+    "saveKeyword": [
+      "물리데미지"
     ],
-    "option": [
-      {
-        "name": "적으로부터 물리공격을 받으면 물리 데미지 10%를 적에게 반사",
-        "number": 10,
-        "unit": "적으로부터 물리공격을 받으면 물리 데미지 %를 적에게 반사",
-        "origin": "적으로부터 물리공격을 받으면 물리 데미지 10%를 적에게 반사"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -3269,29 +1908,20 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "헌터 플라이",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "헌터 플라이 카드로 흡혈 효과 발동 시 자신의 MaxHP 1% 추가 회복",
+    "option": "▶ 물리스킬 공격 시 3% 확률로 MaxHP 2%의 HP 회복\n",
+    "optionKeyword": [
+      "MaxHP",
+      "HP회복",
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "헌터 플라이 카드로 흡혈 효과 발동 시 자신의 MaxHP 1% 추가 회복",
-        "number": 1,
-        "unit": "헌터 플라이 카드로 흡혈 효과 발동 시 자신의 MaxHP % 추가 회복",
-        "origin": "헌터 플라이 카드로 흡혈 효과 발동 시 자신의 MaxHP 1% 추가 회복"
-      }
+    "saveKeyword": [
+      "MaxHP",
+      "흡혈"
     ],
-    "option": [
-      {
-        "name": "물리스킬 공격 시 3% 확률로 MaxHP 2%의 HP 회복",
-        "number": "",
-        "unit": "물리스킬 공격 시 3% 확률로 MaxHP %의 HP 회복",
-        "origin": "물리스킬 공격 시 3% 확률로 MaxHP 2%의 HP 회복"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -3300,35 +1930,18 @@
     "position": "무기",
     "rate": "녹색",
     "monster": "호넷",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 6,
-        "unit": "+",
-        "origin": "ATK +6"
-      }
+    "openPoint": "ATK +6",
+    "savePoint": "ATK +9",
+    "option": "▶ STR＋1\n▶ ATK＋10\n",
+    "optionKeyword": [
+      "ATK",
+      "STR"
     ],
-    "savePoint": [
-      {
-        "name": "ATK",
-        "number": 9,
-        "unit": "+",
-        "origin": "ATK +9"
-      }
+    "saveKeyword": [
+      "ATK"
     ],
-    "option": [
-      {
-        "name": "STR",
-        "number": 1,
-        "unit": "＋",
-        "origin": "STR＋1"
-      },
-      {
-        "name": "ATK",
-        "number": 10,
-        "unit": "＋",
-        "origin": "ATK＋10"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -3337,34 +1950,46 @@
     "position": "무기",
     "rate": "파랑",
     "monster": "고블린 스팀라이더",
-    "openPoint": [
-      {
-        "name": "CRI.D",
-        "number": 5,
-        "unit": "+%",
-        "origin": "CRI.D +5%"
-      }
+    "openPoint": "CRI.D +5%",
+    "savePoint": "무형 몬스터에 대한 CRI.D +5%",
+    "option": "▶ CRI.D＋10%\n▶ 무형 몬스터에 대한 CRI＋20\n",
+    "optionKeyword": [
+      "CRI.D",
+      "CRI",
+      "무형"
     ],
-    "savePoint": [
-      {
-        "name": "무형 몬스터에 대한 CRI.D",
-        "number": 5,
-        "unit": "+%",
-        "origin": "무형 몬스터에 대한 CRI.D +5%"
-      }
+    "saveKeyword": [
+      "CRI.D",
+      "무형"
     ],
-    "option": [
+    "openKeyword": [
+      "CRI.D"
+    ],
+    "ingreCardList": [
       {
-        "name": "CRI.D",
-        "number": 10,
-        "unit": "＋%",
-        "origin": "CRI.D＋10%"
+        "name": "포이즌 스포아",
+        "count": 1,
+        "origin": "포이즌 스포아"
       },
       {
-        "name": "무형 몬스터에 대한 CRI",
-        "number": 20,
-        "unit": "＋",
-        "origin": "무형 몬스터에 대한 CRI＋20"
+        "name": "촌촌",
+        "count": 1,
+        "origin": "촌촌"
+      },
+      {
+        "name": "타로우",
+        "count": 1,
+        "origin": "타로우"
+      },
+      {
+        "name": "가이아스",
+        "count": 1,
+        "origin": "가이아스"
+      },
+      {
+        "name": "호넷",
+        "count": 1,
+        "origin": "호넷"
       }
     ]
   },
@@ -3374,34 +1999,41 @@
     "position": "무기",
     "rate": "파랑",
     "monster": "고블린 아쳐",
-    "openPoint": [
-      {
-        "name": "CRI.D",
-        "number": 5,
-        "unit": "+%",
-        "origin": "CRI.D +5%"
-      }
+    "openPoint": "CRI.D +5%",
+    "savePoint": "불사형 몬스터에 대한 CRI.D +5%",
+    "option": "▶ CRI.D＋10%\n▶ 불사형 몬스터에 대한 CRI＋20\n",
+    "optionKeyword": [
+      "CRI.D",
+      "CRI",
+      "불사형"
     ],
-    "savePoint": [
-      {
-        "name": "불사형 몬스터에 대한 CRI.D",
-        "number": 5,
-        "unit": "+%",
-        "origin": "불사형 몬스터에 대한 CRI.D +5%"
-      }
+    "saveKeyword": [
+      "CRI.D",
+      "불사형"
     ],
-    "option": [
+    "openKeyword": [
+      "CRI.D"
+    ],
+    "ingreCardList": [
       {
-        "name": "CRI.D",
-        "number": 10,
-        "unit": "＋%",
-        "origin": "CRI.D＋10%"
+        "name": "고블린",
+        "count": 1,
+        "origin": "고블린"
       },
       {
-        "name": "불사형 몬스터에 대한 CRI",
-        "number": 20,
-        "unit": "＋",
-        "origin": "불사형 몬스터에 대한 CRI＋20"
+        "name": "스포아",
+        "count": 1,
+        "origin": "스포아"
+      },
+      {
+        "name": "호넷",
+        "count": 1,
+        "origin": "호넷"
+      },
+      {
+        "name": "요요",
+        "count": "2",
+        "origin": "요요 2"
       }
     ]
   },
@@ -3411,35 +2043,18 @@
     "position": "갑옷",
     "rate": "파랑",
     "monster": "고스트링",
-    "openPoint": [
-      {
-        "name": "DEF",
-        "number": 4,
-        "unit": "+",
-        "origin": "DEF +4"
-      }
+    "openPoint": "DEF +4",
+    "savePoint": "염속성 데미지 발생 시 -10%",
+    "option": "▶ 갑옷 속성을 염속성으로 전환\n▶ HP 회복－50%\n",
+    "optionKeyword": [
+      "HP회복",
+      "염속성"
     ],
-    "savePoint": [
-      {
-        "name": "염속성 데미지 발생 시",
-        "number": 10,
-        "unit": "-%",
-        "origin": "염속성 데미지 발생 시 -10%"
-      }
+    "saveKeyword": [
+      "염속성"
     ],
-    "option": [
-      {
-        "name": "갑옷 속성을 염속성으로 전환",
-        "number": "",
-        "unit": "갑옷 속성을 염속성으로 전환",
-        "origin": "갑옷 속성을 염속성으로 전환"
-      },
-      {
-        "name": "HP 회복－",
-        "number": 50,
-        "unit": "%",
-        "origin": "HP 회복－50%"
-      }
+    "openKeyword": [
+      "DEF"
     ]
   },
   {
@@ -3448,29 +2063,17 @@
     "position": "보조",
     "rate": "파랑",
     "monster": "곰인형",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "불사형 몬스터 데미지 추가 +1%",
+    "option": "▶ 불사형 몬스터 데미지 감소＋10%\n",
+    "optionKeyword": [
+      "불사형"
     ],
-    "savePoint": [
-      {
-        "name": "불사형 몬스터 데미지 추가",
-        "number": 1,
-        "unit": "+%",
-        "origin": "불사형 몬스터 데미지 추가 +1%"
-      }
+    "saveKeyword": [
+      "불사형"
     ],
-    "option": [
-      {
-        "name": "불사형 몬스터 데미지 감소",
-        "number": 10,
-        "unit": "＋%",
-        "origin": "불사형 몬스터 데미지 감소＋10%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -3479,41 +2082,19 @@
     "position": "무기",
     "rate": "파랑",
     "monster": "그리폰",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 8,
-        "unit": "+",
-        "origin": "ATK +8"
-      }
+    "openPoint": "ATK +8",
+    "savePoint": "그리폰 카드 장착 시 검사 계열 일반공격으로 [볼링 배쉬]를 시전하는 확률 상승",
+    "option": "▶ FLEE＋10\n▶ CRI＋5\n▶ 검사계열 장착 시 일반공격 시 3% 확률로 【볼링 배쉬】Lv.5 자동 시전\n",
+    "optionKeyword": [
+      "스킬",
+      "CRI",
+      "FLEE"
     ],
-    "savePoint": [
-      {
-        "name": "그리폰 카드 장착 시 검사 계열 일반공격으로 [볼링 배쉬]를 시전하는 확률 상승",
-        "number": "",
-        "unit": "그리폰 카드 장착 시 검사 계열 일반공격으로 [볼링 배쉬]를 시전하는 확률 상승",
-        "origin": "그리폰 카드 장착 시 검사 계열 일반공격으로 [볼링 배쉬]를 시전하는 확률 상승"
-      }
+    "saveKeyword": [
+      "스킬"
     ],
-    "option": [
-      {
-        "name": "FLEE",
-        "number": 10,
-        "unit": "＋",
-        "origin": "FLEE＋10"
-      },
-      {
-        "name": "CRI",
-        "number": 5,
-        "unit": "＋",
-        "origin": "CRI＋5"
-      },
-      {
-        "name": "검사계열 장착 시 일반공격 시 3% 확률로 【볼링 배쉬】Lv.5 자동 시전",
-        "number": "",
-        "unit": "검사계열 장착 시 일반공격 시 3% 확률로 【볼링 배쉬】Lv. 자동 시전",
-        "origin": "검사계열 장착 시 일반공격 시 3% 확률로 【볼링 배쉬】Lv.5 자동 시전"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -3522,35 +2103,17 @@
     "position": "보조",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "몬스터(암)에 데미지 +1%",
+    "option": "▶ 받는 암속성 데미지－15%\n▶ 몬스터(암)에 데미지＋5%\n",
+    "optionKeyword": [
+      "암속성"
     ],
-    "savePoint": [
-      {
-        "name": "몬스터(암)에 데미지",
-        "number": 1,
-        "unit": "+%",
-        "origin": "몬스터(암)에 데미지 +1%"
-      }
+    "saveKeyword": [
+      "암속성"
     ],
-    "option": [
-      {
-        "name": "받는 암속성 데미지－",
-        "number": 15,
-        "unit": "%",
-        "origin": "받는 암속성 데미지－15%"
-      },
-      {
-        "name": "몬스터(암)에 데미지",
-        "number": 5,
-        "unit": "＋%",
-        "origin": "몬스터(암)에 데미지＋5%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -3559,35 +2122,18 @@
     "position": "걸칠것",
     "rate": "파랑",
     "monster": "더스티네스",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "FLEE +5",
+    "option": "▶ 받는 풍속성 데미지－15%\n▶ FLEE＋5\n",
+    "optionKeyword": [
+      "FLEE",
+      "풍속성"
     ],
-    "savePoint": [
-      {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "+",
-        "origin": "FLEE +5"
-      }
+    "saveKeyword": [
+      "FLEE"
     ],
-    "option": [
-      {
-        "name": "받는 풍속성 데미지－",
-        "number": 15,
-        "unit": "%",
-        "origin": "받는 풍속성 데미지－15%"
-      },
-      {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "＋",
-        "origin": "FLEE＋5"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -3596,35 +2142,18 @@
     "position": "투구",
     "rate": "파랑",
     "monster": "데비루치",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "악마형 데미지 추가 +2%",
+    "option": "▶ STR＋3\n▶ 암흑 상태 면제\n",
+    "optionKeyword": [
+      "STR",
+      "암흑"
     ],
-    "savePoint": [
-      {
-        "name": "악마형 데미지 추가",
-        "number": 2,
-        "unit": "+%",
-        "origin": "악마형 데미지 추가 +2%"
-      }
+    "saveKeyword": [
+      "악마형"
     ],
-    "option": [
-      {
-        "name": "STR",
-        "number": 3,
-        "unit": "＋",
-        "origin": "STR＋3"
-      },
-      {
-        "name": "암흑 상태 면제",
-        "number": "",
-        "unit": "암흑 상태 면제",
-        "origin": "암흑 상태 면제"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -3633,34 +2162,46 @@
     "position": "무기",
     "rate": "파랑",
     "monster": "데저트 울프",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 8,
-        "unit": "+",
-        "origin": "ATK +8"
-      }
+    "openPoint": "ATK +8",
+    "savePoint": "통찰 : 몬스터 더블 방어 50% 무시\n(몬스터(小) 데미지 추가 속성이 50% 초과 시 적용)",
+    "option": "▶ 몬스터(小)에 데미지＋25%\n▶ ATK＋15\n",
+    "optionKeyword": [
+      "몬스터(小)",
+      "ATK"
     ],
-    "savePoint": [
-      {
-        "name": "통찰 : 몬스터 더블 방어 50% 무시 (몬스터(小) 데미지 추가 속성이 50% 초과 시 적용)",
-        "number": "",
-        "unit": "통찰 : 몬스터 더블 방어 50% 무시 (몬스터(小) 데미지 추가 속성이 % 초과 시 적용)",
-        "origin": "통찰 : 몬스터 더블 방어 50% 무시 (몬스터(小) 데미지 추가 속성이 50% 초과 시 적용)"
-      }
+    "saveKeyword": [
+      "몬스터(小)"
     ],
-    "option": [
+    "openKeyword": [
+      "ATK"
+    ]
+  },
+  {
+    "name": "도나★ 카드",
+    "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfNDcg/MDAxNTI4MDk1OTA5NDE4.DlSNcSNrE6rD5rTsByBX6DztJ4oCS-smjKg_FXvH-VAg.OYdF9gZuEFktZV6oYuHOvrLESiVwmyoLtf1moxb4vnEg.PNG.gravity001/K-008.png?type=w740",
+    "position": "신발",
+    "rate": "파랑",
+    "monster": "고급 제작: 도나 카드 3개 + 그람 가루 150개",
+    "openPoint": "ATK + 8",
+    "savePoint": "AGI + 1, MaxHP +30",
+    "option": "▶ MATK + 20\n▶ VIT + 2\n▶ INT + 2",
+    "optionKeyword": [
+      "MATK",
+      "INT",
+      "VIT"
+    ],
+    "saveKeyword": [
+      "MaxHP",
+      "AGI"
+    ],
+    "openKeyword": [
+      "ATK"
+    ],
+    "ingreCardList": [
       {
-        "name": "몬스터(小)에 데미지",
-        "number": 25,
-        "unit": "＋%",
-        "origin": "몬스터(小)에 데미지＋25%"
-      },
-      {
-        "name": "ATK",
-        "number": 15,
-        "unit": "＋",
-        "origin": "ATK＋15"
+        "name": "도나",
+        "count": "3",
+        "origin": "도나 3"
       }
     ]
   },
@@ -3670,35 +2211,17 @@
     "position": "보조",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "몬스터(지)에 데미지 +1%",
+    "option": "▶ 받는 지속성 데미지－15%\n▶ 몬스터(지)에 데미지＋5%\n",
+    "optionKeyword": [
+      "지속성"
     ],
-    "savePoint": [
-      {
-        "name": "몬스터(지)에 데미지",
-        "number": 1,
-        "unit": "+%",
-        "origin": "몬스터(지)에 데미지 +1%"
-      }
+    "saveKeyword": [
+      "지속성"
     ],
-    "option": [
-      {
-        "name": "받는 지속성 데미지－",
-        "number": 15,
-        "unit": "%",
-        "origin": "받는 지속성 데미지－15%"
-      },
-      {
-        "name": "몬스터(지)에 데미지",
-        "number": 5,
-        "unit": "＋%",
-        "origin": "몬스터(지)에 데미지＋5%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -3707,35 +2230,18 @@
     "position": "걸칠것",
     "rate": "파랑",
     "monster": "드래곤 플라이",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 8,
-        "unit": "+",
-        "origin": "ATK +8"
-      }
+    "openPoint": "ATK +8",
+    "savePoint": "ATK +10",
+    "option": "▶ AGI＋4\n▶ FLEE＋5\n",
+    "optionKeyword": [
+      "AGI",
+      "FLEE"
     ],
-    "savePoint": [
-      {
-        "name": "ATK",
-        "number": 10,
-        "unit": "+",
-        "origin": "ATK +10"
-      }
+    "saveKeyword": [
+      "ATK"
     ],
-    "option": [
-      {
-        "name": "AGI",
-        "number": 4,
-        "unit": "＋",
-        "origin": "AGI＋4"
-      },
-      {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "＋",
-        "origin": "FLEE＋5"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -3744,35 +2250,18 @@
     "position": "걸칠것",
     "rate": "파랑",
     "monster": "떠돌이 늑대",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 8,
-        "unit": "+",
-        "origin": "ATK +8"
-      }
+    "openPoint": "ATK +8",
+    "savePoint": "MaxHP +70",
+    "option": "▶ STR＋4\n▶ FLEE＋5\n",
+    "optionKeyword": [
+      "FLEE",
+      "STR"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 70,
-        "unit": "+",
-        "origin": "MaxHP +70"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "STR",
-        "number": 4,
-        "unit": "＋",
-        "origin": "STR＋4"
-      },
-      {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "＋",
-        "origin": "FLEE＋5"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -3781,28 +2270,44 @@
     "position": "걸칠것",
     "rate": "파랑",
     "monster": "레이드릭, 윈드 검사 에르윅",
-    "openPoint": [
-      {
-        "name": "무속성 데미지",
-        "number": 1,
-        "unit": "-%",
-        "origin": "무속성 데미지 -1%"
-      }
+    "openPoint": "무속성 데미지 -1%",
+    "savePoint": "MaxHP +70",
+    "option": "▶ 받는 무속성 데미지－10%\n",
+    "optionKeyword": [
+      "무속성"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 70,
-        "unit": "+",
-        "origin": "MaxHP +70"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
+    "openKeyword": [
+      "무속성"
+    ]
+  },
+  {
+    "name": "로커★ 카드",
+    "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfMjQy/MDAxNTI4MDk2Mzg0MjYw.99qxsJSuU4XzQ4hh5vz-cfPNUhlZZQ2D0cAskP56J9Mg.wx2WMqZad1c_3w-IYKmDBKGcUIf5zGyml0UXZMuf3J0g.PNG.gravity001/K-012.png?type=w740",
+    "position": "투구",
+    "rate": "파랑",
+    "monster": "고급 제작: 로커 카드 2개 + 그람 가루 100개",
+    "openPoint": "MaxHP +60",
+    "savePoint": "DEX + 1, MaxHP +30",
+    "option": "▶ DEX + 2\n▶ ATK + 20",
+    "optionKeyword": [
+      "ATK",
+      "DEX"
+    ],
+    "saveKeyword": [
+      "MaxHP",
+      "DEX"
+    ],
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "받는 무속성 데미지－",
-        "number": 10,
-        "unit": "%",
-        "origin": "받는 무속성 데미지－10%"
+        "name": "로커",
+        "count": "2",
+        "origin": "로커 2"
       }
     ]
   },
@@ -3812,35 +2317,18 @@
     "position": "무기",
     "rate": "파랑",
     "monster": "로터자이로",
-    "openPoint": [
-      {
-        "name": "CRI",
-        "number": 2,
-        "unit": "+",
-        "origin": "CRI +2"
-      }
+    "openPoint": "CRI +2",
+    "savePoint": "CRI.D +1%",
+    "option": "▶ CRI＋7\n▶ CRI.D＋10%\n",
+    "optionKeyword": [
+      "CRI.D",
+      "CRI"
     ],
-    "savePoint": [
-      {
-        "name": "CRI.D",
-        "number": 1,
-        "unit": "+%",
-        "origin": "CRI.D +1%"
-      }
+    "saveKeyword": [
+      "CRI.D"
     ],
-    "option": [
-      {
-        "name": "CRI",
-        "number": 7,
-        "unit": "＋",
-        "origin": "CRI＋7"
-      },
-      {
-        "name": "CRI.D",
-        "number": 10,
-        "unit": "＋%",
-        "origin": "CRI.D＋10%"
-      }
+    "openKeyword": [
+      "CRI"
     ]
   },
   {
@@ -3849,35 +2337,17 @@
     "position": "보조",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "몬스터(풍)에 데미지 +1%",
+    "option": "▶ 받는 풍속성 데미지－15%\n▶ 몬스터(풍)에 데미지＋5%\n",
+    "optionKeyword": [
+      "풍속성"
     ],
-    "savePoint": [
-      {
-        "name": "몬스터(풍)에 데미지",
-        "number": 1,
-        "unit": "+%",
-        "origin": "몬스터(풍)에 데미지 +1%"
-      }
+    "saveKeyword": [
+      "풍속성"
     ],
-    "option": [
-      {
-        "name": "받는 풍속성 데미지－",
-        "number": 15,
-        "unit": "%",
-        "origin": "받는 풍속성 데미지－15%"
-      },
-      {
-        "name": "몬스터(풍)에 데미지",
-        "number": 5,
-        "unit": "＋%",
-        "origin": "몬스터(풍)에 데미지＋5%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -3886,35 +2356,18 @@
     "position": "걸칠것",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "FLEE +5",
+    "option": "▶ 받는 수속성 데미지－15%\n▶ FLEE＋5\n",
+    "optionKeyword": [
+      "FLEE",
+      "수속성"
     ],
-    "savePoint": [
-      {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "+",
-        "origin": "FLEE +5"
-      }
+    "saveKeyword": [
+      "FLEE"
     ],
-    "option": [
-      {
-        "name": "받는 수속성 데미지－",
-        "number": 15,
-        "unit": "%",
-        "origin": "받는 수속성 데미지－15%"
-      },
-      {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "＋",
-        "origin": "FLEE＋5"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -3923,29 +2376,18 @@
     "position": "액세서리",
     "rate": "파랑",
     "monster": "마린 스피어",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "매그넘 브레이크 스킬 데미지 +50% \n(단 매그넘 브레이크 스킬을 사용 할 때 마다 자신의 HP감소)",
+    "option": "▶ 스킬 【매그넘 브레이크】Lv.3 사용 가능\n",
+    "optionKeyword": [
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "매그넘 브레이크 스킬 데미지 +50%  (단 매그넘 브레이크 스킬을 사용 할 때 마다 자신의 HP감소)",
-        "number": 50,
-        "unit": "매그넘 브레이크 스킬 데미지 +%  (단 매그넘 브레이크 스킬을 사용 할 때 마다 자신의 HP감소)",
-        "origin": "매그넘 브레이크 스킬 데미지 +50%  (단 매그넘 브레이크 스킬을 사용 할 때 마다 자신의 HP감소)"
-      }
+    "saveKeyword": [
+      "HP",
+      "스킬"
     ],
-    "option": [
-      {
-        "name": "스킬 【매그넘 브레이크】Lv.3 사용 가능",
-        "number": 3,
-        "unit": "스킬 【매그넘 브레이크】Lv. 사용 가능",
-        "origin": "스킬 【매그넘 브레이크】Lv.3 사용 가능"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -3954,35 +2396,18 @@
     "position": "걸칠것",
     "rate": "파랑",
     "monster": "마스터링",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "MaxHP +70",
+    "option": "▶ LUK＋4\n▶ FLEE＋5\n",
+    "optionKeyword": [
+      "FLEE",
+      "LUK"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 70,
-        "unit": "+",
-        "origin": "MaxHP +70"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "LUK",
-        "number": 4,
-        "unit": "＋",
-        "origin": "LUK＋4"
-      },
-      {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "＋",
-        "origin": "FLEE＋5"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -3991,35 +2416,18 @@
     "position": "무기",
     "rate": "파랑",
     "monster": "마이너 우로스",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 8,
-        "unit": "+",
-        "origin": "ATK +8"
-      }
+    "openPoint": "ATK +8",
+    "savePoint": "통찰: 몬스터 더블 방어 50% 무시\n(몬스터(大) 데미지 추가 속성이 50% 초과 시 적용)",
+    "option": "▶ 몬스터(大)에 데미지＋25%\n▶ ATK＋15\n",
+    "optionKeyword": [
+      "몬스터(大)",
+      "ATK"
     ],
-    "savePoint": [
-      {
-        "name": "통찰: 몬스터 더블 방어 50% 무시 (몬스터(大) 데미지 추가 속성이 50% 초과 시 적용)",
-        "number": "",
-        "unit": "통찰: 몬스터 더블 방어 50% 무시 (몬스터(大) 데미지 추가 속성이 % 초과 시 적용)",
-        "origin": "통찰: 몬스터 더블 방어 50% 무시 (몬스터(大) 데미지 추가 속성이 50% 초과 시 적용)"
-      }
+    "saveKeyword": [
+      "몬스터(大)"
     ],
-    "option": [
-      {
-        "name": "몬스터(大)에 데미지",
-        "number": 25,
-        "unit": "＋%",
-        "origin": "몬스터(大)에 데미지＋25%"
-      },
-      {
-        "name": "ATK",
-        "number": 15,
-        "unit": "＋",
-        "origin": "ATK＋15"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -4028,29 +2436,17 @@
     "position": "무기",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "MaxHP +70",
+    "option": "▶ 일반공격 시 5%일정 확률로 대상이 일정 시간 공포에 빠짐\n",
+    "optionKeyword": [
+      "공포"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 70,
-        "unit": "+",
-        "origin": "MaxHP +70"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "일반공격 시 5%일정 확률로 대상이 일정 시간 공포에 빠짐",
-        "number": 5,
-        "unit": "일반공격 시 %일정 확률로 대상이 일정 시간 공포에 빠짐",
-        "origin": "일반공격 시 5%일정 확률로 대상이 일정 시간 공포에 빠짐"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -4059,28 +2455,38 @@
     "position": "액세서리",
     "rate": "파랑",
     "monster": "맨티스",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "STR +1",
+    "option": "▶ STR＋5\n",
+    "optionKeyword": [
+      "STR"
     ],
-    "savePoint": [
-      {
-        "name": "STR",
-        "number": 1,
-        "unit": "+",
-        "origin": "STR +1"
-      }
+    "saveKeyword": [
+      "STR"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "STR",
-        "number": 5,
-        "unit": "＋",
-        "origin": "STR＋5"
+        "name": "로커",
+        "count": 1,
+        "origin": "로커"
+      },
+      {
+        "name": "하이오크",
+        "count": 1,
+        "origin": "하이오크"
+      },
+      {
+        "name": "코볼트 아쳐",
+        "count": 1,
+        "origin": "코볼트 아쳐"
+      },
+      {
+        "name": "백련옥",
+        "count": "2",
+        "origin": "백련옥 2"
       }
     ]
   },
@@ -4090,28 +2496,43 @@
     "position": "액세서리",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "몬스터(염)에 데미지 +1%",
+    "option": "▶ 몬스터(염)에 데미지＋15%\n",
+    "optionKeyword": [
+      "염속성"
     ],
-    "savePoint": [
-      {
-        "name": "몬스터(염)에 데미지",
-        "number": 1,
-        "unit": "+%",
-        "origin": "몬스터(염)에 데미지 +1%"
-      }
+    "saveKeyword": [
+      "염속성"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "몬스터(염)에 데미지",
-        "number": 15,
-        "unit": "＋%",
-        "origin": "몬스터(염)에 데미지＋15%"
+        "name": "마타",
+        "count": 1,
+        "origin": "마타"
+      },
+      {
+        "name": "구미호",
+        "count": 1,
+        "origin": "구미호"
+      },
+      {
+        "name": "레이드릭 아쳐",
+        "count": 1,
+        "origin": "레이드릭 아쳐"
+      },
+      {
+        "name": "아놀리안",
+        "count": 1,
+        "origin": "아놀리안"
+      },
+      {
+        "name": "데비루치",
+        "count": 1,
+        "origin": "데비루치"
       }
     ]
   },
@@ -4121,35 +2542,18 @@
     "position": "무기",
     "rate": "파랑",
     "monster": "뮤턴트 드래고노이드",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 84,
-        "unit": "+",
-        "origin": "MaxHP +84"
-      }
+    "openPoint": "MaxHP +84",
+    "savePoint": "일반공격 [화이어 볼] 시전 확률 상승",
+    "option": "▶ ATK＋15\n▶ 일반공격 시 3% 확률로 【화이어 볼】Lv.5 자동 시전\n",
+    "optionKeyword": [
+      "스킬",
+      "ATK"
     ],
-    "savePoint": [
-      {
-        "name": "일반공격 [화이어 볼] 시전 확률 상승",
-        "number": "",
-        "unit": "일반공격 [화이어 볼] 시전 확률 상승",
-        "origin": "일반공격 [화이어 볼] 시전 확률 상승"
-      }
+    "saveKeyword": [
+      "스킬"
     ],
-    "option": [
-      {
-        "name": "ATK",
-        "number": 15,
-        "unit": "＋",
-        "origin": "ATK＋15"
-      },
-      {
-        "name": "일반공격 시 3% 확률로 【화이어 볼】Lv.5 자동 시전",
-        "number": "",
-        "unit": "일반공격 시 3% 확률로 【화이어 볼】Lv. 자동 시전",
-        "origin": "일반공격 시 3% 확률로 【화이어 볼】Lv.5 자동 시전"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -4158,35 +2562,18 @@
     "position": "걸칠것",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "FLEE +5",
+    "option": "▶ 받는 독속성 데미지－15%\n▶ FLEE＋5\n",
+    "optionKeyword": [
+      "FLEE",
+      "독속성"
     ],
-    "savePoint": [
-      {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "+",
-        "origin": "FLEE +5"
-      }
+    "saveKeyword": [
+      "FLEE"
     ],
-    "option": [
-      {
-        "name": "받는 독속성 데미지－",
-        "number": 15,
-        "unit": "%",
-        "origin": "받는 독속성 데미지－15%"
-      },
-      {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "＋",
-        "origin": "FLEE＋5"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -4195,35 +2582,18 @@
     "position": "신발",
     "rate": "파랑",
     "monster": "미스틸테인",
-    "openPoint": [
-      {
-        "name": "받는 몬스터(소) 데미지",
-        "number": 1,
-        "unit": "-%",
-        "origin": "받는 몬스터(소) 데미지 -1%"
-      }
+    "openPoint": "받는 몬스터(소) 데미지 -1%",
+    "savePoint": "MATK +10",
+    "option": "▶ 받는 몬스터(소) 데미지 -30%\n▶ DEF +10\n",
+    "optionKeyword": [
+      "몬스터(小)",
+      "DEF"
     ],
-    "savePoint": [
-      {
-        "name": "MATK",
-        "number": 10,
-        "unit": "+",
-        "origin": "MATK +10"
-      }
+    "saveKeyword": [
+      "MATK"
     ],
-    "option": [
-      {
-        "name": "받는 몬스터(소) 데미지",
-        "number": 30,
-        "unit": "-%",
-        "origin": "받는 몬스터(소) 데미지 -30%"
-      },
-      {
-        "name": "DEF",
-        "number": 10,
-        "unit": "+",
-        "origin": "DEF +10"
-      }
+    "openKeyword": [
+      "몬스터(小)"
     ]
   },
   {
@@ -4232,29 +2602,17 @@
     "position": "갑옷",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "성속성 데미지 +1%",
+    "option": "▶ 갑옷 속성을 암속성으로 전환\n",
+    "optionKeyword": [
+      "암속성"
     ],
-    "savePoint": [
-      {
-        "name": "성속성 데미지",
-        "number": 1,
-        "unit": "+%",
-        "origin": "성속성 데미지 +1%"
-      }
+    "saveKeyword": [
+      "성속성"
     ],
-    "option": [
-      {
-        "name": "갑옷 속성을 암속성으로 전환",
-        "number": "",
-        "unit": "갑옷 속성을 암속성으로 전환",
-        "origin": "갑옷 속성을 암속성으로 전환"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -4263,35 +2621,18 @@
     "position": "걸칠것",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "CRI",
-        "number": 1,
-        "unit": "+",
-        "origin": "CRI +1"
-      }
+    "openPoint": "CRI +1",
+    "savePoint": "MaxHP +70",
+    "option": "▶ AGI＋2\n▶ CRI＋5\n",
+    "optionKeyword": [
+      "AGI",
+      "CRI"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 70,
-        "unit": "+",
-        "origin": "MaxHP +70"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "AGI",
-        "number": 2,
-        "unit": "＋",
-        "origin": "AGI＋2"
-      },
-      {
-        "name": "CRI",
-        "number": 5,
-        "unit": "＋",
-        "origin": "CRI＋5"
-      }
+    "openKeyword": [
+      "CRI"
     ]
   },
   {
@@ -4300,34 +2641,44 @@
     "position": "신발",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "MaxHP +140",
+    "option": "▶ MaxHP＋8%\n▶ MaxSP＋8%\n",
+    "optionKeyword": [
+      "MaxHP",
+      "MaxSP"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 140,
-        "unit": "+",
-        "origin": "MaxHP +140"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "MaxHP",
-        "number": 8,
-        "unit": "＋%",
-        "origin": "MaxHP＋8%"
+        "name": "앙드레",
+        "count": 1,
+        "origin": "앙드레"
       },
       {
-        "name": "MaxSP",
-        "number": 8,
-        "unit": "＋%",
-        "origin": "MaxSP＋8%"
+        "name": "가고일",
+        "count": 1,
+        "origin": "가고일"
+      },
+      {
+        "name": "아르지오프",
+        "count": 1,
+        "origin": "아르지오프"
+      },
+      {
+        "name": "드레인리어",
+        "count": 1,
+        "origin": "드레인리어"
+      },
+      {
+        "name": "타라 프로그",
+        "count": 1,
+        "origin": "타라 프로그"
       }
     ]
   },
@@ -4337,35 +2688,18 @@
     "position": "무기",
     "rate": "파랑",
     "monster": "보컬",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 8,
-        "unit": "+",
-        "origin": "ATK +8"
-      }
+    "openPoint": "ATK +8",
+    "savePoint": "ATK +1%",
+    "option": "▶ ATK＋7%\n▶ DEX＋3\n",
+    "optionKeyword": [
+      "ATK",
+      "DEX"
     ],
-    "savePoint": [
-      {
-        "name": "ATK",
-        "number": 1,
-        "unit": "+%",
-        "origin": "ATK +1%"
-      }
+    "saveKeyword": [
+      "ATK"
     ],
-    "option": [
-      {
-        "name": "ATK",
-        "number": 7,
-        "unit": "＋%",
-        "origin": "ATK＋7%"
-      },
-      {
-        "name": "DEX",
-        "number": 3,
-        "unit": "＋",
-        "origin": "DEX＋3"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -4374,34 +2708,43 @@
     "position": "투구",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "INT +1",
+    "option": "▶ 힐, 생츄어리 효과 10% 증가\n▶ SP소모 +20%\n",
+    "optionKeyword": [
+      "SP"
     ],
-    "savePoint": [
-      {
-        "name": "INT",
-        "number": 1,
-        "unit": "+",
-        "origin": "INT +1"
-      }
+    "saveKeyword": [
+      "INT"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "힐, 생츄어리 효과 10% 증가",
-        "number": 10,
-        "unit": "힐, 생츄어리 효과 % 증가",
-        "origin": "힐, 생츄어리 효과 10% 증가"
+        "name": "소희",
+        "count": 1,
+        "origin": "소희"
       },
       {
-        "name": "SP소모",
-        "number": 20,
-        "unit": "+%",
-        "origin": "SP소모 +20%"
+        "name": "조커",
+        "count": 1,
+        "origin": "조커"
+      },
+      {
+        "name": "맨블릿",
+        "count": 1,
+        "origin": "맨블릿"
+      },
+      {
+        "name": "와일드 로즈",
+        "count": 1,
+        "origin": "와일드 로즈"
+      },
+      {
+        "name": "에기라",
+        "count": 1,
+        "origin": "에기라"
       }
     ]
   },
@@ -4411,34 +2754,44 @@
     "position": "투구",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "MDEF 무시 +2",
+    "option": "▶ MDEF 무시＋10%\n▶ DEF＋40\n",
+    "optionKeyword": [
+      "DEF무시",
+      "DEF"
     ],
-    "savePoint": [
-      {
-        "name": "MDEF 무시",
-        "number": 2,
-        "unit": "+",
-        "origin": "MDEF 무시 +2"
-      }
+    "saveKeyword": [
+      "DEF무시"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "MDEF 무시",
-        "number": 10,
-        "unit": "＋%",
-        "origin": "MDEF 무시＋10%"
+        "name": "바돈",
+        "count": 1,
+        "origin": "바돈"
       },
       {
-        "name": "DEF",
-        "number": 40,
-        "unit": "＋",
-        "origin": "DEF＋40"
+        "name": "라이드워드",
+        "count": 1,
+        "origin": "라이드워드"
+      },
+      {
+        "name": "칼리츠버그",
+        "count": 1,
+        "origin": "칼리츠버그"
+      },
+      {
+        "name": "배회하는 자",
+        "count": 1,
+        "origin": "배회하는 자"
+      },
+      {
+        "name": "이블 드루이드",
+        "count": 1,
+        "origin": "이블 드루이드"
       }
     ]
   },
@@ -4448,29 +2801,17 @@
     "position": "무기",
     "rate": "파랑",
     "monster": "비타타",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 56,
-        "unit": "+",
-        "origin": "MaxHP +56"
-      }
+    "openPoint": "MaxHP +56",
+    "savePoint": "MaxHP +84",
+    "option": "▶ 스킬 【힐】Lv.2 사용 가능\n",
+    "optionKeyword": [
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 84,
-        "unit": "+",
-        "origin": "MaxHP +84"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "스킬 【힐】Lv.2 사용 가능",
-        "number": 2,
-        "unit": "스킬 【힐】Lv. 사용 가능",
-        "origin": "스킬 【힐】Lv.2 사용 가능"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -4479,28 +2820,43 @@
     "position": "액세서리",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "몬스터(암)에 데미지 +1%",
+    "option": "▶ 몬스터(암)에 데미지＋15%\n",
+    "optionKeyword": [
+      "암속성"
     ],
-    "savePoint": [
-      {
-        "name": "몬스터(암)에 데미지",
-        "number": 1,
-        "unit": "+%",
-        "origin": "몬스터(암)에 데미지 +1%"
-      }
+    "saveKeyword": [
+      "암속성"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "몬스터(암)에 데미지",
-        "number": 15,
-        "unit": "＋%",
-        "origin": "몬스터(암)에 데미지＋15%"
+        "name": "포링",
+        "count": 1,
+        "origin": "포링"
+      },
+      {
+        "name": "나이트메어",
+        "count": 1,
+        "origin": "나이트메어"
+      },
+      {
+        "name": "레이쓰",
+        "count": 1,
+        "origin": "레이쓰"
+      },
+      {
+        "name": "레이드릭 아쳐",
+        "count": 1,
+        "origin": "레이드릭 아쳐"
+      },
+      {
+        "name": "데비루치",
+        "count": 1,
+        "origin": "데비루치"
       }
     ]
   },
@@ -4510,29 +2866,17 @@
     "position": "갑옷",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "화속성 데미지 +1%",
+    "option": "▶ 갑옷 속성을 지속성으로 전환\n",
+    "optionKeyword": [
+      "지속성"
     ],
-    "savePoint": [
-      {
-        "name": "화속성 데미지",
-        "number": 1,
-        "unit": "+%",
-        "origin": "화속성 데미지 +1%"
-      }
+    "saveKeyword": [
+      "화속성"
     ],
-    "option": [
-      {
-        "name": "갑옷 속성을 지속성으로 전환",
-        "number": "",
-        "unit": "갑옷 속성을 지속성으로 전환",
-        "origin": "갑옷 속성을 지속성으로 전환"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -4541,34 +2885,44 @@
     "position": "갑옷",
     "rate": "파랑",
     "monster": "서큐버스",
-    "openPoint": [
-      {
-        "name": "HP 회복",
-        "number": 1,
-        "unit": "+%",
-        "origin": "HP 회복 +1%"
-      }
+    "openPoint": "HP 회복 +1%",
+    "savePoint": "MATK +10",
+    "option": "▶ MaxHP＋500\n▶ HP 회복＋15%\n",
+    "optionKeyword": [
+      "MaxHP",
+      "HP회복"
     ],
-    "savePoint": [
-      {
-        "name": "MATK",
-        "number": 10,
-        "unit": "+",
-        "origin": "MATK +10"
-      }
+    "saveKeyword": [
+      "MATK"
     ],
-    "option": [
+    "openKeyword": [
+      "HP회복"
+    ],
+    "ingreCardList": [
       {
-        "name": "MaxHP",
-        "number": 500,
-        "unit": "＋",
-        "origin": "MaxHP＋500"
+        "name": "오본느",
+        "count": 1,
+        "origin": "오본느"
       },
       {
-        "name": "HP 회복",
-        "number": 15,
-        "unit": "＋%",
-        "origin": "HP 회복＋15%"
+        "name": "마리오네트",
+        "count": 1,
+        "origin": "마리오네트"
+      },
+      {
+        "name": "다크 프리스트",
+        "count": 1,
+        "origin": "다크 프리스트"
+      },
+      {
+        "name": "레이쓰",
+        "count": 1,
+        "origin": "레이쓰"
+      },
+      {
+        "name": "레이드릭 아쳐",
+        "count": 1,
+        "origin": "레이드릭 아쳐"
       }
     ]
   },
@@ -4578,35 +2932,17 @@
     "position": "보조",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "몬스터(독)에 데미지 +1%",
+    "option": "▶ 받는 독속성 데미지－15%\n▶ 몬스터(독)에 데미지＋5%\n",
+    "optionKeyword": [
+      "독속성"
     ],
-    "savePoint": [
-      {
-        "name": "몬스터(독)에 데미지",
-        "number": 1,
-        "unit": "+%",
-        "origin": "몬스터(독)에 데미지 +1%"
-      }
+    "saveKeyword": [
+      "독속성"
     ],
-    "option": [
-      {
-        "name": "받는 독속성 데미지－",
-        "number": 15,
-        "unit": "%",
-        "origin": "받는 독속성 데미지－15%"
-      },
-      {
-        "name": "몬스터(독)에 데미지",
-        "number": 5,
-        "unit": "＋%",
-        "origin": "몬스터(독)에 데미지＋5%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -4615,29 +2951,17 @@
     "position": "갑옷",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "풍속성 데미지 +1%",
+    "option": "▶ 갑옷 속성을 수속성으로 전환\n",
+    "optionKeyword": [
+      "수속성"
     ],
-    "savePoint": [
-      {
-        "name": "풍속성 데미지",
-        "number": 1,
-        "unit": "+%",
-        "origin": "풍속성 데미지 +1%"
-      }
+    "saveKeyword": [
+      "풍속성"
     ],
-    "option": [
-      {
-        "name": "갑옷 속성을 수속성으로 전환",
-        "number": "",
-        "unit": "갑옷 속성을 수속성으로 전환",
-        "origin": "갑옷 속성을 수속성으로 전환"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -4646,28 +2970,43 @@
     "position": "무기",
     "rate": "파랑",
     "monster": "솔져 스켈레톤",
-    "openPoint": [
-      {
-        "name": "CRI",
-        "number": 1,
-        "unit": "+",
-        "origin": "CRI +1"
-      }
+    "openPoint": "CRI +1",
+    "savePoint": "CRI.D +1%",
+    "option": "▶ CRI＋9\n",
+    "optionKeyword": [
+      "CRI"
     ],
-    "savePoint": [
-      {
-        "name": "CRI.D",
-        "number": 1,
-        "unit": "+%",
-        "origin": "CRI.D +1%"
-      }
+    "saveKeyword": [
+      "CRI.D"
     ],
-    "option": [
+    "openKeyword": [
+      "CRI"
+    ],
+    "ingreCardList": [
       {
-        "name": "CRI",
-        "number": 9,
-        "unit": "＋",
-        "origin": "CRI＋9"
+        "name": "세비지",
+        "count": 1,
+        "origin": "세비지"
+      },
+      {
+        "name": "나이트메어",
+        "count": 1,
+        "origin": "나이트메어"
+      },
+      {
+        "name": "스켈레톤",
+        "count": 1,
+        "origin": "스켈레톤"
+      },
+      {
+        "name": "오크스켈레톤",
+        "count": 1,
+        "origin": "오크스켈레톤"
+      },
+      {
+        "name": "파이어럿 스켈",
+        "count": 1,
+        "origin": "파이어럿 스켈"
       }
     ]
   },
@@ -4677,29 +3016,17 @@
     "position": "액세서리",
     "rate": "파랑",
     "monster": "스모키",
-    "openPoint": [
-      {
-        "name": "DEF",
-        "number": 4,
-        "unit": "+",
-        "origin": "DEF +4"
-      }
+    "openPoint": "DEF +4",
+    "savePoint": "MaxHP +70",
+    "option": "▶ 스킬 【하이딩】Lv.1 사용 가능\n",
+    "optionKeyword": [
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 70,
-        "unit": "+",
-        "origin": "MaxHP +70"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "스킬 【하이딩】Lv.1 사용 가능",
-        "number": 1,
-        "unit": "스킬 【하이딩】Lv. 사용 가능",
-        "origin": "스킬 【하이딩】Lv.1 사용 가능"
-      }
+    "openKeyword": [
+      "DEF"
     ]
   },
   {
@@ -4708,35 +3035,18 @@
     "position": "무기",
     "rate": "파랑",
     "monster": "스켈워커",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "ATK +10",
+    "option": "▶ 몬스터(中)에 데미지＋15%\n▶ ATK＋5\n",
+    "optionKeyword": [
+      "몬스터(中)",
+      "ATK"
     ],
-    "savePoint": [
-      {
-        "name": "ATK",
-        "number": 10,
-        "unit": "+",
-        "origin": "ATK +10"
-      }
+    "saveKeyword": [
+      "ATK"
     ],
-    "option": [
-      {
-        "name": "몬스터(中)에 데미지",
-        "number": 15,
-        "unit": "＋%",
-        "origin": "몬스터(中)에 데미지＋15%"
-      },
-      {
-        "name": "ATK",
-        "number": 5,
-        "unit": "＋",
-        "origin": "ATK＋5"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -4745,28 +3055,38 @@
     "position": "액세서리",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "식물형 데미지 추가 +1%",
+    "option": "▶ 식물형 몬스터에 데미지＋10%\n",
+    "optionKeyword": [
+      "식물형"
     ],
-    "savePoint": [
-      {
-        "name": "식물형 데미지 추가",
-        "number": 1,
-        "unit": "+%",
-        "origin": "식물형 데미지 추가 +1%"
-      }
+    "saveKeyword": [
+      "식물형"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "식물형 몬스터에 데미지",
-        "number": 10,
-        "unit": "＋%",
-        "origin": "식물형 몬스터에 데미지＋10%"
+        "name": "파브르",
+        "count": "2",
+        "origin": "파브르 2"
+      },
+      {
+        "name": "세비지",
+        "count": 1,
+        "origin": "세비지"
+      },
+      {
+        "name": "마타",
+        "count": 1,
+        "origin": "마타"
+      },
+      {
+        "name": "스포아",
+        "count": 1,
+        "origin": "스포아"
       }
     ]
   },
@@ -4776,29 +3096,17 @@
     "position": "액세서리",
     "rate": "파랑",
     "monster": "스템웜",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 6,
-        "unit": "+",
-        "origin": "ATK +6"
-      }
+    "openPoint": "ATK +6",
+    "savePoint": "[소닉 블로우] 데미지 +5%",
+    "option": "▶ 【소닉 블로우】스킬 딜레이－0.3초\n",
+    "optionKeyword": [
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "[소닉 블로우] 데미지",
-        "number": 5,
-        "unit": "+%",
-        "origin": "[소닉 블로우] 데미지 +5%"
-      }
+    "saveKeyword": [
+      "스킬"
     ],
-    "option": [
-      {
-        "name": "【소닉 블로우】스킬 딜레이－0.3초",
-        "number": "",
-        "unit": "【소닉 블로우】스킬 딜레이－0.초",
-        "origin": "【소닉 블로우】스킬 딜레이－0.3초"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -4807,29 +3115,17 @@
     "position": "무기",
     "rate": "파랑",
     "monster": "스트라우프",
-    "openPoint": [
-      {
-        "name": "악마형 데미지 추가",
-        "number": 2,
-        "unit": "+%",
-        "origin": "악마형 데미지 추가 +2%"
-      }
+    "openPoint": "악마형 데미지 추가 +2%",
+    "savePoint": "악마형 데미지 추가 +3%",
+    "option": "▶ 악마형 몬스터에 데미지＋25%\n",
+    "optionKeyword": [
+      "악마형"
     ],
-    "savePoint": [
-      {
-        "name": "악마형 데미지 추가",
-        "number": 3,
-        "unit": "+%",
-        "origin": "악마형 데미지 추가 +3%"
-      }
+    "saveKeyword": [
+      "악마형"
     ],
-    "option": [
-      {
-        "name": "악마형 몬스터에 데미지",
-        "number": 25,
-        "unit": "＋%",
-        "origin": "악마형 몬스터에 데미지＋25%"
-      }
+    "openKeyword": [
+      "악마형"
     ]
   },
   {
@@ -4838,47 +3134,20 @@
     "position": "투구",
     "rate": "파랑",
     "monster": "시계탑 관리자",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 14,
-        "unit": "+",
-        "origin": "MaxHP +14"
-      }
+    "openPoint": "MaxHP +14",
+    "savePoint": "MaxHP +70, INT +1",
+    "option": "▶ INT +2\n▶ 마법 데미지 +2%\n▶ MaxHP +400\n",
+    "optionKeyword": [
+      "MaxHP",
+      "INT",
+      "마법데미지"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 70,
-        "unit": "+",
-        "origin": "MaxHP +70"
-      },
-      {
-        "name": "INT",
-        "number": 1,
-        "unit": "+",
-        "origin": "INT +1"
-      }
+    "saveKeyword": [
+      "MaxHP",
+      "INT"
     ],
-    "option": [
-      {
-        "name": "INT",
-        "number": 2,
-        "unit": "+",
-        "origin": "INT +2"
-      },
-      {
-        "name": "마법 데미지",
-        "number": 2,
-        "unit": "+%",
-        "origin": "마법 데미지 +2%"
-      },
-      {
-        "name": "MaxHP",
-        "number": 400,
-        "unit": "+",
-        "origin": "MaxHP +400"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -4887,34 +3156,45 @@
     "position": "갑옷",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "MATK +1%",
+    "option": "▶ MATK＋5%\n▶ 마법사 계열 장착 시 MATK＋3%, MaxHP＋300, MaxSP＋150\n",
+    "optionKeyword": [
+      "MaxHP",
+      "MaxSP",
+      "MATK"
     ],
-    "savePoint": [
-      {
-        "name": "MATK",
-        "number": 1,
-        "unit": "+%",
-        "origin": "MATK +1%"
-      }
+    "saveKeyword": [
+      "MATK"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "MATK",
-        "number": 5,
-        "unit": "＋%",
-        "origin": "MATK＋5%"
+        "name": "가이아스",
+        "count": 1,
+        "origin": "가이아스"
       },
       {
-        "name": "마법사 계열 장착 시 MATK＋3%, MaxHP＋300, MaxSP",
-        "number": 150,
-        "unit": "＋",
-        "origin": "마법사 계열 장착 시 MATK＋3%, MaxHP＋300, MaxSP＋150"
+        "name": "하이오크",
+        "count": 1,
+        "origin": "하이오크"
+      },
+      {
+        "name": "도깨비",
+        "count": 1,
+        "origin": "도깨비"
+      },
+      {
+        "name": "코볼트 아쳐",
+        "count": 1,
+        "origin": "코볼트 아쳐"
+      },
+      {
+        "name": "윈드 고스트",
+        "count": 1,
+        "origin": "윈드 고스트"
       }
     ]
   },
@@ -4924,28 +3204,43 @@
     "position": "액세서리",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "몬스터(독)에 데미지 +1%",
+    "option": "▶ 몬스터(독)에 데미지＋15%\n",
+    "optionKeyword": [
+      "독속성"
     ],
-    "savePoint": [
-      {
-        "name": "몬스터(독)에 데미지",
-        "number": 1,
-        "unit": "+%",
-        "origin": "몬스터(독)에 데미지 +1%"
-      }
+    "saveKeyword": [
+      "독속성"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "몬스터(독)에 데미지",
-        "number": 15,
-        "unit": "＋%",
-        "origin": "몬스터(독)에 데미지＋15%"
+        "name": "이시스",
+        "count": 1,
+        "origin": "이시스"
+      },
+      {
+        "name": "크램프",
+        "count": 1,
+        "origin": "크램프"
+      },
+      {
+        "name": "타로우",
+        "count": 1,
+        "origin": "타로우"
+      },
+      {
+        "name": "아놀리안",
+        "count": 1,
+        "origin": "아놀리안"
+      },
+      {
+        "name": "데비루치",
+        "count": 1,
+        "origin": "데비루치"
       }
     ]
   },
@@ -4955,29 +3250,17 @@
     "position": "무기",
     "rate": "파랑",
     "monster": "아울 듀크",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 10,
-        "unit": "+",
-        "origin": "ATK +10"
-      }
+    "openPoint": "ATK +10",
+    "savePoint": "MaxHP +70",
+    "option": "▶ 일반공격 시 5% 확률로 자신에게 【임포시티오 마누스】Lv.10스킬 시전\n",
+    "optionKeyword": [
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 70,
-        "unit": "+",
-        "origin": "MaxHP +70"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "일반공격 시 5% 확률로 자신에게 【임포시티오 마누스】Lv.10스킬 시전",
-        "number": "",
-        "unit": "일반공격 시 5% 확률로 자신에게 【임포시티오 마누스】Lv.스킬 시전",
-        "origin": "일반공격 시 5% 확률로 자신에게 【임포시티오 마누스】Lv.10스킬 시전"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -4986,29 +3269,17 @@
     "position": "무기",
     "rate": "파랑",
     "monster": "아울 바론",
-    "openPoint": [
-      {
-        "name": "INT",
-        "number": 2,
-        "unit": "+",
-        "origin": "INT +2"
-      }
+    "openPoint": "INT +2",
+    "savePoint": "MaxHP +70",
+    "option": "▶ 일반공격 시 5% 확률로 【렉스 에테르나】Lv.1스킬 자동 시전\n",
+    "optionKeyword": [
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 70,
-        "unit": "+",
-        "origin": "MaxHP +70"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "일반공격 시 5% 확률로 【렉스 에테르나】Lv.1스킬 자동 시전",
-        "number": "",
-        "unit": "일반공격 시 5% 확률로 【렉스 에테르나】Lv.스킬 자동 시전",
-        "origin": "일반공격 시 5% 확률로 【렉스 에테르나】Lv.1스킬 자동 시전"
-      }
+    "openKeyword": [
+      "INT"
     ]
   },
   {
@@ -5017,34 +3288,45 @@
     "position": "무기",
     "rate": "파랑",
     "monster": "아쳐 스켈레톤",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 8,
-        "unit": "+",
-        "origin": "ATK +8"
-      }
+    "openPoint": "ATK +8",
+    "savePoint": "아쳐 스켈레톤 카드 장착 시 ATK +5%",
+    "option": "▶ 근거리 ATK＋5%\n▶ 원거리 ATK＋10%\n",
+    "optionKeyword": [
+      "원거리",
+      "ATK"
     ],
-    "savePoint": [
-      {
-        "name": "아쳐 스켈레톤 카드 장착 시 ATK",
-        "number": 5,
-        "unit": "+%",
-        "origin": "아쳐 스켈레톤 카드 장착 시 ATK +5%"
-      }
+    "saveKeyword": [
+      "ATK"
     ],
-    "option": [
+    "openKeyword": [
+      "ATK"
+    ]
+  },
+  {
+    "name": "아쳐 스켈레톤★ 카드",
+    "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfMjc5/MDAxNTI4MDk2Mjg1MjQ0.cQlB7VSrmj4_YGvTR4nOVq3rUSva04ZM4vPBYHa95ysg._gkyt0n96knsXV035yh9aGe-sscD_MPguFhDeZBAev0g.PNG.gravity001/K-011.png?type=w740",
+    "position": "갑옷",
+    "rate": "파랑",
+    "monster": "고급 제작: 아쳐 스켈레톤 카드 1개 + 그람 가루 100개",
+    "openPoint": "MATK + 8",
+    "savePoint": "LUK + 1, MaxHP +30",
+    "option": "▶ STR + 2\n▶ ATK + 5%",
+    "optionKeyword": [
+      "ATK",
+      "STR"
+    ],
+    "saveKeyword": [
+      "MaxHP",
+      "LUK"
+    ],
+    "openKeyword": [
+      "MATK"
+    ],
+    "ingreCardList": [
       {
-        "name": "근거리 ATK",
-        "number": 5,
-        "unit": "＋%",
-        "origin": "근거리 ATK＋5%"
-      },
-      {
-        "name": "원거리 ATK",
-        "number": 10,
-        "unit": "＋%",
-        "origin": "원거리 ATK＋10%"
+        "name": "아쳐 스켈레톤",
+        "count": 1,
+        "origin": "아쳐 스켈레톤"
       }
     ]
   },
@@ -5054,35 +3336,17 @@
     "position": "보조",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "몬스터(수)에 데미지 +1%",
+    "option": "▶ 받는 수속성 데미지－15%\n▶ 몬스터(수)에 데미지＋5%\n",
+    "optionKeyword": [
+      "수속성"
     ],
-    "savePoint": [
-      {
-        "name": "몬스터(수)에 데미지",
-        "number": 1,
-        "unit": "+%",
-        "origin": "몬스터(수)에 데미지 +1%"
-      }
+    "saveKeyword": [
+      "수속성"
     ],
-    "option": [
-      {
-        "name": "받는 수속성 데미지－",
-        "number": 15,
-        "unit": "%",
-        "origin": "받는 수속성 데미지－15%"
-      },
-      {
-        "name": "몬스터(수)에 데미지",
-        "number": 5,
-        "unit": "＋%",
-        "origin": "몬스터(수)에 데미지＋5%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -5091,34 +3355,45 @@
     "position": "신발",
     "rate": "파랑",
     "monster": "에기라",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "MATK +10",
+    "option": "▶ INT＋2\n▶ SP 회복＋5\n",
+    "optionKeyword": [
+      "SP회복",
+      "INT"
     ],
-    "savePoint": [
-      {
-        "name": "MATK",
-        "number": 10,
-        "unit": "+",
-        "origin": "MATK +10"
-      }
+    "saveKeyword": [
+      "MATK"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ]
+  },
+  {
+    "name": "엘더 윌로우★ 카드",
+    "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfMTQy/MDAxNTI4MDk1OTI2MjA3.tSqLWC4N7cJGLnMK1u4rPdJDRHf6vWlnK04KNZdAqWgg.y3FQPoUxxyNRMfn1ibsIC4Y_3kaoz-XQtEVKe34UPQ0g.PNG.gravity001/K-009.png?type=w740",
+    "position": "액세서리",
+    "rate": "파랑",
+    "monster": "고급 제작: 엘더 윌로우 카드 3개 + 그람 가루 90개",
+    "openPoint": "MDEF + 4",
+    "savePoint": "STR + 1, MaxHP +30",
+    "option": "▶ INT +4\n▶ MATK + 10",
+    "optionKeyword": [
+      "MATK",
+      "INT"
+    ],
+    "saveKeyword": [
+      "MaxHP",
+      "STR"
+    ],
+    "openKeyword": [
+      "MDEF"
+    ],
+    "ingreCardList": [
       {
-        "name": "INT",
-        "number": 2,
-        "unit": "＋",
-        "origin": "INT＋2"
-      },
-      {
-        "name": "SP 회복",
-        "number": 5,
-        "unit": "＋",
-        "origin": "SP 회복＋5"
+        "name": "엘더 윌로우",
+        "count": "3",
+        "origin": "엘더 윌로우 3"
       }
     ]
   },
@@ -5128,35 +3403,18 @@
     "position": "액세서리",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 60,
-        "unit": "+",
-        "origin": "MaxHP +60"
-      }
+    "openPoint": "MaxHP +60",
+    "savePoint": "ATK +6",
+    "option": "▶ 전체 능력 +1\n▶ FLEE +5\n",
+    "optionKeyword": [
+      "전체능력",
+      "FLEE"
     ],
-    "savePoint": [
-      {
-        "name": "ATK",
-        "number": 6,
-        "unit": "+",
-        "origin": "ATK +6"
-      }
+    "saveKeyword": [
+      "ATK"
     ],
-    "option": [
-      {
-        "name": "전체 능력",
-        "number": 1,
-        "unit": "+",
-        "origin": "전체 능력 +1"
-      },
-      {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "+",
-        "origin": "FLEE +5"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -5165,35 +3423,19 @@
     "position": "걸칠것",
     "rate": "파랑",
     "monster": "오크베이비",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 84,
-        "unit": "+",
-        "origin": "MaxHP +84"
-      }
+    "openPoint": "MaxHP +84",
+    "savePoint": "무속성 데미지 -5%, 일정 확률로 상대방 및 자신의 레벨차에 따라 HP회복",
+    "option": "▶ 받는 무속성 데미지－30%\n▶ FLEE＋10\n",
+    "optionKeyword": [
+      "FLEE",
+      "무속성"
     ],
-    "savePoint": [
-      {
-        "name": "무속성 데미지 -5% 일정 확률로 상대방 및 자신의 레벨차에 따라 HP회복",
-        "number": 5,
-        "unit": "무속성 데미지 -% 일정 확률로 상대방 및 자신의 레벨차에 따라 HP회복",
-        "origin": "무속성 데미지 -5% 일정 확률로 상대방 및 자신의 레벨차에 따라 HP회복"
-      }
+    "saveKeyword": [
+      "HP회복",
+      "무속성"
     ],
-    "option": [
-      {
-        "name": "받는 무속성 데미지－",
-        "number": 30,
-        "unit": "%",
-        "origin": "받는 무속성 데미지－30%"
-      },
-      {
-        "name": "FLEE",
-        "number": 10,
-        "unit": "＋",
-        "origin": "FLEE＋10"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -5202,29 +3444,17 @@
     "position": "보조",
     "rate": "파랑",
     "monster": "우드 고블린",
-    "openPoint": [
-      {
-        "name": "MATK",
-        "number": 12,
-        "unit": "+",
-        "origin": "MATK +12"
-      }
+    "openPoint": "MATK +12",
+    "savePoint": "마법 데미지 증가 +2%",
+    "option": "▶ MaxSP＋20%\n",
+    "optionKeyword": [
+      "MaxSP"
     ],
-    "savePoint": [
-      {
-        "name": "마법 데미지 증가",
-        "number": 2,
-        "unit": "+%",
-        "origin": "마법 데미지 증가 +2%"
-      }
+    "saveKeyword": [
+      "마법데미지"
     ],
-    "option": [
-      {
-        "name": "MaxSP",
-        "number": 20,
-        "unit": "＋%",
-        "origin": "MaxSP＋20%"
-      }
+    "openKeyword": [
+      "MATK"
     ]
   },
   {
@@ -5233,34 +3463,44 @@
     "position": "액세서리",
     "rate": "파랑",
     "monster": "웜테일",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "INT +1",
+    "option": "▶ DEX＋1\n▶ INT＋4\n",
+    "optionKeyword": [
+      "DEX",
+      "INT"
     ],
-    "savePoint": [
-      {
-        "name": "INT",
-        "number": 1,
-        "unit": "+",
-        "origin": "INT +1"
-      }
+    "saveKeyword": [
+      "INT"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "DEX",
-        "number": 1,
-        "unit": "＋",
-        "origin": "DEX＋1"
+        "name": "공중쁘띠",
+        "count": 1,
+        "origin": "공중쁘띠"
       },
       {
-        "name": "INT",
-        "number": 4,
-        "unit": "＋",
-        "origin": "INT＋4"
+        "name": "스포아",
+        "count": 1,
+        "origin": "스포아"
+      },
+      {
+        "name": "구미호",
+        "count": 1,
+        "origin": "구미호"
+      },
+      {
+        "name": "오크좀비",
+        "count": 1,
+        "origin": "오크좀비"
+      },
+      {
+        "name": "레이쓰",
+        "count": 1,
+        "origin": "레이쓰"
       }
     ]
   },
@@ -5270,35 +3510,18 @@
     "position": "걸칠것",
     "rate": "파랑",
     "monster": "위스퍼",
-    "openPoint": [
-      {
-        "name": "몬스터(염)에 데미지",
-        "number": 2,
-        "unit": "+%",
-        "origin": "몬스터(염)에 데미지 +2%"
-      }
+    "openPoint": "몬스터(염)에 데미지 +2%",
+    "savePoint": "염속성 데미지 -50%",
+    "option": "▶ 받는 염속성 데미지＋50%\n▶ FLEE＋20\n",
+    "optionKeyword": [
+      "FLEE",
+      "염속성"
     ],
-    "savePoint": [
-      {
-        "name": "염속성 데미지",
-        "number": 50,
-        "unit": "-%",
-        "origin": "염속성 데미지 -50%"
-      }
+    "saveKeyword": [
+      "염속성"
     ],
-    "option": [
-      {
-        "name": "받는 염속성 데미지",
-        "number": 50,
-        "unit": "＋%",
-        "origin": "받는 염속성 데미지＋50%"
-      },
-      {
-        "name": "FLEE",
-        "number": 20,
-        "unit": "＋",
-        "origin": "FLEE＋20"
-      }
+    "openKeyword": [
+      "염속성"
     ]
   },
   {
@@ -5307,29 +3530,17 @@
     "position": "액세서리",
     "rate": "파랑",
     "monster": "윈드 고스트",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 21,
-        "unit": "+",
-        "origin": "MaxHP +21"
-      }
+    "openPoint": "MaxHP +21",
+    "savePoint": "MaxHP +70",
+    "option": "▶ 일반공격 시 5% 확률로 【유피텔 썬더】Lv.5스킬 자동 시전\n",
+    "optionKeyword": [
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 70,
-        "unit": "+",
-        "origin": "MaxHP +70"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "일반공격 시 5% 확률로 【유피텔 썬더】Lv.5스킬 자동 시전",
-        "number": "",
-        "unit": "일반공격 시 5% 확률로 【유피텔 썬더】Lv.스킬 자동 시전",
-        "origin": "일반공격 시 5% 확률로 【유피텔 썬더】Lv.5스킬 자동 시전"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -5338,35 +3549,17 @@
     "position": "걸칠것",
     "rate": "파랑",
     "monster": "고급 제작: 윌로우 카드 3개 + 그람 가루 100개",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 60,
-        "unit": "+",
-        "origin": "MaxHP +60"
-      }
+    "openPoint": "MaxHP +60",
+    "savePoint": "MaxHP +72",
+    "option": "▶ MDEF + 10\n▶ MDEF + 5%",
+    "optionKeyword": [
+      "MDEF"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 72,
-        "unit": "+",
-        "origin": "MaxHP +72"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "MDEF",
-        "number": 10,
-        "unit": "+ ",
-        "origin": "MDEF + 10"
-      },
-      {
-        "name": "MDEF",
-        "number": 5,
-        "unit": "+ %",
-        "origin": "MDEF + 5%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -5375,35 +3568,18 @@
     "position": "갑옷",
     "rate": "파랑",
     "monster": "이블 드루이드",
-    "openPoint": [
-      {
-        "name": "DEF",
-        "number": 4,
-        "unit": "+",
-        "origin": "DEF +4"
-      }
+    "openPoint": "DEF +4",
+    "savePoint": "MaxHP +70",
+    "option": "▶ 갑옷 속성을 불사 속성으로 전환\n▶ INT＋4\n",
+    "optionKeyword": [
+      "INT",
+      "불사속성"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 70,
-        "unit": "+",
-        "origin": "MaxHP +70"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "갑옷 속성을 불사 속성으로 전환",
-        "number": "",
-        "unit": "갑옷 속성을 불사 속성으로 전환",
-        "origin": "갑옷 속성을 불사 속성으로 전환"
-      },
-      {
-        "name": "INT",
-        "number": 4,
-        "unit": "＋",
-        "origin": "INT＋4"
-      }
+    "openKeyword": [
+      "DEF"
     ]
   },
   {
@@ -5412,35 +3588,18 @@
     "position": "걸칠것",
     "rate": "파랑",
     "monster": "이클립스",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 84,
-        "unit": "+",
-        "origin": "MaxHP +84"
-      }
+    "openPoint": "MaxHP +84",
+    "savePoint": "MaxHP +84",
+    "option": "▶ VIT＋4\n▶ FLEE＋5\n",
+    "optionKeyword": [
+      "FLEE",
+      "VIT"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 84,
-        "unit": "+",
-        "origin": "MaxHP +84"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "VIT",
-        "number": 4,
-        "unit": "＋",
-        "origin": "VIT＋4"
-      },
-      {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "＋",
-        "origin": "FLEE＋5"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -5449,35 +3608,18 @@
     "position": "투구",
     "rate": "파랑",
     "monster": "인큐버스",
-    "openPoint": [
-      {
-        "name": "SP회복",
-        "number": 1,
-        "unit": "+%",
-        "origin": "SP회복 +1%"
-      }
+    "openPoint": "SP회복 +1%",
+    "savePoint": "MaxHP +70",
+    "option": "▶ MaxSP＋200\n▶ SP 회복＋15%\n",
+    "optionKeyword": [
+      "MaxSP",
+      "SP회복"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 70,
-        "unit": "+",
-        "origin": "MaxHP +70"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "MaxSP",
-        "number": 200,
-        "unit": "＋",
-        "origin": "MaxSP＋200"
-      },
-      {
-        "name": "SP 회복",
-        "number": 15,
-        "unit": "＋%",
-        "origin": "SP 회복＋15%"
-      }
+    "openKeyword": [
+      "SP회복"
     ]
   },
   {
@@ -5486,41 +3628,19 @@
     "position": "걸칠것",
     "rate": "파랑",
     "monster": "잭",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 84,
-        "unit": "+",
-        "origin": "MaxHP +84"
-      }
+    "openPoint": "MaxHP +84",
+    "savePoint": "화속성 데미지 -20%,\n일정 확률로 상대방 및 자신의 레벨차에 따라 HP회복",
+    "option": "▶ 받는 화속성 데미지 -30%\n▶ FLEE +10\n",
+    "optionKeyword": [
+      "FLEE",
+      "화속성"
     ],
-    "savePoint": [
-      {
-        "name": "화속성 데미지",
-        "number": 20,
-        "unit": "-%",
-        "origin": "화속성 데미지 -20%"
-      },
-      {
-        "name": "일정 확률로 상대방 및 자신의 레벨차에 따라 HP회복",
-        "number": "",
-        "unit": "일정 확률로 상대방 및 자신의 레벨차에 따라 HP회복",
-        "origin": "일정 확률로 상대방 및 자신의 레벨차에 따라 HP회복"
-      }
+    "saveKeyword": [
+      "HP회복",
+      "화속성"
     ],
-    "option": [
-      {
-        "name": "받는 화속성 데미지",
-        "number": 30,
-        "unit": "-%",
-        "origin": "받는 화속성 데미지 -30%"
-      },
-      {
-        "name": "FLEE",
-        "number": 10,
-        "unit": "+",
-        "origin": "FLEE +10"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -5529,34 +3649,44 @@
     "position": "액세서리",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "DEX +1",
+    "option": "▶ DEX＋4\n▶ INT＋1\n",
+    "optionKeyword": [
+      "DEX",
+      "INT"
     ],
-    "savePoint": [
-      {
-        "name": "DEX",
-        "number": 1,
-        "unit": "+",
-        "origin": "DEX +1"
-      }
+    "saveKeyword": [
+      "DEX"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "DEX",
-        "number": 4,
-        "unit": "＋",
-        "origin": "DEX＋4"
+        "name": "도깨비",
+        "count": 1,
+        "origin": "도깨비"
       },
       {
-        "name": "INT",
-        "number": 1,
-        "unit": "＋",
-        "origin": "INT＋1"
+        "name": "하이오크",
+        "count": 1,
+        "origin": "하이오크"
+      },
+      {
+        "name": "가이아스",
+        "count": 1,
+        "origin": "가이아스"
+      },
+      {
+        "name": "천하대장군",
+        "count": 1,
+        "origin": "천하대장군"
+      },
+      {
+        "name": "헌터 플라이",
+        "count": 1,
+        "origin": "헌터 플라이"
       }
     ]
   },
@@ -5566,28 +3696,38 @@
     "position": "액세서리",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "곤충형 몬스터 데미지 추가 +1%",
+    "option": "▶ 곤충형 몬스터에 데미지＋10%\n",
+    "optionKeyword": [
+      "곤충형"
     ],
-    "savePoint": [
-      {
-        "name": "곤충형 몬스터 데미지 추가",
-        "number": 1,
-        "unit": "+%",
-        "origin": "곤충형 몬스터 데미지 추가 +1%"
-      }
+    "saveKeyword": [
+      "곤충형"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "곤충형 몬스터에 데미지",
-        "number": 10,
-        "unit": "＋%",
-        "origin": "곤충형 몬스터에 데미지＋10%"
+        "name": "무카",
+        "count": "2",
+        "origin": "무카 2"
+      },
+      {
+        "name": "요요",
+        "count": 1,
+        "origin": "요요"
+      },
+      {
+        "name": "호넷",
+        "count": 1,
+        "origin": "호넷"
+      },
+      {
+        "name": "마타",
+        "count": 1,
+        "origin": "마타"
       }
     ]
   },
@@ -5597,28 +3737,43 @@
     "position": "액세서리",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "몬스터(지)에 데미지 +1%",
+    "option": "▶ 몬스터(지)에 데미지＋15%\n",
+    "optionKeyword": [
+      "지속성"
     ],
-    "savePoint": [
-      {
-        "name": "몬스터(지)에 데미지",
-        "number": 1,
-        "unit": "+%",
-        "origin": "몬스터(지)에 데미지 +1%"
-      }
+    "saveKeyword": [
+      "지속성"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "몬스터(지)에 데미지",
-        "number": 15,
-        "unit": "＋%",
-        "origin": "몬스터(지)에 데미지＋15%"
+        "name": "호롱",
+        "count": 1,
+        "origin": "호롱"
+      },
+      {
+        "name": "구미호",
+        "count": 1,
+        "origin": "구미호"
+      },
+      {
+        "name": "나이트메어",
+        "count": 1,
+        "origin": "나이트메어"
+      },
+      {
+        "name": "만드라고라",
+        "count": 1,
+        "origin": "만드라고라"
+      },
+      {
+        "name": "데비루치",
+        "count": 1,
+        "origin": "데비루치"
       }
     ]
   },
@@ -5628,35 +3783,17 @@
     "position": "보조",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "몬스터(성)에 데미지 +1%",
+    "option": "▶ 받는 성속성 데미지－15%\n▶ 몬스터(성)에 데미지＋5%\n",
+    "optionKeyword": [
+      "성속성"
     ],
-    "savePoint": [
-      {
-        "name": "몬스터(성)에 데미지",
-        "number": 1,
-        "unit": "+%",
-        "origin": "몬스터(성)에 데미지 +1%"
-      }
+    "saveKeyword": [
+      "성속성"
     ],
-    "option": [
-      {
-        "name": "받는 성속성 데미지－",
-        "number": 15,
-        "unit": "%",
-        "origin": "받는 성속성 데미지－15%"
-      },
-      {
-        "name": "몬스터(성)에 데미지",
-        "number": 5,
-        "unit": "＋%",
-        "origin": "몬스터(성)에 데미지＋5%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -5665,35 +3802,18 @@
     "position": "액세서리",
     "rate": "파랑",
     "monster": "코볼트(도끼), 코볼트(해머), 코볼트(모닝스타)",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "STR +1",
+    "option": "▶ STR＋4\n▶ CRI＋10\n",
+    "optionKeyword": [
+      "CRI",
+      "STR"
     ],
-    "savePoint": [
-      {
-        "name": "STR",
-        "number": 1,
-        "unit": "+",
-        "origin": "STR +1"
-      }
+    "saveKeyword": [
+      "STR"
     ],
-    "option": [
-      {
-        "name": "STR",
-        "number": 4,
-        "unit": "＋",
-        "origin": "STR＋4"
-      },
-      {
-        "name": "CRI",
-        "number": 10,
-        "unit": "＋",
-        "origin": "CRI＋10"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -5702,34 +3822,39 @@
     "position": "액세서리",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "AGI +1",
+    "option": "▶ AGI＋3\n▶ LUK＋2\n",
+    "optionKeyword": [
+      "AGI",
+      "LUK"
     ],
-    "savePoint": [
-      {
-        "name": "AGI",
-        "number": 1,
-        "unit": "+",
-        "origin": "AGI +1"
-      }
+    "saveKeyword": [
+      "AGI"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "AGI",
-        "number": 3,
-        "unit": "＋",
-        "origin": "AGI＋3"
+        "name": "도둑벌레",
+        "count": 1,
+        "origin": "도둑벌레"
       },
       {
-        "name": "LUK",
-        "number": 2,
-        "unit": "＋",
-        "origin": "LUK＋2"
+        "name": "수컷 도둑벌레",
+        "count": 1,
+        "origin": "수컷 도둑벌레"
+      },
+      {
+        "name": "헌터 플라이",
+        "count": 1,
+        "origin": "헌터 플라이"
+      },
+      {
+        "name": "암컷 도둑벌레",
+        "count": "2",
+        "origin": "암컷 도둑벌레 2"
       }
     ]
   },
@@ -5739,29 +3864,17 @@
     "position": "액세서리",
     "rate": "파랑",
     "monster": "크리미★",
-    "openPoint": [
-      {
-        "name": "MDEF",
-        "number": 4,
-        "unit": "+",
-        "origin": "MDEF +4"
-      }
+    "openPoint": "MDEF +4",
+    "savePoint": "MaxHP +28",
+    "option": "▶ 스킬 【텔레포테이션】Lv.1 사용 가능\n",
+    "optionKeyword": [
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "스킬 【텔레포테이션】Lv.1 사용 가능",
-        "number": 1,
-        "unit": "스킬 【텔레포테이션】Lv. 사용 가능",
-        "origin": "스킬 【텔레포테이션】Lv.1 사용 가능"
-      }
+    "openKeyword": [
+      "MDEF"
     ]
   },
   {
@@ -5770,34 +3883,44 @@
     "position": "갑옷",
     "rate": "파랑",
     "monster": "타라 프로그",
-    "openPoint": [
-      {
-        "name": "MDEF",
-        "number": 2,
-        "unit": "+",
-        "origin": "MDEF +2"
-      }
+    "openPoint": "MDEF +2",
+    "savePoint": "인간형 몬스터로부터 받는 데미지 감소 +1%,\n몬스터에게 피해 데미지 -20",
+    "option": "▶ 인간형 몬스터 데미지 감소＋30%\n",
+    "optionKeyword": [
+      "인간형"
     ],
-    "savePoint": [
-      {
-        "name": "인간형 몬스터로부터 받는 데미지 감소",
-        "number": 1,
-        "unit": "+%",
-        "origin": "인간형 몬스터로부터 받는 데미지 감소 +1%"
-      },
-      {
-        "name": "몬스터에게 피해 데미지",
-        "number": 20,
-        "unit": "-",
-        "origin": "몬스터에게 피해 데미지 -20"
-      }
+    "saveKeyword": [
+      "인간형"
     ],
-    "option": [
+    "openKeyword": [
+      "MDEF"
+    ]
+  },
+  {
+    "name": "타로우★ 카드",
+    "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfMjg5/MDAxNTI4MDk2MTgyMDU4._Jt5Mp7wAGINjKYDk_XnAO50oUlAla6RIBwaQaSMD7Yg.eSPxn_QkdKPNxGyr8bUBn1N4vuAPwGioQ7lRBieesgEg.PNG.gravity001/K-010.png?type=w740",
+    "position": "액세서리",
+    "rate": "파랑",
+    "monster": "고급 제작: 타로우 카드 3개 + 그람 가루 50개",
+    "openPoint": "DEF +4",
+    "savePoint": "INT + 1, MaxHP +30",
+    "option": "▶ STR +4\n▶ ATK + 15",
+    "optionKeyword": [
+      "ATK",
+      "STR"
+    ],
+    "saveKeyword": [
+      "MaxHP",
+      "INT"
+    ],
+    "openKeyword": [
+      "DEF"
+    ],
+    "ingreCardList": [
       {
-        "name": "인간형 몬스터 데미지 감소",
-        "number": 30,
-        "unit": "＋%",
-        "origin": "인간형 몬스터 데미지 감소＋30%"
+        "name": "타로우",
+        "count": "3",
+        "origin": "타로우 3"
       }
     ]
   },
@@ -5807,35 +3930,18 @@
     "position": "걸칠것",
     "rate": "파랑",
     "monster": "토드",
-    "openPoint": [
-      {
-        "name": "DEF",
-        "number": 4,
-        "unit": "+",
-        "origin": "DEF +4"
-      }
+    "openPoint": "DEF +4",
+    "savePoint": "MaxHP +70",
+    "option": "▶ DEX＋4\n▶ FLEE＋5\n",
+    "optionKeyword": [
+      "DEX",
+      "FLEE"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 70,
-        "unit": "+",
-        "origin": "MaxHP +70"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "DEX",
-        "number": 4,
-        "unit": "＋",
-        "origin": "DEX＋4"
-      },
-      {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "＋",
-        "origin": "FLEE＋5"
-      }
+    "openKeyword": [
+      "DEF"
     ]
   },
   {
@@ -5844,29 +3950,17 @@
     "position": "갑옷",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "수속성 데미지 +1%",
+    "option": "▶ 갑옷 속성을 화속성으로 전환\n",
+    "optionKeyword": [
+      "화속성"
     ],
-    "savePoint": [
-      {
-        "name": "수속성 데미지",
-        "number": 1,
-        "unit": "+%",
-        "origin": "수속성 데미지 +1%"
-      }
+    "saveKeyword": [
+      "수속성"
     ],
-    "option": [
-      {
-        "name": "갑옷 속성을 화속성으로 전환",
-        "number": "",
-        "unit": "갑옷 속성을 화속성으로 전환",
-        "origin": "갑옷 속성을 화속성으로 전환"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -5875,29 +3969,17 @@
     "position": "투구",
     "rate": "파랑",
     "monster": "파이어럿 스켈",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 4,
-        "unit": "+",
-        "origin": "ATK +4"
-      }
+    "openPoint": "ATK +4",
+    "savePoint": "MATK +10",
+    "option": "▶ 스킬 【배쉬】Lv.6 사용 가능\n",
+    "optionKeyword": [
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "MATK",
-        "number": 10,
-        "unit": "+",
-        "origin": "MATK +10"
-      }
+    "saveKeyword": [
+      "MATK"
     ],
-    "option": [
-      {
-        "name": "스킬 【배쉬】Lv.6 사용 가능",
-        "number": 6,
-        "unit": "스킬 【배쉬】Lv. 사용 가능",
-        "origin": "스킬 【배쉬】Lv.6 사용 가능"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -5906,40 +3988,47 @@
     "position": "무기",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "HIT +5",
+    "option": "▶ HIT＋15\n▶ FLEE＋5\n▶ 복사 계열 장착 시 악마형 및 불사 속성에 대한 CRI＋9\n",
+    "optionKeyword": [
+      "CRI",
+      "FLEE",
+      "HIT",
+      "악마형",
+      "불사속성"
     ],
-    "savePoint": [
-      {
-        "name": "HIT",
-        "number": 5,
-        "unit": "+",
-        "origin": "HIT +5"
-      }
+    "saveKeyword": [
+      "HIT"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "HIT",
-        "number": 15,
-        "unit": "＋",
-        "origin": "HIT＋15"
+        "name": "루나틱",
+        "count": 1,
+        "origin": "루나틱"
       },
       {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "＋",
-        "origin": "FLEE＋5"
+        "name": "로다 프로그",
+        "count": 1,
+        "origin": "로다 프로그"
       },
       {
-        "name": "복사 계열 장착 시 악마형 및 불사 속성에 대한 CRI",
-        "number": 9,
-        "unit": "＋",
-        "origin": "복사 계열 장착 시 악마형 및 불사 속성에 대한 CRI＋9"
+        "name": "타로우",
+        "count": 1,
+        "origin": "타로우"
+      },
+      {
+        "name": "만드라고라",
+        "count": 1,
+        "origin": "만드라고라"
+      },
+      {
+        "name": "마린 스피어",
+        "count": 1,
+        "origin": "마린 스피어"
       }
     ]
   },
@@ -5949,29 +4038,17 @@
     "position": "보조",
     "rate": "파랑",
     "monster": "페노메나",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "무형 몬스터 데미지 추가 +1%",
+    "option": "▶ 무형 몬스터 데미지 감소＋10%\n",
+    "optionKeyword": [
+      "무형"
     ],
-    "savePoint": [
-      {
-        "name": "무형 몬스터 데미지 추가",
-        "number": 1,
-        "unit": "+%",
-        "origin": "무형 몬스터 데미지 추가 +1%"
-      }
+    "saveKeyword": [
+      "무형"
     ],
-    "option": [
-      {
-        "name": "무형 몬스터 데미지 감소",
-        "number": 10,
-        "unit": "＋%",
-        "origin": "무형 몬스터 데미지 감소＋10%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -5980,34 +4057,44 @@
     "position": "신발",
     "rate": "파랑",
     "monster": "페러스",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 24,
-        "unit": "+",
-        "origin": "MaxHP +24"
-      }
+    "openPoint": "MaxHP +24",
+    "savePoint": "MaxHP +70",
+    "option": "▶ VIT＋2\n▶ MaxHP＋10%\n",
+    "optionKeyword": [
+      "MaxHP",
+      "VIT"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 70,
-        "unit": "+",
-        "origin": "MaxHP +70"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "VIT",
-        "number": 2,
-        "unit": "＋",
-        "origin": "VIT＋2"
+        "name": "헌터 플라이",
+        "count": 1,
+        "origin": "헌터 플라이"
       },
       {
-        "name": "MaxHP",
-        "number": 10,
-        "unit": "＋%",
-        "origin": "MaxHP＋10%"
+        "name": "엘더 윌로우",
+        "count": 1,
+        "origin": "엘더 윌로우"
+      },
+      {
+        "name": "오크좀비",
+        "count": 1,
+        "origin": "오크좀비"
+      },
+      {
+        "name": "쁘띠",
+        "count": 1,
+        "origin": "쁘띠"
+      },
+      {
+        "name": "크리미",
+        "count": 1,
+        "origin": "크리미"
       }
     ]
   },
@@ -6017,28 +4104,41 @@
     "position": "갑옷",
     "rate": "파랑",
     "monster": "페코페코",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "페코페코 카드 장착 시 라이프 이그니션 효과 강화",
+    "option": "▶ MaxHP＋10%\n",
+    "optionKeyword": [
+      "MaxHP"
     ],
-    "savePoint": [
-      {
-        "name": "페코페코 카드 장착 시 라이프 이그니션 효과 강화",
-        "number": "",
-        "unit": "페코페코 카드 장착 시 라이프 이그니션 효과 강화",
-        "origin": "페코페코 카드 장착 시 라이프 이그니션 효과 강화"
-      }
+    "saveKeyword": [],
+    "openKeyword": [
+      "MaxHP"
     ],
-    "option": [
+    "ingreCardList": [
       {
-        "name": "MaxHP",
-        "number": 10,
-        "unit": "＋%",
-        "origin": "MaxHP＋10%"
+        "name": "타로우",
+        "count": 1,
+        "origin": "타로우"
+      },
+      {
+        "name": "마타",
+        "count": 1,
+        "origin": "마타"
+      },
+      {
+        "name": "백련옥",
+        "count": 1,
+        "origin": "백련옥"
+      },
+      {
+        "name": "세비지",
+        "count": 1,
+        "origin": "세비지"
+      },
+      {
+        "name": "휀",
+        "count": 1,
+        "origin": "휀"
       }
     ]
   },
@@ -6048,34 +4148,23 @@
     "position": "걸칠것",
     "rate": "파랑",
     "monster": "고급 제작: 푸파 카드 3개 + 그람 가루 100개",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 60,
-        "unit": "+",
-        "origin": "MaxHP +60"
-      }
+    "openPoint": "MaxHP +60",
+    "savePoint": "MaxHP +72",
+    "option": "▶ DEF + 15\n▶ DEF + 5%",
+    "optionKeyword": [
+      "DEF"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 72,
-        "unit": "+",
-        "origin": "MaxHP +72"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "DEF",
-        "number": 15,
-        "unit": "+ ",
-        "origin": "DEF + 15"
-      },
-      {
-        "name": "DEF",
-        "number": 5,
-        "unit": "+ %",
-        "origin": "DEF + 5%"
+        "name": "푸파",
+        "count": "3",
+        "origin": "푸파 3"
       }
     ]
   },
@@ -6085,35 +4174,18 @@
     "position": "걸칠것",
     "rate": "파랑",
     "monster": "혜군",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 84,
-        "unit": "+",
-        "origin": "MaxHP +84"
-      }
+    "openPoint": "MaxHP +84",
+    "savePoint": "MaxHP +84",
+    "option": "▶ FLEE +20\n▶ CRI +5\n",
+    "optionKeyword": [
+      "CRI",
+      "FLEE"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 84,
-        "unit": "+",
-        "origin": "MaxHP +84"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "FLEE",
-        "number": 20,
-        "unit": "+",
-        "origin": "FLEE +20"
-      },
-      {
-        "name": "CRI",
-        "number": 5,
-        "unit": "+",
-        "origin": "CRI +5"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -6122,35 +4194,18 @@
     "position": "걸칠것",
     "rate": "파랑",
     "monster": "-",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 28,
-        "unit": "+",
-        "origin": "MaxHP +28"
-      }
+    "openPoint": "MaxHP +28",
+    "savePoint": "FLEE +5",
+    "option": "▶ 받는 지속성 데미지－15%\n▶ FLEE＋5\n",
+    "optionKeyword": [
+      "FLEE",
+      "지속성"
     ],
-    "savePoint": [
-      {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "+",
-        "origin": "FLEE +5"
-      }
+    "saveKeyword": [
+      "FLEE"
     ],
-    "option": [
-      {
-        "name": "받는 지속성 데미지－",
-        "number": 15,
-        "unit": "%",
-        "origin": "받는 지속성 데미지－15%"
-      },
-      {
-        "name": "FLEE",
-        "number": 5,
-        "unit": "＋",
-        "origin": "FLEE＋5"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -6159,29 +4214,17 @@
     "position": "액세서리",
     "rate": "파랑",
     "monster": "휀",
-    "openPoint": [
-      {
-        "name": "MDEF",
-        "number": 4,
-        "unit": "+",
-        "origin": "MDEF +4"
-      }
+    "openPoint": "MDEF +4",
+    "savePoint": "MaxHP +70",
+    "option": "▶ 캐스팅 중단 내성＋20%\n",
+    "optionKeyword": [
+      "캐스팅"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 70,
-        "unit": "+",
-        "origin": "MaxHP +70"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "캐스팅 중단 내성",
-        "number": 20,
-        "unit": "＋%",
-        "origin": "캐스팅 중단 내성＋20%"
-      }
+    "openKeyword": [
+      "MDEF"
     ]
   },
   {
@@ -6190,29 +4233,17 @@
     "position": "무기",
     "rate": "파랑",
     "monster": "히드라★",
-    "openPoint": [
-      {
-        "name": "인간형 몬스터 데미지 추가",
-        "number": 2,
-        "unit": "+%",
-        "origin": "인간형 몬스터 데미지 추가 +2%"
-      }
+    "openPoint": "인간형 몬스터 데미지 추가 +2%",
+    "savePoint": "인간형 몬스터 데미지 추가 +2%",
+    "option": "▶ 인간형 몬스터 데미지 추가＋15%\n",
+    "optionKeyword": [
+      "인간형"
     ],
-    "savePoint": [
-      {
-        "name": "인간형 몬스터 데미지 추가",
-        "number": 2,
-        "unit": "+%",
-        "origin": "인간형 몬스터 데미지 추가 +2%"
-      }
+    "saveKeyword": [
+      "인간형"
     ],
-    "option": [
-      {
-        "name": "인간형 몬스터 데미지 추가",
-        "number": 15,
-        "unit": "＋%",
-        "origin": "인간형 몬스터 데미지 추가＋15%"
-      }
+    "openKeyword": [
+      "인간형"
     ]
   },
   {
@@ -6221,29 +4252,18 @@
     "position": "무기",
     "rate": "보라",
     "monster": "고블린 리더",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 12,
-        "unit": "+",
-        "origin": "ATK +12"
-      }
+    "openPoint": "ATK +12",
+    "savePoint": "자신의 HP 30% 미만일 때, 고블린 리더 카드로 흡혈 효과 발동 시\n50% 확률로 크리티컬 발생",
+    "option": "▶ 근거리 일반공격 시 데미지 5%의 HP 회복\n",
+    "optionKeyword": [
+      "HP회복"
     ],
-    "savePoint": [
-      {
-        "name": "자신의 HP 30% 미만일 때 고블린 리더 카드로 흡혈 효과 발동 시 50% 확률로 크리티컬 발생",
-        "number": "",
-        "unit": "자신의 HP 30% 미만일 때 고블린 리더 카드로 흡혈 효과 발동 시 % 확률로 크리티컬 발생",
-        "origin": "자신의 HP 30% 미만일 때 고블린 리더 카드로 흡혈 효과 발동 시 50% 확률로 크리티컬 발생"
-      }
+    "saveKeyword": [
+      "HP",
+      "흡혈"
     ],
-    "option": [
-      {
-        "name": "근거리 일반공격 시 데미지 5%의 HP 회복",
-        "number": 5,
-        "unit": "근거리 일반공격 시 데미지 %의 HP 회복",
-        "origin": "근거리 일반공격 시 데미지 5%의 HP 회복"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -6252,29 +4272,17 @@
     "position": "신발",
     "rate": "보라",
     "monster": "다크로드",
-    "openPoint": [
-      {
-        "name": "화속성 데미지",
-        "number": 8,
-        "unit": "+%",
-        "origin": "화속성 데미지 +8%"
-      }
+    "openPoint": "화속성 데미지 +8%",
+    "savePoint": "MaxHP +70",
+    "option": "▶ 물리 스킬 공격을 받으면 일정 확률로 10레벨 메테오 스톰 시전\n",
+    "optionKeyword": [
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 70,
-        "unit": "+",
-        "origin": "MaxHP +70"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "물리 스킬 공격을 받으면 일정 확률로 10레벨 메테오 스톰 시전",
-        "number": 10,
-        "unit": "물리 스킬 공격을 받으면 일정 확률로 레벨 메테오 스톰 시전",
-        "origin": "물리 스킬 공격을 받으면 일정 확률로 10레벨 메테오 스톰 시전"
-      }
+    "openKeyword": [
+      "화속성"
     ]
   },
   {
@@ -6283,35 +4291,17 @@
     "position": "걸칠것",
     "rate": "보라",
     "monster": "데빌링",
-    "openPoint": [
-      {
-        "name": "받는 물리 데미지 감소",
-        "number": 2,
-        "unit": "+%",
-        "origin": "받는 물리 데미지 감소 +2%"
-      }
+    "openPoint": "받는 물리 데미지 감소 +2%",
+    "savePoint": "MaxHP +70",
+    "option": "▶ 받는 무속성 데미지－50%\n▶ 받는 기타 모든 속성 데미지＋50%\n",
+    "optionKeyword": [
+      "무속성"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 70,
-        "unit": "+",
-        "origin": "MaxHP +70"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "받는 무속성 데미지－",
-        "number": 50,
-        "unit": "%",
-        "origin": "받는 무속성 데미지－50%"
-      },
-      {
-        "name": "받는 기타 모든 속성 데미지",
-        "number": 50,
-        "unit": "＋%",
-        "origin": "받는 기타 모든 속성 데미지＋50%"
-      }
+    "openKeyword": [
+      "물리데미지"
     ]
   },
   {
@@ -6320,29 +4310,17 @@
     "position": "무기",
     "rate": "보라",
     "monster": "드레이크",
-    "openPoint": [
-      {
-        "name": "물리 데미지 증가",
-        "number": 1,
-        "unit": "+%",
-        "origin": "물리 데미지 증가 +1%"
-      }
+    "openPoint": "물리 데미지 증가 +1%",
+    "savePoint": "물리 데미지 증가 +2%",
+    "option": "▶ 소형, 중형, 몬스터(大)에게 100% 데미지\n",
+    "optionKeyword": [
+      "몬스터(大)"
     ],
-    "savePoint": [
-      {
-        "name": "물리 데미지 증가",
-        "number": 2,
-        "unit": "+%",
-        "origin": "물리 데미지 증가 +2%"
-      }
+    "saveKeyword": [
+      "물리데미지"
     ],
-    "option": [
-      {
-        "name": "소형, 중형, 몬스터(大)에게 100% 데미지",
-        "number": 100,
-        "unit": "소형, 중형, 몬스터(大)에게 % 데미지",
-        "origin": "소형, 중형, 몬스터(大)에게 100% 데미지"
-      }
+    "openKeyword": [
+      "물리데미지"
     ]
   },
   {
@@ -6351,28 +4329,42 @@
     "position": "보조",
     "rate": "보라",
     "monster": "라플레시아",
-    "openPoint": [
-      {
-        "name": "곤충형에 데미지",
-        "number": 1,
-        "unit": "+%",
-        "origin": "곤충형에 데미지 +1%"
-      }
+    "openPoint": "곤충형에 데미지 +1%",
+    "savePoint": "곤충형에 데미지 +5%",
+    "option": "▶ 곤충형에 데미지＋25%\n",
+    "optionKeyword": [
+      "곤충형"
     ],
-    "savePoint": [
-      {
-        "name": "곤충형에 데미지",
-        "number": 5,
-        "unit": "+%",
-        "origin": "곤충형에 데미지 +5%"
-      }
+    "saveKeyword": [
+      "곤충형"
     ],
-    "option": [
+    "openKeyword": [
+      "곤충형"
+    ]
+  },
+  {
+    "name": "루나틱★ 카드",
+    "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA1MjlfMjAy/MDAxNTI3NTcxNjY5NzI0.lG8wMJe-WWio2tePXobm4DQ_uXK8Jc78wwVm_M7hNp0g.SZaulYG8tUVYBAzXwlagkTyUAaxmmTs-mZtUUUfU8wkg.PNG.gravity001/K-015.png?type=w740",
+    "position": "보조",
+    "rate": "보라",
+    "monster": "고급 제작: 루나틱 카드 5장 + 그람 가루 600개",
+    "openPoint": "PVP(GVG) 유저 받는 데미지 -2%",
+    "savePoint": "PVP(GVG) 유저에 대한 데미지 +2%",
+    "option": "▶ CDEF + 30\n",
+    "optionKeyword": [
+      "CDEF"
+    ],
+    "saveKeyword": [
+      "PVP"
+    ],
+    "openKeyword": [
+      "PVP"
+    ],
+    "ingreCardList": [
       {
-        "name": "곤충형에 데미지",
-        "number": 25,
-        "unit": "＋%",
-        "origin": "곤충형에 데미지＋25%"
+        "name": "루나틱",
+        "count": "5",
+        "origin": "루나틱 5"
       }
     ]
   },
@@ -6382,29 +4374,18 @@
     "position": "보조",
     "rate": "보라",
     "monster": "마야",
-    "openPoint": [
-      {
-        "name": "마법 데미지 증가",
-        "number": 2,
-        "unit": "+%",
-        "origin": "마법 데미지 증가 +2%"
-      }
+    "openPoint": "마법 데미지 증가 +2%",
+    "savePoint": "마법 데미지 증가 +3%",
+    "option": "▶ 마법 데미지 20% 반사\n",
+    "optionKeyword": [
+      "마법데미지",
+      "반사"
     ],
-    "savePoint": [
-      {
-        "name": "마법 데미지 증가",
-        "number": 3,
-        "unit": "+%",
-        "origin": "마법 데미지 증가 +3%"
-      }
+    "saveKeyword": [
+      "마법데미지"
     ],
-    "option": [
-      {
-        "name": "마법 데미지 20% 반사",
-        "number": 20,
-        "unit": "마법 데미지 % 반사",
-        "origin": "마법 데미지 20% 반사"
-      }
+    "openKeyword": [
+      "마법데미지"
     ]
   },
   {
@@ -6413,34 +4394,24 @@
     "position": "갑옷",
     "rate": "보라",
     "monster": "고급 제작: 무낙 카드 4장 + 그람 가루 800개",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 112,
-        "unit": "+",
-        "origin": "MaxHP +112"
-      }
+    "openPoint": "MaxHP +112",
+    "savePoint": "ATK + 9\nMATK +9",
+    "option": "▶ DEF 무시 15%\n▶ MDEF 무시 15%",
+    "optionKeyword": [
+      "DEF무시"
     ],
-    "savePoint": [
-      {
-        "name": "ATK + 9 MATK",
-        "number": 9,
-        "unit": "+",
-        "origin": "ATK + 9 MATK +9"
-      }
+    "saveKeyword": [
+      "MATK",
+      "ATK"
     ],
-    "option": [
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "DEF 무시",
-        "number": 15,
-        "unit": "%",
-        "origin": "DEF 무시 15%"
-      },
-      {
-        "name": "MDEF 무시",
-        "number": 15,
-        "unit": "%",
-        "origin": "MDEF 무시 15%"
+        "name": "무낙",
+        "count": "4",
+        "origin": "무낙 4"
       }
     ]
   },
@@ -6450,35 +4421,18 @@
     "position": "투구",
     "rate": "보라",
     "monster": "미스트레스",
-    "openPoint": [
-      {
-        "name": "마법 데미지",
-        "number": 2,
-        "unit": "-%",
-        "origin": "마법 데미지 -2%"
-      }
+    "openPoint": "마법 데미지 -2%",
+    "savePoint": "MATK +12",
+    "option": "▶ 변동 캐스팅 시간－5%\n▶ 젬스톤이 필요한 스킬의 젬스톤 소모량－1\n",
+    "optionKeyword": [
+      "캐스팅",
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "MATK",
-        "number": 12,
-        "unit": "+",
-        "origin": "MATK +12"
-      }
+    "saveKeyword": [
+      "MATK"
     ],
-    "option": [
-      {
-        "name": "변동 캐스팅 시간－",
-        "number": 5,
-        "unit": "%",
-        "origin": "변동 캐스팅 시간－5%"
-      },
-      {
-        "name": "젬스톤이 필요한 스킬의 젬스톤 소모량－",
-        "number": 1,
-        "unit": "",
-        "origin": "젬스톤이 필요한 스킬의 젬스톤 소모량－1"
-      }
+    "openKeyword": [
+      "마법데미지"
     ]
   },
   {
@@ -6487,34 +4441,24 @@
     "position": "무기",
     "rate": "보라",
     "monster": "고급 제작 : 스팅 카드 5장 + 그람 가루 600개",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 12,
-        "unit": "+",
-        "origin": "ATK +12"
-      }
+    "openPoint": "ATK +12",
+    "savePoint": "CRI.D +2%",
+    "option": "▶ DEF + 10%\n▶ MDEF + 10%\n",
+    "optionKeyword": [
+      "MDEF",
+      "DEF"
     ],
-    "savePoint": [
-      {
-        "name": "CRI.D",
-        "number": 2,
-        "unit": "+%",
-        "origin": "CRI.D +2%"
-      }
+    "saveKeyword": [
+      "CRI.D"
     ],
-    "option": [
+    "openKeyword": [
+      "ATK"
+    ],
+    "ingreCardList": [
       {
-        "name": "DEF",
-        "number": 10,
-        "unit": "+ %",
-        "origin": "DEF + 10%"
-      },
-      {
-        "name": "MDEF",
-        "number": 10,
-        "unit": "+ %",
-        "origin": "MDEF + 10%"
+        "name": "스팅",
+        "count": "5",
+        "origin": "스팅 5"
       }
     ]
   },
@@ -6524,29 +4468,17 @@
     "position": "무기",
     "rate": "보라",
     "monster": "심연의 기사",
-    "openPoint": [
-      {
-        "name": "BOSS몬스터에 데미지",
-        "number": 1,
-        "unit": "+%",
-        "origin": "BOSS몬스터에 데미지 +1%"
-      }
+    "openPoint": "BOSS몬스터에 데미지 +1%",
+    "savePoint": "심연의 기사 카드 장착 시 BOSS몬스터에 데미지 +5%(중첩 불가)",
+    "option": "▶ BOSS몬스터에 데미지＋10%\n",
+    "optionKeyword": [
+      "BOSS몬스터"
     ],
-    "savePoint": [
-      {
-        "name": "심연의 기사 카드 장착 시 BOSS몬스터에 데미지 +5%(중첩 불가)",
-        "number": 5,
-        "unit": "심연의 기사 카드 장착 시 BOSS몬스터에 데미지 +%(중첩 불가)",
-        "origin": "심연의 기사 카드 장착 시 BOSS몬스터에 데미지 +5%(중첩 불가)"
-      }
+    "saveKeyword": [
+      "BOSS몬스터"
     ],
-    "option": [
-      {
-        "name": "BOSS몬스터에 데미지",
-        "number": 10,
-        "unit": "＋%",
-        "origin": "BOSS몬스터에 데미지＋10%"
-      }
+    "openKeyword": [
+      "BOSS몬스터"
     ]
   },
   {
@@ -6555,29 +4487,17 @@
     "position": "무기",
     "rate": "보라",
     "monster": "아트로스",
-    "openPoint": [
-      {
-        "name": "ATK",
-        "number": 12,
-        "unit": "+",
-        "origin": "ATK +12"
-      }
+    "openPoint": "ATK +12",
+    "savePoint": "아트로스 카드로 급속 효과 발동 시 ATK +50, 10초 지속",
+    "option": "▶ 일반공격 시 5% 확률로 급속 효과 획득(장비 ASPD＋20%, 10초 지속)\n",
+    "optionKeyword": [
+      "ASPD"
     ],
-    "savePoint": [
-      {
-        "name": "아트로스 카드로 급속 효과 발동 시 ATK +50 10초 지속",
-        "number": "",
-        "unit": "아트로스 카드로 급속 효과 발동 시 ATK +50 초 지속",
-        "origin": "아트로스 카드로 급속 효과 발동 시 ATK +50 10초 지속"
-      }
+    "saveKeyword": [
+      "ATK"
     ],
-    "option": [
-      {
-        "name": "일반공격 시 5% 확률로 급속 효과 획득(장비 ASPD＋20%, 10초 지속)",
-        "number": "",
-        "unit": "일반공격 시 5% 확률로 급속 효과 획득(장비 ASPD＋20%, 초 지속)",
-        "origin": "일반공격 시 5% 확률로 급속 효과 획득(장비 ASPD＋20%, 10초 지속)"
-      }
+    "openKeyword": [
+      "ATK"
     ]
   },
   {
@@ -6586,35 +4506,18 @@
     "position": "신발",
     "rate": "보라",
     "monster": "에드가",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 5,
-        "unit": "+%",
-        "origin": "MaxHP +5%"
-      }
+    "openPoint": "MaxHP +5%",
+    "savePoint": "ATK +12",
+    "option": "▶ MaxHP－20%\n▶ 무한 【인듀어】 상태\n",
+    "optionKeyword": [
+      "스킬",
+      "MaxHP"
     ],
-    "savePoint": [
-      {
-        "name": "ATK",
-        "number": 12,
-        "unit": "+",
-        "origin": "ATK +12"
-      }
+    "saveKeyword": [
+      "ATK"
     ],
-    "option": [
-      {
-        "name": "MaxHP－",
-        "number": 20,
-        "unit": "%",
-        "origin": "MaxHP－20%"
-      },
-      {
-        "name": "무한 【인듀어】 상태",
-        "number": "",
-        "unit": "무한 【인듀어】 상태",
-        "origin": "무한 【인듀어】 상태"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -6623,29 +4526,18 @@
     "position": "액세서리",
     "rate": "보라",
     "monster": "오시리스",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 112,
-        "unit": "+",
-        "origin": "MaxHP +112"
-      }
+    "openPoint": "MaxHP +112",
+    "savePoint": "MaxHP +112",
+    "option": "▶ 부활 시 HP 및 SP 모두 회복\n",
+    "optionKeyword": [
+      "HP",
+      "SP"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 112,
-        "unit": "+",
-        "origin": "MaxHP +112"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
-      {
-        "name": "부활 시 HP 및 SP 모두 회복",
-        "number": "",
-        "unit": "부활 시 HP 및 SP 모두 회복",
-        "origin": "부활 시 HP 및 SP 모두 회복"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -6654,35 +4546,18 @@
     "position": "투구",
     "rate": "보라",
     "monster": "오크히어로",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 10,
-        "unit": "+",
-        "origin": "MaxHP +10"
-      }
+    "openPoint": "MaxHP +10",
+    "savePoint": "BOSS 몬스터 데미지 +5%",
+    "option": "▶ VIT＋5\n▶ 스턴 상태 면제\n",
+    "optionKeyword": [
+      "VIT",
+      "스턴"
     ],
-    "savePoint": [
-      {
-        "name": "BOSS 몬스터 데미지",
-        "number": 5,
-        "unit": "+%",
-        "origin": "BOSS 몬스터 데미지 +5%"
-      }
+    "saveKeyword": [
+      "BOSS몬스터"
     ],
-    "option": [
-      {
-        "name": "VIT",
-        "number": 5,
-        "unit": "＋",
-        "origin": "VIT＋5"
-      },
-      {
-        "name": "스턴 상태 면제",
-        "number": "",
-        "unit": "스턴 상태 면제",
-        "origin": "스턴 상태 면제"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -6691,28 +4566,70 @@
     "position": "신발",
     "rate": "보라",
     "monster": "월야화",
-    "openPoint": [
-      {
-        "name": "DEF",
-        "number": 6,
-        "unit": "+",
-        "origin": "DEF +6"
-      }
+    "openPoint": "DEF +6",
+    "savePoint": "MaxHP +112",
+    "option": "▶ 이동속도 25% 영구 증가\n",
+    "optionKeyword": [
+      "이동속도"
     ],
-    "savePoint": [
-      {
-        "name": "MaxHP",
-        "number": 112,
-        "unit": "+",
-        "origin": "MaxHP +112"
-      }
+    "saveKeyword": [
+      "MaxHP"
     ],
-    "option": [
+    "openKeyword": [
+      "DEF"
+    ]
+  },
+  {
+    "name": "지퍼베어★ 카드",
+    "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA1MjlfMjQw/MDAxNTI3NTcxNjQ5Njgz.iOzsZb4BSZ39MeqDhyuu4JOg_SAQrG8mvZNcj8uk4hQg.C154Zoulm4R31CyUwR9dEH4zNMKMYuBUKyJD--OHejcg.PNG.gravity001/K-013.png?type=w740",
+    "position": "액세서리 카드",
+    "rate": "보라",
+    "monster": "고급 제작: 지퍼베어 카드 5장 + 그람 가루 600개",
+    "openPoint": "MaxHP + 112",
+    "savePoint": "DEF + 1%\nMEDF + 1%",
+    "option": "▶ HIT + 10\n▶ ATK + 3%\n▶ MATK + 3%",
+    "optionKeyword": [
+      "MATK",
+      "ATK",
+      "HIT"
+    ],
+    "saveKeyword": [
+      "DEF"
+    ],
+    "openKeyword": [
+      "MaxHP"
+    ],
+    "ingreCardList": [
       {
-        "name": "이동속도 25% 영구 증가",
-        "number": 25,
-        "unit": "이동속도 % 영구 증가",
-        "origin": "이동속도 25% 영구 증가"
+        "name": "지퍼베어",
+        "count": "5",
+        "origin": "지퍼베어 5"
+      }
+    ]
+  },
+  {
+    "name": "타라 프로그★ 카드",
+    "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA1MjlfNzIg/MDAxNTI3NTcxNjU5Mzky.0DDpU4QKsw-_Wud6vj7roKipkOADXAAWnofJc6O1oiMg.MHaZd0q_hRM3jGaxxyAIywbUG7nFeggUORvVtT33Z9Mg.PNG.gravity001/K-014.png?type=w740",
+    "position": "보조",
+    "rate": "보라",
+    "monster": "고급 제작: 타라 프로그 카드 1장 + 그람 가루 500개",
+    "openPoint": "MATK + 12",
+    "savePoint": "ATK + 12",
+    "option": "▶ 인간형 종족 데미지 증가 3%\n▶ 인간형 종족 데미지 감소 3%\n",
+    "optionKeyword": [
+      "인간형"
+    ],
+    "saveKeyword": [
+      "ATK"
+    ],
+    "openKeyword": [
+      "MATK"
+    ],
+    "ingreCardList": [
+      {
+        "name": "타라 프로그",
+        "count": 1,
+        "origin": "타라 프로그"
       }
     ]
   },
@@ -6722,47 +4639,20 @@
     "position": "신발",
     "rate": "보라",
     "monster": "타임홀더",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 14,
-        "unit": "+",
-        "origin": "MaxHP +14"
-      }
+    "openPoint": "MaxHP +14",
+    "savePoint": "ASPD +5%",
+    "option": "▶ ATK +40\n▶ MaxHP +500\n▶ 장비 ASPD +5%\n▶ HP회복 +2\n",
+    "optionKeyword": [
+      "MaxHP",
+      "HP회복",
+      "ASPD",
+      "ATK"
     ],
-    "savePoint": [
-      {
-        "name": "ASPD",
-        "number": 5,
-        "unit": "+%",
-        "origin": "ASPD +5%"
-      }
+    "saveKeyword": [
+      "ASPD"
     ],
-    "option": [
-      {
-        "name": "ATK",
-        "number": 40,
-        "unit": "+",
-        "origin": "ATK +40"
-      },
-      {
-        "name": "MaxHP",
-        "number": 500,
-        "unit": "+",
-        "origin": "MaxHP +500"
-      },
-      {
-        "name": "장비 ASPD",
-        "number": 5,
-        "unit": "+%",
-        "origin": "장비 ASPD +5%"
-      },
-      {
-        "name": "HP회복",
-        "number": 2,
-        "unit": "+",
-        "origin": "HP회복 +2"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   },
   {
@@ -6771,29 +4661,17 @@
     "position": "무기",
     "rate": "보라",
     "monster": "프리오니",
-    "openPoint": [
-      {
-        "name": "HIT",
-        "number": 10,
-        "unit": "+",
-        "origin": "HIT +10"
-      }
+    "openPoint": "HIT +10",
+    "savePoint": "회피마다 자신의 ATK +10, 최대 10회 중첩 가능, 15초 지속",
+    "option": "▶ HIT＋100\n",
+    "optionKeyword": [
+      "HIT"
     ],
-    "savePoint": [
-      {
-        "name": "회피마다 자신의 ATK +10 최대 10회 중첩 가능 15초 지속",
-        "number": "",
-        "unit": "회피마다 자신의 ATK +10 최대 10회 중첩 가능 초 지속",
-        "origin": "회피마다 자신의 ATK +10 최대 10회 중첩 가능 15초 지속"
-      }
+    "saveKeyword": [
+      "ATK"
     ],
-    "option": [
-      {
-        "name": "HIT",
-        "number": 100,
-        "unit": "＋",
-        "origin": "HIT＋100"
-      }
+    "openKeyword": [
+      "HIT"
     ]
   },
   {
@@ -6802,35 +4680,19 @@
     "position": "보조",
     "rate": "보라",
     "monster": "황금 도둑벌레",
-    "openPoint": [
-      {
-        "name": "MaxHP",
-        "number": 112,
-        "unit": "+",
-        "origin": "MaxHP +112"
-      }
+    "openPoint": "MaxHP +112",
+    "savePoint": "마법 데미지 추가 -5%",
+    "option": "▶ 받는 모든 마법 데미지 -50%\n▶ 스킬 사용 시 SP 소모량 +100%",
+    "optionKeyword": [
+      "SP소모량",
+      "마법데미지",
+      "스킬"
     ],
-    "savePoint": [
-      {
-        "name": "마법 데미지 추가",
-        "number": 5,
-        "unit": "-%",
-        "origin": "마법 데미지 추가 -5%"
-      }
+    "saveKeyword": [
+      "마법데미지"
     ],
-    "option": [
-      {
-        "name": "받는 모든 마법 데미지",
-        "number": 50,
-        "unit": "-%",
-        "origin": "받는 모든 마법 데미지 -50%"
-      },
-      {
-        "name": "스킬 사용 시 SP 소모량",
-        "number": 100,
-        "unit": "+%",
-        "origin": "스킬 사용 시 SP 소모량 +100%"
-      }
+    "openKeyword": [
+      "MaxHP"
     ]
   }
 ]

@@ -211,10 +211,10 @@ export default {
       return {...trObj, optionKeyword, saveKeyword, openKeyword}
     })
     .sort((obj1,obj2)=>{
-      return obj1.name < obj2.name ? 1 : -1
-    })
-    .sort((obj1,obj2)=>{
       const sortStandard = {'일반':1, '녹색':2, '파랑':3, '보라':4}
+      if(sortStandard[obj1.rate] == sortStandard[obj2.rate]){
+        return obj1.name < obj2.name ? -1 : 1
+      }
       return sortStandard[obj1.rate] > sortStandard[obj2.rate] ? 1 : -1
     })
 
