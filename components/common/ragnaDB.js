@@ -1129,6 +1129,8 @@ const itemImages = {
 }
 
 const cardImages = {
+  '엔젤링카드': require('../../assets/images/card/엔젤링카드.png'),
+  '디타르데우르스카드': require('../../assets/images/card/디타르데우르스카드.png'),
   'XMAS쿠키카드': require('../../assets/images/card/XMAS쿠키카드.png'),
   '미스트케이스카드': require('../../assets/images/card/미스트케이스카드.png'),
   '오크히어로카드': require('../../assets/images/card/오크히어로카드.png'),
