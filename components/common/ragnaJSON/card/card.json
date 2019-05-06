@@ -875,6 +875,7 @@
   },
   {
     "name": "구미호★ 카드",
+    "imageName": "구미호 카드",
     "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfNDUg/MDAxNTI4MDk2NjY3MTIx.gJCdf88Q2ZF3SyfJ_OU-iRx5HWbdwBTTOAsdyici904g.KbvIarj6Nn8W27DTKTdSDMFMrDTWhHgetKJ7_Iz7Wiwg.PNG.gravity001/K-006.png?type=w740",
     "position": "신발",
     "rate": "녹색",
@@ -1178,6 +1179,7 @@
   },
   {
     "name": "미이라★ 카드",
+    "imageName": "미이라 카드",
     "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfOSAg/MDAxNTI4MDk2NzcyNzE3.GXbHFHFkUMwtRIUfFxCoUwKb9X58SwdtY9VxZs8zbbEg.dx0Jq1Y2f7SZoloquoNkZgRFBcoJy-eM3CJIu6IvTcwg.PNG.gravity001/K-007.png?type=w740",
     "position": "투구",
     "rate": "녹색",
@@ -1579,6 +1581,7 @@
   },
   {
     "name": "와일드 로즈★ 카드",
+    "imageName": "와일드 로즈 카드",
     "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfMjQg/MDAxNTI4MDk2ODQ4NDM1.tBt4LPPkBY1M-NzZvo0uOaXvoDoFXDEXf7AOW7r_WzAg.AXqVeJDtv8X4IKYTs0cmU1H-08iTyM_NtxDG1x1TsYQg.PNG.gravity001/K-013.png?type=w740",
     "position": "걸칠것",
     "rate": "녹색",
@@ -2178,6 +2181,7 @@
   },
   {
     "name": "도나★ 카드",
+    "imageName": "도나 카드",
     "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfNDcg/MDAxNTI4MDk1OTA5NDE4.DlSNcSNrE6rD5rTsByBX6DztJ4oCS-smjKg_FXvH-VAg.OYdF9gZuEFktZV6oYuHOvrLESiVwmyoLtf1moxb4vnEg.PNG.gravity001/K-008.png?type=w740",
     "position": "신발",
     "rate": "파랑",
@@ -2285,6 +2289,7 @@
   },
   {
     "name": "로커★ 카드",
+    "imageName": "로커 카드",
     "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfMjQy/MDAxNTI4MDk2Mzg0MjYw.99qxsJSuU4XzQ4hh5vz-cfPNUhlZZQ2D0cAskP56J9Mg.wx2WMqZad1c_3w-IYKmDBKGcUIf5zGyml0UXZMuf3J0g.PNG.gravity001/K-012.png?type=w740",
     "position": "투구",
     "rate": "파랑",
@@ -3304,6 +3309,7 @@
   },
   {
     "name": "아쳐 스켈레톤★ 카드",
+    "imageName": "아쳐 스켈레톤 카드",
     "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfMjc5/MDAxNTI4MDk2Mjg1MjQ0.cQlB7VSrmj4_YGvTR4nOVq3rUSva04ZM4vPBYHa95ysg._gkyt0n96knsXV035yh9aGe-sscD_MPguFhDeZBAev0g.PNG.gravity001/K-011.png?type=w740",
     "position": "갑옷",
     "rate": "파랑",
@@ -3371,6 +3377,7 @@
   },
   {
     "name": "엘더 윌로우★ 카드",
+    "imageName": "엘더 윌로우 카드",
     "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfMTQy/MDAxNTI4MDk1OTI2MjA3.tSqLWC4N7cJGLnMK1u4rPdJDRHf6vWlnK04KNZdAqWgg.y3FQPoUxxyNRMfn1ibsIC4Y_3kaoz-XQtEVKe34UPQ0g.PNG.gravity001/K-009.png?type=w740",
     "position": "액세서리",
     "rate": "파랑",
@@ -3545,6 +3552,7 @@
   },
   {
     "name": "윌로우★ 카드",
+    "imageName": "윌로우 카드",
     "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfMjYw/MDAxNTI4MDk1NzczMjU4.m3COY94JAKHlA7z3WOHCjtToGTk-LJwCuID8XBonpOMg.Mj9mZRR3hoVXqrDLKFqY8UOcC4bGbRH-e8wzkZDq-r4g.PNG.gravity001/K-007.png?type=w740",
     "position": "걸칠것",
     "rate": "파랑",
@@ -3898,6 +3906,7 @@
   },
   {
     "name": "타로우★ 카드",
+    "imageName": "타로우 카드",
     "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfMjg5/MDAxNTI4MDk2MTgyMDU4._Jt5Mp7wAGINjKYDk_XnAO50oUlAla6RIBwaQaSMD7Yg.eSPxn_QkdKPNxGyr8bUBn1N4vuAPwGioQ7lRBieesgEg.PNG.gravity001/K-010.png?type=w740",
     "position": "액세서리",
     "rate": "파랑",
@@ -4144,6 +4153,7 @@
   },
   {
     "name": "푸파★ 카드",
+    "imageName": "푸파 카드",
     "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA2MDRfMTg2/MDAxNTI4MTAxMjMwOTUx.bXVmnvzBzULr2WA-VXGOpdI20GSrqvB-qYkhVwpVlI4g.nStiNYHEP6oryi4bNszQcAlEKt3s2XmUQQfL2SzrEZog.PNG.gravity001/K-006.png?type=w740",
     "position": "걸칠것",
     "rate": "파랑",
@@ -4365,6 +4375,7 @@
   },
   {
     "name": "루나틱★ 카드",
+    "imageName": "루나틱 카드",
     "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA1MjlfMjAy/MDAxNTI3NTcxNjY5NzI0.lG8wMJe-WWio2tePXobm4DQ_uXK8Jc78wwVm_M7hNp0g.SZaulYG8tUVYBAzXwlagkTyUAaxmmTs-mZtUUUfU8wkg.PNG.gravity001/K-015.png?type=w740",
     "position": "보조",
     "rate": "보라",
@@ -4411,6 +4422,7 @@
   },
   {
     "name": "무낙★ 카드",
+    "imageName": "무낙 카드",
     "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA1MjlfMTM3/MDAxNTI3NTcxNjQwMjgy.9BFPUGoH4VZJNd_CRmYIRwvmzIuBWaKzqpisZgoWrpYg.cRp3Yzd8rCy2tExwevasNj3V1CyAcygwzLaf8ZqWT8og.PNG.gravity001/K-012.png?type=w740",
     "position": "갑옷",
     "rate": "보라",
@@ -4458,6 +4470,7 @@
   },
   {
     "name": "스팅★ 카드",
+    "imageName": "스팅 카드",
     "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA1MjlfMjIz/MDAxNTI3NTcxNjI0Mzk5.QYs_wq91TWgjGE8v_TiSdGjK8xskfm3-Ddr7V4eJjUYg.m3yW8EGyHz0JZDCSsMUkht6SJmhnDj0bDf7cKnbbPY4g.PNG.gravity001/K-011.png?type=w740",
     "position": "무기",
     "rate": "보라",
@@ -4622,6 +4635,7 @@
   },
   {
     "name": "지퍼베어★ 카드",
+    "imageName": "지퍼베어 카드",
     "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA1MjlfMjQw/MDAxNTI3NTcxNjQ5Njgz.iOzsZb4BSZ39MeqDhyuu4JOg_SAQrG8mvZNcj8uk4hQg.C154Zoulm4R31CyUwR9dEH4zNMKMYuBUKyJD--OHejcg.PNG.gravity001/K-013.png?type=w740",
     "position": "액세서리 카드",
     "rate": "보라",
@@ -4650,6 +4664,7 @@
   },
   {
     "name": "타라 프로그★ 카드",
+    "imageName": "타라 프로그 카드",
     "imageSrc": "https://cafeptthumb-phinf.pstatic.net/MjAxODA1MjlfNzIg/MDAxNTI3NTcxNjU5Mzky.0DDpU4QKsw-_Wud6vj7roKipkOADXAAWnofJc6O1oiMg.MHaZd0q_hRM3jGaxxyAIywbUG7nFeggUORvVtT33Z9Mg.PNG.gravity001/K-014.png?type=w740",
     "position": "보조",
     "rate": "보라",
