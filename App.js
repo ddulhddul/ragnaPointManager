@@ -4,7 +4,7 @@ import { AppLoading, Asset, Font, Icon } from 'expo';
 import AppNavigator from './navigation/AppNavigator';
 import SqlUtil from './components/common/SqlUtil';
 import Private from './components/common/Private';
-import { AdMobBanner } from 'expo'
+import { AdMobBanner, Constants } from 'expo'
 
 
 export default class App extends SqlUtil {
@@ -29,7 +29,7 @@ export default class App extends SqlUtil {
       return (
         <View style={styles.container}>
           {Platform.OS === 'ios' && <StatusBar barStyle="default" />}
-            <View style={{height: 30}}>
+            <View style={{height: Constants.statusBarHeight + 5}}>
               {/* <AdMobBanner
                 bannerSize="banner"
                 adUnitID={Private.admobId}
