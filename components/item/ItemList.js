@@ -142,7 +142,7 @@ class ItemList extends SqlUtil {
     }
 
     render() {
-        const { itemImages } = this.props
+        const { foldTf, itemImages } = this.props
         const { scrolling, saveFilter, openFilter, sort, searchEnabled, searchValue } = this.state
         const optionKeywordList = this.state.optionKeywordList || []
         const saveKeywordList = this.state.saveKeywordList || []
@@ -201,95 +201,100 @@ class ItemList extends SqlUtil {
             <View style={styles.container}>
                 {(!this.isReady)? <Loading />:null}
                 
-                <View style={styles.filterContainer}>
-                    <View style={[styles.filterStyle, {backgroundColor: Util.green}]}>
-                        <TouchableOpacity onPress={()=>{this.setState({optionFilter: []})}}>
-                            <Text style={[styles.filterTextStyle]}>옵션 Reset</Text>
-                        </TouchableOpacity>
-                    </View>
-                    <ScrollView horizontal={true} style={{marginLeft: 5}}>
-                    {
-                        optionKeywordList.map((obj)=>{
-                            return <View  key={`keyword_${obj}`}
-                                        style={[styles.filterStyle, 
-                                            optionFilter.includes(obj)? {backgroundColor: Util.filterSelected}: {}
-                                        ]}>
-                                <TouchableOpacity onPress={()=>{
-                                    this.setState({
-                                        optionFilter: !optionFilter.includes(obj)? [...optionFilter, obj]:
-                                                    optionFilter.filter((filtered)=>filtered!=obj)
-                                    })
-                                }}>
-                                    <Text style={styles.filterTextStyle}>{obj}</Text>
+                {
+                    foldTf? null:
+                    <View>
+                        <View style={styles.filterContainer}>
+                            <View style={[styles.filterStyle, {backgroundColor: Util.green}]}>
+                                <TouchableOpacity onPress={()=>{this.setState({optionFilter: []})}}>
+                                    <Text style={[styles.filterTextStyle]}>옵션 Reset</Text>
                                 </TouchableOpacity>
                             </View>
-                        })
-                    }
-                    </ScrollView>
-                </View>
+                            <ScrollView horizontal={true} style={{marginLeft: 5}}>
+                            {
+                                optionKeywordList.map((obj)=>{
+                                    return <View  key={`keyword_${obj}`}
+                                                style={[styles.filterStyle, 
+                                                    optionFilter.includes(obj)? {backgroundColor: Util.filterSelected}: {}
+                                                ]}>
+                                        <TouchableOpacity onPress={()=>{
+                                            this.setState({
+                                                optionFilter: !optionFilter.includes(obj)? [...optionFilter, obj]:
+                                                            optionFilter.filter((filtered)=>filtered!=obj)
+                                            })
+                                        }}>
+                                            <Text style={styles.filterTextStyle}>{obj}</Text>
+                                        </TouchableOpacity>
+                                    </View>
+                                })
+                            }
+                            </ScrollView>
+                        </View>
 
-                <View style={styles.filterContainer}>
-                    <View style={[styles.filterStyle, {backgroundColor: Util.green}]}>
-                        <TouchableOpacity onPress={()=>{this.setState({filter: []})}}>
-                            <Text style={[styles.filterTextStyle]}>저장 Reset</Text>
-                        </TouchableOpacity>
-                    </View>
-                    <ScrollView horizontal={true} style={{marginLeft: 5}}>
-                    {
-                        saveKeywordList.map((obj)=>{
-                            return <View  key={`keyword_${obj}`}
-                                        style={[styles.filterStyle, 
-                                            filter.includes(obj)? {backgroundColor: Util.filterSelected}: {}
-                                        ]}>
-                                <TouchableOpacity onPress={()=>{
-                                    this.setState({
-                                        filter: !filter.includes(obj)? [...filter, obj]:
-                                                    filter.filter((filtered)=>filtered!=obj)
-                                    })
-                                }}>
-                                    <Text style={styles.filterTextStyle}>{obj}</Text>
+                        <View style={styles.filterContainer}>
+                            <View style={[styles.filterStyle, {backgroundColor: Util.green}]}>
+                                <TouchableOpacity onPress={()=>{this.setState({filter: []})}}>
+                                    <Text style={[styles.filterTextStyle]}>저장 Reset</Text>
                                 </TouchableOpacity>
                             </View>
-                        })
-                    }
-                    </ScrollView>
-                </View>
+                            <ScrollView horizontal={true} style={{marginLeft: 5}}>
+                            {
+                                saveKeywordList.map((obj)=>{
+                                    return <View  key={`keyword_${obj}`}
+                                                style={[styles.filterStyle, 
+                                                    filter.includes(obj)? {backgroundColor: Util.filterSelected}: {}
+                                                ]}>
+                                        <TouchableOpacity onPress={()=>{
+                                            this.setState({
+                                                filter: !filter.includes(obj)? [...filter, obj]:
+                                                            filter.filter((filtered)=>filtered!=obj)
+                                            })
+                                        }}>
+                                            <Text style={styles.filterTextStyle}>{obj}</Text>
+                                        </TouchableOpacity>
+                                    </View>
+                                })
+                            }
+                            </ScrollView>
+                        </View>
 
-                <View style={[styles.searchContainer]}>
-                    {/* <View style={[styles.trContainer]}>
-                        <Picker
-                            selectedValue={sort}
-                            mode="dropdown"
-                            style={{width: '100%', maxWidth: 200}}
-                            onValueChange={(itemValue, itemIndex) =>
-                                this.setState({sort: itemValue})}>
-                            <Picker.Item label="이름순" value="name_asc" />
-                            <Picker.Item label="낮은가격순" value="price_asc" />
-                            <Picker.Item label="높은가격순" value="price_desc" />
-                        </Picker>
-                    </View> */}
-                    <View style={[styles.trContainer, {marginLeft: 10, justifyContent: 'flex-end'}]}>
-                        <CheckBox value={saveFilter} onValueChange={()=>
-                            {this.setState({saveFilter: !saveFilter})}} />
-                        <TouchableOpacity onPress={()=>
-                            {this.setState({saveFilter: !saveFilter})}}>
-                            <Text style={[styles.thTextStyle, {color: saveColor}]}>저장필요</Text>
-                        </TouchableOpacity>
-                        <CheckBox value={openFilter} onValueChange={()=>
-                            {this.setState({openFilter: !openFilter})}} />
-                        <TouchableOpacity onPress={()=>
-                            {this.setState({openFilter: !openFilter})}}>
-                            <Text style={[styles.thTextStyle, {color: openColor}]}>해제필요</Text>
-                        </TouchableOpacity>
-                        <View style={[{marginLeft: 10, marginRight: 5, padding: 5}, 
-                            searchEnabled? {backgroundColor: Util.filterSelected, borderRadius: 10}: null]}>
-                            <TouchableOpacity onPress={()=>{this.setState({searchEnabled: !searchEnabled})}}>
-                                <Icon.Ionicons name="md-search" size={20}
-                                    color={searchEnabled?"white":"black"} />
-                            </TouchableOpacity>
+                        <View style={[styles.searchContainer]}>
+                            {/* <View style={[styles.trContainer]}>
+                                <Picker
+                                    selectedValue={sort}
+                                    mode="dropdown"
+                                    style={{width: '100%', maxWidth: 200}}
+                                    onValueChange={(itemValue, itemIndex) =>
+                                        this.setState({sort: itemValue})}>
+                                    <Picker.Item label="이름순" value="name_asc" />
+                                    <Picker.Item label="낮은가격순" value="price_asc" />
+                                    <Picker.Item label="높은가격순" value="price_desc" />
+                                </Picker>
+                            </View> */}
+                            <View style={[styles.trContainer, {marginLeft: 10, justifyContent: 'flex-end'}]}>
+                                <CheckBox value={saveFilter} onValueChange={()=>
+                                    {this.setState({saveFilter: !saveFilter})}} />
+                                <TouchableOpacity onPress={()=>
+                                    {this.setState({saveFilter: !saveFilter})}}>
+                                    <Text style={[styles.thTextStyle, {color: saveColor}]}>저장필요</Text>
+                                </TouchableOpacity>
+                                <CheckBox value={openFilter} onValueChange={()=>
+                                    {this.setState({openFilter: !openFilter})}} />
+                                <TouchableOpacity onPress={()=>
+                                    {this.setState({openFilter: !openFilter})}}>
+                                    <Text style={[styles.thTextStyle, {color: openColor}]}>해제필요</Text>
+                                </TouchableOpacity>
+                                <View style={[{marginLeft: 10, marginRight: 5, padding: 5}, 
+                                    searchEnabled? {backgroundColor: Util.filterSelected, borderRadius: 10}: null]}>
+                                    <TouchableOpacity onPress={()=>{this.setState({searchEnabled: !searchEnabled})}}>
+                                        <Icon.Ionicons name="md-search" size={20}
+                                            color={searchEnabled?"white":"black"} />
+                                    </TouchableOpacity>
+                                </View>
+                            </View>
                         </View>
                     </View>
-                </View>
+                }
 
                 {
                     !searchEnabled? null:

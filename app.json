@@ -10,9 +10,9 @@
     "android": {
       "package": "com.ddulh.ragnaPointManager",
       "permissions": [],
-      "versionCode": 20
+      "versionCode": 21
     },
-    "version": "1.0.6",
+    "version": "1.0.7",
     "orientation": "portrait",
     "icon": "./assets/images/512X512.png",
     "splash": {

@@ -3,7 +3,7 @@ import {
   StyleSheet, View, WebView,
   TouchableOpacity
 } from 'react-native'
-import { Icon } from 'expo'
+import { Icon, Constants } from 'expo'
 import Util from '../components/common/Util'
 
 export default class WebScreen extends Component {
@@ -21,6 +21,8 @@ export default class WebScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <View style={{height: Constants.statusBarHeight + 5}}>
+        </View>
         <WebView
           source={{uri: this.state.url}}
           ref={c => this._webview = c}
